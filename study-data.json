@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "exam": {
+    "title": "TGPSC HMWSSB Manager (Engineering)",
+    "notification": "04/OG/HM/2026",
+    "notificationDate": "2026-09-18",
+    "papers": [
+      {"id":"paper1","name":"General Studies and General Abilities","questions":150,"minutes":150,"marks":150,"language":"English and Telugu"},
+      {"id":"paper2","name":"Computer Science / Information Technology","questions":150,"minutes":150,"marks":300,"language":"English"}
+    ],
+    "totalMarks": 450,
+    "examDate": {"confirmed":null,"planningWindow":"2026-12-08 to 2026-12-14","status":"Tentative planning assumption requested by user; not a confirmed exam date"}
+  },
+  "learnerProfile": {
+    "degree":"BTech Computer Science and Engineering",
+    "graduationPeriod":"2014–2018",
+    "weekdayStudyHours":2,
+    "weekends":"Available",
+    "weekdayHomeTime":"Around 8 PM",
+    "audioPreference":"Simple English, Indian English, natural spoken teaching, revision plus MCQs, long non-repeating lessons",
+    "practicePreference":"One question per screen; 5 Paper II questions first and 5 Paper I questions; hide answers until submission; explain correct answer and all distractors after submission",
+    "rules":["Do not repeat questions except deliberate revision","Do not infer completion from exposure alone","Separate verified scores from uncertain history","Recalculate scores from answer records where available"]
+  },
+  "syllabus": {
+    "paper2":["Probability and Statistics","Set Theory, Algebra and Linear Algebra","Discrete Mathematics and Graph Theory","Digital Logic","Computer Organization and Architecture","C Programming and Data Structures","Algorithms","Theory of Computation","Compiler Design","Operating Systems","Database Management Systems","Information Systems and Software Engineering","Computer Networks","Web Technologies","Object-Oriented Programming, C++ and Java","Data Mining"],
+    "paper1":["Current Affairs — Regional, National and International","International Relations and Events","General Science and India's Achievements in Science and Technology","Environmental Issues and Disaster Management","Economic and Social Development of India and Telangana","Physical, Social and Economic Geography of India","Physical, Social and Economic Geography and Demography of Telangana","Socio-economic, Political and Cultural History of Modern India, with emphasis on the National Movement","Socio-economic, Political and Cultural History of Telangana, with emphasis on the Statehood Movement","Indian Constitution, Political System, Governance and Public Policy"],
+    "verification":"Working syllabus map from prior user notes and accessible notification summaries. Full official 2026 notification PDF still needs line-by-line verification before declaring exhaustive."
+  },
+  "verifiedQuizRecords": [
+    {"topic":"Trees","score":8,"total":10,"note":"Missed postorder and BST inorder."},
+    {"topic":"Linked Lists","score":6,"total":8,"note":"Pointer tracing needs revision."},
+    {"topic":"DBMS Normalization","score":3,"total":5,"note":"Dependencies and 3NF need revision."},
+    {"topic":"Computer Networks","score":8,"total":10},
+    {"topic":"Digital Logic","score":4,"total":10,"note":"Binary/hex conversion, XOR, De Morgan laws and MUX need revision."},
+    {"topic":"DBMS Concurrency","score":2,"total":2,"note":"Two-question practice/correction."},
+    {"topic":"Mixed diagnostic (2026-10-17)","score":2,"total":10,"note":"Weak areas: CPU scheduling, binary search/recurrences, page replacement, SQL HAVING/ACID, OSI/DNS and graph degree sum."},
+    {"topic":"Sets 47–58 combined","score":77,"total":120,"note":"Previously calculated cumulative summary; not suitable for per-topic scoring."},
+    {"topic":"Set 57","score":5,"total":10,"note":"Paper II 3/5; Paper I 2/5."},
+    {"topic":"Set 58","score":6,"total":10,"note":"Paper II 2/5; Paper I 4/5."}
+  ],
+  "topicStatus": {
+    "paper2": {
+      "Learning or revision needed":["C Programming and Data Structures","Algorithms","Operating Systems","Database Management Systems","Computer Networks","Discrete Mathematics and Graph Theory"],
+      "Revision needed":["Digital Logic","Probability and Statistics"],
+      "Partial or status uncertain":["Computer Organization and Architecture","Theory of Computation","Compiler Design"],
+      "Not systematically covered or verify":["Set Theory, Algebra and Linear Algebra","Information Systems and Software Engineering","Web Technologies","OOP, C++ and Java","Data Mining"]
+    },
+    "paper1": {
+      "Introductory or partial":["Indian History and National Movement","Telangana History and Statehood Movement"],
+      "Practised; revision needed":["Indian Constitution and Polity"],
+      "Not systematically covered or verify":["Remaining Paper I areas"]
+    }
+  },
+  "unverifiedHistory": {
+    "answerSequences":["BBCBB CBCBB","CBBCD CBCDB","BCCBC CBCCB","CDCBB BCBBA","BCCDB BAAAB"],
+    "note":"Later quiz strings lack reliable set numbers and question mapping. Preserve as ungraded history; exclude from performance totals. Sets 1–46 also lack a reliable consolidated score."
+  },
+  "studyPlan": {
+    "weekdayHours":2,
+    "weekdayStructure":["Paper II concepts and examples — 60 minutes","Paper II MCQs and review — 30 minutes","Paper I — 30 minutes"],
+    "weekendFocus":["Finish syllabus blocks","Mixed timed practice","Review incorrect questions","Weekly progress audit"],
+    "phases":[
+      {"name":"Syllabus consolidation","until":"2026-11-30","goal":"Cover remaining priority topics and repair weak foundations; require a test before marking topics complete."},
+      {"name":"Revision and mock phase","from":"2026-12-01","until":"Exam date to be announced","goal":"Timed paper-wise mocks, error-log revision and final recall."}
+    ]
+  }
+}
