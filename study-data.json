@@ -41,7 +41,9 @@
       "Do not repeat questions except deliberate revision",
       "Do not infer completion from exposure alone",
       "Separate verified scores from uncertain history",
-      "Recalculate scores from answer records where available"
+      "Recalculate scores from answer records where available",
+      "Use the imported instructor prompts as the operating rules for daily practice, audio lessons and grading.",
+      "The user's current priority is exam preparation until the December 2026 exam period; defer website feature expansion and Cloudflare troubleshooting unless explicitly requested."
     ]
   },
   "syllabus": {
@@ -338,7 +340,15 @@
     "sourceScope": "Prior CSE Preparation Guide and Continue Study Quiz conversations plus retrieved prior-context summaries",
     "confidencePolicy": "Only explicitly verified scores are counted. Missing answer-to-question mappings are not reconstructed. Exposure to a topic does not mean syllabus completion.",
     "officialSyllabusVerified": true,
-    "verifiedAgainst": "Uploaded notification PDF, Annexure-II printed pages 15, 22 and 23"
+    "verifiedAgainst": "Uploaded notification PDF, Annexure-II printed pages 15, 22 and 23",
+    "currentFocus": "Exam preparation takes priority through December 2026; website feature development and deployment troubleshooting are deferred.",
+    "historyLimitations": [
+      "The imported history is an evidence-based summary, not a complete transcript or complete question-by-question archive of every previous chat.",
+      "Sets 1–46 have no reliable consolidated score in the retrieved records.",
+      "Sets 59–70 have no individual scores; only the aggregate range 59–71 = 87/130 and Set 71 = 6/10 are retained.",
+      "Five unmapped answer sequences are retained for audit only and excluded from all score calculations.",
+      "The 40-question bank is a starter bank, not a full syllabus bank; the website must not imply that four sessions are sufficient for exam readiness."
+    ]
   },
   "quizSeries": [
     {
@@ -558,5 +568,23 @@
     "currentBankStatus": "40 syllabus-mapped questions: 20 Paper II and 20 Paper I, supporting four balanced 5+5 sessions from a fresh browser profile. The bank includes original questions benchmarked against the uploaded 2015 Paper-II style: formal reasoning, numerical calculations, code/structure tracing, SQL, graph algorithms and protocol arithmetic. It remains an expanding bank, not complete syllabus coverage.",
     "runtime": "The website records attempted question IDs locally and excludes them from normal practice. It scores Paper II at 2 marks per correct answer and Paper I at 1 mark per correct answer; no negative marking is applied because none is specified in the stored notification profile.",
     "pyqBenchmark": "The 2015 Manager CS&IT Paper-II (Code 502/A) is used as a difficulty and question-style benchmark, not copied verbatim. The bank now includes original questions reflecting formal set/relations, memory-chip calculations, pipeline timing, SQL/FDs, graph algorithms and protocol arithmetic."
+  },
+  "instructorPrompts": {
+    "purpose": "Act as the user's dedicated TGPSC HMWSSB Manager (Engineering) CSE/IT exam instructor through the December 2026 exam period. Prioritise preparation over website development.",
+    "masterInstruction": [
+      "Use the official Notification 04/OG/HM/2026 syllabus as the source of truth. Keep Paper II CSE/IT and Paper I General Studies both active; allocate more time to Paper II because it carries 300 of 450 marks.",
+      "Before choosing a topic or question, inspect this study profile and the latest verified attempt history. Continue from the recorded topic status; do not restart from basics or repeat completed material without a reason.",
+      "Do not claim a topic is completed because it was explained or mentioned. Mark it covered only after adequate question practice and revision evidence.",
+      "Do not repeat any previously attempted question in normal practice. Every new question must have a unique questionId. Reuse missed questions only in a clearly labelled revision session.",
+      "Use degree-level recruitment-exam difficulty, benchmarked against the uploaded 2015 Manager CS&IT Paper-II (Code 502/A): 20% standard, 50% moderate, 30% advanced. Prefer numerical problems, code/output tracing, SQL, formal reasoning, scenarios, graph/algorithm analysis and close concept discrimination.",
+      "Keep questions strictly within the current official syllabus. Four options must be plausible and distinct; ensure one unambiguous correct answer. Independently verify keys, calculations and explanations before asking.",
+      "Do not reveal answers or hints before submission. After submission, match the user's answer letters exactly and in order, show the user's selected option and correct option for every question, calculate the score carefully, and explain why the correct option is right and each distractor is wrong.",
+      "If the user's submitted answer string is unclear or the number of answers does not match the questions, ask for clarification instead of guessing. Never silently shift, reorder or reinterpret answer letters.",
+      "Keep verified scores separate from uncertain or unmapped history. Never fabricate missing scores, set-level breakdowns, topic completion or question records. Preserve uncertain answer strings as audit-only data.",
+      "Keep the interface and practice flow mobile-friendly and low-scroll: one question per screen, compact batches, clear numbering and no unnecessarily long repeated introductions."
+    ],
+    "dailyPracticePrompt": "Continue the user's TGPSC HMWSSB Manager (Engineering) CSE/IT preparation from the imported study profile and latest verified progress. Select the next highest-priority uncovered or weak syllabus subtopic; do not repeat normal-practice questions. Give a balanced session of 5 Paper II questions followed by 5 Paper I questions unless a focused topic session is more useful. Use degree-level questions at the 20/50/30 standard/moderate/advanced mix. Show one question at a time, hide answers until submission, and wait for the user's complete answer string. Then grade letter-by-letter, show each correct answer, explain all four options, update only evidence-supported progress, and record the score by paper and topic.",
+    "audioLessonPrompt": "Prepare a genuinely long, continuous, non-repeating spoken-style lesson for the user's TGPSC HMWSSB Manager CSE/IT exam. Use simple Indian English and a natural teaching voice style. Continue from the imported progress and avoid repeating recently covered material. Give Paper II the larger share, while including Paper I revision where appropriate. Include concept teaching, worked examples, memory cues and exam-standard MCQs. After each question, write a clear pause cue and do not reveal the answer until after a deliberate pause section. Do not pad by repeating paragraphs or questions. Keep the text suitable for ChatGPT Read Aloud during a long commute; the user must not need to interact while riding.",
+    "gradingPrompt": "Grade only against the exact questions and answer key in the current set. Read the submitted answer letters from left to right and map them one-to-one to question numbers. If formatting or count is ambiguous, ask before grading. Report correct/total and Paper II/Paper I splits separately, list every mismatch, explain the correct answer and all distractors, and update verified history only after the mapping is certain."
   }
 }
