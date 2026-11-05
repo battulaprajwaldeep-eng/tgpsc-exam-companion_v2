@@ -31,19 +31,19 @@ jobs:
           python-version: "3.12"
       - name: Generate and independently review
         env:
-          Gemini_Api_key: \${{ secrets.Gemini_Api_key }}
+          Gemini_Api_key: ${{ secrets.Gemini_Api_key }}
           GEMINI_MODEL: gemini-3.8-flash
-          BATCH_P2: \${{ inputs.paper2_count || '12' }}
-          BATCH_P1: \${{ inputs.paper1_count || '8' }}
+          BATCH_P2: ${{ inputs.paper2_count || '12' }}
+          BATCH_P1: ${{ inputs.paper1_count || '8' }}
         run: python scripts/generate_question_batch.py
       - name: Open human-review pull request (never publish directly)
         env:
-          GH_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout -b "ai-question-batch/\${GITHUB_RUN_ID}"
+          git checkout -b "ai-question-batch/${GITHUB_RUN_ID}"
           git add generated-batches/
           git commit -m "Add Gemini-generated question batch for human review"
           git push --set-upstream origin HEAD
-          gh pr create --base main --head "ai-question-batch/\${GITHUB_RUN_ID}" --title "Review generated TGPSC question batch" --body "Automated candidate batch. Schema and duplicate checks plus separate Gemini review passed. These questions are NOT in the live question bank. Verify manually before importing."
+          gh pr create --base main --head "ai-question-batch/${GITHUB_RUN_ID}" --title "Review generated TGPSC question batch" --body "Automated candidate batch. Schema and duplicate checks plus separate Gemini review passed. These questions are NOT in the live question bank. Verify manually before importing."
