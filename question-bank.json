@@ -4537,6 +4537,236 @@
         "Depreciation is a fall in an asset's value or currency value, depending on context."
       ],
       "basis": "Paper I: Economic and social development."
+    },
+    {
+      "id": "P2-NEW-043",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Combinational circuits",
+      "difficulty": "advanced",
+      "stem": "A 4-to-1 multiplexer requires how many select lines?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanations": [
+        "One select line selects only 2 inputs.",
+        "Correct: log2(4)=2 select lines.",
+        "Three select lines select 8 inputs.",
+        "Four select lines select 16 inputs."
+      ],
+      "basis": "Paper II: Digital Logic; multiplexers."
+    },
+    {
+      "id": "P2-NEW-044",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C language",
+      "difficulty": "advanced",
+      "stem": "In C, which operator has higher precedence?",
+      "options": [
+        "*",
+        "==",
+        "&&",
+        "="
+      ],
+      "answer": 0,
+      "explanations": [
+        "Multiplication has higher precedence than equality.",
+        "Equality is lower than multiplicative operators.",
+        "Logical AND is lower precedence.",
+        "Assignment has lower precedence."
+      ],
+      "basis": "Paper II: Programming in C; operators and precedence."
+    },
+    {
+      "id": "P2-NEW-045",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Dynamic programming",
+      "difficulty": "advanced",
+      "stem": "The 0/1 knapsack problem is commonly solved in pseudo-polynomial time using dynamic programming in:",
+      "options": [
+        "O(nW)",
+        "O(log W)",
+        "O(n log n)",
+        "O(2W)"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: the standard capacity-indexed DP takes O(nW) time.",
+        "This is not sufficient to process all items and capacities.",
+        "Sorting alone does not solve 0/1 knapsack.",
+        "This omits dependence on the number of items."
+      ],
+      "basis": "Paper II: Algorithms; dynamic programming."
+    },
+    {
+      "id": "P2-NEW-046",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Automata",
+      "difficulty": "advanced",
+      "stem": "The minimum number of states in a DFA recognizing strings over {0,1} that end in 01 is:",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Two states cannot distinguish all required suffix histories.",
+        "Correct: states track no useful suffix, suffix 0, and suffix 01.",
+        "Four states are unnecessary.",
+        "Five states are unnecessary."
+      ],
+      "basis": "Paper II: TOC; DFA construction and minimization."
+    },
+    {
+      "id": "P2-NEW-047",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "CPU scheduling",
+      "difficulty": "advanced",
+      "stem": "Which scheduling algorithm can cause starvation of low-priority processes?",
+      "options": [
+        "FCFS",
+        "Round robin",
+        "Priority scheduling",
+        "FIFO page replacement"
+      ],
+      "answer": 2,
+      "explanations": [
+        "FCFS does not inherently starve later processes.",
+        "Round robin gives each ready process a time slice.",
+        "Correct: continuously arriving high-priority jobs can indefinitely postpone low-priority jobs.",
+        "FIFO page replacement is not CPU scheduling."
+      ],
+      "basis": "Paper II: Operating Systems; CPU scheduling."
+    },
+    {
+      "id": "P2-NEW-048",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Transactions",
+      "difficulty": "advanced",
+      "stem": "The ACID property that ensures committed changes survive system failure is:",
+      "options": [
+        "Atomicity",
+        "Consistency",
+        "Isolation",
+        "Durability"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Atomicity means all-or-nothing execution.",
+        "Consistency preserves database constraints.",
+        "Isolation controls concurrent transaction effects.",
+        "Correct: durability preserves committed results."
+      ],
+      "basis": "Paper II: Databases; transaction properties."
+    },
+    {
+      "id": "P2-NEW-049",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "HTML",
+      "difficulty": "advanced",
+      "stem": "Which HTML element is semantically intended for a self-contained composition that can be independently distributed?",
+      "options": [
+        "<div>",
+        "<article>",
+        "<span>",
+        "<br>"
+      ],
+      "answer": 1,
+      "explanations": [
+        "div is a generic container without that semantic meaning.",
+        "Correct: article represents self-contained content.",
+        "span is an inline generic container.",
+        "br inserts a line break."
+      ],
+      "basis": "Paper II: Web Technologies; semantic HTML."
+    },
+    {
+      "id": "P1-NEW-019",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "International organizations",
+      "difficulty": "advanced",
+      "stem": "The headquarters of the World Health Organization is in:",
+      "options": [
+        "New York",
+        "Geneva",
+        "Paris",
+        "Vienna"
+      ],
+      "answer": 1,
+      "explanations": [
+        "New York hosts the UN headquarters.",
+        "Correct: WHO is headquartered in Geneva.",
+        "Paris hosts UNESCO headquarters.",
+        "Vienna hosts several international organizations but not WHO HQ."
+      ],
+      "basis": "Paper I: International relations and organizations."
+    },
+    {
+      "id": "P1-NEW-020",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "Physical, Social and Economic Geography of India",
+      "subtopic": "Monsoon",
+      "difficulty": "advanced",
+      "stem": "The southwest monsoon normally reaches the Kerala coast around:",
+      "options": [
+        "Early June",
+        "Early January",
+        "Late September",
+        "Mid-November"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: onset over Kerala is normally around the beginning of June, with year-to-year variation.",
+        "January is the northeast winter season.",
+        "By late September the monsoon is generally in withdrawal stages in some regions.",
+        "November is too late for normal onset."
+      ],
+      "basis": "Paper I: Geography of India; monsoon system."
+    },
+    {
+      "id": "P1-NEW-021",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Percentages",
+      "difficulty": "advanced",
+      "stem": "A value increases by 20% and then decreases by 20%. The net change is:",
+      "options": [
+        "No change",
+        "4% decrease",
+        "4% increase",
+        "2% decrease"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The final value is 1.2×0.8=0.96 of the original, not unchanged.",
+        "Correct: 0.96 means a 4% decrease.",
+        "The product of the factors is below 1.",
+        "The decrease is 4%, not 2%."
+      ],
+      "basis": "Paper I: Analytical ability; percentages."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
