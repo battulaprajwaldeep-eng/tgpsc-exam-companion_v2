@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "bankStatus": "Expansion in progress: 70 reviewed questions currently present; final target is 3,500+ unique questions. This file does not yet meet the target.",
+  "bankStatus": "in_progress",
   "selectionPolicy": "Normal practice excludes all attempted question IDs, restores only genuinely in-progress sessions, and selects a topic-diverse 5+5 set. Missed questions may be reused only in explicit revision mode.",
   "sessionComposition": {
     "paper2": 5,
@@ -1616,6 +1616,236 @@
         "Fifteen is the total membership of the Security Council, not the permanent membership."
       ],
       "basis": "Official Paper I syllabus: International Relations; international organisations."
+    },
+    {
+      "id": "P2-ALG-004",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Greedy algorithms; minimum spanning trees",
+      "difficulty": "advanced",
+      "stem": "A connected weighted undirected graph has distinct edge weights. Which statement about its minimum spanning tree is guaranteed?",
+      "options": [
+        "The heaviest edge is always selected",
+        "The minimum spanning tree is unique",
+        "The graph must be complete",
+        "Every vertex has degree two"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A heaviest edge may be excluded if it would create a cycle.",
+        "Correct. Distinct edge weights guarantee a unique minimum spanning tree.",
+        "A connected graph need not be complete.",
+        "A spanning tree need not give every vertex degree two."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; greedy methods and graph algorithms."
+    },
+    {
+      "id": "P2-DB-005",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Relational algebra; set difference",
+      "difficulty": "moderate",
+      "stem": "Let R(A) contain {1,2,3} and S(A) contain {2,3,4}. Under set semantics, what is R − S?",
+      "options": [
+        "{1}",
+        "{4}",
+        "{1,4}",
+        "{2,3}"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Set difference retains tuples in R that do not occur in S; only 1 qualifies.",
+        "4 occurs only in S, so it is not in R − S.",
+        "The value 4 belongs to S, not R.",
+        "These values occur in both relations and are removed by set difference."
+      ],
+      "basis": "Official Paper II syllabus: DBMS; relational algebra."
+    },
+    {
+      "id": "P2-OS-004",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Deadlocks; resource-allocation graphs",
+      "difficulty": "advanced",
+      "stem": "In a resource-allocation graph with one instance of each resource type, a directed cycle is present. What follows?",
+      "options": [
+        "Deadlock definitely does not exist",
+        "Deadlock exists",
+        "Deadlock may or may not exist",
+        "The system is necessarily in a safe state"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A cycle is not evidence of absence of deadlock.",
+        "Correct. With a single instance per resource type, a cycle is both necessary and sufficient for deadlock.",
+        "This uncertainty applies when resource types may have multiple instances; with one instance each, the cycle implies deadlock.",
+        "A cycle in this single-instance graph indicates deadlock, not a guaranteed safe state."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; deadlocks."
+    },
+    {
+      "id": "P2-NET-004",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "IPv4 subnetting and address capacity",
+      "difficulty": "moderate",
+      "stem": "A subnet is configured with prefix length /27. How many usable host addresses are available in a conventional IPv4 subnet?",
+      "options": [
+        "14",
+        "30",
+        "32",
+        "62"
+      ],
+      "answer": 1,
+      "explanations": [
+        "14 usable hosts corresponds to a /28 subnet.",
+        "Correct. A /27 leaves 5 host bits: 2^5 = 32 addresses; subtract network and broadcast addresses to get 30 usable hosts.",
+        "32 is the total number of addresses, including network and broadcast.",
+        "62 usable hosts corresponds to a /26 subnet."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; IP addressing and subnetting."
+    },
+    {
+      "id": "P2-COA-005",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache mapping; direct-mapped cache",
+      "difficulty": "advanced",
+      "stem": "A byte-addressed system has a 32-bit address and a direct-mapped cache with 64-byte lines and 256 lines. How many tag bits are required?",
+      "options": [
+        "16",
+        "18",
+        "20",
+        "22"
+      ],
+      "answer": 1,
+      "explanations": [
+        "16 bits leaves too few bits after accounting for the offset and index.",
+        "Correct. Offset bits = log2(64)=6; index bits = log2(256)=8; tag bits = 32−6−8=18.",
+        "20 ignores either the line-index or offset requirement.",
+        "22 ignores the 8-bit index and 6-bit offset."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; cache organization."
+    },
+    {
+      "id": "P2-DL-003",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Boolean algebra; minterm simplification",
+      "difficulty": "moderate",
+      "stem": "For F(A,B,C)=Σm(1,3,5,7), using standard minterm indexing with A as the most significant bit, the simplified expression is:",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "A+B"
+      ],
+      "answer": 2,
+      "explanations": [
+        "These minterms include both values of A, so A is not fixed.",
+        "B also takes both 0 and 1 across these minterms.",
+        "Correct. All listed minterms have C=1, while A and B vary; hence F=C.",
+        "A+B is not 1 for minterms 1 and 3 when A=B=0."
+      ],
+      "basis": "Official Paper II syllabus: Digital Logic; Boolean functions and minimization."
+    },
+    {
+      "id": "P2-TOC-003",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Regular languages; closure properties",
+      "difficulty": "advanced",
+      "stem": "Which statement about regular languages is correct?",
+      "options": [
+        "They are closed under intersection but not complement",
+        "They are closed under complement and intersection",
+        "They are not closed under union",
+        "They are not closed under concatenation"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Regular languages are closed under complement as well as intersection.",
+        "Correct. Complement follows by completing and swapping final and non-final states in a DFA; intersection follows from product construction.",
+        "Regular languages are closed under union.",
+        "Regular languages are closed under concatenation."
+      ],
+      "basis": "Official Paper II syllabus: Theory of Computation; regular languages and automata."
+    },
+    {
+      "id": "P2-COMP-003",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Parsing; FIRST and FOLLOW sets",
+      "difficulty": "advanced",
+      "stem": "For the grammar S → A b; A → aA | ε, which terminal is in FOLLOW(A)?",
+      "options": [
+        "a only",
+        "b only",
+        "a and b",
+        "ε"
+      ],
+      "answer": 1,
+      "explanations": [
+        "a begins a production derived from A, so it can be in FIRST(A), not FOLLOW(A).",
+        "Correct. In S → A b, the terminal immediately following A is b, so b belongs to FOLLOW(A).",
+        "a is not placed in FOLLOW(A) by these productions; b is.",
+        "ε is not a terminal and is never an element of FOLLOW."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; parsing and grammar analysis."
+    },
+    {
+      "id": "P2-SE-002",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems & Software Engineering",
+      "subtopic": "Software testing; boundary-value analysis",
+      "difficulty": "moderate",
+      "stem": "An input field accepts integer values from 1 through 100 inclusive. Which set is the strongest basic boundary-value test set?",
+      "options": [
+        "1, 50, 100",
+        "0, 1, 2, 99, 100, 101",
+        "25, 50, 75",
+        "1, 100 only"
+      ],
+      "answer": 1,
+      "explanations": [
+        "This tests valid endpoints and a nominal value but omits values immediately outside the range and adjacent to the endpoints.",
+        "Correct. Boundary-value analysis tests the boundaries and their immediate neighbours: 0, 1, 2, 99, 100, 101.",
+        "These are representative interior values and miss the boundaries.",
+        "This omits values immediately inside and outside each boundary."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering; software testing."
+    },
+    {
+      "id": "P2-OOP-002",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOP + C++ + Java",
+      "subtopic": "C++ polymorphism; virtual destructors",
+      "difficulty": "advanced",
+      "stem": "A C++ base-class pointer points to a dynamically allocated derived object. The base class has a non-virtual destructor. What is the result of deleting through the base pointer?",
+      "options": [
+        "Both destructors are guaranteed to run",
+        "Only the base destructor runs by a guaranteed defined rule",
+        "The behaviour is undefined",
+        "The derived destructor runs twice"
+      ],
+      "answer": 2,
+      "explanations": [
+        "A non-virtual base destructor does not guarantee correct polymorphic destruction.",
+        "This is not a guaranteed defined rule when deleting a derived object through a base pointer with a non-virtual destructor.",
+        "Correct. Deleting a derived object through a base pointer whose base destructor is non-virtual results in undefined behaviour.",
+        "There is no rule that invokes the derived destructor twice."
+      ],
+      "basis": "Official Paper II syllabus: Object-oriented programming; C++ inheritance and polymorphism."
     }
   ],
   "qualityNote": "The new batch was benchmarked against the uploaded 2015 Manager CS&IT Paper-II: formal relations, RAM capacity, scheduling/calculation style, functional dependencies, graph algorithms, TCP sequence arithmetic and pipeline timing. Questions are original and syllabus-mapped. The bank now contains 20 questions per paper, allowing four balanced sessions from a fresh browser profile. Initial expansion tranche added 10 new questions (5 per paper) with unique IDs, four option-specific explanations and syllabus mapping. Second expansion tranche: 20 additional questions (10 per paper), including algorithms/programming, digital logic, probability, compiler design, graph theory, web/SE/OOP/SQL, and Telangana/India GS, constitution, science, reasoning and disaster management.",
@@ -1623,8 +1853,8 @@
     "targetTotal": 3500,
     "targetPaper2": 2000,
     "targetPaper1": 1500,
-    "currentTotal": 70,
-    "currentPaper2": 35,
+    "currentTotal": 80,
+    "currentPaper2": 45,
     "currentPaper1": 35,
     "status": "in_progress",
     "qualityGate": "Every added question must have a unique ID, official syllabus mapping, four options, a verified answer index, four option-specific explanations, and a difficulty label."
