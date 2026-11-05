@@ -5,24 +5,47 @@ from difflib import SequenceMatcher
 ROOT=Path(__file__).resolve().parents[1]
 BANK,STUDY,OUT=ROOT/"question-bank.json",ROOT/"study-data.json",ROOT/"generated-batches"
 MODEL=os.getenv("GEMINI_MODEL","gemini-3.8-flash")
+FALLBACK_MODEL=os.getenv("GEMINI_FALLBACK_MODEL","gemini-3.5-flash-lite")
+MODELS_USED=set()
 N2,N1=int(os.getenv("BATCH_P2","12")),int(os.getenv("BATCH_P1","8"))
 KEY=os.getenv("Gemini_Api_key") or os.getenv("GEMINI_API_KEY")
 if not KEY: raise SystemExit("Missing repository secret Gemini_Api_key.")
 def call(prompt,tokens=12000):
- url=f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent?key={KEY}"
- body={"contents":[{"role":"user","parts":[{"text":prompt}]}],"generationConfig":{"responseMimeType":"application/json","maxOutputTokens":tokens}}
- data=json.dumps(body).encode()
- for attempt in range(5):
-  req=urllib.request.Request(url,data=data,headers={"Content-Type":"application/json"},method="POST")
-  try:
-   with urllib.request.urlopen(req,timeout=180) as r: return json.loads(r.read().decode())["candidates"][0]["content"]["parts"][0]["text"]
-  except urllib.error.HTTPError as e:
-   detail=e.read().decode(errors="replace")[:1000]
-   if e.code in (429,500,502,503,504) and attempt<4:
-    h=e.headers.get("Retry-After",""); wait=int(h) if h.isdigit() else min(60,8*2**attempt)
-    print(f"Gemini HTTP {e.code}; retry in {wait}s",file=sys.stderr); time.sleep(wait); continue
-   raise RuntimeError(f"Gemini HTTP {e.code}: {detail}") from e
- raise RuntimeError("Gemini retries exhausted")
+ # Try the primary model first, then a current stable Flash-Lite fallback
+ # if the primary model is temporarily unavailable or rate-limited.
+ models=[MODEL]+([FALLBACK_MODEL] if FALLBACK_MODEL and FALLBACK_MODEL!=MODEL else [])
+ last_error=None
+ for model in models:
+  url=f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={KEY}"
+  body={"contents":[{"role":"user","parts":[{"text":prompt}]}],"generationConfig":{"responseMimeType":"application/json","maxOutputTokens":tokens}}
+  data=json.dumps(body).encode()
+  for attempt in range(3):
+   req=urllib.request.Request(url,data=data,headers={"Content-Type":"application/json"},method="POST")
+   try:
+    with urllib.request.urlopen(req,timeout=180) as r:
+     MODELS_USED.add(model)
+     print(f"Gemini response received from {model}")
+     return json.loads(r.read().decode())["candidates"][0]["content"]["parts"][0]["text"]
+   except urllib.error.HTTPError as e:
+    detail=e.read().decode(errors="replace")[:1000]
+    last_error=RuntimeError(f"Gemini {model} HTTP {e.code}: {detail}")
+    if e.code not in (429,500,502,503,504):
+     raise last_error from e
+    if attempt<2:
+     h=e.headers.get("Retry-After","")
+     wait=int(h) if h.isdigit() else 20*(2**attempt)
+     print(f"Gemini {model} HTTP {e.code}; retry in {wait}s",file=sys.stderr)
+     time.sleep(wait)
+    else:
+     print(f"Gemini {model} unavailable after retries; trying fallback if configured.",file=sys.stderr)
+   except (urllib.error.URLError,TimeoutError) as e:
+    last_error=RuntimeError(f"Gemini {model} connection error: {e}")
+    if attempt<2:
+     wait=20*(2**attempt)
+     print(f"Gemini {model} connection issue; retry in {wait}s",file=sys.stderr)
+     time.sleep(wait)
+ if last_error: raise last_error
+ raise RuntimeError("Gemini request failed without a response")
 def norm(s): return re.sub(r"[^a-z0-9]+"," ",s.lower()).strip()
 def validate(q,p,ids):
  fields={"id","paper","topicId","topic","subtopic","difficulty","stem","options","answer","explanations","basis"}
@@ -84,7 +107,7 @@ Do not copy or lightly modify these existing stems:\n{prior}\nReturn valid JSON 
  counts_out={"paper1":sum(q["paper"]==1 for q in good),"paper2":sum(q["paper"]==2 for q in good)}
  if counts_out!={"paper1":N1,"paper2":N2}:raise SystemExit("Incorrect paper split")
  OUT.mkdir(exist_ok=True);stamp=time.strftime("%Y%m%d-%H%M%S",time.gmtime())
- payload={"status":"pending_human_review","model":MODEL,"generated_at_utc":time.strftime("%Y-%m-%dT%H:%M:%SZ",time.gmtime()),"review_note":"Passed schema/duplicate checks and separate Gemini review; human verification is still required before importing.","counts":counts_out,"questions":good}
+ payload={"status":"pending_human_review","models_used":sorted(MODELS_USED),"generated_at_utc":time.strftime("%Y-%m-%dT%H:%M:%SZ",time.gmtime()),"review_note":"Passed schema/duplicate checks and separate Gemini review; human verification is still required before importing.","counts":counts_out,"questions":good}
  path=OUT/f"batch-{stamp}.json";path.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  print(f"Created {path.relative_to(ROOT)}. Not added to live bank.")
 if __name__=="__main__":main()
