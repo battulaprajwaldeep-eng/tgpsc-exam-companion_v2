@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "bankStatus": "Initial validated starter batch; expand in reviewed batches. Not a complete syllabus bank.",
+  "bankStatus": "Reviewed question bank expanded to 38 questions; four unique 10-question sessions are available in principle (subject to the local attempted-question history).",
   "selectionPolicy": "Normal practice excludes every previously attempted questionId. Missed questions may be reused only in explicit revision mode.",
   "sessionComposition": {
     "paper2": 5,
@@ -466,6 +466,421 @@
         "The sentence is missing appropriate articles/determiners and its verb agreement is not correct for the construction."
       ],
       "basis": "Official Paper I syllabus: Basic English (10th class Standard)."
+    },
+    {
+      "id": "P2-SET-002",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Relations and partial orders",
+      "difficulty": "advanced",
+      "stem": "Let A={1,2,3,6} and define a relation R on A by aRb if and only if a divides b. Which statement is correct?",
+      "options": [
+        "R is an equivalence relation but not a partial order.",
+        "R is a partial order but not an equivalence relation.",
+        "R is neither reflexive nor transitive.",
+        "R is symmetric and antisymmetric."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Divisibility is not symmetric: 2 divides 6, but 6 does not divide 2.",
+        "Correct. Divisibility is reflexive, antisymmetric and transitive, so it is a partial order. It is not symmetric.",
+        "Every element divides itself, and divisibility is transitive.",
+        "It is antisymmetric, not symmetric."
+      ],
+      "basis": "Official Paper II syllabus: relations and partial orders; 2015 paper benchmark: formal relations and order structures."
+    },
+    {
+      "id": "P2-COA-002",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Memory organisation and chip capacity",
+      "difficulty": "advanced",
+      "stem": "A memory system must provide 16K × 8 bits using RAM chips of 4K × 4 bits. How many chips are required, assuming no additional redundancy?",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "32"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Four chips provide only 4K × 16 bits, not the required depth and width.",
+        "Correct. Two chips in parallel provide 4K × 8; four such banks provide 16K × 8. Total = 2 × 4 = 8 chips.",
+        "Sixteen chips would provide twice the required chip count.",
+        "Thirty-two chips would provide four times the required chip count."
+      ],
+      "basis": "Official Paper II syllabus: cache and main memory; 2015 paper benchmark: RAM-chip capacity calculations."
+    },
+    {
+      "id": "P2-DB-002",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Functional dependencies and candidate keys",
+      "difficulty": "advanced",
+      "stem": "For relation R(A,B,C,D), the functional dependencies are A→B, B→C and C→D. Which is the candidate key?",
+      "options": [
+        "A",
+        "B",
+        "A,C",
+        "A,D"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. A determines B, B determines C and C determines D; hence A+={A,B,C,D}. No proper subset of A exists, so A is a candidate key.",
+        "B+={B,C,D}, which does not include A.",
+        "A alone already determines all attributes, so A,C is not minimal.",
+        "A alone determines D as well, so A,D is not minimal."
+      ],
+      "basis": "Official Paper II syllabus: relational model, functional dependencies and database design; 2015 paper benchmark: normal forms and dependencies."
+    },
+    {
+      "id": "P2-ALG-002",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Graph algorithms and minimum spanning trees",
+      "difficulty": "advanced",
+      "stem": "A connected, undirected weighted graph has distinct edge weights. Which statement about its minimum spanning tree (MST) is necessarily true?",
+      "options": [
+        "Every vertex has degree at most 2 in the MST.",
+        "The MST is unique.",
+        "The MST contains the globally lightest edge incident to every vertex.",
+        "The MST is also a shortest-path tree from every vertex."
+      ],
+      "answer": 1,
+      "explanations": [
+        "An MST can contain vertices of degree greater than 2.",
+        "Correct. Distinct edge weights guarantee a unique MST.",
+        "The lightest incident edge of each vertex need not all belong to one MST; cycles can create conflicts.",
+        "An MST minimises total tree weight, not shortest-path distance from every possible root."
+      ],
+      "basis": "Official Paper II syllabus: spanning trees and graph algorithms; 2015 paper benchmark: spanning-tree questions."
+    },
+    {
+      "id": "P2-NET-002",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "TCP sequence and acknowledgement numbers",
+      "difficulty": "advanced",
+      "stem": "A TCP segment carries 500 bytes of data and has sequence number 1,000. If all bytes are received in order, what acknowledgement number does the receiver send?",
+      "options": [
+        "1,000",
+        "1,499",
+        "1,500",
+        "1,501"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The acknowledgement identifies the next byte expected, not the first byte received.",
+        "1,499 is the final byte's sequence number, not the next expected byte.",
+        "Correct. The segment covers bytes 1000 through 1499, so the next expected byte is 1500.",
+        "1501 would incorrectly acknowledge one additional byte."
+      ],
+      "basis": "Official Paper II syllabus: TCP/UDP and networking protocols."
+    },
+    {
+      "id": "P2-DIS-002",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Graph degree sum and edge count",
+      "difficulty": "moderate",
+      "stem": "A simple undirected graph has 10 vertices, each of degree 3. How many edges does it contain?",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "30"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Ten edges would give total degree 20, not 30.",
+        "Correct. By the handshaking lemma, 2|E|=sum of degrees=10×3=30, so |E|=15.",
+        "Twenty edges would give total degree 40.",
+        "Thirty is the sum of degrees, which counts each edge twice."
+      ],
+      "basis": "Official Paper II syllabus: graph theory; 2015 paper benchmark: graph problems."
+    },
+    {
+      "id": "P2-DS-002",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Stack operations and expression evaluation",
+      "difficulty": "advanced",
+      "stem": "An initially empty stack executes: PUSH 4, PUSH 7, POP, PUSH 2, PUSH 9, POP, POP. What value remains at the top of the stack?",
+      "options": [
+        "4",
+        "7",
+        "2",
+        "The stack is empty"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Stack states: [4], [4,7], [4], [4,2], [4,2,9], [4,2], [4]. Top is 4.",
+        "7 was removed by the first POP.",
+        "2 is removed by the final POP.",
+        "One element, 4, remains."
+      ],
+      "basis": "Official Paper II syllabus: stacks and abstract data types."
+    },
+    {
+      "id": "P2-COA-003",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Instruction pipelining",
+      "difficulty": "advanced",
+      "stem": "A non-pipelined processor takes 5 ns per instruction. A 5-stage pipeline has a clock cycle of 1 ns and no stalls. For 100 instructions, what is the ideal speedup (approximately)?",
+      "options": [
+        "1.0",
+        "4.8",
+        "5.0",
+        "20.0"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A speedup of 1 would mean no benefit from pipelining.",
+        "Correct. Non-pipelined time = 100×5=500 ns. Pipeline time = (100+5−1)×1=104 ns. Speedup ≈ 500/104 ≈ 4.81.",
+        "Five is the asymptotic maximum for a long stream, not the exact finite instruction count.",
+        "Twenty confuses the pipeline clock with instruction throughput."
+      ],
+      "basis": "Official Paper II syllabus: instruction pipelining; 2015 paper benchmark: pipeline timing calculations."
+    },
+    {
+      "id": "P1-CONST-002",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitutional bodies and audit",
+      "difficulty": "moderate",
+      "stem": "The Comptroller and Auditor General of India submits reports relating to the accounts of a State to which constitutional authority for consideration?",
+      "options": [
+        "The Governor, who causes them to be laid before the State Legislature",
+        "The Chief Minister for approval",
+        "The State Public Service Commission",
+        "The Finance Commission of India"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Under Article 151, State audit reports are submitted to the Governor, who causes them to be laid before the State Legislature.",
+        "The Chief Minister is not the constitutional recipient specified for this report.",
+        "The State Public Service Commission has no such audit-report role.",
+        "The Finance Commission recommends fiscal distribution; it does not receive these audit reports."
+      ],
+      "basis": "Official Paper I syllabus: Constitution, political system and governance."
+    },
+    {
+      "id": "P1-GEO-001",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "India Geography",
+      "subtopic": "Indian river systems",
+      "difficulty": "moderate",
+      "stem": "Which one of the following rivers flows westward and drains into the Arabian Sea?",
+      "options": [
+        "Godavari",
+        "Krishna",
+        "Narmada",
+        "Mahanadi"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Godavari flows eastward into the Bay of Bengal.",
+        "Krishna flows eastward into the Bay of Bengal.",
+        "Correct. Narmada flows west through a rift valley and enters the Arabian Sea.",
+        "Mahanadi flows eastward into the Bay of Bengal."
+      ],
+      "basis": "Official Paper I syllabus: Geography of India."
+    },
+    {
+      "id": "P1-TEL-003",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Telangana statehood movement",
+      "difficulty": "advanced",
+      "stem": "The Telangana statehood movement's 1969 phase is most directly associated with which slogan?",
+      "options": [
+        "Jai Telangana",
+        "Vande Mataram",
+        "Do or Die",
+        "Inquilab Zindabad"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. 'Jai Telangana' became the defining slogan of the 1969 separate Telangana agitation.",
+        "Vande Mataram is associated with the Indian national movement, not specifically this phase.",
+        "Do or Die is associated with the Quit India Movement of 1942.",
+        "Inquilab Zindabad was a broader revolutionary slogan, not the defining slogan of the 1969 Telangana agitation."
+      ],
+      "basis": "Official Paper I syllabus: Telangana history and statehood movement."
+    },
+    {
+      "id": "P1-ECON-002",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Fiscal policy and revenue deficit",
+      "difficulty": "advanced",
+      "stem": "A State's revenue expenditure exceeds its revenue receipts. This difference is called:",
+      "options": [
+        "Fiscal deficit",
+        "Primary deficit",
+        "Revenue deficit",
+        "Capital account deficit"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Fiscal deficit is total expenditure minus total receipts excluding borrowings; it is broader than this measure.",
+        "Primary deficit is fiscal deficit minus interest payments.",
+        "Correct. Revenue deficit equals revenue expenditure minus revenue receipts.",
+        "Capital account deficit is not the standard term for this budgetary difference."
+      ],
+      "basis": "Official Paper I syllabus: economic development and public finance."
+    },
+    {
+      "id": "P1-ENV-002",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Disaster management cycle",
+      "difficulty": "moderate",
+      "stem": "A district conducts mock evacuation drills, trains first responders and prepositions emergency supplies before the monsoon. These activities primarily belong to which phase of disaster management?",
+      "options": [
+        "Response",
+        "Recovery",
+        "Preparedness",
+        "Reconstruction"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Response consists of actions during or immediately after a disaster.",
+        "Recovery restores services and livelihoods after the event.",
+        "Correct. Drills, training and prepositioning are preparedness measures undertaken before a hazard occurs.",
+        "Reconstruction is part of longer-term recovery and rebuilding."
+      ],
+      "basis": "Official Paper I syllabus: environment and disaster management."
+    },
+    {
+      "id": "P1-SCI-002",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Electricity and power systems",
+      "difficulty": "moderate",
+      "stem": "In an electrical power system, the primary purpose of a transformer is to:",
+      "options": [
+        "Convert AC into DC",
+        "Change AC voltage levels without changing frequency",
+        "Change the frequency of AC",
+        "Store electrical energy chemically"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Rectifiers convert AC to DC.",
+        "Correct. A transformer changes voltage/current levels through electromagnetic induction while frequency remains the same.",
+        "Frequency conversion requires a frequency converter, not an ordinary transformer.",
+        "Chemical storage is the function of a battery."
+      ],
+      "basis": "Official Paper I syllabus: General Science."
+    },
+    {
+      "id": "P1-IR-002",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "United Nations system",
+      "difficulty": "moderate",
+      "stem": "Which principal organ of the United Nations has primary responsibility for maintaining international peace and security?",
+      "options": [
+        "General Assembly",
+        "Economic and Social Council",
+        "Security Council",
+        "International Court of Justice"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The General Assembly is the main deliberative and representative organ, but it does not have primary responsibility for peace and security.",
+        "ECOSOC coordinates economic and social work.",
+        "Correct. The UN Charter assigns primary responsibility for international peace and security to the Security Council.",
+        "The ICJ settles legal disputes between States and gives advisory opinions; it is not the organ with primary security responsibility."
+      ],
+      "basis": "Official Paper I syllabus: International relations and events."
+    },
+    {
+      "id": "P1-REASON-002",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Ratio and proportional reasoning",
+      "difficulty": "moderate",
+      "stem": "A water treatment plant processes 240 million litres in 8 days at a constant rate. At the same rate, how much will it process in 15 days?",
+      "options": [
+        "360 million litres",
+        "400 million litres",
+        "450 million litres",
+        "480 million litres"
+      ],
+      "answer": 2,
+      "explanations": [
+        "At 30 million litres per day, 12 days would produce 360 million litres.",
+        "400 does not follow from the constant daily rate.",
+        "Correct. Daily processing = 240/8=30 million litres; in 15 days = 450 million litres.",
+        "480 would correspond to 16 days at this rate."
+      ],
+      "basis": "Official Paper I syllabus: analytical ability and data interpretation."
+    },
+    {
+      "id": "P1-HIST-002",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Indian national movement",
+      "difficulty": "moderate",
+      "stem": "The Non-Cooperation Movement was withdrawn by Mahatma Gandhi in 1922 following which incident?",
+      "options": [
+        "Jallianwala Bagh massacre",
+        "Chauri Chaura incident",
+        "Kakori train action",
+        "Dandi March"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The Jallianwala Bagh massacre occurred in 1919 and preceded the movement.",
+        "Correct. Gandhi withdrew the Non-Cooperation Movement after the violent Chauri Chaura incident in February 1922.",
+        "The Kakori action took place in 1925.",
+        "The Dandi March began in 1930."
+      ],
+      "basis": "Official Paper I syllabus: Modern Indian history and national movement."
+    },
+    {
+      "id": "P1-SOCIETY-001",
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Society, Social Exclusion, Rights Issues and Inclusive Policies",
+      "subtopic": "Social justice and inclusion",
+      "difficulty": "advanced",
+      "stem": "A public service is redesigned with ramps, accessible signage, assistive interfaces and multiple communication formats. This approach most directly reflects:",
+      "options": [
+        "Universal design",
+        "Privatisation",
+        "Fiscal decentralisation",
+        "Positive discrimination alone"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Universal design seeks to make environments, products and services usable by the widest range of people without requiring separate adaptation.",
+        "Privatisation concerns ownership or delivery by private entities.",
+        "Fiscal decentralisation concerns allocation of public financial powers.",
+        "Positive discrimination may address disadvantage through targeted measures, but it does not describe inclusive design of the service itself."
+      ],
+      "basis": "Official Paper I syllabus: social exclusion, rights and inclusive policies."
     }
-  ]
+  ],
+  "qualityNote": "The new batch was benchmarked against the uploaded 2015 Manager CS&IT Paper-II: formal relations, RAM capacity, scheduling/calculation style, functional dependencies, graph algorithms, TCP sequence arithmetic and pipeline timing. Questions are original and syllabus-mapped."
 }
