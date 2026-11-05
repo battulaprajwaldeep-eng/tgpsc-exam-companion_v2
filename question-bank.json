@@ -90,12 +90,12 @@
         "7",
         "4"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanations": [
-        "Five is too low. After loading 1,2,3, the later references cause additional replacements under FIFO.",
-        "Correct. Faults occur on 1,2,3,4,2,5. The second reference to 1 is a hit; FIFO evicts 1 when 4 arrives, so 2 then faults as well.",
-        "Seven would mean every reference faults, but the second reference to 1 is a hit.",
-        "Four omits the FIFO replacement faults after the initial three pages."
+        "Correct. Faults occur on pages 1, 2, 3, 4 and 5. The second reference to 1 is a hit; after 4 replaces 1, the later reference to 2 is still a hit, so the total is 5.",
+        "Six incorrectly counts the later reference to 2 as a fault. Under FIFO, page 2 remains in a frame after page 4 replaces page 1.",
+        "Seven would mean every reference faults, but the second reference to 1 and the later reference to 2 are both hits.",
+        "Four omits one of the page faults caused by loading page 5 after the initial three pages."
       ],
       "basis": "Official Paper II syllabus: Operating Systems; memory management and virtual memory."
     },
