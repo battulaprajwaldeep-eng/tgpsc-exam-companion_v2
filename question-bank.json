@@ -3410,6 +3410,213 @@
         "Incorrect. The receiver's advertised window is flow control, not congestion control."
       ],
       "basis": "Paper II syllabus: Computer Networks; TCP congestion control."
+    },
+    {
+      "id": "P2-NEW-008",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Boolean minimization",
+      "difficulty": "moderate",
+      "stem": "For F(A,B,C)=Σm(1,3,5,7), the minimized expression is:",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "A+B"
+      ],
+      "answer": 2,
+      "explanations": [
+        "A is not common to all minterms.",
+        "B is not common to all minterms.",
+        "All listed minterms have C=1; hence F=C.",
+        "A+B is zero for minterm 1."
+      ],
+      "basis": "Paper II: Digital Logic; Boolean minimization."
+    },
+    {
+      "id": "P2-NEW-009",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Pipeline hazards",
+      "difficulty": "moderate",
+      "stem": "A load is immediately followed by an instruction using its destination register. Without forwarding or scheduling, this is a:",
+      "options": [
+        "Structural hazard",
+        "Load-use data hazard",
+        "Control hazard",
+        "Page fault"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Structural hazards arise from resource conflicts.",
+        "Correct: the dependent instruction needs a value not yet available.",
+        "Control hazards arise from branches.",
+        "A page fault is a memory-management event."
+      ],
+      "basis": "Paper II: COA; pipeline hazards."
+    },
+    {
+      "id": "P2-NEW-010",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Stack applications",
+      "difficulty": "moderate",
+      "stem": "Which structure is most directly used to evaluate a postfix expression?",
+      "options": [
+        "Queue",
+        "Stack",
+        "Binary search tree",
+        "Adjacency list"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A queue is FIFO, not LIFO.",
+        "Operands are pushed and popped as operators are encountered.",
+        "A search tree is unnecessary.",
+        "An adjacency list represents graph edges."
+      ],
+      "basis": "Paper II: Programming and Data Structures; stacks."
+    },
+    {
+      "id": "P2-NEW-011",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Predictive parsing",
+      "difficulty": "moderate",
+      "stem": "A predictive LL(1) parser requires its parsing-table entries to be:",
+      "options": [
+        "Always empty",
+        "Unique for each nonterminal and lookahead symbol",
+        "Based on backtracking",
+        "Generated from left-recursive grammar"
+      ],
+      "answer": 1,
+      "explanations": [
+        "An empty table cannot parse input.",
+        "Correct: a single table entry avoids parsing conflicts.",
+        "LL(1) parsing avoids backtracking.",
+        "Left recursion must be eliminated for ordinary LL(1) parsing."
+      ],
+      "basis": "Paper II: Compiler Design; LL(1) parsing."
+    },
+    {
+      "id": "P2-NEW-012",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Deadlock avoidance",
+      "difficulty": "moderate",
+      "stem": "A system is safe if:",
+      "options": [
+        "All processes have terminated",
+        "A safe sequence exists in which every process can finish",
+        "No process holds a resource",
+        "All resources are free"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A safe state can contain active processes.",
+        "Correct: a safe sequence demonstrates completion without deadlock.",
+        "Processes may hold resources in a safe state.",
+        "All resources being free is sufficient but not necessary."
+      ],
+      "basis": "Paper II: Operating Systems; deadlock avoidance."
+    },
+    {
+      "id": "P2-NEW-013",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Software testing",
+      "difficulty": "moderate",
+      "stem": "100% statement coverage guarantees that:",
+      "options": [
+        "Every possible path was tested",
+        "Every branch outcome was tested",
+        "Every executable statement ran at least once",
+        "The program is defect-free"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Statement coverage does not imply path coverage.",
+        "Branch coverage is a separate, stronger metric.",
+        "Correct: every executable statement has been executed.",
+        "Coverage cannot prove absence of defects."
+      ],
+      "basis": "Paper II: Software Engineering; test coverage."
+    },
+    {
+      "id": "P1-NEW-004",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "National movement",
+      "difficulty": "moderate",
+      "stem": "The Non-Cooperation Movement was launched in:",
+      "options": [
+        "1919",
+        "1920",
+        "1922",
+        "1930"
+      ],
+      "answer": 1,
+      "explanations": [
+        "1919 saw the Rowlatt Satyagraha and Jallianwala Bagh events.",
+        "Correct: Gandhi launched the movement in 1920.",
+        "It was withdrawn in 1922 after Chauri Chaura.",
+        "1930 marks the Civil Disobedience Movement."
+      ],
+      "basis": "Paper I: Modern Indian history and national movement."
+    },
+    {
+      "id": "P1-NEW-005",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana",
+      "subtopic": "Formation of Telangana",
+      "difficulty": "moderate",
+      "stem": "Telangana came into existence under the Andhra Pradesh Reorganisation Act on:",
+      "options": [
+        "1 January 2014",
+        "2 June 2014",
+        "15 August 2014",
+        "1 November 2014"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Not the appointed day.",
+        "Correct: the appointed day was 2 June 2014.",
+        "Not the appointed day.",
+        "Not the appointed day."
+      ],
+      "basis": "Paper I: Telangana statehood movement and formation."
+    },
+    {
+      "id": "P1-NEW-006",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Space science",
+      "difficulty": "moderate",
+      "stem": "A geostationary satellite appears stationary because its:",
+      "options": [
+        "Orbital period equals Earth's rotational period",
+        "Orbit passes over both poles",
+        "Speed is zero",
+        "Gravity is absent"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: matching Earth's rotation keeps it above roughly the same equatorial point.",
+        "Polar orbits are not geostationary.",
+        "The satellite has substantial orbital speed.",
+        "Earth's gravity provides the centripetal force."
+      ],
+      "basis": "Paper I: General Science; space technology."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
