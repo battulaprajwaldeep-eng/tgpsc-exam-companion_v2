@@ -1,30 +1,43 @@
 # TGPSC Exam Companion
 
-A lightweight, mobile-first Progressive Web App starter for personal TGPSC HMWSSB Manager (CSE/IT) preparation.
+Mobile-first personal preparation workspace for the TGPSC HMWSSB Manager (Engineering), Notification 04/OG/HM/2026.
+
+## Preparation profile and imported history
+
+The app loads `study-data.json`, which contains:
+- The official Paper I and Paper II syllabus structure transcribed from the supplied notification.
+- The user's study constraints, preparation plan and topic-by-topic evidence.
+- Verified quiz aggregates and individually verified records.
+- Explicit audit notes for missing or uncertain historical scores.
+- Dedicated instructor, daily-practice, audio-lesson and answer-grading prompts.
+
+Historical data is an evidence-based summary, not a complete transcript of every prior chat or every question. Sets 1–46 do not have a reliable consolidated score; Sets 59–70 do not have individual scores; unmapped answer strings are excluded from score calculations. Do not invent missing results.
 
 ## Current features
-- One-question-at-a-time practice interface
-- Paper I / Paper II labels
-- Local quiz answer persistence
-- Basic session score history
-- Editable broad syllabus checklist
-- JSON export/import backup
-- Basic service-worker caching
+
+- One-question-at-a-time practice with 5 Paper II + 5 Paper I as the default session.
+- Paper II weighted at 2 marks and Paper I at 1 mark per correct answer.
+- Answers hidden until submission; post-submission explanations include distractors.
+- Attempted question IDs excluded from normal practice; revision is a separate mode.
+- Local session history, topic evidence, syllabus checklist and JSON export/import.
+- Imported historical checkpoints and saved instructor prompts displayed from `study-data.json`.
+- Government Exam Instructor recruitment dashboard in `government-exams.html`.
 
 ## Important limitations
-- Includes a 10-question demonstration set, not a verified complete question bank.
-- Syllabus checklists are broad categories and must be reconciled against the official notification before being treated as exhaustive.
-- Progress is stored in this browser only; it is not cloud-synchronised. Export backups regularly.
-- Historical ChatGPT quiz scores have not been imported because a complete verified question-by-question record is not available here.
-- No account login, multi-device sync, AI question generation, or server database yet.
 
-## Deploy with GitHub Pages
-1. Open repository Settings, then Pages.
-2. Under Build and deployment, choose Deploy from a branch.
-3. Select branch main and folder root, then Save.
-4. Wait for GitHub Pages to publish. The URL appears on that settings page.
+- The current question bank contains 40 original syllabus-mapped questions (20 per paper). It is a starter bank, not complete syllabus coverage or proof of exam readiness.
+- New quiz attempts are stored in the current browser's local storage. They are not cloud-synchronised between devices; export backups regularly.
+- Imported historical aggregates are shown separately from new browser-session records. Uncertain records are not counted.
+- No account login, server database, automatic question generation or guaranteed live recruitment feed is implemented.
 
-For a private repository, Pages availability depends on your GitHub plan and repository settings. If unavailable, do not make the repository public without considering privacy. We can choose another deployment route.
+## Deployment
 
-## Android
-Open the published HTTPS URL in Chrome. Use Chrome menu, then Add to Home screen or Install app.
+The repository is connected to a Cloudflare Worker deployment. The production URL is:
+
+`https://tgpsc-exam-companion-v2.battulaprajwaldeep.workers.dev/`
+
+Deployment health and static-file serving must be verified in the Cloudflare dashboard. A GitHub commit alone does not prove that the production website is reachable.
+
+## Exam-first operating priority
+
+Through the December 2026 exam period, prioritise syllabus completion, question practice, revision and mock tests. Defer optional website redesign and feature expansion unless the user explicitly asks to resume them.
