@@ -2582,16 +2582,476 @@
         "The generator is not appended as the CRC remainder."
       ],
       "basis": "Official Paper II syllabus: Computer Networks; error detection and CRC."
+    },
+    {
+      "id": "P2-OS-006",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Virtual memory; page replacement",
+      "difficulty": "advanced",
+      "stem": "A process references pages 1, 2, 3, 1, 4 with three initially empty frames. Under FIFO replacement, how many page faults occur?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Three is incorrect because page 4 causes a fault after the three frames are filled.",
+        "Correct. References 1, 2 and 3 fault; the second reference to 1 hits; page 4 faults, giving four faults.",
+        "Five would incorrectly count the repeated reference to page 1 as a fault.",
+        "Two ignores the initial page loads."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; Virtual memory; page replacement."
+    },
+    {
+      "id": "P2-DB-008",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "SQL; aggregate functions and NULL",
+      "difficulty": "advanced",
+      "stem": "In SQL, what does COUNT(column_name) return when some rows contain NULL in that column?",
+      "options": [
+        "The total number of rows including NULLs",
+        "The number of non-NULL values in that column",
+        "The number of distinct non-NULL values only",
+        "Always zero if any NULL exists"
+      ],
+      "answer": 1,
+      "explanations": [
+        "COUNT(*) counts rows, including rows with NULLs.",
+        "Correct. COUNT(column_name) counts non-NULL values in that column.",
+        "COUNT(DISTINCT column_name) counts distinct non-NULL values.",
+        "The presence of NULL values does not force the count to zero."
+      ],
+      "basis": "Official Paper II syllabus: Databases; SQL; aggregate functions and NULL."
+    },
+    {
+      "id": "P2-ALG-007",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Sorting; asymptotic complexity",
+      "difficulty": "moderate",
+      "stem": "Which sorting algorithm has O(n log n) worst-case time and is stable in its standard array implementation?",
+      "options": [
+        "Heap sort",
+        "Merge sort",
+        "Selection sort",
+        "Quick sort"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Heap sort has O(n log n) worst-case time but is not stable in its standard in-place form.",
+        "Correct. Merge sort has O(n log n) worst-case time and is stable when equal keys are merged consistently.",
+        "Selection sort has O(n²) time in the usual implementation.",
+        "Quicksort has O(n²) worst-case time and is not stable in its standard form."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; Sorting; asymptotic complexity."
+    },
+    {
+      "id": "P2-TOC-005",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Finite automata; distinguishability and minimisation",
+      "difficulty": "advanced",
+      "stem": "In DFA minimisation, two states are equivalent if:",
+      "options": [
+        "They have the same state names",
+        "No input string distinguishes their acceptance behaviour",
+        "They have identical outgoing transition labels only",
+        "They are both accepting states"
+      ],
+      "answer": 1,
+      "explanations": [
+        "State names have no bearing on equivalence.",
+        "Correct. States are equivalent when every possible suffix leads to the same acceptance result from both states.",
+        "Matching labels alone is insufficient; destination behaviour matters.",
+        "Two accepting states may still be distinguishable by some input string."
+      ],
+      "basis": "Official Paper II syllabus: Theory of Computation; Finite automata; distinguishability and minimisation."
+    },
+    {
+      "id": "P2-COA-007",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Memory hierarchy; average memory access time",
+      "difficulty": "advanced",
+      "stem": "A cache has hit time 2 ns, miss penalty 50 ns and hit ratio 0.9. Using AMAT = hit time + miss rate × miss penalty, what is AMAT?",
+      "options": [
+        "5 ns",
+        "7 ns",
+        "10 ns",
+        "52 ns"
+      ],
+      "answer": 1,
+      "explanations": [
+        "5 ns would require a miss penalty contribution of 3 ns, not 5.",
+        "Correct. AMAT=2+(0.1×50)=7 ns.",
+        "10 ns overstates the miss contribution.",
+        "52 ns ignores the high hit ratio."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; Memory hierarchy; average memory access time."
+    },
+    {
+      "id": "P2-PROB-004",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Conditional probability; independence",
+      "difficulty": "advanced",
+      "stem": "Events A and B are independent, with P(A)=0.4 and P(B)=0.5. What is P(A∩B)?",
+      "options": [
+        "0.1",
+        "0.2",
+        "0.4",
+        "0.9"
+      ],
+      "answer": 1,
+      "explanations": [
+        "0.1 is not the product of the independent event probabilities.",
+        "Correct. Independence gives P(A∩B)=0.4×0.5=0.2.",
+        "0.4 is P(A), not the intersection probability.",
+        "0.9 is the sum, not the intersection."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics; Conditional probability; independence."
+    },
+    {
+      "id": "P2-COMP-006",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Parsing; operator precedence and associativity",
+      "difficulty": "moderate",
+      "stem": "For the expression a-b-c, if subtraction is left-associative, it is parsed as:",
+      "options": [
+        "a-(b-c)",
+        "(a-b)-c",
+        "The expression is invalid",
+        "a-(b+c)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "This is right-associative grouping.",
+        "Correct. Left associativity groups the leftmost operation first: (a-b)-c.",
+        "The expression is valid under ordinary arithmetic grammar.",
+        "The second operation is subtraction, not addition."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; Parsing; operator precedence and associativity."
+    },
+    {
+      "id": "P2-DS-005",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Linked lists; pointer operations",
+      "difficulty": "moderate",
+      "stem": "In a singly linked list with only a head pointer, inserting a node at the beginning takes:",
+      "options": [
+        "O(1) time",
+        "O(log n) time",
+        "O(n) time",
+        "O(n log n) time"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Set the new node's next pointer to the old head and update head; this is constant time.",
+        "No traversal or logarithmic search is required.",
+        "Linear time is needed for traversal-based operations, not insertion at the head.",
+        "There is no sorting or divide-and-conquer operation."
+      ],
+      "basis": "Official Paper II syllabus: Programming and Data Structures; Linked lists; pointer operations."
+    },
+    {
+      "id": "P2-NET-007",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "IPv4; subnetting and address allocation",
+      "difficulty": "advanced",
+      "stem": "A network is divided using a /26 prefix. How many usable host addresses are available in each ordinary IPv4 subnet, assuming network and broadcast addresses are reserved?",
+      "options": [
+        "30",
+        "62",
+        "64",
+        "126"
+      ],
+      "answer": 1,
+      "explanations": [
+        "30 usable hosts corresponds to a /27 subnet.",
+        "Correct. A /26 leaves 6 host bits: 2⁶=64 total addresses, minus network and broadcast gives 62 usable hosts.",
+        "64 is the total address count, not the usable host count.",
+        "126 usable hosts corresponds to a /25 subnet."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; IPv4; subnetting and address allocation."
+    },
+    {
+      "id": "P2-DB-009",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Concurrency control; serializability",
+      "difficulty": "advanced",
+      "stem": "A schedule is conflict-serializable if and only if its precedence graph is:",
+      "options": [
+        "Complete",
+        "Acyclic",
+        "Strongly connected",
+        "Bipartite"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Completeness is not the serializability criterion.",
+        "Correct. A schedule is conflict-serializable exactly when its precedence (serialization) graph has no directed cycle.",
+        "Strong connectivity is not required and would not be the criterion.",
+        "Bipartiteness is unrelated to conflict serializability."
+      ],
+      "basis": "Official Paper II syllabus: Databases; Concurrency control; serializability."
+    },
+    {
+      "id": "P2-ALG-008",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Dynamic programming; matrix-chain multiplication",
+      "difficulty": "advanced",
+      "stem": "For matrix-chain multiplication, the dynamic-programming method primarily minimises:",
+      "options": [
+        "The number of matrices",
+        "The number of scalar multiplications",
+        "The number of result matrices",
+        "The memory addresses used by matrices"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The number of matrices in the chain is fixed by the input.",
+        "Correct. Matrix-chain order optimisation chooses parenthesisation to minimise scalar multiplication cost.",
+        "The chain produces one final product matrix.",
+        "Memory addresses are not the objective of the standard matrix-chain cost recurrence."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; Dynamic programming; matrix-chain multiplication."
+    },
+    {
+      "id": "P2-OS-007",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Process synchronisation; semaphores",
+      "difficulty": "advanced",
+      "stem": "A binary semaphore initially set to 1 is used as a mutex. What happens when a process successfully performs wait(P) on it?",
+      "options": [
+        "Its value becomes 0 and the process enters the critical section if the lock was free",
+        "Its value becomes 2",
+        "All waiting processes enter the critical section together",
+        "The semaphore is permanently destroyed"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. wait decrements the available permit from 1 to 0, granting exclusive entry; another process must wait until signal(V).",
+        "A binary semaphore does not increase to 2 in this use.",
+        "Mutual exclusion permits only one process in the critical section at a time.",
+        "The semaphore remains a synchronisation object and can be signalled."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; Process synchronisation; semaphores."
+    },
+    {
+      "id": "P1-CONST-008",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Parliament; joint sitting",
+      "difficulty": "advanced",
+      "stem": "A joint sitting of Parliament to resolve a deadlock on an ordinary bill is presided over by:",
+      "options": [
+        "The President",
+        "The Vice-President",
+        "The Speaker of the Lok Sabha",
+        "The Deputy Chairman of the Rajya Sabha"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The President summons a joint sitting but does not preside over it.",
+        "The Vice-President chairs the Rajya Sabha, not a joint sitting.",
+        "Correct. The Speaker of the Lok Sabha presides over a joint sitting under Article 118(4).",
+        "The Deputy Chairman presides over the Rajya Sabha in the Chairman's absence, not ordinarily over a joint sitting."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; Parliament; joint sitting."
+    },
+    {
+      "id": "P1-TEL-008",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Telangana movement; 1969 agitation",
+      "difficulty": "advanced",
+      "stem": "The Telangana Praja Samithi, which emerged during the 1969 Telangana agitation, was prominently led by:",
+      "options": [
+        "M. Chenna Reddy",
+        "K. Chandrashekar Rao",
+        "Burgula Ramakrishna Rao",
+        "Swami Ramananda Tirtha"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. M. Chenna Reddy became the prominent leader of the Telangana Praja Samithi during the 1969 movement.",
+        "K. Chandrashekar Rao led the later statehood movement beginning in 2001.",
+        "Burgula Ramakrishna Rao was the first Chief Minister of Hyderabad State.",
+        "Swami Ramananda Tirtha was associated with the Hyderabad State liberation movement."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state; Telangana movement; 1969 agitation."
+    },
+    {
+      "id": "P1-ECON-008",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Monetary policy; repo rate",
+      "difficulty": "advanced",
+      "stem": "If the RBI raises the repo rate, other things being equal, which immediate direction of effect is most likely?",
+      "options": [
+        "Banks find short-term borrowing from RBI cheaper",
+        "Borrowing costs tend to rise, moderating credit demand",
+        "The money supply automatically doubles",
+        "Government tax revenue immediately increases"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A repo-rate increase makes eligible RBI borrowing more expensive, not cheaper.",
+        "Correct. Higher policy rates tend to raise borrowing costs and restrain credit demand, with lags.",
+        "A repo-rate change does not mechanically double the money supply.",
+        "Tax revenue does not automatically increase as an immediate mechanical result."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana; Monetary policy; repo rate."
+    },
+    {
+      "id": "P1-GEO-005",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Telangana rivers; Krishna basin",
+      "difficulty": "moderate",
+      "stem": "Which river forms a substantial part of Telangana's southern boundary with Andhra Pradesh?",
+      "options": [
+        "Godavari",
+        "Krishna",
+        "Musi",
+        "Manjira"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Godavari is a major northern river system in Telangana.",
+        "Correct. The Krishna forms a substantial stretch of the southern boundary between Telangana and Andhra Pradesh.",
+        "Musi is a tributary of the Krishna flowing through Hyderabad; it does not form the state boundary.",
+        "Manjira is a tributary of the Godavari system."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; Telangana rivers; Krishna basin."
+    },
+    {
+      "id": "P1-SCI-006",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Physics; electromagnetic induction",
+      "difficulty": "advanced",
+      "stem": "According to Faraday's law, the magnitude of induced emf in a coil is proportional to:",
+      "options": [
+        "The magnetic flux itself only",
+        "The rate of change of magnetic flux linkage",
+        "The electrical resistance of the coil only",
+        "The square of the current"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A constant flux does not induce emf merely by being present; change in flux matters.",
+        "Correct. Induced emf magnitude is proportional to the time rate of change of magnetic flux linkage.",
+        "Resistance affects current for a given emf, not the induced emf law itself.",
+        "The law does not state a square-current relationship."
+      ],
+      "basis": "Official Paper I syllabus: General Science; India’s Achievements in Science and Technology; Physics; electromagnetic induction."
+    },
+    {
+      "id": "P1-ENV-008",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Climate change; greenhouse effect",
+      "difficulty": "advanced",
+      "stem": "Which statement about the enhanced greenhouse effect is scientifically correct?",
+      "options": [
+        "Greenhouse gases absorb and re-emit outgoing longwave radiation, increasing heat retention",
+        "The ozone hole is the sole cause of global warming",
+        "Greenhouse gases prevent all incoming solar radiation",
+        "The greenhouse effect occurs only in urban areas"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Greenhouse gases absorb and re-emit portions of outgoing terrestrial longwave radiation, changing Earth's energy balance.",
+        "Ozone depletion and global warming are distinct phenomena; the ozone hole is not the sole cause.",
+        "Most incoming shortwave solar radiation still reaches Earth's surface.",
+        "The natural greenhouse effect operates globally, not only in cities."
+      ],
+      "basis": "Official Paper I syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies; Climate change; greenhouse effect."
+    },
+    {
+      "id": "P1-REASON-008",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Data interpretation; weighted average",
+      "difficulty": "advanced",
+      "stem": "A class has 20 students with an average score of 60 and another group has 30 students with an average of 70. What is the combined average?",
+      "options": [
+        "64",
+        "65",
+        "66",
+        "68"
+      ],
+      "answer": 2,
+      "explanations": [
+        "64 is below the weighted average for these group sizes.",
+        "65 is not the weighted mean for 20 and 30 students.",
+        "Correct. (20×60+30×70)/50=66.",
+        "68 overstates the combined average."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; Data interpretation; weighted average."
+    },
+    {
+      "id": "P1-IR-006",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "International organisations; IMF and World Bank",
+      "difficulty": "moderate",
+      "stem": "Which institution is primarily concerned with balance-of-payments support and international monetary cooperation?",
+      "options": [
+        "World Trade Organization",
+        "International Monetary Fund",
+        "UNESCO",
+        "International Court of Justice"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The WTO deals primarily with rules governing international trade.",
+        "Correct. The IMF promotes international monetary cooperation and provides financing support to members facing balance-of-payments problems.",
+        "UNESCO works in education, science and culture.",
+        "The ICJ settles legal disputes between states and gives advisory opinions."
+      ],
+      "basis": "Official Paper I syllabus: International Relations and Events; International organisations; IMF and World Bank."
     }
   ],
-  "qualityNote": "Reviewed expansion through 112 questions: 56 Paper II and 56 Paper I. The current tranche is balanced across both papers. Each added item has a unique ID, existing syllabus topic mapping, four options, a keyed answer and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
+  "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
   "requirement": {
     "targetTotal": 3500,
     "targetPaper2": 2000,
     "targetPaper1": 1500,
-    "currentTotal": 112,
-    "currentPaper2": 56,
-    "currentPaper1": 56,
+    "currentTotal": 132,
+    "currentPaper2": 68,
+    "currentPaper1": 64,
     "status": "in_progress",
     "qualityGate": "Every added question must have a unique ID, official syllabus mapping, four options, a verified answer index, four option-specific explanations, and a difficulty label."
   }
