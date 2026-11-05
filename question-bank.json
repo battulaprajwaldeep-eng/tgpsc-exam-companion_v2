@@ -2513,16 +2513,39 @@
         "Certiorari is used to quash an order of a lower court or tribunal in appropriate cases."
       ],
       "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; Fundamental Rights; constitutional remedies."
+    },
+    {
+      "id": "P1-ECON-007",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Public finance; revenue and capital expenditure",
+      "difficulty": "moderate",
+      "stem": "Which of the following is generally classified as capital expenditure by a government?",
+      "options": [
+        "Payment of salaries to employees",
+        "Interest payment on existing debt",
+        "Construction of a new public hospital building",
+        "Subsidy paid for routine consumption"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Salaries are normally revenue expenditure because they do not create a durable asset.",
+        "Interest payments are revenue expenditure.",
+        "Correct. Construction of a public hospital creates a durable public asset and is classified as capital expenditure.",
+        "Routine subsidies are generally revenue expenditure."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana; public finance and government expenditure."
     }
   ],
-  "qualityNote": "Reviewed expansion through 109 questions: 54 Paper II and 55 Paper I. The latest two tranches added balanced questions across both papers. Each added item has a unique ID, existing syllabus topic mapping, four options, a keyed answer and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
+  "qualityNote": "Reviewed expansion through 110 questions: 54 Paper II and 56 Paper I. Recent additions are balanced across both papers. Each added item has a unique ID, existing syllabus topic mapping, four options, a keyed answer and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
   "requirement": {
     "targetTotal": 3500,
     "targetPaper2": 2000,
     "targetPaper1": 1500,
-    "currentTotal": 109,
+    "currentTotal": 110,
     "currentPaper2": 54,
-    "currentPaper1": 55,
+    "currentPaper1": 56,
     "status": "in_progress",
     "qualityGate": "Every added question must have a unique ID, official syllabus mapping, four options, a verified answer index, four option-specific explanations, and a difficulty label."
   }
