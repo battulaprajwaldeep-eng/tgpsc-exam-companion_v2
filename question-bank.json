@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "bankStatus": "Reviewed question bank expanded to 40 questions: 20 Paper II and 20 Paper I, sufficient for four unique 5+5 sessions before considering the user's existing local attempt history.",
-  "selectionPolicy": "Normal practice excludes every previously attempted questionId. Missed questions may be reused only in explicit revision mode.",
+  "bankStatus": "Expansion in progress: 40 reviewed starter questions currently present; final target is 3,500+ unique questions. This file does not yet meet the target.",
+  "selectionPolicy": "Normal practice excludes all attempted question IDs, restores only genuinely in-progress sessions, and selects a topic-diverse 5+5 set. Missed questions may be reused only in explicit revision mode.",
   "sessionComposition": {
     "paper2": 5,
     "paper1": 5
@@ -928,5 +928,15 @@
       "basis": "Official Paper II syllabus: regular languages and finite automata."
     }
   ],
-  "qualityNote": "The new batch was benchmarked against the uploaded 2015 Manager CS&IT Paper-II: formal relations, RAM capacity, scheduling/calculation style, functional dependencies, graph algorithms, TCP sequence arithmetic and pipeline timing. Questions are original and syllabus-mapped. The bank now contains 20 questions per paper, allowing four balanced sessions from a fresh browser profile."
+  "qualityNote": "The new batch was benchmarked against the uploaded 2015 Manager CS&IT Paper-II: formal relations, RAM capacity, scheduling/calculation style, functional dependencies, graph algorithms, TCP sequence arithmetic and pipeline timing. Questions are original and syllabus-mapped. The bank now contains 20 questions per paper, allowing four balanced sessions from a fresh browser profile.",
+  "requirement": {
+    "targetTotal": 3500,
+    "targetPaper2": 2000,
+    "targetPaper1": 1500,
+    "currentTotal": 40,
+    "currentPaper2": 20,
+    "currentPaper1": 20,
+    "status": "in_progress",
+    "qualityGate": "Every added question must have a unique ID, official syllabus mapping, four options, a verified answer index, four option-specific explanations, and a difficulty label."
+  }
 }
