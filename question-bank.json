@@ -5457,6 +5457,236 @@
         "This corresponds to a 10% reduction."
       ],
       "basis": "Paper I: Analytical ability; percentages."
+    },
+    {
+      "id": "P2-NEW-071",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Karnaugh maps",
+      "difficulty": "advanced",
+      "stem": "For a 4-variable K-map, grouping 8 adjacent 1-cells corresponds to a product term containing how many literals?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanations": [
+        "An 8-cell group eliminates three variables, leaving one literal for four variables? Wait: 4 variables minus log2(8)=3 eliminated leaves 1 literal.",
+        "Correct: an 8-cell group leaves one variable (one literal).",
+        "A 4-cell group leaves two literals.",
+        "A single minterm has four literals."
+      ],
+      "basis": "Paper II: Digital Logic; K-map minimization."
+    },
+    {
+      "id": "P2-NEW-072",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "I/O organization",
+      "difficulty": "advanced",
+      "stem": "DMA is used primarily to:",
+      "options": [
+        "Allow an I/O device to transfer blocks to/from memory with limited CPU intervention",
+        "Increase CPU clock frequency",
+        "Replace the cache",
+        "Perform arithmetic operations"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: Direct Memory Access transfers data between I/O and memory with limited CPU involvement.",
+        "DMA does not change CPU clock frequency.",
+        "DMA does not replace cache memory.",
+        "Arithmetic is performed by processing units."
+      ],
+      "basis": "Paper II: COA; I/O organization and DMA."
+    },
+    {
+      "id": "P2-NEW-073",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Synchronization",
+      "difficulty": "advanced",
+      "stem": "A semaphore initialized to 1 is commonly used as a:",
+      "options": [
+        "Counting semaphore for unlimited resources",
+        "Binary semaphore/mutex for mutual exclusion",
+        "Page table",
+        "CPU scheduler"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A value of 1 can represent one available resource, not unlimited resources.",
+        "Correct: a binary semaphore initialized to 1 can protect a critical section.",
+        "A semaphore is not a page table.",
+        "It is a synchronization primitive, not a scheduler."
+      ],
+      "basis": "Paper II: Operating Systems; process synchronization."
+    },
+    {
+      "id": "P2-NEW-074",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Indexing",
+      "difficulty": "advanced",
+      "stem": "A B+ tree index is especially useful for:",
+      "options": [
+        "Range queries and ordered traversal",
+        "Only equality checks on a single fixed value",
+        "Storing executable machine code",
+        "Replacing transaction logging"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: linked leaf nodes and ordered keys support efficient range scans.",
+        "B+ trees also support equality lookups; they are not limited to that.",
+        "They index data, not executable code.",
+        "They do not replace transaction logs."
+      ],
+      "basis": "Paper II: Databases; indexing structures."
+    },
+    {
+      "id": "P2-NEW-075",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Agile methods",
+      "difficulty": "advanced",
+      "stem": "In Scrum, who is primarily responsible for maximizing product value and managing the Product Backlog?",
+      "options": [
+        "Scrum Master",
+        "Product Owner",
+        "Development Team",
+        "Project sponsor"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The Scrum Master supports Scrum effectiveness and removes impediments.",
+        "Correct: the Product Owner is accountable for maximizing product value and Product Backlog management.",
+        "Developers create the increment and manage their work.",
+        "A sponsor may fund or support but is not the Scrum accountability."
+      ],
+      "basis": "Paper II: Software Engineering; Agile/Scrum."
+    },
+    {
+      "id": "P2-NEW-076",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Error detection",
+      "difficulty": "advanced",
+      "stem": "CRC error detection is based on:",
+      "options": [
+        "Polynomial division over GF(2)",
+        "Decimal long division",
+        "RSA exponentiation",
+        "Hamming distance alone"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: CRC uses modulo-2 polynomial division.",
+        "Decimal arithmetic is not used.",
+        "RSA is public-key cryptography.",
+        "Hamming distance is a separate error-control concept."
+      ],
+      "basis": "Paper II: Computer Networks; error detection."
+    },
+    {
+      "id": "P2-NEW-077",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "C++ constructors",
+      "difficulty": "advanced",
+      "stem": "When a C++ object is initialized from another object of the same class, which special member is typically invoked?",
+      "options": [
+        "Destructor",
+        "Copy constructor",
+        "Conversion operator",
+        "Pure virtual function"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A destructor destroys an object.",
+        "Correct: copy construction initializes a new object from an existing object.",
+        "A conversion operator handles conversions between types.",
+        "A pure virtual function is an abstract interface member."
+      ],
+      "basis": "Paper II: OOP and C++; constructors."
+    },
+    {
+      "id": "P1-NEW-031",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Climate change",
+      "difficulty": "advanced",
+      "stem": "Which gas is the largest contributor to anthropogenic radiative forcing among these options?",
+      "options": [
+        "Carbon dioxide",
+        "Argon",
+        "Neon",
+        "Helium"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: carbon dioxide is the largest contributor among these listed gases.",
+        "Argon is not a significant greenhouse gas.",
+        "Neon is not a significant greenhouse gas.",
+        "Helium is not a significant greenhouse gas."
+      ],
+      "basis": "Paper I: Environmental issues; climate change."
+    },
+    {
+      "id": "P1-NEW-032",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Federalism",
+      "difficulty": "advanced",
+      "stem": "Residuary legislative powers in India are vested in:",
+      "options": [
+        "State Legislatures",
+        "Parliament",
+        "Local bodies",
+        "High Courts"
+      ],
+      "answer": 1,
+      "explanations": [
+        "States legislate on State and Concurrent List subjects, not residuary matters.",
+        "Correct: residuary powers are vested in Parliament under Article 248 and Entry 97 of List I.",
+        "Local bodies have delegated functions.",
+        "High Courts exercise judicial, not legislative, powers."
+      ],
+      "basis": "Paper I: Indian Constitution; federal structure."
+    },
+    {
+      "id": "P1-NEW-033",
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Telangana heritage",
+      "difficulty": "advanced",
+      "stem": "The historic Ramappa Temple is located in which Telangana district?",
+      "options": [
+        "Warangal",
+        "Mulugu",
+        "Nalgonda",
+        "Adilabad"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The temple is not in present-day Warangal district.",
+        "Correct: Ramappa Temple is in Palampet, Mulugu district.",
+        "Nalgonda is in a different region.",
+        "Adilabad is in northern Telangana."
+      ],
+      "basis": "Paper I: Telangana culture and heritage."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
