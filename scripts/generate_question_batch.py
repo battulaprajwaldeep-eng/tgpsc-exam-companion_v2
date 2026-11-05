@@ -10,7 +10,7 @@ KEY=os.getenv("Gemini_Api_key") or os.getenv("GEMINI_API_KEY")
 if not KEY: raise SystemExit("Missing repository secret Gemini_Api_key.")
 def call(prompt,tokens=12000):
  url=f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent?key={KEY}"
- body={"contents":[{"role":"user","parts":[{"text":prompt}]}],"generationConfig":{"temperature":0.3,"responseMimeType":"application/json","maxOutputTokens":tokens}}
+ body={"contents":[{"role":"user","parts":[{"text":prompt}]}],"generationConfig":{"responseMimeType":"application/json","maxOutputTokens":tokens}}
  data=json.dumps(body).encode()
  for attempt in range(5):
   req=urllib.request.Request(url,data=data,headers={"Content-Type":"application/json"},method="POST")
