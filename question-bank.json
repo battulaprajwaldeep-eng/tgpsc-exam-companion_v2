@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "bankStatus": "Reviewed question bank expanded to 38 questions; four unique 10-question sessions are available in principle (subject to the local attempted-question history).",
+  "bankStatus": "Reviewed question bank expanded to 40 questions: 20 Paper II and 20 Paper I, sufficient for four unique 5+5 sessions before considering the user's existing local attempt history.",
   "selectionPolicy": "Normal practice excludes every previously attempted questionId. Missed questions may be reused only in explicit revision mode.",
   "sessionComposition": {
     "paper2": 5,
@@ -880,7 +880,53 @@
         "Positive discrimination may address disadvantage through targeted measures, but it does not describe inclusive design of the service itself."
       ],
       "basis": "Official Paper I syllabus: social exclusion, rights and inclusive policies."
+    },
+    {
+      "id": "P2-OS-002",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "CPU scheduling and waiting time",
+      "difficulty": "advanced",
+      "stem": "Three processes arrive at time 0 with CPU bursts P1=6, P2=2 and P3=4. Under non-preemptive shortest-job-first scheduling, what is the average waiting time?",
+      "options": [
+        "2.67 time units",
+        "3.00 time units",
+        "4.00 time units",
+        "6.00 time units"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The execution order is P2, P3, P1. Waiting times are 0, 2 and 6, so the average is (0+2+6)/3 = 8/3 ≈ 2.67.",
+        "Three is not the average of the waiting times for the SJF order.",
+        "Four is not the average; it is the waiting time of P1 divided incorrectly or a scheduling-order error.",
+        "Six is the waiting time of P1, not the average waiting time."
+      ],
+      "basis": "Official Paper II syllabus: CPU scheduling; benchmarked against the 2015 paper's scheduling questions."
+    },
+    {
+      "id": "P2-TOC-002",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Regular languages and non-regular languages",
+      "difficulty": "moderate",
+      "stem": "Which of the following languages over {a,b} is not regular?",
+      "options": [
+        "{aⁿbⁿ | n ≥ 0}",
+        "{aⁿbᵐ | n,m ≥ 0}",
+        "All strings ending in ab",
+        "All strings containing an even number of a's"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. A finite automaton cannot remember an arbitrary count of a's and then match the same number of b's; the pumping lemma can show this language is not regular.",
+        "This is described by the regular expression a*b*.",
+        "A finite automaton can track whether the most recent two symbols are ab.",
+        "A two-state automaton can track the parity of the number of a's."
+      ],
+      "basis": "Official Paper II syllabus: regular languages and finite automata."
     }
   ],
-  "qualityNote": "The new batch was benchmarked against the uploaded 2015 Manager CS&IT Paper-II: formal relations, RAM capacity, scheduling/calculation style, functional dependencies, graph algorithms, TCP sequence arithmetic and pipeline timing. Questions are original and syllabus-mapped."
+  "qualityNote": "The new batch was benchmarked against the uploaded 2015 Manager CS&IT Paper-II: formal relations, RAM capacity, scheduling/calculation style, functional dependencies, graph algorithms, TCP sequence arithmetic and pipeline timing. Questions are original and syllabus-mapped. The bank now contains 20 questions per paper, allowing four balanced sessions from a fresh browser profile."
 }
