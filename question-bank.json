@@ -3157,6 +3157,236 @@
         "Real GDP would be approximately unchanged only if nominal GDP and the deflator rose at the same rate."
       ],
       "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana."
+    },
+    {
+      "id": "P2-NEW-001",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Expectation and variance",
+      "difficulty": "moderate",
+      "stem": "A random variable X takes values 0, 1 and 2 with probabilities 1/4, 1/2 and 1/4 respectively. What is Var(X)?",
+      "options": [
+        "1/4",
+        "1/2",
+        "3/4",
+        "1"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This is not the second central moment.",
+        "Correct. E(X)=1 and E(X²)=3/2, so Var(X)=3/2−1=1/2.",
+        "Incorrect. This is not E(X²)−[E(X)]².",
+        "Incorrect. The variance is 1/2, not 1."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics; expectation and variance."
+    },
+    {
+      "id": "P2-NEW-002",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Rank and linear independence",
+      "difficulty": "advanced",
+      "stem": "A 3×4 matrix has rank 3. The dimension of its null space is:",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. A 3×4 matrix with rank 3 has one free variable.",
+        "Correct. By rank–nullity, nullity = number of columns − rank = 4−3=1.",
+        "Incorrect. This would require rank 2.",
+        "Incorrect. This would require rank 1."
+      ],
+      "basis": "Official Paper II syllabus: Linear Algebra; rank and nullity."
+    },
+    {
+      "id": "P2-NEW-003",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Trees and graph properties",
+      "difficulty": "moderate",
+      "stem": "A connected undirected graph has 10 vertices and 9 edges. Which statement must be true?",
+      "options": [
+        "It contains exactly one cycle.",
+        "It is a tree.",
+        "Every vertex has degree 2.",
+        "It is a complete graph."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. A connected graph with V−1 edges has no cycle.",
+        "Correct. A connected graph with V−1 edges is a tree.",
+        "Incorrect. A tree need not have every vertex of degree 2.",
+        "Incorrect. A complete graph on 10 vertices has 45 edges."
+      ],
+      "basis": "Official Paper II syllabus: Graph Theory; trees."
+    },
+    {
+      "id": "P2-NEW-004",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache mapping",
+      "difficulty": "advanced",
+      "stem": "A direct-mapped cache has 64 lines. Main-memory block number 205 maps to which cache line, using zero-based indexing?",
+      "options": [
+        "11",
+        "13",
+        "17",
+        "21"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. 205 mod 64 = 13, not 11.",
+        "Correct. Direct mapping uses block number mod number of lines: 205 mod 64 = 13.",
+        "Incorrect. 17 is not the remainder of 205 divided by 64.",
+        "Incorrect. The remainder is 13, not 21."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; cache mapping."
+    },
+    {
+      "id": "P2-NEW-005",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Asymptotic analysis",
+      "difficulty": "advanced",
+      "stem": "If T(n)=2T(n/2)+n log n, with T(1)=Θ(1), what is the asymptotic solution?",
+      "options": [
+        "Θ(n log n)",
+        "Θ(n log² n)",
+        "Θ(n²)",
+        "Θ(log² n)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This omits the additional logarithmic factor from the recurrence.",
+        "Correct. At each of log n levels, the non-recursive work totals Θ(n log(n/2^i)); summing gives Θ(n log² n).",
+        "Incorrect. The recurrence does not produce quadratic growth.",
+        "Incorrect. The recursion processes Θ(n) total input work per level."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; recurrence relations and asymptotic analysis."
+    },
+    {
+      "id": "P2-NEW-006",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Regular languages and closure",
+      "difficulty": "moderate",
+      "stem": "Which operation is guaranteed to preserve regularity when applied to two regular languages L1 and L2?",
+      "options": [
+        "Intersection",
+        "None of these",
+        "Only concatenation is not closed",
+        "Only complement is not closed"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Regular languages are closed under intersection, using product construction of finite automata.",
+        "Incorrect. Regular languages have several closure properties, including intersection.",
+        "Incorrect. Concatenation is also closed for regular languages.",
+        "Incorrect. Complement is closed by swapping accepting and non-accepting states in a complete DFA."
+      ],
+      "basis": "Official Paper II syllabus: Theory of Computation; closure properties of regular languages."
+    },
+    {
+      "id": "P2-NEW-007",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Serializability and precedence graphs",
+      "difficulty": "advanced",
+      "stem": "A schedule has precedence-graph edges T1→T2, T2→T3 and T1→T3, with no other edges. The schedule is:",
+      "options": [
+        "Not conflict serializable because it has three edges.",
+        "Conflict serializable in the order T1, T2, T3.",
+        "Conflict serializable in the order T3, T2, T1.",
+        "Not conflict serializable because every transaction must have an incoming edge."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The number of edges does not determine serializability; cycles do.",
+        "Correct. The graph is acyclic, and its topological order is T1, T2, T3.",
+        "Incorrect. This order violates the directed edges.",
+        "Incorrect. A source transaction may have no incoming edge."
+      ],
+      "basis": "Official Paper II syllabus: Databases; conflict serializability."
+    },
+    {
+      "id": "P1-NEW-001",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitutional bodies",
+      "difficulty": "moderate",
+      "stem": "The Comptroller and Auditor General of India is appointed by the:",
+      "options": [
+        "Prime Minister",
+        "President of India",
+        "Chief Justice of India",
+        "Parliament"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The Prime Minister does not formally appoint the CAG.",
+        "Correct. The President appoints the CAG under Article 148.",
+        "Incorrect. The Chief Justice has no appointment role for the CAG.",
+        "Incorrect. Parliament does not appoint the CAG."
+      ],
+      "basis": "Paper I syllabus: Indian Constitution and political system; constitutional authorities."
+    },
+    {
+      "id": "P1-NEW-002",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Telangana river systems",
+      "difficulty": "moderate",
+      "stem": "Which major river forms a substantial part of Telangana's northern boundary with Maharashtra?",
+      "options": [
+        "Musi",
+        "Manjeera",
+        "Godavari",
+        "Munneru"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Musi is a tributary of the Krishna and flows through Hyderabad.",
+        "Incorrect. Manjeera is a tributary of the Godavari but is not the major boundary river described.",
+        "Correct. The Godavari forms a substantial stretch of the Telangana–Maharashtra boundary.",
+        "Incorrect. Munneru is a tributary of the Krishna system."
+      ],
+      "basis": "Paper I syllabus: Geography and demography of Telangana."
+    },
+    {
+      "id": "P1-NEW-003",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Number series",
+      "difficulty": "moderate",
+      "stem": "Find the next term: 3, 8, 18, 38, 78, __.",
+      "options": [
+        "148",
+        "156",
+        "158",
+        "160"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. The sequence does not follow this increment.",
+        "Incorrect. This is not obtained by the repeated rule.",
+        "Correct. Each term is previous term ×2 +2: 78×2+2=158.",
+        "Incorrect. Doubling 78 gives 156; the rule adds 2."
+      ],
+      "basis": "Paper I syllabus: Logical reasoning and analytical ability."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
