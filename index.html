@@ -10,7 +10,7 @@
 <script>const $=id=>document.getElementById(id);
 let cse=[],gs=[],bank=[],session=[],i=0;
 let s=JSON.parse(localStorage.getItem("tgpscState")||"{}");
-s.schemaVersion=2;s.answers=s.answers||{};s.completed=s.completed||[];s.history=s.history||[];s.attemptedIds=s.attemptedIds||[];s.activeSession=null;
+s.schemaVersion=2;s.answers=s.answers||{};s.completed=s.completed||[];s.history=s.history||[];s.attemptedIds=s.attemptedIds||[];s.activeSession=s.activeSession||null;s.currentIndex=s.currentIndex||0;
 function save(){localStorage.setItem("tgpscState",JSON.stringify(s));stats()}
 function show(id){document.querySelectorAll(".view").forEach(x=>x.classList.toggle("active",x.id===id));document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("active",x.dataset.view===id));if(id==="progress")historyView();if(id==="syllabus")syllabusView();scrollTo(0,0)}
 async function loadBank(){if(bank.length)return true;try{const r=await fetch("./question-bank.json");if(!r.ok)throw Error();const d=await r.json();bank=d.questions||[];return bank.length>0}catch(e){alert("Question bank could not load. Check your connection and refresh.");return false}}
