@@ -3617,6 +3617,236 @@
         "Earth's gravity provides the centripetal force."
       ],
       "basis": "Paper I: General Science; space technology."
+    },
+    {
+      "id": "P2-NEW-015",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Binomial distribution",
+      "difficulty": "advanced",
+      "stem": "If X~Binomial(5,0.2), what is P(X=0)?",
+      "options": [
+        "0.32768",
+        "0.4096",
+        "0.2",
+        "0.8"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: (1−0.2)^5=0.8^5=0.32768.",
+        "This is 0.8^4, not 0.8^5.",
+        "This is the success probability, not P(X=0).",
+        "This is the failure probability for one trial."
+      ],
+      "basis": "Paper II: Probability; binomial distribution."
+    },
+    {
+      "id": "P2-NEW-016",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Eigenvalues",
+      "difficulty": "advanced",
+      "stem": "The sum of the eigenvalues of a square matrix, counted with algebraic multiplicity, equals its:",
+      "options": [
+        "Determinant",
+        "Trace",
+        "Rank",
+        "Nullity"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The determinant is the product of eigenvalues.",
+        "Correct: the trace equals the sum of eigenvalues.",
+        "Rank is not generally their sum.",
+        "Nullity is the dimension of the null space."
+      ],
+      "basis": "Paper II: Linear Algebra; eigenvalues and trace."
+    },
+    {
+      "id": "P2-NEW-017",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Euler trails",
+      "difficulty": "advanced",
+      "stem": "A connected undirected graph has an Euler circuit exactly when:",
+      "options": [
+        "Every vertex has even degree",
+        "Exactly two vertices have odd degree",
+        "It is complete",
+        "It has no bridges"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: connectedness (ignoring isolated vertices) and all even degrees characterize an Euler circuit.",
+        "Two odd-degree vertices give an Euler trail but not a circuit.",
+        "Completeness is unnecessary.",
+        "Bridges may exist in an Eulerian graph."
+      ],
+      "basis": "Paper II: Graph Theory; Eulerian graphs."
+    },
+    {
+      "id": "P2-NEW-018",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Binary search trees",
+      "difficulty": "advanced",
+      "stem": "Inorder traversal of a binary search tree with distinct keys produces keys in:",
+      "options": [
+        "Preorder",
+        "Descending order always",
+        "Ascending order",
+        "Level order"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Preorder visits root first.",
+        "Inorder is ascending for the standard BST ordering.",
+        "Correct: left subtree, root, right subtree yields ascending keys.",
+        "Level order uses breadth-first traversal."
+      ],
+      "basis": "Paper II: Data Structures; trees and traversals."
+    },
+    {
+      "id": "P2-NEW-019",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Dijkstra algorithm",
+      "difficulty": "advanced",
+      "stem": "Dijkstra's shortest-path algorithm is not generally correct when the graph contains:",
+      "options": [
+        "Only positive edge weights",
+        "Negative edge weights",
+        "No cycles",
+        "A single source"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Positive weights satisfy its key assumption.",
+        "Correct: a negative edge can improve a vertex after it has been finalized.",
+        "Acyclicity is not required.",
+        "A single source is the normal input."
+      ],
+      "basis": "Paper II: Algorithms; shortest paths."
+    },
+    {
+      "id": "P2-NEW-020",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Context-free languages",
+      "difficulty": "advanced",
+      "stem": "Which language is context-free but not regular?",
+      "options": [
+        "{a^n b^n | n≥0}",
+        "{a^n | n≥0}",
+        "{a,b}*",
+        "{a*b*}"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: a pushdown automaton can match counts using its stack; it is not regular.",
+        "This is a* and regular.",
+        "Every string over the alphabet is regular.",
+        "a*b* is regular."
+      ],
+      "basis": "Paper II: TOC; context-free languages."
+    },
+    {
+      "id": "P2-NEW-021",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Functional dependencies",
+      "difficulty": "advanced",
+      "stem": "If X→Y and Y→Z, which dependency follows by transitivity?",
+      "options": [
+        "Z→X",
+        "X→Z",
+        "Y→X",
+        "XZ→Y"
+      ],
+      "answer": 1,
+      "explanations": [
+        "No reverse dependency follows.",
+        "Correct: Armstrong's transitivity rule gives X→Z.",
+        "The given dependencies do not imply Y→X.",
+        "This is not the transitive conclusion."
+      ],
+      "basis": "Paper II: Databases; functional dependencies."
+    },
+    {
+      "id": "P1-NEW-007",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Fundamental rights",
+      "difficulty": "advanced",
+      "stem": "Which Article of the Indian Constitution guarantees equality before the law?",
+      "options": [
+        "Article 14",
+        "Article 19",
+        "Article 21",
+        "Article 32"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: Article 14 guarantees equality before the law and equal protection of laws.",
+        "Article 19 protects specified freedoms.",
+        "Article 21 protects life and personal liberty.",
+        "Article 32 provides constitutional remedies."
+      ],
+      "basis": "Paper I: Indian Constitution; Fundamental Rights."
+    },
+    {
+      "id": "P1-NEW-008",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "Physical, Social and Economic Geography of India",
+      "subtopic": "Indian rivers",
+      "difficulty": "advanced",
+      "stem": "Which river is commonly described as the 'Dakshin Ganga'?",
+      "options": [
+        "Narmada",
+        "Godavari",
+        "Kaveri",
+        "Mahanadi"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Narmada flows westward and is not called Dakshin Ganga.",
+        "Correct: Godavari is often called the Ganga of the South.",
+        "Kaveri is a major southern river but not the usual epithet.",
+        "Mahanadi drains east-central India."
+      ],
+      "basis": "Paper I: Geography of India."
+    },
+    {
+      "id": "P1-NEW-009",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Syllogism",
+      "difficulty": "advanced",
+      "stem": "Statements: All engineers are graduates. Some graduates are artists. Which conclusion necessarily follows?",
+      "options": [
+        "Some engineers are artists",
+        "All artists are engineers",
+        "All engineers are graduates",
+        "No graduate is an engineer"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The overlap between engineers and artists is not established.",
+        "The statement does not make all artists engineers.",
+        "Correct: this directly restates the first premise.",
+        "This contradicts the first premise."
+      ],
+      "basis": "Paper I: Logical reasoning; syllogisms."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
