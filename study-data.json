@@ -555,6 +555,7 @@
     },
     "answerReview": "After submission, explain the correct answer and why each of the other three options is wrong.",
     "qualityControl": "Independently validate answer keys and calculations. Exclude uncertain questions.",
-    "currentBankStatus": "The 10 questions embedded in index.html are starter/demo questions, not a validated exam-level question bank."
+    "currentBankStatus": "20 syllabus-mapped questions in question-bank.json: two unique 10-question sessions, each containing 5 Paper II and 5 Paper I questions. Questions have permanent IDs, difficulty tags, four option explanations and syllabus basis. This is an initial reviewed batch, not a comprehensive bank; expand and review further batches.",
+    "runtime": "The website records attempted question IDs locally and excludes them from normal practice. It scores Paper II at 2 marks per correct answer and Paper I at 1 mark per correct answer; no negative marking is applied because none is specified in the stored notification profile."
   }
 }
