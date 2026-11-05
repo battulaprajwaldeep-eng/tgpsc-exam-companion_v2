@@ -4077,6 +4077,236 @@
         "The phrase is incomplete and uses the wrong agreement."
       ],
       "basis": "Paper I: Basic English."
+    },
+    {
+      "id": "P2-NEW-029",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Normal distribution",
+      "difficulty": "advanced",
+      "stem": "For a standard normal variable Z, approximately what is P(−1≤Z≤1)?",
+      "options": [
+        "0.50",
+        "0.6827",
+        "0.9545",
+        "0.9973"
+      ],
+      "answer": 1,
+      "explanations": [
+        "0.50 is too small for the central one-standard-deviation interval.",
+        "Correct: the empirical normal probability is about 68.27%.",
+        "About 95.45% lies within two standard deviations.",
+        "About 99.73% lies within three standard deviations."
+      ],
+      "basis": "Paper II: Probability; normal distribution."
+    },
+    {
+      "id": "P2-NEW-030",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Matrix determinants",
+      "difficulty": "advanced",
+      "stem": "If A is a 3×3 matrix and det(A)=−2, then det(3A) equals:",
+      "options": [
+        "−6",
+        "−18",
+        "−54",
+        "−2"
+      ],
+      "answer": 2,
+      "explanations": [
+        "For a 3×3 matrix the determinant scales by 3³, not 3.",
+        "The scale factor is 27, not 9.",
+        "Correct: det(3A)=3³det(A)=27(−2)=−54.",
+        "Scaling the matrix changes its determinant."
+      ],
+      "basis": "Paper II: Linear Algebra; determinants."
+    },
+    {
+      "id": "P2-NEW-031",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Combinatorics",
+      "difficulty": "advanced",
+      "stem": "How many distinct permutations can be formed from the letters of LEVEL?",
+      "options": [
+        "30",
+        "60",
+        "120",
+        "720"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: 5!/(2!×2!)=30, accounting for two Ls and two Es.",
+        "This overcounts repeated letters.",
+        "This overcounts repeated letters.",
+        "This treats all five letters as distinct."
+      ],
+      "basis": "Paper II: Discrete Mathematics; permutations with repetition."
+    },
+    {
+      "id": "P2-NEW-032",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Queue implementation",
+      "difficulty": "advanced",
+      "stem": "A circular queue of array capacity N commonly distinguishes full from empty by:",
+      "options": [
+        "Using only front=rear for both states",
+        "Maintaining a count or reserving one array slot",
+        "Sorting the queue after every insertion",
+        "Using recursion"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The same front/rear relation can otherwise be ambiguous.",
+        "Correct: a count or one-unused-slot convention distinguishes states.",
+        "Sorting is unrelated to queue state.",
+        "Recursion is not required."
+      ],
+      "basis": "Paper II: Data Structures; queues."
+    },
+    {
+      "id": "P2-NEW-033",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Greedy algorithms",
+      "difficulty": "advanced",
+      "stem": "Kruskal's algorithm constructs a minimum spanning tree by:",
+      "options": [
+        "Repeatedly selecting the lightest edge that does not form a cycle",
+        "Selecting the largest edge first",
+        "Running BFS from every vertex",
+        "Sorting vertices by degree"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: it processes edges in nondecreasing weight and uses cycle detection.",
+        "Largest-first does not guarantee a minimum spanning tree.",
+        "BFS does not solve weighted MST in general.",
+        "Vertex degree sorting is not Kruskal's rule."
+      ],
+      "basis": "Paper II: Algorithms; minimum spanning trees."
+    },
+    {
+      "id": "P2-NEW-034",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Normalization",
+      "difficulty": "advanced",
+      "stem": "A relation is in BCNF if for every non-trivial functional dependency X→Y:",
+      "options": [
+        "Y is a prime attribute",
+        "X is a superkey",
+        "Y contains all candidate keys",
+        "X is a foreign key"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Prime attributes are relevant to 3NF, not sufficient for BCNF.",
+        "Correct: every determinant of a non-trivial dependency must be a superkey.",
+        "This is not the BCNF condition.",
+        "Foreign-key status is unrelated."
+      ],
+      "basis": "Paper II: Databases; normalization."
+    },
+    {
+      "id": "P2-NEW-035",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "HTTP methods",
+      "difficulty": "advanced",
+      "stem": "Which HTTP method is defined as safe and idempotent?",
+      "options": [
+        "POST",
+        "PATCH",
+        "GET",
+        "CONNECT"
+      ],
+      "answer": 2,
+      "explanations": [
+        "POST is not defined as safe or idempotent.",
+        "PATCH is not generally idempotent by definition.",
+        "Correct: GET is safe and idempotent.",
+        "CONNECT is not a safe retrieval method."
+      ],
+      "basis": "Paper II: Web Technologies; HTTP semantics."
+    },
+    {
+      "id": "P1-NEW-013",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Parliament",
+      "difficulty": "advanced",
+      "stem": "A Money Bill can be introduced only in:",
+      "options": [
+        "Lok Sabha",
+        "Rajya Sabha",
+        "Either House",
+        "A joint sitting"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: Article 110 requires introduction in Lok Sabha.",
+        "Rajya Sabha cannot introduce a Money Bill.",
+        "Only Lok Sabha may introduce it.",
+        "A joint sitting is not the introduction procedure."
+      ],
+      "basis": "Paper I: Indian Constitution; Parliament."
+    },
+    {
+      "id": "P1-NEW-014",
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Telangana culture",
+      "difficulty": "advanced",
+      "stem": "Bathukamma is primarily associated with which type of celebration?",
+      "options": [
+        "Harvest and floral festival",
+        "Maritime trade fair",
+        "Winter sports festival",
+        "Military parade"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: Bathukamma is a floral festival celebrated by women in Telangana, associated with seasonal and cultural traditions.",
+        "It is not a maritime trade fair.",
+        "It is not a sports event.",
+        "It is not a military event."
+      ],
+      "basis": "Paper I: Telangana society, culture and heritage."
+    },
+    {
+      "id": "P1-NEW-015",
+      "paper": 1,
+      "topicId": "p1-13",
+      "topic": "Policies of Telangana State",
+      "subtopic": "State administration",
+      "difficulty": "advanced",
+      "stem": "The state-level executive authority formally vests in the:",
+      "options": [
+        "Governor",
+        "Chief Secretary",
+        "Speaker",
+        "State Election Commissioner"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: the executive power of the State is vested in the Governor, exercised in accordance with the Constitution.",
+        "The Chief Secretary is the senior civil servant.",
+        "The Speaker presides over the Legislative Assembly.",
+        "The State Election Commissioner oversees local-body elections."
+      ],
+      "basis": "Paper I: Telangana State policies and governance."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
