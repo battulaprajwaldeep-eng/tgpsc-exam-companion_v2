@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "bankStatus": "Initial validated starter batch; expand in reviewed batches. Not a complete syllabus bank.",
+  "selectionPolicy": "Normal practice excludes every previously attempted questionId. Missed questions may be reused only in explicit revision mode.",
+  "sessionComposition": {
+    "paper2": 5,
+    "paper1": 5
+  },
+  "questions": [
+    {
+      "id": "P2-PROB-001",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Conditional probability and Bayes' theorem",
+      "difficulty": "moderate",
+      "stem": "A diagnostic test has 90% sensitivity and 95% specificity. A condition affects 2% of a population. A randomly selected person tests positive. Approximately what is the probability that the person actually has the condition?",
+      "options": [
+        "26.9%",
+        "64.7%",
+        "90.0%",
+        "95.0%"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. By Bayes' theorem: (0.90×0.02) / [(0.90×0.02)+(0.05×0.98)] = 0.018/0.067 ≈ 26.9%.",
+        "This does not follow from the stated prevalence, sensitivity and false-positive rate; it overstates the posterior probability.",
+        "Sensitivity is P(positive | condition), not P(condition | positive). These are different conditional probabilities.",
+        "Specificity is P(negative | no condition), not the probability of disease after a positive result."
+      ],
+      "basis": "Official Paper II syllabus: Probability; conditional probability."
+    },
+    {
+      "id": "P2-DS-001",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C pointers and array traversal",
+      "difficulty": "advanced",
+      "stem": "Consider `int a[] = {4, 7, 9, 12}; int *p = a + 1;`. What is the value of `*(p + 2) - *(p - 1)`?",
+      "options": [
+        "3",
+        "5",
+        "8",
+        "12"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The expression is not 3: p points to a[1], so p+2 points to a[3] and p−1 to a[0].",
+        "The value 5 is not obtained from the indexed elements in the expression.",
+        "Correct. *(p+2)=a[3]=12 and *(p−1)=a[0]=4; 12−4=8.",
+        "12 is the value of *(p+2), not the difference."
+      ],
+      "basis": "Official Paper II syllabus: Programming in C; pointers/arrays within programming and data structures."
+    },
+    {
+      "id": "P2-DB-001",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "SQL grouping and HAVING",
+      "difficulty": "moderate",
+      "stem": "A table `Orders(customer_id, amount)` contains rows (1, 40), (1, 70), (2, 80), (2, 30), (3, 95). Which query returns customer IDs whose total order amount is at least 100?",
+      "options": [
+        "SELECT customer_id FROM Orders WHERE SUM(amount)>=100 GROUP BY customer_id;",
+        "SELECT customer_id FROM Orders GROUP BY customer_id HAVING SUM(amount)>=100;",
+        "SELECT customer_id FROM Orders HAVING amount>=100 GROUP BY customer_id;",
+        "SELECT customer_id, SUM(amount) FROM Orders WHERE amount>=100 GROUP BY customer_id;"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Aggregate functions such as SUM cannot be used in WHERE to filter groups; WHERE filters rows before grouping.",
+        "Correct. GROUP BY forms customer groups, and HAVING filters those groups using the aggregate total.",
+        "This uses HAVING with a non-grouped row-level column and places clauses in the wrong order; it does not express the required group condition.",
+        "Filtering rows with amount>=100 first would discard the 40, 70, 80 and 30 rows, so it would not calculate each customer's full total."
+      ],
+      "basis": "Official Paper II syllabus: SQL; relational model and database design."
+    },
+    {
+      "id": "P2-OS-001",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Virtual memory and page faults",
+      "difficulty": "advanced",
+      "stem": "A process uses FIFO page replacement with 3 frames. The reference string is 1, 2, 3, 1, 4, 2, 5. How many page faults occur?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Five is too low. After loading 1,2,3, the later references cause additional replacements under FIFO.",
+        "Correct. Faults occur on 1,2,3,4,2,5. The second reference to 1 is a hit; FIFO evicts 1 when 4 arrives, so 2 then faults as well.",
+        "Seven would mean every reference faults, but the second reference to 1 is a hit.",
+        "Four omits the FIFO replacement faults after the initial three pages."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; memory management and virtual memory."
+    },
+    {
+      "id": "P2-ALG-001",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Recurrence relations and asymptotic analysis",
+      "difficulty": "moderate",
+      "stem": "A divide-and-conquer algorithm satisfies T(n)=2T(n/2)+n log₂n for n>1, with T(1)=Θ(1). What is its asymptotic running time?",
+      "options": [
+        "Θ(n log n)",
+        "Θ(n log² n)",
+        "Θ(n²)",
+        "Θ(log² n)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "This would apply if the combine cost were Θ(n), not n log n.",
+        "Correct. At each of log n levels, the total non-recursive work across that level is Θ(n log(n/2^i)); summing over levels gives Θ(n log² n).",
+        "The recurrence has two half-size subproblems, so the total work does not grow quadratically.",
+        "This ignores the total work across the n-sized problem and is far too small."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; recurrence relations and time-complexity analysis."
+    },
+    {
+      "id": "P1-REASON-001",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Data interpretation and percentage change",
+      "difficulty": "moderate",
+      "stem": "A municipal division reduced reported water losses from 25% of input volume to 20%, while input volume remained 8 million litres per day. By how many litres per day did the loss decrease?",
+      "options": [
+        "0.2 million",
+        "0.4 million",
+        "0.5 million",
+        "1.0 million"
+      ],
+      "answer": 1,
+      "explanations": [
+        "0.2 million litres would represent a 2.5 percentage-point reduction of 8 million, not the stated 5-point reduction.",
+        "Correct. The loss rate falls from 25% to 20%, a 5 percentage-point decrease. 0.05 × 8,000,000 = 400,000 litres, or 0.4 million litres per day.",
+        "0.5 million would require a 6.25 percentage-point reduction at this input volume.",
+        "1.0 million would require a 12.5 percentage-point reduction at this input volume."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation."
+    },
+    {
+      "id": "P1-CONST-001",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitutional provisions and financial control",
+      "difficulty": "moderate",
+      "stem": "A state government proposes expenditure from the Consolidated Fund of the State. Which constitutional requirement is central to authorising that expenditure?",
+      "options": [
+        "Prior recommendation of the Governor for every individual payment",
+        "Appropriation by law, following grants voted by the Legislative Assembly and related constitutional procedure",
+        "Approval by the State Finance Commission",
+        "A resolution of the Legislative Council alone"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The Governor's recommendation is required for specified financial procedures, but not as a substitute for legislative appropriation for every payment.",
+        "Correct. Article 204 provides for appropriation by law from the Consolidated Fund of the State, following the constitutional process for grants and charged expenditure.",
+        "The State Finance Commission deals with local-body finances; it does not authorise state-government expenditure from the Consolidated Fund.",
+        "The Legislative Council cannot alone authorise such appropriation; the Legislative Assembly has the key role in voting demands for grants."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy."
+    },
+    {
+      "id": "P1-HIST-001",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "National movement and constitutional reforms",
+      "difficulty": "moderate",
+      "stem": "Which feature most clearly distinguished the 1919 Government of India Act from the earlier 1909 reforms in provincial administration?",
+      "options": [
+        "Introduction of separate electorates for Muslims",
+        "Introduction of dyarchy in the provinces",
+        "Establishment of the Federal Court",
+        "Abolition of the office of Secretary of State"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Separate electorates for Muslims were introduced under the 1909 Morley–Minto reforms, not the distinguishing feature asked here.",
+        "Correct. The 1919 Act introduced dyarchy in provinces, dividing provincial subjects into reserved and transferred categories.",
+        "The Federal Court was established under the Government of India Act, 1935 and began functioning in 1937.",
+        "The Secretary of State's office was not abolished by the 1919 Act."
+      ],
+      "basis": "Official Paper I syllabus: Modern Indian History with special emphasis on Indian National Movement."
+    },
+    {
+      "id": "P1-TEL-001",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Telangana river systems",
+      "difficulty": "standard",
+      "stem": "Which pair correctly identifies two major rivers that flow through Telangana?",
+      "options": [
+        "Godavari and Krishna",
+        "Mahanadi and Cauvery",
+        "Narmada and Tapi",
+        "Periyar and Pennar"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Godavari and Krishna are the principal river systems associated with Telangana; several tributaries also drain the state.",
+        "Mahanadi and Cauvery are not the two major river systems flowing through Telangana.",
+        "Narmada and Tapi flow much farther west and do not form Telangana's principal river systems.",
+        "Periyar is a Kerala river and Pennar is associated with the southern Deccan, not the principal pair for Telangana."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana."
+    },
+    {
+      "id": "P1-ENV-001",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Disaster risk reduction",
+      "difficulty": "advanced",
+      "stem": "A district administration maps flood-prone settlements, restricts new construction in high-risk zones, raises critical electrical equipment above expected flood levels and conducts evacuation drills. These measures are best classified as:",
+      "options": [
+        "Only post-disaster relief",
+        "A combination of structural and non-structural mitigation and preparedness",
+        "Only emergency response",
+        "Climate forecasting without risk reduction"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Relief occurs after impact; the measures described are primarily before a disaster.",
+        "Correct. Land-use controls and evacuation planning are non-structural measures; elevating equipment is a structural mitigation measure; drills build preparedness.",
+        "Emergency response is action during or immediately after an event, whereas these are advance risk-reduction measures.",
+        "The measures directly reduce exposure, vulnerability and consequences; they are not merely forecasting."
+      ],
+      "basis": "Official Paper I syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies."
+    }
+  ]
+}
