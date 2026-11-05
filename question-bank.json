@@ -2306,16 +2306,223 @@
         "9:3:3:1 is associated with a dihybrid cross."
       ],
       "basis": "Official Paper I syllabus: General Science; India’s Achievements in Science and Technology; Genetics; monohybrid inheritance."
+    },
+    {
+      "id": "P2-COA-006",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache organization; write-through and write-back",
+      "difficulty": "advanced",
+      "stem": "A write-back cache uses a dirty bit. When is the modified cache block normally written to main memory?",
+      "options": [
+        "On every processor write",
+        "When the block is evicted or explicitly flushed",
+        "Only when a cache hit occurs",
+        "Never; dirty data remains only in cache"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Writing on every processor write describes write-through behaviour.",
+        "Correct. Write-back defers the memory update until eviction or an explicit flush; the dirty bit marks a modified block.",
+        "A hit alone does not require a memory write in write-back policy.",
+        "Dirty data must eventually be propagated to maintain memory consistency."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; Cache organization; write-through and write-back."
+    },
+    {
+      "id": "P2-NET-005",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "TCP; flow control and receive window",
+      "difficulty": "advanced",
+      "stem": "A TCP receiver advertises a receive window of 12,000 bytes. If 4,000 bytes are currently outstanding and unacknowledged, what is the maximum additional data the sender may have in flight under this advertised window, ignoring congestion-window limits?",
+      "options": [
+        "4,000 bytes",
+        "8,000 bytes",
+        "12,000 bytes",
+        "16,000 bytes"
+      ],
+      "answer": 1,
+      "explanations": [
+        "4,000 bytes is already outstanding and consumes part of the advertised receive window.",
+        "Correct. The receive window permits 12,000 bytes outstanding in total; with 4,000 already outstanding, 8,000 additional bytes may be sent.",
+        "12,000 bytes would be the additional amount only if none were outstanding.",
+        "16,000 exceeds the advertised receive window."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; TCP; flow control and receive window."
+    },
+    {
+      "id": "P2-COMP-005",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Lexical analysis; regular expressions",
+      "difficulty": "moderate",
+      "stem": "In lexical analysis, which task is normally performed by the lexical analyzer?",
+      "options": [
+        "Constructing the program's parse tree",
+        "Grouping source characters into tokens and reporting lexical errors",
+        "Checking whether variables are declared before use",
+        "Generating machine-code register allocation"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Parse-tree construction is normally the parser's responsibility.",
+        "Correct. The lexer recognises lexemes, produces tokens and detects lexical-level errors.",
+        "Declaration and scope checks belong to semantic analysis.",
+        "Register allocation is a later code-generation task."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; Lexical analysis; regular expressions."
+    },
+    {
+      "id": "P2-DB-007",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Transactions; ACID properties",
+      "difficulty": "moderate",
+      "stem": "A banking transaction debits one account and credits another. Which ACID property ensures that either both operations occur or neither occurs?",
+      "options": [
+        "Consistency",
+        "Isolation",
+        "Atomicity",
+        "Durability"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Consistency preserves database constraints, not the all-or-nothing property.",
+        "Isolation concerns concurrent transaction interference.",
+        "Correct. Atomicity makes the transaction indivisible: both updates commit or neither does.",
+        "Durability ensures committed changes survive failures."
+      ],
+      "basis": "Official Paper II syllabus: Databases; Transactions; ACID properties."
+    },
+    {
+      "id": "P1-HIST-003",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Indian National Congress; Surat split",
+      "difficulty": "moderate",
+      "stem": "The Indian National Congress split into Moderates and Extremists at which session?",
+      "options": [
+        "Calcutta, 1906",
+        "Surat, 1907",
+        "Lucknow, 1916",
+        "Lahore, 1929"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Calcutta 1906 adopted important resolutions but was not the formal split.",
+        "Correct. The Congress split at the Surat session in 1907.",
+        "Lucknow 1916 is associated with the reunion and Lucknow Pact.",
+        "Lahore 1929 adopted the goal of Purna Swaraj."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement; Indian National Congress; Surat split."
+    },
+    {
+      "id": "P1-REASON-007",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Quantitative aptitude; compound interest",
+      "difficulty": "moderate",
+      "stem": "A sum of ₹10,000 is invested at 10% annual compound interest for two years. What is the amount at the end of two years?",
+      "options": [
+        "₹11,000",
+        "₹12,000",
+        "₹12,100",
+        "₹12,200"
+      ],
+      "answer": 2,
+      "explanations": [
+        "₹11,000 is the amount after one year.",
+        "₹12,000 would be simple interest for two years.",
+        "Correct. 10,000×1.1²=₹12,100.",
+        "₹12,200 overstates the compounded amount."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; Quantitative aptitude; compound interest."
+    },
+    {
+      "id": "P1-ENV-007",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Disaster management; early warning systems",
+      "difficulty": "moderate",
+      "stem": "A flood early-warning system is most effective at reducing disaster losses when it is supported by:",
+      "options": [
+        "Warnings issued only after inundation",
+        "Clear communication, evacuation routes and community response plans",
+        "A single central siren with no local instructions",
+        "Post-disaster compensation alone"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A warning after inundation provides little time for protective action.",
+        "Correct. Warnings must reach people in actionable form and connect to evacuation routes and rehearsed response plans.",
+        "A siren without clear instructions may not prompt effective action.",
+        "Compensation is post-disaster support, not a substitute for preparedness."
+      ],
+      "basis": "Official Paper I syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies; Disaster management; early warning systems."
+    },
+    {
+      "id": "P1-INDGEO-005",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "India Geography",
+      "subtopic": "Indian rivers; east-flowing and west-flowing rivers",
+      "difficulty": "moderate",
+      "stem": "Which of the following rivers is well known for flowing westward into the Arabian Sea through a rift valley?",
+      "options": [
+        "Godavari",
+        "Krishna",
+        "Narmada",
+        "Mahanadi"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Godavari flows generally eastward into the Bay of Bengal.",
+        "Krishna flows generally eastward into the Bay of Bengal.",
+        "Correct. The Narmada flows westward through a rift valley and drains into the Arabian Sea.",
+        "Mahanadi flows eastward into the Bay of Bengal."
+      ],
+      "basis": "Official Paper I syllabus: India Geography; Indian rivers; east-flowing and west-flowing rivers."
+    },
+    {
+      "id": "P1-CONST-007",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Fundamental Rights; constitutional remedies",
+      "difficulty": "advanced",
+      "stem": "Which writ is issued by a court to command a public authority to perform a public duty it has failed or refused to perform?",
+      "options": [
+        "Habeas corpus",
+        "Mandamus",
+        "Prohibition",
+        "Certiorari"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Habeas corpus protects against unlawful detention.",
+        "Correct. Mandamus commands a public authority to perform a public or statutory duty.",
+        "Prohibition restrains a lower court or tribunal from exceeding jurisdiction.",
+        "Certiorari is used to quash an order of a lower court or tribunal in appropriate cases."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; Fundamental Rights; constitutional remedies."
     }
   ],
-  "qualityNote": "Reviewed expansion through 100 questions: 50 Paper II and 50 Paper I. This tranche adds 5 Paper II and 5 Paper I questions. Each added item has a unique ID, existing syllabus topic mapping, four options, a keyed answer and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
+  "qualityNote": "Reviewed expansion through 109 questions: 54 Paper II and 55 Paper I. The latest two tranches added balanced questions across both papers. Each added item has a unique ID, existing syllabus topic mapping, four options, a keyed answer and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
   "requirement": {
     "targetTotal": 3500,
     "targetPaper2": 2000,
     "targetPaper1": 1500,
-    "currentTotal": 100,
-    "currentPaper2": 50,
-    "currentPaper1": 50,
+    "currentTotal": 109,
+    "currentPaper2": 54,
+    "currentPaper1": 55,
     "status": "in_progress",
     "qualityGate": "Every added question must have a unique ID, official syllabus mapping, four options, a verified answer index, four option-specific explanations, and a difficulty label."
   }
