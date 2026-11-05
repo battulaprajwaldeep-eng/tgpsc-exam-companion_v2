@@ -3,6 +3,13 @@
 const fs = require("node:fs");
 const assert = require("node:assert/strict");
 const bank = JSON.parse(fs.readFileSync("question-bank.json", "utf8"));
+assert.equal(bank.requirement.targetTotal, 3500, "the final target must remain explicit");
+assert.equal(bank.requirement.targetPaper2, 2000);
+assert.equal(bank.requirement.targetPaper1, 1500);
+assert.equal(bank.requirement.currentTotal, bank.questions.length);
+assert.equal(bank.requirement.currentPaper2, bank.questions.filter(q => q.paper === 2).length);
+assert.equal(bank.requirement.currentPaper1, bank.questions.filter(q => q.paper === 1).length);
+assert.equal(bank.requirement.status, "in_progress", "never mark an incomplete bank complete");
 const ids = bank.questions.map(q => q.id);
 assert.equal(new Set(ids).size, ids.length, "question IDs must be unique");
 for (const q of bank.questions) {
