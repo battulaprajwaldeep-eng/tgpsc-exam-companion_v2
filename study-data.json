@@ -531,5 +531,30 @@
       "evidence": "MCQs practised including Supreme Court and High Courts; no reliable cumulative score.",
       "status": "Practised; revision needed"
     }
-  ]
+  ],
+  "questionBankPolicy": {
+    "examAlignment": "Questions must map to the exact subtopics in uploaded HMWSSB Notification 04/OG/HM/2026.",
+    "difficultyMix": {
+      "standard": 0.2,
+      "moderate": 0.5,
+      "advanced": 0.3
+    },
+    "styleRequirements": [
+      "Degree-level recruitment-exam standard; not school-level recall or one-line definitions.",
+      "Prefer application, code/output tracing, numerical problems, scenario analysis, multi-step reasoning, SQL/query evaluation, graph and algorithm analysis, and close concept discrimination where appropriate.",
+      "All four options must be plausible, distinct and based on common misconceptions.",
+      "No ambiguous wording, hidden assumptions or multiple defensible answers.",
+      "Use short code, tables, data, constraints or scenarios where they improve exam authenticity.",
+      "Paper I must match the official notification scope and competitive-exam depth."
+    ],
+    "nonRepetition": {
+      "rule": "Every question receives a permanent unique questionId and normalized text fingerprint.",
+      "selection": "Never serve an attempted question in normal practice. Reuse only in explicitly labelled revision/error-review mode.",
+      "tracking": "Store questionId, topicId, difficulty, source basis, attempt date, selected option, correct option, explanation and outcome.",
+      "deduplication": "Check exact IDs and normalized wording before publishing; manually inspect near-duplicates."
+    },
+    "answerReview": "After submission, explain the correct answer and why each of the other three options is wrong.",
+    "qualityControl": "Independently validate answer keys and calculations. Exclude uncertain questions.",
+    "currentBankStatus": "The 10 questions embedded in index.html are starter/demo questions, not a validated exam-level question bank."
+  }
 }
