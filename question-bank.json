@@ -2536,15 +2536,61 @@
         "Routine subsidies are generally revenue expenditure."
       ],
       "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana; public finance and government expenditure."
+    },
+    {
+      "id": "P2-ALG-006",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Shortest paths; Bellman-Ford algorithm",
+      "difficulty": "advanced",
+      "stem": "A directed weighted graph contains a reachable negative-weight cycle. Which statement about single-source shortest paths is correct?",
+      "options": [
+        "Dijkstra always finds finite shortest paths",
+        "Bellman-Ford can detect the negative-weight cycle",
+        "A topological ordering always removes the cycle",
+        "Breadth-first search gives correct weighted shortest paths"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Dijkstra's algorithm does not correctly handle arbitrary negative edge weights or reachable negative cycles.",
+        "Correct. Bellman-Ford relaxes edges repeatedly and can detect a further relaxation after |V|−1 passes, indicating a reachable negative-weight cycle.",
+        "A directed graph with a cycle is not a DAG and has no topological ordering.",
+        "BFS minimises edge count in unweighted graphs, not arbitrary weighted path cost."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; graph algorithms and shortest paths."
+    },
+    {
+      "id": "P2-NET-006",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Error detection; CRC",
+      "difficulty": "advanced",
+      "stem": "In a CRC system, the dataword is 1101 and the generator is 1011. Which operation is used to obtain the transmitted codeword?",
+      "options": [
+        "Append three zeros, perform modulo-2 division by 1011, and append the remainder to the dataword",
+        "Add 1011 arithmetically to 1101",
+        "Divide 1011 by 1101 using ordinary integer division",
+        "Append the generator itself to the dataword"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The generator degree is 3, so append three zeros, perform modulo-2 polynomial division, then append the 3-bit remainder to the original dataword.",
+        "CRC uses modulo-2 division (XOR arithmetic), not ordinary integer addition.",
+        "The data polynomial is divided by the generator after appending zero bits; this reverses the roles.",
+        "The generator is not appended as the CRC remainder."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; error detection and CRC."
     }
   ],
-  "qualityNote": "Reviewed expansion through 110 questions: 54 Paper II and 56 Paper I. Recent additions are balanced across both papers. Each added item has a unique ID, existing syllabus topic mapping, four options, a keyed answer and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
+  "qualityNote": "Reviewed expansion through 112 questions: 56 Paper II and 56 Paper I. The current tranche is balanced across both papers. Each added item has a unique ID, existing syllabus topic mapping, four options, a keyed answer and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
   "requirement": {
     "targetTotal": 3500,
     "targetPaper2": 2000,
     "targetPaper1": 1500,
-    "currentTotal": 110,
-    "currentPaper2": 54,
+    "currentTotal": 112,
+    "currentPaper2": 56,
     "currentPaper1": 56,
     "status": "in_progress",
     "qualityGate": "Every added question must have a unique ID, official syllabus mapping, four options, a verified answer index, four option-specific explanations, and a difficulty label."
