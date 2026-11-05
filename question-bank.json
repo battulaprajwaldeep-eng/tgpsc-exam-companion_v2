@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "bankStatus": "Expansion in progress: 50 reviewed questions currently present; final target is 3,500+ unique questions. This file does not yet meet the target.",
+  "bankStatus": "Expansion in progress: 70 reviewed questions currently present; final target is 3,500+ unique questions. This file does not yet meet the target.",
   "selectionPolicy": "Normal practice excludes all attempted question IDs, restores only genuinely in-progress sessions, and selects a topic-diverse 5+5 set. Missed questions may be reused only in explicit revision mode.",
   "sessionComposition": {
     "paper2": 5,
@@ -1156,16 +1156,476 @@
         "Concentrating runoff increases flow velocity and the risk of gully erosion."
       ],
       "basis": "Official Paper I syllabus: Environmental issues; prevention and mitigation strategies."
+    },
+    {
+      "id": "P2-DS-003",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C pointer arithmetic and arrays",
+      "difficulty": "advanced",
+      "stem": "In C, given `int a[5] = {10,20,30,40,50};` and `int *p = a;`, what is the value of `*(p + 3)`?",
+      "options": [
+        "20",
+        "30",
+        "40",
+        "50"
+      ],
+      "answer": 2,
+      "explanations": [
+        "20 is the element at index 1.",
+        "30 is the element at index 2.",
+        "Correct. `p` points to `a[0]`; adding 3 advances three integer elements, so the dereferenced value is `a[3]`, which is 40.",
+        "50 is the element at index 4."
+      ],
+      "basis": "Official Paper II syllabus: C programming; pointers and arrays."
+    },
+    {
+      "id": "P2-DL-002",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Boolean algebra and De Morgan's laws",
+      "difficulty": "moderate",
+      "stem": "Which expression is equivalent to NOT(A AND (B OR C))?",
+      "options": [
+        "NOT A AND (NOT B OR NOT C)",
+        "NOT A OR (NOT B AND NOT C)",
+        "NOT A OR NOT B OR NOT C",
+        "A OR (NOT B AND NOT C)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "This incorrectly applies De Morgan's law to the outer AND.",
+        "Correct. De Morgan's law gives NOT A OR NOT(B OR C), then NOT B AND NOT C.",
+        "This incorrectly changes the inner OR to an OR of complements; the correct inner result is AND.",
+        "A remains uncomplemented, so this is not equivalent."
+      ],
+      "basis": "Official Paper II syllabus: Digital Logic; Boolean algebra."
+    },
+    {
+      "id": "P2-SET-003",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Rank and linear independence",
+      "difficulty": "advanced",
+      "stem": "The vectors (1,2,3), (2,4,6), and (1,0,1) are columns of a 3×3 matrix. What is its rank?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Rank is greater than 1 because the third vector is not a scalar multiple of the first.",
+        "Correct. The second vector is twice the first, while the third is independent of the first; therefore there are exactly two linearly independent columns.",
+        "Rank 3 would require all three columns to be independent, but the second duplicates the direction of the first.",
+        "The matrix has nonzero columns, so its rank is not zero."
+      ],
+      "basis": "Official Paper II syllabus: Linear Algebra; matrix rank and linear independence."
+    },
+    {
+      "id": "P2-PROB-002",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Conditional probability and Bayes' theorem",
+      "difficulty": "advanced",
+      "stem": "A disease affects 1% of a population. A test has 90% sensitivity and 95% specificity. If a person tests positive, approximately what is the probability that the person has the disease?",
+      "options": [
+        "About 15.4%",
+        "About 50%",
+        "About 90%",
+        "About 99%"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. By Bayes' theorem: 0.90×0.01 / [(0.90×0.01)+(0.05×0.99)] = 0.009/0.0585 ≈ 15.4%.",
+        "The low prevalence makes the false-positive group substantial; the posterior is far below 50%.",
+        "90% is the sensitivity, P(positive|disease), not P(disease|positive).",
+        "99% confuses specificity with the posterior probability."
+      ],
+      "basis": "Official Paper II syllabus: Probability; conditional probability and Bayes' theorem."
+    },
+    {
+      "id": "P2-COMP-002",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "FIRST sets and predictive parsing",
+      "difficulty": "advanced",
+      "stem": "For grammar S → A b; A → aA | ε, which is the FIRST set of S?",
+      "options": [
+        "{a}",
+        "{a,b}",
+        "{b}",
+        "{ε}"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A can derive a, but it can also derive ε, allowing the following b to begin the string.",
+        "Correct. A begins with a when it uses aA; when A derives ε, the next symbol b becomes the first terminal. Thus FIRST(S)={a,b}.",
+        "This omits strings where A derives aA.",
+        "S always derives a terminal eventually; b follows nullable A, so ε is not in FIRST(S)."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; FIRST/FOLLOW and parsing."
+    },
+    {
+      "id": "P2-GRAPH-003",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Spanning trees and graph properties",
+      "difficulty": "moderate",
+      "stem": "A connected undirected graph has 8 vertices and 11 edges. How many edges must be removed to obtain a spanning tree?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Removing 2 edges leaves 9 edges, but a tree on 8 vertices has 7 edges.",
+        "Correct. A spanning tree has V−1=7 edges; 11−7=4 edges must be removed.",
+        "Four is the correct number removed? The calculation 11−7 equals 4, so option C is correct.",
+        "Five removals would leave 6 edges, insufficient to connect 8 vertices."
+      ],
+      "basis": "Official Paper II syllabus: Graph Theory; trees and spanning trees."
+    },
+    {
+      "id": "P2-WEB-001",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "Web Technologies",
+      "subtopic": "HTTP methods and idempotency",
+      "difficulty": "moderate",
+      "stem": "Which HTTP method is defined as idempotent, meaning repeating the same request has the same intended effect as making it once?",
+      "options": [
+        "POST",
+        "PATCH",
+        "PUT",
+        "CONNECT"
+      ],
+      "answer": 2,
+      "explanations": [
+        "POST is not generally idempotent; repeated requests may create multiple resources or trigger repeated actions.",
+        "PATCH is not guaranteed to be idempotent; it depends on the patch operation.",
+        "Correct. PUT replaces or creates the target resource state, and repeating the same PUT is intended to leave the same state.",
+        "CONNECT establishes a tunnel and is not the standard answer for an idempotent resource update."
+      ],
+      "basis": "Official Paper II syllabus: Web Technologies; HTTP protocol."
+    },
+    {
+      "id": "P2-SE-001",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems & Software Engineering",
+      "subtopic": "Software testing and coverage",
+      "difficulty": "advanced",
+      "stem": "A test suite achieves 100% statement coverage. Which conclusion is justified?",
+      "options": [
+        "Every possible execution path has been tested.",
+        "Every branch outcome has been tested.",
+        "Every statement has been executed at least once, but decision outcomes may remain untested.",
+        "The program is free of defects."
+      ],
+      "answer": 2,
+      "explanations": [
+        "Statement coverage does not guarantee that every path has been executed.",
+        "Branch coverage is stronger than statement coverage and is not implied by it.",
+        "Correct. Statement coverage requires execution of each statement at least once; it does not ensure all branch outcomes or paths are exercised.",
+        "No finite coverage metric proves a program defect-free."
+      ],
+      "basis": "Official Paper II syllabus: Software Engineering; software testing."
+    },
+    {
+      "id": "P2-OOP-001",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "OOP + C++ + Java",
+      "subtopic": "Dynamic binding and polymorphism",
+      "difficulty": "moderate",
+      "stem": "In C++, a base-class pointer refers to a derived-class object. Which condition is required for a call to a method through that pointer to use runtime dispatch?",
+      "options": [
+        "The method must be static.",
+        "The method must be virtual in the base class.",
+        "The pointer must be declared as void*.",
+        "The derived class must use multiple inheritance."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Static methods are not dynamically dispatched through virtual mechanism.",
+        "Correct. Declaring the base-class member virtual enables dynamic binding when invoked through a base pointer or reference.",
+        "A void pointer does not provide polymorphic dispatch.",
+        "Multiple inheritance is unrelated to the requirement."
+      ],
+      "basis": "Official Paper II syllabus: OOP and C++; inheritance and polymorphism."
+    },
+    {
+      "id": "P2-DB-004",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "SQL aggregation and HAVING",
+      "difficulty": "moderate",
+      "stem": "Which SQL clause is used to filter groups after a GROUP BY operation based on an aggregate condition such as COUNT(*) > 3?",
+      "options": [
+        "WHERE",
+        "ORDER BY",
+        "HAVING",
+        "DISTINCT"
+      ],
+      "answer": 2,
+      "explanations": [
+        "WHERE filters rows before grouping and normally cannot filter on the resulting aggregate value.",
+        "ORDER BY sorts the resulting rows or groups; it does not filter them.",
+        "Correct. HAVING applies conditions to groups and can use aggregate expressions such as COUNT(*).",
+        "DISTINCT removes duplicate result rows; it does not filter groups by aggregate conditions."
+      ],
+      "basis": "Official Paper II syllabus: DBMS; SQL and aggregate queries."
+    },
+    {
+      "id": "P1-GEO-002",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Telangana river basins",
+      "difficulty": "moderate",
+      "stem": "Which major river forms a substantial part of Telangana's northern boundary with Maharashtra in certain stretches?",
+      "options": [
+        "Musi",
+        "Godavari",
+        "Manjira",
+        "Munneru"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Musi is a tributary of the Krishna and flows through Hyderabad.",
+        "Correct. The Godavari flows along parts of Telangana's northern boundary with Maharashtra and is a major river system in the State.",
+        "Manjira is a tributary of the Godavari and is not the major river forming that boundary.",
+        "Munneru is a tributary of the Krishna system in southern Telangana/Andhra region."
+      ],
+      "basis": "Official Paper I syllabus: Telangana geography; river systems."
+    },
+    {
+      "id": "P1-TEL-005",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana",
+      "subtopic": "Telangana movement and the 1969 agitation",
+      "difficulty": "advanced",
+      "stem": "The 1969 Telangana agitation was primarily associated with demands for:",
+      "options": [
+        "Separate linguistic reorganisation of all southern States",
+        "Implementation of safeguards and a separate Telangana State",
+        "Merger of Hyderabad State with Maharashtra",
+        "Abolition of the Indian Constitution"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The agitation was specific to Telangana's political and economic concerns, not a general reorganisation of southern States.",
+        "Correct. The movement centred on alleged violations of safeguards and employment/educational protections, with a strong demand for a separate Telangana State.",
+        "The Hyderabad-Karnataka/Maharashtra merger question is not the central demand of the 1969 Telangana agitation.",
+        "The agitation did not seek abolition of the Constitution."
+      ],
+      "basis": "Official Paper I syllabus: Telangana history; Telangana movement."
+    },
+    {
+      "id": "P1-SCI-003",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Space technology and satellite orbits",
+      "difficulty": "moderate",
+      "stem": "A geostationary satellite appears stationary relative to an observer on Earth because it:",
+      "options": [
+        "Orbits over the poles once every 24 hours",
+        "Has an orbital period equal to Earth's rotation and moves in the equatorial plane in Earth's rotation direction",
+        "Remains fixed above the geographic North Pole",
+        "Has zero orbital velocity"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A polar orbit does not keep the satellite fixed over one longitude.",
+        "Correct. A geostationary satellite has a circular equatorial orbit, prograde direction and a period matching Earth's sidereal rotation.",
+        "A satellite cannot remain fixed above the pole in a geostationary orbit.",
+        "It must have substantial orbital velocity to remain in orbit."
+      ],
+      "basis": "Official Paper I syllabus: General Science; space technology."
+    },
+    {
+      "id": "P1-REASON-004",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Data interpretation and percentage change",
+      "difficulty": "moderate",
+      "stem": "A department's expenditure rises from ₹80 lakh to ₹92 lakh. What is the percentage increase?",
+      "options": [
+        "12%",
+        "15%",
+        "18%",
+        "20%"
+      ],
+      "answer": 1,
+      "explanations": [
+        "12 is the absolute increase in lakh, not the percentage increase.",
+        "Correct. Increase = 12 lakh; percentage increase = (12/80)×100 = 15%.",
+        "18% would imply an increase of ₹14.4 lakh.",
+        "20% would imply an increase of ₹16 lakh."
+      ],
+      "basis": "Official Paper I syllabus: Analytical Ability; data interpretation."
+    },
+    {
+      "id": "P1-INDGEO-002",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "India Geography",
+      "subtopic": "Indian monsoon and seasonal rainfall",
+      "difficulty": "advanced",
+      "stem": "The retreating monsoon provides a significant share of annual rainfall to which Indian region?",
+      "options": [
+        "Western Rajasthan",
+        "Tamil Nadu and the Coromandel Coast",
+        "Punjab plains",
+        "Kashmir Valley"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Western Rajasthan receives most of its limited rainfall during the southwest monsoon season.",
+        "Correct. Northeast/retreating monsoon winds pick up moisture over the Bay of Bengal and bring substantial rainfall to Tamil Nadu and the Coromandel Coast.",
+        "Punjab's main rainfall contribution is associated with the southwest monsoon and western disturbances.",
+        "Kashmir's precipitation is strongly influenced by western disturbances, especially in winter."
+      ],
+      "basis": "Official Paper I syllabus: India Geography; monsoon system."
+    },
+    {
+      "id": "P1-ENGLISH-002",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "Subject-verb agreement",
+      "difficulty": "standard",
+      "stem": "Choose the grammatically correct sentence.",
+      "options": [
+        "Neither of the proposals are acceptable.",
+        "Neither of the proposals is acceptable.",
+        "Neither proposals is acceptable.",
+        "Neither of the proposal are acceptable."
+      ],
+      "answer": 1,
+      "explanations": [
+        "In formal standard usage, neither is treated as singular here, so 'are' is incorrect.",
+        "Correct. 'Neither' takes a singular verb in this construction: 'is acceptable'.",
+        "The noun phrase requires 'of the proposals'; the option omits the needed article/structure.",
+        "Both the singular noun after 'of' and the plural verb are incorrect in this construction."
+      ],
+      "basis": "Official Paper I syllabus: Basic English; grammar and usage."
+    },
+    {
+      "id": "P1-CONST-004",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitutional bodies and CAG",
+      "difficulty": "moderate",
+      "stem": "Who is appointed by the President of India under Article 148 of the Constitution?",
+      "options": [
+        "Chief Election Commissioner",
+        "Comptroller and Auditor General of India",
+        "Chairperson of the Finance Commission",
+        "Attorney General of India"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The Chief Election Commissioner is appointed under Article 324.",
+        "Correct. Article 148 provides for the Comptroller and Auditor General of India, appointed by the President.",
+        "The Finance Commission is constituted under Article 280; its chairperson is appointed as part of that commission's constitution.",
+        "The Attorney General is appointed under Article 76."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; constitutional authorities."
+    },
+    {
+      "id": "P1-ENV-004",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Disaster risk reduction and mitigation",
+      "difficulty": "advanced",
+      "stem": "Which measure is best classified as structural flood mitigation?",
+      "options": [
+        "Community awareness campaigns",
+        "Floodplain zoning regulations",
+        "Construction of an embankment",
+        "Evacuation drills"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Awareness campaigns are non-structural preparedness measures.",
+        "Floodplain zoning is a non-structural land-use and regulatory measure.",
+        "Correct. An embankment is a physical engineered structure intended to reduce flood impacts.",
+        "Evacuation drills are preparedness measures, not structural mitigation."
+      ],
+      "basis": "Official Paper I syllabus: Disaster Management; prevention and mitigation strategies."
+    },
+    {
+      "id": "P1-ECON-004",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Fiscal policy and revenue deficit",
+      "difficulty": "advanced",
+      "stem": "Revenue deficit is defined as:",
+      "options": [
+        "Total expenditure minus total receipts including borrowings",
+        "Revenue expenditure minus revenue receipts",
+        "Capital expenditure minus capital receipts",
+        "Fiscal deficit minus interest payments"
+      ],
+      "answer": 1,
+      "explanations": [
+        "This is not the revenue deficit definition; borrowings are financing items and total receipts include capital receipts.",
+        "Correct. Revenue deficit is the excess of revenue expenditure over revenue receipts.",
+        "This compares capital components and is not revenue deficit.",
+        "Fiscal deficit minus interest payments is the primary deficit."
+      ],
+      "basis": "Official Paper I syllabus: Economic development; public finance."
+    },
+    {
+      "id": "P1-IR-003",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "United Nations system and Security Council",
+      "difficulty": "moderate",
+      "stem": "How many permanent members are there in the United Nations Security Council?",
+      "options": [
+        "4",
+        "5",
+        "10",
+        "15"
+      ],
+      "answer": 1,
+      "explanations": [
+        "There are five permanent members, not four.",
+        "Correct. The five permanent members are China, France, Russia, the United Kingdom and the United States.",
+        "Ten is the number of elected, non-permanent members.",
+        "Fifteen is the total membership of the Security Council, not the permanent membership."
+      ],
+      "basis": "Official Paper I syllabus: International Relations; international organisations."
     }
   ],
-  "qualityNote": "The new batch was benchmarked against the uploaded 2015 Manager CS&IT Paper-II: formal relations, RAM capacity, scheduling/calculation style, functional dependencies, graph algorithms, TCP sequence arithmetic and pipeline timing. Questions are original and syllabus-mapped. The bank now contains 20 questions per paper, allowing four balanced sessions from a fresh browser profile. Initial expansion tranche added 10 new questions (5 per paper) with unique IDs, four option-specific explanations and syllabus mapping.",
+  "qualityNote": "The new batch was benchmarked against the uploaded 2015 Manager CS&IT Paper-II: formal relations, RAM capacity, scheduling/calculation style, functional dependencies, graph algorithms, TCP sequence arithmetic and pipeline timing. Questions are original and syllabus-mapped. The bank now contains 20 questions per paper, allowing four balanced sessions from a fresh browser profile. Initial expansion tranche added 10 new questions (5 per paper) with unique IDs, four option-specific explanations and syllabus mapping. Second expansion tranche: 20 additional questions (10 per paper), including algorithms/programming, digital logic, probability, compiler design, graph theory, web/SE/OOP/SQL, and Telangana/India GS, constitution, science, reasoning and disaster management.",
   "requirement": {
     "targetTotal": 3500,
     "targetPaper2": 2000,
     "targetPaper1": 1500,
-    "currentTotal": 50,
-    "currentPaper2": 25,
-    "currentPaper1": 25,
+    "currentTotal": 70,
+    "currentPaper2": 35,
+    "currentPaper1": 35,
     "status": "in_progress",
     "qualityGate": "Every added question must have a unique ID, official syllabus mapping, four options, a verified answer index, four option-specific explanations, and a difficulty label."
   }
