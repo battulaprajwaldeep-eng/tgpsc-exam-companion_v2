@@ -225,83 +225,10 @@
   "quizSeries": [
     {
       "series": "Mixed 10-question practice",
-      "set": 47,
-      "score": 6,
-      "total": 10,
-      "detail": "Per-set total verified; raw answers unavailable."
-    },
-    {
-      "series": "Mixed 10-question practice",
-      "set": 48,
-      "score": 5,
-      "total": 10,
-      "detail": "Per-set total verified; raw answers unavailable."
-    },
-    {
-      "series": "Mixed 10-question practice",
-      "set": 49,
-      "score": 6,
-      "total": 10,
-      "detail": "Per-set total verified; raw answers unavailable."
-    },
-    {
-      "series": "Mixed 10-question practice",
-      "set": 50,
-      "score": 8,
-      "total": 10,
-      "detail": "Per-set total verified; raw answers unavailable."
-    },
-    {
-      "series": "Mixed 10-question practice",
-      "set": 51,
-      "score": 8,
-      "total": 10,
-      "detail": "Per-set total verified; raw answers unavailable."
-    },
-    {
-      "series": "Mixed 10-question practice",
-      "set": 52,
-      "score": 6,
-      "total": 10,
-      "detail": "Per-set total verified; raw answers unavailable."
-    },
-    {
-      "series": "Mixed 10-question practice",
-      "set": 53,
-      "score": 5,
-      "total": 10,
-      "detail": "Per-set total verified; raw answers unavailable."
-    },
-    {
-      "series": "Mixed 10-question practice",
-      "set": 54,
-      "score": 8,
-      "total": 10,
-      "detail": "Per-set total verified; raw answers unavailable."
-    },
-    {
-      "series": "Mixed 10-question practice",
-      "set": 55,
-      "score": 7,
-      "total": 10,
-      "detail": "Corrected from an earlier mistaken 8/10 to 7/10."
-    },
-    {
-      "series": "Mixed 10-question practice",
-      "set": 56,
-      "score": 7,
-      "total": 10,
-      "detail": "Raw answers retained below."
-    },
-    {
-      "series": "Mixed 10-question practice",
-      "set": 56,
-      "score": 7,
-      "total": 10,
-      "rawAnswers": {
-        "paper2": "CBCBA",
-        "paper1": "ADBBB"
-      }
+      "setRange": "47–56",
+      "score": 66,
+      "total": 100,
+      "detail": "Only the range aggregate is verified; individual set-by-set scores are not safely recoverable."
     },
     {
       "series": "Mixed 10-question practice",
@@ -336,7 +263,7 @@
       "setRange": "59–71",
       "score": 87,
       "total": 130,
-      "detail": "Range aggregate derived from verified Sets 47–71 total and Sets 47–58 subtotal; individual set scores unavailable except Set 71."
+      "detail": "Range aggregate derived from Sets 47–71 total minus Sets 47–58 subtotal; individual scores unavailable except Set 71."
     },
     {
       "series": "Mixed 10-question practice",
