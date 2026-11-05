@@ -39,6 +39,13 @@ def validate(q,p,ids):
  return None
 def main():
  bank=json.loads(BANK.read_text(encoding="utf-8")); study=json.loads(STUDY.read_text(encoding="utf-8")); old=bank["questions"]
+ # Include previously merged candidate batches so IDs and duplicate checks remain global.
+ for batch_file in sorted(OUT.glob("batch-*.json")):
+  try:
+   batch=json.loads(batch_file.read_text(encoding="utf-8"))
+   old.extend(batch.get("questions",[]))
+  except (OSError,json.JSONDecodeError):
+   raise SystemExit(f"Cannot safely read prior batch: {batch_file}")
  lists={1:study["syllabus"]["paper1"],2:study["syllabus"]["paper2"]}
  ids={p:{t["id"] for t in arr} for p,arr in lists.items()}
  counts={p:{t["id"]:0 for t in arr} for p,arr in lists.items()}
