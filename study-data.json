@@ -555,7 +555,7 @@
     },
     "answerReview": "After submission, explain the correct answer and why each of the other three options is wrong.",
     "qualityControl": "Independently validate answer keys and calculations. Exclude uncertain questions.",
-    "currentBankStatus": "38 syllabus-mapped questions: 20 starter questions plus 18 newly added reviewed questions. The latest additions use degree-level calculations, formal reasoning, code/structure tracing and scenario questions benchmarked against the uploaded 2015 Paper-II. The bank remains incomplete and will be expanded by reviewed batches.",
+    "currentBankStatus": "40 syllabus-mapped questions: 20 Paper II and 20 Paper I, supporting four balanced 5+5 sessions from a fresh browser profile. The bank includes original questions benchmarked against the uploaded 2015 Paper-II style: formal reasoning, numerical calculations, code/structure tracing, SQL, graph algorithms and protocol arithmetic. It remains an expanding bank, not complete syllabus coverage.",
     "runtime": "The website records attempted question IDs locally and excludes them from normal practice. It scores Paper II at 2 marks per correct answer and Paper I at 1 mark per correct answer; no negative marking is applied because none is specified in the stored notification profile.",
     "pyqBenchmark": "The 2015 Manager CS&IT Paper-II (Code 502/A) is used as a difficulty and question-style benchmark, not copied verbatim. The bank now includes original questions reflecting formal set/relations, memory-chip calculations, pipeline timing, SQL/FDs, graph algorithms and protocol arithmetic."
   }
