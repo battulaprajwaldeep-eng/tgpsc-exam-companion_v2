@@ -2078,7 +2078,7 @@
       "basis": "Official Paper I syllabus: Basic English; grammar and sentence structure."
     }
   ],
-  "qualityNote": "The new batch was benchmarked against the uploaded 2015 Manager CS&IT Paper-II: formal relations, RAM capacity, scheduling/calculation style, functional dependencies, graph algorithms, TCP sequence arithmetic and pipeline timing. Questions are original and syllabus-mapped. The bank now contains 20 questions per paper, allowing four balanced sessions from a fresh browser profile. Initial expansion tranche added 10 new questions (5 per paper) with unique IDs, four option-specific explanations and syllabus mapping. Second expansion tranche: 20 additional questions (10 per paper), including algorithms/programming, digital logic, probability, compiler design, graph theory, web/SE/OOP/SQL, and Telangana/India GS, constitution, science, reasoning and disaster management.",
+  "qualityNote": "Reviewed expansion through 90 questions: 45 Paper II and 45 Paper I. Questions are original, syllabus-mapped, difficulty-labelled, and include four option-specific explanations. The bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions. Normal practice excludes attempted IDs; the 5+5 selector is regression-tested on a synthetic balanced 3,500-question bank. Browser end-to-end testing and live deployment are still pending.",
   "requirement": {
     "targetTotal": 3500,
     "targetPaper2": 2000,
