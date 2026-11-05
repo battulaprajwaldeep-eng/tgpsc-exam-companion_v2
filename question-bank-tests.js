@@ -12,7 +12,10 @@ assert.equal(bank.requirement.currentPaper1, bank.questions.filter(q => q.paper 
 assert.equal(bank.requirement.status, "in_progress", "never mark an incomplete bank complete");
 const ids = bank.questions.map(q => q.id);
 assert.equal(new Set(ids).size, ids.length, "question IDs must be unique");
+const topicNames = new Map();
 for (const q of bank.questions) {
+  if (topicNames.has(q.topicId)) assert.equal(topicNames.get(q.topicId), q.topic, "topicId must map consistently to one official syllabus label");
+  topicNames.set(q.topicId, q.topic);
   assert.ok(q.id && [1, 2].includes(q.paper) && q.topicId && q.topic && q.subtopic, "required identity and syllabus fields");
   assert.ok(["standard", "moderate", "advanced"].includes(q.difficulty), "difficulty must be classified");
   assert.ok(typeof q.stem === "string" && q.stem.trim(), "question stem required");
@@ -56,4 +59,4 @@ assert.equal(sessions,350,"3,500 balanced synthetic questions should yield 350 n
 assert.equal(new Set(attempted).size,3500);
 assert.equal(nextSession(synthetic,attempted),null,"exhausted bank must not repeat");
 assert.ok(large.length===3500);
-console.log("PASS: current bank schema, unique IDs, answer/explanation shape, balanced 5+5 selection, 175 sessions from 3,500 synthetic questions, and clean exhaustion.");
+console.log("PASS: current bank schema, unique IDs, answer/explanation shape, balanced 5+5 selection, 350 sessions from 3,500 synthetic questions, and clean exhaustion.");
