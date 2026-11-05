@@ -3157,6 +3157,2306 @@
         "Real GDP would be approximately unchanged only if nominal GDP and the deflator rose at the same rate."
       ],
       "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana."
+    },
+    {
+      "id": "P2-DLY-20261105-001",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "A fair die is rolled twice. Probability that the sum is 7?",
+      "options": [
+        "1/12",
+        "1/6",
+        "1/4",
+        "1/3"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Six of 36 ordered outcomes sum to 7.",
+        "Correct. Six of 36 ordered outcomes sum to 7.",
+        "Incorrect. This choice does not satisfy the question. Six of 36 ordered outcomes sum to 7.",
+        "Incorrect. This choice does not satisfy the question. Six of 36 ordered outcomes sum to 7."
+      ],
+      "basis": "Official Paper II CSE syllabus: Probability and Statistics."
+    },
+    {
+      "id": "P2-DLY-20261105-002",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "If P(A)=0.3, P(B)=0.4 and A,B are disjoint, P(A∪B)?",
+      "options": [
+        "0.12",
+        "0.3",
+        "0.7",
+        "0.58"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. For disjoint events, add probabilities: 0.3+0.4=0.7.",
+        "Incorrect. This choice does not satisfy the question. For disjoint events, add probabilities: 0.3+0.4=0.7.",
+        "Correct. For disjoint events, add probabilities: 0.3+0.4=0.7.",
+        "Incorrect. This choice does not satisfy the question. For disjoint events, add probabilities: 0.3+0.4=0.7."
+      ],
+      "basis": "Official Paper II CSE syllabus: Probability and Statistics."
+    },
+    {
+      "id": "P2-DLY-20261105-003",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Mean of 4, 6, 8, 10, 12 is:",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Their sum is 40; divide by five to get 8.",
+        "Incorrect. This choice does not satisfy the question. Their sum is 40; divide by five to get 8.",
+        "Correct. Their sum is 40; divide by five to get 8.",
+        "Incorrect. This choice does not satisfy the question. Their sum is 40; divide by five to get 8."
+      ],
+      "basis": "Official Paper II CSE syllabus: Probability and Statistics."
+    },
+    {
+      "id": "P2-DLY-20261105-004",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "For Binomial(n=10,p=0.5), expected value is:",
+      "options": [
+        "2.5",
+        "5",
+        "7.5",
+        "10"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. The mean is np=10×0.5=5.",
+        "Correct. The mean is np=10×0.5=5.",
+        "Incorrect. This choice does not satisfy the question. The mean is np=10×0.5=5.",
+        "Incorrect. This choice does not satisfy the question. The mean is np=10×0.5=5."
+      ],
+      "basis": "Official Paper II CSE syllabus: Probability and Statistics."
+    },
+    {
+      "id": "P2-DLY-20261105-005",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "Zero covariance always implies that variables are:",
+      "options": [
+        "Independent",
+        "Uncorrelated",
+        "Equal",
+        "Constant"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Zero covariance means uncorrelated, but not necessarily independent.",
+        "Correct. Zero covariance means uncorrelated, but not necessarily independent.",
+        "Incorrect. This choice does not satisfy the question. Zero covariance means uncorrelated, but not necessarily independent.",
+        "Incorrect. This choice does not satisfy the question. Zero covariance means uncorrelated, but not necessarily independent."
+      ],
+      "basis": "Official Paper II CSE syllabus: Probability and Statistics."
+    },
+    {
+      "id": "P2-DLY-20261105-006",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "A square matrix with nonzero determinant is:",
+      "options": [
+        "Singular",
+        "Invertible",
+        "Nilpotent",
+        "Always diagonal"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. A square matrix is invertible exactly when its determinant is nonzero.",
+        "Correct. A square matrix is invertible exactly when its determinant is nonzero.",
+        "Incorrect. This choice does not satisfy the question. A square matrix is invertible exactly when its determinant is nonzero.",
+        "Incorrect. This choice does not satisfy the question. A square matrix is invertible exactly when its determinant is nonzero."
+      ],
+      "basis": "Official Paper II CSE syllabus: Set Theory & Algebra; Linear Algebra."
+    },
+    {
+      "id": "P2-DLY-20261105-007",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Nonzero orthogonal vectors have dot product:",
+      "options": [
+        "−1",
+        "0",
+        "1",
+        "Their length product"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Orthogonality is defined by zero inner product.",
+        "Correct. Orthogonality is defined by zero inner product.",
+        "Incorrect. This choice does not satisfy the question. Orthogonality is defined by zero inner product.",
+        "Incorrect. This choice does not satisfy the question. Orthogonality is defined by zero inner product."
+      ],
+      "basis": "Official Paper II CSE syllabus: Set Theory & Algebra; Linear Algebra."
+    },
+    {
+      "id": "P2-DLY-20261105-008",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Rank is the maximum number of:",
+      "options": [
+        "Zero rows",
+        "Linearly independent rows",
+        "Columns only",
+        "Diagonal entries"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Rank is the dimension of the row or column space.",
+        "Correct. Rank is the dimension of the row or column space.",
+        "Incorrect. This choice does not satisfy the question. Rank is the dimension of the row or column space.",
+        "Incorrect. This choice does not satisfy the question. Rank is the dimension of the row or column space."
+      ],
+      "basis": "Official Paper II CSE syllabus: Set Theory & Algebra; Linear Algebra."
+    },
+    {
+      "id": "P2-DLY-20261105-009",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "The product of eigenvalues of a square matrix equals its:",
+      "options": [
+        "Trace",
+        "Determinant",
+        "Rank",
+        "Nullity"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. The determinant is the product of eigenvalues counted with multiplicity.",
+        "Correct. The determinant is the product of eigenvalues counted with multiplicity.",
+        "Incorrect. This choice does not satisfy the question. The determinant is the product of eigenvalues counted with multiplicity.",
+        "Incorrect. This choice does not satisfy the question. The determinant is the product of eigenvalues counted with multiplicity."
+      ],
+      "basis": "Official Paper II CSE syllabus: Set Theory & Algebra; Linear Algebra."
+    },
+    {
+      "id": "P2-DLY-20261105-010",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Power set of a 4-element set has size:",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "24"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. A power set contains 2ⁿ subsets; 2⁴=16.",
+        "Incorrect. This choice does not satisfy the question. A power set contains 2ⁿ subsets; 2⁴=16.",
+        "Correct. A power set contains 2ⁿ subsets; 2⁴=16.",
+        "Incorrect. This choice does not satisfy the question. A power set contains 2ⁿ subsets; 2⁴=16."
+      ],
+      "basis": "Official Paper II CSE syllabus: Set Theory & Algebra; Linear Algebra."
+    },
+    {
+      "id": "P2-DLY-20261105-011",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "A tree with 12 vertices has how many edges?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Every tree has V−1 edges.",
+        "Correct. Every tree has V−1 edges.",
+        "Incorrect. This choice does not satisfy the question. Every tree has V−1 edges.",
+        "Incorrect. This choice does not satisfy the question. Every tree has V−1 edges."
+      ],
+      "basis": "Official Paper II CSE syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic."
+    },
+    {
+      "id": "P2-DLY-20261105-012",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Sum of degrees in an undirected graph with E edges is:",
+      "options": [
+        "E",
+        "2E",
+        "V+E",
+        "V×E"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Each edge contributes two to the degree sum.",
+        "Correct. Each edge contributes two to the degree sum.",
+        "Incorrect. This choice does not satisfy the question. Each edge contributes two to the degree sum.",
+        "Incorrect. This choice does not satisfy the question. Each edge contributes two to the degree sum."
+      ],
+      "basis": "Official Paper II CSE syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic."
+    },
+    {
+      "id": "P2-DLY-20261105-013",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "Number of arrangements of 5 distinct books is:",
+      "options": [
+        "25",
+        "60",
+        "100",
+        "120"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. There are 5!=120 permutations.",
+        "Incorrect. This choice does not satisfy the question. There are 5!=120 permutations.",
+        "Incorrect. This choice does not satisfy the question. There are 5!=120 permutations.",
+        "Correct. There are 5!=120 permutations."
+      ],
+      "basis": "Official Paper II CSE syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic."
+    },
+    {
+      "id": "P2-DLY-20261105-014",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Contrapositive of p→q is:",
+      "options": [
+        "q→p",
+        "¬p→¬q",
+        "¬q→¬p",
+        "p∧¬q"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. The contrapositive reverses the implication and negates both propositions.",
+        "Incorrect. This choice does not satisfy the question. The contrapositive reverses the implication and negates both propositions.",
+        "Correct. The contrapositive reverses the implication and negates both propositions.",
+        "Incorrect. This choice does not satisfy the question. The contrapositive reverses the implication and negates both propositions."
+      ],
+      "basis": "Official Paper II CSE syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic."
+    },
+    {
+      "id": "P2-DLY-20261105-015",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "A graph is bipartite exactly when it has no:",
+      "options": [
+        "Even cycle",
+        "Odd cycle",
+        "Bridge",
+        "Leaf"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. A graph is bipartite if and only if it has no odd cycle.",
+        "Correct. A graph is bipartite if and only if it has no odd cycle.",
+        "Incorrect. This choice does not satisfy the question. A graph is bipartite if and only if it has no odd cycle.",
+        "Incorrect. This choice does not satisfy the question. A graph is bipartite if and only if it has no odd cycle."
+      ],
+      "basis": "Official Paper II CSE syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic."
+    },
+    {
+      "id": "P2-DLY-20261105-016",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Decimal 13 in binary is:",
+      "options": [
+        "1011",
+        "1101",
+        "1110",
+        "1001"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. 13=8+4+1, represented as 1101.",
+        "Correct. 13=8+4+1, represented as 1101.",
+        "Incorrect. This choice does not satisfy the question. 13=8+4+1, represented as 1101.",
+        "Incorrect. This choice does not satisfy the question. 13=8+4+1, represented as 1101."
+      ],
+      "basis": "Official Paper II CSE syllabus: Digital Logic."
+    },
+    {
+      "id": "P2-DLY-20261105-017",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "XOR outputs 1 when inputs are:",
+      "options": [
+        "Both 0",
+        "Both 1",
+        "Different",
+        "Always equal"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. XOR is true precisely when the input bits differ.",
+        "Incorrect. This choice does not satisfy the question. XOR is true precisely when the input bits differ.",
+        "Correct. XOR is true precisely when the input bits differ.",
+        "Incorrect. This choice does not satisfy the question. XOR is true precisely when the input bits differ."
+      ],
+      "basis": "Official Paper II CSE syllabus: Digital Logic."
+    },
+    {
+      "id": "P2-DLY-20261105-018",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "A 4-variable Karnaugh map has cells:",
+      "options": [
+        "8",
+        "12",
+        "16",
+        "32"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. There are 2⁴=16 minterm cells.",
+        "Incorrect. This choice does not satisfy the question. There are 2⁴=16 minterm cells.",
+        "Correct. There are 2⁴=16 minterm cells.",
+        "Incorrect. This choice does not satisfy the question. There are 2⁴=16 minterm cells."
+      ],
+      "basis": "Official Paper II CSE syllabus: Digital Logic."
+    },
+    {
+      "id": "P2-DLY-20261105-019",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Full-adder sum output is:",
+      "options": [
+        "A·B",
+        "A⊕B⊕Cin",
+        "A+B",
+        "A⊙B"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. The sum bit is the XOR of both operands and carry-in.",
+        "Correct. The sum bit is the XOR of both operands and carry-in.",
+        "Incorrect. This choice does not satisfy the question. The sum bit is the XOR of both operands and carry-in.",
+        "Incorrect. This choice does not satisfy the question. The sum bit is the XOR of both operands and carry-in."
+      ],
+      "basis": "Official Paper II CSE syllabus: Digital Logic."
+    },
+    {
+      "id": "P2-DLY-20261105-020",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "JK flip-flop with J=K=1 will:",
+      "options": [
+        "Reset",
+        "Set",
+        "Toggle",
+        "Hold"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Both inputs high cause the JK flip-flop to toggle.",
+        "Incorrect. This choice does not satisfy the question. Both inputs high cause the JK flip-flop to toggle.",
+        "Correct. Both inputs high cause the JK flip-flop to toggle.",
+        "Incorrect. This choice does not satisfy the question. Both inputs high cause the JK flip-flop to toggle."
+      ],
+      "basis": "Official Paper II CSE syllabus: Digital Logic."
+    },
+    {
+      "id": "P2-DLY-20261105-021",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "A byte-addressable memory with 16 address bits has capacity:",
+      "options": [
+        "16 bytes",
+        "16 KiB",
+        "32 KiB",
+        "64 KiB"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. 2¹⁶ byte addresses equal 65,536 bytes or 64 KiB.",
+        "Incorrect. This choice does not satisfy the question. 2¹⁶ byte addresses equal 65,536 bytes or 64 KiB.",
+        "Incorrect. This choice does not satisfy the question. 2¹⁶ byte addresses equal 65,536 bytes or 64 KiB.",
+        "Correct. 2¹⁶ byte addresses equal 65,536 bytes or 64 KiB."
+      ],
+      "basis": "Official Paper II CSE syllabus: Computer Organization and Architecture."
+    },
+    {
+      "id": "P2-DLY-20261105-022",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Register holding address of next instruction is:",
+      "options": [
+        "IR",
+        "PC",
+        "Accumulator",
+        "Status register"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. The program counter identifies the next instruction address.",
+        "Correct. The program counter identifies the next instruction address.",
+        "Incorrect. This choice does not satisfy the question. The program counter identifies the next instruction address.",
+        "Incorrect. This choice does not satisfy the question. The program counter identifies the next instruction address."
+      ],
+      "basis": "Official Paper II CSE syllabus: Computer Organization and Architecture."
+    },
+    {
+      "id": "P2-DLY-20261105-023",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "DMA primarily reduces CPU involvement in:",
+      "options": [
+        "Arithmetic",
+        "Bulk I/O transfers",
+        "Branch prediction",
+        "Virtual memory"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. DMA transfers blocks between devices and memory with limited CPU intervention.",
+        "Correct. DMA transfers blocks between devices and memory with limited CPU intervention.",
+        "Incorrect. This choice does not satisfy the question. DMA transfers blocks between devices and memory with limited CPU intervention.",
+        "Incorrect. This choice does not satisfy the question. DMA transfers blocks between devices and memory with limited CPU intervention."
+      ],
+      "basis": "Official Paper II CSE syllabus: Computer Organization and Architecture."
+    },
+    {
+      "id": "P2-DLY-20261105-024",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Clock period of a 1 GHz processor is:",
+      "options": [
+        "1 ns",
+        "10 ns",
+        "100 ns",
+        "1 μs"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The period is 1/10⁹ second, which is one nanosecond.",
+        "Incorrect. This choice does not satisfy the question. The period is 1/10⁹ second, which is one nanosecond.",
+        "Incorrect. This choice does not satisfy the question. The period is 1/10⁹ second, which is one nanosecond.",
+        "Incorrect. This choice does not satisfy the question. The period is 1/10⁹ second, which is one nanosecond."
+      ],
+      "basis": "Official Paper II CSE syllabus: Computer Organization and Architecture."
+    },
+    {
+      "id": "P2-DLY-20261105-025",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "A memory block can occupy any line in which cache mapping?",
+      "options": [
+        "Direct",
+        "Fully associative",
+        "Direct only",
+        "No mapping"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Fully associative mapping permits placement in any cache line.",
+        "Correct. Fully associative mapping permits placement in any cache line.",
+        "Incorrect. This choice does not satisfy the question. Fully associative mapping permits placement in any cache line.",
+        "Incorrect. This choice does not satisfy the question. Fully associative mapping permits placement in any cache line."
+      ],
+      "basis": "Official Paper II CSE syllabus: Computer Organization and Architecture."
+    },
+    {
+      "id": "P2-DLY-20261105-026",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Removing the top element from a stack is:",
+      "options": [
+        "Push",
+        "Pop",
+        "Peek",
+        "Enqueue"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Pop removes the top stack item.",
+        "Correct. Pop removes the top stack item.",
+        "Incorrect. This choice does not satisfy the question. Pop removes the top stack item.",
+        "Incorrect. This choice does not satisfy the question. Pop removes the top stack item."
+      ],
+      "basis": "Official Paper II CSE syllabus: Programming and Data Structures."
+    },
+    {
+      "id": "P2-DLY-20261105-027",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "A queue follows:",
+      "options": [
+        "LIFO",
+        "FIFO",
+        "Random",
+        "Priority only"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. The first item inserted is the first removed.",
+        "Correct. The first item inserted is the first removed.",
+        "Incorrect. This choice does not satisfy the question. The first item inserted is the first removed.",
+        "Incorrect. This choice does not satisfy the question. The first item inserted is the first removed."
+      ],
+      "basis": "Official Paper II CSE syllabus: Programming and Data Structures."
+    },
+    {
+      "id": "P2-DLY-20261105-028",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Worst-case search in an unsorted array of n items:",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n log n)"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. A linear scan may examine every element.",
+        "Incorrect. This choice does not satisfy the question. A linear scan may examine every element.",
+        "Correct. A linear scan may examine every element.",
+        "Incorrect. This choice does not satisfy the question. A linear scan may examine every element."
+      ],
+      "basis": "Official Paper II CSE syllabus: Programming and Data Structures."
+    },
+    {
+      "id": "P2-DLY-20261105-029",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "C operator that obtains a variable's address is:",
+      "options": [
+        "*",
+        "&",
+        "%",
+        "->"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. The unary & operator returns an object's address.",
+        "Correct. The unary & operator returns an object's address.",
+        "Incorrect. This choice does not satisfy the question. The unary & operator returns an object's address.",
+        "Incorrect. This choice does not satisfy the question. The unary & operator returns an object's address."
+      ],
+      "basis": "Official Paper II CSE syllabus: Programming and Data Structures."
+    },
+    {
+      "id": "P2-DLY-20261105-030",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "A binary tree with n nodes has how many null child links?",
+      "options": [
+        "n−1",
+        "n",
+        "n+1",
+        "2n"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. There are 2n child pointers and n−1 edges, leaving n+1 null links.",
+        "Incorrect. This choice does not satisfy the question. There are 2n child pointers and n−1 edges, leaving n+1 null links.",
+        "Correct. There are 2n child pointers and n−1 edges, leaving n+1 null links.",
+        "Incorrect. This choice does not satisfy the question. There are 2n child pointers and n−1 edges, leaving n+1 null links."
+      ],
+      "basis": "Official Paper II CSE syllabus: Programming and Data Structures."
+    },
+    {
+      "id": "P2-DLY-20261105-031",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Binary search on a sorted array has worst-case time:",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n²)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Each comparison halves the remaining interval.",
+        "Correct. Each comparison halves the remaining interval.",
+        "Incorrect. This choice does not satisfy the question. Each comparison halves the remaining interval.",
+        "Incorrect. This choice does not satisfy the question. Each comparison halves the remaining interval."
+      ],
+      "basis": "Official Paper II CSE syllabus: Algorithms."
+    },
+    {
+      "id": "P2-DLY-20261105-032",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Kruskal's algorithm finds a:",
+      "options": [
+        "Shortest path",
+        "Minimum spanning tree",
+        "Maximum flow",
+        "Topological order"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. It repeatedly adds the lightest edge that does not form a cycle.",
+        "Correct. It repeatedly adds the lightest edge that does not form a cycle.",
+        "Incorrect. This choice does not satisfy the question. It repeatedly adds the lightest edge that does not form a cycle.",
+        "Incorrect. This choice does not satisfy the question. It repeatedly adds the lightest edge that does not form a cycle."
+      ],
+      "basis": "Official Paper II CSE syllabus: Algorithms."
+    },
+    {
+      "id": "P2-DLY-20261105-033",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "Worst-case quicksort complexity is:",
+      "options": [
+        "O(n)",
+        "O(n log n)",
+        "O(n²)",
+        "O(log n)"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Repeatedly unbalanced partitions lead to quadratic work.",
+        "Incorrect. This choice does not satisfy the question. Repeatedly unbalanced partitions lead to quadratic work.",
+        "Correct. Repeatedly unbalanced partitions lead to quadratic work.",
+        "Incorrect. This choice does not satisfy the question. Repeatedly unbalanced partitions lead to quadratic work."
+      ],
+      "basis": "Official Paper II CSE syllabus: Algorithms."
+    },
+    {
+      "id": "P2-DLY-20261105-034",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Topological ordering exists only for a:",
+      "options": [
+        "Complete graph",
+        "DAG",
+        "Undirected tree",
+        "Cyclic graph"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. A directed acyclic graph admits a topological order.",
+        "Correct. A directed acyclic graph admits a topological order.",
+        "Incorrect. This choice does not satisfy the question. A directed acyclic graph admits a topological order.",
+        "Incorrect. This choice does not satisfy the question. A directed acyclic graph admits a topological order."
+      ],
+      "basis": "Official Paper II CSE syllabus: Algorithms."
+    },
+    {
+      "id": "P2-DLY-20261105-035",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Bellman–Ford can detect reachable:",
+      "options": [
+        "Positive cycles",
+        "Negative-weight cycles",
+        "Hamiltonian cycles",
+        "Minimum cuts"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. A relaxation after |V|−1 passes indicates a reachable negative cycle.",
+        "Correct. A relaxation after |V|−1 passes indicates a reachable negative cycle.",
+        "Incorrect. This choice does not satisfy the question. A relaxation after |V|−1 passes indicates a reachable negative cycle.",
+        "Incorrect. This choice does not satisfy the question. A relaxation after |V|−1 passes indicates a reachable negative cycle."
+      ],
+      "basis": "Official Paper II CSE syllabus: Algorithms."
+    },
+    {
+      "id": "P2-DLY-20261105-036",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "A language accepted by a finite automaton is:",
+      "options": [
+        "Regular",
+        "Context-sensitive only",
+        "Undecidable",
+        "Non-recursive"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Finite automata recognize exactly regular languages.",
+        "Incorrect. This choice does not satisfy the question. Finite automata recognize exactly regular languages.",
+        "Incorrect. This choice does not satisfy the question. Finite automata recognize exactly regular languages.",
+        "Incorrect. This choice does not satisfy the question. Finite automata recognize exactly regular languages."
+      ],
+      "basis": "Official Paper II CSE syllabus: Theory of Computation."
+    },
+    {
+      "id": "P2-DLY-20261105-037",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "Regular languages are closed under:",
+      "options": [
+        "Union only",
+        "Complement only",
+        "Intersection only",
+        "All three"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Regular languages are closed under union, intersection and complement.",
+        "Incorrect. This choice does not satisfy the question. Regular languages are closed under union, intersection and complement.",
+        "Incorrect. This choice does not satisfy the question. Regular languages are closed under union, intersection and complement.",
+        "Correct. Regular languages are closed under union, intersection and complement."
+      ],
+      "basis": "Official Paper II CSE syllabus: Theory of Computation."
+    },
+    {
+      "id": "P2-DLY-20261105-038",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "A CFG production has on its left side:",
+      "options": [
+        "One nonterminal",
+        "Only terminals",
+        "Two terminals",
+        "Any string"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. A context-free production has exactly one nonterminal on the left.",
+        "Incorrect. This choice does not satisfy the question. A context-free production has exactly one nonterminal on the left.",
+        "Incorrect. This choice does not satisfy the question. A context-free production has exactly one nonterminal on the left.",
+        "Incorrect. This choice does not satisfy the question. A context-free production has exactly one nonterminal on the left."
+      ],
+      "basis": "Official Paper II CSE syllabus: Theory of Computation."
+    },
+    {
+      "id": "P2-DLY-20261105-039",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Language {aⁿbⁿ | n≥0} is:",
+      "options": [
+        "Regular",
+        "Context-free but not regular",
+        "Finite",
+        "Not context-free"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. A PDA can match counts using a stack; a finite automaton cannot.",
+        "Correct. A PDA can match counts using a stack; a finite automaton cannot.",
+        "Incorrect. This choice does not satisfy the question. A PDA can match counts using a stack; a finite automaton cannot.",
+        "Incorrect. This choice does not satisfy the question. A PDA can match counts using a stack; a finite automaton cannot."
+      ],
+      "basis": "Official Paper II CSE syllabus: Theory of Computation."
+    },
+    {
+      "id": "P2-DLY-20261105-040",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "The general halting problem is:",
+      "options": [
+        "Decidable",
+        "Undecidable",
+        "Regular",
+        "Finite"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. No algorithm decides halting for every machine-input pair.",
+        "Correct. No algorithm decides halting for every machine-input pair.",
+        "Incorrect. This choice does not satisfy the question. No algorithm decides halting for every machine-input pair.",
+        "Incorrect. This choice does not satisfy the question. No algorithm decides halting for every machine-input pair."
+      ],
+      "basis": "Official Paper II CSE syllabus: Theory of Computation."
+    },
+    {
+      "id": "P2-DLY-20261105-041",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "A lexical analyzer produces:",
+      "options": [
+        "Tokens",
+        "Machine code",
+        "Register allocation",
+        "Page frames"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Lexical analysis classifies lexemes into token categories.",
+        "Incorrect. This choice does not satisfy the question. Lexical analysis classifies lexemes into token categories.",
+        "Incorrect. This choice does not satisfy the question. Lexical analysis classifies lexemes into token categories.",
+        "Incorrect. This choice does not satisfy the question. Lexical analysis classifies lexemes into token categories."
+      ],
+      "basis": "Official Paper II CSE syllabus: Compiler Design."
+    },
+    {
+      "id": "P2-DLY-20261105-042",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "FIRST sets are used in:",
+      "options": [
+        "Predictive parsing",
+        "Linking",
+        "Register allocation",
+        "Garbage collection"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. FIRST sets help choose productions in predictive parsing.",
+        "Incorrect. This choice does not satisfy the question. FIRST sets help choose productions in predictive parsing.",
+        "Incorrect. This choice does not satisfy the question. FIRST sets help choose productions in predictive parsing.",
+        "Incorrect. This choice does not satisfy the question. FIRST sets help choose productions in predictive parsing."
+      ],
+      "basis": "Official Paper II CSE syllabus: Compiler Design."
+    },
+    {
+      "id": "P2-DLY-20261105-043",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "An ambiguous grammar has a string with:",
+      "options": [
+        "No parse tree",
+        "Two distinct parse trees",
+        "Only one derivation",
+        "No terminals"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Ambiguity means at least one string has multiple parse trees.",
+        "Correct. Ambiguity means at least one string has multiple parse trees.",
+        "Incorrect. This choice does not satisfy the question. Ambiguity means at least one string has multiple parse trees.",
+        "Incorrect. This choice does not satisfy the question. Ambiguity means at least one string has multiple parse trees."
+      ],
+      "basis": "Official Paper II CSE syllabus: Compiler Design."
+    },
+    {
+      "id": "P2-DLY-20261105-044",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Common subexpression elimination is a compiler:",
+      "options": [
+        "Optimization",
+        "Scanning",
+        "Lexical rule",
+        "Linking method"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. It avoids recomputing an unchanged expression.",
+        "Incorrect. This choice does not satisfy the question. It avoids recomputing an unchanged expression.",
+        "Incorrect. This choice does not satisfy the question. It avoids recomputing an unchanged expression.",
+        "Incorrect. This choice does not satisfy the question. It avoids recomputing an unchanged expression."
+      ],
+      "basis": "Official Paper II CSE syllabus: Compiler Design."
+    },
+    {
+      "id": "P2-DLY-20261105-045",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "A symbol table stores:",
+      "options": [
+        "Comments only",
+        "Identifier attributes and scope",
+        "Cache lines",
+        "Network routes"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. It records names, types, scope and storage-related attributes.",
+        "Correct. It records names, types, scope and storage-related attributes.",
+        "Incorrect. This choice does not satisfy the question. It records names, types, scope and storage-related attributes.",
+        "Incorrect. This choice does not satisfy the question. It records names, types, scope and storage-related attributes."
+      ],
+      "basis": "Official Paper II CSE syllabus: Compiler Design."
+    },
+    {
+      "id": "P2-DLY-20261105-046",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "A page fault occurs when a referenced page is:",
+      "options": [
+        "Absent from main memory",
+        "In cache",
+        "Read-only",
+        "Recently modified"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The OS must handle a reference to a page not resident in physical memory.",
+        "Incorrect. This choice does not satisfy the question. The OS must handle a reference to a page not resident in physical memory.",
+        "Incorrect. This choice does not satisfy the question. The OS must handle a reference to a page not resident in physical memory.",
+        "Incorrect. This choice does not satisfy the question. The OS must handle a reference to a page not resident in physical memory."
+      ],
+      "basis": "Official Paper II CSE syllabus: Operating Systems."
+    },
+    {
+      "id": "P2-DLY-20261105-047",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Fixed time slices are characteristic of:",
+      "options": [
+        "FCFS",
+        "Round robin",
+        "Non-preemptive SJF",
+        "FIFO paging"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Round robin rotates the CPU among ready processes by time quantum.",
+        "Correct. Round robin rotates the CPU among ready processes by time quantum.",
+        "Incorrect. This choice does not satisfy the question. Round robin rotates the CPU among ready processes by time quantum.",
+        "Incorrect. This choice does not satisfy the question. Round robin rotates the CPU among ready processes by time quantum."
+      ],
+      "basis": "Official Paper II CSE syllabus: Operating Systems."
+    },
+    {
+      "id": "P2-DLY-20261105-048",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Thrashing is associated with:",
+      "options": [
+        "Excessive paging",
+        "High cache hit rate",
+        "No context switches",
+        "Disk formatting"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Paging activity dominates useful execution during thrashing.",
+        "Incorrect. This choice does not satisfy the question. Paging activity dominates useful execution during thrashing.",
+        "Incorrect. This choice does not satisfy the question. Paging activity dominates useful execution during thrashing.",
+        "Incorrect. This choice does not satisfy the question. Paging activity dominates useful execution during thrashing."
+      ],
+      "basis": "Official Paper II CSE syllabus: Operating Systems."
+    },
+    {
+      "id": "P2-DLY-20261105-049",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "A semaphore is primarily a synchronization:",
+      "options": [
+        "Primitive",
+        "Compiler",
+        "Address",
+        "File format"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Semaphores coordinate access and ordering among processes.",
+        "Incorrect. This choice does not satisfy the question. Semaphores coordinate access and ordering among processes.",
+        "Incorrect. This choice does not satisfy the question. Semaphores coordinate access and ordering among processes.",
+        "Incorrect. This choice does not satisfy the question. Semaphores coordinate access and ordering among processes."
+      ],
+      "basis": "Official Paper II CSE syllabus: Operating Systems."
+    },
+    {
+      "id": "P2-DLY-20261105-050",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "A context switch involves:",
+      "options": [
+        "Saving/restoring process state",
+        "Changing source code",
+        "Formatting disk",
+        "Adding RAM"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The OS saves one execution context and restores another.",
+        "Incorrect. This choice does not satisfy the question. The OS saves one execution context and restores another.",
+        "Incorrect. This choice does not satisfy the question. The OS saves one execution context and restores another.",
+        "Incorrect. This choice does not satisfy the question. The OS saves one execution context and restores another."
+      ],
+      "basis": "Official Paper II CSE syllabus: Operating Systems."
+    },
+    {
+      "id": "P2-DLY-20261105-051",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "A foreign key enforces:",
+      "options": [
+        "Referential integrity",
+        "Sorting",
+        "Atomicity",
+        "Encryption"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. It constrains references to matching key values in a referenced relation.",
+        "Incorrect. This choice does not satisfy the question. It constrains references to matching key values in a referenced relation.",
+        "Incorrect. This choice does not satisfy the question. It constrains references to matching key values in a referenced relation.",
+        "Incorrect. This choice does not satisfy the question. It constrains references to matching key values in a referenced relation."
+      ],
+      "basis": "Official Paper II CSE syllabus: Databases."
+    },
+    {
+      "id": "P2-DLY-20261105-052",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Which normal form removes partial dependency on a candidate key?",
+      "options": [
+        "1NF",
+        "2NF",
+        "3NF",
+        "BCNF"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. 2NF removes non-prime attribute dependencies on part of a candidate key.",
+        "Correct. 2NF removes non-prime attribute dependencies on part of a candidate key.",
+        "Incorrect. This choice does not satisfy the question. 2NF removes non-prime attribute dependencies on part of a candidate key.",
+        "Incorrect. This choice does not satisfy the question. 2NF removes non-prime attribute dependencies on part of a candidate key."
+      ],
+      "basis": "Official Paper II CSE syllabus: Databases."
+    },
+    {
+      "id": "P2-DLY-20261105-053",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "SQL clause used to sort result rows is:",
+      "options": [
+        "GROUP BY",
+        "ORDER BY",
+        "HAVING",
+        "WHERE"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. ORDER BY specifies the result ordering.",
+        "Correct. ORDER BY specifies the result ordering.",
+        "Incorrect. This choice does not satisfy the question. ORDER BY specifies the result ordering.",
+        "Incorrect. This choice does not satisfy the question. ORDER BY specifies the result ordering."
+      ],
+      "basis": "Official Paper II CSE syllabus: Databases."
+    },
+    {
+      "id": "P2-DLY-20261105-054",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "All-or-nothing property of a transaction is:",
+      "options": [
+        "Consistency",
+        "Isolation",
+        "Atomicity",
+        "Durability"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Atomicity means all operations take effect or none do.",
+        "Incorrect. This choice does not satisfy the question. Atomicity means all operations take effect or none do.",
+        "Correct. Atomicity means all operations take effect or none do.",
+        "Incorrect. This choice does not satisfy the question. Atomicity means all operations take effect or none do."
+      ],
+      "basis": "Official Paper II CSE syllabus: Databases."
+    },
+    {
+      "id": "P2-DLY-20261105-055",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "A lossless decomposition ensures joining parts:",
+      "options": [
+        "Adds spurious rows",
+        "Reconstructs original relation",
+        "Removes all dependencies",
+        "Creates a key"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. A lossless join reconstructs the original relation without spurious tuples.",
+        "Correct. A lossless join reconstructs the original relation without spurious tuples.",
+        "Incorrect. This choice does not satisfy the question. A lossless join reconstructs the original relation without spurious tuples.",
+        "Incorrect. This choice does not satisfy the question. A lossless join reconstructs the original relation without spurious tuples."
+      ],
+      "basis": "Official Paper II CSE syllabus: Databases."
+    },
+    {
+      "id": "P2-DLY-20261105-056",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems & Software Engineering",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "A response-time requirement is usually:",
+      "options": [
+        "Functional",
+        "Non-functional",
+        "Actor",
+        "Data type"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Performance is a quality attribute and a non-functional requirement.",
+        "Correct. Performance is a quality attribute and a non-functional requirement.",
+        "Incorrect. This choice does not satisfy the question. Performance is a quality attribute and a non-functional requirement.",
+        "Incorrect. This choice does not satisfy the question. Performance is a quality attribute and a non-functional requirement."
+      ],
+      "basis": "Official Paper II CSE syllabus: Information Systems & Software Engineering."
+    },
+    {
+      "id": "P2-DLY-20261105-057",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems & Software Engineering",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "The critical path is the path with:",
+      "options": [
+        "Fewest tasks",
+        "Longest duration",
+        "Lowest cost",
+        "Most people"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. The longest-duration path determines minimum project completion time.",
+        "Correct. The longest-duration path determines minimum project completion time.",
+        "Incorrect. This choice does not satisfy the question. The longest-duration path determines minimum project completion time.",
+        "Incorrect. This choice does not satisfy the question. The longest-duration path determines minimum project completion time."
+      ],
+      "basis": "Official Paper II CSE syllabus: Information Systems & Software Engineering."
+    },
+    {
+      "id": "P2-DLY-20261105-058",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems & Software Engineering",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Which lifecycle model is explicitly risk-driven?",
+      "options": [
+        "Waterfall",
+        "Spiral",
+        "Big-bang",
+        "V-model"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. The spiral model performs risk analysis in each iteration.",
+        "Correct. The spiral model performs risk analysis in each iteration.",
+        "Incorrect. This choice does not satisfy the question. The spiral model performs risk analysis in each iteration.",
+        "Incorrect. This choice does not satisfy the question. The spiral model performs risk analysis in each iteration."
+      ],
+      "basis": "Official Paper II CSE syllabus: Information Systems & Software Engineering."
+    },
+    {
+      "id": "P2-DLY-20261105-059",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems & Software Engineering",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "A test case should be derived primarily from:",
+      "options": [
+        "Requirements",
+        "Developer preference",
+        "Source formatting",
+        "Hardware serial"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Requirements-based tests compare actual behavior with specified expected behavior.",
+        "Incorrect. This choice does not satisfy the question. Requirements-based tests compare actual behavior with specified expected behavior.",
+        "Incorrect. This choice does not satisfy the question. Requirements-based tests compare actual behavior with specified expected behavior.",
+        "Incorrect. This choice does not satisfy the question. Requirements-based tests compare actual behavior with specified expected behavior."
+      ],
+      "basis": "Official Paper II CSE syllabus: Information Systems & Software Engineering."
+    },
+    {
+      "id": "P2-DLY-20261105-060",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems & Software Engineering",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Version control is used to:",
+      "options": [
+        "Manage artifact changes",
+        "Increase CPU speed",
+        "Replace testing",
+        "Normalize tables"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Version control tracks history and supports collaboration and rollback.",
+        "Incorrect. This choice does not satisfy the question. Version control tracks history and supports collaboration and rollback.",
+        "Incorrect. This choice does not satisfy the question. Version control tracks history and supports collaboration and rollback.",
+        "Incorrect. This choice does not satisfy the question. Version control tracks history and supports collaboration and rollback."
+      ],
+      "basis": "Official Paper II CSE syllabus: Information Systems & Software Engineering."
+    },
+    {
+      "id": "P2-DLY-20261105-061",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "OSI layer for end-to-end transport is:",
+      "options": [
+        "Network",
+        "Transport",
+        "Data link",
+        "Physical"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. The transport layer supports process-to-process delivery.",
+        "Correct. The transport layer supports process-to-process delivery.",
+        "Incorrect. This choice does not satisfy the question. The transport layer supports process-to-process delivery.",
+        "Incorrect. This choice does not satisfy the question. The transport layer supports process-to-process delivery."
+      ],
+      "basis": "Official Paper II CSE syllabus: Computer Networks."
+    },
+    {
+      "id": "P2-DLY-20261105-062",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "IPv4 address length is:",
+      "options": [
+        "16 bits",
+        "32 bits",
+        "48 bits",
+        "128 bits"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. IPv4 addresses contain 32 bits.",
+        "Correct. IPv4 addresses contain 32 bits.",
+        "Incorrect. This choice does not satisfy the question. IPv4 addresses contain 32 bits.",
+        "Incorrect. This choice does not satisfy the question. IPv4 addresses contain 32 bits."
+      ],
+      "basis": "Official Paper II CSE syllabus: Computer Networks."
+    },
+    {
+      "id": "P2-DLY-20261105-063",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Protocol that dynamically assigns IP configuration:",
+      "options": [
+        "DNS",
+        "DHCP",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. DHCP leases addresses and can supply gateway and DNS settings.",
+        "Correct. DHCP leases addresses and can supply gateway and DNS settings.",
+        "Incorrect. This choice does not satisfy the question. DHCP leases addresses and can supply gateway and DNS settings.",
+        "Incorrect. This choice does not satisfy the question. DHCP leases addresses and can supply gateway and DNS settings."
+      ],
+      "basis": "Official Paper II CSE syllabus: Computer Networks."
+    },
+    {
+      "id": "P2-DLY-20261105-064",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Routers primarily forward using:",
+      "options": [
+        "Network-layer destination",
+        "File name",
+        "TCP port only",
+        "Source process ID"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Routers consult network-layer destination addresses and routing tables.",
+        "Incorrect. This choice does not satisfy the question. Routers consult network-layer destination addresses and routing tables.",
+        "Incorrect. This choice does not satisfy the question. Routers consult network-layer destination addresses and routing tables.",
+        "Incorrect. This choice does not satisfy the question. Routers consult network-layer destination addresses and routing tables."
+      ],
+      "basis": "Official Paper II CSE syllabus: Computer Networks."
+    },
+    {
+      "id": "P2-DLY-20261105-065",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "HTTPS commonly secures HTTP using:",
+      "options": [
+        "TLS",
+        "ARP",
+        "ICMP",
+        "POP3"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. TLS provides encryption and authentication for HTTPS connections.",
+        "Incorrect. This choice does not satisfy the question. TLS provides encryption and authentication for HTTPS connections.",
+        "Incorrect. This choice does not satisfy the question. TLS provides encryption and authentication for HTTPS connections.",
+        "Incorrect. This choice does not satisfy the question. TLS provides encryption and authentication for HTTPS connections."
+      ],
+      "basis": "Official Paper II CSE syllabus: Computer Networks."
+    },
+    {
+      "id": "P1-DLY-20261105-066",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Fundamental Duties are located in which part?",
+      "options": [
+        "Part III",
+        "Part IVA",
+        "Part V",
+        "Part IX"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Fundamental Duties are in Part IVA, Article 51A.",
+        "Correct. Fundamental Duties are in Part IVA, Article 51A.",
+        "Incorrect. This choice does not satisfy the question. Fundamental Duties are in Part IVA, Article 51A.",
+        "Incorrect. This choice does not satisfy the question. Fundamental Duties are in Part IVA, Article 51A."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Indian Constitution; Indian Political System; Governance and Public Policy."
+    },
+    {
+      "id": "P1-DLY-20261105-067",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "The President of India is elected by:",
+      "options": [
+        "Direct popular vote",
+        "An electoral college",
+        "Lok Sabha alone",
+        "Supreme Court"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. An electoral college of elected MPs and specified elected MLAs elects the President.",
+        "Correct. An electoral college of elected MPs and specified elected MLAs elects the President.",
+        "Incorrect. This choice does not satisfy the question. An electoral college of elected MPs and specified elected MLAs elects the President.",
+        "Incorrect. This choice does not satisfy the question. An electoral college of elected MPs and specified elected MLAs elects the President."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Indian Constitution; Indian Political System; Governance and Public Policy."
+    },
+    {
+      "id": "P1-DLY-20261105-068",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Minimum age for Lok Sabha membership is:",
+      "options": [
+        "18",
+        "21",
+        "25",
+        "30"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. The Constitution sets 25 years as the minimum age.",
+        "Incorrect. This choice does not satisfy the question. The Constitution sets 25 years as the minimum age.",
+        "Correct. The Constitution sets 25 years as the minimum age.",
+        "Incorrect. This choice does not satisfy the question. The Constitution sets 25 years as the minimum age."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Indian Constitution; Indian Political System; Governance and Public Policy."
+    },
+    {
+      "id": "P1-DLY-20261105-069",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "The CAG of India is appointed by the:",
+      "options": [
+        "Prime Minister",
+        "President",
+        "Chief Justice",
+        "Lok Sabha Speaker"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Article 148 provides for appointment of the CAG by the President.",
+        "Correct. Article 148 provides for appointment of the CAG by the President.",
+        "Incorrect. This choice does not satisfy the question. Article 148 provides for appointment of the CAG by the President.",
+        "Incorrect. This choice does not satisfy the question. Article 148 provides for appointment of the CAG by the President."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Indian Constitution; Indian Political System; Governance and Public Policy."
+    },
+    {
+      "id": "P1-DLY-20261105-070",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "A constitutional amendment bill may be introduced in:",
+      "options": [
+        "Lok Sabha only",
+        "Rajya Sabha only",
+        "Either House",
+        "State assembly only"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Article 368 permits introduction in either House of Parliament.",
+        "Incorrect. This choice does not satisfy the question. Article 368 permits introduction in either House of Parliament.",
+        "Correct. Article 368 permits introduction in either House of Parliament.",
+        "Incorrect. This choice does not satisfy the question. Article 368 permits introduction in either House of Parliament."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Indian Constitution; Indian Political System; Governance and Public Policy."
+    },
+    {
+      "id": "P1-DLY-20261105-071",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Non-Cooperation Movement was launched in:",
+      "options": [
+        "1905",
+        "1919",
+        "1920",
+        "1935"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Gandhi launched the Non-Cooperation Movement in 1920.",
+        "Incorrect. This choice does not satisfy the question. Gandhi launched the Non-Cooperation Movement in 1920.",
+        "Correct. Gandhi launched the Non-Cooperation Movement in 1920.",
+        "Incorrect. This choice does not satisfy the question. Gandhi launched the Non-Cooperation Movement in 1920."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement."
+    },
+    {
+      "id": "P1-DLY-20261105-072",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Simon Commission was opposed because it:",
+      "options": [
+        "Had no Indian member",
+        "Supported partition",
+        "Ended provincial rule",
+        "Introduced GST"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The all-British commission had no Indian representation.",
+        "Incorrect. This choice does not satisfy the question. The all-British commission had no Indian representation.",
+        "Incorrect. This choice does not satisfy the question. The all-British commission had no Indian representation.",
+        "Incorrect. This choice does not satisfy the question. The all-British commission had no Indian representation."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement."
+    },
+    {
+      "id": "P1-DLY-20261105-073",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "Quit India Movement began in:",
+      "options": [
+        "1930",
+        "1935",
+        "1942",
+        "1946"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. The Quit India resolution was adopted in August 1942.",
+        "Incorrect. This choice does not satisfy the question. The Quit India resolution was adopted in August 1942.",
+        "Correct. The Quit India resolution was adopted in August 1942.",
+        "Incorrect. This choice does not satisfy the question. The Quit India resolution was adopted in August 1942."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement."
+    },
+    {
+      "id": "P1-DLY-20261105-074",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Lucknow Pact of 1916 was between:",
+      "options": [
+        "Congress and Muslim League",
+        "Congress and Cabinet Mission",
+        "Two princely states",
+        "India and Nepal"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Congress and the Muslim League reached an agreement at Lucknow in 1916.",
+        "Incorrect. This choice does not satisfy the question. Congress and the Muslim League reached an agreement at Lucknow in 1916.",
+        "Incorrect. This choice does not satisfy the question. Congress and the Muslim League reached an agreement at Lucknow in 1916.",
+        "Incorrect. This choice does not satisfy the question. Congress and the Muslim League reached an agreement at Lucknow in 1916."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement."
+    },
+    {
+      "id": "P1-DLY-20261105-075",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "The honorific 'Mahatma' is associated with:",
+      "options": [
+        "B. R. Ambedkar",
+        "M. K. Gandhi",
+        "Dadabhai Naoroji",
+        "Subhas Bose"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. M. K. Gandhi is widely known by the honorific Mahatma.",
+        "Correct. M. K. Gandhi is widely known by the honorific Mahatma.",
+        "Incorrect. This choice does not satisfy the question. M. K. Gandhi is widely known by the honorific Mahatma.",
+        "Incorrect. This choice does not satisfy the question. M. K. Gandhi is widely known by the honorific Mahatma."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement."
+    },
+    {
+      "id": "P1-DLY-20261105-076",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Mulki Rules mainly concerned:",
+      "options": [
+        "Local employment safeguards",
+        "Forest protection",
+        "River sharing",
+        "Temple administration"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Mulki rules addressed local status and public-employment eligibility in Hyderabad State.",
+        "Incorrect. This choice does not satisfy the question. Mulki rules addressed local status and public-employment eligibility in Hyderabad State.",
+        "Incorrect. This choice does not satisfy the question. Mulki rules addressed local status and public-employment eligibility in Hyderabad State.",
+        "Incorrect. This choice does not satisfy the question. Mulki rules addressed local status and public-employment eligibility in Hyderabad State."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state."
+    },
+    {
+      "id": "P1-DLY-20261105-077",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "Telangana Praja Samithi became prominent during the:",
+      "options": [
+        "1969 agitation",
+        "1942 movement",
+        "1975 Emergency",
+        "1991 reforms"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. It emerged as a major organization during the 1969 Telangana agitation.",
+        "Incorrect. This choice does not satisfy the question. It emerged as a major organization during the 1969 Telangana agitation.",
+        "Incorrect. This choice does not satisfy the question. It emerged as a major organization during the 1969 Telangana agitation.",
+        "Incorrect. This choice does not satisfy the question. It emerged as a major organization during the 1969 Telangana agitation."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state."
+    },
+    {
+      "id": "P1-DLY-20261105-078",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Andhra Pradesh Reorganisation Act was passed in:",
+      "options": [
+        "2009",
+        "2011",
+        "2014",
+        "2019"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Parliament enacted the Reorganisation Act in 2014.",
+        "Incorrect. This choice does not satisfy the question. Parliament enacted the Reorganisation Act in 2014.",
+        "Correct. Parliament enacted the Reorganisation Act in 2014.",
+        "Incorrect. This choice does not satisfy the question. Parliament enacted the Reorganisation Act in 2014."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state."
+    },
+    {
+      "id": "P1-DLY-20261105-079",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Hyderabad State was integrated into the Indian Union in:",
+      "options": [
+        "1947",
+        "1948",
+        "1950",
+        "1956"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Operation Polo led to integration in September 1948.",
+        "Correct. Operation Polo led to integration in September 1948.",
+        "Incorrect. This choice does not satisfy the question. Operation Polo led to integration in September 1948.",
+        "Incorrect. This choice does not satisfy the question. Operation Polo led to integration in September 1948."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state."
+    },
+    {
+      "id": "P1-DLY-20261105-080",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Telangana Formation Day is observed on:",
+      "options": [
+        "1 May",
+        "2 June",
+        "15 August",
+        "17 September"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Telangana was formed on 2 June 2014.",
+        "Correct. Telangana was formed on 2 June 2014.",
+        "Incorrect. This choice does not satisfy the question. Telangana was formed on 2 June 2014.",
+        "Incorrect. This choice does not satisfy the question. Telangana was formed on 2 June 2014."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state."
+    },
+    {
+      "id": "P1-DLY-20261105-081",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "Inflation is:",
+      "options": [
+        "Sustained rise in general price level",
+        "Fall in population",
+        "Rise in exports only",
+        "Fall in money supply only"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Inflation is a sustained increase in the overall price level.",
+        "Incorrect. This choice does not satisfy the question. Inflation is a sustained increase in the overall price level.",
+        "Incorrect. This choice does not satisfy the question. Inflation is a sustained increase in the overall price level.",
+        "Incorrect. This choice does not satisfy the question. Inflation is a sustained increase in the overall price level."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Economic and Social Development of India and Telangana."
+    },
+    {
+      "id": "P1-DLY-20261105-082",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Repo rate is the rate at which:",
+      "options": [
+        "RBI lends to banks against eligible securities",
+        "Banks lend to home buyers",
+        "Government taxes imports",
+        "Banks pay savings interest"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The policy repo rate is the rate at which RBI lends short-term funds to banks against eligible collateral.",
+        "Incorrect. This choice does not satisfy the question. The policy repo rate is the rate at which RBI lends short-term funds to banks against eligible collateral.",
+        "Incorrect. This choice does not satisfy the question. The policy repo rate is the rate at which RBI lends short-term funds to banks against eligible collateral.",
+        "Incorrect. This choice does not satisfy the question. The policy repo rate is the rate at which RBI lends short-term funds to banks against eligible collateral."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Economic and Social Development of India and Telangana."
+    },
+    {
+      "id": "P1-DLY-20261105-083",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "HDI includes health, education and:",
+      "options": [
+        "Income",
+        "Military strength",
+        "Forest cover",
+        "Exports"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. HDI combines life expectancy, education and income dimensions.",
+        "Incorrect. This choice does not satisfy the question. HDI combines life expectancy, education and income dimensions.",
+        "Incorrect. This choice does not satisfy the question. HDI combines life expectancy, education and income dimensions.",
+        "Incorrect. This choice does not satisfy the question. HDI combines life expectancy, education and income dimensions."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Economic and Social Development of India and Telangana."
+    },
+    {
+      "id": "P1-DLY-20261105-084",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Fiscal deficit broadly measures when:",
+      "options": [
+        "Expenditure exceeds receipts excluding borrowings",
+        "Exports exceed imports",
+        "Tax receipts exceed spending",
+        "Population falls"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Fiscal deficit is total expenditure minus receipts excluding borrowings.",
+        "Incorrect. This choice does not satisfy the question. Fiscal deficit is total expenditure minus receipts excluding borrowings.",
+        "Incorrect. This choice does not satisfy the question. Fiscal deficit is total expenditure minus receipts excluding borrowings.",
+        "Incorrect. This choice does not satisfy the question. Fiscal deficit is total expenditure minus receipts excluding borrowings."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Economic and Social Development of India and Telangana."
+    },
+    {
+      "id": "P1-DLY-20261105-085",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "A demographic dividend may arise when:",
+      "options": [
+        "Working-age population share rises",
+        "All people retire",
+        "Birth rate instantly becomes zero",
+        "Population is entirely urban"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. A larger working-age share can support growth when jobs and skills are available.",
+        "Incorrect. This choice does not satisfy the question. A larger working-age share can support growth when jobs and skills are available.",
+        "Incorrect. This choice does not satisfy the question. A larger working-age share can support growth when jobs and skills are available.",
+        "Incorrect. This choice does not satisfy the question. A larger working-age share can support growth when jobs and skills are available."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Economic and Social Development of India and Telangana."
+    },
+    {
+      "id": "P1-DLY-20261105-086",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "The Deccan Plateau is:",
+      "options": [
+        "An elevated peninsular plateau",
+        "A coastal delta",
+        "A Himalayan valley",
+        "An island chain"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The Deccan is a large elevated plateau of southern peninsular India.",
+        "Incorrect. This choice does not satisfy the question. The Deccan is a large elevated plateau of southern peninsular India.",
+        "Incorrect. This choice does not satisfy the question. The Deccan is a large elevated plateau of southern peninsular India.",
+        "Incorrect. This choice does not satisfy the question. The Deccan is a large elevated plateau of southern peninsular India."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Physical, Social and Economic Geography and Demography of Telangana."
+    },
+    {
+      "id": "P1-DLY-20261105-087",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Singareni coalfields are mainly in:",
+      "options": [
+        "Telangana",
+        "Punjab",
+        "Kerala",
+        "Goa"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The Singareni coal belt lies in the Godavari Valley region of Telangana.",
+        "Incorrect. This choice does not satisfy the question. The Singareni coal belt lies in the Godavari Valley region of Telangana.",
+        "Incorrect. This choice does not satisfy the question. The Singareni coal belt lies in the Godavari Valley region of Telangana.",
+        "Incorrect. This choice does not satisfy the question. The Singareni coal belt lies in the Godavari Valley region of Telangana."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Physical, Social and Economic Geography and Demography of Telangana."
+    },
+    {
+      "id": "P1-DLY-20261105-088",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Musi River is a tributary of the:",
+      "options": [
+        "Godavari",
+        "Krishna",
+        "Cauvery",
+        "Mahanadi"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. The Musi joins the Krishna river system.",
+        "Correct. The Musi joins the Krishna river system.",
+        "Incorrect. This choice does not satisfy the question. The Musi joins the Krishna river system.",
+        "Incorrect. This choice does not satisfy the question. The Musi joins the Krishna river system."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Physical, Social and Economic Geography and Demography of Telangana."
+    },
+    {
+      "id": "P1-DLY-20261105-089",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "Most rainfall in Telangana is received from the:",
+      "options": [
+        "Southwest monsoon",
+        "Northeast monsoon only",
+        "Winter western disturbances",
+        "Pre-monsoon only"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The southwest monsoon provides most of Telangana's annual rainfall.",
+        "Incorrect. This choice does not satisfy the question. The southwest monsoon provides most of Telangana's annual rainfall.",
+        "Incorrect. This choice does not satisfy the question. The southwest monsoon provides most of Telangana's annual rainfall.",
+        "Incorrect. This choice does not satisfy the question. The southwest monsoon provides most of Telangana's annual rainfall."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Physical, Social and Economic Geography and Demography of Telangana."
+    },
+    {
+      "id": "P1-DLY-20261105-090",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Kuntala waterfall is formed by the:",
+      "options": [
+        "Kadem River",
+        "Musi River",
+        "Manjira River",
+        "Tungabhadra"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Kuntala Falls is formed by the Kadem River in the Adilabad region.",
+        "Incorrect. This choice does not satisfy the question. Kuntala Falls is formed by the Kadem River in the Adilabad region.",
+        "Incorrect. This choice does not satisfy the question. Kuntala Falls is formed by the Kadem River in the Adilabad region.",
+        "Incorrect. This choice does not satisfy the question. Kuntala Falls is formed by the Kadem River in the Adilabad region."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Physical, Social and Economic Geography and Demography of Telangana."
+    },
+    {
+      "id": "P1-DLY-20261105-091",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "The Richter scale historically measures:",
+      "options": [
+        "Earthquake magnitude",
+        "Wind speed",
+        "Rainfall",
+        "Air pressure"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The Richter scale quantifies earthquake magnitude from seismic-wave amplitude.",
+        "Incorrect. This choice does not satisfy the question. The Richter scale quantifies earthquake magnitude from seismic-wave amplitude.",
+        "Incorrect. This choice does not satisfy the question. The Richter scale quantifies earthquake magnitude from seismic-wave amplitude.",
+        "Incorrect. This choice does not satisfy the question. The Richter scale quantifies earthquake magnitude from seismic-wave amplitude."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies."
+    },
+    {
+      "id": "P1-DLY-20261105-092",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "A major anthropogenic greenhouse gas is:",
+      "options": [
+        "Carbon dioxide",
+        "Argon",
+        "Neon",
+        "Helium"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Carbon dioxide emissions from fossil fuels and land-use change contribute to warming.",
+        "Incorrect. This choice does not satisfy the question. Carbon dioxide emissions from fossil fuels and land-use change contribute to warming.",
+        "Incorrect. This choice does not satisfy the question. Carbon dioxide emissions from fossil fuels and land-use change contribute to warming.",
+        "Incorrect. This choice does not satisfy the question. Carbon dioxide emissions from fossil fuels and land-use change contribute to warming."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies."
+    },
+    {
+      "id": "P1-DLY-20261105-093",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "During a tsunami warning, coastal residents should:",
+      "options": [
+        "Move to higher ground/inland",
+        "Go to the beach",
+        "Wait at shoreline",
+        "Enter a lift"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Evacuation to higher ground or inland reduces tsunami exposure.",
+        "Incorrect. This choice does not satisfy the question. Evacuation to higher ground or inland reduces tsunami exposure.",
+        "Incorrect. This choice does not satisfy the question. Evacuation to higher ground or inland reduces tsunami exposure.",
+        "Incorrect. This choice does not satisfy the question. Evacuation to higher ground or inland reduces tsunami exposure."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies."
+    },
+    {
+      "id": "P1-DLY-20261105-094",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "The 3Rs in waste management are:",
+      "options": [
+        "Reduce, Reuse, Recycle",
+        "Read, Record, Report",
+        "Rescue, React, Return",
+        "Repair, Remove, Replace"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The waste hierarchy emphasizes reduction, reuse and recycling.",
+        "Incorrect. This choice does not satisfy the question. The waste hierarchy emphasizes reduction, reuse and recycling.",
+        "Incorrect. This choice does not satisfy the question. The waste hierarchy emphasizes reduction, reuse and recycling.",
+        "Incorrect. This choice does not satisfy the question. The waste hierarchy emphasizes reduction, reuse and recycling."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies."
+    },
+    {
+      "id": "P1-DLY-20261105-095",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Ozone depletion is strongly linked to:",
+      "options": [
+        "CFCs",
+        "Oxygen",
+        "Nitrogen",
+        "Helium"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. CFCs release chlorine radicals that catalytically destroy stratospheric ozone.",
+        "Incorrect. This choice does not satisfy the question. CFCs release chlorine radicals that catalytically destroy stratospheric ozone.",
+        "Incorrect. This choice does not satisfy the question. CFCs release chlorine radicals that catalytically destroy stratospheric ozone.",
+        "Incorrect. This choice does not satisfy the question. CFCs release chlorine radicals that catalytically destroy stratospheric ozone."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies."
+    },
+    {
+      "id": "P1-DLY-20261105-096",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "If 40% of a number is 72, the number is:",
+      "options": [
+        "144",
+        "160",
+        "180",
+        "200"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. 72÷0.4=180.",
+        "Incorrect. This choice does not satisfy the question. 72÷0.4=180.",
+        "Correct. 72÷0.4=180.",
+        "Incorrect. This choice does not satisfy the question. 72÷0.4=180."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Logical Reasoning; Analytical Ability and Data Interpretation."
+    },
+    {
+      "id": "P1-DLY-20261105-097",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "moderate",
+      "stem": "Walk 5 km north then 3 km east. Straight-line distance is:",
+      "options": [
+        "8 km",
+        "√34 km",
+        "2 km",
+        "√15 km"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Pythagoras gives √(5²+3²)=√34 km.",
+        "Correct. Pythagoras gives √(5²+3²)=√34 km.",
+        "Incorrect. This choice does not satisfy the question. Pythagoras gives √(5²+3²)=√34 km.",
+        "Incorrect. This choice does not satisfy the question. Pythagoras gives √(5²+3²)=√34 km."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Logical Reasoning; Analytical Ability and Data Interpretation."
+    },
+    {
+      "id": "P1-DLY-20261105-098",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Average of 6 numbers is 14. Remove 20; new average is:",
+      "options": [
+        "12.8",
+        "13",
+        "13.2",
+        "14"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Total is 84; remaining total 64; 64/5=12.8.",
+        "Incorrect. This choice does not satisfy the question. Total is 84; remaining total 64; 64/5=12.8.",
+        "Incorrect. This choice does not satisfy the question. Total is 84; remaining total 64; 64/5=12.8.",
+        "Incorrect. This choice does not satisfy the question. Total is 84; remaining total 64; 64/5=12.8."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Logical Reasoning; Analytical Ability and Data Interpretation."
+    },
+    {
+      "id": "P1-DLY-20261105-099",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "Next term: 2, 6, 12, 20, 30, __.",
+      "options": [
+        "36",
+        "40",
+        "42",
+        "44"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Terms follow n(n+1); next is 6×7=42.",
+        "Incorrect. This choice does not satisfy the question. Terms follow n(n+1); next is 6×7=42.",
+        "Correct. Terms follow n(n+1); next is 6×7=42.",
+        "Incorrect. This choice does not satisfy the question. Terms follow n(n+1); next is 6×7=42."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Logical Reasoning; Analytical Ability and Data Interpretation."
+    },
+    {
+      "id": "P1-DLY-20261105-100",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Syllabus-based exam practice",
+      "difficulty": "standard",
+      "stem": "A is twice as efficient as B. B takes 12 days. A takes:",
+      "options": [
+        "4 days",
+        "6 days",
+        "8 days",
+        "24 days"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This choice does not satisfy the question. Twice the work rate means half the time, six days.",
+        "Correct. Twice the work rate means half the time, six days.",
+        "Incorrect. This choice does not satisfy the question. Twice the work rate means half the time, six days.",
+        "Incorrect. This choice does not satisfy the question. Twice the work rate means half the time, six days."
+      ],
+      "basis": "Official Paper I General Studies syllabus: Logical Reasoning; Analytical Ability and Data Interpretation."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
