@@ -2076,16 +2076,246 @@
         "The verb forms are incorrect; 'would called' is ungrammatical."
       ],
       "basis": "Official Paper I syllabus: Basic English; grammar and sentence structure."
+    },
+    {
+      "id": "P2-PROB-003",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Expectation and variance",
+      "difficulty": "advanced",
+      "stem": "X takes values 0, 1, 2 with probabilities 0.2, 0.5, 0.3. Find Var(X).",
+      "options": [
+        "0.49",
+        "0.60",
+        "0.70",
+        "0.90"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. E(X)=1.1 and E(X²)=1.7, so Var(X)=1.7−1.1²=0.49.",
+        "This is not E(X²)−[E(X)]².",
+        "This does not follow from the distribution.",
+        "This is not the calculated variance."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics; Expectation and variance."
+    },
+    {
+      "id": "P2-SET-005",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Eigenvalues; determinant and trace",
+      "difficulty": "advanced",
+      "stem": "A 2×2 matrix has eigenvalues 3 and −2. What are its determinant and trace, respectively?",
+      "options": [
+        "1 and 5",
+        "−6 and 1",
+        "6 and −1",
+        "−1 and 6"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The trace is 1, not 5.",
+        "Correct. Determinant is the product −6; trace is the sum 1.",
+        "Both signs are incorrect.",
+        "Neither value matches the product and sum."
+      ],
+      "basis": "Official Paper II syllabus: Set Theory & Algebra; Linear Algebra; Eigenvalues; determinant and trace."
+    },
+    {
+      "id": "P2-DM-004",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Euler trails and vertex degrees",
+      "difficulty": "advanced",
+      "stem": "A connected undirected graph has exactly four vertices of odd degree. Which statement is necessarily true?",
+      "options": [
+        "It has an Euler circuit",
+        "It has neither an Euler trail nor an Euler circuit",
+        "It has an Euler trail but not a circuit",
+        "It must be a tree"
+      ],
+      "answer": 1,
+      "explanations": [
+        "An Euler circuit requires all degrees even.",
+        "Correct. A connected graph has an Euler trail only with zero or two odd-degree vertices.",
+        "An open Euler trail requires exactly two odd-degree vertices.",
+        "Four odd-degree vertices do not imply the graph is a tree."
+      ],
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; Euler trails and vertex degrees."
+    },
+    {
+      "id": "P2-ALG-005",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Greedy algorithms; activity selection",
+      "difficulty": "moderate",
+      "stem": "Activities are A(1,4), B(3,5), C(0,6), D(5,7), E(8,9). What is the maximum number of mutually compatible activities?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Two is possible but not maximum.",
+        "Correct. A, D and E are compatible; no fourth activity can be added.",
+        "Four cannot be scheduled without overlap.",
+        "All five are not mutually compatible."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; Greedy algorithms; activity selection."
+    },
+    {
+      "id": "P2-TOC-004",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Context-free but non-regular languages",
+      "difficulty": "advanced",
+      "stem": "Which language is context-free but not regular?",
+      "options": [
+        "{0ⁿ1ⁿ | n ≥ 0}",
+        "0*",
+        "{0,1}*",
+        "Strings with an even number of 1s"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. A pushdown automaton can match counts using a stack; finite automata cannot enforce unbounded equality.",
+        "0* is regular.",
+        "All binary strings form a regular language.",
+        "Parity can be tracked by a two-state DFA."
+      ],
+      "basis": "Official Paper II syllabus: Theory of Computation; Context-free but non-regular languages."
+    },
+    {
+      "id": "P1-CONST-006",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Parliament; Money Bills",
+      "difficulty": "advanced",
+      "stem": "A Bill is certified as a Money Bill by the Lok Sabha Speaker. The Rajya Sabha may:",
+      "options": [
+        "Reject it and prevent passage",
+        "Make binding amendments",
+        "Recommend changes within 14 days; Lok Sabha may accept or reject them",
+        "Keep it pending for six months"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The Rajya Sabha cannot veto a Money Bill.",
+        "Its recommendations are not binding.",
+        "Correct. Article 109 gives the Rajya Sabha 14 days to make recommendations; Lok Sabha may accept or reject them.",
+        "The constitutional period is 14 days."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; Parliament; Money Bills."
+    },
+    {
+      "id": "P1-TEL-007",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Gentlemen's Agreement, 1956",
+      "difficulty": "advanced",
+      "stem": "The Gentlemen's Agreement of 1956 was primarily intended to:",
+      "options": [
+        "Create Telangana immediately",
+        "Provide safeguards for Telangana within the proposed Andhra Pradesh",
+        "Abolish all Mulki rules",
+        "Move the capital from Hyderabad to Kurnool"
+      ],
+      "answer": 1,
+      "explanations": [
+        "It did not create a separate state in 1956.",
+        "Correct. It set safeguards for Telangana within the proposed united Andhra Pradesh, including expenditure, employment and representation.",
+        "It did not simply abolish all Mulki protections.",
+        "Hyderabad became the capital of Andhra Pradesh."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state; Gentlemen's Agreement, 1956."
+    },
+    {
+      "id": "P1-ECON-006",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "National income; real and nominal GDP",
+      "difficulty": "advanced",
+      "stem": "Nominal GDP grows by 8% while the GDP deflator rises by 5%. Approximately what is real GDP growth?",
+      "options": [
+        "2.9%",
+        "3.0%",
+        "5.0%",
+        "13.0%"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Real growth=(1.08/1.05)−1≈2.86%, or 2.9%.",
+        "Subtracting rates gives a rough approximation; the ratio gives 2.9%.",
+        "This is the deflator increase, not real growth.",
+        "This incorrectly adds inflation to nominal growth."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana; National income; real and nominal GDP."
+    },
+    {
+      "id": "P1-GEO-004",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Telangana climate; monsoon rainfall",
+      "difficulty": "moderate",
+      "stem": "Most of Telangana receives the bulk of its annual rainfall from which source?",
+      "options": [
+        "Southwest monsoon, mainly Bay of Bengal branch",
+        "Northeast monsoon",
+        "Western disturbances",
+        "Southwest monsoon, mainly Arabian Sea branch"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The southwest monsoon supplies most rainfall; the Bay of Bengal branch is important for the region.",
+        "The northeast monsoon is not Telangana's principal rainfall source.",
+        "Western disturbances mainly affect northwestern India in winter.",
+        "The Arabian Sea branch is not the primary source for most of Telangana."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; Telangana climate; monsoon rainfall."
+    },
+    {
+      "id": "P1-SCI-005",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Genetics; monohybrid inheritance",
+      "difficulty": "moderate",
+      "stem": "In a monohybrid cross Aa × Aa with complete dominance, what phenotypic ratio is expected?",
+      "options": [
+        "1:1",
+        "1:2:1",
+        "3:1",
+        "9:3:3:1"
+      ],
+      "answer": 2,
+      "explanations": [
+        "1:1 is typical of a heterozygote test cross.",
+        "1:2:1 is the genotypic ratio.",
+        "Correct. Three of four genotype outcomes show the dominant phenotype, giving 3:1.",
+        "9:3:3:1 is associated with a dihybrid cross."
+      ],
+      "basis": "Official Paper I syllabus: General Science; India’s Achievements in Science and Technology; Genetics; monohybrid inheritance."
     }
   ],
-  "qualityNote": "Reviewed expansion through 90 questions: 45 Paper II and 45 Paper I. Questions are original, syllabus-mapped, difficulty-labelled, and include four option-specific explanations. The bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions. Normal practice excludes attempted IDs; the 5+5 selector is regression-tested on a synthetic balanced 3,500-question bank. Browser end-to-end testing and live deployment are still pending.",
+  "qualityNote": "Reviewed expansion through 100 questions: 50 Paper II and 50 Paper I. This tranche adds 5 Paper II and 5 Paper I questions. Each added item has a unique ID, existing syllabus topic mapping, four options, a keyed answer and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
   "requirement": {
     "targetTotal": 3500,
     "targetPaper2": 2000,
     "targetPaper1": 1500,
-    "currentTotal": 90,
-    "currentPaper2": 45,
-    "currentPaper1": 45,
+    "currentTotal": 100,
+    "currentPaper2": 50,
+    "currentPaper1": 50,
     "status": "in_progress",
     "qualityGate": "Every added question must have a unique ID, official syllabus mapping, four options, a verified answer index, four option-specific explanations, and a difficulty label."
   }
