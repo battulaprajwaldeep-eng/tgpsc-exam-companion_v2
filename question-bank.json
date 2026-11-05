@@ -4997,6 +4997,236 @@
         "Insufficient means not enough."
       ],
       "basis": "Paper I: Basic English; vocabulary."
+    },
+    {
+      "id": "P2-NEW-057",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Number systems",
+      "difficulty": "advanced",
+      "stem": "The 8-bit two's-complement representation of −5 is:",
+      "options": [
+        "00000101",
+        "11111010",
+        "11111011",
+        "10000101"
+      ],
+      "answer": 2,
+      "explanations": [
+        "This is +5.",
+        "This is the one's complement of +5, not two's complement.",
+        "Correct: invert 00000101 to 11111010 and add 1, yielding 11111011.",
+        "This is sign-magnitude style, not two's complement."
+      ],
+      "basis": "Paper II: Digital Logic; signed number representation."
+    },
+    {
+      "id": "P2-NEW-058",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Memory hierarchy",
+      "difficulty": "advanced",
+      "stem": "Which memory is typically the fastest among these?",
+      "options": [
+        "Main memory (DRAM)",
+        "L1 cache",
+        "SSD",
+        "Magnetic disk"
+      ],
+      "answer": 1,
+      "explanations": [
+        "DRAM is slower than on-chip cache.",
+        "Correct: L1 cache is closest to the CPU and very fast.",
+        "SSD is secondary storage.",
+        "Magnetic disks are much slower."
+      ],
+      "basis": "Paper II: COA; memory hierarchy."
+    },
+    {
+      "id": "P2-NEW-059",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Trees",
+      "difficulty": "advanced",
+      "stem": "A full binary tree is one in which every node has:",
+      "options": [
+        "Exactly one child",
+        "Either zero or two children",
+        "At most three children",
+        "At least one child"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A node with exactly one child violates fullness.",
+        "Correct: every node has either 0 or 2 children.",
+        "A binary tree has at most two children.",
+        "Leaves have no children."
+      ],
+      "basis": "Paper II: Data Structures; tree properties."
+    },
+    {
+      "id": "P2-NEW-060",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Graph traversal",
+      "difficulty": "advanced",
+      "stem": "Using an adjacency list, BFS on a graph with V vertices and E edges takes:",
+      "options": [
+        "O(V²) always",
+        "O(V+E)",
+        "O(E log V)",
+        "O(log V)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "This is the usual adjacency-matrix bound, not adjacency list.",
+        "Correct: each vertex and edge is processed a constant number of times.",
+        "No sorting or heap is required for unweighted BFS.",
+        "The algorithm must visit the reachable graph."
+      ],
+      "basis": "Paper II: Algorithms; graph traversal."
+    },
+    {
+      "id": "P2-NEW-061",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Memory allocation",
+      "difficulty": "advanced",
+      "stem": "External fragmentation is most directly associated with:",
+      "options": [
+        "Paging with fixed-size frames",
+        "Variable-sized contiguous memory allocation",
+        "CPU register allocation",
+        "Round-robin scheduling"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Paging avoids external fragmentation by using fixed-size frames.",
+        "Correct: free memory can become split into small non-contiguous holes.",
+        "Register allocation is unrelated.",
+        "Scheduling is unrelated."
+      ],
+      "basis": "Paper II: Operating Systems; memory management."
+    },
+    {
+      "id": "P2-NEW-062",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "SQL",
+      "difficulty": "advanced",
+      "stem": "Which SQL clause filters groups after aggregation?",
+      "options": [
+        "WHERE",
+        "ORDER BY",
+        "HAVING",
+        "FROM"
+      ],
+      "answer": 2,
+      "explanations": [
+        "WHERE filters rows before grouping/aggregation.",
+        "ORDER BY sorts the result.",
+        "Correct: HAVING filters groups based on aggregate conditions.",
+        "FROM identifies source tables."
+      ],
+      "basis": "Paper II: Databases; SQL."
+    },
+    {
+      "id": "P2-NEW-063",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "Polymorphism",
+      "difficulty": "advanced",
+      "stem": "In Java, method overriding is resolved primarily at:",
+      "options": [
+        "Compile time using variable names only",
+        "Run time based on the actual object type",
+        "Link time by the linker",
+        "Database query time"
+      ],
+      "answer": 1,
+      "explanations": [
+        "That describes neither overriding nor dynamic dispatch.",
+        "Correct: instance method calls use dynamic dispatch based on the runtime object.",
+        "Java method dispatch is not linker-based in this sense.",
+        "Database execution is unrelated."
+      ],
+      "basis": "Paper II: OOP and Java; runtime polymorphism."
+    },
+    {
+      "id": "P1-NEW-025",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Constitutional history",
+      "difficulty": "advanced",
+      "stem": "The Cabinet Mission came to India in:",
+      "options": [
+        "1942",
+        "1945",
+        "1946",
+        "1947"
+      ],
+      "answer": 2,
+      "explanations": [
+        "1942 is associated with the Cripps Mission and Quit India Movement.",
+        "1945 marks the end of World War II.",
+        "Correct: the Cabinet Mission arrived in 1946.",
+        "1947 is the year of independence and partition."
+      ],
+      "basis": "Paper I: Modern Indian history."
+    },
+    {
+      "id": "P1-NEW-026",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana",
+      "subtopic": "Telangana movement",
+      "difficulty": "advanced",
+      "stem": "The Telangana statehood movement's major 1969 phase is commonly associated with the slogan:",
+      "options": [
+        "Jai Telangana",
+        "Jai Jawan",
+        "Inquilab Zindabad",
+        "Vande Mataram"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: 'Jai Telangana' became a prominent slogan in the 1969 agitation.",
+        "This is not the movement's distinctive slogan.",
+        "This is a broader revolutionary slogan.",
+        "This is a national song and slogan, not the specific movement slogan."
+      ],
+      "basis": "Paper I: Telangana statehood movement."
+    },
+    {
+      "id": "P1-NEW-027",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Ratio",
+      "difficulty": "advanced",
+      "stem": "If A:B=3:5 and B:C=10:7, then A:C equals:",
+      "options": [
+        "3:7",
+        "6:7",
+        "6:5",
+        "10:7"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Combining ratios gives A:B:C=6:10:7, not 3:7.",
+        "Correct: A:C=6:7.",
+        "This does not follow from the common B term.",
+        "This is B:C, not A:C."
+      ],
+      "basis": "Paper I: Analytical ability; ratios."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
