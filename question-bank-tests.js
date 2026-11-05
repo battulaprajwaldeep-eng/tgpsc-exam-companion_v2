@@ -45,7 +45,7 @@ const large=Array.from({length:3500},(_,i)=>({id:"T"+i,paper:i%2?1:2,topicId:"to
 const synthetic=Array.from({length:3500},(_,i)=>({id:"S"+i,paper:i<1750?2:1,topicId:"topic-"+(i%16),difficulty:["standard","moderate","advanced"][i%3]}));
 const attempted=[];let sessions=0;
 while(true){const batch=nextSession(synthetic,attempted);if(!batch)break;assert.equal(new Set(batch.map(q=>q.id)).size,10);for(const q of batch){assert.ok(!attempted.includes(q.id));attempted.push(q.id);}sessions++;}
-assert.equal(sessions,175,"3,500 balanced synthetic questions should yield 175 non-repeating 5+5 sessions");
+assert.equal(sessions,350,"3,500 balanced synthetic questions should yield 350 non-repeating 5+5 sessions");
 assert.equal(new Set(attempted).size,3500);
 assert.equal(nextSession(synthetic,attempted),null,"exhausted bank must not repeat");
 assert.ok(large.length===3500);
