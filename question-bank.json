@@ -3847,6 +3847,236 @@
         "This contradicts the first premise."
       ],
       "basis": "Paper I: Logical reasoning; syllogisms."
+    },
+    {
+      "id": "P2-NEW-022",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Sequential circuits",
+      "difficulty": "moderate",
+      "stem": "A JK flip-flop has J=K=1 at the active clock edge. Its next state is:",
+      "options": [
+        "0",
+        "1",
+        "Complement of present state",
+        "Unchanged"
+      ],
+      "answer": 2,
+      "explanations": [
+        "It is not forced to zero.",
+        "It is not forced to one.",
+        "Correct: J=K=1 causes toggling.",
+        "Holding occurs when J=K=0."
+      ],
+      "basis": "Paper II: Digital Logic; flip-flops."
+    },
+    {
+      "id": "P2-NEW-023",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Addressing modes",
+      "difficulty": "moderate",
+      "stem": "In byte-addressable memory, a 32-bit word occupies:",
+      "options": [
+        "2 bytes",
+        "4 bytes",
+        "8 bytes",
+        "32 bytes"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A 16-bit quantity is 2 bytes.",
+        "Correct: 32/8=4 bytes.",
+        "64 bits would occupy 8 bytes.",
+        "32 bits is not 32 bytes."
+      ],
+      "basis": "Paper II: COA; memory organization."
+    },
+    {
+      "id": "P2-NEW-024",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Hashing",
+      "difficulty": "moderate",
+      "stem": "With separate chaining, the expected search time under uniform hashing and load factor α is:",
+      "options": [
+        "Θ(1+α)",
+        "Θ(log n) always",
+        "Θ(n²)",
+        "Θ(α²)"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: expected chain length is proportional to α, plus constant overhead.",
+        "No tree balancing is implied.",
+        "Quadratic time is not the expected bound.",
+        "The expected bound is linear in α, not α squared."
+      ],
+      "basis": "Paper II: Data Structures; hashing."
+    },
+    {
+      "id": "P2-NEW-025",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Sorting",
+      "difficulty": "moderate",
+      "stem": "Which sorting algorithm is stable in its standard implementation and has worst-case Θ(n log n) time?",
+      "options": [
+        "Quick sort",
+        "Heap sort",
+        "Merge sort",
+        "Selection sort"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Standard quicksort is not stable and can be quadratic.",
+        "Heap sort is not stable.",
+        "Correct: merge sort is stable and has Θ(n log n) worst-case time.",
+        "Selection sort is generally Θ(n²) and not stable in its standard form."
+      ],
+      "basis": "Paper II: Algorithms; sorting."
+    },
+    {
+      "id": "P2-NEW-026",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Decidability",
+      "difficulty": "moderate",
+      "stem": "The halting problem for arbitrary Turing machines is:",
+      "options": [
+        "Decidable",
+        "Undecidable",
+        "Regular",
+        "A finite language"
+      ],
+      "answer": 1,
+      "explanations": [
+        "No algorithm decides it for every machine-input pair.",
+        "Correct: the halting problem is undecidable.",
+        "Regularity is a language-class property, not the result.",
+        "The set of instances is not finite."
+      ],
+      "basis": "Paper II: TOC; decidability."
+    },
+    {
+      "id": "P2-NEW-027",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Virtual memory",
+      "difficulty": "moderate",
+      "stem": "A page fault occurs when a process:",
+      "options": [
+        "Writes to a register",
+        "References a page not currently mapped as present in physical memory",
+        "Exceeds CPU clock speed",
+        "Closes a file"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Register access does not cause a page fault.",
+        "Correct: the OS must resolve a missing or non-present page mapping.",
+        "CPU clock speed is unrelated.",
+        "Closing a file is unrelated."
+      ],
+      "basis": "Paper II: Operating Systems; virtual memory."
+    },
+    {
+      "id": "P2-NEW-028",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Subnetting",
+      "difficulty": "moderate",
+      "stem": "How many usable host addresses are available in a conventional IPv4 /27 subnet?",
+      "options": [
+        "14",
+        "30",
+        "32",
+        "62"
+      ],
+      "answer": 1,
+      "explanations": [
+        "/28 provides 14 usable addresses.",
+        "Correct: 2^(32−27)−2=30.",
+        "32 is the total addresses, including network and broadcast.",
+        "/26 provides 62 usable addresses."
+      ],
+      "basis": "Paper II: Computer Networks; IPv4 subnetting."
+    },
+    {
+      "id": "P1-NEW-010",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Disaster management",
+      "difficulty": "moderate",
+      "stem": "Which measure is an example of structural flood mitigation?",
+      "options": [
+        "Public awareness campaign",
+        "Flood forecasting",
+        "Construction of embankments",
+        "Evacuation drill"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Awareness is non-structural.",
+        "Forecasting is non-structural.",
+        "Correct: embankments are physical infrastructure.",
+        "Evacuation drills are non-structural preparedness."
+      ],
+      "basis": "Paper I: Environment and disaster management."
+    },
+    {
+      "id": "P1-NEW-011",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "National income",
+      "difficulty": "moderate",
+      "stem": "Gross Domestic Product measures the value of:",
+      "options": [
+        "All intermediate goods only",
+        "Final goods and services produced within a country's domestic territory during a period",
+        "Only exports",
+        "Only government production"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Intermediate goods are excluded to avoid double counting.",
+        "Correct: GDP measures final output produced within domestic territory over a period.",
+        "Exports are only one component.",
+        "Private-sector output is also included."
+      ],
+      "basis": "Paper I: Economic and social development."
+    },
+    {
+      "id": "P1-NEW-012",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "Grammar",
+      "difficulty": "moderate",
+      "stem": "Choose the grammatically correct sentence:",
+      "options": [
+        "Neither of the answers are correct.",
+        "Neither of the answers is correct.",
+        "Neither answers is correct.",
+        "Neither of answers are correct."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Neither is treated as singular in this construction.",
+        "Correct: singular 'neither' takes 'is'.",
+        "The determiner 'of the' is missing.",
+        "The phrase is incomplete and uses the wrong agreement."
+      ],
+      "basis": "Paper I: Basic English."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
