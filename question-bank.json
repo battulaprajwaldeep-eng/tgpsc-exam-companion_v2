@@ -3241,12 +3241,12 @@
         "17",
         "21"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanations": [
-        "Incorrect. 205 mod 64 is not 11.",
-        "Incorrect. The remainder is not 13.",
-        "Correct. Direct mapping uses block number mod number of lines: 205 mod 64 = 13. Wait: 64×3=192; remainder=13.",
-        "Incorrect. The computed remainder is 13, not 21."
+        "Incorrect. 205 mod 64 = 13, not 11.",
+        "Correct. Direct mapping uses block number mod number of lines: 205 mod 64 = 13.",
+        "Incorrect. 17 is not the remainder of 205 divided by 64.",
+        "Incorrect. The remainder is 13, not 21."
       ],
       "basis": "Official Paper II syllabus: Computer Organization and Architecture; cache mapping."
     },
