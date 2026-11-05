@@ -1286,19 +1286,19 @@
         "4",
         "5"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanations": [
-        "Removing 2 edges leaves 9 edges, but a tree on 8 vertices has 7 edges.",
-        "Correct. A spanning tree has V−1=7 edges; 11−7=4 edges must be removed.",
-        "Four is the correct number removed? The calculation 11−7 equals 4, so option C is correct.",
-        "Five removals would leave 6 edges, insufficient to connect 8 vertices."
+        "Removing 2 edges leaves 9 edges, whereas a tree on 8 vertices has exactly 7 edges.",
+        "Removing 3 edges leaves 8 edges, still one more than the 7 edges in a spanning tree.",
+        "Correct. A spanning tree on 8 vertices has V−1=7 edges; therefore 11−7=4 edges must be removed.",
+        "Removing 5 edges leaves only 6 edges, which cannot connect all 8 vertices."
       ],
       "basis": "Official Paper II syllabus: Graph Theory; trees and spanning trees."
     },
     {
       "id": "P2-WEB-001",
       "paper": 2,
-      "topicId": "p2-15",
+      "topicId": "p2-14",
       "topic": "Web Technologies",
       "subtopic": "HTTP methods and idempotency",
       "difficulty": "moderate",
@@ -1344,7 +1344,7 @@
     {
       "id": "P2-OOP-001",
       "paper": 2,
-      "topicId": "p2-14",
+      "topicId": "p2-15",
       "topic": "OOP + C++ + Java",
       "subtopic": "Dynamic binding and polymorphism",
       "difficulty": "moderate",
