@@ -4767,6 +4767,236 @@
         "The decrease is 4%, not 2%."
       ],
       "basis": "Paper I: Analytical ability; percentages."
+    },
+    {
+      "id": "P2-NEW-050",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Correlation",
+      "difficulty": "moderate",
+      "stem": "The Pearson correlation coefficient r always lies in:",
+      "options": [
+        "0 to 1",
+        "−1 to +1",
+        "−∞ to +∞",
+        "−1 to 0"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Negative correlation values are possible.",
+        "Correct: r is bounded between −1 and +1 inclusive.",
+        "The coefficient is bounded.",
+        "Positive correlation values are possible."
+      ],
+      "basis": "Paper II: Statistics; correlation."
+    },
+    {
+      "id": "P2-NEW-051",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Determinants",
+      "difficulty": "moderate",
+      "stem": "A square matrix is singular if and only if its determinant is:",
+      "options": [
+        "1",
+        "Non-zero",
+        "Zero",
+        "Negative"
+      ],
+      "answer": 2,
+      "explanations": [
+        "A determinant of 1 is non-singular.",
+        "A non-zero determinant implies invertibility.",
+        "Correct: determinant zero means the matrix is not invertible.",
+        "A negative determinant can still be non-zero and invertible."
+      ],
+      "basis": "Paper II: Linear Algebra; invertibility."
+    },
+    {
+      "id": "P2-NEW-052",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Graph coloring",
+      "difficulty": "moderate",
+      "stem": "The minimum number of colors needed to color the vertices of a non-empty bipartite graph is at most:",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A graph with edges may require two colors.",
+        "Correct: partition sets can be assigned two colors; edgeless graphs need one.",
+        "Three colors are never necessary for bipartite graphs.",
+        "Four colors are never necessary."
+      ],
+      "basis": "Paper II: Graph Theory; bipartite graphs."
+    },
+    {
+      "id": "P2-NEW-053",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Linked lists",
+      "difficulty": "moderate",
+      "stem": "Deleting a known node from a singly linked list in O(1) time generally requires:",
+      "options": [
+        "Only the node's next pointer, with a special case for tail",
+        "Sorting the list first",
+        "Traversing from the head in all cases",
+        "A hash table"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Copying successor data and bypassing it is O(1) for a non-tail node; tail deletion needs predecessor access.",
+        "Sorting is unrelated.",
+        "A full traversal is not always needed for a non-tail node.",
+        "A hash table is not required."
+      ],
+      "basis": "Paper II: Data Structures; linked lists."
+    },
+    {
+      "id": "P2-NEW-054",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Divide and conquer",
+      "difficulty": "moderate",
+      "stem": "The recurrence T(n)=T(n/2)+Θ(1) has solution:",
+      "options": [
+        "Θ(n)",
+        "Θ(log n)",
+        "Θ(n log n)",
+        "Θ(1)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Each level halves the problem; linear time is too large.",
+        "Correct: there are Θ(log n) levels with constant work per level.",
+        "There is only one subproblem per level.",
+        "The recursion depth grows logarithmically."
+      ],
+      "basis": "Paper II: Algorithms; recurrence analysis."
+    },
+    {
+      "id": "P2-NEW-055",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Lexical analysis",
+      "difficulty": "moderate",
+      "stem": "The primary output of a lexical analyzer is a stream of:",
+      "options": [
+        "Machine instructions",
+        "Tokens",
+        "Parse trees",
+        "Object files"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Machine instructions are generated later.",
+        "Correct: the lexer groups characters into tokens.",
+        "Parse trees are built by parsing.",
+        "Object files are produced by later compilation/linking stages."
+      ],
+      "basis": "Paper II: Compiler Design; lexical analysis."
+    },
+    {
+      "id": "P2-NEW-056",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Transport layer",
+      "difficulty": "moderate",
+      "stem": "Which transport protocol provides reliable, ordered byte-stream delivery?",
+      "options": [
+        "UDP",
+        "IP",
+        "TCP",
+        "ARP"
+      ],
+      "answer": 2,
+      "explanations": [
+        "UDP is connectionless and does not guarantee delivery or order.",
+        "IP is a network-layer protocol.",
+        "Correct: TCP provides reliable, ordered byte-stream service.",
+        "ARP resolves network-layer addresses to link-layer addresses."
+      ],
+      "basis": "Paper II: Computer Networks; transport protocols."
+    },
+    {
+      "id": "P1-NEW-022",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Telangana geography",
+      "difficulty": "moderate",
+      "stem": "The Kaleshwaram Lift Irrigation Project is associated with which river?",
+      "options": [
+        "Krishna",
+        "Godavari",
+        "Tungabhadra",
+        "Pennar"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Krishna is a separate major river system.",
+        "Correct: the project lifts water from the Godavari river system.",
+        "Tungabhadra is a Krishna tributary.",
+        "Pennar is another peninsular river."
+      ],
+      "basis": "Paper I: Geography of Telangana."
+    },
+    {
+      "id": "P1-NEW-023",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Directive principles",
+      "difficulty": "moderate",
+      "stem": "The Directive Principles of State Policy are:",
+      "options": [
+        "Justiciable in courts",
+        "Non-justiciable but fundamental in governance",
+        "Applicable only during emergencies",
+        "Enforceable only by the President"
+      ],
+      "answer": 1,
+      "explanations": [
+        "They are not directly enforceable by courts.",
+        "Correct: Article 37 says they are not enforceable but fundamental in governance.",
+        "They apply as constitutional principles generally, not only in emergencies.",
+        "They are not enforced by the President alone."
+      ],
+      "basis": "Paper I: Indian Constitution; Directive Principles."
+    },
+    {
+      "id": "P1-NEW-024",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "Vocabulary",
+      "difficulty": "moderate",
+      "stem": "Choose the antonym of 'scarce':",
+      "options": [
+        "Rare",
+        "Limited",
+        "Abundant",
+        "Insufficient"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Rare is similar in meaning to scarce.",
+        "Limited is similar in meaning.",
+        "Correct: abundant means plentiful.",
+        "Insufficient means not enough."
+      ],
+      "basis": "Paper I: Basic English; vocabulary."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
