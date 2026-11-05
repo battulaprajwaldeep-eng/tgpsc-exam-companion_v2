@@ -45,37 +45,153 @@
     ]
   },
   "syllabus": {
-    "paper2": [
-      "Probability and Statistics",
-      "Set Theory, Algebra and Linear Algebra",
-      "Discrete Mathematics and Graph Theory",
-      "Digital Logic",
-      "Computer Organization and Architecture",
-      "C Programming and Data Structures",
-      "Algorithms",
-      "Theory of Computation",
-      "Compiler Design",
-      "Operating Systems",
-      "Database Management Systems",
-      "Information Systems and Software Engineering",
-      "Computer Networks",
-      "Web Technologies",
-      "Object-Oriented Programming, C++ and Java",
-      "Additional Paper II heading — exact wording not recovered; verify against official notification"
-    ],
+    "sourceFile": "DIRECTRECRUITMENTNOTI_NOTIFN 04-OG-HM-2026-MANAGE_260925_091332(2).pdf",
+    "sourcePages": "Annexure-II, printed pages 15 and 22–23",
+    "verification": "Transcribed against the uploaded official Notification No. 04/OG/HM/2026. This is the complete 15-point Paper I list and 16-point CSE/IT Paper II list.",
     "paper1": [
-      "Current Affairs — Regional, National and International",
-      "International Relations and Events",
-      "General Science and India's Achievements in Science and Technology",
-      "Environmental Issues and Disaster Management",
-      "Economic and Social Development of India and Telangana",
-      "Physical, Social and Economic Geography of India",
-      "Physical, Social and Economic Geography and Demography of Telangana",
-      "Socio-economic, Political and Cultural History of Modern India, with emphasis on the National Movement",
-      "Socio-economic, Political and Cultural History of Telangana, with emphasis on the Statehood Movement",
-      "Indian Constitution, Political System, Governance and Public Policy"
+      {
+        "id": "p1-01",
+        "title": "Current affairs – Regional, National and International"
+      },
+      {
+        "id": "p1-02",
+        "title": "International Relations and Events"
+      },
+      {
+        "id": "p1-03",
+        "title": "General Science; India’s Achievements in Science and Technology"
+      },
+      {
+        "id": "p1-04",
+        "title": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies"
+      },
+      {
+        "id": "p1-05",
+        "title": "Economic and Social Development of India and Telangana"
+      },
+      {
+        "id": "p1-06",
+        "title": "Physical, Social and Economic Geography of India"
+      },
+      {
+        "id": "p1-07",
+        "title": "Physical, Social and Economic Geography and Demography of Telangana"
+      },
+      {
+        "id": "p1-08",
+        "title": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement"
+      },
+      {
+        "id": "p1-09",
+        "title": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state"
+      },
+      {
+        "id": "p1-10",
+        "title": "Indian Constitution; Indian Political System; Governance and Public Policy"
+      },
+      {
+        "id": "p1-11",
+        "title": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies"
+      },
+      {
+        "id": "p1-12",
+        "title": "Society, Culture, Heritage, Arts and Literature of Telangana"
+      },
+      {
+        "id": "p1-13",
+        "title": "Policies of Telangana State"
+      },
+      {
+        "id": "p1-14",
+        "title": "Logical Reasoning; Analytical Ability and Data Interpretation"
+      },
+      {
+        "id": "p1-15",
+        "title": "Basic English (10th class Standard)"
+      }
     ],
-    "verification": "Prior-context audit says 16 Paper II headings and 15 Paper I areas were tracked, but exact complete 2026 notification heading lists were not retrievable here. The displayed list is a working summary, not a certified exhaustive transcription. The missing Paper II heading and remaining Paper I subareas must be checked against the official notification PDF."
+    "paper2": [
+      {
+        "id": "p2-01",
+        "title": "Probability and Statistics",
+        "details": "Probability; conditional probability; probability density function; mean, median, mode and standard deviation; random variables; uniform, normal, exponential, Poisson and Binomial distributions."
+      },
+      {
+        "id": "p2-02",
+        "title": "Set Theory & Algebra; Linear Algebra",
+        "details": "Sets; relations; functions; groups; partial orders; lattice; Boolean algebra; algebra of matrices; determinants; systems of linear equations; eigenvalues and eigenvectors."
+      },
+      {
+        "id": "p2-03",
+        "title": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+        "details": "Permutations; combinations; counting; summation; generating functions; recurrence relations; connectivity; spanning trees; cut vertices and edges; covering; matching; independent sets; coloring; planarity; isomorphism; propositional logic; first-order logic."
+      },
+      {
+        "id": "p2-04",
+        "title": "Digital Logic",
+        "details": "Logic functions; minimization; design and synthesis of combinational and sequential circuits; number representation and computer arithmetic (fixed and floating point)."
+      },
+      {
+        "id": "p2-05",
+        "title": "Computer Organization and Architecture",
+        "details": "Machine instructions and addressing modes; ALU; CPU control design; memory interface; I/O interface (interrupt and DMA mode); instruction pipelining; cache and main memory; secondary storage; multiprocessors."
+      },
+      {
+        "id": "p2-06",
+        "title": "Programming and Data Structures",
+        "details": "Programming in C; functions; recursion; parameter passing; scope; binding; abstract data types; arrays; stacks; queues; linked lists; trees; binary search trees; binary heaps."
+      },
+      {
+        "id": "p2-07",
+        "title": "Algorithms",
+        "details": "Analysis; asymptotic notation; space and time complexity; worst and average case analysis; greedy approach; dynamic programming; divide-and-conquer; tree and graph traversals; connected components; spanning trees; shortest paths; hashing; sorting; searching; best, worst and average case time/space; upper and lower bounds; P, NP, NP-hard and NP-complete."
+      },
+      {
+        "id": "p2-08",
+        "title": "Theory of Computation",
+        "details": "Regular languages and finite automata; context-free languages and push-down automata; recursively enumerable sets and Turing machines; undecidability."
+      },
+      {
+        "id": "p2-09",
+        "title": "Compiler Design",
+        "details": "Lexical analysis; parsing; syntax-directed translation; runtime environments; intermediate and target code generation; basics of code optimization."
+      },
+      {
+        "id": "p2-10",
+        "title": "Operating Systems",
+        "details": "Processes; threads; inter-process communication; concurrency; synchronization; deadlock; CPU scheduling; memory management and virtual memory; file systems; I/O systems; protection and security; system calls; disk scheduling."
+      },
+      {
+        "id": "p2-11",
+        "title": "Databases",
+        "details": "ER model; relational model (relational algebra, tuple relational calculus); database design (integrity constraints, normal forms); SQL; file structures (sequential files, indexing, B and B+ trees); transactions and concurrency control."
+      },
+      {
+        "id": "p2-12",
+        "title": "Information Systems and Software Engineering",
+        "details": "Information gathering; requirement and feasibility analysis; data flow diagrams; process specifications; input/output design; process life cycle; project planning and management; design; coding; testing; implementation; maintenance; introduction to UML."
+      },
+      {
+        "id": "p2-13",
+        "title": "Computer Networks",
+        "details": "ISO/OSI reference model; LAN technologies (Ethernet, Token ring); flow and error control; routing algorithms; congestion control; TCP/UDP and sockets; IPv4; ICMP, DNS, SMTP, POP, FTP, HTTP; hubs, switches, gateways and routers; public/private key cryptography; digital signature; firewalls."
+      },
+      {
+        "id": "p2-14",
+        "title": "Web Technologies",
+        "details": "Introduction to PHP; XML; Servlets; JSP; client-side scripting."
+      },
+      {
+        "id": "p2-15",
+        "title": "OOPS Concepts, Programming in C++ and JAVA",
+        "details": "Object-oriented programming concepts; programming in C++ and Java."
+      },
+      {
+        "id": "p2-16",
+        "title": "Data Mining",
+        "details": "Introduction to data mining; association rules; classification algorithms; clustering algorithms."
+      }
+    ]
   },
   "verifiedQuizRecords": [
     {
@@ -220,7 +336,9 @@
   "progressAudit": {
     "auditedAt": "2026-11-05",
     "sourceScope": "Prior CSE Preparation Guide and Continue Study Quiz conversations plus retrieved prior-context summaries",
-    "confidencePolicy": "Only explicitly verified scores are counted. Missing answer-to-question mappings are not reconstructed. Exposure to a topic does not mean syllabus completion."
+    "confidencePolicy": "Only explicitly verified scores are counted. Missing answer-to-question mappings are not reconstructed. Exposure to a topic does not mean syllabus completion.",
+    "officialSyllabusVerified": true,
+    "verifiedAgainst": "Uploaded notification PDF, Annexure-II printed pages 15, 22 and 23"
   },
   "quizSeries": [
     {
