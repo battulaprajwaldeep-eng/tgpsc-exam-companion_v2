@@ -1846,6 +1846,236 @@
         "There is no rule that invokes the derived destructor twice."
       ],
       "basis": "Official Paper II syllabus: Object-oriented programming; C++ inheritance and polymorphism."
+    },
+    {
+      "id": "P1-CONST-005",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitutional bodies; Finance Commission",
+      "difficulty": "moderate",
+      "stem": "Under Article 280 of the Constitution of India, the Finance Commission is constituted by the President at intervals of:",
+      "options": [
+        "Every two years",
+        "Every five years or earlier",
+        "Every six years",
+        "Only when Parliament requests it"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The Constitution does not prescribe a two-year interval.",
+        "Correct. Article 280 provides for a Finance Commission every five years, or earlier if the President considers it necessary.",
+        "Six years is not the constitutional interval.",
+        "Its constitution is not dependent on a request from Parliament."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; constitutional bodies."
+    },
+    {
+      "id": "P1-TEL-006",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana",
+      "subtopic": "Telangana statehood; statutory formation",
+      "difficulty": "moderate",
+      "stem": "The Andhra Pradesh Reorganisation Act, 2014 provided for the formation of Telangana with effect from:",
+      "options": [
+        "1 January 2014",
+        "2 June 2014",
+        "15 August 2014",
+        "1 November 2014"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The Act did not bring Telangana into existence on 1 January 2014.",
+        "Correct. Telangana came into existence on 2 June 2014 under the Reorganisation Act.",
+        "15 August 2014 was not the appointed day.",
+        "1 November is associated with the formation of Andhra Pradesh in 1956, not Telangana in 2014."
+      ],
+      "basis": "Official Paper I syllabus: Telangana history and statehood movement; formation of Telangana."
+    },
+    {
+      "id": "P1-GEO-003",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Telangana physiography; river systems",
+      "difficulty": "moderate",
+      "stem": "Which river is a major left-bank tributary of the Godavari that flows through parts of Telangana?",
+      "options": [
+        "Musi",
+        "Manjira",
+        "Paleru",
+        "Munneru"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Musi is a tributary of the Krishna system, not the Godavari.",
+        "Correct. Manjira is a major left-bank tributary of the Godavari and flows through parts of Telangana.",
+        "Paleru is associated with the Krishna river system.",
+        "Munneru is a tributary of the Krishna, not the Godavari."
+      ],
+      "basis": "Official Paper I syllabus: Geography of Telangana; rivers and drainage."
+    },
+    {
+      "id": "P1-ECON-005",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Public finance; fiscal deficit",
+      "difficulty": "moderate",
+      "stem": "Fiscal deficit of a government is best described as:",
+      "options": [
+        "Revenue expenditure minus revenue receipts",
+        "Total expenditure minus total receipts excluding borrowings",
+        "Interest payments minus capital expenditure",
+        "Tax revenue minus non-tax revenue"
+      ],
+      "answer": 1,
+      "explanations": [
+        "This is the revenue deficit, not fiscal deficit.",
+        "Correct. Fiscal deficit measures the gap between total expenditure and total receipts excluding borrowings; it indicates the government's borrowing requirement.",
+        "This is not the standard definition of fiscal deficit.",
+        "This is a comparison of two revenue components, not the fiscal deficit."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development; public finance and fiscal policy."
+    },
+    {
+      "id": "P1-REASON-005",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Logical reasoning; syllogisms",
+      "difficulty": "advanced",
+      "stem": "Statements: All engineers are graduates. Some graduates are artists. Conclusions: I. Some engineers are artists. II. All engineers are graduates. Which conclusion follows?",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both I and II",
+        "Neither I nor II"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The artists who are graduates need not be engineers; conclusion I does not necessarily follow.",
+        "Correct. Conclusion II restates the first statement and follows directly.",
+        "Conclusion I is not guaranteed, so both cannot follow.",
+        "Conclusion II does follow."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning and Analytical Ability."
+    },
+    {
+      "id": "P1-SCI-004",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Physics; electromagnetic spectrum",
+      "difficulty": "moderate",
+      "stem": "Which electromagnetic radiation has the highest frequency among the following?",
+      "options": [
+        "Microwaves",
+        "Infrared",
+        "Ultraviolet",
+        "X-rays"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Microwaves have lower frequency than infrared, ultraviolet and X-rays.",
+        "Infrared lies below visible light in frequency and is lower than ultraviolet and X-rays.",
+        "Ultraviolet has a higher frequency than visible light but lower than X-rays.",
+        "Correct. In the listed order, X-rays have the highest frequency and shortest wavelength."
+      ],
+      "basis": "Official Paper I syllabus: General Science; basic physics and scientific developments."
+    },
+    {
+      "id": "P1-INDGEO-003",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "India Geography",
+      "subtopic": "Indian agriculture; cropping seasons",
+      "difficulty": "moderate",
+      "stem": "Which of the following crops is predominantly associated with the rabi season in India?",
+      "options": [
+        "Rice",
+        "Cotton",
+        "Wheat",
+        "Jute"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Rice is primarily a kharif crop in most major rice-growing regions, though seasonal variations exist.",
+        "Cotton is generally a kharif crop.",
+        "Correct. Wheat is a major rabi crop, sown in winter and harvested in spring.",
+        "Jute is generally grown during the kharif season."
+      ],
+      "basis": "Official Paper I syllabus: Geography of India; agriculture and cropping patterns."
+    },
+    {
+      "id": "P1-ENV-005",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Disaster management; earthquake risk reduction",
+      "difficulty": "moderate",
+      "stem": "Which measure most directly reduces earthquake-related structural collapse in buildings?",
+      "options": [
+        "Increasing glass façade area",
+        "Providing ductile detailing and seismic-resistant design",
+        "Using heavier roof slabs without reinforcement changes",
+        "Reducing the number of structural connections"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A larger glass façade does not improve seismic resistance and may add hazards.",
+        "Correct. Ductile detailing and seismic-resistant design help structures dissipate energy and deform without sudden brittle failure.",
+        "Increasing mass can increase seismic forces and does not substitute for proper design.",
+        "Reducing structural connections can weaken load paths and increase collapse risk."
+      ],
+      "basis": "Official Paper I syllabus: Disaster Management; prevention and mitigation strategies."
+    },
+    {
+      "id": "P1-IR-004",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "International institutions; World Trade Organization",
+      "difficulty": "moderate",
+      "stem": "The principle of most-favoured-nation treatment in the WTO generally requires a member to:",
+      "options": [
+        "Give every trading partner a different tariff rate",
+        "Extend a trade advantage granted to one member to all WTO members, subject to permitted exceptions",
+        "Impose identical domestic taxes on all products regardless of origin",
+        "Eliminate all tariffs immediately"
+      ],
+      "answer": 1,
+      "explanations": [
+        "MFN generally discourages discriminatory treatment among trading partners; it does not require different rates for each.",
+        "Correct. A trade advantage granted to one WTO member is generally extended to all members, subject to recognised exceptions such as qualifying free-trade agreements.",
+        "This describes a different national-treatment issue and is too broad.",
+        "MFN does not require immediate elimination of all tariffs."
+      ],
+      "basis": "Official Paper I syllabus: International Relations and Events; international institutions."
+    },
+    {
+      "id": "P1-ENGLISH-003",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "Grammar; conditional sentences",
+      "difficulty": "moderate",
+      "stem": "Choose the grammatically correct sentence.",
+      "options": [
+        "If I would have known, I would call you.",
+        "If I had known, I would have called you.",
+        "If I knew, I would have called you yesterday.",
+        "If I have known, I would called you."
+      ],
+      "answer": 1,
+      "explanations": [
+        "The standard third conditional does not use 'would have' in the if-clause.",
+        "Correct. The third conditional uses past perfect in the if-clause and 'would have' plus past participle in the result clause.",
+        "This mixes second-conditional form with a completed past result.",
+        "The verb forms are incorrect; 'would called' is ungrammatical."
+      ],
+      "basis": "Official Paper I syllabus: Basic English; grammar and sentence structure."
     }
   ],
   "qualityNote": "The new batch was benchmarked against the uploaded 2015 Manager CS&IT Paper-II: formal relations, RAM capacity, scheduling/calculation style, functional dependencies, graph algorithms, TCP sequence arithmetic and pipeline timing. Questions are original and syllabus-mapped. The bank now contains 20 questions per paper, allowing four balanced sessions from a fresh browser profile. Initial expansion tranche added 10 new questions (5 per paper) with unique IDs, four option-specific explanations and syllabus mapping. Second expansion tranche: 20 additional questions (10 per paper), including algorithms/programming, digital logic, probability, compiler design, graph theory, web/SE/OOP/SQL, and Telangana/India GS, constitution, science, reasoning and disaster management.",
@@ -1853,9 +2083,9 @@
     "targetTotal": 3500,
     "targetPaper2": 2000,
     "targetPaper1": 1500,
-    "currentTotal": 80,
+    "currentTotal": 90,
     "currentPaper2": 45,
-    "currentPaper1": 35,
+    "currentPaper1": 45,
     "status": "in_progress",
     "qualityGate": "Every added question must have a unique ID, official syllabus mapping, four options, a verified answer index, four option-specific explanations, and a difficulty label."
   }
