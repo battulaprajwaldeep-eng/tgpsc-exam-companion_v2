@@ -236,6 +236,236 @@
         "The measures directly reduce exposure, vulnerability and consequences; they are not merely forecasting."
       ],
       "basis": "Official Paper I syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies."
+    },
+    {
+      "id": "P2-COA-001",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache memory and average access time",
+      "difficulty": "moderate",
+      "stem": "A system has a cache hit ratio of 0.8. Cache access time is 10 ns and main-memory access time is 100 ns. Assume a serial lookup in which every access first checks the cache and a miss then accesses main memory. What is the average access time?",
+      "options": [
+        "18 ns",
+        "20 ns",
+        "30 ns",
+        "90 ns"
+      ],
+      "answer": 2,
+      "explanations": [
+        "18 ns incorrectly treats the miss penalty as 100 ns total rather than adding the 10 ns cache lookup.",
+        "20 ns omits the cache lookup on misses or applies an incorrect weighting.",
+        "Correct. 0.8×10 + 0.2×(10+100) = 8+22 = 30 ns.",
+        "90 ns ignores the high cache hit ratio and is not the weighted average."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; cache and main memory."
+    },
+    {
+      "id": "P2-TOC-001",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Finite automata and regular languages",
+      "difficulty": "advanced",
+      "stem": "Let L be the language over {0,1} consisting of strings that contain an even number of 0s and end in 1. What is the minimum number of states in a complete DFA for L?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Two states cannot independently track parity of 0s and whether the last symbol is 1.",
+        "Three states are insufficient: the parity and last-symbol condition require four distinguishable situations, including the start/last-symbol-not-1 cases.",
+        "Correct. Track (even/odd number of 0s) × (last symbol is 1 / not 1). The four combinations are distinguishable; the start state is equivalent to even parity with last-symbol-not-1.",
+        "Five states are not needed because the start condition can share the even-parity, not-ending-in-1 state."
+      ],
+      "basis": "Official Paper II syllabus: Theory of Computation; regular languages and finite automata."
+    },
+    {
+      "id": "P2-NET-001",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "IPv4 subnetting",
+      "difficulty": "moderate",
+      "stem": "An organisation has been allocated 192.168.10.0/24 and needs at least 6 equal-sized subnets, each supporting at least 25 usable host addresses. Which subnet mask is the most suitable?",
+      "options": [
+        "255.255.255.192 (/26)",
+        "255.255.255.224 (/27)",
+        "255.255.255.240 (/28)",
+        "255.255.255.248 (/29)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "/26 gives only 4 subnets from the /24, although each has 62 usable hosts.",
+        "Correct. /27 borrows 3 bits, giving 8 subnets, with 5 host bits and 30 usable addresses per subnet.",
+        "/28 gives 16 subnets but only 14 usable hosts per subnet, below the requirement.",
+        "/29 gives 32 subnets but only 6 usable hosts per subnet."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; IPv4."
+    },
+    {
+      "id": "P2-DL-001",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Signed binary arithmetic and two's complement",
+      "difficulty": "moderate",
+      "stem": "Using 8-bit two's-complement representation, what is the result of adding 01101101 and 00110111?",
+      "options": [
+        "10100100, representing −92",
+        "10100100, representing +164",
+        "10100100, overflow has occurred",
+        "10000100, representing −124"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The bit pattern 10100100 would represent −92 if interpreted as a signed 8-bit value, but the mathematical sum is outside the representable range.",
+        "+164 is not representable in signed 8-bit two's complement; interpreting the high bit as a sign bit makes this option invalid.",
+        "Correct. The operands are +109 and +55, whose sum is +164, outside the range −128 to +127. The 8-bit result wraps to 10100100 and signed overflow occurs.",
+        "The binary addition of the given operands does not produce 10000100."
+      ],
+      "basis": "Official Paper II syllabus: Digital Logic; number representation and computer arithmetic."
+    },
+    {
+      "id": "P2-COMP-001",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Parsing and grammar ambiguity",
+      "difficulty": "advanced",
+      "stem": "Consider the grammar E → E + E | E * E | id, with no precedence or associativity rules. Which statement is correct for the string `id + id * id`?",
+      "options": [
+        "It has exactly one parse tree because multiplication always has higher precedence.",
+        "It has two distinct parse trees, so the grammar is ambiguous.",
+        "It cannot be generated because the grammar is left-recursive.",
+        "It is generated only if the grammar is converted to a regular expression."
+      ],
+      "answer": 1,
+      "explanations": [
+        "The grammar does not encode a higher precedence for multiplication; that rule cannot be assumed.",
+        "Correct. The string can be parsed as (id+id)*id or id+(id*id), giving two distinct parse trees; hence the grammar is ambiguous.",
+        "Left recursion does not prevent a context-free grammar from generating strings; it may affect some top-down parsing methods.",
+        "Regular expressions describe regular languages and are not required to generate this context-free expression grammar."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; parsing."
+    },
+    {
+      "id": "P1-IR-001",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "International institutions",
+      "difficulty": "moderate",
+      "stem": "Which statement best describes the principal purpose of the International Court of Justice (ICJ)?",
+      "options": [
+        "Trying individuals accused of genocide and war crimes",
+        "Adjudicating legal disputes between states and giving advisory opinions",
+        "Imposing trade sanctions on member states",
+        "Auditing the budgets of United Nations agencies"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The International Criminal Court (ICC), not the ICJ, prosecutes individuals for specified international crimes.",
+        "Correct. The ICJ is the principal judicial organ of the UN; it settles legal disputes submitted by states and gives advisory opinions to authorised UN bodies and agencies.",
+        "The ICJ does not impose trade sanctions; sanctions are decisions of relevant political bodies, notably the UN Security Council.",
+        "The ICJ is a court, not an auditing institution."
+      ],
+      "basis": "Official Paper I syllabus: International Relations and Events."
+    },
+    {
+      "id": "P1-SCI-001",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Basic physics and energy",
+      "difficulty": "moderate",
+      "stem": "A solar photovoltaic cell produces direct-current electricity. In a grid-connected rooftop system, which component is primarily responsible for converting this DC output into AC suitable for household loads and grid synchronisation?",
+      "options": [
+        "Charge controller",
+        "Inverter",
+        "Transformer alone",
+        "Solar tracker"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A charge controller regulates battery charging in systems that use batteries; it does not perform the main DC-to-AC conversion.",
+        "Correct. The inverter converts DC to AC and, in a grid-tied system, synchronises output with grid voltage and frequency.",
+        "A transformer changes AC voltage levels and cannot by itself convert DC into AC.",
+        "A solar tracker changes panel orientation to follow the sun; it does not convert electrical current."
+      ],
+      "basis": "Official Paper I syllabus: General Science; India’s Achievements in Science and Technology."
+    },
+    {
+      "id": "P1-TEL-002",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Formation of Telangana",
+      "difficulty": "standard",
+      "stem": "The State of Telangana was formally formed on:",
+      "options": [
+        "1 November 1956",
+        "2 June 2014",
+        "17 September 1948",
+        "1 May 1960"
+      ],
+      "answer": 1,
+      "explanations": [
+        "1 November 1956 marks the formation of Andhra Pradesh by merging Telangana region of Hyderabad State with Andhra State.",
+        "Correct. Telangana became India's 29th state on 2 June 2014.",
+        "17 September 1948 is associated with the integration of Hyderabad State into the Indian Union.",
+        "1 May 1960 marks the formation of Maharashtra and Gujarat."
+      ],
+      "basis": "Official Paper I syllabus: Telangana Statehood Movement and formation of Telangana state."
+    },
+    {
+      "id": "P1-ECON-001",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Inflation and real purchasing power",
+      "difficulty": "moderate",
+      "stem": "If a household's nominal monthly income rises by 6% while the general price level rises by 8% over the same period, which conclusion is most accurate?",
+      "options": [
+        "Its real purchasing power has increased by approximately 2%.",
+        "Its real purchasing power has decreased by approximately 2%.",
+        "Its real purchasing power is unchanged because both rates are positive.",
+        "Its real purchasing power has increased by 14%."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Nominal income growth is lower than price growth, so purchasing power does not increase.",
+        "Correct. Approximate real income growth is 6%−8%=−2%; the exact rate is (1.06/1.08)−1, about −1.85%.",
+        "Positive nominal income growth does not guarantee higher purchasing power; prices rose faster.",
+        "Adding the two rates does not calculate real income growth."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana."
+    },
+    {
+      "id": "P1-ENGLISH-001",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "Grammar and subject–verb agreement",
+      "difficulty": "standard",
+      "stem": "Choose the grammatically correct sentence.",
+      "options": [
+        "Neither the engineers nor the supervisor were available.",
+        "Neither the engineers nor the supervisor was available.",
+        "Neither the supervisor nor the engineers was available.",
+        "Neither engineers nor supervisor are available."
+      ],
+      "answer": 1,
+      "explanations": [
+        "With neither…nor, the verb generally agrees with the nearer subject; here the nearer subject is singular supervisor, so 'were' is incorrect.",
+        "Correct. The nearer subject 'supervisor' is singular, so the verb is 'was'.",
+        "Here the nearer subject is plural 'engineers', so standard proximity agreement would take 'were', not 'was'.",
+        "The sentence is missing appropriate articles/determiners and its verb agreement is not correct for the construction."
+      ],
+      "basis": "Official Paper I syllabus: Basic English (10th class Standard)."
     }
   ]
 }
