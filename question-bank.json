@@ -5472,12 +5472,12 @@
         "3",
         "4"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanations": [
-        "An 8-cell group eliminates three variables, leaving one literal for four variables? Wait: 4 variables minus log2(8)=3 eliminated leaves 1 literal.",
-        "Correct: an 8-cell group leaves one variable (one literal).",
-        "A 4-cell group leaves two literals.",
-        "A single minterm has four literals."
+        "Correct: an 8-cell group eliminates three of four variables, leaving one literal.",
+        "A 4-cell group eliminates two variables and leaves two literals.",
+        "A 2-cell group leaves three literals.",
+        "A single minterm retains all four literals."
       ],
       "basis": "Paper II: Digital Logic; K-map minimization."
     },
