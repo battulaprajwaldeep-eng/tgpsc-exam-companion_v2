@@ -3387,6 +3387,29 @@
         "Incorrect. Doubling 78 gives 156; the rule adds 2."
       ],
       "basis": "Paper I syllabus: Logical reasoning and analytical ability."
+    },
+    {
+      "id": "P2-NEW-014",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "TCP congestion control",
+      "difficulty": "advanced",
+      "stem": "In TCP Reno, when three duplicate ACKs are received, the sender typically:",
+      "options": [
+        "Immediately resets the congestion window to one MSS and enters slow start",
+        "Retransmits the missing segment and enters fast recovery",
+        "Closes the connection",
+        "Doubles the receiver's advertised window"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. That describes the response to a retransmission timeout in simplified Reno behavior.",
+        "Correct. Three duplicate ACKs trigger fast retransmit and fast recovery.",
+        "Incorrect. Duplicate ACKs do not terminate the connection.",
+        "Incorrect. The receiver's advertised window is flow control, not congestion control."
+      ],
+      "basis": "Paper II syllabus: Computer Networks; TCP congestion control."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
