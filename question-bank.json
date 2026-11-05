@@ -4307,6 +4307,236 @@
         "The State Election Commissioner oversees local-body elections."
       ],
       "basis": "Paper I: Telangana State policies and governance."
+    },
+    {
+      "id": "P2-NEW-036",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Bayes theorem",
+      "difficulty": "moderate",
+      "stem": "A box contains 3 red and 2 blue balls. Two balls are drawn without replacement. Given the first is red, the probability the second is blue is:",
+      "options": [
+        "1/5",
+        "1/2",
+        "2/5",
+        "3/5"
+      ],
+      "answer": 1,
+      "explanations": [
+        "After a red draw, 4 balls remain, including 2 blue; probability is 2/4.",
+        "Correct: 2 blue among 4 remaining balls gives 1/2.",
+        "2/5 is the original blue proportion, not the conditional probability.",
+        "3/5 is the original red proportion."
+      ],
+      "basis": "Paper II: Probability; conditional probability."
+    },
+    {
+      "id": "P2-NEW-037",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Vector spaces",
+      "difficulty": "moderate",
+      "stem": "The set of all solutions of a homogeneous system Ax=0 forms a:",
+      "options": [
+        "Affine set not containing zero",
+        "Subspace",
+        "Single point in every case",
+        "Set of linearly independent vectors"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Every homogeneous solution set contains the zero vector.",
+        "Correct: it is the null space, which is a subspace.",
+        "There may be infinitely many solutions.",
+        "A solution set is not necessarily a collection of independent vectors."
+      ],
+      "basis": "Paper II: Linear Algebra; null spaces."
+    },
+    {
+      "id": "P2-NEW-038",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Propositional logic",
+      "difficulty": "moderate",
+      "stem": "The implication p→q is logically equivalent to:",
+      "options": [
+        "p∧q",
+        "¬p∨q",
+        "p∨¬q",
+        "¬p∧q"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Conjunction is true only when both are true.",
+        "Correct: implication is false only when p is true and q is false, matching ¬p∨q.",
+        "This is not equivalent in all truth assignments.",
+        "This does not match the implication truth table."
+      ],
+      "basis": "Paper II: Mathematical Logic; logical equivalences."
+    },
+    {
+      "id": "P2-NEW-039",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Signed number representation",
+      "difficulty": "moderate",
+      "stem": "In 8-bit two's-complement representation, the range of signed integers is:",
+      "options": [
+        "−127 to +127",
+        "−128 to +127",
+        "−128 to +128",
+        "−255 to +255"
+      ],
+      "answer": 1,
+      "explanations": [
+        "This omits the extra negative value.",
+        "Correct: the range is −2^7 through 2^7−1.",
+        "Positive 128 is not representable.",
+        "This is outside the 8-bit signed range."
+      ],
+      "basis": "Paper II: COA; number representation."
+    },
+    {
+      "id": "P2-NEW-040",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Complexity analysis",
+      "difficulty": "moderate",
+      "stem": "The worst-case time complexity of inserting an element into a binary min-heap with n elements is:",
+      "options": [
+        "Θ(1)",
+        "Θ(log n)",
+        "Θ(n)",
+        "Θ(n log n)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The inserted element may bubble up through the heap height.",
+        "Correct: heap height is Θ(log n).",
+        "A full scan is not required.",
+        "This is more than the heap height permits."
+      ],
+      "basis": "Paper II: Algorithms; heaps."
+    },
+    {
+      "id": "P2-NEW-041",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Intermediate code",
+      "difficulty": "moderate",
+      "stem": "A three-address statement generally contains at most:",
+      "options": [
+        "One operator and up to three addresses",
+        "Three operators and one address",
+        "Unlimited operands",
+        "Only a single variable"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: a typical form is x=y op z, with one operator and three addresses.",
+        "This reverses the usual structure.",
+        "Three-address code restricts operands per instruction.",
+        "It can represent operations involving multiple addresses."
+      ],
+      "basis": "Paper II: Compiler Design; intermediate representations."
+    },
+    {
+      "id": "P2-NEW-042",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "DNS",
+      "difficulty": "moderate",
+      "stem": "DNS primarily translates:",
+      "options": [
+        "MAC addresses to port numbers",
+        "Domain names to IP addresses",
+        "IP addresses to Ethernet frames",
+        "URLs to HTML"
+      ],
+      "answer": 1,
+      "explanations": [
+        "MAC and port mapping is not DNS's core function.",
+        "Correct: DNS resolves names to resource records such as IP addresses.",
+        "IP-to-frame delivery is handled by link-layer mechanisms.",
+        "HTML is delivered by web servers."
+      ],
+      "basis": "Paper II: Computer Networks; application layer."
+    },
+    {
+      "id": "P1-NEW-016",
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "subtopic": "Current affairs literacy",
+      "difficulty": "moderate",
+      "stem": "For a current-affairs question about a newly announced Union Government scheme, the most authoritative primary source is generally:",
+      "options": [
+        "An anonymous social media post",
+        "The relevant Union Ministry's official release",
+        "An unverified forwarded message",
+        "A commercial coaching poster"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Anonymous posts are not authoritative.",
+        "Correct: the responsible ministry's official release is a primary source.",
+        "Forwarded messages are not verifiable primary sources.",
+        "A coaching poster is secondary material."
+      ],
+      "basis": "Paper I: Current affairs; source evaluation."
+    },
+    {
+      "id": "P1-NEW-017",
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "subtopic": "Disability inclusion",
+      "difficulty": "moderate",
+      "stem": "The principle of reasonable accommodation is intended to:",
+      "options": [
+        "Provide appropriate adjustments so persons with disabilities can participate equally",
+        "Exclude persons needing adjustments",
+        "Replace accessibility standards with charity",
+        "Limit participation to separate institutions"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: reasonable accommodation removes barriers through necessary and appropriate adjustments.",
+        "Exclusion contradicts inclusion.",
+        "It is a rights-based obligation, not charity.",
+        "It does not require segregated participation."
+      ],
+      "basis": "Paper I: Social exclusion, disability rights and inclusive policies."
+    },
+    {
+      "id": "P1-NEW-018",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Inflation",
+      "difficulty": "moderate",
+      "stem": "A sustained rise in the general price level is called:",
+      "options": [
+        "Deflation",
+        "Inflation",
+        "Disinvestment",
+        "Depreciation"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Deflation is a sustained fall in the general price level.",
+        "Correct: inflation is a sustained increase in the general price level.",
+        "Disinvestment is sale of government stake in enterprises.",
+        "Depreciation is a fall in an asset's value or currency value, depending on context."
+      ],
+      "basis": "Paper I: Economic and social development."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
