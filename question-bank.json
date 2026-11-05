@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "bankStatus": "Reviewed question bank expanded to 40 questions: 20 Paper II and 20 Paper I, sufficient for four unique 5+5 sessions before considering the user's existing local attempt history.",
-  "selectionPolicy": "Normal practice excludes every previously attempted questionId. Missed questions may be reused only in explicit revision mode.",
+  "bankStatus": "in_progress",
+  "selectionPolicy": "Normal practice excludes all attempted question IDs, restores only genuinely in-progress sessions, and selects a topic-diverse 5+5 set. Missed questions may be reused only in explicit revision mode.",
   "sessionComposition": {
     "paper2": 5,
     "paper1": 5
@@ -926,7 +926,2133 @@
         "A two-state automaton can track the parity of the number of a's."
       ],
       "basis": "Official Paper II syllabus: regular languages and finite automata."
+    },
+    {
+      "id": "P2-ALG-003",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Dijkstra's algorithm and non-negative edge weights",
+      "difficulty": "advanced",
+      "stem": "A directed graph has edges S→A(2), S→B(5), A→B(1), A→C(4), B→C(1). Using Dijkstra's algorithm from S, what is the shortest distance to C?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 1,
+      "explanations": [
+        "3 is the distance to B, not C.",
+        "Correct. S→A→B→C has cost 2+1+1=4, which is less than S→A→C=6 and S→B→C=6.",
+        "5 is not the minimum path cost; it overestimates the best route.",
+        "6 is the cost of S→A→C, but a cheaper route through B exists."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; shortest-path algorithms."
+    },
+    {
+      "id": "P2-DB-003",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Functional dependencies and candidate keys",
+      "difficulty": "advanced",
+      "stem": "For relation R(A,B,C,D), the functional dependencies are A→B, B→C, and C→D. Which is a candidate key?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. A determines B, B determines C, and C determines D; hence A+={A,B,C,D}. A is minimal because no proper subset of A exists.",
+        "B+ contains only B,C,D and cannot determine A.",
+        "C+ contains C,D and cannot determine A or B.",
+        "D determines no other listed attribute under the given dependencies."
+      ],
+      "basis": "Official Paper II syllabus: DBMS; functional dependencies and relational design."
+    },
+    {
+      "id": "P2-OS-003",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Deadlock avoidance and Banker's algorithm",
+      "difficulty": "advanced",
+      "stem": "A system has Available=(3,3,2). Process P0 has Allocation=(0,1,0), Max=(7,5,3); P1 has Allocation=(2,0,0), Max=(3,2,2); P2 has Allocation=(3,0,2), Max=(9,0,2). Which statement is correct about the current state?",
+      "options": [
+        "P1 can finish immediately, but this subset alone does not prove the entire system safe.",
+        "P0 can finish immediately.",
+        "P2 can finish immediately.",
+        "No process can finish."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. P1's Need is (1,2,2), which is component-wise ≤ Available (3,3,2). P0 needs (7,4,3) and P2 needs (6,0,0), so neither can finish immediately. A complete safety check must continue after releasing P1's allocation.",
+        "P0 needs (7,4,3), exceeding Available in resources 1 and 3.",
+        "P2 needs (6,0,0), exceeding the currently available first resource.",
+        "P1's remaining need (1,2,2) is satisfiable by the available vector."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; deadlocks and resource allocation."
+    },
+    {
+      "id": "P2-NET-003",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "TCP sequence numbers and acknowledgements",
+      "difficulty": "moderate",
+      "stem": "A TCP segment carries 600 bytes beginning with sequence number 1,000. Assuming no SYN/FIN consumes sequence space, what acknowledgement number does the receiver send after receiving all bytes in order?",
+      "options": [
+        "1,000",
+        "1,599",
+        "1,600",
+        "1,601"
+      ],
+      "answer": 2,
+      "explanations": [
+        "1,000 is the first byte's sequence number, not the next expected byte.",
+        "1,599 is the last byte's sequence number.",
+        "Correct. The bytes are numbered 1000 through 1599; cumulative ACK acknowledges the next expected byte, 1600.",
+        "1601 is one greater than the next expected byte and incorrectly adds an extra byte."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; TCP/IP protocols."
+    },
+    {
+      "id": "P2-COA-004",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Pipeline speedup and ideal throughput",
+      "difficulty": "moderate",
+      "stem": "A non-pipelined processor takes 5 ns per instruction. A 5-stage pipeline has a 1 ns clock and no stalls. For a long instruction stream, the approximate ideal speedup is:",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "5"
+      ],
+      "answer": 3,
+      "explanations": [
+        "A speedup of 1 would mean no throughput improvement.",
+        "2 understates the ideal throughput gain.",
+        "4 is close but not the ideal ratio for the stated times.",
+        "Correct. Non-pipelined throughput is one instruction per 5 ns; ideal pipelined throughput is one per 1 ns, giving 5× speedup."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; pipelining."
+    },
+    {
+      "id": "P1-REASON-003",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Work-rate and combined efficiency",
+      "difficulty": "moderate",
+      "stem": "Pump A can empty a reservoir in 6 hours and pump B in 3 hours. If both operate together at constant rates, how long will they take?",
+      "options": [
+        "1 hour",
+        "2 hours",
+        "3 hours",
+        "4.5 hours"
+      ],
+      "answer": 1,
+      "explanations": [
+        "One hour would require a combined rate of 100% per hour; their combined rate is 1/2 per hour.",
+        "Correct. Rates are 1/6+1/3=1/2 reservoir per hour, so the time is 2 hours.",
+        "Three hours is the time for B alone, not both together.",
+        "4.5 hours is not consistent with adding the two rates."
+      ],
+      "basis": "Official Paper I syllabus: Analytical Ability; quantitative reasoning."
+    },
+    {
+      "id": "P1-CONST-003",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitutional amendment procedure",
+      "difficulty": "advanced",
+      "stem": "A bill seeks to amend a provision concerning the representation of States in Parliament. Which procedure is generally required under Article 368?",
+      "options": [
+        "Simple majority of members present and voting in each House only",
+        "Special majority in each House and ratification by at least half of the State Legislatures",
+        "Approval by the President alone",
+        "A joint sitting of both Houses by ordinary majority"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A simple majority is insufficient for amendments governed by Article 368.",
+        "Correct. Amendments affecting specified federal features, including representation of States in Parliament, require the Article 368 special majority and ratification by at least half the States.",
+        "Presidential assent follows passage; it does not replace parliamentary and state ratification requirements.",
+        "Article 368 does not provide a joint sitting to resolve disagreement on a constitutional amendment bill."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; constitutional amendment procedure."
+    },
+    {
+      "id": "P1-TEL-004",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Formation of Telangana and appointed day",
+      "difficulty": "standard",
+      "stem": "Telangana became the 29th State of India on which date?",
+      "options": [
+        "1 November 1956",
+        "2 June 2014",
+        "1 June 2014",
+        "17 September 1948"
+      ],
+      "answer": 1,
+      "explanations": [
+        "1 November 1956 marks the formation of Andhra Pradesh by merging Telangana region with Andhra State, not Telangana's statehood.",
+        "Correct. The appointed day for the formation of Telangana as a separate State was 2 June 2014.",
+        "1 June 2014 was not the appointed day specified for Telangana state formation.",
+        "17 September 1948 is associated with Hyderabad State's integration into the Indian Union, not Telangana's formation as a State."
+      ],
+      "basis": "Official Paper I syllabus: Telangana Statehood Movement and formation of Telangana."
+    },
+    {
+      "id": "P1-ECON-003",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Inflation and real purchasing power",
+      "difficulty": "moderate",
+      "stem": "A household's monthly income rises by 8% while the general price level rises by 10%. What happens approximately to its real purchasing power?",
+      "options": [
+        "It rises by 2%",
+        "It falls by about 1.8%",
+        "It remains unchanged",
+        "It falls by exactly 10%"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Nominal income growth below inflation means real purchasing power does not rise.",
+        "Correct. Real change is approximately (1.08/1.10)-1 ≈ −1.82%, so purchasing power falls by about 1.8%.",
+        "Unchanged purchasing power would require nominal income to rise at the same rate as prices.",
+        "A 10% fall ignores the 8% nominal income increase."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development; inflation and real income."
+    },
+    {
+      "id": "P1-ENV-003",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Watershed management and soil conservation",
+      "difficulty": "moderate",
+      "stem": "Which intervention most directly reduces soil erosion and improves infiltration on a sloping agricultural watershed?",
+      "options": [
+        "Contour bunding across the slope",
+        "Removing vegetative cover before monsoon",
+        "Straight downslope ploughing",
+        "Increasing runoff concentration in narrow channels"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Contour bunds slow surface runoff along contour lines, reduce erosion and allow more water to infiltrate.",
+        "Removing vegetation exposes soil and generally increases erosion.",
+        "Ploughing straight downslope can accelerate runoff and soil loss.",
+        "Concentrating runoff increases flow velocity and the risk of gully erosion."
+      ],
+      "basis": "Official Paper I syllabus: Environmental issues; prevention and mitigation strategies."
+    },
+    {
+      "id": "P2-DS-003",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C pointer arithmetic and arrays",
+      "difficulty": "advanced",
+      "stem": "In C, given `int a[5] = {10,20,30,40,50};` and `int *p = a;`, what is the value of `*(p + 3)`?",
+      "options": [
+        "20",
+        "30",
+        "40",
+        "50"
+      ],
+      "answer": 2,
+      "explanations": [
+        "20 is the element at index 1.",
+        "30 is the element at index 2.",
+        "Correct. `p` points to `a[0]`; adding 3 advances three integer elements, so the dereferenced value is `a[3]`, which is 40.",
+        "50 is the element at index 4."
+      ],
+      "basis": "Official Paper II syllabus: C programming; pointers and arrays."
+    },
+    {
+      "id": "P2-DL-002",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Boolean algebra and De Morgan's laws",
+      "difficulty": "moderate",
+      "stem": "Which expression is equivalent to NOT(A AND (B OR C))?",
+      "options": [
+        "NOT A AND (NOT B OR NOT C)",
+        "NOT A OR (NOT B AND NOT C)",
+        "NOT A OR NOT B OR NOT C",
+        "A OR (NOT B AND NOT C)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "This incorrectly applies De Morgan's law to the outer AND.",
+        "Correct. De Morgan's law gives NOT A OR NOT(B OR C), then NOT B AND NOT C.",
+        "This incorrectly changes the inner OR to an OR of complements; the correct inner result is AND.",
+        "A remains uncomplemented, so this is not equivalent."
+      ],
+      "basis": "Official Paper II syllabus: Digital Logic; Boolean algebra."
+    },
+    {
+      "id": "P2-SET-003",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Rank and linear independence",
+      "difficulty": "advanced",
+      "stem": "The vectors (1,2,3), (2,4,6), and (1,0,1) are columns of a 3×3 matrix. What is its rank?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Rank is greater than 1 because the third vector is not a scalar multiple of the first.",
+        "Correct. The second vector is twice the first, while the third is independent of the first; therefore there are exactly two linearly independent columns.",
+        "Rank 3 would require all three columns to be independent, but the second duplicates the direction of the first.",
+        "The matrix has nonzero columns, so its rank is not zero."
+      ],
+      "basis": "Official Paper II syllabus: Linear Algebra; matrix rank and linear independence."
+    },
+    {
+      "id": "P2-PROB-002",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Conditional probability and Bayes' theorem",
+      "difficulty": "advanced",
+      "stem": "A disease affects 1% of a population. A test has 90% sensitivity and 95% specificity. If a person tests positive, approximately what is the probability that the person has the disease?",
+      "options": [
+        "About 15.4%",
+        "About 50%",
+        "About 90%",
+        "About 99%"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. By Bayes' theorem: 0.90×0.01 / [(0.90×0.01)+(0.05×0.99)] = 0.009/0.0585 ≈ 15.4%.",
+        "The low prevalence makes the false-positive group substantial; the posterior is far below 50%.",
+        "90% is the sensitivity, P(positive|disease), not P(disease|positive).",
+        "99% confuses specificity with the posterior probability."
+      ],
+      "basis": "Official Paper II syllabus: Probability; conditional probability and Bayes' theorem."
+    },
+    {
+      "id": "P2-COMP-002",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "FIRST sets and predictive parsing",
+      "difficulty": "advanced",
+      "stem": "For grammar S → A b; A → aA | ε, which is the FIRST set of S?",
+      "options": [
+        "{a}",
+        "{a,b}",
+        "{b}",
+        "{ε}"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A can derive a, but it can also derive ε, allowing the following b to begin the string.",
+        "Correct. A begins with a when it uses aA; when A derives ε, the next symbol b becomes the first terminal. Thus FIRST(S)={a,b}.",
+        "This omits strings where A derives aA.",
+        "S always derives a terminal eventually; b follows nullable A, so ε is not in FIRST(S)."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; FIRST/FOLLOW and parsing."
+    },
+    {
+      "id": "P2-GRAPH-003",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Spanning trees and graph properties",
+      "difficulty": "moderate",
+      "stem": "A connected undirected graph has 8 vertices and 11 edges. How many edges must be removed to obtain a spanning tree?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Removing 2 edges leaves 9 edges, whereas a tree on 8 vertices has exactly 7 edges.",
+        "Removing 3 edges leaves 8 edges, still one more than the 7 edges in a spanning tree.",
+        "Correct. A spanning tree on 8 vertices has V−1=7 edges; therefore 11−7=4 edges must be removed.",
+        "Removing 5 edges leaves only 6 edges, which cannot connect all 8 vertices."
+      ],
+      "basis": "Official Paper II syllabus: Graph Theory; trees and spanning trees."
+    },
+    {
+      "id": "P2-WEB-001",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "HTTP methods and idempotency",
+      "difficulty": "moderate",
+      "stem": "Which HTTP method is defined as idempotent, meaning repeating the same request has the same intended effect as making it once?",
+      "options": [
+        "POST",
+        "PATCH",
+        "PUT",
+        "CONNECT"
+      ],
+      "answer": 2,
+      "explanations": [
+        "POST is not generally idempotent; repeated requests may create multiple resources or trigger repeated actions.",
+        "PATCH is not guaranteed to be idempotent; it depends on the patch operation.",
+        "Correct. PUT replaces or creates the target resource state, and repeating the same PUT is intended to leave the same state.",
+        "CONNECT establishes a tunnel and is not the standard answer for an idempotent resource update."
+      ],
+      "basis": "Official Paper II syllabus: Web Technologies; HTTP protocol."
+    },
+    {
+      "id": "P2-SE-001",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems & Software Engineering",
+      "subtopic": "Software testing and coverage",
+      "difficulty": "advanced",
+      "stem": "A test suite achieves 100% statement coverage. Which conclusion is justified?",
+      "options": [
+        "Every possible execution path has been tested.",
+        "Every branch outcome has been tested.",
+        "Every statement has been executed at least once, but decision outcomes may remain untested.",
+        "The program is free of defects."
+      ],
+      "answer": 2,
+      "explanations": [
+        "Statement coverage does not guarantee that every path has been executed.",
+        "Branch coverage is stronger than statement coverage and is not implied by it.",
+        "Correct. Statement coverage requires execution of each statement at least once; it does not ensure all branch outcomes or paths are exercised.",
+        "No finite coverage metric proves a program defect-free."
+      ],
+      "basis": "Official Paper II syllabus: Software Engineering; software testing."
+    },
+    {
+      "id": "P2-OOP-001",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOP + C++ + Java",
+      "subtopic": "Dynamic binding and polymorphism",
+      "difficulty": "moderate",
+      "stem": "In C++, a base-class pointer refers to a derived-class object. Which condition is required for a call to a method through that pointer to use runtime dispatch?",
+      "options": [
+        "The method must be static.",
+        "The method must be virtual in the base class.",
+        "The pointer must be declared as void*.",
+        "The derived class must use multiple inheritance."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Static methods are not dynamically dispatched through virtual mechanism.",
+        "Correct. Declaring the base-class member virtual enables dynamic binding when invoked through a base pointer or reference.",
+        "A void pointer does not provide polymorphic dispatch.",
+        "Multiple inheritance is unrelated to the requirement."
+      ],
+      "basis": "Official Paper II syllabus: OOP and C++; inheritance and polymorphism."
+    },
+    {
+      "id": "P2-DB-004",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "SQL aggregation and HAVING",
+      "difficulty": "moderate",
+      "stem": "Which SQL clause is used to filter groups after a GROUP BY operation based on an aggregate condition such as COUNT(*) > 3?",
+      "options": [
+        "WHERE",
+        "ORDER BY",
+        "HAVING",
+        "DISTINCT"
+      ],
+      "answer": 2,
+      "explanations": [
+        "WHERE filters rows before grouping and normally cannot filter on the resulting aggregate value.",
+        "ORDER BY sorts the resulting rows or groups; it does not filter them.",
+        "Correct. HAVING applies conditions to groups and can use aggregate expressions such as COUNT(*).",
+        "DISTINCT removes duplicate result rows; it does not filter groups by aggregate conditions."
+      ],
+      "basis": "Official Paper II syllabus: DBMS; SQL and aggregate queries."
+    },
+    {
+      "id": "P1-GEO-002",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Telangana river basins",
+      "difficulty": "moderate",
+      "stem": "Which major river forms a substantial part of Telangana's northern boundary with Maharashtra in certain stretches?",
+      "options": [
+        "Musi",
+        "Godavari",
+        "Manjira",
+        "Munneru"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Musi is a tributary of the Krishna and flows through Hyderabad.",
+        "Correct. The Godavari flows along parts of Telangana's northern boundary with Maharashtra and is a major river system in the State.",
+        "Manjira is a tributary of the Godavari and is not the major river forming that boundary.",
+        "Munneru is a tributary of the Krishna system in southern Telangana/Andhra region."
+      ],
+      "basis": "Official Paper I syllabus: Telangana geography; river systems."
+    },
+    {
+      "id": "P1-TEL-005",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Telangana movement and the 1969 agitation",
+      "difficulty": "advanced",
+      "stem": "The 1969 Telangana agitation was primarily associated with demands for:",
+      "options": [
+        "Separate linguistic reorganisation of all southern States",
+        "Implementation of safeguards and a separate Telangana State",
+        "Merger of Hyderabad State with Maharashtra",
+        "Abolition of the Indian Constitution"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The agitation was specific to Telangana's political and economic concerns, not a general reorganisation of southern States.",
+        "Correct. The movement centred on alleged violations of safeguards and employment/educational protections, with a strong demand for a separate Telangana State.",
+        "The Hyderabad-Karnataka/Maharashtra merger question is not the central demand of the 1969 Telangana agitation.",
+        "The agitation did not seek abolition of the Constitution."
+      ],
+      "basis": "Official Paper I syllabus: Telangana history; Telangana movement."
+    },
+    {
+      "id": "P1-SCI-003",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Space technology and satellite orbits",
+      "difficulty": "moderate",
+      "stem": "A geostationary satellite appears stationary relative to an observer on Earth because it:",
+      "options": [
+        "Orbits over the poles once every 24 hours",
+        "Has an orbital period equal to Earth's rotation and moves in the equatorial plane in Earth's rotation direction",
+        "Remains fixed above the geographic North Pole",
+        "Has zero orbital velocity"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A polar orbit does not keep the satellite fixed over one longitude.",
+        "Correct. A geostationary satellite has a circular equatorial orbit, prograde direction and a period matching Earth's sidereal rotation.",
+        "A satellite cannot remain fixed above the pole in a geostationary orbit.",
+        "It must have substantial orbital velocity to remain in orbit."
+      ],
+      "basis": "Official Paper I syllabus: General Science; space technology."
+    },
+    {
+      "id": "P1-REASON-004",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Data interpretation and percentage change",
+      "difficulty": "moderate",
+      "stem": "A department's expenditure rises from ₹80 lakh to ₹92 lakh. What is the percentage increase?",
+      "options": [
+        "12%",
+        "15%",
+        "18%",
+        "20%"
+      ],
+      "answer": 1,
+      "explanations": [
+        "12 is the absolute increase in lakh, not the percentage increase.",
+        "Correct. Increase = 12 lakh; percentage increase = (12/80)×100 = 15%.",
+        "18% would imply an increase of ₹14.4 lakh.",
+        "20% would imply an increase of ₹16 lakh."
+      ],
+      "basis": "Official Paper I syllabus: Analytical Ability; data interpretation."
+    },
+    {
+      "id": "P1-INDGEO-002",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "India Geography",
+      "subtopic": "Indian monsoon and seasonal rainfall",
+      "difficulty": "advanced",
+      "stem": "The retreating monsoon provides a significant share of annual rainfall to which Indian region?",
+      "options": [
+        "Western Rajasthan",
+        "Tamil Nadu and the Coromandel Coast",
+        "Punjab plains",
+        "Kashmir Valley"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Western Rajasthan receives most of its limited rainfall during the southwest monsoon season.",
+        "Correct. Northeast/retreating monsoon winds pick up moisture over the Bay of Bengal and bring substantial rainfall to Tamil Nadu and the Coromandel Coast.",
+        "Punjab's main rainfall contribution is associated with the southwest monsoon and western disturbances.",
+        "Kashmir's precipitation is strongly influenced by western disturbances, especially in winter."
+      ],
+      "basis": "Official Paper I syllabus: India Geography; monsoon system."
+    },
+    {
+      "id": "P1-ENGLISH-002",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "Subject-verb agreement",
+      "difficulty": "standard",
+      "stem": "Choose the grammatically correct sentence.",
+      "options": [
+        "Neither of the proposals are acceptable.",
+        "Neither of the proposals is acceptable.",
+        "Neither proposals is acceptable.",
+        "Neither of the proposal are acceptable."
+      ],
+      "answer": 1,
+      "explanations": [
+        "In formal standard usage, neither is treated as singular here, so 'are' is incorrect.",
+        "Correct. 'Neither' takes a singular verb in this construction: 'is acceptable'.",
+        "The noun phrase requires 'of the proposals'; the option omits the needed article/structure.",
+        "Both the singular noun after 'of' and the plural verb are incorrect in this construction."
+      ],
+      "basis": "Official Paper I syllabus: Basic English; grammar and usage."
+    },
+    {
+      "id": "P1-CONST-004",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitutional bodies and CAG",
+      "difficulty": "moderate",
+      "stem": "Who is appointed by the President of India under Article 148 of the Constitution?",
+      "options": [
+        "Chief Election Commissioner",
+        "Comptroller and Auditor General of India",
+        "Chairperson of the Finance Commission",
+        "Attorney General of India"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The Chief Election Commissioner is appointed under Article 324.",
+        "Correct. Article 148 provides for the Comptroller and Auditor General of India, appointed by the President.",
+        "The Finance Commission is constituted under Article 280; its chairperson is appointed as part of that commission's constitution.",
+        "The Attorney General is appointed under Article 76."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; constitutional authorities."
+    },
+    {
+      "id": "P1-ENV-004",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Disaster risk reduction and mitigation",
+      "difficulty": "advanced",
+      "stem": "Which measure is best classified as structural flood mitigation?",
+      "options": [
+        "Community awareness campaigns",
+        "Floodplain zoning regulations",
+        "Construction of an embankment",
+        "Evacuation drills"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Awareness campaigns are non-structural preparedness measures.",
+        "Floodplain zoning is a non-structural land-use and regulatory measure.",
+        "Correct. An embankment is a physical engineered structure intended to reduce flood impacts.",
+        "Evacuation drills are preparedness measures, not structural mitigation."
+      ],
+      "basis": "Official Paper I syllabus: Disaster Management; prevention and mitigation strategies."
+    },
+    {
+      "id": "P1-ECON-004",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Fiscal policy and revenue deficit",
+      "difficulty": "advanced",
+      "stem": "Revenue deficit is defined as:",
+      "options": [
+        "Total expenditure minus total receipts including borrowings",
+        "Revenue expenditure minus revenue receipts",
+        "Capital expenditure minus capital receipts",
+        "Fiscal deficit minus interest payments"
+      ],
+      "answer": 1,
+      "explanations": [
+        "This is not the revenue deficit definition; borrowings are financing items and total receipts include capital receipts.",
+        "Correct. Revenue deficit is the excess of revenue expenditure over revenue receipts.",
+        "This compares capital components and is not revenue deficit.",
+        "Fiscal deficit minus interest payments is the primary deficit."
+      ],
+      "basis": "Official Paper I syllabus: Economic development; public finance."
+    },
+    {
+      "id": "P1-IR-003",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "United Nations system and Security Council",
+      "difficulty": "moderate",
+      "stem": "How many permanent members are there in the United Nations Security Council?",
+      "options": [
+        "4",
+        "5",
+        "10",
+        "15"
+      ],
+      "answer": 1,
+      "explanations": [
+        "There are five permanent members, not four.",
+        "Correct. The five permanent members are China, France, Russia, the United Kingdom and the United States.",
+        "Ten is the number of elected, non-permanent members.",
+        "Fifteen is the total membership of the Security Council, not the permanent membership."
+      ],
+      "basis": "Official Paper I syllabus: International Relations; international organisations."
+    },
+    {
+      "id": "P2-ALG-004",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Greedy algorithms; minimum spanning trees",
+      "difficulty": "advanced",
+      "stem": "A connected weighted undirected graph has distinct edge weights. Which statement about its minimum spanning tree is guaranteed?",
+      "options": [
+        "The heaviest edge is always selected",
+        "The minimum spanning tree is unique",
+        "The graph must be complete",
+        "Every vertex has degree two"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A heaviest edge may be excluded if it would create a cycle.",
+        "Correct. Distinct edge weights guarantee a unique minimum spanning tree.",
+        "A connected graph need not be complete.",
+        "A spanning tree need not give every vertex degree two."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; greedy methods and graph algorithms."
+    },
+    {
+      "id": "P2-DB-005",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Relational algebra; set difference",
+      "difficulty": "moderate",
+      "stem": "Let R(A) contain {1,2,3} and S(A) contain {2,3,4}. Under set semantics, what is R − S?",
+      "options": [
+        "{1}",
+        "{4}",
+        "{1,4}",
+        "{2,3}"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Set difference retains tuples in R that do not occur in S; only 1 qualifies.",
+        "4 occurs only in S, so it is not in R − S.",
+        "The value 4 belongs to S, not R.",
+        "These values occur in both relations and are removed by set difference."
+      ],
+      "basis": "Official Paper II syllabus: DBMS; relational algebra."
+    },
+    {
+      "id": "P2-OS-004",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Deadlocks; resource-allocation graphs",
+      "difficulty": "advanced",
+      "stem": "In a resource-allocation graph with one instance of each resource type, a directed cycle is present. What follows?",
+      "options": [
+        "Deadlock definitely does not exist",
+        "Deadlock exists",
+        "Deadlock may or may not exist",
+        "The system is necessarily in a safe state"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A cycle is not evidence of absence of deadlock.",
+        "Correct. With a single instance per resource type, a cycle is both necessary and sufficient for deadlock.",
+        "This uncertainty applies when resource types may have multiple instances; with one instance each, the cycle implies deadlock.",
+        "A cycle in this single-instance graph indicates deadlock, not a guaranteed safe state."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; deadlocks."
+    },
+    {
+      "id": "P2-NET-004",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "IPv4 subnetting and address capacity",
+      "difficulty": "moderate",
+      "stem": "A subnet is configured with prefix length /27. How many usable host addresses are available in a conventional IPv4 subnet?",
+      "options": [
+        "14",
+        "30",
+        "32",
+        "62"
+      ],
+      "answer": 1,
+      "explanations": [
+        "14 usable hosts corresponds to a /28 subnet.",
+        "Correct. A /27 leaves 5 host bits: 2^5 = 32 addresses; subtract network and broadcast addresses to get 30 usable hosts.",
+        "32 is the total number of addresses, including network and broadcast.",
+        "62 usable hosts corresponds to a /26 subnet."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; IP addressing and subnetting."
+    },
+    {
+      "id": "P2-COA-005",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache mapping; direct-mapped cache",
+      "difficulty": "advanced",
+      "stem": "A byte-addressed system has a 32-bit address and a direct-mapped cache with 64-byte lines and 256 lines. How many tag bits are required?",
+      "options": [
+        "16",
+        "18",
+        "20",
+        "22"
+      ],
+      "answer": 1,
+      "explanations": [
+        "16 bits leaves too few bits after accounting for the offset and index.",
+        "Correct. Offset bits = log2(64)=6; index bits = log2(256)=8; tag bits = 32−6−8=18.",
+        "20 ignores either the line-index or offset requirement.",
+        "22 ignores the 8-bit index and 6-bit offset."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; cache organization."
+    },
+    {
+      "id": "P2-DL-003",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Boolean algebra; minterm simplification",
+      "difficulty": "moderate",
+      "stem": "For F(A,B,C)=Σm(1,3,5,7), using standard minterm indexing with A as the most significant bit, the simplified expression is:",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "A+B"
+      ],
+      "answer": 2,
+      "explanations": [
+        "These minterms include both values of A, so A is not fixed.",
+        "B also takes both 0 and 1 across these minterms.",
+        "Correct. All listed minterms have C=1, while A and B vary; hence F=C.",
+        "A+B is not 1 for minterms 1 and 3 when A=B=0."
+      ],
+      "basis": "Official Paper II syllabus: Digital Logic; Boolean functions and minimization."
+    },
+    {
+      "id": "P2-TOC-003",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Regular languages; closure properties",
+      "difficulty": "advanced",
+      "stem": "Which statement about regular languages is correct?",
+      "options": [
+        "They are closed under intersection but not complement",
+        "They are closed under complement and intersection",
+        "They are not closed under union",
+        "They are not closed under concatenation"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Regular languages are closed under complement as well as intersection.",
+        "Correct. Complement follows by completing and swapping final and non-final states in a DFA; intersection follows from product construction.",
+        "Regular languages are closed under union.",
+        "Regular languages are closed under concatenation."
+      ],
+      "basis": "Official Paper II syllabus: Theory of Computation; regular languages and automata."
+    },
+    {
+      "id": "P2-COMP-003",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Parsing; FIRST and FOLLOW sets",
+      "difficulty": "advanced",
+      "stem": "For the grammar S → A b; A → aA | ε, which terminal is in FOLLOW(A)?",
+      "options": [
+        "a only",
+        "b only",
+        "a and b",
+        "ε"
+      ],
+      "answer": 1,
+      "explanations": [
+        "a begins a production derived from A, so it can be in FIRST(A), not FOLLOW(A).",
+        "Correct. In S → A b, the terminal immediately following A is b, so b belongs to FOLLOW(A).",
+        "a is not placed in FOLLOW(A) by these productions; b is.",
+        "ε is not a terminal and is never an element of FOLLOW."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; parsing and grammar analysis."
+    },
+    {
+      "id": "P2-SE-002",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems & Software Engineering",
+      "subtopic": "Software testing; boundary-value analysis",
+      "difficulty": "moderate",
+      "stem": "An input field accepts integer values from 1 through 100 inclusive. Which set is the strongest basic boundary-value test set?",
+      "options": [
+        "1, 50, 100",
+        "0, 1, 2, 99, 100, 101",
+        "25, 50, 75",
+        "1, 100 only"
+      ],
+      "answer": 1,
+      "explanations": [
+        "This tests valid endpoints and a nominal value but omits values immediately outside the range and adjacent to the endpoints.",
+        "Correct. Boundary-value analysis tests the boundaries and their immediate neighbours: 0, 1, 2, 99, 100, 101.",
+        "These are representative interior values and miss the boundaries.",
+        "This omits values immediately inside and outside each boundary."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering; software testing."
+    },
+    {
+      "id": "P2-OOP-002",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOP + C++ + Java",
+      "subtopic": "C++ polymorphism; virtual destructors",
+      "difficulty": "advanced",
+      "stem": "A C++ base-class pointer points to a dynamically allocated derived object. The base class has a non-virtual destructor. What is the result of deleting through the base pointer?",
+      "options": [
+        "Both destructors are guaranteed to run",
+        "Only the base destructor runs by a guaranteed defined rule",
+        "The behaviour is undefined",
+        "The derived destructor runs twice"
+      ],
+      "answer": 2,
+      "explanations": [
+        "A non-virtual base destructor does not guarantee correct polymorphic destruction.",
+        "This is not a guaranteed defined rule when deleting a derived object through a base pointer with a non-virtual destructor.",
+        "Correct. Deleting a derived object through a base pointer whose base destructor is non-virtual results in undefined behaviour.",
+        "There is no rule that invokes the derived destructor twice."
+      ],
+      "basis": "Official Paper II syllabus: Object-oriented programming; C++ inheritance and polymorphism."
+    },
+    {
+      "id": "P1-CONST-005",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitutional bodies; Finance Commission",
+      "difficulty": "moderate",
+      "stem": "Under Article 280 of the Constitution of India, the Finance Commission is constituted by the President at intervals of:",
+      "options": [
+        "Every two years",
+        "Every five years or earlier",
+        "Every six years",
+        "Only when Parliament requests it"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The Constitution does not prescribe a two-year interval.",
+        "Correct. Article 280 provides for a Finance Commission every five years, or earlier if the President considers it necessary.",
+        "Six years is not the constitutional interval.",
+        "Its constitution is not dependent on a request from Parliament."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; constitutional bodies."
+    },
+    {
+      "id": "P1-TEL-006",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Telangana statehood; statutory formation",
+      "difficulty": "moderate",
+      "stem": "The Andhra Pradesh Reorganisation Act, 2014 provided for the formation of Telangana with effect from:",
+      "options": [
+        "1 January 2014",
+        "2 June 2014",
+        "15 August 2014",
+        "1 November 2014"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The Act did not bring Telangana into existence on 1 January 2014.",
+        "Correct. Telangana came into existence on 2 June 2014 under the Reorganisation Act.",
+        "15 August 2014 was not the appointed day.",
+        "1 November is associated with the formation of Andhra Pradesh in 1956, not Telangana in 2014."
+      ],
+      "basis": "Official Paper I syllabus: Telangana history and statehood movement; formation of Telangana."
+    },
+    {
+      "id": "P1-GEO-003",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Telangana physiography; river systems",
+      "difficulty": "moderate",
+      "stem": "Which river is a major left-bank tributary of the Godavari that flows through parts of Telangana?",
+      "options": [
+        "Musi",
+        "Manjira",
+        "Paleru",
+        "Munneru"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Musi is a tributary of the Krishna system, not the Godavari.",
+        "Correct. Manjira is a major left-bank tributary of the Godavari and flows through parts of Telangana.",
+        "Paleru is associated with the Krishna river system.",
+        "Munneru is a tributary of the Krishna, not the Godavari."
+      ],
+      "basis": "Official Paper I syllabus: Geography of Telangana; rivers and drainage."
+    },
+    {
+      "id": "P1-ECON-005",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Public finance; fiscal deficit",
+      "difficulty": "moderate",
+      "stem": "Fiscal deficit of a government is best described as:",
+      "options": [
+        "Revenue expenditure minus revenue receipts",
+        "Total expenditure minus total receipts excluding borrowings",
+        "Interest payments minus capital expenditure",
+        "Tax revenue minus non-tax revenue"
+      ],
+      "answer": 1,
+      "explanations": [
+        "This is the revenue deficit, not fiscal deficit.",
+        "Correct. Fiscal deficit measures the gap between total expenditure and total receipts excluding borrowings; it indicates the government's borrowing requirement.",
+        "This is not the standard definition of fiscal deficit.",
+        "This is a comparison of two revenue components, not the fiscal deficit."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development; public finance and fiscal policy."
+    },
+    {
+      "id": "P1-REASON-005",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Logical reasoning; syllogisms",
+      "difficulty": "advanced",
+      "stem": "Statements: All engineers are graduates. Some graduates are artists. Conclusions: I. Some engineers are artists. II. All engineers are graduates. Which conclusion follows?",
+      "options": [
+        "Only I",
+        "Only II",
+        "Both I and II",
+        "Neither I nor II"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The artists who are graduates need not be engineers; conclusion I does not necessarily follow.",
+        "Correct. Conclusion II restates the first statement and follows directly.",
+        "Conclusion I is not guaranteed, so both cannot follow.",
+        "Conclusion II does follow."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning and Analytical Ability."
+    },
+    {
+      "id": "P1-SCI-004",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Physics; electromagnetic spectrum",
+      "difficulty": "moderate",
+      "stem": "Which electromagnetic radiation has the highest frequency among the following?",
+      "options": [
+        "Microwaves",
+        "Infrared",
+        "Ultraviolet",
+        "X-rays"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Microwaves have lower frequency than infrared, ultraviolet and X-rays.",
+        "Infrared lies below visible light in frequency and is lower than ultraviolet and X-rays.",
+        "Ultraviolet has a higher frequency than visible light but lower than X-rays.",
+        "Correct. In the listed order, X-rays have the highest frequency and shortest wavelength."
+      ],
+      "basis": "Official Paper I syllabus: General Science; basic physics and scientific developments."
+    },
+    {
+      "id": "P1-INDGEO-003",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "India Geography",
+      "subtopic": "Indian agriculture; cropping seasons",
+      "difficulty": "moderate",
+      "stem": "Which of the following crops is predominantly associated with the rabi season in India?",
+      "options": [
+        "Rice",
+        "Cotton",
+        "Wheat",
+        "Jute"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Rice is primarily a kharif crop in most major rice-growing regions, though seasonal variations exist.",
+        "Cotton is generally a kharif crop.",
+        "Correct. Wheat is a major rabi crop, sown in winter and harvested in spring.",
+        "Jute is generally grown during the kharif season."
+      ],
+      "basis": "Official Paper I syllabus: Geography of India; agriculture and cropping patterns."
+    },
+    {
+      "id": "P1-ENV-005",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Disaster management; earthquake risk reduction",
+      "difficulty": "moderate",
+      "stem": "Which measure most directly reduces earthquake-related structural collapse in buildings?",
+      "options": [
+        "Increasing glass façade area",
+        "Providing ductile detailing and seismic-resistant design",
+        "Using heavier roof slabs without reinforcement changes",
+        "Reducing the number of structural connections"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A larger glass façade does not improve seismic resistance and may add hazards.",
+        "Correct. Ductile detailing and seismic-resistant design help structures dissipate energy and deform without sudden brittle failure.",
+        "Increasing mass can increase seismic forces and does not substitute for proper design.",
+        "Reducing structural connections can weaken load paths and increase collapse risk."
+      ],
+      "basis": "Official Paper I syllabus: Disaster Management; prevention and mitigation strategies."
+    },
+    {
+      "id": "P1-IR-004",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "International institutions; World Trade Organization",
+      "difficulty": "moderate",
+      "stem": "The principle of most-favoured-nation treatment in the WTO generally requires a member to:",
+      "options": [
+        "Give every trading partner a different tariff rate",
+        "Extend a trade advantage granted to one member to all WTO members, subject to permitted exceptions",
+        "Impose identical domestic taxes on all products regardless of origin",
+        "Eliminate all tariffs immediately"
+      ],
+      "answer": 1,
+      "explanations": [
+        "MFN generally discourages discriminatory treatment among trading partners; it does not require different rates for each.",
+        "Correct. A trade advantage granted to one WTO member is generally extended to all members, subject to recognised exceptions such as qualifying free-trade agreements.",
+        "This describes a different national-treatment issue and is too broad.",
+        "MFN does not require immediate elimination of all tariffs."
+      ],
+      "basis": "Official Paper I syllabus: International Relations and Events; international institutions."
+    },
+    {
+      "id": "P1-ENGLISH-003",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "Grammar; conditional sentences",
+      "difficulty": "moderate",
+      "stem": "Choose the grammatically correct sentence.",
+      "options": [
+        "If I would have known, I would call you.",
+        "If I had known, I would have called you.",
+        "If I knew, I would have called you yesterday.",
+        "If I have known, I would called you."
+      ],
+      "answer": 1,
+      "explanations": [
+        "The standard third conditional does not use 'would have' in the if-clause.",
+        "Correct. The third conditional uses past perfect in the if-clause and 'would have' plus past participle in the result clause.",
+        "This mixes second-conditional form with a completed past result.",
+        "The verb forms are incorrect; 'would called' is ungrammatical."
+      ],
+      "basis": "Official Paper I syllabus: Basic English; grammar and sentence structure."
+    },
+    {
+      "id": "P2-PROB-003",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Expectation and variance",
+      "difficulty": "advanced",
+      "stem": "X takes values 0, 1, 2 with probabilities 0.2, 0.5, 0.3. Find Var(X).",
+      "options": [
+        "0.49",
+        "0.60",
+        "0.70",
+        "0.90"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. E(X)=1.1 and E(X²)=1.7, so Var(X)=1.7−1.1²=0.49.",
+        "This is not E(X²)−[E(X)]².",
+        "This does not follow from the distribution.",
+        "This is not the calculated variance."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics; Expectation and variance."
+    },
+    {
+      "id": "P2-SET-005",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Eigenvalues; determinant and trace",
+      "difficulty": "advanced",
+      "stem": "A 2×2 matrix has eigenvalues 3 and −2. What are its determinant and trace, respectively?",
+      "options": [
+        "1 and 5",
+        "−6 and 1",
+        "6 and −1",
+        "−1 and 6"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The trace is 1, not 5.",
+        "Correct. Determinant is the product −6; trace is the sum 1.",
+        "Both signs are incorrect.",
+        "Neither value matches the product and sum."
+      ],
+      "basis": "Official Paper II syllabus: Set Theory & Algebra; Linear Algebra; Eigenvalues; determinant and trace."
+    },
+    {
+      "id": "P2-DM-004",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Euler trails and vertex degrees",
+      "difficulty": "advanced",
+      "stem": "A connected undirected graph has exactly four vertices of odd degree. Which statement is necessarily true?",
+      "options": [
+        "It has an Euler circuit",
+        "It has neither an Euler trail nor an Euler circuit",
+        "It has an Euler trail but not a circuit",
+        "It must be a tree"
+      ],
+      "answer": 1,
+      "explanations": [
+        "An Euler circuit requires all degrees even.",
+        "Correct. A connected graph has an Euler trail only with zero or two odd-degree vertices.",
+        "An open Euler trail requires exactly two odd-degree vertices.",
+        "Four odd-degree vertices do not imply the graph is a tree."
+      ],
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; Euler trails and vertex degrees."
+    },
+    {
+      "id": "P2-ALG-005",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Greedy algorithms; activity selection",
+      "difficulty": "moderate",
+      "stem": "Activities are A(1,4), B(3,5), C(0,6), D(5,7), E(8,9). What is the maximum number of mutually compatible activities?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Two is possible but not maximum.",
+        "Correct. A, D and E are compatible; no fourth activity can be added.",
+        "Four cannot be scheduled without overlap.",
+        "All five are not mutually compatible."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; Greedy algorithms; activity selection."
+    },
+    {
+      "id": "P2-TOC-004",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Context-free but non-regular languages",
+      "difficulty": "advanced",
+      "stem": "Which language is context-free but not regular?",
+      "options": [
+        "{0ⁿ1ⁿ | n ≥ 0}",
+        "0*",
+        "{0,1}*",
+        "Strings with an even number of 1s"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. A pushdown automaton can match counts using a stack; finite automata cannot enforce unbounded equality.",
+        "0* is regular.",
+        "All binary strings form a regular language.",
+        "Parity can be tracked by a two-state DFA."
+      ],
+      "basis": "Official Paper II syllabus: Theory of Computation; Context-free but non-regular languages."
+    },
+    {
+      "id": "P1-CONST-006",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Parliament; Money Bills",
+      "difficulty": "advanced",
+      "stem": "A Bill is certified as a Money Bill by the Lok Sabha Speaker. The Rajya Sabha may:",
+      "options": [
+        "Reject it and prevent passage",
+        "Make binding amendments",
+        "Recommend changes within 14 days; Lok Sabha may accept or reject them",
+        "Keep it pending for six months"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The Rajya Sabha cannot veto a Money Bill.",
+        "Its recommendations are not binding.",
+        "Correct. Article 109 gives the Rajya Sabha 14 days to make recommendations; Lok Sabha may accept or reject them.",
+        "The constitutional period is 14 days."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; Parliament; Money Bills."
+    },
+    {
+      "id": "P1-TEL-007",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Gentlemen's Agreement, 1956",
+      "difficulty": "advanced",
+      "stem": "The Gentlemen's Agreement of 1956 was primarily intended to:",
+      "options": [
+        "Create Telangana immediately",
+        "Provide safeguards for Telangana within the proposed Andhra Pradesh",
+        "Abolish all Mulki rules",
+        "Move the capital from Hyderabad to Kurnool"
+      ],
+      "answer": 1,
+      "explanations": [
+        "It did not create a separate state in 1956.",
+        "Correct. It set safeguards for Telangana within the proposed united Andhra Pradesh, including expenditure, employment and representation.",
+        "It did not simply abolish all Mulki protections.",
+        "Hyderabad became the capital of Andhra Pradesh."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state; Gentlemen's Agreement, 1956."
+    },
+    {
+      "id": "P1-ECON-006",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "National income; real and nominal GDP",
+      "difficulty": "advanced",
+      "stem": "Nominal GDP grows by 8% while the GDP deflator rises by 5%. Approximately what is real GDP growth?",
+      "options": [
+        "2.9%",
+        "3.0%",
+        "5.0%",
+        "13.0%"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Real growth=(1.08/1.05)−1≈2.86%, or 2.9%.",
+        "Subtracting rates gives a rough approximation; the ratio gives 2.9%.",
+        "This is the deflator increase, not real growth.",
+        "This incorrectly adds inflation to nominal growth."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana; National income; real and nominal GDP."
+    },
+    {
+      "id": "P1-GEO-004",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Telangana climate; monsoon rainfall",
+      "difficulty": "moderate",
+      "stem": "Most of Telangana receives the bulk of its annual rainfall from which source?",
+      "options": [
+        "Southwest monsoon, mainly Bay of Bengal branch",
+        "Northeast monsoon",
+        "Western disturbances",
+        "Southwest monsoon, mainly Arabian Sea branch"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The southwest monsoon supplies most rainfall; the Bay of Bengal branch is important for the region.",
+        "The northeast monsoon is not Telangana's principal rainfall source.",
+        "Western disturbances mainly affect northwestern India in winter.",
+        "The Arabian Sea branch is not the primary source for most of Telangana."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; Telangana climate; monsoon rainfall."
+    },
+    {
+      "id": "P1-SCI-005",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Genetics; monohybrid inheritance",
+      "difficulty": "moderate",
+      "stem": "In a monohybrid cross Aa × Aa with complete dominance, what phenotypic ratio is expected?",
+      "options": [
+        "1:1",
+        "1:2:1",
+        "3:1",
+        "9:3:3:1"
+      ],
+      "answer": 2,
+      "explanations": [
+        "1:1 is typical of a heterozygote test cross.",
+        "1:2:1 is the genotypic ratio.",
+        "Correct. Three of four genotype outcomes show the dominant phenotype, giving 3:1.",
+        "9:3:3:1 is associated with a dihybrid cross."
+      ],
+      "basis": "Official Paper I syllabus: General Science; India’s Achievements in Science and Technology; Genetics; monohybrid inheritance."
+    },
+    {
+      "id": "P2-COA-006",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache organization; write-through and write-back",
+      "difficulty": "advanced",
+      "stem": "A write-back cache uses a dirty bit. When is the modified cache block normally written to main memory?",
+      "options": [
+        "On every processor write",
+        "When the block is evicted or explicitly flushed",
+        "Only when a cache hit occurs",
+        "Never; dirty data remains only in cache"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Writing on every processor write describes write-through behaviour.",
+        "Correct. Write-back defers the memory update until eviction or an explicit flush; the dirty bit marks a modified block.",
+        "A hit alone does not require a memory write in write-back policy.",
+        "Dirty data must eventually be propagated to maintain memory consistency."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; Cache organization; write-through and write-back."
+    },
+    {
+      "id": "P2-NET-005",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "TCP; flow control and receive window",
+      "difficulty": "advanced",
+      "stem": "A TCP receiver advertises a receive window of 12,000 bytes. If 4,000 bytes are currently outstanding and unacknowledged, what is the maximum additional data the sender may have in flight under this advertised window, ignoring congestion-window limits?",
+      "options": [
+        "4,000 bytes",
+        "8,000 bytes",
+        "12,000 bytes",
+        "16,000 bytes"
+      ],
+      "answer": 1,
+      "explanations": [
+        "4,000 bytes is already outstanding and consumes part of the advertised receive window.",
+        "Correct. The receive window permits 12,000 bytes outstanding in total; with 4,000 already outstanding, 8,000 additional bytes may be sent.",
+        "12,000 bytes would be the additional amount only if none were outstanding.",
+        "16,000 exceeds the advertised receive window."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; TCP; flow control and receive window."
+    },
+    {
+      "id": "P2-COMP-005",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Lexical analysis; regular expressions",
+      "difficulty": "moderate",
+      "stem": "In lexical analysis, which task is normally performed by the lexical analyzer?",
+      "options": [
+        "Constructing the program's parse tree",
+        "Grouping source characters into tokens and reporting lexical errors",
+        "Checking whether variables are declared before use",
+        "Generating machine-code register allocation"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Parse-tree construction is normally the parser's responsibility.",
+        "Correct. The lexer recognises lexemes, produces tokens and detects lexical-level errors.",
+        "Declaration and scope checks belong to semantic analysis.",
+        "Register allocation is a later code-generation task."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; Lexical analysis; regular expressions."
+    },
+    {
+      "id": "P2-DB-007",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Transactions; ACID properties",
+      "difficulty": "moderate",
+      "stem": "A banking transaction debits one account and credits another. Which ACID property ensures that either both operations occur or neither occurs?",
+      "options": [
+        "Consistency",
+        "Isolation",
+        "Atomicity",
+        "Durability"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Consistency preserves database constraints, not the all-or-nothing property.",
+        "Isolation concerns concurrent transaction interference.",
+        "Correct. Atomicity makes the transaction indivisible: both updates commit or neither does.",
+        "Durability ensures committed changes survive failures."
+      ],
+      "basis": "Official Paper II syllabus: Databases; Transactions; ACID properties."
+    },
+    {
+      "id": "P1-HIST-003",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Indian National Congress; Surat split",
+      "difficulty": "moderate",
+      "stem": "The Indian National Congress split into Moderates and Extremists at which session?",
+      "options": [
+        "Calcutta, 1906",
+        "Surat, 1907",
+        "Lucknow, 1916",
+        "Lahore, 1929"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Calcutta 1906 adopted important resolutions but was not the formal split.",
+        "Correct. The Congress split at the Surat session in 1907.",
+        "Lucknow 1916 is associated with the reunion and Lucknow Pact.",
+        "Lahore 1929 adopted the goal of Purna Swaraj."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement; Indian National Congress; Surat split."
+    },
+    {
+      "id": "P1-REASON-007",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Quantitative aptitude; compound interest",
+      "difficulty": "moderate",
+      "stem": "A sum of ₹10,000 is invested at 10% annual compound interest for two years. What is the amount at the end of two years?",
+      "options": [
+        "₹11,000",
+        "₹12,000",
+        "₹12,100",
+        "₹12,200"
+      ],
+      "answer": 2,
+      "explanations": [
+        "₹11,000 is the amount after one year.",
+        "₹12,000 would be simple interest for two years.",
+        "Correct. 10,000×1.1²=₹12,100.",
+        "₹12,200 overstates the compounded amount."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; Quantitative aptitude; compound interest."
+    },
+    {
+      "id": "P1-ENV-007",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Disaster management; early warning systems",
+      "difficulty": "moderate",
+      "stem": "A flood early-warning system is most effective at reducing disaster losses when it is supported by:",
+      "options": [
+        "Warnings issued only after inundation",
+        "Clear communication, evacuation routes and community response plans",
+        "A single central siren with no local instructions",
+        "Post-disaster compensation alone"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A warning after inundation provides little time for protective action.",
+        "Correct. Warnings must reach people in actionable form and connect to evacuation routes and rehearsed response plans.",
+        "A siren without clear instructions may not prompt effective action.",
+        "Compensation is post-disaster support, not a substitute for preparedness."
+      ],
+      "basis": "Official Paper I syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies; Disaster management; early warning systems."
+    },
+    {
+      "id": "P1-INDGEO-005",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "India Geography",
+      "subtopic": "Indian rivers; east-flowing and west-flowing rivers",
+      "difficulty": "moderate",
+      "stem": "Which of the following rivers is well known for flowing westward into the Arabian Sea through a rift valley?",
+      "options": [
+        "Godavari",
+        "Krishna",
+        "Narmada",
+        "Mahanadi"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Godavari flows generally eastward into the Bay of Bengal.",
+        "Krishna flows generally eastward into the Bay of Bengal.",
+        "Correct. The Narmada flows westward through a rift valley and drains into the Arabian Sea.",
+        "Mahanadi flows eastward into the Bay of Bengal."
+      ],
+      "basis": "Official Paper I syllabus: India Geography; Indian rivers; east-flowing and west-flowing rivers."
+    },
+    {
+      "id": "P1-CONST-007",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Fundamental Rights; constitutional remedies",
+      "difficulty": "advanced",
+      "stem": "Which writ is issued by a court to command a public authority to perform a public duty it has failed or refused to perform?",
+      "options": [
+        "Habeas corpus",
+        "Mandamus",
+        "Prohibition",
+        "Certiorari"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Habeas corpus protects against unlawful detention.",
+        "Correct. Mandamus commands a public authority to perform a public or statutory duty.",
+        "Prohibition restrains a lower court or tribunal from exceeding jurisdiction.",
+        "Certiorari is used to quash an order of a lower court or tribunal in appropriate cases."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; Fundamental Rights; constitutional remedies."
+    },
+    {
+      "id": "P1-ECON-007",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Public finance; revenue and capital expenditure",
+      "difficulty": "moderate",
+      "stem": "Which of the following is generally classified as capital expenditure by a government?",
+      "options": [
+        "Payment of salaries to employees",
+        "Interest payment on existing debt",
+        "Construction of a new public hospital building",
+        "Subsidy paid for routine consumption"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Salaries are normally revenue expenditure because they do not create a durable asset.",
+        "Interest payments are revenue expenditure.",
+        "Correct. Construction of a public hospital creates a durable public asset and is classified as capital expenditure.",
+        "Routine subsidies are generally revenue expenditure."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana; public finance and government expenditure."
+    },
+    {
+      "id": "P2-ALG-006",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Shortest paths; Bellman-Ford algorithm",
+      "difficulty": "advanced",
+      "stem": "A directed weighted graph contains a reachable negative-weight cycle. Which statement about single-source shortest paths is correct?",
+      "options": [
+        "Dijkstra always finds finite shortest paths",
+        "Bellman-Ford can detect the negative-weight cycle",
+        "A topological ordering always removes the cycle",
+        "Breadth-first search gives correct weighted shortest paths"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Dijkstra's algorithm does not correctly handle arbitrary negative edge weights or reachable negative cycles.",
+        "Correct. Bellman-Ford relaxes edges repeatedly and can detect a further relaxation after |V|−1 passes, indicating a reachable negative-weight cycle.",
+        "A directed graph with a cycle is not a DAG and has no topological ordering.",
+        "BFS minimises edge count in unweighted graphs, not arbitrary weighted path cost."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; graph algorithms and shortest paths."
+    },
+    {
+      "id": "P2-NET-006",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Error detection; CRC",
+      "difficulty": "advanced",
+      "stem": "In a CRC system, the dataword is 1101 and the generator is 1011. Which operation is used to obtain the transmitted codeword?",
+      "options": [
+        "Append three zeros, perform modulo-2 division by 1011, and append the remainder to the dataword",
+        "Add 1011 arithmetically to 1101",
+        "Divide 1011 by 1101 using ordinary integer division",
+        "Append the generator itself to the dataword"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The generator degree is 3, so append three zeros, perform modulo-2 polynomial division, then append the 3-bit remainder to the original dataword.",
+        "CRC uses modulo-2 division (XOR arithmetic), not ordinary integer addition.",
+        "The data polynomial is divided by the generator after appending zero bits; this reverses the roles.",
+        "The generator is not appended as the CRC remainder."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; error detection and CRC."
+    },
+    {
+      "id": "P2-OS-006",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Virtual memory; page replacement",
+      "difficulty": "advanced",
+      "stem": "A process references pages 1, 2, 3, 1, 4 with three initially empty frames. Under FIFO replacement, how many page faults occur?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Three is incorrect because page 4 causes a fault after the three frames are filled.",
+        "Correct. References 1, 2 and 3 fault; the second reference to 1 hits; page 4 faults, giving four faults.",
+        "Five would incorrectly count the repeated reference to page 1 as a fault.",
+        "Two ignores the initial page loads."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; Virtual memory; page replacement."
+    },
+    {
+      "id": "P2-DB-008",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "SQL; aggregate functions and NULL",
+      "difficulty": "advanced",
+      "stem": "In SQL, what does COUNT(column_name) return when some rows contain NULL in that column?",
+      "options": [
+        "The total number of rows including NULLs",
+        "The number of non-NULL values in that column",
+        "The number of distinct non-NULL values only",
+        "Always zero if any NULL exists"
+      ],
+      "answer": 1,
+      "explanations": [
+        "COUNT(*) counts rows, including rows with NULLs.",
+        "Correct. COUNT(column_name) counts non-NULL values in that column.",
+        "COUNT(DISTINCT column_name) counts distinct non-NULL values.",
+        "The presence of NULL values does not force the count to zero."
+      ],
+      "basis": "Official Paper II syllabus: Databases; SQL; aggregate functions and NULL."
+    },
+    {
+      "id": "P2-ALG-007",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Sorting; asymptotic complexity",
+      "difficulty": "moderate",
+      "stem": "Which sorting algorithm has O(n log n) worst-case time and is stable in its standard array implementation?",
+      "options": [
+        "Heap sort",
+        "Merge sort",
+        "Selection sort",
+        "Quick sort"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Heap sort has O(n log n) worst-case time but is not stable in its standard in-place form.",
+        "Correct. Merge sort has O(n log n) worst-case time and is stable when equal keys are merged consistently.",
+        "Selection sort has O(n²) time in the usual implementation.",
+        "Quicksort has O(n²) worst-case time and is not stable in its standard form."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; Sorting; asymptotic complexity."
+    },
+    {
+      "id": "P2-TOC-005",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Finite automata; distinguishability and minimisation",
+      "difficulty": "advanced",
+      "stem": "In DFA minimisation, two states are equivalent if:",
+      "options": [
+        "They have the same state names",
+        "No input string distinguishes their acceptance behaviour",
+        "They have identical outgoing transition labels only",
+        "They are both accepting states"
+      ],
+      "answer": 1,
+      "explanations": [
+        "State names have no bearing on equivalence.",
+        "Correct. States are equivalent when every possible suffix leads to the same acceptance result from both states.",
+        "Matching labels alone is insufficient; destination behaviour matters.",
+        "Two accepting states may still be distinguishable by some input string."
+      ],
+      "basis": "Official Paper II syllabus: Theory of Computation; Finite automata; distinguishability and minimisation."
+    },
+    {
+      "id": "P2-COA-007",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Memory hierarchy; average memory access time",
+      "difficulty": "advanced",
+      "stem": "A cache has hit time 2 ns, miss penalty 50 ns and hit ratio 0.9. Using AMAT = hit time + miss rate × miss penalty, what is AMAT?",
+      "options": [
+        "5 ns",
+        "7 ns",
+        "10 ns",
+        "52 ns"
+      ],
+      "answer": 1,
+      "explanations": [
+        "5 ns would require a miss penalty contribution of 3 ns, not 5.",
+        "Correct. AMAT=2+(0.1×50)=7 ns.",
+        "10 ns overstates the miss contribution.",
+        "52 ns ignores the high hit ratio."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; Memory hierarchy; average memory access time."
+    },
+    {
+      "id": "P2-PROB-004",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Conditional probability; independence",
+      "difficulty": "advanced",
+      "stem": "Events A and B are independent, with P(A)=0.4 and P(B)=0.5. What is P(A∩B)?",
+      "options": [
+        "0.1",
+        "0.2",
+        "0.4",
+        "0.9"
+      ],
+      "answer": 1,
+      "explanations": [
+        "0.1 is not the product of the independent event probabilities.",
+        "Correct. Independence gives P(A∩B)=0.4×0.5=0.2.",
+        "0.4 is P(A), not the intersection probability.",
+        "0.9 is the sum, not the intersection."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics; Conditional probability; independence."
+    },
+    {
+      "id": "P2-COMP-006",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Parsing; operator precedence and associativity",
+      "difficulty": "moderate",
+      "stem": "For the expression a-b-c, if subtraction is left-associative, it is parsed as:",
+      "options": [
+        "a-(b-c)",
+        "(a-b)-c",
+        "The expression is invalid",
+        "a-(b+c)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "This is right-associative grouping.",
+        "Correct. Left associativity groups the leftmost operation first: (a-b)-c.",
+        "The expression is valid under ordinary arithmetic grammar.",
+        "The second operation is subtraction, not addition."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; Parsing; operator precedence and associativity."
+    },
+    {
+      "id": "P2-DS-005",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Linked lists; pointer operations",
+      "difficulty": "moderate",
+      "stem": "In a singly linked list with only a head pointer, inserting a node at the beginning takes:",
+      "options": [
+        "O(1) time",
+        "O(log n) time",
+        "O(n) time",
+        "O(n log n) time"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Set the new node's next pointer to the old head and update head; this is constant time.",
+        "No traversal or logarithmic search is required.",
+        "Linear time is needed for traversal-based operations, not insertion at the head.",
+        "There is no sorting or divide-and-conquer operation."
+      ],
+      "basis": "Official Paper II syllabus: Programming and Data Structures; Linked lists; pointer operations."
+    },
+    {
+      "id": "P2-NET-007",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "IPv4; subnetting and address allocation",
+      "difficulty": "advanced",
+      "stem": "A network is divided using a /26 prefix. How many usable host addresses are available in each ordinary IPv4 subnet, assuming network and broadcast addresses are reserved?",
+      "options": [
+        "30",
+        "62",
+        "64",
+        "126"
+      ],
+      "answer": 1,
+      "explanations": [
+        "30 usable hosts corresponds to a /27 subnet.",
+        "Correct. A /26 leaves 6 host bits: 2⁶=64 total addresses, minus network and broadcast gives 62 usable hosts.",
+        "64 is the total address count, not the usable host count.",
+        "126 usable hosts corresponds to a /25 subnet."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; IPv4; subnetting and address allocation."
+    },
+    {
+      "id": "P2-DB-009",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Concurrency control; serializability",
+      "difficulty": "advanced",
+      "stem": "A schedule is conflict-serializable if and only if its precedence graph is:",
+      "options": [
+        "Complete",
+        "Acyclic",
+        "Strongly connected",
+        "Bipartite"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Completeness is not the serializability criterion.",
+        "Correct. A schedule is conflict-serializable exactly when its precedence (serialization) graph has no directed cycle.",
+        "Strong connectivity is not required and would not be the criterion.",
+        "Bipartiteness is unrelated to conflict serializability."
+      ],
+      "basis": "Official Paper II syllabus: Databases; Concurrency control; serializability."
+    },
+    {
+      "id": "P2-ALG-008",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Dynamic programming; matrix-chain multiplication",
+      "difficulty": "advanced",
+      "stem": "For matrix-chain multiplication, the dynamic-programming method primarily minimises:",
+      "options": [
+        "The number of matrices",
+        "The number of scalar multiplications",
+        "The number of result matrices",
+        "The memory addresses used by matrices"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The number of matrices in the chain is fixed by the input.",
+        "Correct. Matrix-chain order optimisation chooses parenthesisation to minimise scalar multiplication cost.",
+        "The chain produces one final product matrix.",
+        "Memory addresses are not the objective of the standard matrix-chain cost recurrence."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; Dynamic programming; matrix-chain multiplication."
+    },
+    {
+      "id": "P2-OS-007",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Process synchronisation; semaphores",
+      "difficulty": "advanced",
+      "stem": "A binary semaphore initially set to 1 is used as a mutex. What happens when a process successfully performs wait(P) on it?",
+      "options": [
+        "Its value becomes 0 and the process enters the critical section if the lock was free",
+        "Its value becomes 2",
+        "All waiting processes enter the critical section together",
+        "The semaphore is permanently destroyed"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. wait decrements the available permit from 1 to 0, granting exclusive entry; another process must wait until signal(V).",
+        "A binary semaphore does not increase to 2 in this use.",
+        "Mutual exclusion permits only one process in the critical section at a time.",
+        "The semaphore remains a synchronisation object and can be signalled."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; Process synchronisation; semaphores."
+    },
+    {
+      "id": "P1-CONST-008",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Parliament; joint sitting",
+      "difficulty": "advanced",
+      "stem": "A joint sitting of Parliament to resolve a deadlock on an ordinary bill is presided over by:",
+      "options": [
+        "The President",
+        "The Vice-President",
+        "The Speaker of the Lok Sabha",
+        "The Deputy Chairman of the Rajya Sabha"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The President summons a joint sitting but does not preside over it.",
+        "The Vice-President chairs the Rajya Sabha, not a joint sitting.",
+        "Correct. The Speaker of the Lok Sabha presides over a joint sitting under Article 118(4).",
+        "The Deputy Chairman presides over the Rajya Sabha in the Chairman's absence, not ordinarily over a joint sitting."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; Parliament; joint sitting."
+    },
+    {
+      "id": "P1-TEL-008",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Telangana movement; 1969 agitation",
+      "difficulty": "advanced",
+      "stem": "The Telangana Praja Samithi, which emerged during the 1969 Telangana agitation, was prominently led by:",
+      "options": [
+        "M. Chenna Reddy",
+        "K. Chandrashekar Rao",
+        "Burgula Ramakrishna Rao",
+        "Swami Ramananda Tirtha"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. M. Chenna Reddy became the prominent leader of the Telangana Praja Samithi during the 1969 movement.",
+        "K. Chandrashekar Rao led the later statehood movement beginning in 2001.",
+        "Burgula Ramakrishna Rao was the first Chief Minister of Hyderabad State.",
+        "Swami Ramananda Tirtha was associated with the Hyderabad State liberation movement."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state; Telangana movement; 1969 agitation."
+    },
+    {
+      "id": "P1-ECON-008",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Monetary policy; repo rate",
+      "difficulty": "advanced",
+      "stem": "If the RBI raises the repo rate, other things being equal, which immediate direction of effect is most likely?",
+      "options": [
+        "Banks find short-term borrowing from RBI cheaper",
+        "Borrowing costs tend to rise, moderating credit demand",
+        "The money supply automatically doubles",
+        "Government tax revenue immediately increases"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A repo-rate increase makes eligible RBI borrowing more expensive, not cheaper.",
+        "Correct. Higher policy rates tend to raise borrowing costs and restrain credit demand, with lags.",
+        "A repo-rate change does not mechanically double the money supply.",
+        "Tax revenue does not automatically increase as an immediate mechanical result."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana; Monetary policy; repo rate."
+    },
+    {
+      "id": "P1-GEO-005",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Telangana rivers; Krishna basin",
+      "difficulty": "moderate",
+      "stem": "Which river forms a substantial part of Telangana's southern boundary with Andhra Pradesh?",
+      "options": [
+        "Godavari",
+        "Krishna",
+        "Musi",
+        "Manjira"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Godavari is a major northern river system in Telangana.",
+        "Correct. The Krishna forms a substantial stretch of the southern boundary between Telangana and Andhra Pradesh.",
+        "Musi is a tributary of the Krishna flowing through Hyderabad; it does not form the state boundary.",
+        "Manjira is a tributary of the Godavari system."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; Telangana rivers; Krishna basin."
+    },
+    {
+      "id": "P1-SCI-006",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Physics; electromagnetic induction",
+      "difficulty": "advanced",
+      "stem": "According to Faraday's law, the magnitude of induced emf in a coil is proportional to:",
+      "options": [
+        "The magnetic flux itself only",
+        "The rate of change of magnetic flux linkage",
+        "The electrical resistance of the coil only",
+        "The square of the current"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A constant flux does not induce emf merely by being present; change in flux matters.",
+        "Correct. Induced emf magnitude is proportional to the time rate of change of magnetic flux linkage.",
+        "Resistance affects current for a given emf, not the induced emf law itself.",
+        "The law does not state a square-current relationship."
+      ],
+      "basis": "Official Paper I syllabus: General Science; India’s Achievements in Science and Technology; Physics; electromagnetic induction."
+    },
+    {
+      "id": "P1-ENV-008",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Climate change; greenhouse effect",
+      "difficulty": "advanced",
+      "stem": "Which statement about the enhanced greenhouse effect is scientifically correct?",
+      "options": [
+        "Greenhouse gases absorb and re-emit outgoing longwave radiation, increasing heat retention",
+        "The ozone hole is the sole cause of global warming",
+        "Greenhouse gases prevent all incoming solar radiation",
+        "The greenhouse effect occurs only in urban areas"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Greenhouse gases absorb and re-emit portions of outgoing terrestrial longwave radiation, changing Earth's energy balance.",
+        "Ozone depletion and global warming are distinct phenomena; the ozone hole is not the sole cause.",
+        "Most incoming shortwave solar radiation still reaches Earth's surface.",
+        "The natural greenhouse effect operates globally, not only in cities."
+      ],
+      "basis": "Official Paper I syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies; Climate change; greenhouse effect."
+    },
+    {
+      "id": "P1-REASON-008",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Data interpretation; weighted average",
+      "difficulty": "advanced",
+      "stem": "A class has 20 students with an average score of 60 and another group has 30 students with an average of 70. What is the combined average?",
+      "options": [
+        "64",
+        "65",
+        "66",
+        "68"
+      ],
+      "answer": 2,
+      "explanations": [
+        "64 is below the weighted average for these group sizes.",
+        "65 is not the weighted mean for 20 and 30 students.",
+        "Correct. (20×60+30×70)/50=66.",
+        "68 overstates the combined average."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; Data interpretation; weighted average."
+    },
+    {
+      "id": "P1-IR-006",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "International organisations; IMF and World Bank",
+      "difficulty": "moderate",
+      "stem": "Which institution is primarily concerned with balance-of-payments support and international monetary cooperation?",
+      "options": [
+        "World Trade Organization",
+        "International Monetary Fund",
+        "UNESCO",
+        "International Court of Justice"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The WTO deals primarily with rules governing international trade.",
+        "Correct. The IMF promotes international monetary cooperation and provides financing support to members facing balance-of-payments problems.",
+        "UNESCO works in education, science and culture.",
+        "The ICJ settles legal disputes between states and gives advisory opinions."
+      ],
+      "basis": "Official Paper I syllabus: International Relations and Events; International organisations; IMF and World Bank."
     }
   ],
-  "qualityNote": "The new batch was benchmarked against the uploaded 2015 Manager CS&IT Paper-II: formal relations, RAM capacity, scheduling/calculation style, functional dependencies, graph algorithms, TCP sequence arithmetic and pipeline timing. Questions are original and syllabus-mapped. The bank now contains 20 questions per paper, allowing four balanced sessions from a fresh browser profile."
+  "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
+  "requirement": {
+    "targetTotal": 3500,
+    "targetPaper2": 2000,
+    "targetPaper1": 1500,
+    "currentTotal": 132,
+    "currentPaper2": 68,
+    "currentPaper1": 64,
+    "status": "in_progress",
+    "qualityGate": "Every added question must have a unique ID, official syllabus mapping, four options, a verified answer index, four option-specific explanations, and a difficulty label."
+  }
 }
