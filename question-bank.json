@@ -3387,6 +3387,2306 @@
         "Incorrect. Doubling 78 gives 156; the rule adds 2."
       ],
       "basis": "Paper I syllabus: Logical reasoning and analytical ability."
+    },
+    {
+      "id": "P2-NEW-014",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "TCP congestion control",
+      "difficulty": "advanced",
+      "stem": "In TCP Reno, when three duplicate ACKs are received, the sender typically:",
+      "options": [
+        "Immediately resets the congestion window to one MSS and enters slow start",
+        "Retransmits the missing segment and enters fast recovery",
+        "Closes the connection",
+        "Doubles the receiver's advertised window"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. That describes the response to a retransmission timeout in simplified Reno behavior.",
+        "Correct. Three duplicate ACKs trigger fast retransmit and fast recovery.",
+        "Incorrect. Duplicate ACKs do not terminate the connection.",
+        "Incorrect. The receiver's advertised window is flow control, not congestion control."
+      ],
+      "basis": "Paper II syllabus: Computer Networks; TCP congestion control."
+    },
+    {
+      "id": "P2-NEW-008",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Boolean minimization",
+      "difficulty": "moderate",
+      "stem": "For F(A,B,C)=Σm(1,3,5,7), the minimized expression is:",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "A+B"
+      ],
+      "answer": 2,
+      "explanations": [
+        "A is not common to all minterms.",
+        "B is not common to all minterms.",
+        "All listed minterms have C=1; hence F=C.",
+        "A+B is zero for minterm 1."
+      ],
+      "basis": "Paper II: Digital Logic; Boolean minimization."
+    },
+    {
+      "id": "P2-NEW-009",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Pipeline hazards",
+      "difficulty": "moderate",
+      "stem": "A load is immediately followed by an instruction using its destination register. Without forwarding or scheduling, this is a:",
+      "options": [
+        "Structural hazard",
+        "Load-use data hazard",
+        "Control hazard",
+        "Page fault"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Structural hazards arise from resource conflicts.",
+        "Correct: the dependent instruction needs a value not yet available.",
+        "Control hazards arise from branches.",
+        "A page fault is a memory-management event."
+      ],
+      "basis": "Paper II: COA; pipeline hazards."
+    },
+    {
+      "id": "P2-NEW-010",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Stack applications",
+      "difficulty": "moderate",
+      "stem": "Which structure is most directly used to evaluate a postfix expression?",
+      "options": [
+        "Queue",
+        "Stack",
+        "Binary search tree",
+        "Adjacency list"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A queue is FIFO, not LIFO.",
+        "Operands are pushed and popped as operators are encountered.",
+        "A search tree is unnecessary.",
+        "An adjacency list represents graph edges."
+      ],
+      "basis": "Paper II: Programming and Data Structures; stacks."
+    },
+    {
+      "id": "P2-NEW-011",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Predictive parsing",
+      "difficulty": "moderate",
+      "stem": "A predictive LL(1) parser requires its parsing-table entries to be:",
+      "options": [
+        "Always empty",
+        "Unique for each nonterminal and lookahead symbol",
+        "Based on backtracking",
+        "Generated from left-recursive grammar"
+      ],
+      "answer": 1,
+      "explanations": [
+        "An empty table cannot parse input.",
+        "Correct: a single table entry avoids parsing conflicts.",
+        "LL(1) parsing avoids backtracking.",
+        "Left recursion must be eliminated for ordinary LL(1) parsing."
+      ],
+      "basis": "Paper II: Compiler Design; LL(1) parsing."
+    },
+    {
+      "id": "P2-NEW-012",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Deadlock avoidance",
+      "difficulty": "moderate",
+      "stem": "A system is safe if:",
+      "options": [
+        "All processes have terminated",
+        "A safe sequence exists in which every process can finish",
+        "No process holds a resource",
+        "All resources are free"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A safe state can contain active processes.",
+        "Correct: a safe sequence demonstrates completion without deadlock.",
+        "Processes may hold resources in a safe state.",
+        "All resources being free is sufficient but not necessary."
+      ],
+      "basis": "Paper II: Operating Systems; deadlock avoidance."
+    },
+    {
+      "id": "P2-NEW-013",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Software testing",
+      "difficulty": "moderate",
+      "stem": "100% statement coverage guarantees that:",
+      "options": [
+        "Every possible path was tested",
+        "Every branch outcome was tested",
+        "Every executable statement ran at least once",
+        "The program is defect-free"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Statement coverage does not imply path coverage.",
+        "Branch coverage is a separate, stronger metric.",
+        "Correct: every executable statement has been executed.",
+        "Coverage cannot prove absence of defects."
+      ],
+      "basis": "Paper II: Software Engineering; test coverage."
+    },
+    {
+      "id": "P1-NEW-004",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "National movement",
+      "difficulty": "moderate",
+      "stem": "The Non-Cooperation Movement was launched in:",
+      "options": [
+        "1919",
+        "1920",
+        "1922",
+        "1930"
+      ],
+      "answer": 1,
+      "explanations": [
+        "1919 saw the Rowlatt Satyagraha and Jallianwala Bagh events.",
+        "Correct: Gandhi launched the movement in 1920.",
+        "It was withdrawn in 1922 after Chauri Chaura.",
+        "1930 marks the Civil Disobedience Movement."
+      ],
+      "basis": "Paper I: Modern Indian history and national movement."
+    },
+    {
+      "id": "P1-NEW-005",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana",
+      "subtopic": "Formation of Telangana",
+      "difficulty": "moderate",
+      "stem": "Telangana came into existence under the Andhra Pradesh Reorganisation Act on:",
+      "options": [
+        "1 January 2014",
+        "2 June 2014",
+        "15 August 2014",
+        "1 November 2014"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Not the appointed day.",
+        "Correct: the appointed day was 2 June 2014.",
+        "Not the appointed day.",
+        "Not the appointed day."
+      ],
+      "basis": "Paper I: Telangana statehood movement and formation."
+    },
+    {
+      "id": "P1-NEW-006",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Space science",
+      "difficulty": "moderate",
+      "stem": "A geostationary satellite appears stationary because its:",
+      "options": [
+        "Orbital period equals Earth's rotational period",
+        "Orbit passes over both poles",
+        "Speed is zero",
+        "Gravity is absent"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: matching Earth's rotation keeps it above roughly the same equatorial point.",
+        "Polar orbits are not geostationary.",
+        "The satellite has substantial orbital speed.",
+        "Earth's gravity provides the centripetal force."
+      ],
+      "basis": "Paper I: General Science; space technology."
+    },
+    {
+      "id": "P2-NEW-015",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Binomial distribution",
+      "difficulty": "advanced",
+      "stem": "If X~Binomial(5,0.2), what is P(X=0)?",
+      "options": [
+        "0.32768",
+        "0.4096",
+        "0.2",
+        "0.8"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: (1−0.2)^5=0.8^5=0.32768.",
+        "This is 0.8^4, not 0.8^5.",
+        "This is the success probability, not P(X=0).",
+        "This is the failure probability for one trial."
+      ],
+      "basis": "Paper II: Probability; binomial distribution."
+    },
+    {
+      "id": "P2-NEW-016",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Eigenvalues",
+      "difficulty": "advanced",
+      "stem": "The sum of the eigenvalues of a square matrix, counted with algebraic multiplicity, equals its:",
+      "options": [
+        "Determinant",
+        "Trace",
+        "Rank",
+        "Nullity"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The determinant is the product of eigenvalues.",
+        "Correct: the trace equals the sum of eigenvalues.",
+        "Rank is not generally their sum.",
+        "Nullity is the dimension of the null space."
+      ],
+      "basis": "Paper II: Linear Algebra; eigenvalues and trace."
+    },
+    {
+      "id": "P2-NEW-017",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Euler trails",
+      "difficulty": "advanced",
+      "stem": "A connected undirected graph has an Euler circuit exactly when:",
+      "options": [
+        "Every vertex has even degree",
+        "Exactly two vertices have odd degree",
+        "It is complete",
+        "It has no bridges"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: connectedness (ignoring isolated vertices) and all even degrees characterize an Euler circuit.",
+        "Two odd-degree vertices give an Euler trail but not a circuit.",
+        "Completeness is unnecessary.",
+        "Bridges may exist in an Eulerian graph."
+      ],
+      "basis": "Paper II: Graph Theory; Eulerian graphs."
+    },
+    {
+      "id": "P2-NEW-018",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Binary search trees",
+      "difficulty": "advanced",
+      "stem": "Inorder traversal of a binary search tree with distinct keys produces keys in:",
+      "options": [
+        "Preorder",
+        "Descending order always",
+        "Ascending order",
+        "Level order"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Preorder visits root first.",
+        "Inorder is ascending for the standard BST ordering.",
+        "Correct: left subtree, root, right subtree yields ascending keys.",
+        "Level order uses breadth-first traversal."
+      ],
+      "basis": "Paper II: Data Structures; trees and traversals."
+    },
+    {
+      "id": "P2-NEW-019",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Dijkstra algorithm",
+      "difficulty": "advanced",
+      "stem": "Dijkstra's shortest-path algorithm is not generally correct when the graph contains:",
+      "options": [
+        "Only positive edge weights",
+        "Negative edge weights",
+        "No cycles",
+        "A single source"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Positive weights satisfy its key assumption.",
+        "Correct: a negative edge can improve a vertex after it has been finalized.",
+        "Acyclicity is not required.",
+        "A single source is the normal input."
+      ],
+      "basis": "Paper II: Algorithms; shortest paths."
+    },
+    {
+      "id": "P2-NEW-020",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Context-free languages",
+      "difficulty": "advanced",
+      "stem": "Which language is context-free but not regular?",
+      "options": [
+        "{a^n b^n | n≥0}",
+        "{a^n | n≥0}",
+        "{a,b}*",
+        "{a*b*}"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: a pushdown automaton can match counts using its stack; it is not regular.",
+        "This is a* and regular.",
+        "Every string over the alphabet is regular.",
+        "a*b* is regular."
+      ],
+      "basis": "Paper II: TOC; context-free languages."
+    },
+    {
+      "id": "P2-NEW-021",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Functional dependencies",
+      "difficulty": "advanced",
+      "stem": "If X→Y and Y→Z, which dependency follows by transitivity?",
+      "options": [
+        "Z→X",
+        "X→Z",
+        "Y→X",
+        "XZ→Y"
+      ],
+      "answer": 1,
+      "explanations": [
+        "No reverse dependency follows.",
+        "Correct: Armstrong's transitivity rule gives X→Z.",
+        "The given dependencies do not imply Y→X.",
+        "This is not the transitive conclusion."
+      ],
+      "basis": "Paper II: Databases; functional dependencies."
+    },
+    {
+      "id": "P1-NEW-007",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Fundamental rights",
+      "difficulty": "advanced",
+      "stem": "Which Article of the Indian Constitution guarantees equality before the law?",
+      "options": [
+        "Article 14",
+        "Article 19",
+        "Article 21",
+        "Article 32"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: Article 14 guarantees equality before the law and equal protection of laws.",
+        "Article 19 protects specified freedoms.",
+        "Article 21 protects life and personal liberty.",
+        "Article 32 provides constitutional remedies."
+      ],
+      "basis": "Paper I: Indian Constitution; Fundamental Rights."
+    },
+    {
+      "id": "P1-NEW-008",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "Physical, Social and Economic Geography of India",
+      "subtopic": "Indian rivers",
+      "difficulty": "advanced",
+      "stem": "Which river is commonly described as the 'Dakshin Ganga'?",
+      "options": [
+        "Narmada",
+        "Godavari",
+        "Kaveri",
+        "Mahanadi"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Narmada flows westward and is not called Dakshin Ganga.",
+        "Correct: Godavari is often called the Ganga of the South.",
+        "Kaveri is a major southern river but not the usual epithet.",
+        "Mahanadi drains east-central India."
+      ],
+      "basis": "Paper I: Geography of India."
+    },
+    {
+      "id": "P1-NEW-009",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Syllogism",
+      "difficulty": "advanced",
+      "stem": "Statements: All engineers are graduates. Some graduates are artists. Which conclusion necessarily follows?",
+      "options": [
+        "Some engineers are artists",
+        "All artists are engineers",
+        "All engineers are graduates",
+        "No graduate is an engineer"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The overlap between engineers and artists is not established.",
+        "The statement does not make all artists engineers.",
+        "Correct: this directly restates the first premise.",
+        "This contradicts the first premise."
+      ],
+      "basis": "Paper I: Logical reasoning; syllogisms."
+    },
+    {
+      "id": "P2-NEW-022",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Sequential circuits",
+      "difficulty": "moderate",
+      "stem": "A JK flip-flop has J=K=1 at the active clock edge. Its next state is:",
+      "options": [
+        "0",
+        "1",
+        "Complement of present state",
+        "Unchanged"
+      ],
+      "answer": 2,
+      "explanations": [
+        "It is not forced to zero.",
+        "It is not forced to one.",
+        "Correct: J=K=1 causes toggling.",
+        "Holding occurs when J=K=0."
+      ],
+      "basis": "Paper II: Digital Logic; flip-flops."
+    },
+    {
+      "id": "P2-NEW-023",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Addressing modes",
+      "difficulty": "moderate",
+      "stem": "In byte-addressable memory, a 32-bit word occupies:",
+      "options": [
+        "2 bytes",
+        "4 bytes",
+        "8 bytes",
+        "32 bytes"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A 16-bit quantity is 2 bytes.",
+        "Correct: 32/8=4 bytes.",
+        "64 bits would occupy 8 bytes.",
+        "32 bits is not 32 bytes."
+      ],
+      "basis": "Paper II: COA; memory organization."
+    },
+    {
+      "id": "P2-NEW-024",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Hashing",
+      "difficulty": "moderate",
+      "stem": "With separate chaining, the expected search time under uniform hashing and load factor α is:",
+      "options": [
+        "Θ(1+α)",
+        "Θ(log n) always",
+        "Θ(n²)",
+        "Θ(α²)"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: expected chain length is proportional to α, plus constant overhead.",
+        "No tree balancing is implied.",
+        "Quadratic time is not the expected bound.",
+        "The expected bound is linear in α, not α squared."
+      ],
+      "basis": "Paper II: Data Structures; hashing."
+    },
+    {
+      "id": "P2-NEW-025",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Sorting",
+      "difficulty": "moderate",
+      "stem": "Which sorting algorithm is stable in its standard implementation and has worst-case Θ(n log n) time?",
+      "options": [
+        "Quick sort",
+        "Heap sort",
+        "Merge sort",
+        "Selection sort"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Standard quicksort is not stable and can be quadratic.",
+        "Heap sort is not stable.",
+        "Correct: merge sort is stable and has Θ(n log n) worst-case time.",
+        "Selection sort is generally Θ(n²) and not stable in its standard form."
+      ],
+      "basis": "Paper II: Algorithms; sorting."
+    },
+    {
+      "id": "P2-NEW-026",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Decidability",
+      "difficulty": "moderate",
+      "stem": "The halting problem for arbitrary Turing machines is:",
+      "options": [
+        "Decidable",
+        "Undecidable",
+        "Regular",
+        "A finite language"
+      ],
+      "answer": 1,
+      "explanations": [
+        "No algorithm decides it for every machine-input pair.",
+        "Correct: the halting problem is undecidable.",
+        "Regularity is a language-class property, not the result.",
+        "The set of instances is not finite."
+      ],
+      "basis": "Paper II: TOC; decidability."
+    },
+    {
+      "id": "P2-NEW-027",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Virtual memory",
+      "difficulty": "moderate",
+      "stem": "A page fault occurs when a process:",
+      "options": [
+        "Writes to a register",
+        "References a page not currently mapped as present in physical memory",
+        "Exceeds CPU clock speed",
+        "Closes a file"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Register access does not cause a page fault.",
+        "Correct: the OS must resolve a missing or non-present page mapping.",
+        "CPU clock speed is unrelated.",
+        "Closing a file is unrelated."
+      ],
+      "basis": "Paper II: Operating Systems; virtual memory."
+    },
+    {
+      "id": "P2-NEW-028",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Subnetting",
+      "difficulty": "moderate",
+      "stem": "How many usable host addresses are available in a conventional IPv4 /27 subnet?",
+      "options": [
+        "14",
+        "30",
+        "32",
+        "62"
+      ],
+      "answer": 1,
+      "explanations": [
+        "/28 provides 14 usable addresses.",
+        "Correct: 2^(32−27)−2=30.",
+        "32 is the total addresses, including network and broadcast.",
+        "/26 provides 62 usable addresses."
+      ],
+      "basis": "Paper II: Computer Networks; IPv4 subnetting."
+    },
+    {
+      "id": "P1-NEW-010",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Disaster management",
+      "difficulty": "moderate",
+      "stem": "Which measure is an example of structural flood mitigation?",
+      "options": [
+        "Public awareness campaign",
+        "Flood forecasting",
+        "Construction of embankments",
+        "Evacuation drill"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Awareness is non-structural.",
+        "Forecasting is non-structural.",
+        "Correct: embankments are physical infrastructure.",
+        "Evacuation drills are non-structural preparedness."
+      ],
+      "basis": "Paper I: Environment and disaster management."
+    },
+    {
+      "id": "P1-NEW-011",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "National income",
+      "difficulty": "moderate",
+      "stem": "Gross Domestic Product measures the value of:",
+      "options": [
+        "All intermediate goods only",
+        "Final goods and services produced within a country's domestic territory during a period",
+        "Only exports",
+        "Only government production"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Intermediate goods are excluded to avoid double counting.",
+        "Correct: GDP measures final output produced within domestic territory over a period.",
+        "Exports are only one component.",
+        "Private-sector output is also included."
+      ],
+      "basis": "Paper I: Economic and social development."
+    },
+    {
+      "id": "P1-NEW-012",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "Grammar",
+      "difficulty": "moderate",
+      "stem": "Choose the grammatically correct sentence:",
+      "options": [
+        "Neither of the answers are correct.",
+        "Neither of the answers is correct.",
+        "Neither answers is correct.",
+        "Neither of answers are correct."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Neither is treated as singular in this construction.",
+        "Correct: singular 'neither' takes 'is'.",
+        "The determiner 'of the' is missing.",
+        "The phrase is incomplete and uses the wrong agreement."
+      ],
+      "basis": "Paper I: Basic English."
+    },
+    {
+      "id": "P2-NEW-029",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Normal distribution",
+      "difficulty": "advanced",
+      "stem": "For a standard normal variable Z, approximately what is P(−1≤Z≤1)?",
+      "options": [
+        "0.50",
+        "0.6827",
+        "0.9545",
+        "0.9973"
+      ],
+      "answer": 1,
+      "explanations": [
+        "0.50 is too small for the central one-standard-deviation interval.",
+        "Correct: the empirical normal probability is about 68.27%.",
+        "About 95.45% lies within two standard deviations.",
+        "About 99.73% lies within three standard deviations."
+      ],
+      "basis": "Paper II: Probability; normal distribution."
+    },
+    {
+      "id": "P2-NEW-030",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Matrix determinants",
+      "difficulty": "advanced",
+      "stem": "If A is a 3×3 matrix and det(A)=−2, then det(3A) equals:",
+      "options": [
+        "−6",
+        "−18",
+        "−54",
+        "−2"
+      ],
+      "answer": 2,
+      "explanations": [
+        "For a 3×3 matrix the determinant scales by 3³, not 3.",
+        "The scale factor is 27, not 9.",
+        "Correct: det(3A)=3³det(A)=27(−2)=−54.",
+        "Scaling the matrix changes its determinant."
+      ],
+      "basis": "Paper II: Linear Algebra; determinants."
+    },
+    {
+      "id": "P2-NEW-031",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Combinatorics",
+      "difficulty": "advanced",
+      "stem": "How many distinct permutations can be formed from the letters of LEVEL?",
+      "options": [
+        "30",
+        "60",
+        "120",
+        "720"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: 5!/(2!×2!)=30, accounting for two Ls and two Es.",
+        "This overcounts repeated letters.",
+        "This overcounts repeated letters.",
+        "This treats all five letters as distinct."
+      ],
+      "basis": "Paper II: Discrete Mathematics; permutations with repetition."
+    },
+    {
+      "id": "P2-NEW-032",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Queue implementation",
+      "difficulty": "advanced",
+      "stem": "A circular queue of array capacity N commonly distinguishes full from empty by:",
+      "options": [
+        "Using only front=rear for both states",
+        "Maintaining a count or reserving one array slot",
+        "Sorting the queue after every insertion",
+        "Using recursion"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The same front/rear relation can otherwise be ambiguous.",
+        "Correct: a count or one-unused-slot convention distinguishes states.",
+        "Sorting is unrelated to queue state.",
+        "Recursion is not required."
+      ],
+      "basis": "Paper II: Data Structures; queues."
+    },
+    {
+      "id": "P2-NEW-033",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Greedy algorithms",
+      "difficulty": "advanced",
+      "stem": "Kruskal's algorithm constructs a minimum spanning tree by:",
+      "options": [
+        "Repeatedly selecting the lightest edge that does not form a cycle",
+        "Selecting the largest edge first",
+        "Running BFS from every vertex",
+        "Sorting vertices by degree"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: it processes edges in nondecreasing weight and uses cycle detection.",
+        "Largest-first does not guarantee a minimum spanning tree.",
+        "BFS does not solve weighted MST in general.",
+        "Vertex degree sorting is not Kruskal's rule."
+      ],
+      "basis": "Paper II: Algorithms; minimum spanning trees."
+    },
+    {
+      "id": "P2-NEW-034",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Normalization",
+      "difficulty": "advanced",
+      "stem": "A relation is in BCNF if for every non-trivial functional dependency X→Y:",
+      "options": [
+        "Y is a prime attribute",
+        "X is a superkey",
+        "Y contains all candidate keys",
+        "X is a foreign key"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Prime attributes are relevant to 3NF, not sufficient for BCNF.",
+        "Correct: every determinant of a non-trivial dependency must be a superkey.",
+        "This is not the BCNF condition.",
+        "Foreign-key status is unrelated."
+      ],
+      "basis": "Paper II: Databases; normalization."
+    },
+    {
+      "id": "P2-NEW-035",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "HTTP methods",
+      "difficulty": "advanced",
+      "stem": "Which HTTP method is defined as safe and idempotent?",
+      "options": [
+        "POST",
+        "PATCH",
+        "GET",
+        "CONNECT"
+      ],
+      "answer": 2,
+      "explanations": [
+        "POST is not defined as safe or idempotent.",
+        "PATCH is not generally idempotent by definition.",
+        "Correct: GET is safe and idempotent.",
+        "CONNECT is not a safe retrieval method."
+      ],
+      "basis": "Paper II: Web Technologies; HTTP semantics."
+    },
+    {
+      "id": "P1-NEW-013",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Parliament",
+      "difficulty": "advanced",
+      "stem": "A Money Bill can be introduced only in:",
+      "options": [
+        "Lok Sabha",
+        "Rajya Sabha",
+        "Either House",
+        "A joint sitting"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: Article 110 requires introduction in Lok Sabha.",
+        "Rajya Sabha cannot introduce a Money Bill.",
+        "Only Lok Sabha may introduce it.",
+        "A joint sitting is not the introduction procedure."
+      ],
+      "basis": "Paper I: Indian Constitution; Parliament."
+    },
+    {
+      "id": "P1-NEW-014",
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Telangana culture",
+      "difficulty": "advanced",
+      "stem": "Bathukamma is primarily associated with which type of celebration?",
+      "options": [
+        "Harvest and floral festival",
+        "Maritime trade fair",
+        "Winter sports festival",
+        "Military parade"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: Bathukamma is a floral festival celebrated by women in Telangana, associated with seasonal and cultural traditions.",
+        "It is not a maritime trade fair.",
+        "It is not a sports event.",
+        "It is not a military event."
+      ],
+      "basis": "Paper I: Telangana society, culture and heritage."
+    },
+    {
+      "id": "P1-NEW-015",
+      "paper": 1,
+      "topicId": "p1-13",
+      "topic": "Policies of Telangana State",
+      "subtopic": "State administration",
+      "difficulty": "advanced",
+      "stem": "The state-level executive authority formally vests in the:",
+      "options": [
+        "Governor",
+        "Chief Secretary",
+        "Speaker",
+        "State Election Commissioner"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: the executive power of the State is vested in the Governor, exercised in accordance with the Constitution.",
+        "The Chief Secretary is the senior civil servant.",
+        "The Speaker presides over the Legislative Assembly.",
+        "The State Election Commissioner oversees local-body elections."
+      ],
+      "basis": "Paper I: Telangana State policies and governance."
+    },
+    {
+      "id": "P2-NEW-036",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Bayes theorem",
+      "difficulty": "moderate",
+      "stem": "A box contains 3 red and 2 blue balls. Two balls are drawn without replacement. Given the first is red, the probability the second is blue is:",
+      "options": [
+        "1/5",
+        "1/2",
+        "2/5",
+        "3/5"
+      ],
+      "answer": 1,
+      "explanations": [
+        "After a red draw, 4 balls remain, including 2 blue; probability is 2/4.",
+        "Correct: 2 blue among 4 remaining balls gives 1/2.",
+        "2/5 is the original blue proportion, not the conditional probability.",
+        "3/5 is the original red proportion."
+      ],
+      "basis": "Paper II: Probability; conditional probability."
+    },
+    {
+      "id": "P2-NEW-037",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Vector spaces",
+      "difficulty": "moderate",
+      "stem": "The set of all solutions of a homogeneous system Ax=0 forms a:",
+      "options": [
+        "Affine set not containing zero",
+        "Subspace",
+        "Single point in every case",
+        "Set of linearly independent vectors"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Every homogeneous solution set contains the zero vector.",
+        "Correct: it is the null space, which is a subspace.",
+        "There may be infinitely many solutions.",
+        "A solution set is not necessarily a collection of independent vectors."
+      ],
+      "basis": "Paper II: Linear Algebra; null spaces."
+    },
+    {
+      "id": "P2-NEW-038",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Propositional logic",
+      "difficulty": "moderate",
+      "stem": "The implication p→q is logically equivalent to:",
+      "options": [
+        "p∧q",
+        "¬p∨q",
+        "p∨¬q",
+        "¬p∧q"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Conjunction is true only when both are true.",
+        "Correct: implication is false only when p is true and q is false, matching ¬p∨q.",
+        "This is not equivalent in all truth assignments.",
+        "This does not match the implication truth table."
+      ],
+      "basis": "Paper II: Mathematical Logic; logical equivalences."
+    },
+    {
+      "id": "P2-NEW-039",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Signed number representation",
+      "difficulty": "moderate",
+      "stem": "In 8-bit two's-complement representation, the range of signed integers is:",
+      "options": [
+        "−127 to +127",
+        "−128 to +127",
+        "−128 to +128",
+        "−255 to +255"
+      ],
+      "answer": 1,
+      "explanations": [
+        "This omits the extra negative value.",
+        "Correct: the range is −2^7 through 2^7−1.",
+        "Positive 128 is not representable.",
+        "This is outside the 8-bit signed range."
+      ],
+      "basis": "Paper II: COA; number representation."
+    },
+    {
+      "id": "P2-NEW-040",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Complexity analysis",
+      "difficulty": "moderate",
+      "stem": "The worst-case time complexity of inserting an element into a binary min-heap with n elements is:",
+      "options": [
+        "Θ(1)",
+        "Θ(log n)",
+        "Θ(n)",
+        "Θ(n log n)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The inserted element may bubble up through the heap height.",
+        "Correct: heap height is Θ(log n).",
+        "A full scan is not required.",
+        "This is more than the heap height permits."
+      ],
+      "basis": "Paper II: Algorithms; heaps."
+    },
+    {
+      "id": "P2-NEW-041",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Intermediate code",
+      "difficulty": "moderate",
+      "stem": "A three-address statement generally contains at most:",
+      "options": [
+        "One operator and up to three addresses",
+        "Three operators and one address",
+        "Unlimited operands",
+        "Only a single variable"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: a typical form is x=y op z, with one operator and three addresses.",
+        "This reverses the usual structure.",
+        "Three-address code restricts operands per instruction.",
+        "It can represent operations involving multiple addresses."
+      ],
+      "basis": "Paper II: Compiler Design; intermediate representations."
+    },
+    {
+      "id": "P2-NEW-042",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "DNS",
+      "difficulty": "moderate",
+      "stem": "DNS primarily translates:",
+      "options": [
+        "MAC addresses to port numbers",
+        "Domain names to IP addresses",
+        "IP addresses to Ethernet frames",
+        "URLs to HTML"
+      ],
+      "answer": 1,
+      "explanations": [
+        "MAC and port mapping is not DNS's core function.",
+        "Correct: DNS resolves names to resource records such as IP addresses.",
+        "IP-to-frame delivery is handled by link-layer mechanisms.",
+        "HTML is delivered by web servers."
+      ],
+      "basis": "Paper II: Computer Networks; application layer."
+    },
+    {
+      "id": "P1-NEW-016",
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "subtopic": "Current affairs literacy",
+      "difficulty": "moderate",
+      "stem": "For a current-affairs question about a newly announced Union Government scheme, the most authoritative primary source is generally:",
+      "options": [
+        "An anonymous social media post",
+        "The relevant Union Ministry's official release",
+        "An unverified forwarded message",
+        "A commercial coaching poster"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Anonymous posts are not authoritative.",
+        "Correct: the responsible ministry's official release is a primary source.",
+        "Forwarded messages are not verifiable primary sources.",
+        "A coaching poster is secondary material."
+      ],
+      "basis": "Paper I: Current affairs; source evaluation."
+    },
+    {
+      "id": "P1-NEW-017",
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "subtopic": "Disability inclusion",
+      "difficulty": "moderate",
+      "stem": "The principle of reasonable accommodation is intended to:",
+      "options": [
+        "Provide appropriate adjustments so persons with disabilities can participate equally",
+        "Exclude persons needing adjustments",
+        "Replace accessibility standards with charity",
+        "Limit participation to separate institutions"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: reasonable accommodation removes barriers through necessary and appropriate adjustments.",
+        "Exclusion contradicts inclusion.",
+        "It is a rights-based obligation, not charity.",
+        "It does not require segregated participation."
+      ],
+      "basis": "Paper I: Social exclusion, disability rights and inclusive policies."
+    },
+    {
+      "id": "P1-NEW-018",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Inflation",
+      "difficulty": "moderate",
+      "stem": "A sustained rise in the general price level is called:",
+      "options": [
+        "Deflation",
+        "Inflation",
+        "Disinvestment",
+        "Depreciation"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Deflation is a sustained fall in the general price level.",
+        "Correct: inflation is a sustained increase in the general price level.",
+        "Disinvestment is sale of government stake in enterprises.",
+        "Depreciation is a fall in an asset's value or currency value, depending on context."
+      ],
+      "basis": "Paper I: Economic and social development."
+    },
+    {
+      "id": "P2-NEW-043",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Combinational circuits",
+      "difficulty": "advanced",
+      "stem": "A 4-to-1 multiplexer requires how many select lines?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanations": [
+        "One select line selects only 2 inputs.",
+        "Correct: log2(4)=2 select lines.",
+        "Three select lines select 8 inputs.",
+        "Four select lines select 16 inputs."
+      ],
+      "basis": "Paper II: Digital Logic; multiplexers."
+    },
+    {
+      "id": "P2-NEW-044",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C language",
+      "difficulty": "advanced",
+      "stem": "In C, which operator has higher precedence?",
+      "options": [
+        "*",
+        "==",
+        "&&",
+        "="
+      ],
+      "answer": 0,
+      "explanations": [
+        "Multiplication has higher precedence than equality.",
+        "Equality is lower than multiplicative operators.",
+        "Logical AND is lower precedence.",
+        "Assignment has lower precedence."
+      ],
+      "basis": "Paper II: Programming in C; operators and precedence."
+    },
+    {
+      "id": "P2-NEW-045",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Dynamic programming",
+      "difficulty": "advanced",
+      "stem": "The 0/1 knapsack problem is commonly solved in pseudo-polynomial time using dynamic programming in:",
+      "options": [
+        "O(nW)",
+        "O(log W)",
+        "O(n log n)",
+        "O(2W)"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: the standard capacity-indexed DP takes O(nW) time.",
+        "This is not sufficient to process all items and capacities.",
+        "Sorting alone does not solve 0/1 knapsack.",
+        "This omits dependence on the number of items."
+      ],
+      "basis": "Paper II: Algorithms; dynamic programming."
+    },
+    {
+      "id": "P2-NEW-046",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Automata",
+      "difficulty": "advanced",
+      "stem": "The minimum number of states in a DFA recognizing strings over {0,1} that end in 01 is:",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Two states cannot distinguish all required suffix histories.",
+        "Correct: states track no useful suffix, suffix 0, and suffix 01.",
+        "Four states are unnecessary.",
+        "Five states are unnecessary."
+      ],
+      "basis": "Paper II: TOC; DFA construction and minimization."
+    },
+    {
+      "id": "P2-NEW-047",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "CPU scheduling",
+      "difficulty": "advanced",
+      "stem": "Which scheduling algorithm can cause starvation of low-priority processes?",
+      "options": [
+        "FCFS",
+        "Round robin",
+        "Priority scheduling",
+        "FIFO page replacement"
+      ],
+      "answer": 2,
+      "explanations": [
+        "FCFS does not inherently starve later processes.",
+        "Round robin gives each ready process a time slice.",
+        "Correct: continuously arriving high-priority jobs can indefinitely postpone low-priority jobs.",
+        "FIFO page replacement is not CPU scheduling."
+      ],
+      "basis": "Paper II: Operating Systems; CPU scheduling."
+    },
+    {
+      "id": "P2-NEW-048",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Transactions",
+      "difficulty": "advanced",
+      "stem": "The ACID property that ensures committed changes survive system failure is:",
+      "options": [
+        "Atomicity",
+        "Consistency",
+        "Isolation",
+        "Durability"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Atomicity means all-or-nothing execution.",
+        "Consistency preserves database constraints.",
+        "Isolation controls concurrent transaction effects.",
+        "Correct: durability preserves committed results."
+      ],
+      "basis": "Paper II: Databases; transaction properties."
+    },
+    {
+      "id": "P2-NEW-049",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "HTML",
+      "difficulty": "advanced",
+      "stem": "Which HTML element is semantically intended for a self-contained composition that can be independently distributed?",
+      "options": [
+        "<div>",
+        "<article>",
+        "<span>",
+        "<br>"
+      ],
+      "answer": 1,
+      "explanations": [
+        "div is a generic container without that semantic meaning.",
+        "Correct: article represents self-contained content.",
+        "span is an inline generic container.",
+        "br inserts a line break."
+      ],
+      "basis": "Paper II: Web Technologies; semantic HTML."
+    },
+    {
+      "id": "P1-NEW-019",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "International organizations",
+      "difficulty": "advanced",
+      "stem": "The headquarters of the World Health Organization is in:",
+      "options": [
+        "New York",
+        "Geneva",
+        "Paris",
+        "Vienna"
+      ],
+      "answer": 1,
+      "explanations": [
+        "New York hosts the UN headquarters.",
+        "Correct: WHO is headquartered in Geneva.",
+        "Paris hosts UNESCO headquarters.",
+        "Vienna hosts several international organizations but not WHO HQ."
+      ],
+      "basis": "Paper I: International relations and organizations."
+    },
+    {
+      "id": "P1-NEW-020",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "Physical, Social and Economic Geography of India",
+      "subtopic": "Monsoon",
+      "difficulty": "advanced",
+      "stem": "The southwest monsoon normally reaches the Kerala coast around:",
+      "options": [
+        "Early June",
+        "Early January",
+        "Late September",
+        "Mid-November"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: onset over Kerala is normally around the beginning of June, with year-to-year variation.",
+        "January is the northeast winter season.",
+        "By late September the monsoon is generally in withdrawal stages in some regions.",
+        "November is too late for normal onset."
+      ],
+      "basis": "Paper I: Geography of India; monsoon system."
+    },
+    {
+      "id": "P1-NEW-021",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Percentages",
+      "difficulty": "advanced",
+      "stem": "A value increases by 20% and then decreases by 20%. The net change is:",
+      "options": [
+        "No change",
+        "4% decrease",
+        "4% increase",
+        "2% decrease"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The final value is 1.2×0.8=0.96 of the original, not unchanged.",
+        "Correct: 0.96 means a 4% decrease.",
+        "The product of the factors is below 1.",
+        "The decrease is 4%, not 2%."
+      ],
+      "basis": "Paper I: Analytical ability; percentages."
+    },
+    {
+      "id": "P2-NEW-050",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Correlation",
+      "difficulty": "moderate",
+      "stem": "The Pearson correlation coefficient r always lies in:",
+      "options": [
+        "0 to 1",
+        "−1 to +1",
+        "−∞ to +∞",
+        "−1 to 0"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Negative correlation values are possible.",
+        "Correct: r is bounded between −1 and +1 inclusive.",
+        "The coefficient is bounded.",
+        "Positive correlation values are possible."
+      ],
+      "basis": "Paper II: Statistics; correlation."
+    },
+    {
+      "id": "P2-NEW-051",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Determinants",
+      "difficulty": "moderate",
+      "stem": "A square matrix is singular if and only if its determinant is:",
+      "options": [
+        "1",
+        "Non-zero",
+        "Zero",
+        "Negative"
+      ],
+      "answer": 2,
+      "explanations": [
+        "A determinant of 1 is non-singular.",
+        "A non-zero determinant implies invertibility.",
+        "Correct: determinant zero means the matrix is not invertible.",
+        "A negative determinant can still be non-zero and invertible."
+      ],
+      "basis": "Paper II: Linear Algebra; invertibility."
+    },
+    {
+      "id": "P2-NEW-052",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Graph coloring",
+      "difficulty": "moderate",
+      "stem": "The minimum number of colors needed to color the vertices of a non-empty bipartite graph is at most:",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A graph with edges may require two colors.",
+        "Correct: partition sets can be assigned two colors; edgeless graphs need one.",
+        "Three colors are never necessary for bipartite graphs.",
+        "Four colors are never necessary."
+      ],
+      "basis": "Paper II: Graph Theory; bipartite graphs."
+    },
+    {
+      "id": "P2-NEW-053",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Linked lists",
+      "difficulty": "moderate",
+      "stem": "Deleting a known node from a singly linked list in O(1) time generally requires:",
+      "options": [
+        "Only the node's next pointer, with a special case for tail",
+        "Sorting the list first",
+        "Traversing from the head in all cases",
+        "A hash table"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Copying successor data and bypassing it is O(1) for a non-tail node; tail deletion needs predecessor access.",
+        "Sorting is unrelated.",
+        "A full traversal is not always needed for a non-tail node.",
+        "A hash table is not required."
+      ],
+      "basis": "Paper II: Data Structures; linked lists."
+    },
+    {
+      "id": "P2-NEW-054",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Divide and conquer",
+      "difficulty": "moderate",
+      "stem": "The recurrence T(n)=T(n/2)+Θ(1) has solution:",
+      "options": [
+        "Θ(n)",
+        "Θ(log n)",
+        "Θ(n log n)",
+        "Θ(1)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Each level halves the problem; linear time is too large.",
+        "Correct: there are Θ(log n) levels with constant work per level.",
+        "There is only one subproblem per level.",
+        "The recursion depth grows logarithmically."
+      ],
+      "basis": "Paper II: Algorithms; recurrence analysis."
+    },
+    {
+      "id": "P2-NEW-055",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Lexical analysis",
+      "difficulty": "moderate",
+      "stem": "The primary output of a lexical analyzer is a stream of:",
+      "options": [
+        "Machine instructions",
+        "Tokens",
+        "Parse trees",
+        "Object files"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Machine instructions are generated later.",
+        "Correct: the lexer groups characters into tokens.",
+        "Parse trees are built by parsing.",
+        "Object files are produced by later compilation/linking stages."
+      ],
+      "basis": "Paper II: Compiler Design; lexical analysis."
+    },
+    {
+      "id": "P2-NEW-056",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Transport layer",
+      "difficulty": "moderate",
+      "stem": "Which transport protocol provides reliable, ordered byte-stream delivery?",
+      "options": [
+        "UDP",
+        "IP",
+        "TCP",
+        "ARP"
+      ],
+      "answer": 2,
+      "explanations": [
+        "UDP is connectionless and does not guarantee delivery or order.",
+        "IP is a network-layer protocol.",
+        "Correct: TCP provides reliable, ordered byte-stream service.",
+        "ARP resolves network-layer addresses to link-layer addresses."
+      ],
+      "basis": "Paper II: Computer Networks; transport protocols."
+    },
+    {
+      "id": "P1-NEW-022",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Telangana geography",
+      "difficulty": "moderate",
+      "stem": "The Kaleshwaram Lift Irrigation Project is associated with which river?",
+      "options": [
+        "Krishna",
+        "Godavari",
+        "Tungabhadra",
+        "Pennar"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Krishna is a separate major river system.",
+        "Correct: the project lifts water from the Godavari river system.",
+        "Tungabhadra is a Krishna tributary.",
+        "Pennar is another peninsular river."
+      ],
+      "basis": "Paper I: Geography of Telangana."
+    },
+    {
+      "id": "P1-NEW-023",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Directive principles",
+      "difficulty": "moderate",
+      "stem": "The Directive Principles of State Policy are:",
+      "options": [
+        "Justiciable in courts",
+        "Non-justiciable but fundamental in governance",
+        "Applicable only during emergencies",
+        "Enforceable only by the President"
+      ],
+      "answer": 1,
+      "explanations": [
+        "They are not directly enforceable by courts.",
+        "Correct: Article 37 says they are not enforceable but fundamental in governance.",
+        "They apply as constitutional principles generally, not only in emergencies.",
+        "They are not enforced by the President alone."
+      ],
+      "basis": "Paper I: Indian Constitution; Directive Principles."
+    },
+    {
+      "id": "P1-NEW-024",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "Vocabulary",
+      "difficulty": "moderate",
+      "stem": "Choose the antonym of 'scarce':",
+      "options": [
+        "Rare",
+        "Limited",
+        "Abundant",
+        "Insufficient"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Rare is similar in meaning to scarce.",
+        "Limited is similar in meaning.",
+        "Correct: abundant means plentiful.",
+        "Insufficient means not enough."
+      ],
+      "basis": "Paper I: Basic English; vocabulary."
+    },
+    {
+      "id": "P2-NEW-057",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Number systems",
+      "difficulty": "advanced",
+      "stem": "The 8-bit two's-complement representation of −5 is:",
+      "options": [
+        "00000101",
+        "11111010",
+        "11111011",
+        "10000101"
+      ],
+      "answer": 2,
+      "explanations": [
+        "This is +5.",
+        "This is the one's complement of +5, not two's complement.",
+        "Correct: invert 00000101 to 11111010 and add 1, yielding 11111011.",
+        "This is sign-magnitude style, not two's complement."
+      ],
+      "basis": "Paper II: Digital Logic; signed number representation."
+    },
+    {
+      "id": "P2-NEW-058",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Memory hierarchy",
+      "difficulty": "advanced",
+      "stem": "Which memory is typically the fastest among these?",
+      "options": [
+        "Main memory (DRAM)",
+        "L1 cache",
+        "SSD",
+        "Magnetic disk"
+      ],
+      "answer": 1,
+      "explanations": [
+        "DRAM is slower than on-chip cache.",
+        "Correct: L1 cache is closest to the CPU and very fast.",
+        "SSD is secondary storage.",
+        "Magnetic disks are much slower."
+      ],
+      "basis": "Paper II: COA; memory hierarchy."
+    },
+    {
+      "id": "P2-NEW-059",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Trees",
+      "difficulty": "advanced",
+      "stem": "A full binary tree is one in which every node has:",
+      "options": [
+        "Exactly one child",
+        "Either zero or two children",
+        "At most three children",
+        "At least one child"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A node with exactly one child violates fullness.",
+        "Correct: every node has either 0 or 2 children.",
+        "A binary tree has at most two children.",
+        "Leaves have no children."
+      ],
+      "basis": "Paper II: Data Structures; tree properties."
+    },
+    {
+      "id": "P2-NEW-060",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Graph traversal",
+      "difficulty": "advanced",
+      "stem": "Using an adjacency list, BFS on a graph with V vertices and E edges takes:",
+      "options": [
+        "O(V²) always",
+        "O(V+E)",
+        "O(E log V)",
+        "O(log V)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "This is the usual adjacency-matrix bound, not adjacency list.",
+        "Correct: each vertex and edge is processed a constant number of times.",
+        "No sorting or heap is required for unweighted BFS.",
+        "The algorithm must visit the reachable graph."
+      ],
+      "basis": "Paper II: Algorithms; graph traversal."
+    },
+    {
+      "id": "P2-NEW-061",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Memory allocation",
+      "difficulty": "advanced",
+      "stem": "External fragmentation is most directly associated with:",
+      "options": [
+        "Paging with fixed-size frames",
+        "Variable-sized contiguous memory allocation",
+        "CPU register allocation",
+        "Round-robin scheduling"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Paging avoids external fragmentation by using fixed-size frames.",
+        "Correct: free memory can become split into small non-contiguous holes.",
+        "Register allocation is unrelated.",
+        "Scheduling is unrelated."
+      ],
+      "basis": "Paper II: Operating Systems; memory management."
+    },
+    {
+      "id": "P2-NEW-062",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "SQL",
+      "difficulty": "advanced",
+      "stem": "Which SQL clause filters groups after aggregation?",
+      "options": [
+        "WHERE",
+        "ORDER BY",
+        "HAVING",
+        "FROM"
+      ],
+      "answer": 2,
+      "explanations": [
+        "WHERE filters rows before grouping/aggregation.",
+        "ORDER BY sorts the result.",
+        "Correct: HAVING filters groups based on aggregate conditions.",
+        "FROM identifies source tables."
+      ],
+      "basis": "Paper II: Databases; SQL."
+    },
+    {
+      "id": "P2-NEW-063",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "Polymorphism",
+      "difficulty": "advanced",
+      "stem": "In Java, method overriding is resolved primarily at:",
+      "options": [
+        "Compile time using variable names only",
+        "Run time based on the actual object type",
+        "Link time by the linker",
+        "Database query time"
+      ],
+      "answer": 1,
+      "explanations": [
+        "That describes neither overriding nor dynamic dispatch.",
+        "Correct: instance method calls use dynamic dispatch based on the runtime object.",
+        "Java method dispatch is not linker-based in this sense.",
+        "Database execution is unrelated."
+      ],
+      "basis": "Paper II: OOP and Java; runtime polymorphism."
+    },
+    {
+      "id": "P1-NEW-025",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Constitutional history",
+      "difficulty": "advanced",
+      "stem": "The Cabinet Mission came to India in:",
+      "options": [
+        "1942",
+        "1945",
+        "1946",
+        "1947"
+      ],
+      "answer": 2,
+      "explanations": [
+        "1942 is associated with the Cripps Mission and Quit India Movement.",
+        "1945 marks the end of World War II.",
+        "Correct: the Cabinet Mission arrived in 1946.",
+        "1947 is the year of independence and partition."
+      ],
+      "basis": "Paper I: Modern Indian history."
+    },
+    {
+      "id": "P1-NEW-026",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana",
+      "subtopic": "Telangana movement",
+      "difficulty": "advanced",
+      "stem": "The Telangana statehood movement's major 1969 phase is commonly associated with the slogan:",
+      "options": [
+        "Jai Telangana",
+        "Jai Jawan",
+        "Inquilab Zindabad",
+        "Vande Mataram"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: 'Jai Telangana' became a prominent slogan in the 1969 agitation.",
+        "This is not the movement's distinctive slogan.",
+        "This is a broader revolutionary slogan.",
+        "This is a national song and slogan, not the specific movement slogan."
+      ],
+      "basis": "Paper I: Telangana statehood movement."
+    },
+    {
+      "id": "P1-NEW-027",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Ratio",
+      "difficulty": "advanced",
+      "stem": "If A:B=3:5 and B:C=10:7, then A:C equals:",
+      "options": [
+        "3:7",
+        "6:7",
+        "6:5",
+        "10:7"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Combining ratios gives A:B:C=6:10:7, not 3:7.",
+        "Correct: A:C=6:7.",
+        "This does not follow from the common B term.",
+        "This is B:C, not A:C."
+      ],
+      "basis": "Paper I: Analytical ability; ratios."
+    },
+    {
+      "id": "P2-NEW-064",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Sampling",
+      "difficulty": "moderate",
+      "stem": "The standard error of the sample mean (for population standard deviation σ) is:",
+      "options": [
+        "σn",
+        "σ/√n",
+        "σ/n²",
+        "√n/σ"
+      ],
+      "answer": 1,
+      "explanations": [
+        "This increases with sample size, unlike standard error.",
+        "Correct: standard error is σ divided by square root of n.",
+        "This is not the sampling standard deviation formula.",
+        "This is the reciprocal form."
+      ],
+      "basis": "Paper II: Statistics; sampling distributions."
+    },
+    {
+      "id": "P2-NEW-065",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Linear systems",
+      "difficulty": "moderate",
+      "stem": "A system of m linear equations in n unknowns is consistent if and only if:",
+      "options": [
+        "rank(A) is always n",
+        "rank(A)=rank([A|b])",
+        "det(A)=0 in all cases",
+        "n=m"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Full column rank is not required for consistency.",
+        "Correct: equality of coefficient and augmented matrix ranks is the consistency criterion.",
+        "A determinant is defined only for square A and zero does not imply consistency.",
+        "The number of equations need not equal unknowns."
+      ],
+      "basis": "Paper II: Linear Algebra; systems of equations."
+    },
+    {
+      "id": "P2-NEW-066",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Relations",
+      "difficulty": "moderate",
+      "stem": "A relation that is reflexive, symmetric and transitive is called:",
+      "options": [
+        "Partial order",
+        "Equivalence relation",
+        "Function",
+        "Bijection"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A partial order requires antisymmetry instead of symmetry.",
+        "Correct: these three properties define an equivalence relation.",
+        "A relation need not be a function.",
+        "A bijection is a one-to-one and onto function."
+      ],
+      "basis": "Paper II: Discrete Mathematics; equivalence relations."
+    },
+    {
+      "id": "P2-NEW-067",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C pointers",
+      "difficulty": "moderate",
+      "stem": "In C, the expression sizeof(char) is guaranteed to be:",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Implementation-defined and may be 0"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Object sizes cannot be zero in this context.",
+        "Correct: sizeof(char) is always 1 byte by definition.",
+        "A char occupies one C byte, not necessarily two octets.",
+        "The value is guaranteed to be 1."
+      ],
+      "basis": "Paper II: Programming in C; data types and sizeof."
+    },
+    {
+      "id": "P2-NEW-068",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Searching",
+      "difficulty": "moderate",
+      "stem": "For a sorted array of n elements, binary search has worst-case time:",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n log n)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Only the best case is constant.",
+        "Correct: the search interval is halved each step.",
+        "Linear search is O(n).",
+        "This is not required for binary search."
+      ],
+      "basis": "Paper II: Algorithms; searching."
+    },
+    {
+      "id": "P2-NEW-069",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Code optimization",
+      "difficulty": "moderate",
+      "stem": "Common subexpression elimination removes repeated computation when:",
+      "options": [
+        "The expression's operands have not changed between occurrences",
+        "The expression contains a loop",
+        "The program has no variables",
+        "The output is always zero"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: reusing the prior result is valid when operand values are unchanged.",
+        "A loop is not a necessary condition.",
+        "Variables are compatible with the optimization.",
+        "The result need not be zero."
+      ],
+      "basis": "Paper II: Compiler Design; code optimization."
+    },
+    {
+      "id": "P2-NEW-070",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Routing",
+      "difficulty": "moderate",
+      "stem": "A router primarily makes forwarding decisions using the:",
+      "options": [
+        "Destination IP address",
+        "Source process ID",
+        "HTML title",
+        "File extension"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: IP routing uses destination network-layer address and routing table.",
+        "Process IDs are host operating-system identifiers.",
+        "HTML titles are application data.",
+        "File extensions do not determine IP forwarding."
+      ],
+      "basis": "Paper II: Computer Networks; routing."
+    },
+    {
+      "id": "P1-NEW-028",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Biology",
+      "difficulty": "moderate",
+      "stem": "Which cell organelle is the primary site of aerobic cellular respiration?",
+      "options": [
+        "Ribosome",
+        "Mitochondrion",
+        "Golgi apparatus",
+        "Lysosome"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Ribosomes synthesize proteins.",
+        "Correct: mitochondria are the major site of aerobic respiration in eukaryotic cells.",
+        "Golgi apparatus modifies and packages proteins and lipids.",
+        "Lysosomes contain digestive enzymes."
+      ],
+      "basis": "Paper I: General Science; biology."
+    },
+    {
+      "id": "P1-NEW-029",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitutional amendments",
+      "difficulty": "moderate",
+      "stem": "The procedure for amendment of the Constitution is principally provided in:",
+      "options": [
+        "Article 32",
+        "Article 110",
+        "Article 368",
+        "Article 356"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Article 32 concerns constitutional remedies.",
+        "Article 110 defines Money Bills.",
+        "Correct: Article 368 provides the constitutional amendment procedure.",
+        "Article 356 concerns President's Rule in States."
+      ],
+      "basis": "Paper I: Indian Constitution; amendment procedure."
+    },
+    {
+      "id": "P1-NEW-030",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Data interpretation",
+      "difficulty": "moderate",
+      "stem": "A shop reduces a ₹800 item by 15%. What is the sale price?",
+      "options": [
+        "₹660",
+        "₹680",
+        "₹700",
+        "₹720"
+      ],
+      "answer": 1,
+      "explanations": [
+        "15% of 800 is 120; 800−120=680.",
+        "Correct: ₹800×0.85=₹680.",
+        "This corresponds to a 12.5% reduction.",
+        "This corresponds to a 10% reduction."
+      ],
+      "basis": "Paper I: Analytical ability; percentages."
+    },
+    {
+      "id": "P2-NEW-071",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Karnaugh maps",
+      "difficulty": "advanced",
+      "stem": "For a 4-variable K-map, grouping 8 adjacent 1-cells corresponds to a product term containing how many literals?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: an 8-cell group eliminates three of four variables, leaving one literal.",
+        "A 4-cell group eliminates two variables and leaves two literals.",
+        "A 2-cell group leaves three literals.",
+        "A single minterm retains all four literals."
+      ],
+      "basis": "Paper II: Digital Logic; K-map minimization."
+    },
+    {
+      "id": "P2-NEW-072",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "I/O organization",
+      "difficulty": "advanced",
+      "stem": "DMA is used primarily to:",
+      "options": [
+        "Allow an I/O device to transfer blocks to/from memory with limited CPU intervention",
+        "Increase CPU clock frequency",
+        "Replace the cache",
+        "Perform arithmetic operations"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: Direct Memory Access transfers data between I/O and memory with limited CPU involvement.",
+        "DMA does not change CPU clock frequency.",
+        "DMA does not replace cache memory.",
+        "Arithmetic is performed by processing units."
+      ],
+      "basis": "Paper II: COA; I/O organization and DMA."
+    },
+    {
+      "id": "P2-NEW-073",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Synchronization",
+      "difficulty": "advanced",
+      "stem": "A semaphore initialized to 1 is commonly used as a:",
+      "options": [
+        "Counting semaphore for unlimited resources",
+        "Binary semaphore/mutex for mutual exclusion",
+        "Page table",
+        "CPU scheduler"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A value of 1 can represent one available resource, not unlimited resources.",
+        "Correct: a binary semaphore initialized to 1 can protect a critical section.",
+        "A semaphore is not a page table.",
+        "It is a synchronization primitive, not a scheduler."
+      ],
+      "basis": "Paper II: Operating Systems; process synchronization."
+    },
+    {
+      "id": "P2-NEW-074",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Indexing",
+      "difficulty": "advanced",
+      "stem": "A B+ tree index is especially useful for:",
+      "options": [
+        "Range queries and ordered traversal",
+        "Only equality checks on a single fixed value",
+        "Storing executable machine code",
+        "Replacing transaction logging"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: linked leaf nodes and ordered keys support efficient range scans.",
+        "B+ trees also support equality lookups; they are not limited to that.",
+        "They index data, not executable code.",
+        "They do not replace transaction logs."
+      ],
+      "basis": "Paper II: Databases; indexing structures."
+    },
+    {
+      "id": "P2-NEW-075",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Agile methods",
+      "difficulty": "advanced",
+      "stem": "In Scrum, who is primarily responsible for maximizing product value and managing the Product Backlog?",
+      "options": [
+        "Scrum Master",
+        "Product Owner",
+        "Development Team",
+        "Project sponsor"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The Scrum Master supports Scrum effectiveness and removes impediments.",
+        "Correct: the Product Owner is accountable for maximizing product value and Product Backlog management.",
+        "Developers create the increment and manage their work.",
+        "A sponsor may fund or support but is not the Scrum accountability."
+      ],
+      "basis": "Paper II: Software Engineering; Agile/Scrum."
+    },
+    {
+      "id": "P2-NEW-076",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Error detection",
+      "difficulty": "advanced",
+      "stem": "CRC error detection is based on:",
+      "options": [
+        "Polynomial division over GF(2)",
+        "Decimal long division",
+        "RSA exponentiation",
+        "Hamming distance alone"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: CRC uses modulo-2 polynomial division.",
+        "Decimal arithmetic is not used.",
+        "RSA is public-key cryptography.",
+        "Hamming distance is a separate error-control concept."
+      ],
+      "basis": "Paper II: Computer Networks; error detection."
+    },
+    {
+      "id": "P2-NEW-077",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "C++ constructors",
+      "difficulty": "advanced",
+      "stem": "When a C++ object is initialized from another object of the same class, which special member is typically invoked?",
+      "options": [
+        "Destructor",
+        "Copy constructor",
+        "Conversion operator",
+        "Pure virtual function"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A destructor destroys an object.",
+        "Correct: copy construction initializes a new object from an existing object.",
+        "A conversion operator handles conversions between types.",
+        "A pure virtual function is an abstract interface member."
+      ],
+      "basis": "Paper II: OOP and C++; constructors."
+    },
+    {
+      "id": "P1-NEW-031",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Climate change",
+      "difficulty": "advanced",
+      "stem": "Which gas is the largest contributor to anthropogenic radiative forcing among these options?",
+      "options": [
+        "Carbon dioxide",
+        "Argon",
+        "Neon",
+        "Helium"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: carbon dioxide is the largest contributor among these listed gases.",
+        "Argon is not a significant greenhouse gas.",
+        "Neon is not a significant greenhouse gas.",
+        "Helium is not a significant greenhouse gas."
+      ],
+      "basis": "Paper I: Environmental issues; climate change."
+    },
+    {
+      "id": "P1-NEW-032",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Federalism",
+      "difficulty": "advanced",
+      "stem": "Residuary legislative powers in India are vested in:",
+      "options": [
+        "State Legislatures",
+        "Parliament",
+        "Local bodies",
+        "High Courts"
+      ],
+      "answer": 1,
+      "explanations": [
+        "States legislate on State and Concurrent List subjects, not residuary matters.",
+        "Correct: residuary powers are vested in Parliament under Article 248 and Entry 97 of List I.",
+        "Local bodies have delegated functions.",
+        "High Courts exercise judicial, not legislative, powers."
+      ],
+      "basis": "Paper I: Indian Constitution; federal structure."
+    },
+    {
+      "id": "P1-NEW-033",
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Telangana heritage",
+      "difficulty": "advanced",
+      "stem": "The historic Ramappa Temple is located in which Telangana district?",
+      "options": [
+        "Warangal",
+        "Mulugu",
+        "Nalgonda",
+        "Adilabad"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The temple is not in present-day Warangal district.",
+        "Correct: Ramappa Temple is in Palampet, Mulugu district.",
+        "Nalgonda is in a different region.",
+        "Adilabad is in northern Telangana."
+      ],
+      "basis": "Paper I: Telangana culture and heritage."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
