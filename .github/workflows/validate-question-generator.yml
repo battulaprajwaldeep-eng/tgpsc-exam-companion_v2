@@ -1,0 +1,20 @@
+name: Validate question generator
+on:
+  pull_request:
+    paths:
+      - "scripts/generate_question_batch.py"
+      - ".github/workflows/generate-question-batch.yml"
+      - "study-data.json"
+      - "question-bank.json"
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile generator
+        run: python -m py_compile scripts/generate_question_batch.py
+      - name: Validate source JSON files
+        run: python -c "import json; json.load(open('study-data.json')); json.load(open('question-bank.json')); print('JSON files valid')"
