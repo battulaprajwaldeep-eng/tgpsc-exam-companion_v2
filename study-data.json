@@ -1,67 +1,490 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "exam": {
     "title": "TGPSC HMWSSB Manager (Engineering)",
     "notification": "04/OG/HM/2026",
     "notificationDate": "2026-09-18",
     "papers": [
-      {"id":"paper1","name":"General Studies and General Abilities","questions":150,"minutes":150,"marks":150,"language":"English and Telugu"},
-      {"id":"paper2","name":"Computer Science / Information Technology","questions":150,"minutes":150,"marks":300,"language":"English"}
+      {
+        "id": "paper1",
+        "name": "General Studies and General Abilities",
+        "questions": 150,
+        "minutes": 150,
+        "marks": 150,
+        "language": "English and Telugu"
+      },
+      {
+        "id": "paper2",
+        "name": "Computer Science / Information Technology",
+        "questions": 150,
+        "minutes": 150,
+        "marks": 300,
+        "language": "English"
+      }
     ],
     "totalMarks": 450,
-    "examDate": {"confirmed":null,"planningWindow":"2026-12-08 to 2026-12-14","status":"Tentative planning assumption requested by user; not a confirmed exam date"}
+    "examDate": {
+      "confirmed": null,
+      "planningWindow": "2026-12-08 to 2026-12-14",
+      "status": "Tentative planning assumption requested by user; not a confirmed exam date"
+    }
   },
   "learnerProfile": {
-    "degree":"BTech Computer Science and Engineering",
-    "graduationPeriod":"2014–2018",
-    "weekdayStudyHours":2,
-    "weekends":"Available",
-    "weekdayHomeTime":"Around 8 PM",
-    "audioPreference":"Simple English, Indian English, natural spoken teaching, revision plus MCQs, long non-repeating lessons",
-    "practicePreference":"One question per screen; 5 Paper II questions first and 5 Paper I questions; hide answers until submission; explain correct answer and all distractors after submission",
-    "rules":["Do not repeat questions except deliberate revision","Do not infer completion from exposure alone","Separate verified scores from uncertain history","Recalculate scores from answer records where available"]
+    "degree": "BTech Computer Science and Engineering",
+    "graduationPeriod": "2014–2018",
+    "weekdayStudyHours": 2,
+    "weekends": "Available",
+    "weekdayHomeTime": "Around 8 PM",
+    "audioPreference": "Simple English, Indian English, natural spoken teaching, revision plus MCQs, long non-repeating lessons",
+    "practicePreference": "One question per screen; 5 Paper II questions first and 5 Paper I questions; hide answers until submission; explain correct answer and all distractors after submission",
+    "rules": [
+      "Do not repeat questions except deliberate revision",
+      "Do not infer completion from exposure alone",
+      "Separate verified scores from uncertain history",
+      "Recalculate scores from answer records where available"
+    ]
   },
   "syllabus": {
-    "paper2":["Probability and Statistics","Set Theory, Algebra and Linear Algebra","Discrete Mathematics and Graph Theory","Digital Logic","Computer Organization and Architecture","C Programming and Data Structures","Algorithms","Theory of Computation","Compiler Design","Operating Systems","Database Management Systems","Information Systems and Software Engineering","Computer Networks","Web Technologies","Object-Oriented Programming, C++ and Java"],
-    "paper1":["Current Affairs — Regional, National and International","International Relations and Events","General Science and India's Achievements in Science and Technology","Environmental Issues and Disaster Management","Economic and Social Development of India and Telangana","Physical, Social and Economic Geography of India","Physical, Social and Economic Geography and Demography of Telangana","Socio-economic, Political and Cultural History of Modern India, with emphasis on the National Movement","Socio-economic, Political and Cultural History of Telangana, with emphasis on the Statehood Movement","Indian Constitution, Political System, Governance and Public Policy"],
-    "verification":"Working syllabus map from prior user notes and accessible notification summaries. Full official 2026 notification PDF still needs line-by-line verification before declaring exhaustive."
+    "paper2": [
+      "Probability and Statistics",
+      "Set Theory, Algebra and Linear Algebra",
+      "Discrete Mathematics and Graph Theory",
+      "Digital Logic",
+      "Computer Organization and Architecture",
+      "C Programming and Data Structures",
+      "Algorithms",
+      "Theory of Computation",
+      "Compiler Design",
+      "Operating Systems",
+      "Database Management Systems",
+      "Information Systems and Software Engineering",
+      "Computer Networks",
+      "Web Technologies",
+      "Object-Oriented Programming, C++ and Java",
+      "Additional Paper II heading — exact wording not recovered; verify against official notification"
+    ],
+    "paper1": [
+      "Current Affairs — Regional, National and International",
+      "International Relations and Events",
+      "General Science and India's Achievements in Science and Technology",
+      "Environmental Issues and Disaster Management",
+      "Economic and Social Development of India and Telangana",
+      "Physical, Social and Economic Geography of India",
+      "Physical, Social and Economic Geography and Demography of Telangana",
+      "Socio-economic, Political and Cultural History of Modern India, with emphasis on the National Movement",
+      "Socio-economic, Political and Cultural History of Telangana, with emphasis on the Statehood Movement",
+      "Indian Constitution, Political System, Governance and Public Policy"
+    ],
+    "verification": "Prior-context audit says 16 Paper II headings and 15 Paper I areas were tracked, but exact complete 2026 notification heading lists were not retrievable here. The displayed list is a working summary, not a certified exhaustive transcription. The missing Paper II heading and remaining Paper I subareas must be checked against the official notification PDF."
   },
   "verifiedQuizRecords": [
-    {"topic":"Trees","score":8,"total":10,"note":"Missed postorder and BST inorder."},
-    {"topic":"Linked Lists","score":6,"total":8,"note":"Pointer tracing needs revision."},
-    {"topic":"DBMS Normalization","score":3,"total":5,"note":"Dependencies and 3NF need revision."},
-    {"topic":"Computer Networks","score":8,"total":10},
-    {"topic":"Digital Logic","score":4,"total":10,"note":"Binary/hex conversion, XOR, De Morgan laws and MUX need revision."},
-    {"topic":"DBMS Concurrency","score":2,"total":2,"note":"Two-question practice/correction."},
-    {"topic":"Mixed diagnostic (2026-10-17)","score":2,"total":10,"note":"Weak areas: CPU scheduling, binary search/recurrences, page replacement, SQL HAVING/ACID, OSI/DNS and graph degree sum."},
-    {"topic":"Sets 47–58 combined","score":77,"total":120,"note":"Previously calculated cumulative summary; not suitable for per-topic scoring."},
-    {"topic":"Set 57","score":5,"total":10,"note":"Paper II 3/5; Paper I 2/5."},
-    {"topic":"Set 58","score":6,"total":10,"note":"Paper II 2/5; Paper I 4/5."}
+    {
+      "topic": "Trees",
+      "score": 8,
+      "total": 10,
+      "note": "Missed postorder and BST inorder."
+    },
+    {
+      "topic": "Linked Lists",
+      "score": 6,
+      "total": 8,
+      "note": "Pointer tracing needs revision."
+    },
+    {
+      "topic": "DBMS Normalization",
+      "score": 3,
+      "total": 5,
+      "note": "Dependencies and 3NF need revision."
+    },
+    {
+      "topic": "Computer Networks",
+      "score": 8,
+      "total": 10
+    },
+    {
+      "topic": "Digital Logic",
+      "score": 4,
+      "total": 10,
+      "note": "Binary/hex conversion, XOR, De Morgan laws and MUX need revision."
+    },
+    {
+      "topic": "DBMS Concurrency",
+      "score": 2,
+      "total": 2,
+      "note": "Two-question practice/correction."
+    },
+    {
+      "topic": "Mixed diagnostic (2026-10-17)",
+      "score": 2,
+      "total": 10,
+      "note": "Weak areas: CPU scheduling, binary search/recurrences, page replacement, SQL HAVING/ACID, OSI/DNS and graph degree sum."
+    },
+    {
+      "topic": "Sets 47–58 combined",
+      "score": 77,
+      "total": 120,
+      "note": "Previously calculated cumulative summary; not suitable for per-topic scoring."
+    },
+    {
+      "topic": "Set 57",
+      "score": 5,
+      "total": 10,
+      "note": "Paper II 3/5; Paper I 2/5."
+    },
+    {
+      "topic": "Set 58",
+      "score": 6,
+      "total": 10,
+      "note": "Paper II 2/5; Paper I 4/5."
+    }
   ],
   "topicStatus": {
     "paper2": {
-      "Learning or revision needed":["C Programming and Data Structures","Algorithms","Operating Systems","Database Management Systems","Computer Networks","Discrete Mathematics and Graph Theory"],
-      "Revision needed":["Digital Logic","Probability and Statistics"],
-      "Partial or status uncertain":["Computer Organization and Architecture","Theory of Computation","Compiler Design"],
-      "Not systematically covered or verify":["Set Theory, Algebra and Linear Algebra","Information Systems and Software Engineering","Web Technologies","OOP, C++ and Java","Data Mining"]
+      "Learning or revision needed": [
+        "C Programming and Data Structures",
+        "Algorithms",
+        "Operating Systems",
+        "Database Management Systems",
+        "Computer Networks",
+        "Discrete Mathematics and Graph Theory"
+      ],
+      "Revision needed": [
+        "Digital Logic",
+        "Probability and Statistics"
+      ],
+      "Partial or status uncertain": [
+        "Computer Organization and Architecture",
+        "Theory of Computation",
+        "Compiler Design"
+      ],
+      "Not systematically covered or verify": [
+        "Set Theory, Algebra and Linear Algebra",
+        "Information Systems and Software Engineering",
+        "Web Technologies",
+        "OOP, C++ and Java",
+        "Data Mining"
+      ]
     },
     "paper1": {
-      "Introductory or partial":["Indian History and National Movement","Telangana History and Statehood Movement"],
-      "Practised; revision needed":["Indian Constitution and Polity"],
-      "Not systematically covered or verify":["Remaining Paper I areas"]
+      "Introductory or partial": [
+        "Indian History and National Movement",
+        "Telangana History and Statehood Movement"
+      ],
+      "Practised; revision needed": [
+        "Indian Constitution and Polity"
+      ],
+      "Not systematically covered or verify": [
+        "Remaining Paper I areas"
+      ]
     }
   },
   "unverifiedHistory": {
-    "answerSequences":["BBCBB CBCBB","CBBCD CBCDB","BCCBC CBCCB","CDCBB BCBBA","BCCDB BAAAB"],
-    "note":"Later quiz strings lack reliable set numbers and question mapping. Preserve as ungraded history; exclude from performance totals. Sets 1–46 also lack a reliable consolidated score."
+    "answerSequences": [
+      "BBCBB CBCBB",
+      "CBBCD CBCDB",
+      "BCCBC CBCCB",
+      "CDCBB BCBBA",
+      "BCCDB BAAAB"
+    ],
+    "note": "These answer strings could not be mapped with confidence to exact set numbers, question keys and corrected scores. Retained for audit only; excluded from score calculations.",
+    "olderSets": "Sets 1–46: no reliable consolidated score or full set-level audit retrieved. Do not invent totals.",
+    "laterSets": "Individual scores for Sets 59–70 not retrieved. Their combined range contribution is 87/130 when combined with Set 71=6/10, based on the verified Sets 47–71 total; no individual allocation is inferred."
   },
   "studyPlan": {
-    "weekdayHours":2,
-    "weekdayStructure":["Paper II concepts and examples — 60 minutes","Paper II MCQs and review — 30 minutes","Paper I — 30 minutes"],
-    "weekendFocus":["Finish syllabus blocks","Mixed timed practice","Review incorrect questions","Weekly progress audit"],
-    "phases":[
-      {"name":"Syllabus consolidation","until":"2026-11-30","goal":"Cover remaining priority topics and repair weak foundations; require a test before marking topics complete."},
-      {"name":"Revision and mock phase","from":"2026-12-01","until":"Exam date to be announced","goal":"Timed paper-wise mocks, error-log revision and final recall."}
+    "weekdayHours": 2,
+    "weekdayStructure": [
+      "Paper II concepts and examples — 60 minutes",
+      "Paper II MCQs and review — 30 minutes",
+      "Paper I — 30 minutes"
+    ],
+    "weekendFocus": [
+      "Finish syllabus blocks",
+      "Mixed timed practice",
+      "Review incorrect questions",
+      "Weekly progress audit"
+    ],
+    "phases": [
+      {
+        "name": "Syllabus consolidation",
+        "until": "2026-11-30",
+        "goal": "Cover remaining priority topics and repair weak foundations; require a test before marking topics complete."
+      },
+      {
+        "name": "Revision and mock phase",
+        "from": "2026-12-01",
+        "until": "Exam date to be announced",
+        "goal": "Timed paper-wise mocks, error-log revision and final recall."
+      }
     ]
-  }
+  },
+  "progressAudit": {
+    "auditedAt": "2026-11-05",
+    "sourceScope": "Prior CSE Preparation Guide and Continue Study Quiz conversations plus retrieved prior-context summaries",
+    "confidencePolicy": "Only explicitly verified scores are counted. Missing answer-to-question mappings are not reconstructed. Exposure to a topic does not mean syllabus completion."
+  },
+  "quizSeries": [
+    {
+      "series": "Mixed 10-question practice",
+      "set": 47,
+      "score": 6,
+      "total": 10,
+      "detail": "Per-set total verified; raw answers unavailable."
+    },
+    {
+      "series": "Mixed 10-question practice",
+      "set": 48,
+      "score": 5,
+      "total": 10,
+      "detail": "Per-set total verified; raw answers unavailable."
+    },
+    {
+      "series": "Mixed 10-question practice",
+      "set": 49,
+      "score": 6,
+      "total": 10,
+      "detail": "Per-set total verified; raw answers unavailable."
+    },
+    {
+      "series": "Mixed 10-question practice",
+      "set": 50,
+      "score": 8,
+      "total": 10,
+      "detail": "Per-set total verified; raw answers unavailable."
+    },
+    {
+      "series": "Mixed 10-question practice",
+      "set": 51,
+      "score": 8,
+      "total": 10,
+      "detail": "Per-set total verified; raw answers unavailable."
+    },
+    {
+      "series": "Mixed 10-question practice",
+      "set": 52,
+      "score": 6,
+      "total": 10,
+      "detail": "Per-set total verified; raw answers unavailable."
+    },
+    {
+      "series": "Mixed 10-question practice",
+      "set": 53,
+      "score": 5,
+      "total": 10,
+      "detail": "Per-set total verified; raw answers unavailable."
+    },
+    {
+      "series": "Mixed 10-question practice",
+      "set": 54,
+      "score": 8,
+      "total": 10,
+      "detail": "Per-set total verified; raw answers unavailable."
+    },
+    {
+      "series": "Mixed 10-question practice",
+      "set": 55,
+      "score": 7,
+      "total": 10,
+      "detail": "Corrected from an earlier mistaken 8/10 to 7/10."
+    },
+    {
+      "series": "Mixed 10-question practice",
+      "set": 56,
+      "score": 7,
+      "total": 10,
+      "detail": "Raw answers retained below."
+    },
+    {
+      "series": "Mixed 10-question practice",
+      "set": 56,
+      "score": 7,
+      "total": 10,
+      "rawAnswers": {
+        "paper2": "CBCBA",
+        "paper1": "ADBBB"
+      }
+    },
+    {
+      "series": "Mixed 10-question practice",
+      "set": 57,
+      "score": 5,
+      "total": 10,
+      "paper2": {
+        "score": 3,
+        "total": 5
+      },
+      "paper1": {
+        "score": 2,
+        "total": 5
+      }
+    },
+    {
+      "series": "Mixed 10-question practice",
+      "set": 58,
+      "score": 6,
+      "total": 10,
+      "paper2": {
+        "score": 2,
+        "total": 5
+      },
+      "paper1": {
+        "score": 4,
+        "total": 5
+      }
+    },
+    {
+      "series": "Mixed 10-question practice",
+      "setRange": "59–71",
+      "score": 87,
+      "total": 130,
+      "detail": "Range aggregate derived from verified Sets 47–71 total and Sets 47–58 subtotal; individual set scores unavailable except Set 71."
+    },
+    {
+      "series": "Mixed 10-question practice",
+      "set": 71,
+      "score": 6,
+      "total": 10,
+      "detail": "Latest individual set score verified; included in Sets 59–71 aggregate."
+    }
+  ],
+  "verifiedAggregates": [
+    {
+      "label": "Sets 47–56",
+      "score": 66,
+      "total": 100,
+      "paper2": {
+        "score": 31,
+        "total": 50
+      },
+      "paper1": {
+        "score": 35,
+        "total": 50
+      },
+      "verified": true
+    },
+    {
+      "label": "Sets 47–58",
+      "score": 77,
+      "total": 120,
+      "verified": true
+    },
+    {
+      "label": "Sets 47–71",
+      "score": 164,
+      "total": 250,
+      "percentage": 65.6,
+      "verified": true,
+      "paperSplit": "Paper-wise cumulative split not available for the full range."
+    }
+  ],
+  "diagnosticRecords": [
+    {
+      "date": "2026-10-16",
+      "label": "Reasoning / mixed diagnostic",
+      "score": 9,
+      "total": 10,
+      "paper2": {
+        "score": 4,
+        "total": 5
+      },
+      "paper1": {
+        "score": 5,
+        "total": 5
+      },
+      "detail": "Only Q6 incorrect; answer sequence recorded as B C C B A B B B True False; Q6 answer B. Separate from Sets 47–71."
+    },
+    {
+      "date": "2026-10-17",
+      "label": "Mixed CSE / General Studies diagnostic",
+      "score": 2,
+      "total": 10,
+      "rawAnswers": "AABAABCBDD",
+      "detail": "Corrected score; weak areas: CPU scheduling, binary search/recurrences, page replacement, SQL HAVING/ACID, OSI/DNS and graph degree sum."
+    }
+  ],
+  "topicEvidence": [
+    {
+      "paper": 2,
+      "topic": "Computer Networks",
+      "evidence": "Fundamentals quiz 6/6; separate IP addressing/subnetting practice Q1–Q10 and Q16–Q23 were recorded; a later 10-question network quiz scored 8/10. These are separate records.",
+      "status": "Practised; revision and subnetting follow-up"
+    },
+    {
+      "paper": 2,
+      "topic": "Trees",
+      "evidence": "8/10; postorder traversal and BST inorder identified for revision.",
+      "status": "Practised; revise errors"
+    },
+    {
+      "paper": 2,
+      "topic": "Linked Lists",
+      "evidence": "6/8; pointer tracing needs revision.",
+      "status": "Practised; revise errors"
+    },
+    {
+      "paper": 2,
+      "topic": "DBMS Normalization",
+      "evidence": "3/5; functional dependencies and 3NF need revision.",
+      "status": "Practised; revise errors"
+    },
+    {
+      "paper": 2,
+      "topic": "DBMS Concurrency",
+      "evidence": "2/2 on short dirty-read/non-repeatable-read practice.",
+      "status": "Introduced; broader coverage not confirmed"
+    },
+    {
+      "paper": 2,
+      "topic": "Digital Logic",
+      "evidence": "4/10; binary/hex conversion, XOR, De Morgan laws and MUX need revision; user mentioned K-map confusion and asked to skip some K-map material.",
+      "status": "Practised; revision needed"
+    },
+    {
+      "paper": 2,
+      "topic": "Operating Systems",
+      "evidence": "Memory management/paging practised; one OS memory-management quiz reported as 7/10; scheduling and FIFO/page replacement need revision.",
+      "status": "Partial; revise"
+    },
+    {
+      "paper": 2,
+      "topic": "Algorithms",
+      "evidence": "Binary search and recurrence analysis identified as weak; broader algorithms practice reported.",
+      "status": "Partial; revise"
+    },
+    {
+      "paper": 2,
+      "topic": "Computer Organization and Architecture",
+      "evidence": "Several quizzes practised; no reliable overall score retained.",
+      "status": "Practised; score unknown"
+    },
+    {
+      "paper": 2,
+      "topic": "Probability and Statistics",
+      "evidence": "One probability set scored 1/5; variance, union probability, binomial probability and linear transformations identified as weak.",
+      "status": "Weak; structured revision needed"
+    },
+    {
+      "paper": 2,
+      "topic": "Theory of Computation and Compiler Design",
+      "evidence": "Some questions/practice noted; systematic coverage and scores not established.",
+      "status": "Partial / uncertain"
+    },
+    {
+      "paper": 1,
+      "topic": "Modern Indian History",
+      "evidence": "Question practice Q1–Q30 in two blocks; no reliable submitted answer sequence or score found.",
+      "status": "Practised; score unknown"
+    },
+    {
+      "paper": 1,
+      "topic": "Telangana History and Movement",
+      "evidence": "Some introductory study and quizzes; no reliable cumulative score.",
+      "status": "Introductory / partial"
+    },
+    {
+      "paper": 1,
+      "topic": "Indian Constitution and Polity",
+      "evidence": "MCQs practised including Supreme Court and High Courts; no reliable cumulative score.",
+      "status": "Practised; revision needed"
+    }
+  ]
 }
