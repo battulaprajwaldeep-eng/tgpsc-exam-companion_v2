@@ -5227,6 +5227,236 @@
         "This is B:C, not A:C."
       ],
       "basis": "Paper I: Analytical ability; ratios."
+    },
+    {
+      "id": "P2-NEW-064",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Sampling",
+      "difficulty": "moderate",
+      "stem": "The standard error of the sample mean (for population standard deviation σ) is:",
+      "options": [
+        "σn",
+        "σ/√n",
+        "σ/n²",
+        "√n/σ"
+      ],
+      "answer": 1,
+      "explanations": [
+        "This increases with sample size, unlike standard error.",
+        "Correct: standard error is σ divided by square root of n.",
+        "This is not the sampling standard deviation formula.",
+        "This is the reciprocal form."
+      ],
+      "basis": "Paper II: Statistics; sampling distributions."
+    },
+    {
+      "id": "P2-NEW-065",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Linear systems",
+      "difficulty": "moderate",
+      "stem": "A system of m linear equations in n unknowns is consistent if and only if:",
+      "options": [
+        "rank(A) is always n",
+        "rank(A)=rank([A|b])",
+        "det(A)=0 in all cases",
+        "n=m"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Full column rank is not required for consistency.",
+        "Correct: equality of coefficient and augmented matrix ranks is the consistency criterion.",
+        "A determinant is defined only for square A and zero does not imply consistency.",
+        "The number of equations need not equal unknowns."
+      ],
+      "basis": "Paper II: Linear Algebra; systems of equations."
+    },
+    {
+      "id": "P2-NEW-066",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Relations",
+      "difficulty": "moderate",
+      "stem": "A relation that is reflexive, symmetric and transitive is called:",
+      "options": [
+        "Partial order",
+        "Equivalence relation",
+        "Function",
+        "Bijection"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A partial order requires antisymmetry instead of symmetry.",
+        "Correct: these three properties define an equivalence relation.",
+        "A relation need not be a function.",
+        "A bijection is a one-to-one and onto function."
+      ],
+      "basis": "Paper II: Discrete Mathematics; equivalence relations."
+    },
+    {
+      "id": "P2-NEW-067",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C pointers",
+      "difficulty": "moderate",
+      "stem": "In C, the expression sizeof(char) is guaranteed to be:",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Implementation-defined and may be 0"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Object sizes cannot be zero in this context.",
+        "Correct: sizeof(char) is always 1 byte by definition.",
+        "A char occupies one C byte, not necessarily two octets.",
+        "The value is guaranteed to be 1."
+      ],
+      "basis": "Paper II: Programming in C; data types and sizeof."
+    },
+    {
+      "id": "P2-NEW-068",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Searching",
+      "difficulty": "moderate",
+      "stem": "For a sorted array of n elements, binary search has worst-case time:",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n log n)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Only the best case is constant.",
+        "Correct: the search interval is halved each step.",
+        "Linear search is O(n).",
+        "This is not required for binary search."
+      ],
+      "basis": "Paper II: Algorithms; searching."
+    },
+    {
+      "id": "P2-NEW-069",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Code optimization",
+      "difficulty": "moderate",
+      "stem": "Common subexpression elimination removes repeated computation when:",
+      "options": [
+        "The expression's operands have not changed between occurrences",
+        "The expression contains a loop",
+        "The program has no variables",
+        "The output is always zero"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: reusing the prior result is valid when operand values are unchanged.",
+        "A loop is not a necessary condition.",
+        "Variables are compatible with the optimization.",
+        "The result need not be zero."
+      ],
+      "basis": "Paper II: Compiler Design; code optimization."
+    },
+    {
+      "id": "P2-NEW-070",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Routing",
+      "difficulty": "moderate",
+      "stem": "A router primarily makes forwarding decisions using the:",
+      "options": [
+        "Destination IP address",
+        "Source process ID",
+        "HTML title",
+        "File extension"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: IP routing uses destination network-layer address and routing table.",
+        "Process IDs are host operating-system identifiers.",
+        "HTML titles are application data.",
+        "File extensions do not determine IP forwarding."
+      ],
+      "basis": "Paper II: Computer Networks; routing."
+    },
+    {
+      "id": "P1-NEW-028",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Biology",
+      "difficulty": "moderate",
+      "stem": "Which cell organelle is the primary site of aerobic cellular respiration?",
+      "options": [
+        "Ribosome",
+        "Mitochondrion",
+        "Golgi apparatus",
+        "Lysosome"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Ribosomes synthesize proteins.",
+        "Correct: mitochondria are the major site of aerobic respiration in eukaryotic cells.",
+        "Golgi apparatus modifies and packages proteins and lipids.",
+        "Lysosomes contain digestive enzymes."
+      ],
+      "basis": "Paper I: General Science; biology."
+    },
+    {
+      "id": "P1-NEW-029",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitutional amendments",
+      "difficulty": "moderate",
+      "stem": "The procedure for amendment of the Constitution is principally provided in:",
+      "options": [
+        "Article 32",
+        "Article 110",
+        "Article 368",
+        "Article 356"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Article 32 concerns constitutional remedies.",
+        "Article 110 defines Money Bills.",
+        "Correct: Article 368 provides the constitutional amendment procedure.",
+        "Article 356 concerns President's Rule in States."
+      ],
+      "basis": "Paper I: Indian Constitution; amendment procedure."
+    },
+    {
+      "id": "P1-NEW-030",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Data interpretation",
+      "difficulty": "moderate",
+      "stem": "A shop reduces a ₹800 item by 15%. What is the sale price?",
+      "options": [
+        "₹660",
+        "₹680",
+        "₹700",
+        "₹720"
+      ],
+      "answer": 1,
+      "explanations": [
+        "15% of 800 is 120; 800−120=680.",
+        "Correct: ₹800×0.85=₹680.",
+        "This corresponds to a 12.5% reduction.",
+        "This corresponds to a 10% reduction."
+      ],
+      "basis": "Paper I: Analytical ability; percentages."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
