@@ -1509,7 +1509,7 @@
       "topic": "Basic English (10th class Standard)",
       "subtopic": "Subject-verb agreement",
       "difficulty": "standard",
-      "stem": "Choose the grammatically correct sentence.",
+      "stem": "In formal standard English, which verb correctly completes: “Neither of the proposals ___ acceptable”?",
       "options": [
         "Neither of the proposals are acceptable.",
         "Neither of the proposals is acceptable.",
@@ -2061,7 +2061,7 @@
       "topic": "Basic English (10th class Standard)",
       "subtopic": "Grammar; conditional sentences",
       "difficulty": "moderate",
-      "stem": "Choose the grammatically correct sentence.",
+      "stem": "Which option correctly expresses a third conditional sentence about an unreal past situation?",
       "options": [
         "If I would have known, I would call you.",
         "If I had known, I would have called you.",
@@ -3042,6 +3042,121 @@
         "The ICJ settles legal disputes between states and gives advisory opinions."
       ],
       "basis": "Official Paper I syllabus: International Relations and Events; International organisations; IMF and World Bank."
+    },
+    {
+      "id": "P2-COA-008",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Instruction pipelining; throughput",
+      "difficulty": "advanced",
+      "stem": "A five-stage pipeline has a 2 ns clock period and no stalls. In steady state, what is its ideal instruction throughput?",
+      "options": [
+        "One instruction every 10 ns",
+        "One instruction every 2 ns",
+        "Five instructions every 2 ns",
+        "One instruction every 0.4 ns"
+      ],
+      "answer": 1,
+      "explanations": [
+        "10 ns is the latency through five stages, not the steady-state completion interval.",
+        "Correct. Once filled, an ideal pipeline completes one instruction per clock cycle: one every 2 ns.",
+        "Five stages do not imply five instructions complete per cycle.",
+        "Dividing the clock period by the number of stages is incorrect."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; instruction pipelining."
+    },
+    {
+      "id": "P2-COMP-007",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Lexical analysis; token recognition",
+      "difficulty": "moderate",
+      "stem": "In a conventional compiler, which phase groups character sequences into tokens such as identifiers, keywords and numeric literals?",
+      "options": [
+        "Syntax analysis",
+        "Lexical analysis",
+        "Semantic analysis",
+        "Intermediate-code generation"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Syntax analysis consumes tokens and checks grammatical structure.",
+        "Correct. The lexical analyser scans characters and produces tokens for the parser.",
+        "Semantic analysis checks meaning-related constraints such as types and declarations.",
+        "Intermediate-code generation occurs after earlier analysis phases."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; lexical analysis."
+    },
+    {
+      "id": "P2-DB-010",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Transactions; ACID properties",
+      "difficulty": "moderate",
+      "stem": "A transaction transfers ₹500 from account A to account B. Which ACID property ensures that the debit and credit occur as one indivisible unit?",
+      "options": [
+        "Consistency",
+        "Isolation",
+        "Atomicity",
+        "Durability"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Consistency ensures that constraints and valid database states are preserved.",
+        "Isolation concerns interference between concurrent transactions.",
+        "Correct. Atomicity means either all operations of the transfer occur or none do.",
+        "Durability ensures committed changes survive failures."
+      ],
+      "basis": "Official Paper II syllabus: Databases; transactions and concurrency control."
+    },
+    {
+      "id": "P1-CONST-009",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitutional bodies; Comptroller and Auditor General",
+      "difficulty": "moderate",
+      "stem": "Who appoints the Comptroller and Auditor General of India under Article 148?",
+      "options": [
+        "Prime Minister",
+        "President of India",
+        "Chief Justice of India",
+        "Speaker of the Lok Sabha"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The Prime Minister is not the constitutional appointing authority.",
+        "Correct. Article 148 provides for appointment of the CAG by the President of India.",
+        "The Chief Justice of India does not appoint the CAG.",
+        "The Speaker has no such appointment power."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; constitutional institutions."
+    },
+    {
+      "id": "P1-ECON-009",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "National income; real and nominal GDP",
+      "difficulty": "moderate",
+      "stem": "Nominal GDP rises by 8% while the GDP deflator rises by 5%. Approximately how much does real GDP rise?",
+      "options": [
+        "13%",
+        "3%",
+        "−3%",
+        "0%"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Adding nominal growth and inflation overstates real growth.",
+        "Correct. Approximate real growth is 8%−5%=3%; the exact rate is (1.08/1.05)−1≈2.86%.",
+        "Nominal growth exceeds the price-level rise, so real GDP has increased.",
+        "Real GDP would be approximately unchanged only if nominal GDP and the deflator rose at the same rate."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
