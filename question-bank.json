@@ -10287,6 +10287,1547 @@
         "ICMP carries control and error messages. Answer Key Paper I 001: A 002: B 003: C 004: C 005: B 006: A 007: A 008: C 009: A 010: B 011: B 012: A 013: B 014: A 015: C 016: A 017: B 018: A 019: B 020: B 021: B 022: A 023: B 024: A 025: B 026: B 027: B 028: B 029: B 030: A 031: B 032: A 033: A 034: B 035: A 036: B 037: B 038: B 039: B 040: B Paper II 001: B 002: C 003: B 004: C 005: C 006: A 007: B 008: A 009: B 010: A 011: B 012: C 013: B 014: A 015: B 016: C 017: B 018: C 019: C 020: B 021: C 022: B 023: B 024: C 025: B 026: A 027: A 028: B 029: A 030: B 031: B 032: B 033: B 034: B 035: B 036: B 037: B 038: B 039: B 040: B 041: C 042: B 043: A 044: B 045: B 046: B 047: B 048: B 049: B 050: B 051: B 052: B 053: B 054: B 055: C 056: B 057: B 058: A 059: A 060: B Quality and validation note Structural checks completed: exactly 100 questions; 40 Paper I and 60 Paper II; exactly 10 easy, 50 moderate and 40 difficult labels; four options and four option-wise explanations per question; unique IDs; no exact duplicate stems within this batch. Limitations: this document has not been checked against the live website question bank because no website export/database was supplied. A complete semantic duplicate audit against all historical batches has not been completed. Treat this as a newly authored practice batch requiring final subject-expert review, not an official TGPSC paper. The question bank is intended for practice and syllabus coverage. It does not guarantee examination coverage or a particular score."
       ],
       "basis": "Official Paper II syllabus: Computer Networks."
+    },
+    {
+      "id": "P1-B002-001",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitution",
+      "difficulty": "easy",
+      "stem": "Which Article empowers Parliament to form new States and alter State boundaries?",
+      "options": [
+        "Article 1",
+        "Article 2",
+        "Article 3",
+        "Article 368"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. The keyed answer is C (Article 3). Article 3 is the specific power; Article 2 concerns admission or establishment; Article 1 names the Union; Article 368 is the",
+        "Incorrect. The keyed answer is C (Article 3). Article 3 is the specific power; Article 2 concerns admission or establishment; Article 1 names the Union; Article 368 is the",
+        "Correct. Article 3 is the specific power; Article 2 concerns admission or establishment; Article 1 names the Union; Article 368 is the",
+        "Incorrect. The keyed answer is C (Article 3). Article 3 is the specific power; Article 2 concerns admission or establishment; Article 1 names the Union; Article 368 is the"
+      ],
+      "basis": "Official Paper I syllabus; topic: Indian Constitution; Indian Political System; Governance and Public Policy."
+    },
+    {
+      "id": "P1-B002-002",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitution",
+      "difficulty": "difficult",
+      "stem": "A Bill under Article 3 may be introduced in Parliament only after:",
+      "options": [
+        "Prior recommendation of the President",
+        "Consent of every affected State",
+        "Approval of the Supreme Court",
+        "Ratification by half the States"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The President's recommendation is required. The affected State Legislature is asked for its views, not binding consent.",
+        "Incorrect. The keyed answer is A (Prior recommendation of the President). The President's recommendation is required. The affected State Legislature is asked for its views, not binding consent.",
+        "Incorrect. The keyed answer is A (Prior recommendation of the President). The President's recommendation is required. The affected State Legislature is asked for its views, not binding consent.",
+        "Incorrect. The keyed answer is A (Prior recommendation of the President). The President's recommendation is required. The affected State Legislature is asked for its views, not binding consent."
+      ],
+      "basis": "Official Paper I syllabus; topic: Indian Constitution; Indian Political System; Governance and Public Policy."
+    },
+    {
+      "id": "P1-B002-003",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitution",
+      "difficulty": "difficult",
+      "stem": "Which body recommends the distribution of certain tax revenues between the Union and States?",
+      "options": [
+        "NITI Aayog",
+        "Finance Commission",
+        "Inter-State Council",
+        "Election Commission"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (Finance Commission). The Finance Commission is constituted under Article 280. NITI Aayog is an executive policy body. The Inter-State Council",
+        "Correct. The Finance Commission is constituted under Article 280. NITI Aayog is an executive policy body. The Inter-State Council",
+        "Incorrect. The keyed answer is B (Finance Commission). The Finance Commission is constituted under Article 280. NITI Aayog is an executive policy body. The Inter-State Council",
+        "Incorrect. The keyed answer is B (Finance Commission). The Finance Commission is constituted under Article 280. NITI Aayog is an executive policy body. The Inter-State Council"
+      ],
+      "basis": "Official Paper I syllabus; topic: Indian Constitution; Indian Political System; Governance and Public Policy."
+    },
+    {
+      "id": "P1-B002-004",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitution",
+      "difficulty": "difficult",
+      "stem": "Which statement about a Money Bill is correct?",
+      "options": [
+        "It can be introduced in either House",
+        "Rajya Sabha may amend it",
+        "Rajya Sabha may recommend changes within 14 days",
+        "A joint sitting resolves disagreement"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. The keyed answer is C (Rajya Sabha may recommend changes within 14 days). Rajya Sabha can recommend changes within 14 days. A Money Bill is introduced only in Lok Sabha. Rajya Sabha cannot",
+        "Incorrect. The keyed answer is C (Rajya Sabha may recommend changes within 14 days). Rajya Sabha can recommend changes within 14 days. A Money Bill is introduced only in Lok Sabha. Rajya Sabha cannot",
+        "Correct. Rajya Sabha can recommend changes within 14 days. A Money Bill is introduced only in Lok Sabha. Rajya Sabha cannot",
+        "Incorrect. The keyed answer is C (Rajya Sabha may recommend changes within 14 days). Rajya Sabha can recommend changes within 14 days. A Money Bill is introduced only in Lok Sabha. Rajya Sabha cannot"
+      ],
+      "basis": "Official Paper I syllabus; topic: Indian Constitution; Indian Political System; Governance and Public Policy."
+    },
+    {
+      "id": "P1-B002-005",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Governance",
+      "difficulty": "difficult",
+      "stem": "The Central Vigilance Commission received statutory status under:",
+      "options": [
+        "CVC Act, 2003",
+        "Lokpal Act, 2013",
+        "Prevention of Corruption Act, 1988",
+        "RTI Act, 2005"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The CVC Act, 2003 provides its statutory framework. The other Acts address the Lokpal, corruption offences and access to",
+        "Incorrect. The keyed answer is A (CVC Act, 2003). The CVC Act, 2003 provides its statutory framework. The other Acts address the Lokpal, corruption offences and access to",
+        "Incorrect. The keyed answer is A (CVC Act, 2003). The CVC Act, 2003 provides its statutory framework. The other Acts address the Lokpal, corruption offences and access to",
+        "Incorrect. The keyed answer is A (CVC Act, 2003). The CVC Act, 2003 provides its statutory framework. The other Acts address the Lokpal, corruption offences and access to"
+      ],
+      "basis": "Official Paper I syllabus; topic: Indian Constitution; Indian Political System; Governance and Public Policy."
+    },
+    {
+      "id": "P1-B002-006",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Economy",
+      "difficulty": "difficult",
+      "stem": "GDP at market prices is derived from GVA at basic prices by adding:",
+      "options": [
+        "Depreciation only",
+        "Net product taxes",
+        "Net factor income from abroad",
+        "Personal income taxes"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (Net product taxes). Net product taxes bridge GVA at basic prices to GDP at market prices. Depreciation converts gross/net measures; net factor",
+        "Correct. Net product taxes bridge GVA at basic prices to GDP at market prices. Depreciation converts gross/net measures; net factor",
+        "Incorrect. The keyed answer is B (Net product taxes). Net product taxes bridge GVA at basic prices to GDP at market prices. Depreciation converts gross/net measures; net factor",
+        "Incorrect. The keyed answer is B (Net product taxes). Net product taxes bridge GVA at basic prices to GDP at market prices. Depreciation converts gross/net measures; net factor"
+      ],
+      "basis": "Official Paper I syllabus; topic: Economic and Social Development of India and Telangana."
+    },
+    {
+      "id": "P1-B002-008",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Economy",
+      "difficulty": "easy",
+      "stem": "Which index measures price changes in a representative household consumption basket?",
+      "options": [
+        "WPI",
+        "CPI",
+        "IIP",
+        "Core sector index"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (CPI). CPI tracks consumer prices. WPI tracks wholesale prices. IIP measures industrial output. The core sector index measures",
+        "Correct. CPI tracks consumer prices. WPI tracks wholesale prices. IIP measures industrial output. The core sector index measures",
+        "Incorrect. The keyed answer is B (CPI). CPI tracks consumer prices. WPI tracks wholesale prices. IIP measures industrial output. The core sector index measures",
+        "Incorrect. The keyed answer is B (CPI). CPI tracks consumer prices. WPI tracks wholesale prices. IIP measures industrial output. The core sector index measures"
+      ],
+      "basis": "Official Paper I syllabus; topic: Economic and Social Development of India and Telangana."
+    },
+    {
+      "id": "P1-B002-011",
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Physical, Social and Economic Geography of Telangana",
+      "subtopic": "Telangana Geography",
+      "difficulty": "difficult",
+      "stem": "Which major river drains much of northern and eastern Telangana?",
+      "options": [
+        "Cauvery",
+        "Godavari",
+        "Periyar",
+        "Narmada"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (Godavari). The Godavari and its tributaries drain much of Telangana. The other rivers primarily drain regions outside Telangana.",
+        "Correct. The Godavari and its tributaries drain much of Telangana. The other rivers primarily drain regions outside Telangana.",
+        "Incorrect. The keyed answer is B (Godavari). The Godavari and its tributaries drain much of Telangana. The other rivers primarily drain regions outside Telangana.",
+        "Incorrect. The keyed answer is B (Godavari). The Godavari and its tributaries drain much of Telangana. The other rivers primarily drain regions outside Telangana."
+      ],
+      "basis": "Official Paper I syllabus; topic: Physical, Social and Economic Geography of Telangana."
+    },
+    {
+      "id": "P1-B002-014",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Environment",
+      "difficulty": "difficult",
+      "stem": "Which is a diffuse, non-point source of water pollution?",
+      "options": [
+        "A factory discharge pipe",
+        "Fertiliser runoff from many fields",
+        "A monitored municipal outfall",
+        "A single industrial outlet"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (Fertiliser runoff from many fields). Diffuse agricultural runoff is non-point pollution. Defined pipes and outlets are point sources.",
+        "Correct. Diffuse agricultural runoff is non-point pollution. Defined pipes and outlets are point sources.",
+        "Incorrect. The keyed answer is B (Fertiliser runoff from many fields). Diffuse agricultural runoff is non-point pollution. Defined pipes and outlets are point sources.",
+        "Incorrect. The keyed answer is B (Fertiliser runoff from many fields). Diffuse agricultural runoff is non-point pollution. Defined pipes and outlets are point sources."
+      ],
+      "basis": "Official Paper I syllabus; topic: Environmental issues; Disaster Management – Prevention and Mitigation Strategies."
+    },
+    {
+      "id": "P1-B002-015",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Disaster Management",
+      "difficulty": "difficult",
+      "stem": "A vulnerability assessment is used mainly to:",
+      "options": [
+        "Predict the exact date of a disaster",
+        "Identify susceptible people, assets and systems",
+        "Replace evacuation planning",
+        "Calculate only compensation"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (Identify susceptible people, assets and systems). It identifies susceptibility and supports mitigation. Exact prediction is generally impossible; it complements preparedness",
+        "Correct. It identifies susceptibility and supports mitigation. Exact prediction is generally impossible; it complements preparedness",
+        "Incorrect. The keyed answer is B (Identify susceptible people, assets and systems). It identifies susceptibility and supports mitigation. Exact prediction is generally impossible; it complements preparedness",
+        "Incorrect. The keyed answer is B (Identify susceptible people, assets and systems). It identifies susceptibility and supports mitigation. Exact prediction is generally impossible; it complements preparedness"
+      ],
+      "basis": "Official Paper I syllabus; topic: Environmental issues; Disaster Management – Prevention and Mitigation Strategies."
+    },
+    {
+      "id": "P1-B002-016",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Science",
+      "difficulty": "easy",
+      "stem": "Which organisation leads India's civilian space programme?",
+      "options": [
+        "DRDO",
+        "ISRO",
+        "BARC",
+        "CSIR"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (ISRO). ISRO leads India's space programme. DRDO focuses on defence, BARC on nuclear research and CSIR on broad scientific",
+        "Correct. ISRO leads India's space programme. DRDO focuses on defence, BARC on nuclear research and CSIR on broad scientific",
+        "Incorrect. The keyed answer is B (ISRO). ISRO leads India's space programme. DRDO focuses on defence, BARC on nuclear research and CSIR on broad scientific",
+        "Incorrect. The keyed answer is B (ISRO). ISRO leads India's space programme. DRDO focuses on defence, BARC on nuclear research and CSIR on broad scientific"
+      ],
+      "basis": "Official Paper I syllabus; topic: General Science; India’s Achievements in Science and Technology."
+    },
+    {
+      "id": "P1-B002-017",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Science",
+      "difficulty": "difficult",
+      "stem": "Pentavalent doping of silicon generally produces:",
+      "options": [
+        "p-type material",
+        "n-type material",
+        "An insulator",
+        "An intrinsic semiconductor"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (n-type material). Donor impurities contribute extra electrons, producing n-type material. Trivalent acceptors produce p-type; doping does not",
+        "Correct. Donor impurities contribute extra electrons, producing n-type material. Trivalent acceptors produce p-type; doping does not",
+        "Incorrect. The keyed answer is B (n-type material). Donor impurities contribute extra electrons, producing n-type material. Trivalent acceptors produce p-type; doping does not",
+        "Incorrect. The keyed answer is B (n-type material). Donor impurities contribute extra electrons, producing n-type material. Trivalent acceptors produce p-type; doping does not"
+      ],
+      "basis": "Official Paper I syllabus; topic: General Science; India’s Achievements in Science and Technology."
+    },
+    {
+      "id": "P1-B002-018",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Modern History",
+      "difficulty": "difficult",
+      "stem": "The Swadeshi Movement followed which event?",
+      "options": [
+        "Partition of Bengal, 1905",
+        "Jallianwala Bagh, 1919",
+        "Simon Commission, 1928",
+        "Quit India, 1942"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The 1905 partition triggered Swadeshi and boycott. The other events occurred later.",
+        "Incorrect. The keyed answer is A (Partition of Bengal, 1905). The 1905 partition triggered Swadeshi and boycott. The other events occurred later.",
+        "Incorrect. The keyed answer is A (Partition of Bengal, 1905). The 1905 partition triggered Swadeshi and boycott. The other events occurred later.",
+        "Incorrect. The keyed answer is A (Partition of Bengal, 1905). The 1905 partition triggered Swadeshi and boycott. The other events occurred later."
+      ],
+      "basis": "Official Paper I syllabus; topic: Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement."
+    },
+    {
+      "id": "P1-B002-019",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Modern History",
+      "difficulty": "difficult",
+      "stem": "The Poona Pact of 1932 chiefly concerned:",
+      "options": [
+        "Electoral representation of Depressed Classes",
+        "Partition of Bengal",
+        "Linguistic reorganisation",
+        "Transfer of power in 1947"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. It replaced separate electorates with reserved seats in joint electorates. The other subjects are unrelated.",
+        "Incorrect. The keyed answer is A (Electoral representation of Depressed Classes). It replaced separate electorates with reserved seats in joint electorates. The other subjects are unrelated.",
+        "Incorrect. The keyed answer is A (Electoral representation of Depressed Classes). It replaced separate electorates with reserved seats in joint electorates. The other subjects are unrelated.",
+        "Incorrect. The keyed answer is A (Electoral representation of Depressed Classes). It replaced separate electorates with reserved seats in joint electorates. The other subjects are unrelated."
+      ],
+      "basis": "Official Paper I syllabus; topic: Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement."
+    },
+    {
+      "id": "P1-B002-021",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "India Geography",
+      "subtopic": "Geography",
+      "difficulty": "difficult",
+      "stem": "A rain-shadow region is generally found:",
+      "options": [
+        "On the windward slope",
+        "On the leeward side of a mountain range",
+        "Only at the equator",
+        "Only in polar regions"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (On the leeward side of a mountain range). Moist air loses moisture on the windward side; descending air on the leeward side is drier. Rain shadows are not confined to",
+        "Correct. Moist air loses moisture on the windward side; descending air on the leeward side is drier. Rain shadows are not confined to",
+        "Incorrect. The keyed answer is B (On the leeward side of a mountain range). Moist air loses moisture on the windward side; descending air on the leeward side is drier. Rain shadows are not confined to",
+        "Incorrect. The keyed answer is B (On the leeward side of a mountain range). Moist air loses moisture on the windward side; descending air on the leeward side is drier. Rain shadows are not confined to"
+      ],
+      "basis": "Official Paper I syllabus; topic: India Geography."
+    },
+    {
+      "id": "P1-B002-023",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Reasoning",
+      "difficulty": "difficult",
+      "stem": "If A is north of B, and C is east of B, which relation is certain?",
+      "options": [
+        "A is east of C",
+        "C is east of B",
+        "A is south of B",
+        "B is north of C"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (C is east of B). C is explicitly east of B. The other relations are not established by the given facts.",
+        "Correct. C is explicitly east of B. The other relations are not established by the given facts.",
+        "Incorrect. The keyed answer is B (C is east of B). C is explicitly east of B. The other relations are not established by the given facts.",
+        "Incorrect. The keyed answer is B (C is east of B). C is explicitly east of B. The other relations are not established by the given facts."
+      ],
+      "basis": "Official Paper I syllabus; topic: Logical Reasoning; Analytical Ability and Data Interpretation."
+    },
+    {
+      "id": "P1-B002-025",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Data Interpretation",
+      "difficulty": "difficult",
+      "stem": "A quantity rises from 800 to 1,000, then falls by 10%. Compared with 800, the final value is:",
+      "options": [
+        "10% higher",
+        "12.5% higher",
+        "10% lower",
+        "Unchanged"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (12.5% higher). 1,000×0.9=900. The increase over 800 is 100/800=12.5%.",
+        "Correct. 1,000×0.9=900. The increase over 800 is 100/800=12.5%.",
+        "Incorrect. The keyed answer is B (12.5% higher). 1,000×0.9=900. The increase over 800 is 100/800=12.5%.",
+        "Incorrect. The keyed answer is B (12.5% higher). 1,000×0.9=900. The increase over 800 is 100/800=12.5%."
+      ],
+      "basis": "Official Paper I syllabus; topic: Logical Reasoning; Analytical Ability and Data Interpretation."
+    },
+    {
+      "id": "P1-B002-027",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "English",
+      "difficulty": "difficult",
+      "stem": "Choose the correct third conditional:",
+      "options": [
+        "If I would know, I called.",
+        "If I had known, I would have called.",
+        "If I knew, I will have called.",
+        "If I have known, I would call."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (If I had known, I would have called.). Third conditional uses past perfect in the if-clause and would have plus past participle in the result clause.",
+        "Correct. Third conditional uses past perfect in the if-clause and would have plus past participle in the result clause.",
+        "Incorrect. The keyed answer is B (If I had known, I would have called.). Third conditional uses past perfect in the if-clause and would have plus past participle in the result clause.",
+        "Incorrect. The keyed answer is B (If I had known, I would have called.). Third conditional uses past perfect in the if-clause and would have plus past participle in the result clause."
+      ],
+      "basis": "Official Paper I syllabus; topic: Basic English (10th class Standard)."
+    },
+    {
+      "id": "P1-B002-029",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Governance",
+      "difficulty": "difficult",
+      "stem": "An outcome budget chiefly links:",
+      "options": [
+        "Expenditure with measurable results",
+        "Salaries with seniority",
+        "Tax rates with election dates",
+        "Population with office furniture"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Outcome budgeting connects inputs and spending to outputs and outcomes. The other pairings are not its purpose.",
+        "Incorrect. The keyed answer is A (Expenditure with measurable results). Outcome budgeting connects inputs and spending to outputs and outcomes. The other pairings are not its purpose.",
+        "Incorrect. The keyed answer is A (Expenditure with measurable results). Outcome budgeting connects inputs and spending to outputs and outcomes. The other pairings are not its purpose.",
+        "Incorrect. The keyed answer is A (Expenditure with measurable results). Outcome budgeting connects inputs and spending to outputs and outcomes. The other pairings are not its purpose."
+      ],
+      "basis": "Official Paper I syllabus; topic: Indian Constitution; Indian Political System; Governance and Public Policy."
+    },
+    {
+      "id": "P1-B002-030",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Polity",
+      "difficulty": "easy",
+      "stem": "Which amendment gave constitutional status to Panchayati Raj Institutions?",
+      "options": [
+        "42nd",
+        "44th",
+        "73rd",
+        "74th"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. The keyed answer is C (73rd). The 73rd Amendment added Part IX and the Eleventh Schedule. The 74th concerns municipalities.",
+        "Incorrect. The keyed answer is C (73rd). The 73rd Amendment added Part IX and the Eleventh Schedule. The 74th concerns municipalities.",
+        "Correct. The 73rd Amendment added Part IX and the Eleventh Schedule. The 74th concerns municipalities.",
+        "Incorrect. The keyed answer is C (73rd). The 73rd Amendment added Part IX and the Eleventh Schedule. The 74th concerns municipalities."
+      ],
+      "basis": "Official Paper I syllabus; topic: Indian Constitution; Indian Political System; Governance and Public Policy."
+    },
+    {
+      "id": "P1-B002-031",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Polity",
+      "difficulty": "difficult",
+      "stem": "The CAG of India is removed in the same manner and on the same grounds as:",
+      "options": [
+        "A Union Minister",
+        "A Supreme Court judge",
+        "The Attorney General",
+        "A Governor"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (A Supreme Court judge). The CAG has security of tenure comparable to a Supreme Court judge. Ministers, the Attorney General and Governors have",
+        "Correct. The CAG has security of tenure comparable to a Supreme Court judge. Ministers, the Attorney General and Governors have",
+        "Incorrect. The keyed answer is B (A Supreme Court judge). The CAG has security of tenure comparable to a Supreme Court judge. Ministers, the Attorney General and Governors have",
+        "Incorrect. The keyed answer is B (A Supreme Court judge). The CAG has security of tenure comparable to a Supreme Court judge. Ministers, the Attorney General and Governors have"
+      ],
+      "basis": "Official Paper I syllabus; topic: Indian Constitution; Indian Political System; Governance and Public Policy."
+    },
+    {
+      "id": "P1-B002-032",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Environment",
+      "difficulty": "difficult",
+      "stem": "Which is a point source of water pollution?",
+      "options": [
+        "Diffuse farm runoff",
+        "A single factory outlet pipe",
+        "Atmospheric deposition over a region",
+        "Urban runoff from many streets"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (A single factory outlet pipe). A defined factory pipe is identifiable and point-source. The others are diffuse or widespread sources.",
+        "Correct. A defined factory pipe is identifiable and point-source. The others are diffuse or widespread sources.",
+        "Incorrect. The keyed answer is B (A single factory outlet pipe). A defined factory pipe is identifiable and point-source. The others are diffuse or widespread sources.",
+        "Incorrect. The keyed answer is B (A single factory outlet pipe). A defined factory pipe is identifiable and point-source. The others are diffuse or widespread sources."
+      ],
+      "basis": "Official Paper I syllabus; topic: Environmental issues; Disaster Management – Prevention and Mitigation Strategies."
+    },
+    {
+      "id": "P1-B002-033",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Science",
+      "difficulty": "difficult",
+      "stem": "A cryptographic hash function is expected to provide:",
+      "options": [
+        "Reversible encryption",
+        "Fixed-length digest and collision resistance",
+        "Guaranteed secrecy of input",
+        "Recovery of original input"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (Fixed-length digest and collision resistance). A hash is one-way and produces a fixed-length digest. Encryption is reversible with keys; hashing alone does not conceal",
+        "Correct. A hash is one-way and produces a fixed-length digest. Encryption is reversible with keys; hashing alone does not conceal",
+        "Incorrect. The keyed answer is B (Fixed-length digest and collision resistance). A hash is one-way and produces a fixed-length digest. Encryption is reversible with keys; hashing alone does not conceal",
+        "Incorrect. The keyed answer is B (Fixed-length digest and collision resistance). A hash is one-way and produces a fixed-length digest. Encryption is reversible with keys; hashing alone does not conceal"
+      ],
+      "basis": "Official Paper I syllabus; topic: General Science; India’s Achievements in Science and Technology."
+    },
+    {
+      "id": "P1-B002-034",
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current Affairs Literacy",
+      "subtopic": "Current Affairs Literacy",
+      "difficulty": "difficult",
+      "stem": "The strongest initial fact-checking practice is to:",
+      "options": [
+        "Count social-media shares",
+        "Trace the original source and corroborate independently",
+        "Trust screenshots",
+        "Assume verified accounts are always correct"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (Trace the original source and corroborate independently). Original-source tracing, date/context checks and independent corroboration are sound. Popularity, screenshots and account",
+        "Correct. Original-source tracing, date/context checks and independent corroboration are sound. Popularity, screenshots and account",
+        "Incorrect. The keyed answer is B (Trace the original source and corroborate independently). Original-source tracing, date/context checks and independent corroboration are sound. Popularity, screenshots and account",
+        "Incorrect. The keyed answer is B (Trace the original source and corroborate independently). Original-source tracing, date/context checks and independent corroboration are sound. Popularity, screenshots and account"
+      ],
+      "basis": "Official Paper I syllabus; topic: Current Affairs Literacy."
+    },
+    {
+      "id": "P1-B002-035",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Disaster Management",
+      "difficulty": "difficult",
+      "stem": "An actionable urban flood warning should combine forecasts with:",
+      "options": [
+        "Annual averages only",
+        "Real-time observations, exposure maps and trigger thresholds",
+        "Only past damage totals",
+        "Only city population"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (Real-time observations, exposure maps and trigger thresholds). Forecasts become actionable when combined with observations, exposed locations, vulnerability and thresholds. Annual",
+        "Correct. Forecasts become actionable when combined with observations, exposed locations, vulnerability and thresholds. Annual",
+        "Incorrect. The keyed answer is B (Real-time observations, exposure maps and trigger thresholds). Forecasts become actionable when combined with observations, exposed locations, vulnerability and thresholds. Annual",
+        "Incorrect. The keyed answer is B (Real-time observations, exposure maps and trigger thresholds). Forecasts become actionable when combined with observations, exposed locations, vulnerability and thresholds. Annual"
+      ],
+      "basis": "Official Paper I syllabus; topic: Environmental issues; Disaster Management – Prevention and Mitigation Strategies."
+    },
+    {
+      "id": "P1-B002-036",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Telangana Economy",
+      "difficulty": "difficult",
+      "stem": "An irrigation project's command area is:",
+      "options": [
+        "The entire river basin",
+        "Land intended to receive irrigation from the project",
+        "Only the submerged reservoir area",
+        "Only the upstream catchment"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (Land intended to receive irrigation from the project). Command area is the planned irrigated area. Basin, reservoir footprint and catchment are different geographic concepts.",
+        "Correct. Command area is the planned irrigated area. Basin, reservoir footprint and catchment are different geographic concepts.",
+        "Incorrect. The keyed answer is B (Land intended to receive irrigation from the project). Command area is the planned irrigated area. Basin, reservoir footprint and catchment are different geographic concepts.",
+        "Incorrect. The keyed answer is B (Land intended to receive irrigation from the project). Command area is the planned irrigated area. Basin, reservoir footprint and catchment are different geographic concepts."
+      ],
+      "basis": "Official Paper I syllabus; topic: Economic and Social Development of India and Telangana."
+    },
+    {
+      "id": "P1-B002-037",
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Society, Social Exclusion, Rights Issues and Inclusive Policies",
+      "subtopic": "Telangana Society",
+      "difficulty": "difficult",
+      "stem": "A rights-based public service model emphasises:",
+      "options": [
+        "Official charity",
+        "Entitlements, accountability and remedies",
+        "Voluntary donations only",
+        "No grievance process"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (Entitlements, accountability and remedies). Rights-based delivery treats people as rights-holders and authorities as duty-bearers. Charity and the absence of remedies",
+        "Correct. Rights-based delivery treats people as rights-holders and authorities as duty-bearers. Charity and the absence of remedies",
+        "Incorrect. The keyed answer is B (Entitlements, accountability and remedies). Rights-based delivery treats people as rights-holders and authorities as duty-bearers. Charity and the absence of remedies",
+        "Incorrect. The keyed answer is B (Entitlements, accountability and remedies). Rights-based delivery treats people as rights-holders and authorities as duty-bearers. Charity and the absence of remedies"
+      ],
+      "basis": "Official Paper I syllabus; topic: Society, Social Exclusion, Rights Issues and Inclusive Policies."
+    },
+    {
+      "id": "P1-B002-038",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "India Geography",
+      "subtopic": "Geography",
+      "difficulty": "difficult",
+      "stem": "Which process most directly causes orographic rainfall?",
+      "options": [
+        "Air descending and warming",
+        "Moist air forced upward over relief and cooling",
+        "Ocean water freezing",
+        "Land heating without air movement"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (Moist air forced upward over relief and cooling). Relief lifts moist air, which cools and condenses. Descending air generally warms; the other processes do not describe",
+        "Correct. Relief lifts moist air, which cools and condenses. Descending air generally warms; the other processes do not describe",
+        "Incorrect. The keyed answer is B (Moist air forced upward over relief and cooling). Relief lifts moist air, which cools and condenses. Descending air generally warms; the other processes do not describe",
+        "Incorrect. The keyed answer is B (Moist air forced upward over relief and cooling). Relief lifts moist air, which cools and condenses. Descending air generally warms; the other processes do not describe"
+      ],
+      "basis": "Official Paper I syllabus; topic: India Geography."
+    },
+    {
+      "id": "P1-B002-039",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Reasoning",
+      "difficulty": "difficult",
+      "stem": "If every X is Y and no Y is Z, which conclusion follows?",
+      "options": [
+        "Some X are Z",
+        "No X is Z",
+        "Every Z is X",
+        "Some Y are not X"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (No X is Z). X is contained within Y, and Y excludes Z; therefore X and Z cannot overlap. The other conclusions are not guaranteed.",
+        "Correct. X is contained within Y, and Y excludes Z; therefore X and Z cannot overlap. The other conclusions are not guaranteed.",
+        "Incorrect. The keyed answer is B (No X is Z). X is contained within Y, and Y excludes Z; therefore X and Z cannot overlap. The other conclusions are not guaranteed.",
+        "Incorrect. The keyed answer is B (No X is Z). X is contained within Y, and Y excludes Z; therefore X and Z cannot overlap. The other conclusions are not guaranteed."
+      ],
+      "basis": "Official Paper I syllabus; topic: Logical Reasoning; Analytical Ability and Data Interpretation."
+    },
+    {
+      "id": "P2-B002-001",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Probability",
+      "difficulty": "difficult",
+      "stem": "For a Poisson variable with parameter λ, the mean is:",
+      "options": [
+        "0",
+        "λ",
+        "λ²",
+        "1/λ"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (λ). Poisson mean and variance both equal λ.",
+        "Correct. Poisson mean and variance both equal λ.",
+        "Incorrect. The keyed answer is B (λ). Poisson mean and variance both equal λ.",
+        "Incorrect. The keyed answer is B (λ). Poisson mean and variance both equal λ."
+      ],
+      "basis": "Official Paper II syllabus; topic: Probability and Statistics."
+    },
+    {
+      "id": "P2-B002-003",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Statistics",
+      "difficulty": "difficult",
+      "stem": "For independent X and Y, Var(X+Y) is:",
+      "options": [
+        "Var(X)+Var(Y)",
+        "Var(X)−Var(Y)",
+        "Var(X)Var(Y)",
+        "Var(X)+Var(Y)+1"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Independence makes covariance zero, so variances add.",
+        "Incorrect. The keyed answer is A (Var(X)+Var(Y)). Independence makes covariance zero, so variances add.",
+        "Incorrect. The keyed answer is A (Var(X)+Var(Y)). Independence makes covariance zero, so variances add.",
+        "Incorrect. The keyed answer is A (Var(X)+Var(Y)). Independence makes covariance zero, so variances add."
+      ],
+      "basis": "Official Paper II syllabus; topic: Probability and Statistics."
+    },
+    {
+      "id": "P2-B002-004",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Set Theory",
+      "difficulty": "difficult",
+      "stem": "If |A|=18, |B|=15 and |A∩B|=7, |A∪B| is:",
+      "options": [
+        "26",
+        "33",
+        "40",
+        "11"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Inclusion-exclusion gives 18+15−7=26.",
+        "Incorrect. The keyed answer is A (26). Inclusion-exclusion gives 18+15−7=26.",
+        "Incorrect. The keyed answer is A (26). Inclusion-exclusion gives 18+15−7=26.",
+        "Incorrect. The keyed answer is A (26). Inclusion-exclusion gives 18+15−7=26."
+      ],
+      "basis": "Official Paper II syllabus; topic: Set Theory & Algebra; Linear Algebra."
+    },
+    {
+      "id": "P2-B002-008",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Discrete Mathematics",
+      "difficulty": "difficult",
+      "stem": "An equivalence relation is:",
+      "options": [
+        "Reflexive, symmetric, transitive",
+        "Reflexive, antisymmetric, transitive",
+        "Symmetric and irreflexive",
+        "Only transitive"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. These three properties define equivalence.",
+        "Incorrect. The keyed answer is A (Reflexive, symmetric, transitive). These three properties define equivalence.",
+        "Incorrect. The keyed answer is A (Reflexive, symmetric, transitive). These three properties define equivalence.",
+        "Incorrect. The keyed answer is A (Reflexive, symmetric, transitive). These three properties define equivalence."
+      ],
+      "basis": "Official Paper II syllabus; topic: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic."
+    },
+    {
+      "id": "P2-B002-011",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Digital Logic",
+      "difficulty": "moderate",
+      "stem": "Simplify A + A'B:",
+      "options": [
+        "A+B",
+        "AB",
+        "A'B",
+        "A'+B"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. A+A'B=(A+A')(A+B)=A+B.",
+        "Incorrect. The keyed answer is A (A+B). A+A'B=(A+A')(A+B)=A+B.",
+        "Incorrect. The keyed answer is A (A+B). A+A'B=(A+A')(A+B)=A+B.",
+        "Incorrect. The keyed answer is A (A+B). A+A'B=(A+A')(A+B)=A+B."
+      ],
+      "basis": "Official Paper II syllabus; topic: Digital Logic."
+    },
+    {
+      "id": "P2-B002-014",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Computer Architecture",
+      "difficulty": "moderate",
+      "stem": "Which is normally fastest?",
+      "options": [
+        "DRAM",
+        "CPU register",
+        "SSD",
+        "Optical disk"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (CPU register). Registers are inside the CPU datapath and are faster than main memory and storage.",
+        "Correct. Registers are inside the CPU datapath and are faster than main memory and storage.",
+        "Incorrect. The keyed answer is B (CPU register). Registers are inside the CPU datapath and are faster than main memory and storage.",
+        "Incorrect. The keyed answer is B (CPU register). Registers are inside the CPU datapath and are faster than main memory and storage."
+      ],
+      "basis": "Official Paper II syllabus; topic: Computer Organization and Architecture."
+    },
+    {
+      "id": "P2-B002-015",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Computer Architecture",
+      "difficulty": "moderate",
+      "stem": "A cache block is 32 bytes. Offset field width is:",
+      "options": [
+        "3 bits",
+        "4 bits",
+        "5 bits",
+        "6 bits"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. The keyed answer is C (5 bits). log₂32=5 bits are needed to select a byte within the block.",
+        "Incorrect. The keyed answer is C (5 bits). log₂32=5 bits are needed to select a byte within the block.",
+        "Correct. log₂32=5 bits are needed to select a byte within the block.",
+        "Incorrect. The keyed answer is C (5 bits). log₂32=5 bits are needed to select a byte within the block."
+      ],
+      "basis": "Official Paper II syllabus; topic: Computer Organization and Architecture."
+    },
+    {
+      "id": "P2-B002-016",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Computer Architecture",
+      "difficulty": "moderate",
+      "stem": "A branch predictor attempts to:",
+      "options": [
+        "Translate addresses",
+        "Predict control flow to reduce stalls",
+        "Schedule disk I/O",
+        "Decode Unicode"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (Predict control flow to reduce stalls). Predicting branch direction/target helps keep the pipeline supplied.",
+        "Correct. Predicting branch direction/target helps keep the pipeline supplied.",
+        "Incorrect. The keyed answer is B (Predict control flow to reduce stalls). Predicting branch direction/target helps keep the pipeline supplied.",
+        "Incorrect. The keyed answer is B (Predict control flow to reduce stalls). Predicting branch direction/target helps keep the pipeline supplied."
+      ],
+      "basis": "Official Paper II syllabus; topic: Computer Organization and Architecture."
+    },
+    {
+      "id": "P2-B002-018",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C Programming",
+      "difficulty": "moderate",
+      "stem": "Unsequenced conflicting access and modification of a scalar object can cause:",
+      "options": [
+        "Last write wins",
+        "Undefined behavior",
+        "Automatic locking",
+        "Mandatory exception"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (Undefined behavior). Such unsequenced operations can invoke undefined behavior.",
+        "Correct. Such unsequenced operations can invoke undefined behavior.",
+        "Incorrect. The keyed answer is B (Undefined behavior). Such unsequenced operations can invoke undefined behavior.",
+        "Incorrect. The keyed answer is B (Undefined behavior). Such unsequenced operations can invoke undefined behavior."
+      ],
+      "basis": "Official Paper II syllabus; topic: Programming and Data Structures."
+    },
+    {
+      "id": "P2-B002-019",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Data Structures",
+      "difficulty": "moderate",
+      "stem": "The usual frontier structure for BFS is:",
+      "options": [
+        "Stack",
+        "Queue",
+        "Heap",
+        "Tree"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (Queue). A FIFO queue processes vertices level by level.",
+        "Correct. A FIFO queue processes vertices level by level.",
+        "Incorrect. The keyed answer is B (Queue). A FIFO queue processes vertices level by level.",
+        "Incorrect. The keyed answer is B (Queue). A FIFO queue processes vertices level by level."
+      ],
+      "basis": "Official Paper II syllabus; topic: Programming and Data Structures."
+    },
+    {
+      "id": "P2-B002-020",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Data Structures",
+      "difficulty": "moderate",
+      "stem": "Inorder traversal of a valid BST yields:",
+      "options": [
+        "Insertion order",
+        "Sorted key order",
+        "Random order",
+        "Level order"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (Sorted key order). Left-root-right traversal visits BST keys in sorted order.",
+        "Correct. Left-root-right traversal visits BST keys in sorted order.",
+        "Incorrect. The keyed answer is B (Sorted key order). Left-root-right traversal visits BST keys in sorted order.",
+        "Incorrect. The keyed answer is B (Sorted key order). Left-root-right traversal visits BST keys in sorted order."
+      ],
+      "basis": "Official Paper II syllabus; topic: Programming and Data Structures."
+    },
+    {
+      "id": "P2-B002-021",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Algorithms",
+      "difficulty": "moderate",
+      "stem": "Binary search uses:",
+      "options": [
+        "Divide and conquer",
+        "Backtracking",
+        "Dynamic programming",
+        "Branch and bound"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. It repeatedly halves the search interval.",
+        "Incorrect. The keyed answer is A (Divide and conquer). It repeatedly halves the search interval.",
+        "Incorrect. The keyed answer is A (Divide and conquer). It repeatedly halves the search interval.",
+        "Incorrect. The keyed answer is A (Divide and conquer). It repeatedly halves the search interval."
+      ],
+      "basis": "Official Paper II syllabus; topic: Algorithms."
+    },
+    {
+      "id": "P2-B002-022",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Algorithms",
+      "difficulty": "moderate",
+      "stem": "Worst-case merge sort complexity is:",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(n log n)",
+        "O(n²)"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. The keyed answer is C (O(n log n)). There are logarithmically many levels with linear merging per level.",
+        "Incorrect. The keyed answer is C (O(n log n)). There are logarithmically many levels with linear merging per level.",
+        "Correct. There are logarithmically many levels with linear merging per level.",
+        "Incorrect. The keyed answer is C (O(n log n)). There are logarithmically many levels with linear merging per level."
+      ],
+      "basis": "Official Paper II syllabus; topic: Algorithms."
+    },
+    {
+      "id": "P2-B002-024",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Theory of Computation",
+      "difficulty": "moderate",
+      "stem": "A DFA recognises exactly:",
+      "options": [
+        "Regular languages",
+        "All CFLs",
+        "All decidable languages",
+        "All RE languages"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. DFAs characterise regular languages.",
+        "Incorrect. The keyed answer is A (Regular languages). DFAs characterise regular languages.",
+        "Incorrect. The keyed answer is A (Regular languages). DFAs characterise regular languages.",
+        "Incorrect. The keyed answer is A (Regular languages). DFAs characterise regular languages."
+      ],
+      "basis": "Official Paper II syllabus; topic: Theory of Computation."
+    },
+    {
+      "id": "P2-B002-026",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Theory of Computation",
+      "difficulty": "moderate",
+      "stem": "Regular languages are closed under:",
+      "options": [
+        "Intersection",
+        "No complement",
+        "All context-free substitution",
+        "Only finite union"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Regular languages are closed under intersection and complement.",
+        "Incorrect. The keyed answer is A (Intersection). Regular languages are closed under intersection and complement.",
+        "Incorrect. The keyed answer is A (Intersection). Regular languages are closed under intersection and complement.",
+        "Incorrect. The keyed answer is A (Intersection). Regular languages are closed under intersection and complement."
+      ],
+      "basis": "Official Paper II syllabus; topic: Theory of Computation."
+    },
+    {
+      "id": "P2-B002-027",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Compiler Design",
+      "difficulty": "moderate",
+      "stem": "A lexical analyser converts characters into:",
+      "options": [
+        "Tokens",
+        "Machine code",
+        "Register assignments",
+        "Object files"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Lexical analysis recognises lexemes and emits tokens.",
+        "Incorrect. The keyed answer is A (Tokens). Lexical analysis recognises lexemes and emits tokens.",
+        "Incorrect. The keyed answer is A (Tokens). Lexical analysis recognises lexemes and emits tokens.",
+        "Incorrect. The keyed answer is A (Tokens). Lexical analysis recognises lexemes and emits tokens."
+      ],
+      "basis": "Official Paper II syllabus; topic: Compiler Design."
+    },
+    {
+      "id": "P2-B002-028",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Compiler Design",
+      "difficulty": "moderate",
+      "stem": "Direct left recursion has a production of the form:",
+      "options": [
+        "A→Aα",
+        "A→αA only",
+        "A→ε only",
+        "A→BC"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The leftmost symbol on the right side is the same nonterminal.",
+        "Incorrect. The keyed answer is A (A→Aα). The leftmost symbol on the right side is the same nonterminal.",
+        "Incorrect. The keyed answer is A (A→Aα). The leftmost symbol on the right side is the same nonterminal.",
+        "Incorrect. The keyed answer is A (A→Aα). The leftmost symbol on the right side is the same nonterminal."
+      ],
+      "basis": "Official Paper II syllabus; topic: Compiler Design."
+    },
+    {
+      "id": "P2-B002-030",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Operating Systems",
+      "difficulty": "moderate",
+      "stem": "A TLB caches:",
+      "options": [
+        "File descriptors",
+        "Address translations",
+        "Disk sectors",
+        "Source code"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (Address translations). A TLB stores recent virtual-to-physical translations.",
+        "Correct. A TLB stores recent virtual-to-physical translations.",
+        "Incorrect. The keyed answer is B (Address translations). A TLB stores recent virtual-to-physical translations.",
+        "Incorrect. The keyed answer is B (Address translations). A TLB stores recent virtual-to-physical translations."
+      ],
+      "basis": "Official Paper II syllabus; topic: Operating Systems."
+    },
+    {
+      "id": "P2-B002-031",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Operating Systems",
+      "difficulty": "moderate",
+      "stem": "Which is a Coffman deadlock condition?",
+      "options": [
+        "Circular wait",
+        "Cache coherence",
+        "Demand paging",
+        "Dynamic linking"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The four conditions include circular wait, mutual exclusion, hold-and-wait and no preemption.",
+        "Incorrect. The keyed answer is A (Circular wait). The four conditions include circular wait, mutual exclusion, hold-and-wait and no preemption.",
+        "Incorrect. The keyed answer is A (Circular wait). The four conditions include circular wait, mutual exclusion, hold-and-wait and no preemption.",
+        "Incorrect. The keyed answer is A (Circular wait). The four conditions include circular wait, mutual exclusion, hold-and-wait and no preemption."
+      ],
+      "basis": "Official Paper II syllabus; topic: Operating Systems."
+    },
+    {
+      "id": "P2-B002-033",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "DBMS",
+      "difficulty": "moderate",
+      "stem": "Second Normal Form removes:",
+      "options": [
+        "Partial dependency of non-prime attributes on candidate keys",
+        "All foreign keys",
+        "All transitive dependencies",
+        "All multivalued dependencies"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. 2NF removes partial dependencies; 3NF addresses transitive dependency patterns.",
+        "Incorrect. The keyed answer is A (Partial dependency of non-prime attributes on candidate keys). 2NF removes partial dependencies; 3NF addresses transitive dependency patterns.",
+        "Incorrect. The keyed answer is A (Partial dependency of non-prime attributes on candidate keys). 2NF removes partial dependencies; 3NF addresses transitive dependency patterns.",
+        "Incorrect. The keyed answer is A (Partial dependency of non-prime attributes on candidate keys). 2NF removes partial dependencies; 3NF addresses transitive dependency patterns."
+      ],
+      "basis": "Official Paper II syllabus; topic: Databases."
+    },
+    {
+      "id": "P2-B002-036",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "DBMS",
+      "difficulty": "moderate",
+      "stem": "Durability in ACID means:",
+      "options": [
+        "Committed changes survive failures",
+        "Transactions never overlap",
+        "Every query uses an index",
+        "Uncommitted values are public"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Durability protects committed effects from relevant failures.",
+        "Incorrect. The keyed answer is A (Committed changes survive failures). Durability protects committed effects from relevant failures.",
+        "Incorrect. The keyed answer is A (Committed changes survive failures). Durability protects committed effects from relevant failures.",
+        "Incorrect. The keyed answer is A (Committed changes survive failures). Durability protects committed effects from relevant failures."
+      ],
+      "basis": "Official Paper II syllabus; topic: Databases."
+    },
+    {
+      "id": "P2-B002-038",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems & Software Engineering",
+      "subtopic": "Software Engineering",
+      "difficulty": "moderate",
+      "stem": "Testing an isolated function is:",
+      "options": [
+        "Unit testing",
+        "System testing",
+        "Acceptance testing",
+        "Load testing"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Unit tests target small software units.",
+        "Incorrect. The keyed answer is A (Unit testing). Unit tests target small software units.",
+        "Incorrect. The keyed answer is A (Unit testing). Unit tests target small software units.",
+        "Incorrect. The keyed answer is A (Unit testing). Unit tests target small software units."
+      ],
+      "basis": "Official Paper II syllabus; topic: Information Systems & Software Engineering."
+    },
+    {
+      "id": "P2-B002-039",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems & Software Engineering",
+      "subtopic": "Software Engineering",
+      "difficulty": "moderate",
+      "stem": "A requirement that 95% of API requests finish within two seconds is:",
+      "options": [
+        "Functional",
+        "Non-functional performance",
+        "A data model",
+        "A user story only"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (Non-functional performance). Response time is a performance quality attribute.",
+        "Correct. Response time is a performance quality attribute.",
+        "Incorrect. The keyed answer is B (Non-functional performance). Response time is a performance quality attribute.",
+        "Incorrect. The keyed answer is B (Non-functional performance). Response time is a performance quality attribute."
+      ],
+      "basis": "Official Paper II syllabus; topic: Information Systems & Software Engineering."
+    },
+    {
+      "id": "P2-B002-043",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Computer Networks",
+      "difficulty": "moderate",
+      "stem": "TCP slow start grows congestion window approximately:",
+      "options": [
+        "Exponentially per RTT",
+        "One byte per hour",
+        "Only at zero receiver window",
+        "At fixed rate independent of RTT"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. In the idealised model, the window roughly doubles each RTT.",
+        "Incorrect. The keyed answer is A (Exponentially per RTT). In the idealised model, the window roughly doubles each RTT.",
+        "Incorrect. The keyed answer is A (Exponentially per RTT). In the idealised model, the window roughly doubles each RTT.",
+        "Incorrect. The keyed answer is A (Exponentially per RTT). In the idealised model, the window roughly doubles each RTT."
+      ],
+      "basis": "Official Paper II syllabus; topic: Computer Networks."
+    },
+    {
+      "id": "P2-B002-045",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "Web Technologies",
+      "difficulty": "moderate",
+      "stem": "The same-origin policy chiefly restricts:",
+      "options": [
+        "All outbound requests",
+        "Cross-origin scripts reading protected responses",
+        "All external CSS",
+        "HTML parsing"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (Cross-origin scripts reading protected responses). Cross-origin requests can occur, but reading protected responses is restricted unless permitted.",
+        "Correct. Cross-origin requests can occur, but reading protected responses is restricted unless permitted.",
+        "Incorrect. The keyed answer is B (Cross-origin scripts reading protected responses). Cross-origin requests can occur, but reading protected responses is restricted unless permitted.",
+        "Incorrect. The keyed answer is B (Cross-origin scripts reading protected responses). Cross-origin requests can occur, but reading protected responses is restricted unless permitted."
+      ],
+      "basis": "Official Paper II syllabus; topic: Web Technologies."
+    },
+    {
+      "id": "P2-B002-046",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOP + C++ + Java",
+      "subtopic": "OOP",
+      "difficulty": "moderate",
+      "stem": "Runtime polymorphism in C++ is commonly achieved through:",
+      "options": [
+        "Virtual functions",
+        "Macros",
+        "Static fields",
+        "Preprocessor constants"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Virtual functions support dynamic dispatch.",
+        "Incorrect. The keyed answer is A (Virtual functions). Virtual functions support dynamic dispatch.",
+        "Incorrect. The keyed answer is A (Virtual functions). Virtual functions support dynamic dispatch.",
+        "Incorrect. The keyed answer is A (Virtual functions). Virtual functions support dynamic dispatch."
+      ],
+      "basis": "Official Paper II syllabus; topic: OOP + C++ + Java."
+    },
+    {
+      "id": "P2-B002-047",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOP + C++ + Java",
+      "subtopic": "OOP",
+      "difficulty": "moderate",
+      "stem": "In Java, an overriding method:",
+      "options": [
+        "May reduce visibility",
+        "Cannot be less accessible than the inherited method",
+        "Must always have identical return type",
+        "Can override private methods"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (Cannot be less accessible than the inherited method). Java forbids reducing access; covariant returns are permitted and private methods are not overridden.",
+        "Correct. Java forbids reducing access; covariant returns are permitted and private methods are not overridden.",
+        "Incorrect. The keyed answer is B (Cannot be less accessible than the inherited method). Java forbids reducing access; covariant returns are permitted and private methods are not overridden.",
+        "Incorrect. The keyed answer is B (Cannot be less accessible than the inherited method). Java forbids reducing access; covariant returns are permitted and private methods are not overridden."
+      ],
+      "basis": "Official Paper II syllabus; topic: OOP + C++ + Java."
+    },
+    {
+      "id": "P2-B002-048",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOP + C++ + Java",
+      "subtopic": "OOP",
+      "difficulty": "moderate",
+      "stem": "A subclass's specialised implementation of an inherited method is:",
+      "options": [
+        "Overriding",
+        "Encapsulation",
+        "Composition",
+        "Garbage collection"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Overriding replaces inherited method behaviour in a subclass.",
+        "Incorrect. The keyed answer is A (Overriding). Overriding replaces inherited method behaviour in a subclass.",
+        "Incorrect. The keyed answer is A (Overriding). Overriding replaces inherited method behaviour in a subclass.",
+        "Incorrect. The keyed answer is A (Overriding). Overriding replaces inherited method behaviour in a subclass."
+      ],
+      "basis": "Official Paper II syllabus; topic: OOP + C++ + Java."
+    },
+    {
+      "id": "P2-B002-049",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Data Structures",
+      "difficulty": "moderate",
+      "stem": "For separate chaining, load factor α is:",
+      "options": [
+        "n/m",
+        "m/n",
+        "n²",
+        "Maximum key length"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Load factor is stored keys divided by bucket count.",
+        "Incorrect. The keyed answer is A (n/m). Load factor is stored keys divided by bucket count.",
+        "Incorrect. The keyed answer is A (n/m). Load factor is stored keys divided by bucket count.",
+        "Incorrect. The keyed answer is A (n/m). Load factor is stored keys divided by bucket count."
+      ],
+      "basis": "Official Paper II syllabus; topic: Programming and Data Structures."
+    },
+    {
+      "id": "P2-B002-051",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Linear Algebra",
+      "difficulty": "moderate",
+      "stem": "The rank of a matrix is the:",
+      "options": [
+        "Number of zero entries",
+        "Dimension of row/column space",
+        "Trace",
+        "Determinant"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (Dimension of row/column space). Rank is the dimension of the row space, equal to column-space dimension.",
+        "Correct. Rank is the dimension of the row space, equal to column-space dimension.",
+        "Incorrect. The keyed answer is B (Dimension of row/column space). Rank is the dimension of the row space, equal to column-space dimension.",
+        "Incorrect. The keyed answer is B (Dimension of row/column space). Rank is the dimension of the row space, equal to column-space dimension."
+      ],
+      "basis": "Official Paper II syllabus; topic: Set Theory & Algebra; Linear Algebra."
+    },
+    {
+      "id": "P2-B002-052",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Probability",
+      "difficulty": "moderate",
+      "stem": "Approximately what percentage of a normal distribution lies within 2σ of its mean?",
+      "options": [
+        "50%",
+        "68%",
+        "95%",
+        "99.7%"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. The keyed answer is C (95%). The empirical rule gives about 95% within two standard deviations.",
+        "Incorrect. The keyed answer is C (95%). The empirical rule gives about 95% within two standard deviations.",
+        "Correct. The empirical rule gives about 95% within two standard deviations.",
+        "Incorrect. The keyed answer is C (95%). The empirical rule gives about 95% within two standard deviations."
+      ],
+      "basis": "Official Paper II syllabus; topic: Probability and Statistics."
+    },
+    {
+      "id": "P2-B002-053",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Digital Logic",
+      "difficulty": "moderate",
+      "stem": "A synchronous flip-flop normally updates state:",
+      "options": [
+        "At active clock edge subject to timing",
+        "Continuously during the period",
+        "Only at power-off",
+        "At arbitrary times"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Synchronous state capture occurs at the active edge, subject to setup/hold constraints.",
+        "Incorrect. The keyed answer is A (At active clock edge subject to timing). Synchronous state capture occurs at the active edge, subject to setup/hold constraints.",
+        "Incorrect. The keyed answer is A (At active clock edge subject to timing). Synchronous state capture occurs at the active edge, subject to setup/hold constraints.",
+        "Incorrect. The keyed answer is A (At active clock edge subject to timing). Synchronous state capture occurs at the active edge, subject to setup/hold constraints."
+      ],
+      "basis": "Official Paper II syllabus; topic: Digital Logic."
+    },
+    {
+      "id": "P2-B002-054",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Computer Architecture",
+      "difficulty": "moderate",
+      "stem": "A 32-bit byte-addressed address space can address:",
+      "options": [
+        "2 GiB",
+        "4 GiB",
+        "8 GiB",
+        "32 GiB"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The keyed answer is B (4 GiB). 2³² byte addresses equal 4 GiB.",
+        "Correct. 2³² byte addresses equal 4 GiB.",
+        "Incorrect. The keyed answer is B (4 GiB). 2³² byte addresses equal 4 GiB.",
+        "Incorrect. The keyed answer is B (4 GiB). 2³² byte addresses equal 4 GiB."
+      ],
+      "basis": "Official Paper II syllabus; topic: Computer Organization and Architecture."
+    },
+    {
+      "id": "P2-B002-056",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "DBMS",
+      "difficulty": "moderate",
+      "stem": "Which index supports ordered range queries efficiently?",
+      "options": [
+        "B+ tree",
+        "Stack",
+        "Unordered list",
+        "Bloom filter alone"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. B+ trees maintain ordered keys and support range traversal.",
+        "Incorrect. The keyed answer is A (B+ tree). B+ trees maintain ordered keys and support range traversal.",
+        "Incorrect. The keyed answer is A (B+ tree). B+ trees maintain ordered keys and support range traversal.",
+        "Incorrect. The keyed answer is A (B+ tree). B+ trees maintain ordered keys and support range traversal."
+      ],
+      "basis": "Official Paper II syllabus; topic: Databases."
+    },
+    {
+      "id": "P2-B002-057",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Networks",
+      "difficulty": "moderate",
+      "stem": "IPv4 TTL is intended to:",
+      "options": [
+        "Prevent packets circulating indefinitely",
+        "Select TCP port",
+        "Encrypt payload",
+        "Identify DNS names"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Routers decrement TTL and discard packets when it reaches zero.",
+        "Incorrect. The keyed answer is A (Prevent packets circulating indefinitely). Routers decrement TTL and discard packets when it reaches zero.",
+        "Incorrect. The keyed answer is A (Prevent packets circulating indefinitely). Routers decrement TTL and discard packets when it reaches zero.",
+        "Incorrect. The keyed answer is A (Prevent packets circulating indefinitely). Routers decrement TTL and discard packets when it reaches zero."
+      ],
+      "basis": "Official Paper II syllabus; topic: Computer Networks."
+    },
+    {
+      "id": "P2-B002-058",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Compiler Design",
+      "difficulty": "moderate",
+      "stem": "In SSA, a φ-function is used to:",
+      "options": [
+        "Merge values from predecessor paths",
+        "Tokenise source",
+        "Allocate disk blocks",
+        "Scan characters"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. A φ-function selects an incoming value at a control-flow merge.",
+        "Incorrect. The keyed answer is A (Merge values from predecessor paths). A φ-function selects an incoming value at a control-flow merge.",
+        "Incorrect. The keyed answer is A (Merge values from predecessor paths). A φ-function selects an incoming value at a control-flow merge.",
+        "Incorrect. The keyed answer is A (Merge values from predecessor paths). A φ-function selects an incoming value at a control-flow merge."
+      ],
+      "basis": "Official Paper II syllabus; topic: Compiler Design."
+    },
+    {
+      "id": "P2-B002-059",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems & Software Engineering",
+      "subtopic": "Information Systems",
+      "difficulty": "moderate",
+      "stem": "A transaction log primarily supports:",
+      "options": [
+        "Database recovery",
+        "Screen animation",
+        "DNS lookup",
+        "Image compression"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Logs support redo/undo recovery after failures.",
+        "Incorrect. The keyed answer is A (Database recovery). Logs support redo/undo recovery after failures.",
+        "Incorrect. The keyed answer is A (Database recovery). Logs support redo/undo recovery after failures.",
+        "Incorrect. The keyed answer is A (Database recovery). Logs support redo/undo recovery after failures."
+      ],
+      "basis": "Official Paper II syllabus; topic: Information Systems & Software Engineering."
+    },
+    {
+      "id": "P2-B002-060",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems & Software Engineering",
+      "subtopic": "Information Systems",
+      "difficulty": "moderate",
+      "stem": "In RBAC, permissions are generally assigned to:",
+      "options": [
+        "Roles, then roles to users",
+        "IP addresses only",
+        "Sessions only",
+        "Files without principals"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. RBAC assigns permissions to roles and users to roles.",
+        "Incorrect. The keyed answer is A (Roles, then roles to users). RBAC assigns permissions to roles and users to roles.",
+        "Incorrect. The keyed answer is A (Roles, then roles to users). RBAC assigns permissions to roles and users to roles.",
+        "Incorrect. The keyed answer is A (Roles, then roles to users). RBAC assigns permissions to roles and users to roles."
+      ],
+      "basis": "Official Paper II syllabus; topic: Information Systems & Software Engineering."
     }
   ],
   "qualityNote": "Batch 001 added after structural validation, answer-index/option consistency checks, exact-stem comparison against the existing bank, and one duplicate-concept replacement. Batch 001 contributes 40 Paper I and 60 Paper II questions. Semantic overlap beyond flagged exact matches still requires subject-matter review; browser end-to-end testing and production deployment must be verified separately.",
