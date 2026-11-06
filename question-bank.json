@@ -5917,6 +5917,236 @@
         "This is not the combined-work time."
       ],
       "basis": "Paper I syllabus: Analytical ability; time and work."
+    },
+    {
+      "id": "P2-NEW-085",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Pumping lemma",
+      "difficulty": "advanced",
+      "stem": "The pumping lemma for regular languages is primarily used to:",
+      "options": [
+        "Prove that every language is regular",
+        "Prove that certain languages are not regular",
+        "Construct a minimal DFA directly",
+        "Decide every context-free language"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The lemma is a necessary property of regular languages, not proof that every language is regular.",
+        "Correct: contradiction with the pumping property can show a language is non-regular.",
+        "It is not a direct DFA minimization algorithm.",
+        "It does not decide every context-free language."
+      ],
+      "basis": "Paper II syllabus: Theory of Computation; pumping lemma."
+    },
+    {
+      "id": "P2-NEW-086",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "FIRST and FOLLOW",
+      "difficulty": "advanced",
+      "stem": "If a nonterminal A can derive ε, then FOLLOW(A) is used in an LL(1) parsing table for a production A→α when:",
+      "options": [
+        "α cannot derive ε",
+        "α can derive ε",
+        "A is the start symbol only",
+        "The grammar has left recursion"
+      ],
+      "answer": 1,
+      "explanations": [
+        "For a non-nullable α, entries are based on FIRST(α).",
+        "Correct: when α is nullable, A→α is placed under symbols in FOLLOW(A).",
+        "The rule applies to nullable productions generally, not only the start symbol.",
+        "Left recursion is not a condition for this rule."
+      ],
+      "basis": "Paper II syllabus: Compiler Design; predictive parsing."
+    },
+    {
+      "id": "P2-NEW-087",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Page replacement",
+      "difficulty": "advanced",
+      "stem": "Belady's anomaly is classically associated with which page replacement algorithm?",
+      "options": [
+        "LRU",
+        "Optimal",
+        "FIFO",
+        "Stack algorithm"
+      ],
+      "answer": 2,
+      "explanations": [
+        "LRU is a stack algorithm and does not exhibit Belady's anomaly.",
+        "Optimal is also a stack algorithm.",
+        "Correct: FIFO can have more page faults when the number of frames increases.",
+        "Stack algorithms do not exhibit this anomaly."
+      ],
+      "basis": "Paper II syllabus: Operating Systems; page replacement."
+    },
+    {
+      "id": "P2-NEW-088",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Relational algebra",
+      "difficulty": "advanced",
+      "stem": "The relational algebra operation that selects rows satisfying a predicate is:",
+      "options": [
+        "Projection",
+        "Selection",
+        "Join",
+        "Rename"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Projection selects columns.",
+        "Correct: selection (σ) filters tuples by a condition.",
+        "Join combines related tuples from relations.",
+        "Rename changes relation or attribute names."
+      ],
+      "basis": "Paper II syllabus: Databases; relational algebra."
+    },
+    {
+      "id": "P2-NEW-089",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Software process models",
+      "difficulty": "advanced",
+      "stem": "In the spiral model, each cycle is strongly characterized by:",
+      "options": [
+        "Risk analysis and risk-driven planning",
+        "A prohibition on prototyping",
+        "A single final test phase only",
+        "No customer evaluation"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: risk identification and mitigation are central to each spiral cycle.",
+        "Prototyping may be used to reduce risk.",
+        "Testing and evaluation occur across cycles, not only at the end.",
+        "Customer evaluation and feedback can inform iterations."
+      ],
+      "basis": "Paper II syllabus: Information Systems and Software Engineering; process models."
+    },
+    {
+      "id": "P2-NEW-090",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Ethernet",
+      "difficulty": "advanced",
+      "stem": "The standard MAC address length in Ethernet is:",
+      "options": [
+        "32 bits",
+        "48 bits",
+        "64 bits",
+        "128 bits"
+      ],
+      "answer": 1,
+      "explanations": [
+        "32 bits is the common IPv4 address length.",
+        "Correct: Ethernet MAC addresses are 48 bits.",
+        "64 bits is not the standard Ethernet MAC length.",
+        "128 bits is the IPv6 address length."
+      ],
+      "basis": "Paper II syllabus: Computer Networks; Ethernet and MAC addressing."
+    },
+    {
+      "id": "P2-NEW-091",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "CSS",
+      "difficulty": "advanced",
+      "stem": "In CSS, which selector has the highest specificity among these?",
+      "options": [
+        "Element selector p",
+        "Class selector .note",
+        "ID selector #main",
+        "Universal selector *"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Element selectors have lower specificity.",
+        "Class selectors have lower specificity than ID selectors.",
+        "Correct: an ID selector has higher specificity than class and element selectors.",
+        "The universal selector contributes zero specificity."
+      ],
+      "basis": "Paper II syllabus: Web Technologies; CSS selectors."
+    },
+    {
+      "id": "P1-NEW-037",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Physics",
+      "difficulty": "advanced",
+      "stem": "The SI unit of electrical resistance is:",
+      "options": [
+        "Volt",
+        "Ampere",
+        "Ohm",
+        "Watt"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Volt measures potential difference.",
+        "Ampere measures electric current.",
+        "Correct: resistance is measured in ohms.",
+        "Watt measures power."
+      ],
+      "basis": "Paper I syllabus: General Science; physics."
+    },
+    {
+      "id": "P1-NEW-038",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Indian National Congress",
+      "difficulty": "advanced",
+      "stem": "The Indian National Congress was founded in 1885. Its first session was held in:",
+      "options": [
+        "Calcutta",
+        "Bombay",
+        "Madras",
+        "Allahabad"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The first session was not held in Calcutta.",
+        "Correct: the first session was held in Bombay in December 1885.",
+        "Madras hosted later sessions.",
+        "Allahabad was not the venue of the first session."
+      ],
+      "basis": "Paper I syllabus: Modern Indian history and national movement."
+    },
+    {
+      "id": "P1-NEW-039",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "Parts of speech",
+      "difficulty": "advanced",
+      "stem": "In the sentence 'She spoke softly', the word 'softly' is a/an:",
+      "options": [
+        "Noun",
+        "Adjective",
+        "Adverb",
+        "Preposition"
+      ],
+      "answer": 2,
+      "explanations": [
+        "A noun names a person, place, thing or idea.",
+        "An adjective modifies a noun.",
+        "Correct: 'softly' modifies the verb 'spoke'.",
+        "A preposition expresses a relationship between words."
+      ],
+      "basis": "Paper I syllabus: Basic English."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
