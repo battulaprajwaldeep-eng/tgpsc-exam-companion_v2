@@ -7527,6 +7527,236 @@
         "18% is not the calculated rate."
       ],
       "basis": "Paper I syllabus: Analytical ability; profit and loss."
+    },
+    {
+      "id": "P2-NEW-134",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Poisson distribution",
+      "difficulty": "advanced",
+      "stem": "If X follows a Poisson distribution with parameter λ=2, then P(X=0) is:",
+      "options": [
+        "e⁻²",
+        "2e⁻²",
+        "1−e⁻²",
+        "e²"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: P(X=0)=e⁻λ λ⁰/0!=e⁻².",
+        "This is P(X=1).",
+        "This is not the zero-event probability.",
+        "The exponent sign is incorrect."
+      ],
+      "basis": "Paper II syllabus: Probability and Statistics; Poisson distribution."
+    },
+    {
+      "id": "P2-NEW-135",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Eigenvalues",
+      "difficulty": "advanced",
+      "stem": "If a matrix A is triangular, its eigenvalues are:",
+      "options": [
+        "Its diagonal entries",
+        "Its row sums only",
+        "Its off-diagonal entries",
+        "Always all equal to zero"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: the characteristic polynomial of a triangular matrix is the product of (diagonal entry−λ).",
+        "Row sums are not generally eigenvalues.",
+        "Off-diagonal entries do not determine the eigenvalues of a triangular matrix.",
+        "Triangular matrices need not be zero matrices."
+      ],
+      "basis": "Paper II syllabus: Linear Algebra; eigenvalues."
+    },
+    {
+      "id": "P2-NEW-136",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Graph degree",
+      "difficulty": "advanced",
+      "stem": "By the handshaking lemma, the sum of degrees of all vertices in a finite undirected graph equals:",
+      "options": [
+        "E",
+        "2E",
+        "V",
+        "V−1"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Each edge contributes two to the total degree.",
+        "Correct: the sum of degrees is twice the number of edges.",
+        "The number of vertices is not the degree sum.",
+        "V−1 is the edge count only for trees."
+      ],
+      "basis": "Paper II syllabus: Graph Theory; degree properties."
+    },
+    {
+      "id": "P2-NEW-137",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Flip-flops",
+      "difficulty": "advanced",
+      "stem": "Which flip-flop is commonly used as a one-bit storage element and has a single data input D?",
+      "options": [
+        "SR flip-flop",
+        "D flip-flop",
+        "JK flip-flop",
+        "T flip-flop"
+      ],
+      "answer": 1,
+      "explanations": [
+        "An SR flip-flop has set and reset inputs.",
+        "Correct: the D flip-flop captures its D input at the active clock edge.",
+        "A JK flip-flop has J and K inputs.",
+        "A T flip-flop has a toggle input."
+      ],
+      "basis": "Paper II syllabus: Digital Logic; sequential circuits."
+    },
+    {
+      "id": "P2-NEW-138",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache mapping",
+      "difficulty": "advanced",
+      "stem": "In a fully associative cache, a main-memory block:",
+      "options": [
+        "Can be placed in any cache line",
+        "Maps to exactly one fixed cache line",
+        "Can be stored only in line zero",
+        "Cannot be cached"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: any block may occupy any cache line, subject to replacement policy.",
+        "That describes direct mapping.",
+        "There is no fixed line-zero restriction.",
+        "Fully associative caches are designed to cache blocks."
+      ],
+      "basis": "Paper II syllabus: COA; cache mapping techniques."
+    },
+    {
+      "id": "P2-NEW-139",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Complexity of data structures",
+      "difficulty": "advanced",
+      "stem": "In a singly linked list, accessing the kth element by position takes worst-case:",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(k), hence O(n)",
+        "O(n log n)"
+      ],
+      "answer": 2,
+      "explanations": [
+        "There is no direct random access by index.",
+        "A linked list does not support binary search by position.",
+        "Correct: traversal from the head may visit k nodes; worst case is linear.",
+        "The traversal does not require sorting."
+      ],
+      "basis": "Paper II syllabus: Data Structures; linked lists and complexity."
+    },
+    {
+      "id": "P2-NEW-140",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Shortest paths",
+      "difficulty": "advanced",
+      "stem": "The Floyd–Warshall algorithm computes:",
+      "options": [
+        "Single-source shortest paths only",
+        "All-pairs shortest paths",
+        "A minimum spanning tree",
+        "A topological ordering"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Dijkstra and Bellman-Ford are single-source algorithms.",
+        "Correct: Floyd–Warshall computes shortest paths between all pairs of vertices.",
+        "Prim and Kruskal compute MSTs.",
+        "Topological sorting is a different graph problem."
+      ],
+      "basis": "Paper II syllabus: Algorithms; all-pairs shortest paths."
+    },
+    {
+      "id": "P1-NEW-058",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Human development",
+      "difficulty": "advanced",
+      "stem": "The Human Development Index combines indicators relating to:",
+      "options": [
+        "Health, education and standard of living",
+        "Exports, imports and exchange rates",
+        "Rainfall, soil and forest cover",
+        "Only per-capita income"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: HDI combines life expectancy, education and GNI per capita.",
+        "These are trade indicators, not HDI dimensions.",
+        "These are environmental/geographical indicators.",
+        "Income is only one dimension of HDI."
+      ],
+      "basis": "Paper I syllabus: Economic and social development."
+    },
+    {
+      "id": "P1-NEW-059",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Fundamental duties",
+      "difficulty": "advanced",
+      "stem": "Fundamental Duties were added to the Constitution by the:",
+      "options": [
+        "42nd Constitutional Amendment",
+        "44th Constitutional Amendment",
+        "52nd Constitutional Amendment",
+        "73rd Constitutional Amendment"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: the 42nd Amendment Act, 1976 added Fundamental Duties.",
+        "The 44th Amendment made other important changes after the Emergency.",
+        "The 52nd Amendment relates to anti-defection.",
+        "The 73rd Amendment concerns Panchayati Raj institutions."
+      ],
+      "basis": "Paper I syllabus: Indian Constitution; Fundamental Duties."
+    },
+    {
+      "id": "P1-NEW-060",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Calendar reasoning",
+      "difficulty": "advanced",
+      "stem": "If today is Tuesday, what day of the week will it be 100 days later?",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "answer": 1,
+      "explanations": [
+        "100 mod 7=2; Tuesday plus two days is Thursday.",
+        "Correct: the remainder is 2, so Thursday.",
+        "Friday would be three days later.",
+        "Saturday would be four days later."
+      ],
+      "basis": "Paper I syllabus: Logical reasoning; calendar problems."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
