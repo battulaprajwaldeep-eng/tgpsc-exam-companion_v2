@@ -5687,6 +5687,2306 @@
         "Adilabad is in northern Telangana."
       ],
       "basis": "Paper I: Telangana culture and heritage."
+    },
+    {
+      "id": "P2-NEW-078",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Joint distributions",
+      "difficulty": "advanced",
+      "stem": "For discrete random variables X and Y, independence is equivalent to:",
+      "options": [
+        "P(X=x,Y=y)=P(X=x)+P(Y=y) for all x,y",
+        "P(X=x,Y=y)=P(X=x)P(Y=y) for all x,y",
+        "E[XY]=0 for all distributions",
+        "Cov(X,Y)=1"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Adding probabilities is not the independence condition.",
+        "Correct: the joint probability factors into the product of marginals for every pair of values.",
+        "Zero product expectation is not generally equivalent to independence.",
+        "Covariance is not fixed at one under independence."
+      ],
+      "basis": "Paper II syllabus: Probability and Statistics; joint distributions and independence."
+    },
+    {
+      "id": "P2-NEW-079",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Orthogonality",
+      "difficulty": "advanced",
+      "stem": "If two non-zero vectors u and v are orthogonal under the usual Euclidean inner product, then:",
+      "options": [
+        "u·v=1",
+        "u·v=0",
+        "u=v",
+        "u is a scalar multiple of v"
+      ],
+      "answer": 1,
+      "explanations": [
+        "An inner product of 1 is not the orthogonality condition.",
+        "Correct: orthogonal vectors have zero dot product.",
+        "They need not be equal.",
+        "Non-zero scalar multiples are parallel, not orthogonal."
+      ],
+      "basis": "Paper II syllabus: Linear Algebra; inner products and orthogonality."
+    },
+    {
+      "id": "P2-NEW-080",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Spanning trees",
+      "difficulty": "advanced",
+      "stem": "A connected graph with V vertices has how many edges in any spanning tree?",
+      "options": [
+        "V",
+        "V−1",
+        "V+1",
+        "2V"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A tree has one fewer edge than vertices.",
+        "Correct: every spanning tree on V vertices has V−1 edges.",
+        "A connected graph may have V+1 edges, but its spanning tree does not.",
+        "This is not the tree edge count."
+      ],
+      "basis": "Paper II syllabus: Graph Theory; spanning trees."
+    },
+    {
+      "id": "P2-NEW-081",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Adders",
+      "difficulty": "advanced",
+      "stem": "For a full adder with inputs A, B and Cin, the SUM output is:",
+      "options": [
+        "A⊕B⊕Cin",
+        "AB+Cin",
+        "A+B+Cin using OR",
+        "A⊙B⊙Cin"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: the sum bit is the XOR of all three input bits.",
+        "This is not the sum function.",
+        "OR does not account for binary addition parity.",
+        "XNOR gives the complement parity for three inputs."
+      ],
+      "basis": "Paper II syllabus: Digital Logic; arithmetic circuits."
+    },
+    {
+      "id": "P2-NEW-082",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache performance",
+      "difficulty": "advanced",
+      "stem": "A processor has cache hit time 2 ns, miss rate 5%, and miss penalty 40 ns. Using AMAT = hit time + miss rate × miss penalty, the AMAT is:",
+      "options": [
+        "2 ns",
+        "4 ns",
+        "40 ns",
+        "42 ns"
+      ],
+      "answer": 1,
+      "explanations": [
+        "This omits the miss penalty contribution.",
+        "Correct: 2 + 0.05×40 = 4 ns.",
+        "40 ns is the miss penalty alone.",
+        "42 ns adds the full penalty on every access."
+      ],
+      "basis": "Paper II syllabus: COA; cache performance and average memory access time."
+    },
+    {
+      "id": "P2-NEW-083",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C language storage classes",
+      "difficulty": "advanced",
+      "stem": "A local variable declared static inside a C function:",
+      "options": [
+        "Is re-created and initialized on every call",
+        "Retains its value between function calls",
+        "Is visible in every source file",
+        "Must be stored in a CPU register"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Its storage duration is static, not automatic per invocation.",
+        "Correct: it retains its value for the program's lifetime while its scope remains local.",
+        "Its name scope is limited to the block.",
+        "The register keyword is unrelated and cannot be required."
+      ],
+      "basis": "Paper II syllabus: Programming in C; storage classes and scope."
+    },
+    {
+      "id": "P2-NEW-084",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Minimum spanning trees",
+      "difficulty": "advanced",
+      "stem": "If all edge weights in a connected graph are distinct, its minimum spanning tree is:",
+      "options": [
+        "Always non-unique",
+        "Unique",
+        "A Hamiltonian cycle",
+        "A maximum spanning tree"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Distinct weights ensure a unique MST.",
+        "Correct: distinct edge weights guarantee a unique minimum spanning tree.",
+        "An MST is a tree, not a cycle through every vertex.",
+        "Minimum and maximum spanning trees are different optimization problems."
+      ],
+      "basis": "Paper II syllabus: Algorithms; minimum spanning trees."
+    },
+    {
+      "id": "P1-NEW-034",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitutional offices",
+      "difficulty": "advanced",
+      "stem": "Who administers the oath of office to the President of India?",
+      "options": [
+        "Prime Minister",
+        "Chief Justice of India, or in their absence the senior-most available Supreme Court judge",
+        "Speaker of Lok Sabha",
+        "Vice-President"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The Prime Minister does not administer this oath.",
+        "Correct: Article 60 provides for the Chief Justice of India, or the senior-most available Supreme Court judge.",
+        "The Speaker has no such role.",
+        "The Vice-President does not administer the President's oath."
+      ],
+      "basis": "Paper I syllabus: Indian Constitution; President of India."
+    },
+    {
+      "id": "P1-NEW-035",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "Physical, Social and Economic Geography of India",
+      "subtopic": "Indian soils",
+      "difficulty": "advanced",
+      "stem": "Black soil is particularly suitable for the cultivation of:",
+      "options": [
+        "Tea",
+        "Cotton",
+        "Jute",
+        "Coconut"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Tea is commonly associated with acidic, well-drained soils and suitable hill climates.",
+        "Correct: black cotton soil retains moisture and is well suited to cotton.",
+        "Jute is associated with alluvial soils in humid regions.",
+        "Coconut is generally cultivated in coastal tropical conditions."
+      ],
+      "basis": "Paper I syllabus: Physical and economic geography of India."
+    },
+    {
+      "id": "P1-NEW-036",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Time and work",
+      "difficulty": "advanced",
+      "stem": "A can complete a job in 12 days and B in 18 days. Working together at constant rates, they complete it in:",
+      "options": [
+        "6 days",
+        "7.2 days",
+        "8 days",
+        "15 days"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Their combined rate is 1/12+1/18=5/36, so time is 36/5 days.",
+        "Correct: 36/5 = 7.2 days.",
+        "Eight days is not the reciprocal of the combined rate.",
+        "This is not the combined-work time."
+      ],
+      "basis": "Paper I syllabus: Analytical ability; time and work."
+    },
+    {
+      "id": "P2-NEW-085",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Pumping lemma",
+      "difficulty": "advanced",
+      "stem": "The pumping lemma for regular languages is primarily used to:",
+      "options": [
+        "Prove that every language is regular",
+        "Prove that certain languages are not regular",
+        "Construct a minimal DFA directly",
+        "Decide every context-free language"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The lemma is a necessary property of regular languages, not proof that every language is regular.",
+        "Correct: contradiction with the pumping property can show a language is non-regular.",
+        "It is not a direct DFA minimization algorithm.",
+        "It does not decide every context-free language."
+      ],
+      "basis": "Paper II syllabus: Theory of Computation; pumping lemma."
+    },
+    {
+      "id": "P2-NEW-086",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "FIRST and FOLLOW",
+      "difficulty": "advanced",
+      "stem": "If a nonterminal A can derive ε, then FOLLOW(A) is used in an LL(1) parsing table for a production A→α when:",
+      "options": [
+        "α cannot derive ε",
+        "α can derive ε",
+        "A is the start symbol only",
+        "The grammar has left recursion"
+      ],
+      "answer": 1,
+      "explanations": [
+        "For a non-nullable α, entries are based on FIRST(α).",
+        "Correct: when α is nullable, A→α is placed under symbols in FOLLOW(A).",
+        "The rule applies to nullable productions generally, not only the start symbol.",
+        "Left recursion is not a condition for this rule."
+      ],
+      "basis": "Paper II syllabus: Compiler Design; predictive parsing."
+    },
+    {
+      "id": "P2-NEW-087",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Page replacement",
+      "difficulty": "advanced",
+      "stem": "Belady's anomaly is classically associated with which page replacement algorithm?",
+      "options": [
+        "LRU",
+        "Optimal",
+        "FIFO",
+        "Stack algorithm"
+      ],
+      "answer": 2,
+      "explanations": [
+        "LRU is a stack algorithm and does not exhibit Belady's anomaly.",
+        "Optimal is also a stack algorithm.",
+        "Correct: FIFO can have more page faults when the number of frames increases.",
+        "Stack algorithms do not exhibit this anomaly."
+      ],
+      "basis": "Paper II syllabus: Operating Systems; page replacement."
+    },
+    {
+      "id": "P2-NEW-088",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Relational algebra",
+      "difficulty": "advanced",
+      "stem": "The relational algebra operation that selects rows satisfying a predicate is:",
+      "options": [
+        "Projection",
+        "Selection",
+        "Join",
+        "Rename"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Projection selects columns.",
+        "Correct: selection (σ) filters tuples by a condition.",
+        "Join combines related tuples from relations.",
+        "Rename changes relation or attribute names."
+      ],
+      "basis": "Paper II syllabus: Databases; relational algebra."
+    },
+    {
+      "id": "P2-NEW-089",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Software process models",
+      "difficulty": "advanced",
+      "stem": "In the spiral model, each cycle is strongly characterized by:",
+      "options": [
+        "Risk analysis and risk-driven planning",
+        "A prohibition on prototyping",
+        "A single final test phase only",
+        "No customer evaluation"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: risk identification and mitigation are central to each spiral cycle.",
+        "Prototyping may be used to reduce risk.",
+        "Testing and evaluation occur across cycles, not only at the end.",
+        "Customer evaluation and feedback can inform iterations."
+      ],
+      "basis": "Paper II syllabus: Information Systems and Software Engineering; process models."
+    },
+    {
+      "id": "P2-NEW-090",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Ethernet",
+      "difficulty": "advanced",
+      "stem": "The standard MAC address length in Ethernet is:",
+      "options": [
+        "32 bits",
+        "48 bits",
+        "64 bits",
+        "128 bits"
+      ],
+      "answer": 1,
+      "explanations": [
+        "32 bits is the common IPv4 address length.",
+        "Correct: Ethernet MAC addresses are 48 bits.",
+        "64 bits is not the standard Ethernet MAC length.",
+        "128 bits is the IPv6 address length."
+      ],
+      "basis": "Paper II syllabus: Computer Networks; Ethernet and MAC addressing."
+    },
+    {
+      "id": "P2-NEW-091",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "CSS",
+      "difficulty": "advanced",
+      "stem": "In CSS, which selector has the highest specificity among these?",
+      "options": [
+        "Element selector p",
+        "Class selector .note",
+        "ID selector #main",
+        "Universal selector *"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Element selectors have lower specificity.",
+        "Class selectors have lower specificity than ID selectors.",
+        "Correct: an ID selector has higher specificity than class and element selectors.",
+        "The universal selector contributes zero specificity."
+      ],
+      "basis": "Paper II syllabus: Web Technologies; CSS selectors."
+    },
+    {
+      "id": "P1-NEW-037",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Physics",
+      "difficulty": "advanced",
+      "stem": "The SI unit of electrical resistance is:",
+      "options": [
+        "Volt",
+        "Ampere",
+        "Ohm",
+        "Watt"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Volt measures potential difference.",
+        "Ampere measures electric current.",
+        "Correct: resistance is measured in ohms.",
+        "Watt measures power."
+      ],
+      "basis": "Paper I syllabus: General Science; physics."
+    },
+    {
+      "id": "P1-NEW-038",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Indian National Congress",
+      "difficulty": "advanced",
+      "stem": "The Indian National Congress was founded in 1885. Its first session was held in:",
+      "options": [
+        "Calcutta",
+        "Bombay",
+        "Madras",
+        "Allahabad"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The first session was not held in Calcutta.",
+        "Correct: the first session was held in Bombay in December 1885.",
+        "Madras hosted later sessions.",
+        "Allahabad was not the venue of the first session."
+      ],
+      "basis": "Paper I syllabus: Modern Indian history and national movement."
+    },
+    {
+      "id": "P1-NEW-039",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "Parts of speech",
+      "difficulty": "advanced",
+      "stem": "In the sentence 'She spoke softly', the word 'softly' is a/an:",
+      "options": [
+        "Noun",
+        "Adjective",
+        "Adverb",
+        "Preposition"
+      ],
+      "answer": 2,
+      "explanations": [
+        "A noun names a person, place, thing or idea.",
+        "An adjective modifies a noun.",
+        "Correct: 'softly' modifies the verb 'spoke'.",
+        "A preposition expresses a relationship between words."
+      ],
+      "basis": "Paper I syllabus: Basic English."
+    },
+    {
+      "id": "P2-NEW-092",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Expectation",
+      "difficulty": "moderate",
+      "stem": "If E(X)=4 and E(Y)=3, then E(2X−3Y+5) equals:",
+      "options": [
+        "−2",
+        "4",
+        "6",
+        "10"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The expression evaluates to 4, not −2.",
+        "Correct: by linearity, 2(4)−3(3)+5=8−9+5=4.",
+        "The result is 4.",
+        "The result is 4."
+      ],
+      "basis": "Paper II syllabus: Probability and Statistics; linearity of expectation."
+    },
+    {
+      "id": "P2-NEW-093",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Matrix multiplication",
+      "difficulty": "moderate",
+      "stem": "For matrices A of order 2×3 and B of order 3×4, the order of AB is:",
+      "options": [
+        "2×4",
+        "3×3",
+        "4×2",
+        "2×3"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: inner dimensions 3 match; the product has outer dimensions 2×4.",
+        "The product is not 3×3.",
+        "The order is not reversed.",
+        "The result has 2 rows and 4 columns."
+      ],
+      "basis": "Paper II syllabus: Linear Algebra; matrix operations."
+    },
+    {
+      "id": "P2-NEW-094",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Trees",
+      "difficulty": "moderate",
+      "stem": "A tree with 15 vertices has how many edges?",
+      "options": [
+        "14",
+        "15",
+        "16",
+        "30"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: a tree with n vertices has n−1 edges, hence 14.",
+        "A tree has one fewer edge than vertices.",
+        "A tree cannot have n+1 edges.",
+        "A tree has n−1 edges, not 2n."
+      ],
+      "basis": "Paper II syllabus: Graph Theory; tree properties."
+    },
+    {
+      "id": "P2-NEW-095",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Boolean algebra",
+      "difficulty": "moderate",
+      "stem": "Using De Morgan's law, the complement of (A+B) is:",
+      "options": [
+        "A' + B'",
+        "A'B'",
+        "AB",
+        "A+B"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The complement of a sum is the product of complements.",
+        "Correct: (A+B)'=A'B'.",
+        "AB is not the complement expression.",
+        "This is the original expression."
+      ],
+      "basis": "Paper II syllabus: Digital Logic; Boolean algebra."
+    },
+    {
+      "id": "P2-NEW-096",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Instruction execution",
+      "difficulty": "moderate",
+      "stem": "The Program Counter (PC) normally contains:",
+      "options": [
+        "The address of the next instruction to be fetched",
+        "The result of the ALU operation",
+        "The current stack contents",
+        "The memory data register value"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: PC holds the address used to fetch the next instruction (subject to architecture-specific sequencing).",
+        "The ALU result is held in a general register or result path.",
+        "The stack is in memory and tracked by a stack pointer.",
+        "The MDR holds data transferred to/from memory."
+      ],
+      "basis": "Paper II syllabus: COA; CPU registers and instruction cycle."
+    },
+    {
+      "id": "P2-NEW-097",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C language",
+      "difficulty": "moderate",
+      "stem": "What is the value of the expression 7/2 in C when both operands are of type int?",
+      "options": [
+        "3",
+        "3.5",
+        "4",
+        "2"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: integer division truncates the fractional part, yielding 3.",
+        "3.5 would result from floating-point division.",
+        "Integer division does not round to nearest.",
+        "The quotient is 3."
+      ],
+      "basis": "Paper II syllabus: Programming in C; expressions and type conversion."
+    },
+    {
+      "id": "P2-NEW-098",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Asymptotic notation",
+      "difficulty": "moderate",
+      "stem": "If f(n)=O(g(n)) and g(n)=O(h(n)), then:",
+      "options": [
+        "f(n)=Ω(h(n))",
+        "f(n)=O(h(n))",
+        "h(n)=O(f(n)) always",
+        "f(n)=Θ(h(n)) always"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Upper-bound transitivity does not imply a lower bound.",
+        "Correct: Big-O is transitive.",
+        "The reverse upper bound does not follow.",
+        "Matching lower and upper bounds are not guaranteed."
+      ],
+      "basis": "Paper II syllabus: Algorithms; asymptotic notation."
+    },
+    {
+      "id": "P1-NEW-040",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Fiscal policy",
+      "difficulty": "moderate",
+      "stem": "A fiscal deficit broadly represents:",
+      "options": [
+        "Government total expenditure minus total receipts excluding borrowings",
+        "Exports minus imports",
+        "Revenue receipts minus revenue expenditure",
+        "Tax revenue alone"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: fiscal deficit is total expenditure less receipts excluding borrowings.",
+        "That is the trade balance.",
+        "That is related to revenue deficit with sign reversed.",
+        "Tax revenue is only one receipt component."
+      ],
+      "basis": "Paper I syllabus: Economic and social development; public finance."
+    },
+    {
+      "id": "P1-NEW-041",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Telangana districts",
+      "difficulty": "moderate",
+      "stem": "Which of the following is a major urban centre in Telangana located on the Musi River?",
+      "options": [
+        "Karimnagar",
+        "Hyderabad",
+        "Adilabad",
+        "Nizamabad"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Karimnagar is not situated on the Musi.",
+        "Correct: the Musi flows through Hyderabad.",
+        "Adilabad is not on the Musi.",
+        "Nizamabad is not on the Musi."
+      ],
+      "basis": "Paper I syllabus: Geography and demography of Telangana."
+    },
+    {
+      "id": "P1-NEW-042",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Average",
+      "difficulty": "moderate",
+      "stem": "The average of five numbers is 18. If one number, 22, is removed, the average of the remaining four is:",
+      "options": [
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Total is 90; remaining sum 68; average 17.",
+        "Correct: (5×18−22)/4=68/4=17.",
+        "This would imply a remaining sum of 72.",
+        "This would imply a remaining sum of 76."
+      ],
+      "basis": "Paper I syllabus: Analytical ability; averages."
+    },
+    {
+      "id": "P2-NEW-099",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Regular expressions",
+      "difficulty": "advanced",
+      "stem": "Over the alphabet {a,b}, which regular expression denotes all strings containing exactly one a?",
+      "options": [
+        "b*ab*",
+        "a*b*",
+        "(a+b)*a(a+b)*",
+        "ab"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: any number of b's, followed by one a, followed by any number of b's.",
+        "This permits zero or more a's and then b's.",
+        "This permits one or more a's in many strings.",
+        "This denotes only the string ab."
+      ],
+      "basis": "Paper II syllabus: TOC; regular expressions."
+    },
+    {
+      "id": "P2-NEW-100",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Symbol tables",
+      "difficulty": "advanced",
+      "stem": "A compiler symbol table is primarily used to store:",
+      "options": [
+        "Source program comments",
+        "Identifiers and their attributes",
+        "Machine code instructions only",
+        "Runtime input data"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Comments are generally removed during lexical processing.",
+        "Correct: names, types, scope, storage and related attributes are maintained.",
+        "Machine code is a later output.",
+        "Runtime input is not symbol-table content."
+      ],
+      "basis": "Paper II syllabus: Compiler Design; symbol tables."
+    },
+    {
+      "id": "P2-NEW-101",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Process states",
+      "difficulty": "advanced",
+      "stem": "A process that is waiting for an I/O operation to complete is typically in the:",
+      "options": [
+        "Running state",
+        "Ready state",
+        "Blocked/waiting state",
+        "Terminated state"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Running means currently executing on a CPU.",
+        "Ready means able to run but awaiting CPU allocation.",
+        "Correct: the process cannot proceed until the I/O event completes.",
+        "Terminated means execution has finished."
+      ],
+      "basis": "Paper II syllabus: Operating Systems; process management."
+    },
+    {
+      "id": "P2-NEW-102",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Concurrency control",
+      "difficulty": "advanced",
+      "stem": "A shared lock (S-lock) generally permits:",
+      "options": [
+        "Only one transaction to read or write the item",
+        "Multiple transactions to read the item concurrently",
+        "Any transaction to write without restriction",
+        "No transaction to access the item"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Exclusive access is associated with an X-lock.",
+        "Correct: compatible shared locks allow concurrent readers.",
+        "Writes generally require an exclusive lock.",
+        "A shared lock permits reading."
+      ],
+      "basis": "Paper II syllabus: Databases; locking protocols."
+    },
+    {
+      "id": "P2-NEW-103",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Requirements engineering",
+      "difficulty": "advanced",
+      "stem": "A requirement stating that the system must respond within two seconds is primarily:",
+      "options": [
+        "Functional requirement",
+        "Non-functional performance requirement",
+        "Use-case actor",
+        "Database constraint"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A functional requirement describes system behavior or services.",
+        "Correct: response-time limits specify performance quality.",
+        "An actor is an external role interacting with a system.",
+        "A database constraint enforces data integrity."
+      ],
+      "basis": "Paper II syllabus: Software Engineering; requirements analysis."
+    },
+    {
+      "id": "P2-NEW-104",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "IPv4 addressing",
+      "difficulty": "advanced",
+      "stem": "An IPv4 address contains:",
+      "options": [
+        "16 bits",
+        "32 bits",
+        "48 bits",
+        "128 bits"
+      ],
+      "answer": 1,
+      "explanations": [
+        "16 bits is not IPv4 length.",
+        "Correct: IPv4 addresses are 32 bits.",
+        "48 bits is the common Ethernet MAC address length.",
+        "128 bits is IPv6 address length."
+      ],
+      "basis": "Paper II syllabus: Computer Networks; IP addressing."
+    },
+    {
+      "id": "P2-NEW-105",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "JavaScript",
+      "difficulty": "advanced",
+      "stem": "Which JavaScript method converts a JSON-formatted string into a JavaScript value?",
+      "options": [
+        "JSON.stringify()",
+        "JSON.parse()",
+        "JSON.encode()",
+        "JSON.object()"
+      ],
+      "answer": 1,
+      "explanations": [
+        "stringify converts a JavaScript value into a JSON string.",
+        "Correct: parse reads JSON text and creates the corresponding JavaScript value.",
+        "There is no standard JSON.encode method.",
+        "There is no standard JSON.object method."
+      ],
+      "basis": "Paper II syllabus: Web Technologies; JavaScript and JSON."
+    },
+    {
+      "id": "P1-NEW-043",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana",
+      "subtopic": "Telangana history",
+      "difficulty": "advanced",
+      "stem": "The Telangana region was part of which princely state before the integration of Hyderabad State into the Indian Union?",
+      "options": [
+        "Mysore",
+        "Hyderabad",
+        "Travancore",
+        "Baroda"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Mysore was a separate princely state.",
+        "Correct: the Telangana region formed part of the erstwhile Hyderabad State.",
+        "Travancore was in the south-western region.",
+        "Baroda was a separate princely state."
+      ],
+      "basis": "Paper I syllabus: Telangana political and cultural history."
+    },
+    {
+      "id": "P1-NEW-044",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Parliamentary government",
+      "difficulty": "advanced",
+      "stem": "The Council of Ministers at the Union level is collectively responsible to:",
+      "options": [
+        "President",
+        "Lok Sabha",
+        "Rajya Sabha",
+        "Supreme Court"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The President appoints the Prime Minister and ministers, but collective responsibility is to Lok Sabha.",
+        "Correct: Article 75(3) provides collective responsibility to the House of the People.",
+        "Rajya Sabha is not the house to which the Council is collectively responsible.",
+        "The Supreme Court is not a confidence chamber."
+      ],
+      "basis": "Paper I syllabus: Indian political system and governance."
+    },
+    {
+      "id": "P1-NEW-045",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Direction sense",
+      "difficulty": "advanced",
+      "stem": "A person walks 4 km north, then 3 km east. What is the shortest distance from the starting point?",
+      "options": [
+        "5 km",
+        "7 km",
+        "1 km",
+        "4 km"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: by Pythagoras, √(4²+3²)=5 km.",
+        "The path length is 7 km, not straight-line distance.",
+        "The difference of legs is not the distance.",
+        "The northward displacement alone is 4 km."
+      ],
+      "basis": "Paper I syllabus: Logical reasoning; direction and distance."
+    },
+    {
+      "id": "P2-NEW-106",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Variance",
+      "difficulty": "advanced",
+      "stem": "If Var(X)=9, then Var(3X+2) is:",
+      "options": [
+        "11",
+        "27",
+        "81",
+        "83"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Adding 2 does not change variance; 9 is not the answer after scaling.",
+        "Variance scales by the square of 3, not by 3.",
+        "Correct: Var(aX+b)=a²Var(X)=9×9=81.",
+        "83 incorrectly adds the constant 2."
+      ],
+      "basis": "Paper II syllabus: Probability and Statistics; variance properties."
+    },
+    {
+      "id": "P2-NEW-107",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Linear transformations",
+      "difficulty": "advanced",
+      "stem": "A linear transformation T satisfies which pair of properties for all vectors u,v and scalar c?",
+      "options": [
+        "T(u+v)=T(u)+T(v) and T(cu)=cT(u)",
+        "T(u+v)=T(u)T(v) and T(cu)=T(u)+c",
+        "T(u)=u²",
+        "T(0)=1"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: additivity and homogeneity define linearity.",
+        "Multiplication of outputs is not the defining property.",
+        "Squaring is generally nonlinear.",
+        "Every linear transformation maps zero to zero."
+      ],
+      "basis": "Paper II syllabus: Linear Algebra; linear transformations."
+    },
+    {
+      "id": "P2-NEW-108",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Planar graphs",
+      "difficulty": "advanced",
+      "stem": "For a connected planar graph, Euler's formula is:",
+      "options": [
+        "V−E+F=2",
+        "V+E+F=2",
+        "V−E−F=0",
+        "V×E=F"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: for a connected planar embedding, V−E+F=2.",
+        "This is not Euler's formula.",
+        "The standard identity is equal to 2.",
+        "There is no such product identity."
+      ],
+      "basis": "Paper II syllabus: Graph Theory; planar graphs."
+    },
+    {
+      "id": "P2-NEW-109",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Counters",
+      "difficulty": "advanced",
+      "stem": "A 4-bit binary counter can represent how many distinct states?",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "32"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Four is the number of bits, not states.",
+        "Eight states require 3 bits.",
+        "Correct: 2^4=16 distinct states.",
+        "Thirty-two states require 5 bits."
+      ],
+      "basis": "Paper II syllabus: Digital Logic; counters and sequential circuits."
+    },
+    {
+      "id": "P2-NEW-110",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Interrupts",
+      "difficulty": "advanced",
+      "stem": "An interrupt is best described as:",
+      "options": [
+        "A signal that causes the processor to suspend its current flow and service an event",
+        "A permanent increase in clock frequency",
+        "A type of cache memory",
+        "A compiler optimization"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: an interrupt causes control to transfer to an interrupt service routine, subject to architecture and priority.",
+        "It does not alter clock frequency permanently.",
+        "It is not a memory structure.",
+        "It is a hardware/software event mechanism, not an optimization."
+      ],
+      "basis": "Paper II syllabus: COA; interrupts and I/O."
+    },
+    {
+      "id": "P2-NEW-111",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C language arrays",
+      "difficulty": "advanced",
+      "stem": "In most expressions, the name of an array in C is converted to:",
+      "options": [
+        "The value of its last element",
+        "A pointer to its first element",
+        "The number of elements",
+        "A pointer to its last element"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Array-to-pointer conversion does not fetch the last element.",
+        "Correct: an array expression usually decays to a pointer to its first element, with specified exceptions.",
+        "The number of elements is not obtained by ordinary array decay.",
+        "The pointer refers to the first element, not the last."
+      ],
+      "basis": "Paper II syllabus: Programming in C; arrays and pointers."
+    },
+    {
+      "id": "P2-NEW-112",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Hashing",
+      "difficulty": "advanced",
+      "stem": "The expected search time in a well-designed hash table with bounded load factor is typically:",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n log n)",
+        "O(n²)"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: expected constant time under suitable hashing assumptions and controlled load factor.",
+        "Logarithmic time is typical of balanced search trees.",
+        "This is higher than expected hash lookup.",
+        "This is not the expected bound."
+      ],
+      "basis": "Paper II syllabus: Algorithms and Data Structures; hashing."
+    },
+    {
+      "id": "P1-NEW-046",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Biodiversity",
+      "difficulty": "advanced",
+      "stem": "An endemic species is one that:",
+      "options": [
+        "Occurs naturally only in a particular geographic region",
+        "Is found on every continent",
+        "Has been introduced from another country",
+        "Is necessarily extinct"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: endemic species are native and restricted to a defined region.",
+        "This contradicts restricted distribution.",
+        "Introduced species are not necessarily endemic.",
+        "Endemic species may be extant."
+      ],
+      "basis": "Paper I syllabus: Environmental issues and biodiversity."
+    },
+    {
+      "id": "P1-NEW-047",
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "subtopic": "Equality and inclusion",
+      "difficulty": "advanced",
+      "stem": "The principle of affirmative action is primarily intended to:",
+      "options": [
+        "Preserve historical disadvantage",
+        "Address structural disadvantage and improve substantive equality",
+        "Remove all constitutional rights",
+        "Replace universal public services"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Affirmative action seeks to address, not preserve, disadvantage.",
+        "Correct: it is intended to improve substantive equality for disadvantaged groups.",
+        "It does not remove constitutional rights.",
+        "It does not inherently replace universal services."
+      ],
+      "basis": "Paper I syllabus: Social exclusion and inclusive policies."
+    },
+    {
+      "id": "P1-NEW-048",
+      "paper": 1,
+      "topicId": "p1-13",
+      "topic": "Policies of Telangana State",
+      "subtopic": "Public administration",
+      "difficulty": "advanced",
+      "stem": "A government policy is most accurately described as:",
+      "options": [
+        "A course of action adopted by public authority to address a public issue",
+        "A private individual's personal preference",
+        "A court judgment in every case",
+        "A temporary rumour"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: public policy is an adopted course of action or inaction by public authority.",
+        "A private preference is not government policy.",
+        "Court judgments are one source of law, not the definition of policy.",
+        "Rumours are not policies."
+      ],
+      "basis": "Paper I syllabus: Telangana State policies and governance."
+    },
+    {
+      "id": "P2-NEW-113",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Pushdown automata",
+      "difficulty": "moderate",
+      "stem": "A pushdown automaton differs from a finite automaton primarily because it has:",
+      "options": [
+        "An unbounded tape",
+        "A stack",
+        "Two input heads",
+        "A built-in sorting unit"
+      ],
+      "answer": 1,
+      "explanations": [
+        "An unbounded tape is associated with a Turing machine.",
+        "Correct: a PDA has a stack as auxiliary memory.",
+        "Two input heads are not the defining feature.",
+        "Sorting hardware is unrelated."
+      ],
+      "basis": "Paper II syllabus: TOC; pushdown automata."
+    },
+    {
+      "id": "P2-NEW-114",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Intermediate representations",
+      "difficulty": "moderate",
+      "stem": "In three-address code, the statement x = y * z + w is commonly represented using how many three-address instructions, assuming no algebraic simplification?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A single three-address instruction permits one binary operation.",
+        "Correct: compute t1=y*z, then x=t1+w.",
+        "Three operations are not needed for two binary operators.",
+        "Four instructions are unnecessary."
+      ],
+      "basis": "Paper II syllabus: Compiler Design; three-address code."
+    },
+    {
+      "id": "P2-NEW-115",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Disk scheduling",
+      "difficulty": "moderate",
+      "stem": "Which disk scheduling algorithm services requests in the order they arrive?",
+      "options": [
+        "SSTF",
+        "SCAN",
+        "FCFS",
+        "C-SCAN"
+      ],
+      "answer": 2,
+      "explanations": [
+        "SSTF chooses the nearest request.",
+        "SCAN moves a head across the disk in a sweep.",
+        "Correct: FCFS serves requests in arrival order.",
+        "C-SCAN sweeps in one direction and returns."
+      ],
+      "basis": "Paper II syllabus: Operating Systems; disk scheduling."
+    },
+    {
+      "id": "P2-NEW-116",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Keys",
+      "difficulty": "moderate",
+      "stem": "A candidate key is:",
+      "options": [
+        "Any attribute in a relation",
+        "A minimal superkey",
+        "A foreign key referencing another table",
+        "A non-prime attribute"
+      ],
+      "answer": 1,
+      "explanations": [
+        "An arbitrary attribute need not uniquely identify tuples.",
+        "Correct: a candidate key is a superkey with no extraneous attributes.",
+        "A foreign key is a referential constraint and need not be a candidate key.",
+        "A non-prime attribute is not necessarily a key."
+      ],
+      "basis": "Paper II syllabus: Databases; relational keys."
+    },
+    {
+      "id": "P2-NEW-117",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "UML",
+      "difficulty": "moderate",
+      "stem": "In a UML use-case diagram, an actor represents:",
+      "options": [
+        "An external role interacting with the system",
+        "A database table",
+        "A program loop",
+        "A hardware register"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: an actor is a role played by an external entity interacting with the system.",
+        "A database table is not an actor.",
+        "A loop is a control structure.",
+        "A register is a hardware component."
+      ],
+      "basis": "Paper II syllabus: Software Engineering; UML modelling."
+    },
+    {
+      "id": "P2-NEW-118",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Network devices",
+      "difficulty": "moderate",
+      "stem": "A traditional Ethernet switch primarily operates at which OSI layer?",
+      "options": [
+        "Physical layer",
+        "Data link layer",
+        "Network layer",
+        "Transport layer"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A repeater or hub operates at the physical layer.",
+        "Correct: a Layer 2 switch forwards frames using MAC addresses.",
+        "Routers primarily operate at the network layer.",
+        "Transport layer handles end-to-end protocols such as TCP/UDP."
+      ],
+      "basis": "Paper II syllabus: Computer Networks; network devices and OSI model."
+    },
+    {
+      "id": "P2-NEW-119",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "Java exceptions",
+      "difficulty": "moderate",
+      "stem": "Which block in Java is normally used to execute cleanup code whether or not an exception occurs?",
+      "options": [
+        "try",
+        "catch",
+        "finally",
+        "throw"
+      ],
+      "answer": 2,
+      "explanations": [
+        "try encloses code that may throw an exception.",
+        "catch handles a matching exception.",
+        "Correct: finally is used for cleanup and normally executes after try/catch completion.",
+        "throw explicitly throws an exception."
+      ],
+      "basis": "Paper II syllabus: OOP and Java; exception handling."
+    },
+    {
+      "id": "P1-NEW-049",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "International institutions",
+      "difficulty": "moderate",
+      "stem": "The principal judicial organ of the United Nations is the:",
+      "options": [
+        "International Court of Justice",
+        "International Criminal Court",
+        "Permanent Court of Arbitration",
+        "European Court of Human Rights"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: the ICJ is the UN's principal judicial organ.",
+        "The ICC is an independent treaty-based court, not the UN's principal judicial organ.",
+        "The PCA is a separate arbitration institution.",
+        "The ECHR is a regional human-rights court."
+      ],
+      "basis": "Paper I syllabus: International relations and institutions."
+    },
+    {
+      "id": "P1-NEW-050",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Chemistry",
+      "difficulty": "moderate",
+      "stem": "A solution with pH 3 is:",
+      "options": [
+        "Acidic",
+        "Neutral",
+        "Basic",
+        "Always a salt solution"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: pH below 7 is acidic at standard reference conditions.",
+        "Neutral is pH 7 at 25°C.",
+        "Basic solutions have pH above 7.",
+        "pH alone does not establish that it is a salt solution."
+      ],
+      "basis": "Paper I syllabus: General Science; chemistry."
+    },
+    {
+      "id": "P1-NEW-051",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Simple interest",
+      "difficulty": "moderate",
+      "stem": "Simple interest on ₹5,000 at 8% per annum for 2 years is:",
+      "options": [
+        "₹400",
+        "₹800",
+        "₹1,000",
+        "₹1,600"
+      ],
+      "answer": 1,
+      "explanations": [
+        "₹400 is one year's interest.",
+        "Correct: SI=5000×8×2/100=₹800.",
+        "₹1,000 is not the result of the formula.",
+        "₹1,600 doubles the correct interest."
+      ],
+      "basis": "Paper I syllabus: Analytical ability; arithmetic."
+    },
+    {
+      "id": "P2-NEW-120",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Conditional probability",
+      "difficulty": "advanced",
+      "stem": "Events A and B are independent, with P(A)=0.4 and P(B)=0.5. What is P(A∩B)?",
+      "options": [
+        "0.1",
+        "0.2",
+        "0.4",
+        "0.9"
+      ],
+      "answer": 1,
+      "explanations": [
+        "0.1 is not the product of the probabilities.",
+        "Correct: independence gives 0.4×0.5=0.2.",
+        "This is P(A), not the intersection.",
+        "This is not the joint probability."
+      ],
+      "basis": "Paper II syllabus: Probability; independence."
+    },
+    {
+      "id": "P2-NEW-121",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Determinants",
+      "difficulty": "advanced",
+      "stem": "If A is an invertible n×n matrix, then det(A⁻¹) equals:",
+      "options": [
+        "det(A)",
+        "−det(A)",
+        "1/det(A)",
+        "0"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The determinant of the inverse is not generally equal to det(A).",
+        "The sign is not simply negated.",
+        "Correct: det(A)det(A⁻¹)=det(I)=1.",
+        "An invertible matrix has non-zero determinant."
+      ],
+      "basis": "Paper II syllabus: Linear Algebra; inverse matrices."
+    },
+    {
+      "id": "P2-NEW-122",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Graph connectivity",
+      "difficulty": "advanced",
+      "stem": "In an undirected graph, a bridge is an edge whose removal:",
+      "options": [
+        "Increases the number of connected components",
+        "Decreases the number of vertices",
+        "Creates a Hamiltonian cycle",
+        "Leaves all shortest paths unchanged"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: removing a bridge disconnects its component into more components.",
+        "Edge removal does not remove vertices.",
+        "A bridge does not create a cycle.",
+        "Shortest paths can be affected by removing a bridge."
+      ],
+      "basis": "Paper II syllabus: Graph Theory; bridges and connectivity."
+    },
+    {
+      "id": "P2-NEW-123",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Logic gates",
+      "difficulty": "advanced",
+      "stem": "A NAND gate produces output 0 only when:",
+      "options": [
+        "Both inputs are 0",
+        "At least one input is 0",
+        "Both inputs are 1",
+        "Inputs are different"
+      ],
+      "answer": 2,
+      "explanations": [
+        "NAND is 1 for inputs 00.",
+        "NAND is 1 when at least one input is 0.",
+        "Correct: AND is 1 only for 11, so NAND is 0 only then.",
+        "For different inputs, AND is 0 and NAND is 1."
+      ],
+      "basis": "Paper II syllabus: Digital Logic; logic gates."
+    },
+    {
+      "id": "P2-NEW-124",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Performance",
+      "difficulty": "advanced",
+      "stem": "A program executes 2×10^9 instructions on a processor with CPI 2 and clock rate 2 GHz. Its CPU execution time is:",
+      "options": [
+        "0.5 s",
+        "1 s",
+        "2 s",
+        "4 s"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Correct CPU time is 2 seconds, not 0.5.",
+        "Correct CPU time is 2 seconds, not 1.",
+        "Correct: (2×10⁹×2)/(2×10⁹)=2 seconds.",
+        "Correct CPU time is 2 seconds, not 4."
+      ],
+      "basis": "Paper II syllabus: COA; CPU performance equation."
+    },
+    {
+      "id": "P2-NEW-125",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Recursion",
+      "difficulty": "advanced",
+      "stem": "The base case in a recursive function is essential because it:",
+      "options": [
+        "Increases the number of recursive calls",
+        "Provides a condition that stops further recursion",
+        "Guarantees constant time",
+        "Allocates a global variable"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The base case is intended to stop recursion, not increase it.",
+        "Correct: it terminates recursive expansion for inputs reaching that condition.",
+        "A base case does not guarantee constant time.",
+        "Global allocation is unrelated."
+      ],
+      "basis": "Paper II syllabus: Data Structures and C; recursion."
+    },
+    {
+      "id": "P2-NEW-126",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Greedy algorithms",
+      "difficulty": "advanced",
+      "stem": "Huffman coding repeatedly combines:",
+      "options": [
+        "The two symbols/subtrees with the lowest frequencies",
+        "The two highest frequencies",
+        "Random pairs of symbols",
+        "Only symbols with equal frequencies"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: the two least-frequent nodes are combined at each step.",
+        "Combining largest frequencies does not produce the Huffman greedy construction.",
+        "Random pairing does not guarantee an optimal prefix code.",
+        "Equal frequencies are not required."
+      ],
+      "basis": "Paper II syllabus: Algorithms; greedy coding and Huffman trees."
+    },
+    {
+      "id": "P1-NEW-052",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Poverty measurement",
+      "difficulty": "advanced",
+      "stem": "A poverty line is primarily used to:",
+      "options": [
+        "Identify a threshold for measuring poverty",
+        "Measure only export performance",
+        "Calculate population density",
+        "Determine literacy rate directly"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: it provides a consumption or income threshold for poverty estimation.",
+        "Exports are unrelated to the poverty threshold.",
+        "Population density is population per unit area.",
+        "Literacy rate is measured through education data."
+      ],
+      "basis": "Paper I syllabus: Economic and social development."
+    },
+    {
+      "id": "P1-NEW-053",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitutional bodies",
+      "difficulty": "advanced",
+      "stem": "The Election Commission of India is provided for under:",
+      "options": [
+        "Article 280",
+        "Article 324",
+        "Article 148",
+        "Article 356"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Article 280 concerns the Finance Commission.",
+        "Correct: Article 324 provides for the Election Commission.",
+        "Article 148 concerns the CAG.",
+        "Article 356 concerns President's Rule."
+      ],
+      "basis": "Paper I syllabus: Indian Constitution; constitutional bodies."
+    },
+    {
+      "id": "P1-NEW-054",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Number series",
+      "difficulty": "advanced",
+      "stem": "Find the next number: 2, 6, 12, 20, 30, __.",
+      "options": [
+        "36",
+        "40",
+        "42",
+        "44"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The differences are 4,6,8,10; next is 12, giving 42.",
+        "The next difference is not 10.",
+        "Correct: 30+12=42.",
+        "44 does not follow the increasing even differences."
+      ],
+      "basis": "Paper I syllabus: Analytical ability; number series."
+    },
+    {
+      "id": "P2-NEW-127",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Language classes",
+      "difficulty": "moderate",
+      "stem": "Every regular language is:",
+      "options": [
+        "Context-free",
+        "Not context-free",
+        "Undecidable",
+        "Finite"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: every regular language is context-free; a finite automaton can be simulated by a PDA.",
+        "Regular languages are a subset of context-free languages.",
+        "Regularity does not imply undecidability.",
+        "Regular languages may be infinite."
+      ],
+      "basis": "Paper II syllabus: TOC; Chomsky hierarchy."
+    },
+    {
+      "id": "P2-NEW-128",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "difficulty": "moderate",
+      "stem": "A shift-reduce parser is a type of:",
+      "options": [
+        "Top-down parser",
+        "Bottom-up parser",
+        "Lexical analyzer",
+        "Code generator"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Top-down parsers construct derivations from the start symbol.",
+        "Correct: shift-reduce parsing builds a rightmost derivation in reverse.",
+        "Lexical analysis produces tokens.",
+        "Code generation translates intermediate representation."
+      ],
+      "basis": "Paper II syllabus: Compiler Design; bottom-up parsing."
+    },
+    {
+      "id": "P2-NEW-129",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Critical sections",
+      "difficulty": "moderate",
+      "stem": "A critical-section solution must satisfy mutual exclusion, progress and:",
+      "options": [
+        "Bounded waiting",
+        "Unlimited waiting",
+        "Deadlock by design",
+        "Priority inversion"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: bounded waiting is the third classic requirement.",
+        "Unlimited waiting violates bounded waiting.",
+        "Deadlock is not a required property.",
+        "Priority inversion is a scheduling issue, not a critical-section requirement."
+      ],
+      "basis": "Paper II syllabus: Operating Systems; process synchronization."
+    },
+    {
+      "id": "P2-NEW-130",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "SQL joins",
+      "difficulty": "moderate",
+      "stem": "A LEFT OUTER JOIN returns:",
+      "options": [
+        "Only matching rows from both tables",
+        "All rows from the left table and matching rows from the right, with NULLs for nonmatches",
+        "All rows from the right table only",
+        "The Cartesian product in every case"
+      ],
+      "answer": 1,
+      "explanations": [
+        "An inner join returns only matching rows.",
+        "Correct: unmatched left rows are retained and right-side columns become NULL.",
+        "That describes neither LEFT JOIN nor all left rows.",
+        "A Cartesian product is CROSS JOIN."
+      ],
+      "basis": "Paper II syllabus: Databases; SQL joins."
+    },
+    {
+      "id": "P2-NEW-131",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Project management",
+      "difficulty": "moderate",
+      "stem": "A Gantt chart is primarily used to represent:",
+      "options": [
+        "Project activities against a time schedule",
+        "Database normalization",
+        "Network routing tables",
+        "Software source-code syntax"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: a Gantt chart displays tasks and their timing/duration.",
+        "Normalization concerns relational database design.",
+        "Routing tables are network-layer structures.",
+        "Source-code syntax is represented by grammars or syntax trees."
+      ],
+      "basis": "Paper II syllabus: Information Systems and Software Engineering; project planning."
+    },
+    {
+      "id": "P2-NEW-132",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Network layer",
+      "difficulty": "moderate",
+      "stem": "Which protocol is responsible for logical addressing and routing in the Internet protocol suite?",
+      "options": [
+        "Ethernet",
+        "IP",
+        "TCP",
+        "HTTP"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Ethernet provides link-layer framing and MAC addressing.",
+        "Correct: IP provides logical addressing and packet routing.",
+        "TCP provides transport-layer reliability and sequencing.",
+        "HTTP is an application-layer protocol."
+      ],
+      "basis": "Paper II syllabus: Computer Networks; Internet protocol suite."
+    },
+    {
+      "id": "P2-NEW-133",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "C++ inheritance",
+      "difficulty": "moderate",
+      "stem": "In C++, a virtual function primarily enables:",
+      "options": [
+        "Compile-time constant folding",
+        "Runtime polymorphism through dynamic dispatch",
+        "Automatic database indexing",
+        "Multiple inheritance to be disabled"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Constant folding is a compiler optimization.",
+        "Correct: virtual dispatch selects the overridden method based on the dynamic object type.",
+        "Database indexing is unrelated.",
+        "Virtual functions do not disable multiple inheritance."
+      ],
+      "basis": "Paper II syllabus: OOP and C++; virtual functions."
+    },
+    {
+      "id": "P1-NEW-055",
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "subtopic": "Current affairs evaluation",
+      "difficulty": "moderate",
+      "stem": "When verifying a reported government statistic, the strongest source is usually:",
+      "options": [
+        "A viral post without attribution",
+        "The original official statistical release or dataset",
+        "An unattributed infographic",
+        "A copied message"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A viral post without a source is not verifiable.",
+        "Correct: the original release or dataset is the primary evidence.",
+        "An infographic may omit context or methodology.",
+        "A copied message is not an original source."
+      ],
+      "basis": "Paper I syllabus: Current affairs; evaluating information sources."
+    },
+    {
+      "id": "P1-NEW-056",
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Telangana festivals",
+      "difficulty": "moderate",
+      "stem": "The Sammakka-Saralamma Jatara is traditionally associated with which place?",
+      "options": [
+        "Medaram",
+        "Bhadrachalam",
+        "Basara",
+        "Alampur"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: the biennial tribal festival is held at Medaram in Mulugu district.",
+        "Bhadrachalam is associated with the Sri Sita Ramachandra Swamy temple.",
+        "Basara is known for the Gnana Saraswati temple.",
+        "Alampur is known for its temple complex."
+      ],
+      "basis": "Paper I syllabus: Telangana society, culture and heritage."
+    },
+    {
+      "id": "P1-NEW-057",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Profit and loss",
+      "difficulty": "moderate",
+      "stem": "An article bought for ₹600 is sold for ₹690. The profit percentage is:",
+      "options": [
+        "10%",
+        "12%",
+        "15%",
+        "18%"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Profit is ₹90; 90/600×100=15%, not 10%.",
+        "The profit percentage is not 12%.",
+        "Correct: 90/600×100=15%.",
+        "18% is not the calculated rate."
+      ],
+      "basis": "Paper I syllabus: Analytical ability; profit and loss."
+    },
+    {
+      "id": "P2-NEW-134",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Poisson distribution",
+      "difficulty": "advanced",
+      "stem": "If X follows a Poisson distribution with parameter λ=2, then P(X=0) is:",
+      "options": [
+        "e⁻²",
+        "2e⁻²",
+        "1−e⁻²",
+        "e²"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: P(X=0)=e⁻λ λ⁰/0!=e⁻².",
+        "This is P(X=1).",
+        "This is not the zero-event probability.",
+        "The exponent sign is incorrect."
+      ],
+      "basis": "Paper II syllabus: Probability and Statistics; Poisson distribution."
+    },
+    {
+      "id": "P2-NEW-135",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Eigenvalues",
+      "difficulty": "advanced",
+      "stem": "If a matrix A is triangular, its eigenvalues are:",
+      "options": [
+        "Its diagonal entries",
+        "Its row sums only",
+        "Its off-diagonal entries",
+        "Always all equal to zero"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: the characteristic polynomial of a triangular matrix is the product of (diagonal entry−λ).",
+        "Row sums are not generally eigenvalues.",
+        "Off-diagonal entries do not determine the eigenvalues of a triangular matrix.",
+        "Triangular matrices need not be zero matrices."
+      ],
+      "basis": "Paper II syllabus: Linear Algebra; eigenvalues."
+    },
+    {
+      "id": "P2-NEW-136",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Graph degree",
+      "difficulty": "advanced",
+      "stem": "By the handshaking lemma, the sum of degrees of all vertices in a finite undirected graph equals:",
+      "options": [
+        "E",
+        "2E",
+        "V",
+        "V−1"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Each edge contributes two to the total degree.",
+        "Correct: the sum of degrees is twice the number of edges.",
+        "The number of vertices is not the degree sum.",
+        "V−1 is the edge count only for trees."
+      ],
+      "basis": "Paper II syllabus: Graph Theory; degree properties."
+    },
+    {
+      "id": "P2-NEW-137",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Flip-flops",
+      "difficulty": "advanced",
+      "stem": "Which flip-flop is commonly used as a one-bit storage element and has a single data input D?",
+      "options": [
+        "SR flip-flop",
+        "D flip-flop",
+        "JK flip-flop",
+        "T flip-flop"
+      ],
+      "answer": 1,
+      "explanations": [
+        "An SR flip-flop has set and reset inputs.",
+        "Correct: the D flip-flop captures its D input at the active clock edge.",
+        "A JK flip-flop has J and K inputs.",
+        "A T flip-flop has a toggle input."
+      ],
+      "basis": "Paper II syllabus: Digital Logic; sequential circuits."
+    },
+    {
+      "id": "P2-NEW-138",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache mapping",
+      "difficulty": "advanced",
+      "stem": "In a fully associative cache, a main-memory block:",
+      "options": [
+        "Can be placed in any cache line",
+        "Maps to exactly one fixed cache line",
+        "Can be stored only in line zero",
+        "Cannot be cached"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: any block may occupy any cache line, subject to replacement policy.",
+        "That describes direct mapping.",
+        "There is no fixed line-zero restriction.",
+        "Fully associative caches are designed to cache blocks."
+      ],
+      "basis": "Paper II syllabus: COA; cache mapping techniques."
+    },
+    {
+      "id": "P2-NEW-139",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Complexity of data structures",
+      "difficulty": "advanced",
+      "stem": "In a singly linked list, accessing the kth element by position takes worst-case:",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(k), hence O(n)",
+        "O(n log n)"
+      ],
+      "answer": 2,
+      "explanations": [
+        "There is no direct random access by index.",
+        "A linked list does not support binary search by position.",
+        "Correct: traversal from the head may visit k nodes; worst case is linear.",
+        "The traversal does not require sorting."
+      ],
+      "basis": "Paper II syllabus: Data Structures; linked lists and complexity."
+    },
+    {
+      "id": "P2-NEW-140",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Shortest paths",
+      "difficulty": "advanced",
+      "stem": "The Floyd–Warshall algorithm computes:",
+      "options": [
+        "Single-source shortest paths only",
+        "All-pairs shortest paths",
+        "A minimum spanning tree",
+        "A topological ordering"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Dijkstra and Bellman-Ford are single-source algorithms.",
+        "Correct: Floyd–Warshall computes shortest paths between all pairs of vertices.",
+        "Prim and Kruskal compute MSTs.",
+        "Topological sorting is a different graph problem."
+      ],
+      "basis": "Paper II syllabus: Algorithms; all-pairs shortest paths."
+    },
+    {
+      "id": "P1-NEW-058",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Human development",
+      "difficulty": "advanced",
+      "stem": "The Human Development Index combines indicators relating to:",
+      "options": [
+        "Health, education and standard of living",
+        "Exports, imports and exchange rates",
+        "Rainfall, soil and forest cover",
+        "Only per-capita income"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: HDI combines life expectancy, education and GNI per capita.",
+        "These are trade indicators, not HDI dimensions.",
+        "These are environmental/geographical indicators.",
+        "Income is only one dimension of HDI."
+      ],
+      "basis": "Paper I syllabus: Economic and social development."
+    },
+    {
+      "id": "P1-NEW-059",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Fundamental duties",
+      "difficulty": "advanced",
+      "stem": "Fundamental Duties were added to the Constitution by the:",
+      "options": [
+        "42nd Constitutional Amendment",
+        "44th Constitutional Amendment",
+        "52nd Constitutional Amendment",
+        "73rd Constitutional Amendment"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: the 42nd Amendment Act, 1976 added Fundamental Duties.",
+        "The 44th Amendment made other important changes after the Emergency.",
+        "The 52nd Amendment relates to anti-defection.",
+        "The 73rd Amendment concerns Panchayati Raj institutions."
+      ],
+      "basis": "Paper I syllabus: Indian Constitution; Fundamental Duties."
+    },
+    {
+      "id": "P1-NEW-060",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Calendar reasoning",
+      "difficulty": "advanced",
+      "stem": "If today is Tuesday, what day of the week will it be 100 days later?",
+      "options": [
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "answer": 1,
+      "explanations": [
+        "100 mod 7=2; Tuesday plus two days is Thursday.",
+        "Correct: the remainder is 2, so Thursday.",
+        "Friday would be three days later.",
+        "Saturday would be four days later."
+      ],
+      "basis": "Paper I syllabus: Logical reasoning; calendar problems."
+    },
+    {
+      "id": "P2-NEW-141",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing machines",
+      "difficulty": "advanced",
+      "stem": "A language is recursively enumerable if:",
+      "options": [
+        "A Turing machine halts and accepts exactly the strings in the language, but may not halt on strings outside it",
+        "Every Turing machine rejects all strings",
+        "A DFA accepts it necessarily",
+        "Its complement is always recursively enumerable"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: a recognizer accepts members and may loop forever on nonmembers.",
+        "This does not define recursively enumerable languages.",
+        "DFA recognition is the narrower regular-language class.",
+        "A recursively enumerable language's complement need not be recursively enumerable."
+      ],
+      "basis": "Paper II syllabus: TOC; recursively enumerable languages."
+    },
+    {
+      "id": "P2-NEW-142",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Register allocation",
+      "difficulty": "advanced",
+      "stem": "Graph coloring is used in compiler register allocation to model:",
+      "options": [
+        "Conflicts between variables whose live ranges overlap",
+        "The syntax of arithmetic expressions",
+        "The network topology",
+        "The order of source files"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: an interference graph connects simultaneously live values that cannot share a register.",
+        "Expression syntax is represented by parse/abstract syntax trees.",
+        "Network topology is unrelated.",
+        "Source-file order is not the coloring model."
+      ],
+      "basis": "Paper II syllabus: Compiler Design; register allocation."
+    },
+    {
+      "id": "P2-NEW-143",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Thrashing",
+      "difficulty": "advanced",
+      "stem": "Thrashing occurs when a system spends most of its time:",
+      "options": [
+        "Executing user instructions",
+        "Swapping pages in and out rather than executing useful work",
+        "Performing disk formatting",
+        "Compiling source code"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Thrashing reduces useful CPU execution rather than increasing it.",
+        "Correct: excessive paging dominates system activity.",
+        "Disk formatting is unrelated.",
+        "Compilation is an application workload."
+      ],
+      "basis": "Paper II syllabus: Operating Systems; virtual memory and thrashing."
+    },
+    {
+      "id": "P2-NEW-144",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Serial schedules",
+      "difficulty": "advanced",
+      "stem": "A serial schedule is one in which:",
+      "options": [
+        "Operations of transactions are interleaved arbitrarily",
+        "One transaction completes before the next transaction begins",
+        "All transactions execute simultaneously",
+        "Only read operations are allowed"
+      ],
+      "answer": 1,
+      "explanations": [
+        "That describes a non-serial interleaving.",
+        "Correct: transactions execute one after another without interleaving.",
+        "Simultaneous execution is not serial.",
+        "Serial schedules can include reads and writes."
+      ],
+      "basis": "Paper II syllabus: Databases; transaction scheduling."
+    },
+    {
+      "id": "P2-NEW-145",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "TCP",
+      "difficulty": "advanced",
+      "stem": "TCP's three-way handshake is:",
+      "options": [
+        "SYN, SYN-ACK, ACK",
+        "ACK, FIN, SYN",
+        "SYN, FIN, ACK",
+        "FIN, FIN-ACK, ACK"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: the client sends SYN, server responds SYN-ACK, and client sends ACK.",
+        "FIN is used for connection termination, not setup.",
+        "This sequence omits SYN-ACK.",
+        "FIN sequences are associated with closing a connection."
+      ],
+      "basis": "Paper II syllabus: Computer Networks; TCP connection establishment."
+    },
+    {
+      "id": "P2-NEW-146",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "Web security",
+      "difficulty": "advanced",
+      "stem": "The primary purpose of HTTPS is to provide:",
+      "options": [
+        "Encryption and authentication of communication using TLS",
+        "Faster JavaScript execution",
+        "Automatic database normalization",
+        "Compression of every image"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: HTTPS uses TLS to protect confidentiality and integrity and authenticate the server.",
+        "HTTPS does not guarantee faster script execution.",
+        "Database normalization is unrelated.",
+        "Image compression is not its purpose."
+      ],
+      "basis": "Paper II syllabus: Web Technologies; web security and HTTPS."
+    },
+    {
+      "id": "P2-NEW-147",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "Java interfaces",
+      "difficulty": "advanced",
+      "stem": "A Java class can:",
+      "options": [
+        "Extend multiple classes",
+        "Implement multiple interfaces",
+        "Have more than one direct superclass class",
+        "Instantiate an interface directly"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Java classes have only one direct superclass.",
+        "Correct: a class may implement multiple interfaces.",
+        "Multiple class inheritance is not supported.",
+        "An interface cannot be instantiated directly."
+      ],
+      "basis": "Paper II syllabus: OOP and Java; interfaces and inheritance."
+    },
+    {
+      "id": "P1-NEW-061",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Freedom movement",
+      "difficulty": "advanced",
+      "stem": "The Quit India Movement was launched in:",
+      "options": [
+        "1930",
+        "1935",
+        "1942",
+        "1946"
+      ],
+      "answer": 2,
+      "explanations": [
+        "1930 marks the Civil Disobedience Movement.",
+        "1935 is associated with the Government of India Act.",
+        "Correct: the Quit India Movement was launched in August 1942.",
+        "1946 saw major constitutional and political developments but not the launch."
+      ],
+      "basis": "Paper I syllabus: Modern Indian history and national movement."
+    },
+    {
+      "id": "P1-NEW-062",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana",
+      "subtopic": "Telangana state formation",
+      "difficulty": "advanced",
+      "stem": "Telangana became the 29th state of India on:",
+      "options": [
+        "1 May 2014",
+        "2 June 2014",
+        "15 August 2014",
+        "1 January 2015"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The state did not form on 1 May.",
+        "Correct: Telangana was formed on 2 June 2014.",
+        "15 August is not the appointed date.",
+        "The state was already formed in 2014."
+      ],
+      "basis": "Paper I syllabus: Telangana statehood movement and formation."
+    },
+    {
+      "id": "P1-NEW-063",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Data interpretation",
+      "difficulty": "advanced",
+      "stem": "A class has 40 students, of whom 25% are absent. How many students are present?",
+      "options": [
+        "10",
+        "20",
+        "25",
+        "30"
+      ],
+      "answer": 3,
+      "explanations": [
+        "10 is the number absent.",
+        "20 would mean 50% are present.",
+        "25 is the absent percentage, not the count present.",
+        "Correct: 75% of 40 = 30 students present."
+      ],
+      "basis": "Paper I syllabus: Analytical ability; percentages."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
