@@ -7067,6 +7067,236 @@
         "₹1,600 doubles the correct interest."
       ],
       "basis": "Paper I syllabus: Analytical ability; arithmetic."
+    },
+    {
+      "id": "P2-NEW-120",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Conditional probability",
+      "difficulty": "advanced",
+      "stem": "Events A and B are independent, with P(A)=0.4 and P(B)=0.5. What is P(A∩B)?",
+      "options": [
+        "0.1",
+        "0.2",
+        "0.4",
+        "0.9"
+      ],
+      "answer": 1,
+      "explanations": [
+        "0.1 is not the product of the probabilities.",
+        "Correct: independence gives 0.4×0.5=0.2.",
+        "This is P(A), not the intersection.",
+        "This is not the joint probability."
+      ],
+      "basis": "Paper II syllabus: Probability; independence."
+    },
+    {
+      "id": "P2-NEW-121",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Determinants",
+      "difficulty": "advanced",
+      "stem": "If A is an invertible n×n matrix, then det(A⁻¹) equals:",
+      "options": [
+        "det(A)",
+        "−det(A)",
+        "1/det(A)",
+        "0"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The determinant of the inverse is not generally equal to det(A).",
+        "The sign is not simply negated.",
+        "Correct: det(A)det(A⁻¹)=det(I)=1.",
+        "An invertible matrix has non-zero determinant."
+      ],
+      "basis": "Paper II syllabus: Linear Algebra; inverse matrices."
+    },
+    {
+      "id": "P2-NEW-122",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Graph connectivity",
+      "difficulty": "advanced",
+      "stem": "In an undirected graph, a bridge is an edge whose removal:",
+      "options": [
+        "Increases the number of connected components",
+        "Decreases the number of vertices",
+        "Creates a Hamiltonian cycle",
+        "Leaves all shortest paths unchanged"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: removing a bridge disconnects its component into more components.",
+        "Edge removal does not remove vertices.",
+        "A bridge does not create a cycle.",
+        "Shortest paths can be affected by removing a bridge."
+      ],
+      "basis": "Paper II syllabus: Graph Theory; bridges and connectivity."
+    },
+    {
+      "id": "P2-NEW-123",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Logic gates",
+      "difficulty": "advanced",
+      "stem": "A NAND gate produces output 0 only when:",
+      "options": [
+        "Both inputs are 0",
+        "At least one input is 0",
+        "Both inputs are 1",
+        "Inputs are different"
+      ],
+      "answer": 2,
+      "explanations": [
+        "NAND is 1 for inputs 00.",
+        "NAND is 1 when at least one input is 0.",
+        "Correct: AND is 1 only for 11, so NAND is 0 only then.",
+        "For different inputs, AND is 0 and NAND is 1."
+      ],
+      "basis": "Paper II syllabus: Digital Logic; logic gates."
+    },
+    {
+      "id": "P2-NEW-124",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Performance",
+      "difficulty": "advanced",
+      "stem": "A program executes 2×10^9 instructions on a processor with CPI 2 and clock rate 2 GHz. Its CPU execution time is:",
+      "options": [
+        "0.5 s",
+        "1 s",
+        "2 s",
+        "4 s"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Correct CPU time is 2 seconds, not 0.5.",
+        "Correct CPU time is 2 seconds, not 1.",
+        "Correct: (2×10⁹×2)/(2×10⁹)=2 seconds.",
+        "Correct CPU time is 2 seconds, not 4."
+      ],
+      "basis": "Paper II syllabus: COA; CPU performance equation."
+    },
+    {
+      "id": "P2-NEW-125",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Recursion",
+      "difficulty": "advanced",
+      "stem": "The base case in a recursive function is essential because it:",
+      "options": [
+        "Increases the number of recursive calls",
+        "Provides a condition that stops further recursion",
+        "Guarantees constant time",
+        "Allocates a global variable"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The base case is intended to stop recursion, not increase it.",
+        "Correct: it terminates recursive expansion for inputs reaching that condition.",
+        "A base case does not guarantee constant time.",
+        "Global allocation is unrelated."
+      ],
+      "basis": "Paper II syllabus: Data Structures and C; recursion."
+    },
+    {
+      "id": "P2-NEW-126",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Greedy algorithms",
+      "difficulty": "advanced",
+      "stem": "Huffman coding repeatedly combines:",
+      "options": [
+        "The two symbols/subtrees with the lowest frequencies",
+        "The two highest frequencies",
+        "Random pairs of symbols",
+        "Only symbols with equal frequencies"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: the two least-frequent nodes are combined at each step.",
+        "Combining largest frequencies does not produce the Huffman greedy construction.",
+        "Random pairing does not guarantee an optimal prefix code.",
+        "Equal frequencies are not required."
+      ],
+      "basis": "Paper II syllabus: Algorithms; greedy coding and Huffman trees."
+    },
+    {
+      "id": "P1-NEW-052",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Poverty measurement",
+      "difficulty": "advanced",
+      "stem": "A poverty line is primarily used to:",
+      "options": [
+        "Identify a threshold for measuring poverty",
+        "Measure only export performance",
+        "Calculate population density",
+        "Determine literacy rate directly"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: it provides a consumption or income threshold for poverty estimation.",
+        "Exports are unrelated to the poverty threshold.",
+        "Population density is population per unit area.",
+        "Literacy rate is measured through education data."
+      ],
+      "basis": "Paper I syllabus: Economic and social development."
+    },
+    {
+      "id": "P1-NEW-053",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitutional bodies",
+      "difficulty": "advanced",
+      "stem": "The Election Commission of India is provided for under:",
+      "options": [
+        "Article 280",
+        "Article 324",
+        "Article 148",
+        "Article 356"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Article 280 concerns the Finance Commission.",
+        "Correct: Article 324 provides for the Election Commission.",
+        "Article 148 concerns the CAG.",
+        "Article 356 concerns President's Rule."
+      ],
+      "basis": "Paper I syllabus: Indian Constitution; constitutional bodies."
+    },
+    {
+      "id": "P1-NEW-054",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Number series",
+      "difficulty": "advanced",
+      "stem": "Find the next number: 2, 6, 12, 20, 30, __.",
+      "options": [
+        "36",
+        "40",
+        "42",
+        "44"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The differences are 4,6,8,10; next is 12, giving 42.",
+        "The next difference is not 10.",
+        "Correct: 30+12=42.",
+        "44 does not follow the increasing even differences."
+      ],
+      "basis": "Paper I syllabus: Analytical ability; number series."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
