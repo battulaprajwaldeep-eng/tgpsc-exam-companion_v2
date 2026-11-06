@@ -6837,6 +6837,236 @@
         "Rumours are not policies."
       ],
       "basis": "Paper I syllabus: Telangana State policies and governance."
+    },
+    {
+      "id": "P2-NEW-113",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Pushdown automata",
+      "difficulty": "moderate",
+      "stem": "A pushdown automaton differs from a finite automaton primarily because it has:",
+      "options": [
+        "An unbounded tape",
+        "A stack",
+        "Two input heads",
+        "A built-in sorting unit"
+      ],
+      "answer": 1,
+      "explanations": [
+        "An unbounded tape is associated with a Turing machine.",
+        "Correct: a PDA has a stack as auxiliary memory.",
+        "Two input heads are not the defining feature.",
+        "Sorting hardware is unrelated."
+      ],
+      "basis": "Paper II syllabus: TOC; pushdown automata."
+    },
+    {
+      "id": "P2-NEW-114",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Intermediate representations",
+      "difficulty": "moderate",
+      "stem": "In three-address code, the statement x = y * z + w is commonly represented using how many three-address instructions, assuming no algebraic simplification?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A single three-address instruction permits one binary operation.",
+        "Correct: compute t1=y*z, then x=t1+w.",
+        "Three operations are not needed for two binary operators.",
+        "Four instructions are unnecessary."
+      ],
+      "basis": "Paper II syllabus: Compiler Design; three-address code."
+    },
+    {
+      "id": "P2-NEW-115",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Disk scheduling",
+      "difficulty": "moderate",
+      "stem": "Which disk scheduling algorithm services requests in the order they arrive?",
+      "options": [
+        "SSTF",
+        "SCAN",
+        "FCFS",
+        "C-SCAN"
+      ],
+      "answer": 2,
+      "explanations": [
+        "SSTF chooses the nearest request.",
+        "SCAN moves a head across the disk in a sweep.",
+        "Correct: FCFS serves requests in arrival order.",
+        "C-SCAN sweeps in one direction and returns."
+      ],
+      "basis": "Paper II syllabus: Operating Systems; disk scheduling."
+    },
+    {
+      "id": "P2-NEW-116",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Keys",
+      "difficulty": "moderate",
+      "stem": "A candidate key is:",
+      "options": [
+        "Any attribute in a relation",
+        "A minimal superkey",
+        "A foreign key referencing another table",
+        "A non-prime attribute"
+      ],
+      "answer": 1,
+      "explanations": [
+        "An arbitrary attribute need not uniquely identify tuples.",
+        "Correct: a candidate key is a superkey with no extraneous attributes.",
+        "A foreign key is a referential constraint and need not be a candidate key.",
+        "A non-prime attribute is not necessarily a key."
+      ],
+      "basis": "Paper II syllabus: Databases; relational keys."
+    },
+    {
+      "id": "P2-NEW-117",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "UML",
+      "difficulty": "moderate",
+      "stem": "In a UML use-case diagram, an actor represents:",
+      "options": [
+        "An external role interacting with the system",
+        "A database table",
+        "A program loop",
+        "A hardware register"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: an actor is a role played by an external entity interacting with the system.",
+        "A database table is not an actor.",
+        "A loop is a control structure.",
+        "A register is a hardware component."
+      ],
+      "basis": "Paper II syllabus: Software Engineering; UML modelling."
+    },
+    {
+      "id": "P2-NEW-118",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Network devices",
+      "difficulty": "moderate",
+      "stem": "A traditional Ethernet switch primarily operates at which OSI layer?",
+      "options": [
+        "Physical layer",
+        "Data link layer",
+        "Network layer",
+        "Transport layer"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A repeater or hub operates at the physical layer.",
+        "Correct: a Layer 2 switch forwards frames using MAC addresses.",
+        "Routers primarily operate at the network layer.",
+        "Transport layer handles end-to-end protocols such as TCP/UDP."
+      ],
+      "basis": "Paper II syllabus: Computer Networks; network devices and OSI model."
+    },
+    {
+      "id": "P2-NEW-119",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "Java exceptions",
+      "difficulty": "moderate",
+      "stem": "Which block in Java is normally used to execute cleanup code whether or not an exception occurs?",
+      "options": [
+        "try",
+        "catch",
+        "finally",
+        "throw"
+      ],
+      "answer": 2,
+      "explanations": [
+        "try encloses code that may throw an exception.",
+        "catch handles a matching exception.",
+        "Correct: finally is used for cleanup and normally executes after try/catch completion.",
+        "throw explicitly throws an exception."
+      ],
+      "basis": "Paper II syllabus: OOP and Java; exception handling."
+    },
+    {
+      "id": "P1-NEW-049",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "International institutions",
+      "difficulty": "moderate",
+      "stem": "The principal judicial organ of the United Nations is the:",
+      "options": [
+        "International Court of Justice",
+        "International Criminal Court",
+        "Permanent Court of Arbitration",
+        "European Court of Human Rights"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: the ICJ is the UN's principal judicial organ.",
+        "The ICC is an independent treaty-based court, not the UN's principal judicial organ.",
+        "The PCA is a separate arbitration institution.",
+        "The ECHR is a regional human-rights court."
+      ],
+      "basis": "Paper I syllabus: International relations and institutions."
+    },
+    {
+      "id": "P1-NEW-050",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Chemistry",
+      "difficulty": "moderate",
+      "stem": "A solution with pH 3 is:",
+      "options": [
+        "Acidic",
+        "Neutral",
+        "Basic",
+        "Always a salt solution"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: pH below 7 is acidic at standard reference conditions.",
+        "Neutral is pH 7 at 25°C.",
+        "Basic solutions have pH above 7.",
+        "pH alone does not establish that it is a salt solution."
+      ],
+      "basis": "Paper I syllabus: General Science; chemistry."
+    },
+    {
+      "id": "P1-NEW-051",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Simple interest",
+      "difficulty": "moderate",
+      "stem": "Simple interest on ₹5,000 at 8% per annum for 2 years is:",
+      "options": [
+        "₹400",
+        "₹800",
+        "₹1,000",
+        "₹1,600"
+      ],
+      "answer": 1,
+      "explanations": [
+        "₹400 is one year's interest.",
+        "Correct: SI=5000×8×2/100=₹800.",
+        "₹1,000 is not the result of the formula.",
+        "₹1,600 doubles the correct interest."
+      ],
+      "basis": "Paper I syllabus: Analytical ability; arithmetic."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
