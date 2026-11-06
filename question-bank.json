@@ -5687,6 +5687,236 @@
         "Adilabad is in northern Telangana."
       ],
       "basis": "Paper I: Telangana culture and heritage."
+    },
+    {
+      "id": "P2-NEW-078",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Joint distributions",
+      "difficulty": "advanced",
+      "stem": "For discrete random variables X and Y, independence is equivalent to:",
+      "options": [
+        "P(X=x,Y=y)=P(X=x)+P(Y=y) for all x,y",
+        "P(X=x,Y=y)=P(X=x)P(Y=y) for all x,y",
+        "E[XY]=0 for all distributions",
+        "Cov(X,Y)=1"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Adding probabilities is not the independence condition.",
+        "Correct: the joint probability factors into the product of marginals for every pair of values.",
+        "Zero product expectation is not generally equivalent to independence.",
+        "Covariance is not fixed at one under independence."
+      ],
+      "basis": "Paper II syllabus: Probability and Statistics; joint distributions and independence."
+    },
+    {
+      "id": "P2-NEW-079",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Orthogonality",
+      "difficulty": "advanced",
+      "stem": "If two non-zero vectors u and v are orthogonal under the usual Euclidean inner product, then:",
+      "options": [
+        "u·v=1",
+        "u·v=0",
+        "u=v",
+        "u is a scalar multiple of v"
+      ],
+      "answer": 1,
+      "explanations": [
+        "An inner product of 1 is not the orthogonality condition.",
+        "Correct: orthogonal vectors have zero dot product.",
+        "They need not be equal.",
+        "Non-zero scalar multiples are parallel, not orthogonal."
+      ],
+      "basis": "Paper II syllabus: Linear Algebra; inner products and orthogonality."
+    },
+    {
+      "id": "P2-NEW-080",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Spanning trees",
+      "difficulty": "advanced",
+      "stem": "A connected graph with V vertices has how many edges in any spanning tree?",
+      "options": [
+        "V",
+        "V−1",
+        "V+1",
+        "2V"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A tree has one fewer edge than vertices.",
+        "Correct: every spanning tree on V vertices has V−1 edges.",
+        "A connected graph may have V+1 edges, but its spanning tree does not.",
+        "This is not the tree edge count."
+      ],
+      "basis": "Paper II syllabus: Graph Theory; spanning trees."
+    },
+    {
+      "id": "P2-NEW-081",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Adders",
+      "difficulty": "advanced",
+      "stem": "For a full adder with inputs A, B and Cin, the SUM output is:",
+      "options": [
+        "A⊕B⊕Cin",
+        "AB+Cin",
+        "A+B+Cin using OR",
+        "A⊙B⊙Cin"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: the sum bit is the XOR of all three input bits.",
+        "This is not the sum function.",
+        "OR does not account for binary addition parity.",
+        "XNOR gives the complement parity for three inputs."
+      ],
+      "basis": "Paper II syllabus: Digital Logic; arithmetic circuits."
+    },
+    {
+      "id": "P2-NEW-082",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache performance",
+      "difficulty": "advanced",
+      "stem": "A processor has cache hit time 2 ns, miss rate 5%, and miss penalty 40 ns. Using AMAT = hit time + miss rate × miss penalty, the AMAT is:",
+      "options": [
+        "2 ns",
+        "4 ns",
+        "40 ns",
+        "42 ns"
+      ],
+      "answer": 1,
+      "explanations": [
+        "This omits the miss penalty contribution.",
+        "Correct: 2 + 0.05×40 = 4 ns.",
+        "40 ns is the miss penalty alone.",
+        "42 ns adds the full penalty on every access."
+      ],
+      "basis": "Paper II syllabus: COA; cache performance and average memory access time."
+    },
+    {
+      "id": "P2-NEW-083",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C language storage classes",
+      "difficulty": "advanced",
+      "stem": "A local variable declared static inside a C function:",
+      "options": [
+        "Is re-created and initialized on every call",
+        "Retains its value between function calls",
+        "Is visible in every source file",
+        "Must be stored in a CPU register"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Its storage duration is static, not automatic per invocation.",
+        "Correct: it retains its value for the program's lifetime while its scope remains local.",
+        "Its name scope is limited to the block.",
+        "The register keyword is unrelated and cannot be required."
+      ],
+      "basis": "Paper II syllabus: Programming in C; storage classes and scope."
+    },
+    {
+      "id": "P2-NEW-084",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Minimum spanning trees",
+      "difficulty": "advanced",
+      "stem": "If all edge weights in a connected graph are distinct, its minimum spanning tree is:",
+      "options": [
+        "Always non-unique",
+        "Unique",
+        "A Hamiltonian cycle",
+        "A maximum spanning tree"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Distinct weights ensure a unique MST.",
+        "Correct: distinct edge weights guarantee a unique minimum spanning tree.",
+        "An MST is a tree, not a cycle through every vertex.",
+        "Minimum and maximum spanning trees are different optimization problems."
+      ],
+      "basis": "Paper II syllabus: Algorithms; minimum spanning trees."
+    },
+    {
+      "id": "P1-NEW-034",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitutional offices",
+      "difficulty": "advanced",
+      "stem": "Who administers the oath of office to the President of India?",
+      "options": [
+        "Prime Minister",
+        "Chief Justice of India, or in their absence the senior-most available Supreme Court judge",
+        "Speaker of Lok Sabha",
+        "Vice-President"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The Prime Minister does not administer this oath.",
+        "Correct: Article 60 provides for the Chief Justice of India, or the senior-most available Supreme Court judge.",
+        "The Speaker has no such role.",
+        "The Vice-President does not administer the President's oath."
+      ],
+      "basis": "Paper I syllabus: Indian Constitution; President of India."
+    },
+    {
+      "id": "P1-NEW-035",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "Physical, Social and Economic Geography of India",
+      "subtopic": "Indian soils",
+      "difficulty": "advanced",
+      "stem": "Black soil is particularly suitable for the cultivation of:",
+      "options": [
+        "Tea",
+        "Cotton",
+        "Jute",
+        "Coconut"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Tea is commonly associated with acidic, well-drained soils and suitable hill climates.",
+        "Correct: black cotton soil retains moisture and is well suited to cotton.",
+        "Jute is associated with alluvial soils in humid regions.",
+        "Coconut is generally cultivated in coastal tropical conditions."
+      ],
+      "basis": "Paper I syllabus: Physical and economic geography of India."
+    },
+    {
+      "id": "P1-NEW-036",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Time and work",
+      "difficulty": "advanced",
+      "stem": "A can complete a job in 12 days and B in 18 days. Working together at constant rates, they complete it in:",
+      "options": [
+        "6 days",
+        "7.2 days",
+        "8 days",
+        "15 days"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Their combined rate is 1/12+1/18=5/36, so time is 36/5 days.",
+        "Correct: 36/5 = 7.2 days.",
+        "Eight days is not the reciprocal of the combined rate.",
+        "This is not the combined-work time."
+      ],
+      "basis": "Paper I syllabus: Analytical ability; time and work."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
