@@ -6377,6 +6377,236 @@
         "This would imply a remaining sum of 76."
       ],
       "basis": "Paper I syllabus: Analytical ability; averages."
+    },
+    {
+      "id": "P2-NEW-099",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Regular expressions",
+      "difficulty": "advanced",
+      "stem": "Over the alphabet {a,b}, which regular expression denotes all strings containing exactly one a?",
+      "options": [
+        "b*ab*",
+        "a*b*",
+        "(a+b)*a(a+b)*",
+        "ab"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: any number of b's, followed by one a, followed by any number of b's.",
+        "This permits zero or more a's and then b's.",
+        "This permits one or more a's in many strings.",
+        "This denotes only the string ab."
+      ],
+      "basis": "Paper II syllabus: TOC; regular expressions."
+    },
+    {
+      "id": "P2-NEW-100",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Symbol tables",
+      "difficulty": "advanced",
+      "stem": "A compiler symbol table is primarily used to store:",
+      "options": [
+        "Source program comments",
+        "Identifiers and their attributes",
+        "Machine code instructions only",
+        "Runtime input data"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Comments are generally removed during lexical processing.",
+        "Correct: names, types, scope, storage and related attributes are maintained.",
+        "Machine code is a later output.",
+        "Runtime input is not symbol-table content."
+      ],
+      "basis": "Paper II syllabus: Compiler Design; symbol tables."
+    },
+    {
+      "id": "P2-NEW-101",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Process states",
+      "difficulty": "advanced",
+      "stem": "A process that is waiting for an I/O operation to complete is typically in the:",
+      "options": [
+        "Running state",
+        "Ready state",
+        "Blocked/waiting state",
+        "Terminated state"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Running means currently executing on a CPU.",
+        "Ready means able to run but awaiting CPU allocation.",
+        "Correct: the process cannot proceed until the I/O event completes.",
+        "Terminated means execution has finished."
+      ],
+      "basis": "Paper II syllabus: Operating Systems; process management."
+    },
+    {
+      "id": "P2-NEW-102",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Concurrency control",
+      "difficulty": "advanced",
+      "stem": "A shared lock (S-lock) generally permits:",
+      "options": [
+        "Only one transaction to read or write the item",
+        "Multiple transactions to read the item concurrently",
+        "Any transaction to write without restriction",
+        "No transaction to access the item"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Exclusive access is associated with an X-lock.",
+        "Correct: compatible shared locks allow concurrent readers.",
+        "Writes generally require an exclusive lock.",
+        "A shared lock permits reading."
+      ],
+      "basis": "Paper II syllabus: Databases; locking protocols."
+    },
+    {
+      "id": "P2-NEW-103",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Requirements engineering",
+      "difficulty": "advanced",
+      "stem": "A requirement stating that the system must respond within two seconds is primarily:",
+      "options": [
+        "Functional requirement",
+        "Non-functional performance requirement",
+        "Use-case actor",
+        "Database constraint"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A functional requirement describes system behavior or services.",
+        "Correct: response-time limits specify performance quality.",
+        "An actor is an external role interacting with a system.",
+        "A database constraint enforces data integrity."
+      ],
+      "basis": "Paper II syllabus: Software Engineering; requirements analysis."
+    },
+    {
+      "id": "P2-NEW-104",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "IPv4 addressing",
+      "difficulty": "advanced",
+      "stem": "An IPv4 address contains:",
+      "options": [
+        "16 bits",
+        "32 bits",
+        "48 bits",
+        "128 bits"
+      ],
+      "answer": 1,
+      "explanations": [
+        "16 bits is not IPv4 length.",
+        "Correct: IPv4 addresses are 32 bits.",
+        "48 bits is the common Ethernet MAC address length.",
+        "128 bits is IPv6 address length."
+      ],
+      "basis": "Paper II syllabus: Computer Networks; IP addressing."
+    },
+    {
+      "id": "P2-NEW-105",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "JavaScript",
+      "difficulty": "advanced",
+      "stem": "Which JavaScript method converts a JSON-formatted string into a JavaScript value?",
+      "options": [
+        "JSON.stringify()",
+        "JSON.parse()",
+        "JSON.encode()",
+        "JSON.object()"
+      ],
+      "answer": 1,
+      "explanations": [
+        "stringify converts a JavaScript value into a JSON string.",
+        "Correct: parse reads JSON text and creates the corresponding JavaScript value.",
+        "There is no standard JSON.encode method.",
+        "There is no standard JSON.object method."
+      ],
+      "basis": "Paper II syllabus: Web Technologies; JavaScript and JSON."
+    },
+    {
+      "id": "P1-NEW-043",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana",
+      "subtopic": "Telangana history",
+      "difficulty": "advanced",
+      "stem": "The Telangana region was part of which princely state before the integration of Hyderabad State into the Indian Union?",
+      "options": [
+        "Mysore",
+        "Hyderabad",
+        "Travancore",
+        "Baroda"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Mysore was a separate princely state.",
+        "Correct: the Telangana region formed part of the erstwhile Hyderabad State.",
+        "Travancore was in the south-western region.",
+        "Baroda was a separate princely state."
+      ],
+      "basis": "Paper I syllabus: Telangana political and cultural history."
+    },
+    {
+      "id": "P1-NEW-044",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Parliamentary government",
+      "difficulty": "advanced",
+      "stem": "The Council of Ministers at the Union level is collectively responsible to:",
+      "options": [
+        "President",
+        "Lok Sabha",
+        "Rajya Sabha",
+        "Supreme Court"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The President appoints the Prime Minister and ministers, but collective responsibility is to Lok Sabha.",
+        "Correct: Article 75(3) provides collective responsibility to the House of the People.",
+        "Rajya Sabha is not the house to which the Council is collectively responsible.",
+        "The Supreme Court is not a confidence chamber."
+      ],
+      "basis": "Paper I syllabus: Indian political system and governance."
+    },
+    {
+      "id": "P1-NEW-045",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Direction sense",
+      "difficulty": "advanced",
+      "stem": "A person walks 4 km north, then 3 km east. What is the shortest distance from the starting point?",
+      "options": [
+        "5 km",
+        "7 km",
+        "1 km",
+        "4 km"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: by Pythagoras, √(4²+3²)=5 km.",
+        "The path length is 7 km, not straight-line distance.",
+        "The difference of legs is not the distance.",
+        "The northward displacement alone is 4 km."
+      ],
+      "basis": "Paper I syllabus: Logical reasoning; direction and distance."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
