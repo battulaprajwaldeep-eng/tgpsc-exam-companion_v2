@@ -6147,6 +6147,236 @@
         "A preposition expresses a relationship between words."
       ],
       "basis": "Paper I syllabus: Basic English."
+    },
+    {
+      "id": "P2-NEW-092",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Expectation",
+      "difficulty": "moderate",
+      "stem": "If E(X)=4 and E(Y)=3, then E(2X−3Y+5) equals:",
+      "options": [
+        "−2",
+        "4",
+        "6",
+        "10"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The expression evaluates to 4, not −2.",
+        "Correct: by linearity, 2(4)−3(3)+5=8−9+5=4.",
+        "The result is 4.",
+        "The result is 4."
+      ],
+      "basis": "Paper II syllabus: Probability and Statistics; linearity of expectation."
+    },
+    {
+      "id": "P2-NEW-093",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Matrix multiplication",
+      "difficulty": "moderate",
+      "stem": "For matrices A of order 2×3 and B of order 3×4, the order of AB is:",
+      "options": [
+        "2×4",
+        "3×3",
+        "4×2",
+        "2×3"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: inner dimensions 3 match; the product has outer dimensions 2×4.",
+        "The product is not 3×3.",
+        "The order is not reversed.",
+        "The result has 2 rows and 4 columns."
+      ],
+      "basis": "Paper II syllabus: Linear Algebra; matrix operations."
+    },
+    {
+      "id": "P2-NEW-094",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Trees",
+      "difficulty": "moderate",
+      "stem": "A tree with 15 vertices has how many edges?",
+      "options": [
+        "14",
+        "15",
+        "16",
+        "30"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: a tree with n vertices has n−1 edges, hence 14.",
+        "A tree has one fewer edge than vertices.",
+        "A tree cannot have n+1 edges.",
+        "A tree has n−1 edges, not 2n."
+      ],
+      "basis": "Paper II syllabus: Graph Theory; tree properties."
+    },
+    {
+      "id": "P2-NEW-095",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Boolean algebra",
+      "difficulty": "moderate",
+      "stem": "Using De Morgan's law, the complement of (A+B) is:",
+      "options": [
+        "A' + B'",
+        "A'B'",
+        "AB",
+        "A+B"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The complement of a sum is the product of complements.",
+        "Correct: (A+B)'=A'B'.",
+        "AB is not the complement expression.",
+        "This is the original expression."
+      ],
+      "basis": "Paper II syllabus: Digital Logic; Boolean algebra."
+    },
+    {
+      "id": "P2-NEW-096",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Instruction execution",
+      "difficulty": "moderate",
+      "stem": "The Program Counter (PC) normally contains:",
+      "options": [
+        "The address of the next instruction to be fetched",
+        "The result of the ALU operation",
+        "The current stack contents",
+        "The memory data register value"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: PC holds the address used to fetch the next instruction (subject to architecture-specific sequencing).",
+        "The ALU result is held in a general register or result path.",
+        "The stack is in memory and tracked by a stack pointer.",
+        "The MDR holds data transferred to/from memory."
+      ],
+      "basis": "Paper II syllabus: COA; CPU registers and instruction cycle."
+    },
+    {
+      "id": "P2-NEW-097",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C language",
+      "difficulty": "moderate",
+      "stem": "What is the value of the expression 7/2 in C when both operands are of type int?",
+      "options": [
+        "3",
+        "3.5",
+        "4",
+        "2"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: integer division truncates the fractional part, yielding 3.",
+        "3.5 would result from floating-point division.",
+        "Integer division does not round to nearest.",
+        "The quotient is 3."
+      ],
+      "basis": "Paper II syllabus: Programming in C; expressions and type conversion."
+    },
+    {
+      "id": "P2-NEW-098",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Asymptotic notation",
+      "difficulty": "moderate",
+      "stem": "If f(n)=O(g(n)) and g(n)=O(h(n)), then:",
+      "options": [
+        "f(n)=Ω(h(n))",
+        "f(n)=O(h(n))",
+        "h(n)=O(f(n)) always",
+        "f(n)=Θ(h(n)) always"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Upper-bound transitivity does not imply a lower bound.",
+        "Correct: Big-O is transitive.",
+        "The reverse upper bound does not follow.",
+        "Matching lower and upper bounds are not guaranteed."
+      ],
+      "basis": "Paper II syllabus: Algorithms; asymptotic notation."
+    },
+    {
+      "id": "P1-NEW-040",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Fiscal policy",
+      "difficulty": "moderate",
+      "stem": "A fiscal deficit broadly represents:",
+      "options": [
+        "Government total expenditure minus total receipts excluding borrowings",
+        "Exports minus imports",
+        "Revenue receipts minus revenue expenditure",
+        "Tax revenue alone"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: fiscal deficit is total expenditure less receipts excluding borrowings.",
+        "That is the trade balance.",
+        "That is related to revenue deficit with sign reversed.",
+        "Tax revenue is only one receipt component."
+      ],
+      "basis": "Paper I syllabus: Economic and social development; public finance."
+    },
+    {
+      "id": "P1-NEW-041",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Telangana districts",
+      "difficulty": "moderate",
+      "stem": "Which of the following is a major urban centre in Telangana located on the Musi River?",
+      "options": [
+        "Karimnagar",
+        "Hyderabad",
+        "Adilabad",
+        "Nizamabad"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Karimnagar is not situated on the Musi.",
+        "Correct: the Musi flows through Hyderabad.",
+        "Adilabad is not on the Musi.",
+        "Nizamabad is not on the Musi."
+      ],
+      "basis": "Paper I syllabus: Geography and demography of Telangana."
+    },
+    {
+      "id": "P1-NEW-042",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Average",
+      "difficulty": "moderate",
+      "stem": "The average of five numbers is 18. If one number, 22, is removed, the average of the remaining four is:",
+      "options": [
+        "16",
+        "17",
+        "18",
+        "19"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Total is 90; remaining sum 68; average 17.",
+        "Correct: (5×18−22)/4=68/4=17.",
+        "This would imply a remaining sum of 72.",
+        "This would imply a remaining sum of 76."
+      ],
+      "basis": "Paper I syllabus: Analytical ability; averages."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
