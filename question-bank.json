@@ -6607,6 +6607,236 @@
         "The northward displacement alone is 4 km."
       ],
       "basis": "Paper I syllabus: Logical reasoning; direction and distance."
+    },
+    {
+      "id": "P2-NEW-106",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Variance",
+      "difficulty": "advanced",
+      "stem": "If Var(X)=9, then Var(3X+2) is:",
+      "options": [
+        "11",
+        "27",
+        "81",
+        "83"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Adding 2 does not change variance; 9 is not the answer after scaling.",
+        "Variance scales by the square of 3, not by 3.",
+        "Correct: Var(aX+b)=a²Var(X)=9×9=81.",
+        "83 incorrectly adds the constant 2."
+      ],
+      "basis": "Paper II syllabus: Probability and Statistics; variance properties."
+    },
+    {
+      "id": "P2-NEW-107",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Linear transformations",
+      "difficulty": "advanced",
+      "stem": "A linear transformation T satisfies which pair of properties for all vectors u,v and scalar c?",
+      "options": [
+        "T(u+v)=T(u)+T(v) and T(cu)=cT(u)",
+        "T(u+v)=T(u)T(v) and T(cu)=T(u)+c",
+        "T(u)=u²",
+        "T(0)=1"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: additivity and homogeneity define linearity.",
+        "Multiplication of outputs is not the defining property.",
+        "Squaring is generally nonlinear.",
+        "Every linear transformation maps zero to zero."
+      ],
+      "basis": "Paper II syllabus: Linear Algebra; linear transformations."
+    },
+    {
+      "id": "P2-NEW-108",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Planar graphs",
+      "difficulty": "advanced",
+      "stem": "For a connected planar graph, Euler's formula is:",
+      "options": [
+        "V−E+F=2",
+        "V+E+F=2",
+        "V−E−F=0",
+        "V×E=F"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: for a connected planar embedding, V−E+F=2.",
+        "This is not Euler's formula.",
+        "The standard identity is equal to 2.",
+        "There is no such product identity."
+      ],
+      "basis": "Paper II syllabus: Graph Theory; planar graphs."
+    },
+    {
+      "id": "P2-NEW-109",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Counters",
+      "difficulty": "advanced",
+      "stem": "A 4-bit binary counter can represent how many distinct states?",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "32"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Four is the number of bits, not states.",
+        "Eight states require 3 bits.",
+        "Correct: 2^4=16 distinct states.",
+        "Thirty-two states require 5 bits."
+      ],
+      "basis": "Paper II syllabus: Digital Logic; counters and sequential circuits."
+    },
+    {
+      "id": "P2-NEW-110",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Interrupts",
+      "difficulty": "advanced",
+      "stem": "An interrupt is best described as:",
+      "options": [
+        "A signal that causes the processor to suspend its current flow and service an event",
+        "A permanent increase in clock frequency",
+        "A type of cache memory",
+        "A compiler optimization"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: an interrupt causes control to transfer to an interrupt service routine, subject to architecture and priority.",
+        "It does not alter clock frequency permanently.",
+        "It is not a memory structure.",
+        "It is a hardware/software event mechanism, not an optimization."
+      ],
+      "basis": "Paper II syllabus: COA; interrupts and I/O."
+    },
+    {
+      "id": "P2-NEW-111",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C language arrays",
+      "difficulty": "advanced",
+      "stem": "In most expressions, the name of an array in C is converted to:",
+      "options": [
+        "The value of its last element",
+        "A pointer to its first element",
+        "The number of elements",
+        "A pointer to its last element"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Array-to-pointer conversion does not fetch the last element.",
+        "Correct: an array expression usually decays to a pointer to its first element, with specified exceptions.",
+        "The number of elements is not obtained by ordinary array decay.",
+        "The pointer refers to the first element, not the last."
+      ],
+      "basis": "Paper II syllabus: Programming in C; arrays and pointers."
+    },
+    {
+      "id": "P2-NEW-112",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Hashing",
+      "difficulty": "advanced",
+      "stem": "The expected search time in a well-designed hash table with bounded load factor is typically:",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n log n)",
+        "O(n²)"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: expected constant time under suitable hashing assumptions and controlled load factor.",
+        "Logarithmic time is typical of balanced search trees.",
+        "This is higher than expected hash lookup.",
+        "This is not the expected bound."
+      ],
+      "basis": "Paper II syllabus: Algorithms and Data Structures; hashing."
+    },
+    {
+      "id": "P1-NEW-046",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Biodiversity",
+      "difficulty": "advanced",
+      "stem": "An endemic species is one that:",
+      "options": [
+        "Occurs naturally only in a particular geographic region",
+        "Is found on every continent",
+        "Has been introduced from another country",
+        "Is necessarily extinct"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: endemic species are native and restricted to a defined region.",
+        "This contradicts restricted distribution.",
+        "Introduced species are not necessarily endemic.",
+        "Endemic species may be extant."
+      ],
+      "basis": "Paper I syllabus: Environmental issues and biodiversity."
+    },
+    {
+      "id": "P1-NEW-047",
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "subtopic": "Equality and inclusion",
+      "difficulty": "advanced",
+      "stem": "The principle of affirmative action is primarily intended to:",
+      "options": [
+        "Preserve historical disadvantage",
+        "Address structural disadvantage and improve substantive equality",
+        "Remove all constitutional rights",
+        "Replace universal public services"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Affirmative action seeks to address, not preserve, disadvantage.",
+        "Correct: it is intended to improve substantive equality for disadvantaged groups.",
+        "It does not remove constitutional rights.",
+        "It does not inherently replace universal services."
+      ],
+      "basis": "Paper I syllabus: Social exclusion and inclusive policies."
+    },
+    {
+      "id": "P1-NEW-048",
+      "paper": 1,
+      "topicId": "p1-13",
+      "topic": "Policies of Telangana State",
+      "subtopic": "Public administration",
+      "difficulty": "advanced",
+      "stem": "A government policy is most accurately described as:",
+      "options": [
+        "A course of action adopted by public authority to address a public issue",
+        "A private individual's personal preference",
+        "A court judgment in every case",
+        "A temporary rumour"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: public policy is an adopted course of action or inaction by public authority.",
+        "A private preference is not government policy.",
+        "Court judgments are one source of law, not the definition of policy.",
+        "Rumours are not policies."
+      ],
+      "basis": "Paper I syllabus: Telangana State policies and governance."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
