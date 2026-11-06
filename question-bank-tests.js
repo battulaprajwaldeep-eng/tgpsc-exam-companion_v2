@@ -43,13 +43,25 @@ function nextSession(questions, attemptedIds) {
   const attempted=new Set(attemptedIds),seen=new Set();
   const unused=questions.filter(q=>!attempted.has(q.id)&&!seen.has(q.id)&&seen.add(q.id));
   const p2=selectBalanced(unused.filter(q=>q.paper===2),5),p1=selectBalanced(unused.filter(q=>q.paper===1),5);
-  return p2.length<5||p1.length<5?null:[...p2,...p1];
+  return p2.length||p1.length?[...p2,...p1]:null;
 }
 const sample=nextSession(bank.questions,[]);
 if(bank.questions.filter(q=>q.paper===2).length>=5&&bank.questions.filter(q=>q.paper===1).length>=5){
   assert.equal(sample.length,10);assert.equal(sample.filter(q=>q.paper===2).length,5);assert.equal(sample.filter(q=>q.paper===1).length,5);
   assert.equal(new Set(sample.map(q=>q.id)).size,10);
 }
+// Uneven/exhausted paper pools must still serve all remaining unseen questions.
+const uneven=Array.from({length:12},(_,i)=>({id:"U"+i,paper:i<8?2:1,topicId:"u"+(i%4),difficulty:"moderate"}));
+const unevenBatch=nextSession(uneven,[]);
+assert.equal(unevenBatch.length,9,"8 Paper II + 4 Paper I unseen must serve 5 + 4, not block");
+assert.equal(unevenBatch.filter(q=>q.paper===2).length,5);
+assert.equal(unevenBatch.filter(q=>q.paper===1).length,4);
+const afterUneven=nextSession(uneven,unevenBatch.map(q=>q.id));
+assert.equal(afterUneven.length,3,"the remaining 3 Paper II questions must remain available");
+assert.ok(afterUneven.every(q=>q.paper===2));
+assert.equal(nextSession(uneven,[...unevenBatch,...afterUneven].map(q=>q.id)),null,"only fully exhausted pools should stop");
+const paperOneOnly=nextSession(uneven.filter(q=>q.paper===1),[]);
+assert.equal(paperOneOnly.length,4,"a remaining single-paper pool must still be usable");
 const large=Array.from({length:3500},(_,i)=>({id:"T"+i,paper:i%2?1:2,topicId:"topic-"+(i%16),difficulty:["standard","moderate","advanced"][i%3]}));
 // Make an exactly balanced synthetic bank to verify hundreds of full sessions.
 const synthetic=Array.from({length:3500},(_,i)=>({id:"S"+i,paper:i<1750?2:1,topicId:"topic-"+(i%16),difficulty:["standard","moderate","advanced"][i%3]}));
@@ -59,4 +71,4 @@ assert.equal(sessions,350,"3,500 balanced synthetic questions should yield 350 n
 assert.equal(new Set(attempted).size,3500);
 assert.equal(nextSession(synthetic,attempted),null,"exhausted bank must not repeat");
 assert.ok(large.length===3500);
-console.log("PASS: current bank schema, unique IDs, answer/explanation shape, balanced 5+5 selection, 350 sessions from 3,500 synthetic questions, and clean exhaustion.");
+console.log("PASS: current bank schema, unique IDs, answer/explanation shape, balanced and partial selection, 350 sessions from 3,500 synthetic questions, and clean exhaustion.");
