@@ -7297,6 +7297,236 @@
         "44 does not follow the increasing even differences."
       ],
       "basis": "Paper I syllabus: Analytical ability; number series."
+    },
+    {
+      "id": "P2-NEW-127",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Language classes",
+      "difficulty": "moderate",
+      "stem": "Every regular language is:",
+      "options": [
+        "Context-free",
+        "Not context-free",
+        "Undecidable",
+        "Finite"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: every regular language is context-free; a finite automaton can be simulated by a PDA.",
+        "Regular languages are a subset of context-free languages.",
+        "Regularity does not imply undecidability.",
+        "Regular languages may be infinite."
+      ],
+      "basis": "Paper II syllabus: TOC; Chomsky hierarchy."
+    },
+    {
+      "id": "P2-NEW-128",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Parsing",
+      "difficulty": "moderate",
+      "stem": "A shift-reduce parser is a type of:",
+      "options": [
+        "Top-down parser",
+        "Bottom-up parser",
+        "Lexical analyzer",
+        "Code generator"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Top-down parsers construct derivations from the start symbol.",
+        "Correct: shift-reduce parsing builds a rightmost derivation in reverse.",
+        "Lexical analysis produces tokens.",
+        "Code generation translates intermediate representation."
+      ],
+      "basis": "Paper II syllabus: Compiler Design; bottom-up parsing."
+    },
+    {
+      "id": "P2-NEW-129",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Critical sections",
+      "difficulty": "moderate",
+      "stem": "A critical-section solution must satisfy mutual exclusion, progress and:",
+      "options": [
+        "Bounded waiting",
+        "Unlimited waiting",
+        "Deadlock by design",
+        "Priority inversion"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: bounded waiting is the third classic requirement.",
+        "Unlimited waiting violates bounded waiting.",
+        "Deadlock is not a required property.",
+        "Priority inversion is a scheduling issue, not a critical-section requirement."
+      ],
+      "basis": "Paper II syllabus: Operating Systems; process synchronization."
+    },
+    {
+      "id": "P2-NEW-130",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "SQL joins",
+      "difficulty": "moderate",
+      "stem": "A LEFT OUTER JOIN returns:",
+      "options": [
+        "Only matching rows from both tables",
+        "All rows from the left table and matching rows from the right, with NULLs for nonmatches",
+        "All rows from the right table only",
+        "The Cartesian product in every case"
+      ],
+      "answer": 1,
+      "explanations": [
+        "An inner join returns only matching rows.",
+        "Correct: unmatched left rows are retained and right-side columns become NULL.",
+        "That describes neither LEFT JOIN nor all left rows.",
+        "A Cartesian product is CROSS JOIN."
+      ],
+      "basis": "Paper II syllabus: Databases; SQL joins."
+    },
+    {
+      "id": "P2-NEW-131",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Project management",
+      "difficulty": "moderate",
+      "stem": "A Gantt chart is primarily used to represent:",
+      "options": [
+        "Project activities against a time schedule",
+        "Database normalization",
+        "Network routing tables",
+        "Software source-code syntax"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: a Gantt chart displays tasks and their timing/duration.",
+        "Normalization concerns relational database design.",
+        "Routing tables are network-layer structures.",
+        "Source-code syntax is represented by grammars or syntax trees."
+      ],
+      "basis": "Paper II syllabus: Information Systems and Software Engineering; project planning."
+    },
+    {
+      "id": "P2-NEW-132",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Network layer",
+      "difficulty": "moderate",
+      "stem": "Which protocol is responsible for logical addressing and routing in the Internet protocol suite?",
+      "options": [
+        "Ethernet",
+        "IP",
+        "TCP",
+        "HTTP"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Ethernet provides link-layer framing and MAC addressing.",
+        "Correct: IP provides logical addressing and packet routing.",
+        "TCP provides transport-layer reliability and sequencing.",
+        "HTTP is an application-layer protocol."
+      ],
+      "basis": "Paper II syllabus: Computer Networks; Internet protocol suite."
+    },
+    {
+      "id": "P2-NEW-133",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "C++ inheritance",
+      "difficulty": "moderate",
+      "stem": "In C++, a virtual function primarily enables:",
+      "options": [
+        "Compile-time constant folding",
+        "Runtime polymorphism through dynamic dispatch",
+        "Automatic database indexing",
+        "Multiple inheritance to be disabled"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Constant folding is a compiler optimization.",
+        "Correct: virtual dispatch selects the overridden method based on the dynamic object type.",
+        "Database indexing is unrelated.",
+        "Virtual functions do not disable multiple inheritance."
+      ],
+      "basis": "Paper II syllabus: OOP and C++; virtual functions."
+    },
+    {
+      "id": "P1-NEW-055",
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "subtopic": "Current affairs evaluation",
+      "difficulty": "moderate",
+      "stem": "When verifying a reported government statistic, the strongest source is usually:",
+      "options": [
+        "A viral post without attribution",
+        "The original official statistical release or dataset",
+        "An unattributed infographic",
+        "A copied message"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A viral post without a source is not verifiable.",
+        "Correct: the original release or dataset is the primary evidence.",
+        "An infographic may omit context or methodology.",
+        "A copied message is not an original source."
+      ],
+      "basis": "Paper I syllabus: Current affairs; evaluating information sources."
+    },
+    {
+      "id": "P1-NEW-056",
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Telangana festivals",
+      "difficulty": "moderate",
+      "stem": "The Sammakka-Saralamma Jatara is traditionally associated with which place?",
+      "options": [
+        "Medaram",
+        "Bhadrachalam",
+        "Basara",
+        "Alampur"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: the biennial tribal festival is held at Medaram in Mulugu district.",
+        "Bhadrachalam is associated with the Sri Sita Ramachandra Swamy temple.",
+        "Basara is known for the Gnana Saraswati temple.",
+        "Alampur is known for its temple complex."
+      ],
+      "basis": "Paper I syllabus: Telangana society, culture and heritage."
+    },
+    {
+      "id": "P1-NEW-057",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Profit and loss",
+      "difficulty": "moderate",
+      "stem": "An article bought for ₹600 is sold for ₹690. The profit percentage is:",
+      "options": [
+        "10%",
+        "12%",
+        "15%",
+        "18%"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Profit is ₹90; 90/600×100=15%, not 10%.",
+        "The profit percentage is not 12%.",
+        "Correct: 90/600×100=15%.",
+        "18% is not the calculated rate."
+      ],
+      "basis": "Paper I syllabus: Analytical ability; profit and loss."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
