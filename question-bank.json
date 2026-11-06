@@ -7757,6 +7757,236 @@
         "Saturday would be four days later."
       ],
       "basis": "Paper I syllabus: Logical reasoning; calendar problems."
+    },
+    {
+      "id": "P2-NEW-141",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing machines",
+      "difficulty": "advanced",
+      "stem": "A language is recursively enumerable if:",
+      "options": [
+        "A Turing machine halts and accepts exactly the strings in the language, but may not halt on strings outside it",
+        "Every Turing machine rejects all strings",
+        "A DFA accepts it necessarily",
+        "Its complement is always recursively enumerable"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: a recognizer accepts members and may loop forever on nonmembers.",
+        "This does not define recursively enumerable languages.",
+        "DFA recognition is the narrower regular-language class.",
+        "A recursively enumerable language's complement need not be recursively enumerable."
+      ],
+      "basis": "Paper II syllabus: TOC; recursively enumerable languages."
+    },
+    {
+      "id": "P2-NEW-142",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Register allocation",
+      "difficulty": "advanced",
+      "stem": "Graph coloring is used in compiler register allocation to model:",
+      "options": [
+        "Conflicts between variables whose live ranges overlap",
+        "The syntax of arithmetic expressions",
+        "The network topology",
+        "The order of source files"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: an interference graph connects simultaneously live values that cannot share a register.",
+        "Expression syntax is represented by parse/abstract syntax trees.",
+        "Network topology is unrelated.",
+        "Source-file order is not the coloring model."
+      ],
+      "basis": "Paper II syllabus: Compiler Design; register allocation."
+    },
+    {
+      "id": "P2-NEW-143",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Thrashing",
+      "difficulty": "advanced",
+      "stem": "Thrashing occurs when a system spends most of its time:",
+      "options": [
+        "Executing user instructions",
+        "Swapping pages in and out rather than executing useful work",
+        "Performing disk formatting",
+        "Compiling source code"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Thrashing reduces useful CPU execution rather than increasing it.",
+        "Correct: excessive paging dominates system activity.",
+        "Disk formatting is unrelated.",
+        "Compilation is an application workload."
+      ],
+      "basis": "Paper II syllabus: Operating Systems; virtual memory and thrashing."
+    },
+    {
+      "id": "P2-NEW-144",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Serial schedules",
+      "difficulty": "advanced",
+      "stem": "A serial schedule is one in which:",
+      "options": [
+        "Operations of transactions are interleaved arbitrarily",
+        "One transaction completes before the next transaction begins",
+        "All transactions execute simultaneously",
+        "Only read operations are allowed"
+      ],
+      "answer": 1,
+      "explanations": [
+        "That describes a non-serial interleaving.",
+        "Correct: transactions execute one after another without interleaving.",
+        "Simultaneous execution is not serial.",
+        "Serial schedules can include reads and writes."
+      ],
+      "basis": "Paper II syllabus: Databases; transaction scheduling."
+    },
+    {
+      "id": "P2-NEW-145",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "TCP",
+      "difficulty": "advanced",
+      "stem": "TCP's three-way handshake is:",
+      "options": [
+        "SYN, SYN-ACK, ACK",
+        "ACK, FIN, SYN",
+        "SYN, FIN, ACK",
+        "FIN, FIN-ACK, ACK"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: the client sends SYN, server responds SYN-ACK, and client sends ACK.",
+        "FIN is used for connection termination, not setup.",
+        "This sequence omits SYN-ACK.",
+        "FIN sequences are associated with closing a connection."
+      ],
+      "basis": "Paper II syllabus: Computer Networks; TCP connection establishment."
+    },
+    {
+      "id": "P2-NEW-146",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "Web security",
+      "difficulty": "advanced",
+      "stem": "The primary purpose of HTTPS is to provide:",
+      "options": [
+        "Encryption and authentication of communication using TLS",
+        "Faster JavaScript execution",
+        "Automatic database normalization",
+        "Compression of every image"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct: HTTPS uses TLS to protect confidentiality and integrity and authenticate the server.",
+        "HTTPS does not guarantee faster script execution.",
+        "Database normalization is unrelated.",
+        "Image compression is not its purpose."
+      ],
+      "basis": "Paper II syllabus: Web Technologies; web security and HTTPS."
+    },
+    {
+      "id": "P2-NEW-147",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "Java interfaces",
+      "difficulty": "advanced",
+      "stem": "A Java class can:",
+      "options": [
+        "Extend multiple classes",
+        "Implement multiple interfaces",
+        "Have more than one direct superclass class",
+        "Instantiate an interface directly"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Java classes have only one direct superclass.",
+        "Correct: a class may implement multiple interfaces.",
+        "Multiple class inheritance is not supported.",
+        "An interface cannot be instantiated directly."
+      ],
+      "basis": "Paper II syllabus: OOP and Java; interfaces and inheritance."
+    },
+    {
+      "id": "P1-NEW-061",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Freedom movement",
+      "difficulty": "advanced",
+      "stem": "The Quit India Movement was launched in:",
+      "options": [
+        "1930",
+        "1935",
+        "1942",
+        "1946"
+      ],
+      "answer": 2,
+      "explanations": [
+        "1930 marks the Civil Disobedience Movement.",
+        "1935 is associated with the Government of India Act.",
+        "Correct: the Quit India Movement was launched in August 1942.",
+        "1946 saw major constitutional and political developments but not the launch."
+      ],
+      "basis": "Paper I syllabus: Modern Indian history and national movement."
+    },
+    {
+      "id": "P1-NEW-062",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana",
+      "subtopic": "Telangana state formation",
+      "difficulty": "advanced",
+      "stem": "Telangana became the 29th state of India on:",
+      "options": [
+        "1 May 2014",
+        "2 June 2014",
+        "15 August 2014",
+        "1 January 2015"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The state did not form on 1 May.",
+        "Correct: Telangana was formed on 2 June 2014.",
+        "15 August is not the appointed date.",
+        "The state was already formed in 2014."
+      ],
+      "basis": "Paper I syllabus: Telangana statehood movement and formation."
+    },
+    {
+      "id": "P1-NEW-063",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Data interpretation",
+      "difficulty": "advanced",
+      "stem": "A class has 40 students, of whom 25% are absent. How many students are present?",
+      "options": [
+        "10",
+        "20",
+        "25",
+        "30"
+      ],
+      "answer": 3,
+      "explanations": [
+        "10 is the number absent.",
+        "20 would mean 50% are present.",
+        "25 is the absent percentage, not the count present.",
+        "Correct: 75% of 40 = 30 students present."
+      ],
+      "basis": "Paper I syllabus: Analytical ability; percentages."
     }
   ],
   "qualityNote": "Reviewed expansion through 132 questions: 68 Paper II and 64 Paper I. New tranches are weighted 60% Paper II and 40% Paper I as requested. Each added item has a unique ID, existing syllabus topic mapping, four options, a verified answer index and four option-specific explanations. Bank remains in progress toward 2,000 Paper II and 1,500 Paper I questions; browser end-to-end testing and deployment remain pending.",
