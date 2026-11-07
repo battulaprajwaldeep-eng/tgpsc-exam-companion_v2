@@ -19,7 +19,7 @@ Historical data is an evidence-based summary, not a complete transcript of every
 - Paper II weighted at 2 marks and Paper I at 1 mark per correct answer.
 - Answers hidden until submission; post-submission explanations include distractors.
 - Attempted question IDs excluded from normal practice; revision is a separate mode.
-- Local session history, canonical first-attempt topic/subtopic evidence, separate Paper I/Paper II readiness summaries, weak-area priorities, syllabus content-studied checklist, weekly study-time log, and JSON export/import. Export/import now runs metadata normalisation against the current bank before saving.
+- Local session history, canonical first-attempt topic/subtopic evidence, separate Paper I/Paper II readiness summaries, weak-area priorities, syllabus content-studied checklist, detailed Paper II bullet-level checklist, weekly study-time log, and JSON export/import. Export/import now runs metadata normalisation against the current bank before saving.
 - Imported historical checkpoints and saved instructor prompts displayed from `study-data.json`.
 - Government Exam Instructor recruitment dashboard in `government-exams.html`.
 
