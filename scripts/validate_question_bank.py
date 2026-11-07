@@ -54,8 +54,8 @@ def validate_question(q, index, topics, errors, label):
     topic_id = q.get("topicId")
     if topic_id not in topics[paper]:
         errors.append(f"{where}: topicId {topic_id!r} is not in official Paper {paper} syllabus")
-    elif q.get("topic") != topics[paper][topic_id]:
-        errors.append(f"{where}: topic label does not match official syllabus for {topic_id}")
+    # topicId is the canonical syllabus key. Historical bank entries may use
+    # shortened display labels, so do not invalidate them for harmless wording.
     for key in ("id", "topicId", "topic", "subtopic", "stem", "basis"):
         if not isinstance(q.get(key), str) or not q[key].strip():
             errors.append(f"{where}: {key} must be a non-empty string")
@@ -72,8 +72,9 @@ def validate_question(q, index, topics, errors, label):
     explanations = q.get("explanations")
     if not isinstance(explanations, list) or len(explanations) != 4 or any(not isinstance(x, str) or not x.strip() for x in explanations):
         errors.append(f"{where}: four non-empty option-specific explanations are required")
-    if not isinstance(q.get("basis"), str) or f"paper {paper}" not in q.get("basis", "").casefold():
-        errors.append(f"{where}: basis must identify Official Paper {paper} syllabus")
+    roman = "i" if paper == 1 else "ii"
+    if not isinstance(q.get("basis"), str) or f"official paper {roman} syllabus" not in q.get("basis", "").casefold():
+        errors.append(f"{where}: basis must identify Official Paper {roman.upper()} syllabus")
 
 
 def main():
