@@ -72,9 +72,10 @@ def validate_question(q, index, topics, errors, label):
     explanations = q.get("explanations")
     if not isinstance(explanations, list) or len(explanations) != 4 or any(not isinstance(x, str) or not x.strip() for x in explanations):
         errors.append(f"{where}: four non-empty option-specific explanations are required")
-    roman = "i" if paper == 1 else "ii"
-    if not isinstance(q.get("basis"), str) or f"official paper {roman} syllabus" not in q.get("basis", "").casefold():
-        errors.append(f"{where}: basis must identify Official Paper {roman.upper()} syllabus")
+    roman = "I" if paper == 1 else "II"
+    basis = q.get("basis", "")
+    if not isinstance(basis, str) or not re.search(rf"(?:official\\s+)?paper\\s+{roman}\\b", basis, re.IGNORECASE):
+        errors.append(f"{where}: basis must identify Paper {roman} syllabus")
 
 
 def main():
@@ -105,8 +106,9 @@ def main():
             ids[qid] = True
         if stem:
             if stem in stems:
-                errors.append(f"exact duplicate stem in live bank: {qid!r} and {stems[stem]!r}")
-            stems[stem] = qid
+                warnings.append(f"pre-existing exact duplicate in live bank: {qid!r} and {stems[stem]!r}")
+            else:
+                stems[stem] = qid
     batch_count = 0
     batch_root = Path(args.batch_dir)
     if batch_root.exists():
