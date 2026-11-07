@@ -56,7 +56,7 @@ Compared all 100 final stems against the 681-question live bank and the 400 extr
 
 ## Principal source groups
 
-- Union Budget 2026–27 Speech: https://www.indiabudget.gov.in/doc/Budget_Speech.pdf
+- Union Budget 2026–27 Speech: https://www.indiabudget.gov.in/doc/eb/allsbe.pdf
 - Telangana Cabinet releases, November 2026: https://www.telangana.gov.in/news/2026/11/
 - PRS Telangana Budget Analysis 2026–27: https://prsindia.org/budgets/states/telangana-budget-analysis-2026-27
 - Government of Telangana Socio-Economic Outlook 2024: https://des.telangana.gov.in/publications/Socio%20Economic%20Outlook-2024.pdf
