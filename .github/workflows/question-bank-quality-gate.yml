@@ -10,6 +10,7 @@ on:
       - "batch-import.html"
       - "index.html"
       - "study-tracker.js"
+      - "live-dashboard.js"
       - "sw.js"
       - "scripts/validate_question_bank.py"
       - "question-bank-tests.js"
@@ -45,5 +46,7 @@ jobs:
         run: node question-bank-tests.js
       - name: Check browser tracker JavaScript syntax
         run: node --check study-tracker.js
+      - name: Check live dashboard JavaScript syntax
+        run: node --check live-dashboard.js
       - name: Compile batch generator
         run: python -m py_compile scripts/generate_question_batch.py
