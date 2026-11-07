@@ -14,7 +14,7 @@
 
   const configured = () => /^https:\/\//.test(CFG.url || "") && !!CFG.anonKey;
   const endpoint = path => CFG.url.replace(/\/$/, "") + path;
-  const saveSession = value => { session = value; localStorage.setItem(SESSION_KEY, JSON.stringify(value)); };
+  const saveSession = value => { if (value && !value.expires_at) value.expires_at = Date.now() + (Number(value.expires_in) || 3600) * 1000; else if (value && value.expires_at < 1000000000000) value.expires_at *= 1000; session = value; localStorage.setItem(SESSION_KEY, JSON.stringify(value)); };
   const readSession = () => { try { session = JSON.parse(localStorage.getItem(SESSION_KEY) || "null"); } catch (_) { session = null; } return session; };
   const status = (message, error) => {
     const node = $("cloudStatus");
@@ -203,7 +203,7 @@
   }
   window.addEventListener("online", () => { if (session || localStorage.getItem(QUEUE_KEY) === "1") syncNow(); });
   window.addEventListener("storage", event => { if (event.key === "tgpscState" && session) syncNow(); });
-  document.addEventListener("DOMContentLoaded", () => {
+  document.addEventListener("visibilitychange", () => { if (!document.hidden && session) syncNow(); });\n  setInterval(() => { if (!document.hidden && session && navigator.onLine) syncNow(); }, 60000);\n  document.addEventListener("DOMContentLoaded", () => {
     const signInButton = $("cloudSignIn"), signOutButton = $("cloudSignOut");
     if (signInButton) signInButton.addEventListener("click", signIn);
     if (signOutButton) signOutButton.addEventListener("click", signOut);
