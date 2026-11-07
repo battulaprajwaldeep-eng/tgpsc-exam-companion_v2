@@ -29,7 +29,7 @@ def normalize(value):
     # Preserve mathematical operators so distinct answer choices such as V+E
     # and V-E, A'B and AB, or |A|+|B| and |A|-|B| stay distinct.
     value = value.replace("−", "-").replace("–", "-").replace("×", "*").replace("÷", "/")
-    operators = r"[+\-*/=<>|^%~'′¬⊕⊙∧∨∩∪≤≥≠→←]"
+    operators = r"[+\-*/=<>|^%~!'′¬⊕⊙∧∨∩∪≤≥≠→←]"
     value = re.sub(rf"\s*({operators})\s*", r"\1", value)
     value = re.sub(rf"[^\w{operators[1:-1]}]+", " ", value, flags=re.UNICODE)
     return re.sub(r"\s+", " ", value).strip()
