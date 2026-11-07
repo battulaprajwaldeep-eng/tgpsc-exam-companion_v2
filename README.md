@@ -83,26 +83,19 @@ These projects are tracked as optional upstream references for improving authori
 4. Commit the validated output on a feature branch and open a pull request.
 5. Wait for the Question bank quality gate to pass; review the actual questions and merge only after human answer-key verification.
 
-## Google sign-in and automatic cloud sync
+## Personal-use storage and offline behaviour
 
-The website includes an optional Supabase-backed account sync. It uses Google OAuth with PKCE, stores the learner's progress in `public.tgpsc_learner_state`, and keeps local browser storage as the offline working copy. Quiz attempts, study logs, syllabus completion, attempted IDs and the active session are merged when a device reconnects. Signing out does not erase local progress. When switching Google accounts on one browser, each account's local working copy is kept separately.
+- This website is configured for one-person, one-browser use. No Google sign-in, Supabase account, or cloud database is required.
+- Quiz answers, completed sessions, attempted question IDs, topic/subtopic metadata, syllabus checklists and study logs are saved automatically in Chrome local storage on this device.
+- Use **Export progress JSON** regularly as a backup. Importing a backup merges its completed history, study logs, attempted IDs and topic checklists with the current browser data; matching question metadata is normalised against the current question bank. Duplicate records are not added.
+- Browser cache and saved progress are separate. Clearing website cache/service-worker data may force the site to download fresh files, but clearing site storage can erase local progress. Keep a JSON backup before clearing Chrome's site data or moving to another browser/device.
+- The service worker uses cache version `tgpsc-companion-v17`, checks the network for updated files, and removes older app caches when the new worker activates. Offline fallback remains available for previously cached files.
+- Progress JSON is a backup/restore mechanism, not a cloud-sync service. To use another device, export on the first device and import the JSON on the second.
 
-### One-time Supabase setup (required before cloud sync can connect)
+## Deployment
 
-1. Create a Supabase project at https://supabase.com/ and open **Project Settings → API**.
-2. Copy the Project URL and the public anon/publishable key into `supabase-config.js` (`url` and `anonKey`). These are browser-safe public values. Never use or publish the service-role/secret key.
-3. In Supabase **Authentication → Providers → Google**, enable Google and enter the Google OAuth client ID and client secret created in Google Cloud Console. In the Google Cloud OAuth client, add the Supabase callback URL shown on that provider page (normally `https://<project-ref>.supabase.co/auth/v1/callback`) as an authorised redirect URI.
-4. In **Authentication → URL Configuration**, set the Site URL to the deployed website origin and add the exact website URL (including path) to the Redirect URLs allow-list. The app returns to the current page path after Google sign-in.
-5. In **SQL Editor**, run `supabase/migrations/20261107_create_tgpsc_learner_state.sql`.
-6. Deploy the updated website. Open it online, sign in with Google, then sign in with the same Google account on your other device.
+The repository is connected to a Cloudflare Worker deployment. The production URL is:
 
-### Data security and offline behaviour
+`https://tgpsc-exam-companion-v2.battulaprajwaldeep.workers.dev/`
 
-- The SQL migration enables and forces Row Level Security. Policies require `auth.uid() = user_id` for select, insert, update and delete. Anonymous users receive no table grants.
-- The browser uses only the Supabase public anon/publishable key and the signed-in user's access token. No service-role key or privileged server secret is present in the website.
-- Local saves remain immediate. When offline, the pending flag is retained in localStorage; the app attempts synchronisation after connectivity returns. A successful sync clears the pending flag.
-- History and study-log entries are merged by stable record fingerprints; attempted question IDs and syllabus completion flags are unioned. The in-progress quiz follows the most recently saved device state. Avoid editing the same active quiz simultaneously on two devices.
-- JSON export/import remains available as a manual backup. It is not required for routine multi-device sync.
-- This is a single JSON document per user. It is appropriate for this personal study tracker; it is not a high-concurrency collaborative data store.
-
-Until Supabase project credentials, Google OAuth, SQL migration and website deployment are configured, the site continues to work locally and the cloud status will show that setup is needed.
+A successful GitHub commit does not by itself prove that the production deployment is live; verify the deployed version after each update.
