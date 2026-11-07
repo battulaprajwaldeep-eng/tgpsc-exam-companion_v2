@@ -112,7 +112,7 @@ async function importData(){
     try{
       const imported=JSON.parse(reader.result);
       if(!Array.isArray(imported.history)||!Array.isArray(imported.completed))throw Error("Invalid backup structure.");
-      s={...s,...imported,attemptedIds:imported.attemptedIds||[],studiedTopics:imported.studiedTopics||[],studyLogs:imported.studyLogs||[]};
+      s={...s,...imported,attemptedIds:imported.attemptedIds||[],studiedTopics:imported.studiedTopics||[],studiedSubtopics:imported.studiedSubtopics||[],studyLogs:imported.studyLogs||[]};
       await loadBank();migrateHistoryMetadata();save();syllabusView();historyView();topicMasteryView();renderStudyLog();
       alert("Backup imported and matched question metadata was normalised.");
     }catch(error){alert(error.message||"Invalid backup file.")}
