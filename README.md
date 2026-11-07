@@ -91,7 +91,7 @@ The website includes an optional Supabase-backed account sync. It uses Google OA
 
 1. Create a Supabase project at https://supabase.com/ and open **Project Settings → API**.
 2. Copy the Project URL and the public anon/publishable key into `supabase-config.js` (`url` and `anonKey`). These are browser-safe public values. Never use or publish the service-role/secret key.
-3. In Supabase **Authentication → Providers → Google**, enable Google and enter the Google OAuth client ID and client secret created in Google Cloud Console.
+3. In Supabase **Authentication → Providers → Google**, enable Google and enter the Google OAuth client ID and client secret created in Google Cloud Console. In the Google Cloud OAuth client, add the Supabase callback URL shown on that provider page (normally `https://<project-ref>.supabase.co/auth/v1/callback`) as an authorised redirect URI.
 4. In **Authentication → URL Configuration**, set the Site URL to the deployed website origin and add the exact website URL (including path) to the Redirect URLs allow-list. The app returns to the current page path after Google sign-in.
 5. In **SQL Editor**, run `supabase/migrations/20261107_create_tgpsc_learner_state.sql`.
 6. Deploy the updated website. Open it online, sign in with Google, then sign in with the same Google account on your other device.
