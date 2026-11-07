@@ -20,7 +20,7 @@ Historical data is an evidence-based summary, not a complete transcript of every
 - Answers hidden until submission; post-submission explanations include distractors.
 - Attempted question IDs excluded from normal practice; revision is a separate mode.
 - Live home dashboard with strong areas, weak areas, Paper I/Paper II accuracy, question-bank coverage, untouched syllabus topics and recent activity. It refreshes automatically whenever the app saves progress; no manual JSON upload is needed for normal use. The Progress screen retains the detailed performance register.
-- Local session history, canonical first-attempt topic/subtopic evidence, separate Paper I/Paper II readiness summaries, weak-area priorities, syllabus content-studied checklist, weekly study-time log, and optional JSON export/import for backup or moving devices. Export/import runs metadata normalisation against the current bank.
+- Local session history, canonical first-attempt topic/subtopic evidence, separate Paper I/Paper II readiness summaries, weak-area priorities, syllabus content-studied checklist, detailed Paper II bullet-level checklist, weekly study-time log, and optional JSON export/import for backup or moving devices. Export/import runs metadata normalisation against the current bank.
 - Imported historical checkpoints and saved instructor prompts displayed from `study-data.json`.
 - Government Exam Instructor recruitment dashboard in `government-exams.html`.
 
