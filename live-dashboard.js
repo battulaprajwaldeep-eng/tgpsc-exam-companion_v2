@@ -80,6 +80,7 @@
       if(typeof topicMasteryView==="function")topicMasteryView();
     }
   }
+  window.renderLiveDashboard=render;
   async function initialise(){
     try{
       if(typeof loadBank==="function")await loadBank();

@@ -28,9 +28,9 @@ Historical data is an evidence-based summary, not a complete transcript of every
 
 - The question bank currently contains 681 questions (269 Paper I, 412 Paper II; verified 7 November 2026). It remains in progress and is not proof of full syllabus coverage or exam readiness.
 - A mobile-friendly bulk JSON importer is available at `batch-import.html`. It validates schema fields, exact duplicate IDs/stems, flags lexical similarity for manual review, and exports a merged JSON file locally. It does not write directly to GitHub; review and commit the exported file through a pull request.
-- New quiz attempts, study-time logs and content-studied flags are stored automatically in this browser's local storage and appear in the live dashboard without uploading a file. Dashboard changes refresh on each save and across tabs in the same browser profile. Data remains on this device/browser profile; it is not account-based cloud sync and will not automatically follow the user to a different device or browser. Optional JSON export/import is only for backup or device migration. First-attempt dashboard accuracy excludes revision sessions. Legacy question records are normalised to canonical topic IDs, topic names and subtopics from the current question bank during bank load and before every export; unmatched IDs are counted and never guessed. Mastery requires at least 15 distinct first-attempt questions, at least 80% accuracy, and a later successful revision of a previously missed question after at least 24 hours. A checkbox means only that content was studied; it does not mean mastered. Weekly time tracking uses a 10-hour weekday baseline (2 hours × 5 weekdays); weekend study is recorded separately as additional time. Data is not cloud-synchronised between devices; export backups regularly.
+- New quiz attempts, study-time logs and content-studied flags are stored automatically in this browser's local storage and appear in the live dashboard without uploading a file. Dashboard changes refresh on each save and across tabs in the same browser profile. Before Google OAuth and the Supabase database setup are completed, data remains on this device/browser profile. After sign-in and setup, cloud sync carries account progress across devices. Optional JSON export/import is only for backup or device migration. First-attempt dashboard accuracy excludes revision sessions. Legacy question records are normalised to canonical topic IDs, topic names and subtopics from the current question bank during bank load and before every export; unmatched IDs are counted and never guessed. Mastery requires at least 15 distinct first-attempt questions, at least 80% accuracy, and a later successful revision of a previously missed question after at least 24 hours. A checkbox means only that content was studied; it does not mean mastered. Weekly time tracking uses a 10-hour weekday baseline (2 hours × 5 weekdays); weekend study is recorded separately as additional time. Data is not cloud-synchronised between devices; export backups regularly.
 - Imported historical aggregates are shown separately from new browser-session records. Uncertain records are not counted.
-- No account login, server database, automatic question generation or guaranteed live recruitment feed is implemented.
+- Google sign-in and cloud-sync integration is included but is not operational until Google OAuth, the Supabase SQL migration, redirect allow-list and deployment are configured. No automatic question generation or guaranteed live recruitment feed is implemented.
 
 ## Deployment
 
@@ -82,3 +82,27 @@ These projects are tracked as optional upstream references for improving authori
 3. Inspect all rejected questions and near-duplicate warnings; fix or explicitly remove them.
 4. Commit the validated output on a feature branch and open a pull request.
 5. Wait for the Question bank quality gate to pass; review the actual questions and merge only after human answer-key verification.
+
+## Google sign-in and automatic cloud sync
+
+The website includes an optional Supabase-backed account sync. It uses Google OAuth with PKCE, stores the learner's progress in `public.tgpsc_learner_state`, and keeps local browser storage as the offline working copy. Quiz attempts, study logs, syllabus completion, attempted IDs and the active session are merged when a device reconnects. Signing out does not erase local progress. When switching Google accounts on one browser, each account's local working copy is kept separately.
+
+### One-time Supabase setup (required before cloud sync can connect)
+
+1. Create a Supabase project at https://supabase.com/ and open **Project Settings → API**.
+2. Copy the Project URL and the public anon/publishable key into `supabase-config.js` (`url` and `anonKey`). These are browser-safe public values. Never use or publish the service-role/secret key.
+3. In Supabase **Authentication → Providers → Google**, enable Google and enter the Google OAuth client ID and client secret created in Google Cloud Console. In the Google Cloud OAuth client, add the Supabase callback URL shown on that provider page (normally `https://<project-ref>.supabase.co/auth/v1/callback`) as an authorised redirect URI.
+4. In **Authentication → URL Configuration**, set the Site URL to the deployed website origin and add the exact website URL (including path) to the Redirect URLs allow-list. The app returns to the current page path after Google sign-in.
+5. In **SQL Editor**, run `supabase/migrations/20261107_create_tgpsc_learner_state.sql`.
+6. Deploy the updated website. Open it online, sign in with Google, then sign in with the same Google account on your other device.
+
+### Data security and offline behaviour
+
+- The SQL migration enables and forces Row Level Security. Policies require `auth.uid() = user_id` for select, insert, update and delete. Anonymous users receive no table grants.
+- The browser uses only the Supabase public anon/publishable key and the signed-in user's access token. No service-role key or privileged server secret is present in the website.
+- Local saves remain immediate. When offline, the pending flag is retained in localStorage; the app attempts synchronisation after connectivity returns. A successful sync clears the pending flag.
+- History and study-log entries are merged by stable record fingerprints; attempted question IDs and syllabus completion flags are unioned. The in-progress quiz follows the most recently saved device state. Avoid editing the same active quiz simultaneously on two devices.
+- JSON export/import remains available as a manual backup. It is not required for routine multi-device sync.
+- This is a single JSON document per user. It is appropriate for this personal study tracker; it is not a high-concurrency collaborative data store.
+
+Until Supabase project credentials, Google OAuth, SQL migration and website deployment are configured, the site continues to work locally and the cloud status will show that setup is needed.
