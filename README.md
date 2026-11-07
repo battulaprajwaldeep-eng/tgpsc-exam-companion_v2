@@ -26,11 +26,10 @@ Historical data is an evidence-based summary, not a complete transcript of every
 
 ## Important limitations
 
-- The question bank currently contains 681 questions (269 Paper I, 412 Paper II; verified 7 November 2026). It remains in progress and is not proof of full syllabus coverage or exam readiness.
+- The question bank currently contains 781 questions (309 Paper I, 472 Paper II; verified 7 November 2026 after Batch 006). It remains in progress and is not proof of full syllabus coverage or exam readiness.
 - A mobile-friendly bulk JSON importer is available at `batch-import.html`. It validates schema fields, exact duplicate IDs/stems, flags lexical similarity for manual review, and exports a merged JSON file locally. It does not write directly to GitHub; review and commit the exported file through a pull request.
-- New quiz attempts, study-time logs and content-studied flags are stored automatically in this browser's local storage and appear in the live dashboard without uploading a file. Dashboard changes refresh on each save and across tabs in the same browser profile. Before Google OAuth and the Supabase database setup are completed, data remains on this device/browser profile. After sign-in and setup, cloud sync carries account progress across devices. Optional JSON export/import is only for backup or device migration. First-attempt dashboard accuracy excludes revision sessions. Legacy question records are normalised to canonical topic IDs, topic names and subtopics from the current question bank during bank load and before every export; unmatched IDs are counted and never guessed. Mastery requires at least 15 distinct first-attempt questions, at least 80% accuracy, and a later successful revision of a previously missed question after at least 24 hours. A checkbox means only that content was studied; it does not mean mastered. Weekly time tracking uses a 10-hour weekday baseline (2 hours × 5 weekdays); weekend study is recorded separately as additional time. Cloud sync is available after Google OAuth and Supabase database setup are completed; until then, progress remains local to this browser. Export backups are still recommended.
+- New quiz attempts, study-time logs and content-studied flags are saved locally in this browser. The app does not require Google OAuth, Supabase or a cloud account. Export progress JSON regularly; import merges histories, study logs, attempted IDs and topic checklists with current data.
 - Imported historical aggregates are shown separately from new browser-session records. Uncertain records are not counted.
-- Google sign-in and cloud-sync integration is included but is not operational until Google OAuth, the Supabase SQL migration, redirect allow-list and deployment are configured. No automatic question generation or guaranteed live recruitment feed is implemented.
 
 ## Deployment
 
@@ -47,7 +46,7 @@ Through the December 2026 exam period, prioritise syllabus completion, question 
 
 ## Evaluated upstream open-source projects
 
-These projects are tracked as optional upstream references for improving authoring and import workflows. They are **not runtime dependencies** of the deployed TGPSC website. The live bank remains `question-bank.json` and must continue to use the notification's Paper I/Paper II topic IDs and the existing question schema.
+These projects are tracked as optional upstream references for improving authoring and import workflows. They are **not runtime dependencies** of the deployed TGPSC website. The live bank remains `question-bank.json` and must continue to use the notification's Paper I/Paper II topic IDs and the existing question schema. Batch 006 is the latest published batch: 40 Paper I and 60 Paper II questions.
 
 | Repository | Useful capability | Planned use here | Integration decision |
 |---|---|---|---|
