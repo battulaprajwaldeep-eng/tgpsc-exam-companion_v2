@@ -203,7 +203,9 @@
   }
   window.addEventListener("online", () => { if (session || localStorage.getItem(QUEUE_KEY) === "1") syncNow(); });
   window.addEventListener("storage", event => { if (event.key === "tgpscState" && session) syncNow(); });
-  document.addEventListener("visibilitychange", () => { if (!document.hidden && session) syncNow(); });\n  setInterval(() => { if (!document.hidden && session && navigator.onLine) syncNow(); }, 60000);\n  document.addEventListener("DOMContentLoaded", () => {
+  document.addEventListener("visibilitychange", () => { if (!document.hidden && session) syncNow(); });
+  setInterval(() => { if (!document.hidden && session && navigator.onLine) syncNow(); }, 60000);
+  document.addEventListener("DOMContentLoaded", () => {
     const signInButton = $("cloudSignIn"), signOutButton = $("cloudSignOut");
     if (signInButton) signInButton.addEventListener("click", signIn);
     if (signOutButton) signOutButton.addEventListener("click", signOut);
