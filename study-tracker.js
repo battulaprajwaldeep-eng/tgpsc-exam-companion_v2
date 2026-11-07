@@ -117,3 +117,32 @@ async function importData(){
   };
   reader.readAsText(file);
 }
+
+/* Normal practice now favours syllabus coverage first, then measured weak areas.
+   The original no-repeat-by-ID rule remains in startQuiz(). */
+function selectBalanced(pool,count){
+  const candidates=shuffled(pool),chosen=[],topicCounts=new Map(),evidence=new Map();
+  performanceRows().forEach(q=>{
+    if(!q.topicId)return;
+    const e=evidence.get(q.topicId)||{attempts:0,correct:0};
+    e.attempts++;if(q.selected===q.answer)e.correct++;
+    evidence.set(q.topicId,e);
+  });
+  while(chosen.length<count&&candidates.length){
+    let best=-1,bestScore=-Infinity;
+    for(let n=0;n<candidates.length;n++){
+      const q=candidates[n],id=q.topicId||"unknown",e=evidence.get(id)||{attempts:0,correct:0};
+      const accuracy=e.attempts?e.correct/e.attempts:0;
+      const coverage=e.attempts===0?1000:0;
+      const weakness=e.attempts?((1-accuracy)*180):0;
+      const sampleNeed=Math.max(0,15-e.attempts)*1.5;
+      const repeatedTopic=(topicCounts.get(id)||0)*500;
+      const difficulty=q.difficulty==="advanced"?3:q.difficulty==="difficult"?2:q.difficulty==="moderate"?1:0;
+      const score=coverage+weakness+sampleNeed-repeatedTopic+difficulty+Math.random();
+      if(score>bestScore){bestScore=score;best=n}
+    }
+    const q=candidates.splice(best,1)[0],id=q.topicId||"unknown";
+    chosen.push(q);topicCounts.set(id,(topicCounts.get(id)||0)+1);
+  }
+  return chosen;
+}
