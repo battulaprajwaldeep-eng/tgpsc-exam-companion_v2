@@ -1,0 +1,44 @@
+name: Question bank quality gate
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "question-bank.json"
+      - "study-data.json"
+      - "generated-batches/**"
+      - "batch-import.html"
+      - "scripts/validate_question_bank.py"
+      - "question-bank-tests.js"
+      - ".github/workflows/question-bank-quality-gate.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: question-bank-quality-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate bank, batches and practice selection
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Validate live bank and pending batches
+        run: python scripts/validate_question_bank.py
+      - name: Run question selection regression tests
+        run: node question-bank-tests.js
+      - name: Compile batch generator
+        run: python -m py_compile scripts/generate_question_batch.py
