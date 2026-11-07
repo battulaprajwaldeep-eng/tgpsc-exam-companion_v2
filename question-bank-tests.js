@@ -17,7 +17,7 @@ for (const q of bank.questions) {
   if (topicNames.has(q.topicId)) assert.equal(topicNames.get(q.topicId), q.topic, "topicId must map consistently to one official syllabus label");
   topicNames.set(q.topicId, q.topic);
   assert.ok(q.id && [1, 2].includes(q.paper) && q.topicId && q.topic && q.subtopic, "required identity and syllabus fields");
-  assert.ok(["standard", "moderate", "advanced"].includes(q.difficulty), "difficulty must be classified");
+  assert.ok(["easy", "standard", "moderate", "difficult", "advanced"].includes(q.difficulty), "difficulty must be classified");
   assert.ok(typeof q.stem === "string" && q.stem.trim(), "question stem required");
   assert.equal(q.options.length, 4, "exactly four options");
   assert.ok(Number.isInteger(q.answer) && q.answer >= 0 && q.answer < 4, "answer index must be valid");
