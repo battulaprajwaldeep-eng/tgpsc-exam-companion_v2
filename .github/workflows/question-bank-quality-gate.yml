@@ -7,13 +7,11 @@ on:
       - "question-bank.json"
       - "study-data.json"
       - "generated-batches/**"
+      - "question-bank-batches/**"
       - "batch-import.html"
       - "index.html"
       - "study-tracker.js"
       - "live-dashboard.js"
-      - "supabase-config.js"
-      - "supabase-cloud.js"
-      - "supabase/migrations/**"
       - "sw.js"
       - "scripts/validate_question_bank.py"
       - "question-bank-tests.js"
@@ -51,7 +49,5 @@ jobs:
         run: node --check study-tracker.js
       - name: Check live dashboard JavaScript syntax
         run: node --check live-dashboard.js
-      - name: Check Supabase cloud sync JavaScript syntax
-        run: node --check supabase-cloud.js
       - name: Compile batch generator
         run: python -m py_compile scripts/generate_question_batch.py
