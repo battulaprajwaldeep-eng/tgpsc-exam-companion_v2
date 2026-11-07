@@ -56,9 +56,10 @@ Compared all 100 final stems against the 681-question live bank and the 400 extr
 
 ## Principal source groups
 
-- Union Budget 2026–27 Speech: https://www.indiabudget.gov.in/doc/Budget_Speech.pdf
+- Union Budget 2026–27 Speech: https://www.indiabudget.gov.in/doc/eb/allsbe.pdf
 - Telangana Cabinet releases, November 2026: https://www.telangana.gov.in/news/2026/11/
 - PRS Telangana Budget Analysis 2026–27: https://prsindia.org/budgets/states/telangana-budget-analysis-2026-27
+- Telangana Budget 2026–27 Intermediate midday-meal report: https://www.newindianexpress.com/states/telangana/2026/Mar/20/telangana-presents-rs-324-lakh-crore-budget-unveils-new-midday-meal-scheme-to-intermediate-students
 - Government of Telangana Socio-Economic Outlook 2024: https://des.telangana.gov.in/publications/Socio%20Economic%20Outlook-2024.pdf
 - Constitution of India and statutory provisions, including Articles 23, 24, 39A, 131, 243D, 243ZD and 311.
 - Technical standards and references: IETF RFC 9110, RFC 2131 and RFC 8200; IEEE 802.1Q; ISO C11 draft N1570; Java Language Specification SE 21; Jakarta Servlet 6.0; CLRS; Sipser; Rosen; Aho et al.; Silberschatz et al.; Patterson and Hennessy; Han, Kamber and Pei.
