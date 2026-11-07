@@ -79,7 +79,7 @@
   }
   function emptyState() {
     return { schemaVersion: 3, answers: {}, completed: [], history: [], attemptedIds: [],
-      activeSession: null, currentIndex: 0, studiedTopics: [], studyLogs: [] };
+      activeSession: null, currentIndex: 0, studiedTopics: [], studiedSubtopics: [], studyLogs: [] };
   }
   function uniqueBy(items, keyFn) {
     const map = new Map();
@@ -95,7 +95,7 @@
       x => (x.date || "") + "|" + (x.review || []).map(q => q.id + ":" + q.selected).join(","));
     merged.studyLogs = uniqueBy([...(a.studyLogs || []), ...(b.studyLogs || [])],
       x => [x.date,x.topicId,x.activity,x.minutes,x.note].join("|"));
-    ["attemptedIds","completed","studiedTopics"].forEach(k => {
+    ["attemptedIds","completed","studiedTopics","studiedSubtopics"].forEach(k => {
       merged[k] = [...new Set([...(a[k] || []), ...(b[k] || [])])];
     });
     // Keep the most recently saved in-progress quiz state; completed records above are never discarded.
