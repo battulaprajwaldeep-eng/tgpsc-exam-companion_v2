@@ -111,11 +111,27 @@ async function importData(){
   reader.onload=async()=>{
     try{
       const imported=JSON.parse(reader.result);
-      if(!Array.isArray(imported.history)||!Array.isArray(imported.completed))throw Error("Invalid backup structure.");
-      s={...s,...imported,attemptedIds:imported.attemptedIds||[],studiedTopics:imported.studiedTopics||[],studiedSubtopics:imported.studiedSubtopics||[],studyLogs:imported.studyLogs||[]};
-      await loadBank();migrateHistoryMetadata();save();syllabusView();historyView();topicMasteryView();renderStudyLog();
-      alert("Backup imported and matched question metadata was normalised.");
-    }catch(error){alert(error.message||"Invalid backup file.")}
+      if(!imported||typeof imported!=="object"||!Array.isArray(imported.history)||!Array.isArray(imported.completed))throw Error("Invalid backup structure.");
+      await loadBank();
+      const fingerprintHistory=r=>String(r.date||"")+"|"+(r.review||[]).map(q=>[q.id,q.selected,q.answer].join(":")).join(",");
+      const mergeRecords=(a,b,key)=>{const map=new Map();[...(a||[]),...(b||[])].forEach(x=>map.set(key(x),x));return [...map.values()].sort((x,y)=>new Date(x.date||0)-new Date(y.date||0));};
+      const before=s||{};
+      const merged={...before,...imported};
+      merged.history=mergeRecords(before.history,imported.history,fingerprintHistory);
+      merged.studyLogs=mergeRecords(before.studyLogs,imported.studyLogs,(x)=>[x.date,x.topicId,x.activity,x.minutes,x.note].join("|"));
+      ["completed","attemptedIds","studiedTopics","studiedSubtopics"].forEach(key=>{
+        merged[key]=[...new Set([...(before[key]||[]),...(imported[key]||[])])];
+      });
+      // Keep the imported active quiz when present; completed history from both copies is retained.
+      ["answers","activeSession","currentIndex","sessionMode"].forEach(key=>{
+        if(imported[key]===undefined){if(before[key]!==undefined)merged[key]=before[key];}
+      });
+      s=merged;
+      migrateHistoryMetadata();
+      save();stats();syllabusView();historyView();topicMasteryView();renderStudyLog();
+      if(typeof window.renderLiveDashboard==="function")window.renderLiveDashboard();
+      alert("Progress backup imported. Existing and imported history, attempts, study logs and topic checklists have been merged without duplicate records.");
+    }catch(error){alert(error.message||"Invalid backup file.");}
   };
   reader.readAsText(file);
 }
