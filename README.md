@@ -44,6 +44,26 @@ Deployment health and static-file serving must be verified in the Cloudflare das
 Through the December 2026 exam period, prioritise syllabus completion, question practice, revision and mock tests. Defer optional website redesign and feature expansion unless the user explicitly asks to resume them.
 
 
+## Evaluated upstream open-source projects
+
+These projects are tracked as optional upstream references for improving authoring and import workflows. They are **not runtime dependencies** of the deployed TGPSC website. The live bank remains `question-bank.json` and must continue to use the notification's Paper I/Paper II topic IDs and the existing question schema.
+
+| Repository | Useful capability | Planned use here | Integration decision |
+|---|---|---|---|
+| [DQ QuestionBank Core](https://github.com/wzsisshadiao-crypto/dq-questionbank-core) | Python question-bank core; DOCX/JSON/Markdown/LaTeX import/export; review-first intake; validation and duplicate preflight | Evaluate its DOCX adapter and review/evidence concepts for a future DOCX-to-current-schema converter | Keep optional and isolated in an import tool/CI job. Map into our schema and preserve source evidence; do not replace the live bank schema or add its full UI/database. |
+| [Exameow](https://github.com/heshengtao/exameow) | Multi-format study-material parsing, batch question generation, XLSX/CSV bank import/export, practice and wrong-answer workflows | Optional authoring/reference tool; evaluate CSV/XLSX interchange for batch preparation | Do not embed its Rust/Vue/Tauri application in this Cloudflare website. Treat generated questions as untrusted drafts requiring our syllabus mapping, answer verification, duplicate checks and human approval. |
+
+### Integration and safety rules
+
+1. Do not copy, mirror, or merge either project's question content into this repository. Only use original/licensed source material and retain attribution for any code actually adapted.
+2. Before adapting code, pin an exact upstream commit, inspect its license and dependency tree, retain required copyright/license/NOTICE files, and add a third-party attribution entry.
+3. Keep DOCX parsing and any AI-assisted generation out of the browser. No provider API key or GitHub token may be shipped to client-side JavaScript.
+4. Convert external formats into our existing question contract: integer `paper` 1/2, official `topicId`, four options, zero-based `answer`, four option-specific explanations, stable unique `id`, and provenance `basis`.
+5. Run our validator and a human answer-key review before any import into the production bank. Similarity warnings require review; never silently delete questions.
+6. Do not add a large framework, database, Rust runtime, or new production service solely to support an importer. Prefer a small, isolated converter and GitHub Actions quality gate.
+
+**Current decision:** reference both projects now; prototype the DQ DOCX adapter as a separate tool only after its current public API and license are pinned and tested against representative user-owned DOCX batches. Exameow remains an optional authoring tool, not a dependency of the production exam site.
+
 ## Reliable batch upload and quality checks
 
 - Use `batch-import.html` to validate a new JSON batch against the current bank before exporting a merged file.
