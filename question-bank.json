@@ -11830,14 +11830,14 @@
       "basis": "Official Paper II syllabus; topic: Information Systems & Software Engineering."
     }
   ],
-  "qualityNote": "Batch 001 added after structural validation, answer-index/option consistency checks, exact-stem comparison against the existing bank, and one duplicate-concept replacement. Batch 001 contributes 40 Paper I and 60 Paper II questions. Semantic overlap beyond flagged exact matches still requires subject-matter review; browser end-to-end testing and production deployment must be verified separately.",
+  "qualityNote": "Batch 001 added after structural validation, answer-index/option consistency checks, exact-stem comparison against the existing bank, and one duplicate-concept replacement. Batch 001 contributes 40 Paper I and 60 Paper II questions. Semantic overlap beyond flagged exact matches still requires subject-matter review; browser end-to-end testing and production deployment must be verified separately. Current bank snapshot verified on 2026-11-07: 514 questions (198 Paper I, 316 Paper II). The bulk importer is available at batch-import.html; it validates JSON batches and exports a merged file, while semantic duplicate review and GitHub commit remain manual.",
   "requirement": {
     "targetTotal": 3500,
     "targetPaper2": 2000,
     "targetPaper1": 1500,
-    "currentTotal": 447,
-    "currentPaper2": 278,
-    "currentPaper1": 169,
+    "currentTotal": 514,
+    "currentPaper2": 316,
+    "currentPaper1": 198,
     "status": "in_progress",
     "qualityGate": "Every added question must have a unique ID, official syllabus mapping, four options, a verified answer index, four option-specific explanations, and a difficulty label."
   }
