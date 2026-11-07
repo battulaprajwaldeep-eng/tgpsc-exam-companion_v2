@@ -1,1 +1,35 @@
-const CACHE="tgpsc-companion-v16";const FILES=["./","./index.html","./study-tracker.js","./live-dashboard.js","./supabase-config.js","./supabase-cloud.js","./manifest.webmanifest","./study-data.json","./question-bank.json","./government-exams.html"];self.addEventListener("install",e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES))));self.addEventListener("activate",e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k))))));self.addEventListener("fetch",e=>{if(e.request.method!=="GET")return;const isConfig=new URL(e.request.url).pathname.endsWith("/supabase-config.js");if(isConfig){e.respondWith(fetch(e.request).then(res=>{const copy=res.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));return res}).catch(()=>caches.match(e.request)));return}e.respondWith(caches.match(e.request).then(hit=>hit||fetch(e.request).then(res=>{const copy=res.clone();caches.open(CACHE).then(c=>c.put(e.request,copy));return res}).catch(()=>caches.match("./index.html"))))});
+const CACHE="tgpsc-companion-v17";
+const FILES=["./","./index.html","./study-tracker.js","./live-dashboard.js","./manifest.webmanifest","./study-data.json","./question-bank.json","./government-exams.html","./batch-import.html"];
+self.addEventListener("install",event=>event.waitUntil((async()=>{
+  const cache=await caches.open(CACHE);
+  await Promise.all(FILES.map(async path=>{
+    try{const response=await fetch(path,{cache:"no-store"});if(response.ok)await cache.put(path,response);}catch(_){}
+  }));
+  await self.skipWaiting();
+})()));
+self.addEventListener("activate",event=>event.waitUntil((async()=>{
+  const keys=await caches.keys();
+  await Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)));
+  await self.clients.claim();
+})()));
+self.addEventListener("fetch",event=>{
+  const request=event.request;
+  if(request.method!=="GET")return;
+  const url=new URL(request.url);
+  if(url.origin!==self.location.origin)return;
+  event.respondWith((async()=>{
+    try{
+      const response=await fetch(request,{cache:"no-store"});
+      if(response&&response.ok){
+        const cache=await caches.open(CACHE);
+        await cache.put(request,response.clone());
+      }
+      return response;
+    }catch(_){
+      const cached=await caches.match(request);
+      if(cached)return cached;
+      if(request.mode==="navigate")return (await caches.match("./index.html"))||Response.error();
+      return Response.error();
+    }
+  })());
+});
