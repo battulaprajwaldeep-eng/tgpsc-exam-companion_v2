@@ -678,7 +678,7 @@
       "id": "P1-GEO-001",
       "paper": 1,
       "topicId": "p1-06",
-      "topic": "India Geography",
+      "topic": "Physical, Social and Economic Geography of India",
       "subtopic": "Indian river systems",
       "difficulty": "moderate",
       "stem": "Which one of the following rivers flows westward and drains into the Arabian Sea?",
@@ -862,7 +862,7 @@
       "id": "P1-SOCIETY-001",
       "paper": 1,
       "topicId": "p1-11",
-      "topic": "Society, Social Exclusion, Rights Issues and Inclusive Policies",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
       "subtopic": "Social justice and inclusion",
       "difficulty": "advanced",
       "stem": "A public service is redesigned with ramps, accessible signage, assistive interfaces and multiple communication formats. This approach most directly reflects:",
@@ -1322,7 +1322,7 @@
       "id": "P2-SE-001",
       "paper": 2,
       "topicId": "p2-12",
-      "topic": "Information Systems & Software Engineering",
+      "topic": "Information Systems and Software Engineering",
       "subtopic": "Software testing and coverage",
       "difficulty": "advanced",
       "stem": "A test suite achieves 100% statement coverage. Which conclusion is justified?",
@@ -1345,7 +1345,7 @@
       "id": "P2-OOP-001",
       "paper": 2,
       "topicId": "p2-15",
-      "topic": "OOP + C++ + Java",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
       "subtopic": "Dynamic binding and polymorphism",
       "difficulty": "moderate",
       "stem": "In C++, a base-class pointer refers to a derived-class object. Which condition is required for a call to a method through that pointer to use runtime dispatch?",
@@ -1483,7 +1483,7 @@
       "id": "P1-INDGEO-002",
       "paper": 1,
       "topicId": "p1-06",
-      "topic": "India Geography",
+      "topic": "Physical, Social and Economic Geography of India",
       "subtopic": "Indian monsoon and seasonal rainfall",
       "difficulty": "advanced",
       "stem": "The retreating monsoon provides a significant share of annual rainfall to which Indian region?",
@@ -1805,7 +1805,7 @@
       "id": "P2-SE-002",
       "paper": 2,
       "topicId": "p2-12",
-      "topic": "Information Systems & Software Engineering",
+      "topic": "Information Systems and Software Engineering",
       "subtopic": "Software testing; boundary-value analysis",
       "difficulty": "moderate",
       "stem": "An input field accepts integer values from 1 through 100 inclusive. Which set is the strongest basic boundary-value test set?",
@@ -1828,7 +1828,7 @@
       "id": "P2-OOP-002",
       "paper": 2,
       "topicId": "p2-15",
-      "topic": "OOP + C++ + Java",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
       "subtopic": "C++ polymorphism; virtual destructors",
       "difficulty": "advanced",
       "stem": "A C++ base-class pointer points to a dynamically allocated derived object. The base class has a non-virtual destructor. What is the result of deleting through the base pointer?",
@@ -1989,7 +1989,7 @@
       "id": "P1-INDGEO-003",
       "paper": 1,
       "topicId": "p1-06",
-      "topic": "India Geography",
+      "topic": "Physical, Social and Economic Geography of India",
       "subtopic": "Indian agriculture; cropping seasons",
       "difficulty": "moderate",
       "stem": "Which of the following crops is predominantly associated with the rabi season in India?",
@@ -2472,7 +2472,7 @@
       "id": "P1-INDGEO-005",
       "paper": 1,
       "topicId": "p1-06",
-      "topic": "India Geography",
+      "topic": "Physical, Social and Economic Geography of India",
       "subtopic": "Indian rivers; east-flowing and west-flowing rivers",
       "difficulty": "moderate",
       "stem": "Which of the following rivers is well known for flowing westward into the Arabian Sea through a rift valley?",
@@ -3576,7 +3576,7 @@
       "id": "P1-NEW-005",
       "paper": 1,
       "topicId": "p1-09",
-      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
       "subtopic": "Formation of Telangana",
       "difficulty": "moderate",
       "stem": "Telangana came into existence under the Andhra Pradesh Reorganisation Act on:",
@@ -5186,7 +5186,7 @@
       "id": "P1-NEW-026",
       "paper": 1,
       "topicId": "p1-09",
-      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
       "subtopic": "Telangana movement",
       "difficulty": "advanced",
       "stem": "The Telangana statehood movement's major 1969 phase is commonly associated with the slogan:",
@@ -6543,7 +6543,7 @@
       "id": "P1-NEW-043",
       "paper": 1,
       "topicId": "p1-09",
-      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
       "subtopic": "Telangana history",
       "difficulty": "advanced",
       "stem": "The Telangana region was part of which princely state before the integration of Hyderabad State into the Indian Union?",
@@ -7946,7 +7946,7 @@
       "id": "P1-NEW-062",
       "paper": 1,
       "topicId": "p1-09",
-      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
       "subtopic": "Telangana state formation",
       "difficulty": "advanced",
       "stem": "Telangana became the 29th state of India on:",
@@ -8498,7 +8498,7 @@
       "id": "P1-B001-023",
       "paper": 1,
       "topicId": "p1-11",
-      "topic": "Social Exclusion; Rights issues and inclusive policies",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
       "subtopic": "Social Justice",
       "difficulty": "moderate",
       "stem": "A policy provides identical assistive technology to every student with a disability, regardless of functional need. The main equity concern is that it:",
@@ -9579,7 +9579,7 @@
       "id": "P2-B001-030",
       "paper": 2,
       "topicId": "p2-12",
-      "topic": "Information Systems & Software Engineering",
+      "topic": "Information Systems and Software Engineering",
       "subtopic": "Software Engineering",
       "difficulty": "moderate",
       "stem": "A requirement states, 'The system shall respond to 95% of search requests within two seconds under 500 concurrent users.' This is primarily a:",
@@ -9602,7 +9602,7 @@
       "id": "P2-B001-031",
       "paper": 2,
       "topicId": "p2-12",
-      "topic": "Information Systems & Software Engineering",
+      "topic": "Information Systems and Software Engineering",
       "subtopic": "Software Engineering",
       "difficulty": "moderate",
       "stem": "A team discovers that changing one module repeatedly breaks distant modules because of hidden dependencies. Which design property should be improved first?",
@@ -9740,7 +9740,7 @@
       "id": "P2-B001-037",
       "paper": 2,
       "topicId": "p2-15",
-      "topic": "OOP + C++ + Java",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
       "subtopic": "OOP and Java",
       "difficulty": "advanced",
       "stem": "In Java, a method declared final:",
@@ -9763,7 +9763,7 @@
       "id": "P2-B001-038",
       "paper": 2,
       "topicId": "p2-15",
-      "topic": "OOP + C++ + Java",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
       "subtopic": "OOP and C++",
       "difficulty": "advanced",
       "stem": "In C++, a base class intended for deletion through a base-class pointer when the dynamic object may be derived should generally have:",
@@ -10039,7 +10039,7 @@
       "id": "P2-B001-050",
       "paper": 2,
       "topicId": "p2-15",
-      "topic": "OOP + C++ + Java",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
       "subtopic": "OOP and Java",
       "difficulty": "advanced",
       "stem": "Which statement about Java interfaces is correct in modern Java?",
@@ -10062,7 +10062,7 @@
       "id": "P2-B001-051",
       "paper": 2,
       "topicId": "p2-12",
-      "topic": "Information Systems & Software Engineering",
+      "topic": "Information Systems and Software Engineering",
       "subtopic": "Software Engineering",
       "difficulty": "advanced",
       "stem": "In black-box testing, test cases are primarily derived from:",
@@ -10452,8 +10452,8 @@
     {
       "id": "P1-B002-011",
       "paper": 1,
-      "topicId": "p1-01",
-      "topic": "Physical, Social and Economic Geography of Telangana",
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
       "subtopic": "Telangana Geography",
       "difficulty": "difficult",
       "stem": "Which major river drains much of northern and eastern Telangana?",
@@ -10614,7 +10614,7 @@
       "id": "P1-B002-021",
       "paper": 1,
       "topicId": "p1-06",
-      "topic": "India Geography",
+      "topic": "Physical, Social and Economic Geography of India",
       "subtopic": "Geography",
       "difficulty": "difficult",
       "stem": "A rain-shadow region is generally found:",
@@ -10821,7 +10821,7 @@
       "id": "P1-B002-034",
       "paper": 1,
       "topicId": "p1-01",
-      "topic": "Current Affairs Literacy",
+      "topic": "Current affairs – Regional, National and International",
       "subtopic": "Current Affairs Literacy",
       "difficulty": "difficult",
       "stem": "The strongest initial fact-checking practice is to:",
@@ -10890,7 +10890,7 @@
       "id": "P1-B002-037",
       "paper": 1,
       "topicId": "p1-11",
-      "topic": "Society, Social Exclusion, Rights Issues and Inclusive Policies",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
       "subtopic": "Telangana Society",
       "difficulty": "difficult",
       "stem": "A rights-based public service model emphasises:",
@@ -10913,7 +10913,7 @@
       "id": "P1-B002-038",
       "paper": 1,
       "topicId": "p1-06",
-      "topic": "India Geography",
+      "topic": "Physical, Social and Economic Geography of India",
       "subtopic": "Geography",
       "difficulty": "difficult",
       "stem": "Which process most directly causes orographic rainfall?",
@@ -11442,7 +11442,7 @@
       "id": "P2-B002-038",
       "paper": 2,
       "topicId": "p2-12",
-      "topic": "Information Systems & Software Engineering",
+      "topic": "Information Systems and Software Engineering",
       "subtopic": "Software Engineering",
       "difficulty": "moderate",
       "stem": "Testing an isolated function is:",
@@ -11465,7 +11465,7 @@
       "id": "P2-B002-039",
       "paper": 2,
       "topicId": "p2-12",
-      "topic": "Information Systems & Software Engineering",
+      "topic": "Information Systems and Software Engineering",
       "subtopic": "Software Engineering",
       "difficulty": "moderate",
       "stem": "A requirement that 95% of API requests finish within two seconds is:",
@@ -11534,7 +11534,7 @@
       "id": "P2-B002-046",
       "paper": 2,
       "topicId": "p2-15",
-      "topic": "OOP + C++ + Java",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
       "subtopic": "OOP",
       "difficulty": "moderate",
       "stem": "Runtime polymorphism in C++ is commonly achieved through:",
@@ -11557,7 +11557,7 @@
       "id": "P2-B002-047",
       "paper": 2,
       "topicId": "p2-15",
-      "topic": "OOP + C++ + Java",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
       "subtopic": "OOP",
       "difficulty": "moderate",
       "stem": "In Java, an overriding method:",
@@ -11580,7 +11580,7 @@
       "id": "P2-B002-048",
       "paper": 2,
       "topicId": "p2-15",
-      "topic": "OOP + C++ + Java",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
       "subtopic": "OOP",
       "difficulty": "moderate",
       "stem": "A subclass's specialised implementation of an inherited method is:",
@@ -11787,7 +11787,7 @@
       "id": "P2-B002-059",
       "paper": 2,
       "topicId": "p2-12",
-      "topic": "Information Systems & Software Engineering",
+      "topic": "Information Systems and Software Engineering",
       "subtopic": "Information Systems",
       "difficulty": "moderate",
       "stem": "A transaction log primarily supports:",
@@ -11810,7 +11810,7 @@
       "id": "P2-B002-060",
       "paper": 2,
       "topicId": "p2-12",
-      "topic": "Information Systems & Software Engineering",
+      "topic": "Information Systems and Software Engineering",
       "subtopic": "Information Systems",
       "difficulty": "moderate",
       "stem": "In RBAC, permissions are generally assigned to:",
@@ -11828,6 +11828,1547 @@
         "Incorrect. The keyed answer is A (Roles, then roles to users). RBAC assigns permissions to roles and users to roles."
       ],
       "basis": "Official Paper II syllabus; topic: Information Systems & Software Engineering."
+    },
+    {
+      "id": "P1-B003-001",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Indian Constitution",
+      "difficulty": "moderate",
+      "stem": "Which constitutional provision requires the President to cause the Union Budget to be laid before both Houses?",
+      "options": [
+        "Article 110",
+        "Article 112",
+        "Article 123",
+        "Article 266"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Article 110) is not correct: Article 110 defines Money Bills, Article 123 concerns ordinances, and Article 266 concerns the Consolidated Funds and Public Accounts.",
+        "Correct. Article 112 provides for the Annual Financial Statement. Article 110 defines Money Bills, Article 123 concerns ordinances, and Article 266 concerns the Consolidated Funds and Public Accounts.",
+        "Incorrect. Option C (Article 123) is not correct: Article 110 defines Money Bills, Article 123 concerns ordinances, and Article 266 concerns the Consolidated Funds and Public Accounts.",
+        "Incorrect. Option D (Article 266) is not correct: Article 110 defines Money Bills, Article 123 concerns ordinances, and Article 266 concerns the Consolidated Funds and Public Accounts."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy."
+    },
+    {
+      "id": "P1-B003-002",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Governance",
+      "difficulty": "moderate",
+      "stem": "The principle of collective responsibility of the Union Council of Ministers is expressly stated in which Article?",
+      "options": [
+        "Article 74(1)",
+        "Article 75(3)",
+        "Article 78",
+        "Article 80"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Article 74(1)) is not correct: Article 75(3) makes the Council of Ministers collectively responsible to the Lok Sabha.",
+        "Correct. Article 75(3) makes the Council of Ministers collectively responsible to the Lok Sabha. Article 78 concerns the Prime Minister's duties; Article 80 concerns the Council of States.",
+        "Incorrect. Option C (Article 78) is not correct: Article 78 concerns the Prime Minister's duties; Article 80 concerns the Council of States.",
+        "Incorrect. Option D (Article 80) is not correct: Article 78 concerns the Prime Minister's duties; Article 80 concerns the Council of States."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy."
+    },
+    {
+      "id": "P1-B003-003",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Indian Polity",
+      "difficulty": "moderate",
+      "stem": "A joint sitting of Parliament cannot be used to resolve disagreement over which type of Bill?",
+      "options": [
+        "Ordinary Bill",
+        "Financial Bill under Article 117(1)",
+        "Constitution Amendment Bill",
+        "Bill passed by one House and rejected by the other"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Option A (Ordinary Bill) is not correct: Article 368 requires a constitutional amendment Bill to be passed separately by each House.",
+        "Incorrect. Option B (Financial Bill under Article 117(1)) is not correct: Article 368 requires a constitutional amendment Bill to be passed separately by each House.",
+        "Correct. Article 368 requires a constitutional amendment Bill to be passed separately by each House. The joint-sitting mechanism under Article 108 does not apply.",
+        "Incorrect. Option D (Bill passed by one House and rejected by the other) is not correct: Article 368 requires a constitutional amendment Bill to be passed separately by each House."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy."
+    },
+    {
+      "id": "P1-B003-004",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Indian Economy",
+      "difficulty": "moderate",
+      "stem": "If the RBI raises the repo rate, the immediate intended monetary-policy effect is generally to:",
+      "options": [
+        "Make bank borrowing cheaper",
+        "Increase the cost of short-term funds for banks",
+        "Reduce the statutory liquidity ratio automatically",
+        "Increase government tax revenue"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Make bank borrowing cheaper) is not correct: A higher repo rate makes RBI borrowing costlier for banks and is intended to tighten liquidity/credit conditions.",
+        "Correct. A higher repo rate makes RBI borrowing costlier for banks and is intended to tighten liquidity/credit conditions. It does not automatically change SLR or tax revenue.",
+        "Incorrect. Option C (Reduce the statutory liquidity ratio automatically) does not meet the condition in the question. A higher repo rate makes RBI borrowing costlier for banks and is intended to tighten liquidity/credit conditions. It does not automatically change SLR or tax revenue.",
+        "Incorrect. Option D (Increase government tax revenue) is not correct: It does not automatically change SLR or tax revenue."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana."
+    },
+    {
+      "id": "P1-B003-005",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Indian Economy",
+      "difficulty": "moderate",
+      "stem": "Which measure is most directly used to estimate the value of final goods and services produced within a country's domestic territory?",
+      "options": [
+        "GNI",
+        "GDP",
+        "NDP at factor cost only",
+        "Personal disposable income"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (GNI) is not correct: GNI adjusts GDP for net primary income from abroad.",
+        "Correct. GDP measures production within domestic territory, regardless of ownership. GNI adjusts GDP for net primary income from abroad.",
+        "Incorrect. Option C (NDP at factor cost only) does not meet the condition in the question. GDP measures production within domestic territory, regardless of ownership. GNI adjusts GDP for net primary income from abroad.",
+        "Incorrect. Option D (Personal disposable income) is not correct: GNI adjusts GDP for net primary income from abroad."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana."
+    },
+    {
+      "id": "P1-B003-006",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Economic Development",
+      "difficulty": "moderate",
+      "stem": "A progressive tax system is one in which:",
+      "options": [
+        "The tax rate falls as income rises",
+        "All taxpayers pay the same amount",
+        "The average tax rate rises as income rises",
+        "Only indirect taxes are collected"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Option A (The tax rate falls as income rises) is not correct: A flat tax has a constant rate; a regressive tax burden falls proportionally as income rises.",
+        "Incorrect. Option B (All taxpayers pay the same amount) does not meet the condition in the question. Progressive taxation takes a larger proportion of income from higher-income groups. A flat tax has a constant rate; a regressive tax burden falls proportionally as income rises.",
+        "Correct. Progressive taxation takes a larger proportion of income from higher-income groups. A flat tax has a constant rate; a regressive tax burden falls proportionally as income rises.",
+        "Incorrect. Option D (Only indirect taxes are collected) does not meet the condition in the question. Progressive taxation takes a larger proportion of income from higher-income groups. A flat tax has a constant rate; a regressive tax burden falls proportionally as income rises."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana."
+    },
+    {
+      "id": "P1-B003-007",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Telangana Geography",
+      "difficulty": "moderate",
+      "stem": "The Godavari and Krishna are important to Telangana mainly because they:",
+      "options": [
+        "Are west-flowing rivers",
+        "Provide major river basins and irrigation resources",
+        "Originate in Telangana",
+        "Form the entire northern boundary"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Are west-flowing rivers) is not correct: Both river systems are major drainage and irrigation resources for Telangana.",
+        "Correct. Both river systems are major drainage and irrigation resources for Telangana. Their sources lie outside the state, and neither flows westward.",
+        "Incorrect. Option C (Originate in Telangana) is not correct: Both river systems are major drainage and irrigation resources for Telangana.",
+        "Incorrect. Option D (Form the entire northern boundary) is not correct: Their sources lie outside the state, and neither flows westward."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana."
+    },
+    {
+      "id": "P1-B003-008",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Telangana Geography",
+      "difficulty": "moderate",
+      "stem": "The Deccan plateau landscape of much of Telangana is primarily associated with which broad geological foundation?",
+      "options": [
+        "Recent alluvial delta deposits",
+        "Ancient crystalline rocks including granites and gneisses",
+        "Young Himalayan fold mountains",
+        "Recent coral limestone"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Recent alluvial delta deposits) does not meet the condition in the question. Much of Telangana rests on old Peninsular crystalline formations, notably granite and gneiss. Deltaic alluvium is more characteristic of coastal plains.",
+        "Correct. Much of Telangana rests on old Peninsular crystalline formations, notably granite and gneiss. Deltaic alluvium is more characteristic of coastal plains.",
+        "Incorrect. Option C (Young Himalayan fold mountains) does not meet the condition in the question. Much of Telangana rests on old Peninsular crystalline formations, notably granite and gneiss. Deltaic alluvium is more characteristic of coastal plains.",
+        "Incorrect. Option D (Recent coral limestone) does not meet the condition in the question. Much of Telangana rests on old Peninsular crystalline formations, notably granite and gneiss. Deltaic alluvium is more characteristic of coastal plains."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana."
+    },
+    {
+      "id": "P1-B003-009",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Telangana History",
+      "difficulty": "moderate",
+      "stem": "The States Reorganisation Commission (SRC) submitted its report in:",
+      "options": [
+        "1953",
+        "1955",
+        "1956",
+        "1960"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (1953) does not meet the condition in the question. The SRC, chaired by Fazl Ali, submitted its report in 1955. The States Reorganisation Act followed in 1956.",
+        "Correct. The SRC, chaired by Fazl Ali, submitted its report in 1955. The States Reorganisation Act followed in 1956.",
+        "Incorrect. Option C (1956) is not correct: The States Reorganisation Act followed in 1956.",
+        "Incorrect. Option D (1960) does not meet the condition in the question. The SRC, chaired by Fazl Ali, submitted its report in 1955. The States Reorganisation Act followed in 1956."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state."
+    },
+    {
+      "id": "P1-B003-010",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Modern Indian History",
+      "difficulty": "moderate",
+      "stem": "The Swadeshi movement gained major momentum in response to:",
+      "options": [
+        "Partition of Bengal in 1905",
+        "Rowlatt Act of 1919",
+        "Simon Commission of 1927",
+        "Cripps Mission of 1942"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The 1905 partition of Bengal triggered boycott of foreign goods and promotion of indigenous products. The other events belong to later phases.",
+        "Incorrect. Option B (Rowlatt Act of 1919) is not correct: The 1905 partition of Bengal triggered boycott of foreign goods and promotion of indigenous products.",
+        "Incorrect. Option C (Simon Commission of 1927) is not correct: The 1905 partition of Bengal triggered boycott of foreign goods and promotion of indigenous products.",
+        "Incorrect. Option D (Cripps Mission of 1942) is not correct: The 1905 partition of Bengal triggered boycott of foreign goods and promotion of indigenous products."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement."
+    },
+    {
+      "id": "P1-B003-011",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Modern Indian History",
+      "difficulty": "moderate",
+      "stem": "The Lucknow Pact of 1916 is notable for an agreement between:",
+      "options": [
+        "Congress and the Muslim League",
+        "Congress and the Justice Party",
+        "Muslim League and the British Cabinet",
+        "Ghadar Party and the Home Rule League"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. <PARSED TEXT FOR PAGE: 17 / 22> The Congress and Muslim League reached an agreement at Lucknow in 1916 on constitutional reforms and representation.",
+        "Incorrect. Option B (Congress and the Justice Party) is not correct: <PARSED TEXT FOR PAGE: 17 / 22> The Congress and Muslim League reached an agreement at Lucknow in 1916 on constitutional reforms and representation.",
+        "Incorrect. Option C (Muslim League and the British Cabinet) is not correct: <PARSED TEXT FOR PAGE: 17 / 22> The Congress and Muslim League reached an agreement at Lucknow in 1916 on constitutional reforms and representation.",
+        "Incorrect. Option D (Ghadar Party and the Home Rule League) is not correct: <PARSED TEXT FOR PAGE: 17 / 22> The Congress and Muslim League reached an agreement at Lucknow in 1916 on constitutional reforms and representation."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement."
+    },
+    {
+      "id": "P1-B003-012",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "National Movement",
+      "difficulty": "moderate",
+      "stem": "The Dandi March of 1930 was launched to oppose the British:",
+      "options": [
+        "Land revenue system",
+        "Salt law and salt tax",
+        "Partition of Bengal",
+        "Vernacular Press Act"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Land revenue system) does not meet the condition in the question. Gandhi's march to Dandi challenged the colonial salt monopoly and tax, launching the Civil Disobedience Movement.",
+        "Correct. Gandhi's march to Dandi challenged the colonial salt monopoly and tax, launching the Civil Disobedience Movement.",
+        "Incorrect. Option C (Partition of Bengal) does not meet the condition in the question. Gandhi's march to Dandi challenged the colonial salt monopoly and tax, launching the Civil Disobedience Movement.",
+        "Incorrect. Option D (Vernacular Press Act) does not meet the condition in the question. Gandhi's march to Dandi challenged the colonial salt monopoly and tax, launching the Civil Disobedience Movement."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement."
+    },
+    {
+      "id": "P1-B003-013",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Environment",
+      "difficulty": "moderate",
+      "stem": "Which of the following is a greenhouse gas with a significant contribution from fossil-fuel combustion?",
+      "options": [
+        "Oxygen",
+        "Carbon dioxide",
+        "Argon",
+        "Neon"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Oxygen) is not correct: Oxygen, argon and neon are not significant greenhouse gases.",
+        "Correct. Burning coal, oil and gas releases carbon dioxide, a major long-lived greenhouse gas. Oxygen, argon and neon are not significant greenhouse gases.",
+        "Incorrect. Option C (Argon) is not correct: Oxygen, argon and neon are not significant greenhouse gases.",
+        "Incorrect. Option D (Neon) is not correct: Oxygen, argon and neon are not significant greenhouse gases."
+      ],
+      "basis": "Official Paper I syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies."
+    },
+    {
+      "id": "P1-B003-014",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Environment",
+      "difficulty": "moderate",
+      "stem": "The term 'eutrophication' refers to:",
+      "options": [
+        "Loss of soil through wind",
+        "Nutrient enrichment of water bodies causing excessive algal growth",
+        "Increase in ocean salinity",
+        "Ozone formation in the stratosphere"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Loss of soil through wind) does not meet the condition in the question. Excess nitrogen and phosphorus can cause algal blooms, oxygen depletion and ecological damage in water bodies.",
+        "Correct. Excess nitrogen and phosphorus can cause algal blooms, oxygen depletion and ecological damage in water bodies.",
+        "Incorrect. Option C (Increase in ocean salinity) is not correct: Excess nitrogen and phosphorus can cause algal blooms, oxygen depletion and ecological damage in water bodies.",
+        "Incorrect. Option D (Ozone formation in the stratosphere) is not correct: Excess nitrogen and phosphorus can cause algal blooms, oxygen depletion and ecological damage in water bodies."
+      ],
+      "basis": "Official Paper I syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies."
+    },
+    {
+      "id": "P1-B003-015",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Disaster Management",
+      "difficulty": "moderate",
+      "stem": "In disaster management, 'mitigation' means:",
+      "options": [
+        "Providing only immediate food relief",
+        "Reducing the likelihood or impact of hazards before they occur",
+        "Counting casualties after an event",
+        "Rebuilding without risk assessment"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Providing only immediate food relief) is not correct: Relief and recovery occur after an event.",
+        "Correct. Mitigation is pre-disaster risk reduction, such as resilient construction and flood-control measures. Relief and recovery occur after an event.",
+        "Incorrect. Option C (Counting casualties after an event) is not correct: Relief and recovery occur after an event.",
+        "Incorrect. Option D (Rebuilding without risk assessment) is not correct: Mitigation is pre-disaster risk reduction, such as resilient construction and flood-control measures."
+      ],
+      "basis": "Official Paper I syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies."
+    },
+    {
+      "id": "P1-B003-016",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Science & Technology",
+      "difficulty": "moderate",
+      "stem": "A semiconductor diode is commonly used for:",
+      "options": [
+        "Amplification without bias",
+        "Rectification of alternating current",
+        "Storing magnetic data",
+        "Generating nuclear energy"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Amplification without bias) does not meet the condition in the question. A diode's one-way conduction is used in rectifier circuits to convert AC to pulsating DC.",
+        "Correct. A diode's one-way conduction is used in rectifier circuits to convert AC to pulsating DC.",
+        "Incorrect. Option C (Storing magnetic data) does not meet the condition in the question. A diode's one-way conduction is used in rectifier circuits to convert AC to pulsating DC.",
+        "Incorrect. Option D (Generating nuclear energy) does not meet the condition in the question. A diode's one-way conduction is used in rectifier circuits to convert AC to pulsating DC."
+      ],
+      "basis": "Official Paper I syllabus: General Science; India’s Achievements in Science and Technology."
+    },
+    {
+      "id": "P1-B003-017",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Science & Technology",
+      "difficulty": "moderate",
+      "stem": "In a photovoltaic cell, electrical energy is generated primarily through:",
+      "options": [
+        "Thermoelectric effect",
+        "Photovoltaic effect in a semiconductor junction",
+        "Piezoelectric effect",
+        "Electromagnetic induction in a coil"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Thermoelectric effect) does not meet the condition in the question. Photons create electron-hole pairs in a semiconductor; the junction's electric field separates charges and produces current.",
+        "Correct. Photons create electron-hole pairs in a semiconductor; the junction's electric field separates charges and produces current.",
+        "Incorrect. Option C (Piezoelectric effect) does not meet the condition in the question. Photons create electron-hole pairs in a semiconductor; the junction's electric field separates charges and produces current.",
+        "Incorrect. Option D (Electromagnetic induction in a coil) is not correct: Photons create electron-hole pairs in a semiconductor; the junction's electric field separates charges and produces current."
+      ],
+      "basis": "Official Paper I syllabus: General Science; India’s Achievements in Science and Technology."
+    },
+    {
+      "id": "P1-B003-018",
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "subtopic": "Social Development",
+      "difficulty": "moderate",
+      "stem": "The main purpose of a self-help group (SHG) in rural development is to:",
+      "options": [
+        "Replace elected local bodies",
+        "Promote savings, credit access and collective livelihood activity",
+        "Collect customs duties",
+        "Conduct population census"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Replace elected local bodies) does not meet the condition in the question. SHGs pool savings and facilitate access to credit and collective economic activity, often strengthening women's participation.",
+        "Correct. SHGs pool savings and facilitate access to credit and collective economic activity, often strengthening women's participation.",
+        "Incorrect. Option C (Collect customs duties) does not meet the condition in the question. SHGs pool savings and facilitate access to credit and collective economic activity, often strengthening women's participation.",
+        "Incorrect. Option D (Conduct population census) does not meet the condition in the question. SHGs pool savings and facilitate access to credit and collective economic activity, often strengthening women's participation."
+      ],
+      "basis": "Official Paper I syllabus: Social Exclusion; Rights issues and inclusive policies."
+    },
+    {
+      "id": "P1-B003-019",
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "subtopic": "Social Justice",
+      "difficulty": "moderate",
+      "stem": "The constitutional provision enabling special provisions for socially and educationally backward classes in educational institutions is:",
+      "options": [
+        "Article 15(4)",
+        "Article 19(1)(a)",
+        "Article 21A",
+        "Article 32"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Article 15(4) enables special provisions for socially and educationally backward classes and SCs/STs. The other provisions concern speech, education for children, and constitutional remedies.",
+        "Incorrect. Option B (Article 19(1)(a)) is not correct: Article 15(4) enables special provisions for socially and educationally backward classes and SCs/STs.",
+        "Incorrect. Option C (Article 21A) is not correct: Article 15(4) enables special provisions for socially and educationally backward classes and SCs/STs.",
+        "Incorrect. Option D (Article 32) is not correct: Article 15(4) enables special provisions for socially and educationally backward classes and SCs/STs."
+      ],
+      "basis": "Official Paper I syllabus: Social Exclusion; Rights issues and inclusive policies."
+    },
+    {
+      "id": "P1-B003-020",
+      "paper": 1,
+      "topicId": "p1-13",
+      "topic": "Policies of Telangana State",
+      "subtopic": "Telangana Policies",
+      "difficulty": "moderate",
+      "stem": "A sound way to assess whether a welfare scheme is reaching intended beneficiaries is to examine:",
+      "options": [
+        "Only the scheme's launch expenditure",
+        "Coverage, inclusion/exclusion errors and measurable outcomes",
+        "The number of press releases",
+        "The department's office area"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Only the scheme's launch expenditure) does not meet the condition in the question. Evaluation should examine actual coverage, targeting errors and outcomes, rather than inputs or publicity alone.",
+        "Correct. Evaluation should examine actual coverage, targeting errors and outcomes, rather than inputs or publicity alone.",
+        "Incorrect. Option C (The number of press releases) does not meet the condition in the question. Evaluation should examine actual coverage, targeting errors and outcomes, rather than inputs or publicity alone.",
+        "Incorrect. Option D (The department's office area) does not meet the condition in the question. Evaluation should examine actual coverage, targeting errors and outcomes, rather than inputs or publicity alone."
+      ],
+      "basis": "Official Paper I syllabus: Policies of Telangana State."
+    },
+    {
+      "id": "P1-B003-021",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Logical Reasoning",
+      "difficulty": "moderate",
+      "stem": "Find the next term: 3, 8, 15, 24, 35, __.",
+      "options": [
+        "44",
+        "46",
+        "48",
+        "50"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Option A (44) does not meet the condition in the question. The differences are 5, 7, 9, 11; the next difference is 13, giving 48.",
+        "Incorrect. Option B (46) does not meet the condition in the question. The differences are 5, 7, 9, 11; the next difference is 13, giving 48.",
+        "Correct. The differences are 5, 7, 9, 11; the next difference is 13, giving 48.",
+        "Incorrect. Option D (50) does not meet the condition in the question. The differences are 5, 7, 9, 11; the next difference is 13, giving 48."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation."
+    },
+    {
+      "id": "P1-B003-022",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Logical Reasoning",
+      "difficulty": "moderate",
+      "stem": "If all A are B, no B are C, and some D are A, which conclusion necessarily follows?",
+      "options": [
+        "Some D are not C",
+        "All D are B",
+        "No D are C",
+        "Some C are A"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Some D are A; all A are B; and no B are C. Therefore those D that are A cannot be C. The statements do not establish that all D are B or that no D are C.",
+        "Incorrect. Option B (All D are B) is not correct: Some D are A; all A are B; and no B are C.",
+        "Incorrect. Option C (No D are C) is not correct: Some D are A; all A are B; and no B are C.",
+        "Incorrect. Option D (Some C are A) is not correct: Some D are A; all A are B; and no B are C."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation."
+    },
+    {
+      "id": "P1-B003-023",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Data Interpretation",
+      "difficulty": "moderate",
+      "stem": "A project completes 40% of work in 12 days at a constant rate. How many total days are required?",
+      "options": [
+        "24",
+        "28",
+        "30",
+        "32"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Option A (24) does not meet the condition in the question. At a constant rate, 40% takes 12 days; 100% takes 12/0.4 = 30 days.",
+        "Incorrect. Option B (28) does not meet the condition in the question. At a constant rate, 40% takes 12 days; 100% takes 12/0.4 = 30 days.",
+        "Correct. At a constant rate, 40% takes 12 days; 100% takes 12/0.4 = 30 days.",
+        "Incorrect. Option D (32) does not meet the condition in the question. At a constant rate, 40% takes 12 days; 100% takes 12/0.4 = 30 days."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation."
+    },
+    {
+      "id": "P1-B003-024",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "Basic English",
+      "difficulty": "moderate",
+      "stem": "Choose the word closest in meaning to 'mitigate'.",
+      "options": [
+        "Intensify",
+        "Alleviate",
+        "Postpone",
+        "Conceal"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Intensify) does not meet the condition in the question. To mitigate is to make something less severe or harmful; alleviate is the closest synonym.",
+        "Correct. To mitigate is to make something less severe or harmful; alleviate is the closest synonym.",
+        "Incorrect. Option C (Postpone) does not meet the condition in the question. To mitigate is to make something less severe or harmful; alleviate is the closest synonym.",
+        "Incorrect. Option D (Conceal) does not meet the condition in the question. To mitigate is to make something less severe or harmful; alleviate is the closest synonym."
+      ],
+      "basis": "Official Paper I syllabus: Basic English (10th class Standard)."
+    },
+    {
+      "id": "P1-B003-025",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "Basic English",
+      "difficulty": "moderate",
+      "stem": "Choose the correct passive form: 'The committee approved the proposal.'",
+      "options": [
+        "The proposal is approved by the committee.",
+        "The proposal was approved by the committee.",
+        "The proposal had approve by the committee.",
+        "The committee was approved by the proposal."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (The proposal is approved by the committee.) is not correct: <PARSED TEXT FOR PAGE: 18 / 22> The active sentence is in simple past, so the passive form is 'was approved'.",
+        "Correct. <PARSED TEXT FOR PAGE: 18 / 22> The active sentence is in simple past, so the passive form is 'was approved'.",
+        "Incorrect. Option C (The proposal had approve by the committee.) does not meet the condition in the question. <PARSED TEXT FOR PAGE: 18 / 22> The active sentence is in simple past, so the passive form is 'was approved'.",
+        "Incorrect. Option D (The committee was approved by the proposal.) is not correct: <PARSED TEXT FOR PAGE: 18 / 22> The active sentence is in simple past, so the passive form is 'was approved'."
+      ],
+      "basis": "Official Paper I syllabus: Basic English (10th class Standard)."
+    },
+    {
+      "id": "P1-B003-026",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "International Relations",
+      "difficulty": "moderate",
+      "stem": "The United Nations Security Council has how many permanent members?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "10"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (4) does not meet the condition in the question. There are five permanent members: China, France, Russia, the United Kingdom and the United States.",
+        "Correct. There are five permanent members: China, France, Russia, the United Kingdom and the United States.",
+        "Incorrect. Option C (6) does not meet the condition in the question. There are five permanent members: China, France, Russia, the United Kingdom and the United States.",
+        "Incorrect. Option D (10) does not meet the condition in the question. There are five permanent members: China, France, Russia, the United Kingdom and the United States."
+      ],
+      "basis": "Official Paper I syllabus: International Relations and Events."
+    },
+    {
+      "id": "P1-B003-027",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "Physical, Social and Economic Geography of India",
+      "subtopic": "Geography",
+      "difficulty": "moderate",
+      "stem": "The Tropic of Cancer passes through how many Indian states?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Option A (6) does not meet the condition in the question. The Tropic of Cancer crosses eight Indian states, from Gujarat in the west to Mizoram in the east.",
+        "Incorrect. Option B (7) does not meet the condition in the question. The Tropic of Cancer crosses eight Indian states, from Gujarat in the west to Mizoram in the east.",
+        "Correct. The Tropic of Cancer crosses eight Indian states, from Gujarat in the west to Mizoram in the east.",
+        "Incorrect. Option D (9) does not meet the condition in the question. The Tropic of Cancer crosses eight Indian states, from Gujarat in the west to Mizoram in the east."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography of India."
+    },
+    {
+      "id": "P1-B003-028",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Telangana Administration",
+      "difficulty": "moderate",
+      "stem": "The 73rd Constitutional Amendment primarily concerns:",
+      "options": [
+        "Municipalities",
+        "Panchayati Raj institutions",
+        "Co-operative societies",
+        "Anti-defection law"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Municipalities) does not meet the condition in the question. The 73rd Amendment constitutionalised Panchayati Raj institutions; the 74th Amendment concerns urban local bodies.",
+        "Correct. The 73rd Amendment constitutionalised Panchayati Raj institutions; the 74th Amendment concerns urban local bodies.",
+        "Incorrect. Option C (Co-operative societies) does not meet the condition in the question. The 73rd Amendment constitutionalised Panchayati Raj institutions; the 74th Amendment concerns urban local bodies.",
+        "Incorrect. Option D (Anti-defection law) does not meet the condition in the question. The 73rd Amendment constitutionalised Panchayati Raj institutions; the 74th Amendment concerns urban local bodies."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy."
+    },
+    {
+      "id": "P1-B003-029",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Public Policy",
+      "difficulty": "moderate",
+      "stem": "In programme evaluation, a counterfactual is:",
+      "options": [
+        "The programme's announced target",
+        "The outcome that would have occurred without the intervention",
+        "The total funds released",
+        "The number of officials assigned"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (The programme's announced target) is not correct: A counterfactual estimates what would have happened in the absence of the programme, enabling causal impact assessment.",
+        "Correct. A counterfactual estimates what would have happened in the absence of the programme, enabling causal impact assessment.",
+        "Incorrect. Option C (The total funds released) is not correct: A counterfactual estimates what would have happened in the absence of the programme, enabling causal impact assessment.",
+        "Incorrect. Option D (The number of officials assigned) is not correct: A counterfactual estimates what would have happened in the absence of the programme, enabling causal impact assessment."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy."
+    },
+    {
+      "id": "P1-B003-030",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Science",
+      "difficulty": "moderate",
+      "stem": "Which instrument is used to measure atmospheric pressure?",
+      "options": [
+        "Hygrometer",
+        "Barometer",
+        "Anemometer",
+        "Seismograph"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Hygrometer) is not correct: A hygrometer measures humidity, an anemometer wind speed, and a seismograph ground motion.",
+        "Correct. A barometer measures atmospheric pressure. A hygrometer measures humidity, an anemometer wind speed, and a seismograph ground motion.",
+        "Incorrect. Option C (Anemometer) is not correct: A hygrometer measures humidity, an anemometer wind speed, and a seismograph ground motion.",
+        "Incorrect. Option D (Seismograph) is not correct: A hygrometer measures humidity, an anemometer wind speed, and a seismograph ground motion."
+      ],
+      "basis": "Official Paper I syllabus: General Science; India’s Achievements in Science and Technology."
+    },
+    {
+      "id": "P1-B003-031",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Environment",
+      "difficulty": "moderate",
+      "stem": "A biodiversity hotspot is identified using high endemism and:",
+      "options": [
+        "High annual rainfall only",
+        "Severe degree of habitat loss",
+        "High human population only",
+        "Presence of a major river"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (High annual rainfall only) is not correct: Hotspot criteria include high plant endemism and substantial loss of original habitat; rainfall or population alone is insufficient.",
+        "Correct. Hotspot criteria include high plant endemism and substantial loss of original habitat; rainfall or population alone is insufficient.",
+        "Incorrect. Option C (High human population only) is not correct: Hotspot criteria include high plant endemism and substantial loss of original habitat; rainfall or population alone is insufficient.",
+        "Incorrect. Option D (Presence of a major river) is not correct: Hotspot criteria include high plant endemism and substantial loss of original habitat; rainfall or population alone is insufficient."
+      ],
+      "basis": "Official Paper I syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies."
+    },
+    {
+      "id": "P2-B003-001",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Probability & Statistics",
+      "difficulty": "moderate",
+      "stem": "A random variable X has P(X=0)=0.2, P(X=1)=0.5 and P(X=2)=0.3. What is E[X]?",
+      "options": [
+        "0.8",
+        "1.0",
+        "1.1",
+        "1.3"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Option A (0.8) is not correct: E[X] = 0(0.2)+1(0.5)+2(0.3)=1.1.",
+        "Incorrect. Option B (1.0) is not correct: E[X] = 0(0.2)+1(0.5)+2(0.3)=1.1.",
+        "Correct. E[X] = 0(0.2)+1(0.5)+2(0.3)=1.1.",
+        "Incorrect. Option D (1.3) is not correct: E[X] = 0(0.2)+1(0.5)+2(0.3)=1.1."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics."
+    },
+    {
+      "id": "P2-B003-002",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Probability & Statistics",
+      "difficulty": "moderate",
+      "stem": "If X and Y are independent with variances 4 and 9, Var(2X −Y) equals:",
+      "options": [
+        "13",
+        "17",
+        "25",
+        "49"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Option A (13) does not meet the condition in the question. For independent variables, Var(aX+bY)=a²Var(X)+b²Var(Y)=4×4+9=25.",
+        "Incorrect. Option B (17) does not meet the condition in the question. For independent variables, Var(aX+bY)=a²Var(X)+b²Var(Y)=4×4+9=25.",
+        "Correct. For independent variables, Var(aX+bY)=a²Var(X)+b²Var(Y)=4×4+9=25.",
+        "Incorrect. Option D (49) does not meet the condition in the question. For independent variables, Var(aX+bY)=a²Var(X)+b²Var(Y)=4×4+9=25."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics."
+    },
+    {
+      "id": "P2-B003-003",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Probability & Statistics",
+      "difficulty": "moderate",
+      "stem": "For a binomial random variable with n=10 and p=0.3, the variance is:",
+      "options": [
+        "1.2",
+        "2.1",
+        "3.0",
+        "7.0"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (1.2) is not correct: Binomial variance is np(1−p)=10×0.3×0.7=2.1.",
+        "Correct. Binomial variance is np(1−p)=10×0.3×0.7=2.1.",
+        "Incorrect. Option C (3.0) is not correct: Binomial variance is np(1−p)=10×0.3×0.7=2.1.",
+        "Incorrect. Option D (7.0) is not correct: Binomial variance is np(1−p)=10×0.3×0.7=2.1."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics."
+    },
+    {
+      "id": "P2-B003-004",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Probability & Statistics",
+      "difficulty": "moderate",
+      "stem": "A test has sensitivity 0.9, specificity 0.8, and disease prevalence 0.1. What is P(disease | positive)?",
+      "options": [
+        "0.10",
+        "0.20",
+        "0.333",
+        "0.818"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Option A (0.10) is not correct: Bayes: (0.9×0.1)/[(0.9×0.1)+(0.2×0.9)] = 0.09/0.27 = 1/3.",
+        "Incorrect. Option B (0.20) is not correct: Bayes: (0.9×0.1)/[(0.9×0.1)+(0.2×0.9)] = 0.09/0.27 = 1/3.",
+        "Correct. Bayes: (0.9×0.1)/[(0.9×0.1)+(0.2×0.9)] = 0.09/0.27 = 1/3.",
+        "Incorrect. Option D (0.818) is not correct: Bayes: (0.9×0.1)/[(0.9×0.1)+(0.2×0.9)] = 0.09/0.27 = 1/3."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics."
+    },
+    {
+      "id": "P2-B003-005",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Linear Algebra",
+      "difficulty": "moderate",
+      "stem": "The eigenvalues of an upper triangular matrix are:",
+      "options": [
+        "Its diagonal entries",
+        "Its row sums",
+        "Its column sums",
+        "Always zero"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The characteristic polynomial of a triangular matrix is the product of (diagonal entry − λ), so its eigenvalues are the diagonal entries.",
+        "Incorrect. Option B (Its row sums) is not correct: The characteristic polynomial of a triangular matrix is the product of (diagonal entry − λ), so its eigenvalues are the diagonal entries.",
+        "Incorrect. Option C (Its column sums) is not correct: The characteristic polynomial of a triangular matrix is the product of (diagonal entry − λ), so its eigenvalues are the diagonal entries.",
+        "Incorrect. Option D (Always zero) does not meet the condition in the question. The characteristic polynomial of a triangular matrix is the product of (diagonal entry − λ), so its eigenvalues are the diagonal entries."
+      ],
+      "basis": "Official Paper II syllabus: Set Theory & Algebra; Linear Algebra."
+    },
+    {
+      "id": "P2-B003-006",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Set Theory",
+      "difficulty": "moderate",
+      "stem": "For finite sets A and B, |A∪B| equals:",
+      "options": [
+        "|A|+|B|",
+        "|A|+|B|−|A∩B|",
+        "|A|−|B|",
+        "|A∩B|−|A|"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (|A|+|B|) does not meet the condition in the question. Inclusion-exclusion subtracts the intersection once because it is counted in both set sizes.",
+        "Correct. Inclusion-exclusion subtracts the intersection once because it is counted in both set sizes.",
+        "Incorrect. Option C (|A|−|B|) does not meet the condition in the question. Inclusion-exclusion subtracts the intersection once because it is counted in both set sizes.",
+        "Incorrect. Option D (|A∩B|−|A|) does not meet the condition in the question. Inclusion-exclusion subtracts the intersection once because it is counted in both set sizes."
+      ],
+      "basis": "Official Paper II syllabus: Set Theory & Algebra; Linear Algebra."
+    },
+    {
+      "id": "P2-B003-007",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Graph Theory",
+      "difficulty": "moderate",
+      "stem": "In any undirected graph, the sum of vertex degrees equals:",
+      "options": [
+        "E",
+        "2E",
+        "V+E",
+        "V−E"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (E) does not meet the condition in the question. The handshaking lemma counts each edge at both endpoints, so the degree sum is 2E.",
+        "Correct. The handshaking lemma counts each edge at both endpoints, so the degree sum is 2E.",
+        "Incorrect. Option C (V+E) does not meet the condition in the question. The handshaking lemma counts each edge at both endpoints, so the degree sum is 2E.",
+        "Incorrect. Option D (V−E) does not meet the condition in the question. The handshaking lemma counts each edge at both endpoints, so the degree sum is 2E."
+      ],
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic."
+    },
+    {
+      "id": "P2-B003-008",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Digital Logic",
+      "difficulty": "difficult",
+      "stem": "A 4-bit ripple-carry adder has four full adders. In the worst case, carry propagation passes through:",
+      "options": [
+        "One stage",
+        "Two stages",
+        "All four stages",
+        "No stage"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Option A (One stage) does not meet the condition in the question. A worst-case carry may ripple through each of the four full-adder stages, determining the carry-chain delay.",
+        "Incorrect. Option B (Two stages) is not correct: A worst-case carry may ripple through each of the four full-adder stages, determining the carry-chain delay.",
+        "Correct. A worst-case carry may ripple through each of the four full-adder stages, determining the carry-chain delay.",
+        "Incorrect. Option D (No stage) does not meet the condition in the question. A worst-case carry may ripple through each of the four full-adder stages, determining the carry-chain delay."
+      ],
+      "basis": "Official Paper II syllabus: Digital Logic."
+    },
+    {
+      "id": "P2-B003-009",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Digital Logic",
+      "difficulty": "difficult",
+      "stem": "How many select lines are required for a 16-to-1 multiplexer?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Option A (2) is not correct: A 2^n-to-1 multiplexer requires n select lines; 16=2^4.",
+        "Incorrect. Option B (3) does not meet the condition in the question. A 2^n-to-1 multiplexer requires n select lines; 16=2^4.",
+        "Correct. A 2^n-to-1 multiplexer requires n select lines; 16=2^4.",
+        "Incorrect. Option D (5) does not meet the condition in the question. A 2^n-to-1 multiplexer requires n select lines; 16=2^4."
+      ],
+      "basis": "Official Paper II syllabus: Digital Logic."
+    },
+    {
+      "id": "P2-B003-010",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "COA",
+      "difficulty": "difficult",
+      "stem": "Which memory is typically used to implement CPU cache?",
+      "options": [
+        "SRAM",
+        "DRAM",
+        "Flash",
+        "Magnetic tape"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. SRAM is fast and does not require refresh, making it suitable for cache. DRAM is denser and used as main memory.",
+        "Incorrect. Option B (DRAM) is not correct: DRAM is denser and used as main memory.",
+        "Incorrect. Option C (Flash) does not meet the condition in the question. SRAM is fast and does not require refresh, making it suitable for cache. DRAM is denser and used as main memory.",
+        "Incorrect. Option D (Magnetic tape) does not meet the condition in the question. SRAM is fast and does not require refresh, making it suitable for cache. DRAM is denser and used as main memory."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture."
+    },
+    {
+      "id": "P2-B003-011",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "COA",
+      "difficulty": "difficult",
+      "stem": "A processor uses 32-bit byte-addressable addresses. Its address space is:",
+      "options": [
+        "2 GB",
+        "4 GB",
+        "8 GB",
+        "32 GB"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (2 GB) is not correct: There are 2^32 byte addresses, equal to 4,294,967,296 bytes or 4 GiB.",
+        "Correct. There are 2^32 byte addresses, equal to 4,294,967,296 bytes or 4 GiB.",
+        "Incorrect. Option C (8 GB) does not meet the condition in the question. There are 2^32 byte addresses, equal to 4,294,967,296 bytes or 4 GiB.",
+        "Incorrect. Option D (32 GB) is not correct: There are 2^32 byte addresses, equal to 4,294,967,296 bytes or 4 GiB."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture."
+    },
+    {
+      "id": "P2-B003-012",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "COA",
+      "difficulty": "difficult",
+      "stem": "In a 5-stage pipeline, the stage that interprets the instruction and generates control signals is:",
+      "options": [
+        "IF",
+        "ID",
+        "EX",
+        "WB"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (IF) does not meet the condition in the question. The instruction decode (ID) stage decodes the instruction and typically generates control information.",
+        "Correct. The instruction decode (ID) stage decodes the instruction and typically generates control information.",
+        "Incorrect. Option C (EX) does not meet the condition in the question. The instruction decode (ID) stage decodes the instruction and typically generates control information.",
+        "Incorrect. Option D (WB) does not meet the condition in the question. The instruction decode (ID) stage decodes the instruction and typically generates control information."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture."
+    },
+    {
+      "id": "P2-B003-013",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "COA",
+      "difficulty": "difficult",
+      "stem": "A direct-mapped cache has 64 lines and uses byte addresses. The number of index bits is:",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Option A (4) does not meet the condition in the question. Index bits = log2(64)=6. Offset bits depend on block size and tag uses remaining address bits.",
+        "Incorrect. Option B (5) does not meet the condition in the question. Index bits = log2(64)=6. Offset bits depend on block size and tag uses remaining address bits.",
+        "Correct. Index bits = log2(64)=6. Offset bits depend on block size and tag uses remaining address bits.",
+        "Incorrect. Option D (7) does not meet the condition in the question. Index bits = log2(64)=6. Offset bits depend on block size and tag uses remaining address bits."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture."
+    },
+    {
+      "id": "P2-B003-014",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C Programming",
+      "difficulty": "difficult",
+      "stem": "What does the expression *p++ mean in C, assuming p is a pointer?",
+      "options": [
+        "Increment the pointed-to value, then dereference",
+        "Dereference p, then increment the pointer",
+        "Increment the pointer twice",
+        "Invalid syntax"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Increment the pointed-to value, then dereference) is not correct: Thus *(p++) dereferences the old pointer value and then advances p.",
+        "Correct. Postfix ++ has higher precedence than unary *. Thus *(p++) dereferences the old pointer value and then advances p.",
+        "Incorrect. Option C (Increment the pointer twice) is not correct: Thus *(p++) dereferences the old pointer value and then advances p.",
+        "Incorrect. Option D (Invalid syntax) does not meet the condition in the question. Postfix ++ has higher precedence than unary *. Thus *(p++) dereferences the old pointer value and then advances p."
+      ],
+      "basis": "Official Paper II syllabus: Programming and Data Structures."
+    },
+    {
+      "id": "P2-B003-015",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Data Structures",
+      "difficulty": "difficult",
+      "stem": "Which data structure is most suitable for implementing breadth-first search?",
+      "options": [
+        "Stack",
+        "Queue",
+        "Priority queue",
+        "Hash table"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Stack) does not meet the condition in the question. BFS explores vertices level by level in FIFO order, so a queue is used.",
+        "Correct. BFS explores vertices level by level in FIFO order, so a queue is used.",
+        "Incorrect. Option C (Priority queue) is not correct: BFS explores vertices level by level in FIFO order, so a queue is used.",
+        "Incorrect. Option D (Hash table) does not meet the condition in the question. BFS explores vertices level by level in FIFO order, so a queue is used."
+      ],
+      "basis": "Official Paper II syllabus: Programming and Data Structures."
+    },
+    {
+      "id": "P2-B003-016",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Data Structures",
+      "difficulty": "difficult",
+      "stem": "In a max-heap containing n elements, the worst-case time to extract the maximum is:",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n log n)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (O(1)) is not correct: The root is removed and the replacement is sifted down along the heap height, which is O(log n).",
+        "Correct. The root is removed and the replacement is sifted down along the heap height, which is O(log n).",
+        "Incorrect. Option C (O(n)) is not correct: The root is removed and the replacement is sifted down along the heap height, which is O(log n).",
+        "Incorrect. Option D (O(n log n)) is not correct: The root is removed and the replacement is sifted down along the heap height, which is O(log n)."
+      ],
+      "basis": "Official Paper II syllabus: Programming and Data Structures."
+    },
+    {
+      "id": "P2-B003-017",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Algorithms",
+      "difficulty": "difficult",
+      "stem": "The worst-case time complexity of binary search on a sorted array is:",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n log n)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (O(1)) does not meet the condition in the question. Each comparison halves the remaining search interval, giving logarithmic worst-case time.",
+        "Correct. Each comparison halves the remaining search interval, giving logarithmic worst-case time.",
+        "Incorrect. Option C (O(n)) does not meet the condition in the question. Each comparison halves the remaining search interval, giving logarithmic worst-case time.",
+        "Incorrect. Option D (O(n log n)) does not meet the condition in the question. Each comparison halves the remaining search interval, giving logarithmic worst-case time."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms."
+    },
+    {
+      "id": "P2-B003-018",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Theory of Computation",
+      "difficulty": "difficult",
+      "stem": "Which language class is recognised by deterministic finite automata?",
+      "options": [
+        "Context-free languages",
+        "Regular languages",
+        "Context-sensitive languages",
+        "Recursively enumerable languages"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Context-free languages) is not correct: DFAs recognise exactly the regular languages.",
+        "Correct. DFAs recognise exactly the regular languages.",
+        "Incorrect. Option C (Context-sensitive languages) is not correct: DFAs recognise exactly the regular languages.",
+        "Incorrect. Option D (Recursively enumerable languages) is not correct: DFAs recognise exactly the regular languages."
+      ],
+      "basis": "Official Paper II syllabus: Theory of Computation."
+    },
+    {
+      "id": "P2-B003-019",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Compiler Design",
+      "difficulty": "difficult",
+      "stem": "Which compiler phase typically detects whether tokens form a valid grammatical structure?",
+      "options": [
+        "Lexical analysis",
+        "Syntax analysis",
+        "Code generation",
+        "Linking"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Lexical analysis) is not correct: Syntax analysis parses the token stream according to the grammar and detects structural errors.",
+        "Correct. Syntax analysis parses the token stream according to the grammar and detects structural errors.",
+        "Incorrect. Option C (Code generation) does not meet the condition in the question. Syntax analysis parses the token stream according to the grammar and detects structural errors.",
+        "Incorrect. Option D (Linking) does not meet the condition in the question. Syntax analysis parses the token stream according to the grammar and detects structural errors."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design."
+    },
+    {
+      "id": "P2-B003-020",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Compiler Design",
+      "difficulty": "difficult",
+      "stem": "Left recursion in a grammar is problematic for a straightforward:",
+      "options": [
+        "Bottom-up LR parser",
+        "Top-down recursive-descent parser",
+        "Shift-reduce parser",
+        "Operator-precedence parser in every case"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Bottom-up LR parser) is not correct: A recursive-descent parser can loop indefinitely on immediate left recursion unless the grammar is transformed.",
+        "Correct. A recursive-descent parser can loop indefinitely on immediate left recursion unless the grammar is transformed.",
+        "Incorrect. Option C (Shift-reduce parser) is not correct: A recursive-descent parser can loop indefinitely on immediate left recursion unless the grammar is transformed.",
+        "Incorrect. Option D (Operator-precedence parser in every case) does not meet the condition in the question. A recursive-descent parser can loop indefinitely on immediate left recursion unless the grammar is transformed."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design."
+    },
+    {
+      "id": "P2-B003-021",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Compiler Design",
+      "difficulty": "difficult",
+      "stem": "Which intermediate representation uses at most three addresses per instruction?",
+      "options": [
+        "Postfix notation",
+        "Three-address code",
+        "Parse tree",
+        "Regular expression"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Postfix notation) does not meet the condition in the question. Three-address code represents operations with at most two operands and one result, simplifying optimisation.",
+        "Correct. Three-address code represents operations with at most two operands and one result, simplifying optimisation.",
+        "Incorrect. Option C (Parse tree) does not meet the condition in the question. Three-address code represents operations with at most two operands and one result, simplifying optimisation.",
+        "Incorrect. Option D (Regular expression) does not meet the condition in the question. Three-address code represents operations with at most two operands and one result, simplifying optimisation."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design."
+    },
+    {
+      "id": "P2-B003-022",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Operating Systems",
+      "difficulty": "difficult",
+      "stem": "A process in the ready state is:",
+      "options": [
+        "Executing on the CPU",
+        "Waiting for an I/O event",
+        "Waiting to be assigned a CPU",
+        "Terminated"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Option A (Executing on the CPU) is not correct: A ready process is in memory and eligible for CPU scheduling, but is not currently executing.",
+        "Incorrect. Option B (Waiting for an I/O event) does not meet the condition in the question. A ready process is in memory and eligible for CPU scheduling, but is not currently executing.",
+        "Correct. A ready process is in memory and eligible for CPU scheduling, but is not currently executing.",
+        "Incorrect. Option D (Terminated) does not meet the condition in the question. A ready process is in memory and eligible for CPU scheduling, but is not currently executing."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems."
+    },
+    {
+      "id": "P2-B003-023",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Operating Systems",
+      "difficulty": "difficult",
+      "stem": "Which page-replacement algorithm can exhibit Belady's anomaly?",
+      "options": [
+        "Optimal",
+        "LRU",
+        "FIFO",
+        "Stack algorithm"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Option A (Optimal) is not correct: LRU and Optimal are stack algorithms and do not exhibit this anomaly.",
+        "Incorrect. Option B (LRU) is not correct: LRU and Optimal are stack algorithms and do not exhibit this anomaly.",
+        "Correct. FIFO may produce more page faults when the number of frames increases. LRU and Optimal are stack algorithms and do not exhibit this anomaly.",
+        "Incorrect. Option D (Stack algorithm) is not correct: LRU and Optimal are stack algorithms and do not exhibit this anomaly."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems."
+    },
+    {
+      "id": "P2-B003-024",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Operating Systems",
+      "difficulty": "difficult",
+      "stem": "For deadlock to be possible, which condition is NOT one of the four Coffman conditions?",
+      "options": [
+        "Mutual exclusion",
+        "Hold and wait",
+        "Preemption allowed",
+        "Circular wait"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Option A (Mutual exclusion) is not correct: The four conditions are mutual exclusion, hold-and-wait, no preemption, and circular wait.",
+        "Incorrect. Option B (Hold and wait) is not correct: The four conditions are mutual exclusion, hold-and-wait, no preemption, and circular wait.",
+        "Correct. The four conditions are mutual exclusion, hold-and-wait, no preemption, and circular wait. Preemption being allowed breaks the no-preemption condition.",
+        "Incorrect. Option D (Circular wait) is not correct: The four conditions are mutual exclusion, hold-and-wait, no preemption, and circular wait."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems."
+    },
+    {
+      "id": "P2-B003-025",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "DBMS",
+      "difficulty": "difficult",
+      "stem": "In a relational table, a candidate key is:",
+      "options": [
+        "Any attribute that may contain duplicates",
+        "A minimal superkey",
+        "Always a foreign key",
+        "A key chosen only for indexing"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Any attribute that may contain duplicates) does not meet the condition in the question. A candidate key uniquely identifies tuples and is minimal: no proper subset remains a superkey.",
+        "Correct. A candidate key uniquely identifies tuples and is minimal: no proper subset remains a superkey.",
+        "Incorrect. Option C (Always a foreign key) is not correct: A candidate key uniquely identifies tuples and is minimal: no proper subset remains a superkey.",
+        "Incorrect. Option D (A key chosen only for indexing) is not correct: A candidate key uniquely identifies tuples and is minimal: no proper subset remains a superkey."
+      ],
+      "basis": "Official Paper II syllabus: Databases."
+    },
+    {
+      "id": "P2-B003-026",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "DBMS",
+      "difficulty": "difficult",
+      "stem": "Under SQL three-valued logic, the expression NULL = NULL evaluates to:",
+      "options": [
+        "TRUE",
+        "FALSE",
+        "UNKNOWN",
+        "NULL pointer"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Option A (TRUE) does not meet the condition in the question. Comparisons involving NULL generally evaluate to UNKNOWN; IS NULL is used to test nullness.",
+        "Incorrect. Option B (FALSE) does not meet the condition in the question. Comparisons involving NULL generally evaluate to UNKNOWN; IS NULL is used to test nullness.",
+        "Correct. Comparisons involving NULL generally evaluate to UNKNOWN; IS NULL is used to test nullness.",
+        "Incorrect. Option D (NULL pointer) is not correct: Comparisons involving NULL generally evaluate to UNKNOWN; IS NULL is used to test nullness."
+      ],
+      "basis": "Official Paper II syllabus: Databases."
+    },
+    {
+      "id": "P2-B003-027",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "DBMS",
+      "difficulty": "difficult",
+      "stem": "A foreign key primarily enforces:",
+      "options": [
+        "Entity integrity of the referencing table only",
+        "Referential integrity between related tables",
+        "Uniqueness of every column",
+        "Physical data independence"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Entity integrity of the referencing table only) does not meet the condition in the question. A foreign key constrains values to match referenced candidate/primary key values or be null where permitted.",
+        "Correct. A foreign key constrains values to match referenced candidate/primary key values or be null where permitted.",
+        "Incorrect. Option C (Uniqueness of every column) does not meet the condition in the question. A foreign key constrains values to match referenced candidate/primary key values or be null where permitted.",
+        "Incorrect. Option D (Physical data independence) does not meet the condition in the question. A foreign key constrains values to match referenced candidate/primary key values or be null where permitted."
+      ],
+      "basis": "Official Paper II syllabus: Databases."
+    },
+    {
+      "id": "P2-B003-028",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "DBMS",
+      "difficulty": "difficult",
+      "stem": "In a schedule, a conflict-serializable history can be tested using a precedence graph. It is conflict-serializable exactly when the graph is:",
+      "options": [
+        "Complete",
+        "Acyclic",
+        "Connected",
+        "Bipartite"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Complete) does not meet the condition in the question. A schedule is conflict-serializable iff its serialization/precedence graph has no directed cycle.",
+        "Correct. A schedule is conflict-serializable iff its serialization/precedence graph has no directed cycle.",
+        "Incorrect. Option C (Connected) does not meet the condition in the question. A schedule is conflict-serializable iff its serialization/precedence graph has no directed cycle.",
+        "Incorrect. Option D (Bipartite) does not meet the condition in the question. A schedule is conflict-serializable iff its serialization/precedence graph has no directed cycle."
+      ],
+      "basis": "Official Paper II syllabus: Databases."
+    },
+    {
+      "id": "P2-B003-029",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "OOP / Java",
+      "difficulty": "difficult",
+      "stem": "In Java, method overloading is resolved primarily at:",
+      "options": [
+        "Runtime using object type only",
+        "Compile time using method signatures and argument types",
+        "Garbage-collection time",
+        "Class-loading shutdown"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Runtime using object type only) does not meet the condition in the question. Overload resolution is compile-time based on the declared method signatures and argument types.",
+        "Correct. Overload resolution is compile-time based on the declared method signatures and argument types.",
+        "Incorrect. Option C (Garbage-collection time) is not correct: Overload resolution is compile-time based on the declared method signatures and argument types.",
+        "Incorrect. Option D (Class-loading shutdown) does not meet the condition in the question. Overload resolution is compile-time based on the declared method signatures and argument types."
+      ],
+      "basis": "Official Paper II syllabus: OOPS Concepts, Programming in C++ and JAVA."
+    },
+    {
+      "id": "P2-B003-030",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "OOP / Java",
+      "difficulty": "difficult",
+      "stem": "Which Java feature ensures that a class cannot be subclassed?",
+      "options": [
+        "static",
+        "final",
+        "abstract",
+        "volatile"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (static) does not meet the condition in the question. A final class cannot be extended. 'final' on a method prevents overriding; on a variable it restricts reassignment.",
+        "Correct. A final class cannot be extended. 'final' on a method prevents overriding; on a variable it restricts reassignment.",
+        "Incorrect. Option C (abstract) does not meet the condition in the question. A final class cannot be extended. 'final' on a method prevents overriding; on a variable it restricts reassignment.",
+        "Incorrect. Option D (volatile) does not meet the condition in the question. A final class cannot be extended. 'final' on a method prevents overriding; on a variable it restricts reassignment."
+      ],
+      "basis": "Official Paper II syllabus: OOPS Concepts, Programming in C++ and JAVA."
+    },
+    {
+      "id": "P2-B003-031",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Software Engineering",
+      "difficulty": "difficult",
+      "stem": "Which development model is most appropriate when requirements are expected to evolve through repeated customer feedback?",
+      "options": [
+        "Pure waterfall",
+        "Iterative/agile approach",
+        "Big-bang with no feedback",
+        "One-pass assembly"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Pure waterfall) does not meet the condition in the question. Iterative/agile development accommodates changing requirements through short cycles and frequent feedback.",
+        "Correct. Iterative/agile development accommodates changing requirements through short cycles and frequent feedback.",
+        "Incorrect. Option C (Big-bang with no feedback) is not correct: Iterative/agile development accommodates changing requirements through short cycles and frequent feedback.",
+        "Incorrect. Option D (One-pass assembly) does not meet the condition in the question. Iterative/agile development accommodates changing requirements through short cycles and frequent feedback."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering."
+    },
+    {
+      "id": "P2-B003-032",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Software Engineering",
+      "difficulty": "difficult",
+      "stem": "In software testing, branch coverage requires:",
+      "options": [
+        "Every statement to execute",
+        "Every possible path to execute",
+        "Each decision outcome to be exercised",
+        "Every input value to be tested"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Option A (Every statement to execute) is not correct: true and false) to execute at least once; it is not exhaustive path coverage.",
+        "Incorrect. Option B (Every possible path to execute) is not correct: true and false) to execute at least once; it is not exhaustive path coverage.",
+        "Correct. Branch coverage requires each outcome of each decision (e.g. true and false) to execute at least once; it is not exhaustive path coverage.",
+        "Incorrect. Option D (Every input value to be tested) does not meet the condition in the question. Branch coverage requires each outcome of each decision (e.g. true and false) to execute at least once; it is not exhaustive path coverage."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering."
+    },
+    {
+      "id": "P2-B003-033",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Information Systems",
+      "difficulty": "difficult",
+      "stem": "An ERP system is designed primarily to:",
+      "options": [
+        "Isolate every department's data",
+        "Integrate core business processes and shared information",
+        "Replace all operating systems",
+        "Provide only email services"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Isolate every department's data) is not correct: ERP integrates functions such as finance, procurement, inventory and HR using shared processes/data.",
+        "Correct. ERP integrates functions such as finance, procurement, inventory and HR using shared processes/data.",
+        "Incorrect. Option C (Replace all operating systems) does not meet the condition in the question. ERP integrates functions such as finance, procurement, inventory and HR using shared processes/data.",
+        "Incorrect. Option D (Provide only email services) does not meet the condition in the question. ERP integrates functions such as finance, procurement, inventory and HR using shared processes/data."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering."
+    },
+    {
+      "id": "P2-B003-034",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Information Systems",
+      "difficulty": "difficult",
+      "stem": "In a data warehouse, a fact table typically contains:",
+      "options": [
+        "Only descriptive text attributes",
+        "Measures and foreign keys to dimension tables",
+        "Only user passwords",
+        "Source-code modules"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (Only descriptive text attributes) is not correct: Fact tables store measurable events/metrics and dimension keys; dimension tables provide descriptive context.",
+        "Correct. Fact tables store measurable events/metrics and dimension keys; dimension tables provide descriptive context.",
+        "Incorrect. Option C (Only user passwords) does not meet the condition in the question. Fact tables store measurable events/metrics and dimension keys; dimension tables provide descriptive context.",
+        "Incorrect. Option D (Source-code modules) does not meet the condition in the question. Fact tables store measurable events/metrics and dimension keys; dimension tables provide descriptive context."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering."
+    },
+    {
+      "id": "P2-B003-035",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Algorithms",
+      "difficulty": "difficult",
+      "stem": "The recurrence T(n)=2T(n/2)+n has asymptotic solution:",
+      "options": [
+        "Θ(log n)",
+        "Θ(n)",
+        "Θ(n log n)",
+        "Θ(n²)"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Option A (Θ(log n)) is not correct: By the Master Theorem, a=2, b=2, n^(log_b a)=n and f(n)=n, yielding Θ(n log n).",
+        "Incorrect. Option B (Θ(n)) is not correct: By the Master Theorem, a=2, b=2, n^(log_b a)=n and f(n)=n, yielding Θ(n log n).",
+        "Correct. By the Master Theorem, a=2, b=2, n^(log_b a)=n and f(n)=n, yielding Θ(n log n).",
+        "Incorrect. Option D (Θ(n²)) does not meet the condition in the question. By the Master Theorem, a=2, b=2, n^(log_b a)=n and f(n)=n, yielding Θ(n log n)."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms."
+    },
+    {
+      "id": "P2-B003-036",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Operating Systems",
+      "difficulty": "difficult",
+      "stem": "A system has 3 frames and references 1,2,3,1,4 under LRU. How many page faults occur?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Option A (3) is not correct: Faults occur for 1, 2, 3, and 4.",
+        "Correct. Faults occur for 1, 2, 3, and 4. The second reference to 1 is a hit; after loading 4, total faults are 4. <PARSED TEXT FOR PAGE: 22 / 22> Batch 003 — validation note  100 questions exactly: Paper I 40 and Paper II 60.  Each question has four options and one keyed answer; all 100 stems are textually distinct within this batch.  Difficulty labels: 50 Moderate and 50 Difficult; no Easy questions in this batch.  Paper I spans polity, economy, Telangana geography/history/culture/policies, environment, science, social development, reasoning, data interpretation and English.  Paper II spans probability/statistics, mathematics, graph theory, digital logic, COA, C/data structures, algorithms, TOC, compiler design, OS, DBMS, networks, web, OOP, software engineering and information systems.  Cross-batch and website-wide semantic duplicate checking is not certified: the complete earlier batches and website question-bank export were not available in this generation run.",
+        "Incorrect. Option C (5) does not meet the condition in the question. Faults occur for 1, 2, 3, and 4. The second reference to 1 is a hit; after loading 4, total faults are 4. <PARSED TEXT FOR PAGE: 22 / 22> Batch 003 — validation note  100 questions exactly: Paper I 40 and Paper II 60.  Each question has four options and one keyed answer; all 100 stems are textually distinct within this batch.  Difficulty labels: 50 Moderate and 50 Difficult; no Easy questions in this batch.  Paper I spans polity, economy, Telangana geography/history/culture/policies, environment, science, social development, reasoning, data interpretation and English.  Paper II spans probability/statistics, mathematics, graph theory, digital logic, COA, C/data structures, algorithms, TOC, compiler design, OS, DBMS, networks, web, OOP, software engineering and information systems.  Cross-batch and website-wide semantic duplicate checking is not certified: the complete earlier batches and website question-bank export were not available in this generation run.",
+        "Incorrect. Option D (2) is not correct: Faults occur for 1, 2, 3, and 4."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems."
     }
   ],
   "qualityNote": "Batch 001 added after structural validation, answer-index/option consistency checks, exact-stem comparison against the existing bank, and one duplicate-concept replacement. Batch 001 contributes 40 Paper I and 60 Paper II questions. Semantic overlap beyond flagged exact matches still requires subject-matter review; browser end-to-end testing and production deployment must be verified separately. Current bank snapshot verified on 2026-11-07: 514 questions (198 Paper I, 316 Paper II). The bulk importer is available at batch-import.html; it validates JSON batches and exports a merged file, while semantic duplicate review and GitHub commit remain manual.",
@@ -11835,9 +13376,9 @@
     "targetTotal": 3500,
     "targetPaper2": 2000,
     "targetPaper1": 1500,
-    "currentTotal": 514,
-    "currentPaper2": 316,
-    "currentPaper1": 198,
+    "currentTotal": 581,
+    "currentPaper2": 352,
+    "currentPaper1": 229,
     "status": "in_progress",
     "qualityGate": "Every added question must have a unique ID, official syllabus mapping, four options, a verified answer index, four option-specific explanations, and a difficulty label."
   }
