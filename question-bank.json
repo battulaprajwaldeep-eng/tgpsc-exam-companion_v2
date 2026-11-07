@@ -15669,16 +15669,2316 @@
         "Incorrect — features are used because they provide information about the class label."
       ],
       "basis": "Official Paper II syllabus: Data Mining; source/basis: Standard machine-learning texts; Naive Bayes conditional-independence assumption."
+    },
+    {
+      "id": "P1-B006-001",
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "subtopic": "Census 2027: phase structure",
+      "difficulty": "moderate",
+      "stem": "According to the Government of India's Census-2027 schedule update, which activity is part of the first phase?",
+      "options": [
+        "House-listing operations conducted over a 30-day period within April–September 2026",
+        "Population enumeration of every individual during October–December 2026",
+        "Caste enumeration as the sole activity of the first phase",
+        "Publication of final national population tables before house-listing"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The first phase is Houselisting Operations, scheduled for a 30-day period between April and September 2026.",
+        "Incorrect. Population enumeration is in the later phase, not first-phase Houselisting Operations.",
+        "Incorrect. The official update places caste enumeration in the second phase.",
+        "Incorrect. Final population tables follow enumeration and processing."
+      ],
+      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International; source/basis: PIB, Census 2027 schedule presentation (April 2026): https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/apr/doc2026430860001.pdf"
+    },
+    {
+      "id": "P1-B006-002",
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "subtopic": "Census 2027: caste enumeration",
+      "difficulty": "advanced",
+      "stem": "In the Government of India's published Census-2027 phase plan, caste enumeration is scheduled during which phase?",
+      "options": [
+        "The first phase, together with the 15-day self-enumeration window",
+        "The second phase of Census operations",
+        "Only after the final census tables have been released",
+        "Continuously throughout both phases, without phase-specific scheduling"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The first phase is Houselisting Operations; self-enumeration is a limited window before them.",
+        "Correct. The official schedule states that caste enumeration will be conducted during the second phase.",
+        "Incorrect. Caste enumeration is within the second phase, before final tables are released.",
+        "Incorrect. The schedule assigns caste enumeration to the second phase."
+      ],
+      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International; source/basis: PIB, Census 2027 schedule presentation (April 2026): https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/apr/doc2026430860001.pdf"
+    },
+    {
+      "id": "P1-B006-003",
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "subtopic": "India's updated NDC 3.0",
+      "difficulty": "moderate",
+      "stem": "India's updated Nationally Determined Contribution (NDC 3.0), submitted to the UNFCCC in April 2026, sets which 2035 target for reducing emissions intensity?",
+      "options": [
+        "A 25% reduction from the 2005 level",
+        "A 33% reduction from the 2005 level",
+        "A 47% reduction from the 2005 level",
+        "A 60% reduction from the 2005 level"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. The updated target is higher than 25%.",
+        "Incorrect. 33% is not the updated 2035 emissions-intensity target.",
+        "Correct. NDC 3.0 aims to reduce emissions intensity by 47% by 2035; it separately targets 60% non-fossil installed power capacity.",
+        "Incorrect. 60% is the non-fossil capacity target, not the emissions-intensity reduction."
+      ],
+      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International; source/basis: MoEFCC, India Net Zero portal, updated NDC 3.0: https://netzeroindia.moef.gov.in/about"
+    },
+    {
+      "id": "P1-B006-004",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "UNCLOS: exclusive economic zone",
+      "difficulty": "moderate",
+      "stem": "Under Article 57 of UNCLOS, the exclusive economic zone may extend at most how far from the baselines used to measure the territorial sea?",
+      "options": [
+        "12 nautical miles",
+        "24 nautical miles",
+        "100 nautical miles",
+        "200 nautical miles"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Incorrect. Twelve nautical miles is the maximum territorial-sea breadth.",
+        "Incorrect. Twenty-four nautical miles is associated with the contiguous zone.",
+        "Incorrect. UNCLOS does not set 100 nautical miles as the general maximum EEZ breadth.",
+        "Correct. Article 57 sets the EEZ maximum at 200 nautical miles from the relevant baselines."
+      ],
+      "basis": "Official Paper I syllabus: International Relations and Events; source/basis: UNCLOS, Part V, Article 57, UN DOALOS: https://www.un.org/depts/los/convention_agreements/texts/unclos/part5.htm"
+    },
+    {
+      "id": "P1-B006-005",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "International Maritime Organization",
+      "difficulty": "standard",
+      "stem": "Which mandate most accurately describes the International Maritime Organization (IMO), a specialized agency of the United Nations?",
+      "options": [
+        "Regulating international civil aviation and airport security",
+        "Improving shipping safety and security and preventing pollution from ships",
+        "Settling territorial disputes between sovereign states",
+        "Providing emergency balance-of-payments lending to member countries"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. International civil aviation is principally within ICAO's mandate.",
+        "Correct. IMO develops measures for safer, more secure shipping and prevention of ship-source pollution.",
+        "Incorrect. Interstate legal disputes may be heard by bodies such as the ICJ.",
+        "Incorrect. Balance-of-payments financing is associated with the IMF."
+      ],
+      "basis": "Official Paper I syllabus: International Relations and Events; source/basis: IMO official About/FAQ: https://www.imo.org/en/about/pages/faqs.aspx"
+    },
+    {
+      "id": "P1-B006-006",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Green hydrogen production",
+      "difficulty": "moderate",
+      "stem": "Under India's National Green Hydrogen Mission, hydrogen is described as 'green' principally when it is produced by:",
+      "options": [
+        "Reforming natural gas without capturing the resulting carbon dioxide",
+        "Electrolysing water using renewable electricity",
+        "Gasifying coal and venting the carbon dioxide",
+        "Separating hydrogen from petroleum solely by conventional refining"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Unabated natural-gas reforming is fossil-based and emits carbon dioxide.",
+        "Correct. Renewable-powered electrolysis splits water into hydrogen and oxygen.",
+        "Incorrect. Coal gasification with uncaptured emissions is not green hydrogen production.",
+        "Incorrect. Conventional refining does not meet the renewable-energy basis for green hydrogen."
+      ],
+      "basis": "Official Paper I syllabus: General Science; India’s Achievements in Science and Technology; source/basis: MNRE, National Green Hydrogen Mission portal: https://nghm.mnre.gov.in/"
+    },
+    {
+      "id": "P1-B006-007",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Polymerase chain reaction",
+      "difficulty": "advanced",
+      "stem": "Why is a thermostable DNA polymerase such as Taq polymerase suitable for repeated PCR cycles?",
+      "options": [
+        "It binds permanently to primers and prevents their separation",
+        "It remains sufficiently active after the high-temperature DNA-denaturation step",
+        "It converts RNA directly into proteins during extension",
+        "It removes the need for primers and nucleotide triphosphates"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Primers must anneal during a lower-temperature step; permanent binding would prevent cycling.",
+        "Correct. A thermostable polymerase withstands repeated denaturation and extends primers during the extension step.",
+        "Incorrect. PCR amplifies DNA; translation is not part of PCR.",
+        "Incorrect. PCR still requires primers and dNTP building blocks."
+      ],
+      "basis": "Official Paper I syllabus: General Science; India’s Achievements in Science and Technology; source/basis: OpenStax Microbiology, PCR principles; standard denaturation/annealing/extension cycle."
+    },
+    {
+      "id": "P1-B006-008",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Biomagnification",
+      "difficulty": "moderate",
+      "stem": "A persistent pollutant is present at low concentration in water, becomes concentrated in plankton, and reaches a much higher concentration in predatory fish. This increase across successive trophic levels is:",
+      "options": [
+        "Biodegradation",
+        "Biomagnification",
+        "Primary succession",
+        "Nitrogen fixation"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Biodegradation is breakdown of substances, not increasing concentration up a food chain.",
+        "Correct. Biomagnification is increasing concentration of a persistent substance at higher trophic levels.",
+        "Incorrect. Primary succession is ecosystem establishment on newly exposed substrate.",
+        "Incorrect. Nitrogen fixation converts atmospheric nitrogen into biologically usable compounds."
+      ],
+      "basis": "Official Paper I syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies; source/basis: Odum & Barrett, Fundamentals of Ecology; biomagnification of persistent pollutants."
+    },
+    {
+      "id": "P1-B006-009",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Primary ecological succession",
+      "difficulty": "advanced",
+      "stem": "Which site is the clearest example of primary ecological succession rather than secondary succession?",
+      "options": [
+        "An abandoned agricultural field where topsoil remains",
+        "A forest recovering after a surface fire that leaves soil intact",
+        "Newly exposed bare rock after a glacier retreats, with no developed soil",
+        "A grassland regrowing after seasonal grazing"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. An abandoned field retains soil and often seeds or roots.",
+        "Incorrect. A fire that leaves soil intact normally leads to secondary succession.",
+        "Correct. Primary succession begins on a substrate lacking developed soil, such as newly exposed bare rock.",
+        "Incorrect. Seasonal grazing does not normally remove soil."
+      ],
+      "basis": "Official Paper I syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies; source/basis: Odum & Barrett, Fundamentals of Ecology; primary versus secondary succession."
+    },
+    {
+      "id": "P1-B006-010",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Public finance: fiscal deficit",
+      "difficulty": "moderate",
+      "stem": "For a government budget, the fiscal deficit is conventionally measured as:",
+      "options": [
+        "Revenue expenditure minus revenue receipts",
+        "Total expenditure minus revenue receipts and non-debt capital receipts",
+        "Total expenditure minus total receipts including borrowings",
+        "Interest payments minus capital expenditure"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This is the revenue deficit, not the fiscal deficit.",
+        "Correct. Fiscal deficit is total expenditure less revenue receipts and non-debt capital receipts.",
+        "Incorrect. Borrowings finance the deficit; counting them as receipts would conceal it.",
+        "Incorrect. This is not the conventional fiscal-deficit definition."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana; source/basis: Government of India, Union Budget, Budget at a Glance; standard public-finance definition."
+    },
+    {
+      "id": "P1-B006-011",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Income inequality: Gini coefficient",
+      "difficulty": "advanced",
+      "stem": "On the conventional 0-to-1 scale for the Gini coefficient, which interpretation is correct?",
+      "options": [
+        "0 indicates maximum inequality and 1 indicates perfect equality",
+        "0 indicates perfect equality and 1 indicates maximum inequality",
+        "Both 0 and 1 indicate equal income distribution",
+        "A higher Gini coefficient necessarily means higher average income"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This reverses the conventional interpretation.",
+        "Correct. Zero represents perfect equality; one represents maximum inequality in the limiting case.",
+        "Incorrect. The endpoints represent opposite extremes.",
+        "Incorrect. Gini measures relative distributional inequality, not average income."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana; source/basis: World Bank, Poverty and Inequality Platform/World Development Indicators, Gini index definition."
+    },
+    {
+      "id": "P1-B006-012",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "Physical, Social and Economic Geography of India",
+      "subtopic": "Northern Plains of India",
+      "difficulty": "standard",
+      "stem": "The extensive Northern Plains of India were formed predominantly by the accumulation of:",
+      "options": [
+        "Volcanic lava from Deccan eruptions",
+        "Alluvial sediments deposited by the Indus, Ganga, Brahmaputra and their tributaries",
+        "Wind-blown desert sand alone",
+        "Marine coral deposits uplifted from the Arabian Sea"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Deccan volcanic rocks form much of the peninsular plateau.",
+        "Correct. The Northern Plains are built mainly from alluvium deposited by the Indus, Ganga and Brahmaputra systems and tributaries.",
+        "Incorrect. Aeolian deposits do not account for the extensive Northern Plains.",
+        "Incorrect. Coral deposits are not their principal material."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography of India; source/basis: NCERT, India: Physical Environment, Structure and Physiography; Northern Plains."
+    },
+    {
+      "id": "P1-B006-013",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Telangana demography: 2011 Census",
+      "difficulty": "standard",
+      "stem": "According to the 2011 Census, which district of the then Telangana region had its entire population classified as urban?",
+      "options": [
+        "Adilabad",
+        "Hyderabad",
+        "Nalgonda",
+        "Mahbubnagar"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Adilabad included rural settlements in 2011.",
+        "Correct. The Hyderabad District Census Handbook records that all of the district's population was classified as urban.",
+        "Incorrect. Nalgonda included rural settlements in 2011.",
+        "Incorrect. Mahbubnagar included rural settlements in 2011."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; source/basis: Census of India 2011, District Census Handbook: Hyderabad: https://censusindia.gov.in/nada/index.php/catalog/120/download/130/DH_2011_2805_PART_A_DCHB_HYDERABAD.pdf"
+    },
+    {
+      "id": "P1-B006-014",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Musi river drainage",
+      "difficulty": "moderate",
+      "stem": "After flowing through Hyderabad, the Musi River ultimately joins which major river?",
+      "options": [
+        "Godavari near Basar",
+        "Krishna near Wadapally/Wazirabad",
+        "Pennar near Nellore",
+        "Manjira near Nizamabad"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Godavari is not the receiving river for the Musi.",
+        "Correct. Musi is a major tributary of Krishna and meets it downstream of Nagarjuna Sagar in the Nalgonda region.",
+        "Incorrect. Pennar is a separate river system.",
+        "Incorrect. Manjira is a Godavari tributary, not the river into which Musi flows."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; source/basis: Central Water Commission, Krishna and Tungabhadra basin report: https://cwc.gov.in/sites/default/files/krishna-and-tungbhadracompressed.pdf"
+    },
+    {
+      "id": "P1-B006-015",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Government of India Act, 1935",
+      "difficulty": "moderate",
+      "stem": "Which major constitutional change was introduced by the Government of India Act, 1935 in the provinces?",
+      "options": [
+        "Complete independence from British rule",
+        "Provincial autonomy with responsible ministries, subject to the Act's safeguards",
+        "Universal adult franchise for all elections",
+        "A fully responsible federal government at the Centre that immediately came into operation"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The Act did not grant independence.",
+        "Correct. It introduced provincial autonomy and responsible ministries, while retaining safeguards and special powers.",
+        "Incorrect. The franchise remained limited.",
+        "Incorrect. The proposed all-India federation did not come into operation."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement; source/basis: Government of India Act 1935; standard modern Indian history texts."
+    },
+    {
+      "id": "P1-B006-016",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Simon Commission",
+      "difficulty": "moderate",
+      "stem": "Why did the Simon Commission, appointed in 1927 to review constitutional reforms in British India, face widespread Indian opposition?",
+      "options": [
+        "It recommended immediate complete independence",
+        "It had no Indian member",
+        "It proposed the abolition of provincial legislatures",
+        "It was appointed by the Indian National Congress"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The Commission did not recommend immediate independence.",
+        "Correct. All members were British; the absence of an Indian member prompted the 'Simon Go Back' opposition.",
+        "Incorrect. This was not the principal reason for the boycott.",
+        "Incorrect. It was appointed by the British government."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement; source/basis: Standard modern Indian history texts; Simon Commission composition and Indian response."
+    },
+    {
+      "id": "P1-B006-017",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Telangana statehood movement: TRS",
+      "difficulty": "moderate",
+      "stem": "Which statement about the formation of the Telangana Rashtra Samithi (TRS) is correct?",
+      "options": [
+        "It was founded in 1956 as a party supporting the merger of Telangana with Andhra",
+        "K. Chandrashekar Rao founded it in 2001 to pursue a separate Telangana state",
+        "It was created by the States Reorganisation Commission in 1955",
+        "It was formed after Telangana became a state in June 2014"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. TRS did not exist in 1956.",
+        "Correct. The district administration profile records that K. Chandrashekar Rao floated TRS in 2001 to fight for a separate Telangana state.",
+        "Incorrect. The SRC did not create TRS.",
+        "Incorrect. TRS was central to the statehood movement before formation of the State."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state; source/basis: Khammam District Administration, K. Chandrashekar Rao profile: https://khammam.telangana.gov.in/kcr-profile/"
+    },
+    {
+      "id": "P1-B006-018",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Andhra Pradesh Reorganisation Act, 2014",
+      "difficulty": "standard",
+      "stem": "Under Section 5 of the Andhra Pradesh Reorganisation Act, 2014, Hyderabad was provided as the common capital of the successor States for a period not exceeding:",
+      "options": [
+        "Two years from the appointed day",
+        "Five years from the appointed day",
+        "Ten years from the appointed day",
+        "Fifteen years from the appointed day"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Section 5 does not prescribe two years.",
+        "Incorrect. The statutory maximum is longer than five years.",
+        "Correct. Section 5 provides that Hyderabad shall be the common capital for a period not exceeding ten years from the appointed day.",
+        "Incorrect. The Act sets a ten-year maximum."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state; source/basis: Andhra Pradesh Reorganisation Act, 2014, Section 5, India Code: https://upload.indiacode.nic.in/showfile?actid=AC_CEN_5_5_00058_201406_1517807327989&filename=201406.pdf&type=actfile"
+    },
+    {
+      "id": "P1-B006-019",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitution: Money Bill",
+      "difficulty": "moderate",
+      "stem": "Under Article 110 of the Constitution, which authority gives the final certification on whether a Bill is a Money Bill?",
+      "options": [
+        "The President of India",
+        "The Chairman of the Rajya Sabha",
+        "The Speaker of the Lok Sabha",
+        "The Finance Commission"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Presidential assent is a later legislative stage.",
+        "Incorrect. The Rajya Sabha Chairman does not make the Article 110 certification.",
+        "Correct. Article 110(3) makes the Lok Sabha Speaker's decision final if a question arises whether a Bill is a Money Bill.",
+        "Incorrect. The Finance Commission deals with fiscal devolution, not bill certification."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; source/basis: Constitution of India, Article 110(3), Legislative Department: https://legislative.gov.in/constitution-of-india/"
+    },
+    {
+      "id": "P1-B006-020",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitution: High Court writ jurisdiction",
+      "difficulty": "moderate",
+      "stem": "Which statement best distinguishes the writ jurisdiction of a High Court under Article 226 from that of the Supreme Court under Article 32?",
+      "options": [
+        "A High Court may issue writs only for enforcement of Fundamental Rights",
+        "A High Court may issue writs for enforcement of Fundamental Rights and for other purposes, subject to Article 226",
+        "The Supreme Court has no power to issue writs",
+        "Article 226 applies only to criminal proceedings"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Article 226 is not confined to Fundamental Rights.",
+        "Correct. Article 226 empowers High Courts to issue writs for Fundamental Rights and for any other purpose within constitutional limits.",
+        "Incorrect. Article 32 expressly empowers the Supreme Court to issue writs for Fundamental Rights.",
+        "Incorrect. Article 226 is not confined to criminal proceedings."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; source/basis: Constitution of India, Articles 32 and 226, Legislative Department: https://legislative.gov.in/constitution-of-india/"
+    },
+    {
+      "id": "P1-B006-021",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Constitution: right to property",
+      "difficulty": "moderate",
+      "stem": "After the Forty-Fourth Amendment, the right to property is protected in the Constitution primarily as:",
+      "options": [
+        "A Fundamental Right under Article 19",
+        "A constitutional right under Article 300A",
+        "A Directive Principle under Article 39A",
+        "A Fundamental Duty under Article 51A"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The right to property was removed from the list of Fundamental Rights.",
+        "Correct. Article 300A says no person shall be deprived of property save by authority of law; it is a constitutional right, not a Fundamental Right.",
+        "Incorrect. Article 39A concerns equal justice and free legal aid.",
+        "Incorrect. Article 51A lists Fundamental Duties."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; source/basis: Constitution of India, Article 300A; Constitution (Forty-Fourth Amendment) Act, 1978."
+    },
+    {
+      "id": "P1-B006-022",
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "subtopic": "POSH Act: Internal Committee threshold",
+      "difficulty": "advanced",
+      "stem": "Under the Sexual Harassment of Women at Workplace Act, 2013, an employer must constitute an Internal Committee at a workplace that has:",
+      "options": [
+        "Any number of employees, including a single employee",
+        "Ten or more employees",
+        "At least fifty employees",
+        "At least one hundred employees"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The Internal Committee requirement is tied to the statutory threshold.",
+        "Correct. Section 4 requires an Internal Committee at every workplace with ten or more employees; the Local Committee mechanism addresses specified cases below that threshold and complaints against the employer.",
+        "Incorrect. The threshold is ten, not fifty.",
+        "Incorrect. The threshold is lower than one hundred."
+      ],
+      "basis": "Official Paper I syllabus: Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies; source/basis: Sexual Harassment of Women at Workplace Act, 2013, Section 4, India Code: https://www.indiacode.nic.in/bitstream/123456789/5561/1/sexual_harassment.pdf"
+    },
+    {
+      "id": "P1-B006-023",
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "subtopic": "SC/ST Prevention of Atrocities Act: Special Courts",
+      "difficulty": "moderate",
+      "stem": "The Scheduled Castes and the Scheduled Tribes (Prevention of Atrocities) Act, 1989 provides for Special Courts and Exclusive Special Courts primarily to:",
+      "options": [
+        "Try offences under the Act with a view to speedy trial",
+        "Decide civil disputes over land titles between private companies",
+        "Replace all ordinary criminal courts for every offence",
+        "Adjudicate election petitions for reserved constituencies"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The Act's long title and Section 14 provide for Special Courts and Exclusive Special Courts for trial of offences under the Act.",
+        "Incorrect. The Act is a criminal-law protection statute, not a general civil land-title forum.",
+        "Incorrect. These courts are designated for offences under the Act, not every criminal offence.",
+        "Incorrect. Election petitions are governed by separate election law."
+      ],
+      "basis": "Official Paper I syllabus: Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies; source/basis: SC/ST (Prevention of Atrocities) Act, 1989, Section 14, India Code: https://www.indiacode.nic.in/handle/123456789/18896?locale=en"
+    },
+    {
+      "id": "P1-B006-024",
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "subtopic": "Equality in public employment",
+      "difficulty": "advanced",
+      "stem": "Article 16(4) of the Constitution enables the State to make provision for reservation in appointments or posts in favour of:",
+      "options": [
+        "Every citizen without regard to any constitutional criteria",
+        "Any backward class of citizens that, in the State's opinion, is not adequately represented in State services",
+        "Only persons who have already completed government service",
+        "Only persons belonging to economically advanced classes"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Article 16(4) is a specific enabling provision with constitutional criteria.",
+        "Correct. Article 16(4) addresses a backward class of citizens not adequately represented in State services.",
+        "Incorrect. The provision concerns access to appointments or posts, not only existing employees.",
+        "Incorrect. It is directed to backward classes not adequately represented."
+      ],
+      "basis": "Official Paper I syllabus: Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies; source/basis: Constitution of India, Article 16(4), Legislative Department: https://legislative.gov.in/constitution-of-india/"
+    },
+    {
+      "id": "P1-B006-025",
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Cheriyal scroll painting",
+      "difficulty": "moderate",
+      "stem": "Which description best identifies Cheriyal scroll painting, an art form associated with Telangana?",
+      "options": [
+        "A narrative cloth-scroll painting tradition depicting mythological and folk stories",
+        "A silver-inlaid metalware technique used only for ceremonial swords",
+        "A stone-carving method used exclusively for temple pillars",
+        "A bamboo weaving pattern used to make agricultural baskets"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Telangana Tourism describes Cheriyal scrolls as stylized narrative cloth paintings depicting mythological and folk stories.",
+        "Incorrect. Silver inlay on metal is associated with Bidriware.",
+        "Incorrect. Cheriyal is a painting tradition, not stone carving.",
+        "Incorrect. Bamboo basketry is a separate craft."
+      ],
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; source/basis: Telangana Tourism, Arts & Crafts: https://www.tourism.telangana.gov.in/page/arts-crafts"
+    },
+    {
+      "id": "P1-B006-026",
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Bidriware craft",
+      "difficulty": "standard",
+      "stem": "Bidriware, a traditional metal craft practised in the Deccan and associated with Telangana's heritage, is particularly known for:",
+      "options": [
+        "Silver inlay work on a darkened metal surface",
+        "Block printing with vegetable dyes on cotton cloth",
+        "Narrative paintings on long cloth scrolls",
+        "Carving geometric patterns into granite temple walls"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Bidriware is known for contrasting silver inlay against a darkened metal body.",
+        "Incorrect. Vegetable-dye block printing is a textile process.",
+        "Incorrect. Narrative cloth scrolls describe Cheriyal painting.",
+        "Incorrect. Granite carving is a stone craft, not metal inlay."
+      ],
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; source/basis: Telangana Tourism, Heritage and Arts & Crafts: https://www.tourism.telangana.gov.in/experience/heritage"
+    },
+    {
+      "id": "P1-B006-027",
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Bonalu festival",
+      "difficulty": "moderate",
+      "stem": "Bonalu, celebrated particularly in Hyderabad and Secunderabad during Ashada Masam, is principally associated with worship of:",
+      "options": [
+        "Goddess Mahakali",
+        "Lord Venkateswara",
+        "Lord Jagannath",
+        "Goddess Saraswati"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The Hyderabad District Administration describes Bonalu as a festival in which Goddess Mahakali is worshipped.",
+        "Incorrect. Lord Venkateswara is associated with Tirumala.",
+        "Incorrect. Lord Jagannath is central to Puri's Rath Yatra tradition.",
+        "Incorrect. Saraswati worship is not the defining Bonalu observance."
+      ],
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; source/basis: Hyderabad District Administration, Bonalu festival: https://hyderabad.telangana.gov.in/festival/bonalu/"
+    },
+    {
+      "id": "P1-B006-028",
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Telangana cuisine and food heritage",
+      "difficulty": "advanced",
+      "stem": "Which statement most accurately describes Sarva Pindi, a traditional Telangana preparation?",
+      "options": [
+        "A savoury pancake made principally from rice flour and spices",
+        "A sweet fermented rice-and-lentil cake steamed in moulds",
+        "A wheat-based layered bread cooked in a tandoor",
+        "A milk dessert thickened exclusively with arrowroot"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Telangana Tourism describes Sarva Pindi as a spiced rice-flour pancake.",
+        "Incorrect. A steamed fermented rice-and-lentil cake is a different preparation.",
+        "Incorrect. A tandoor-cooked wheat bread is not Sarva Pindi.",
+        "Incorrect. Sarva Pindi is savoury, not a milk dessert."
+      ],
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; source/basis: Telangana Tourism, Heritage page: https://www.tourism.telangana.gov.in/experience/heritage"
+    },
+    {
+      "id": "P1-B006-029",
+      "paper": 1,
+      "topicId": "p1-13",
+      "topic": "Policies of Telangana State",
+      "subtopic": "Mission Bhagiratha: rural service level",
+      "difficulty": "moderate",
+      "stem": "Under Mission Bhagiratha, the planned treated piped-water service level for rural households is:",
+      "options": [
+        "55 litres per capita per day",
+        "70 litres per capita per day",
+        "100 litres per capita per day",
+        "150 litres per capita per day"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. The rural service level is higher than 55 LPCD.",
+        "Incorrect. The stated rural benchmark is not 70 LPCD.",
+        "Correct. The official district scheme description states 100 LPCD for rural areas.",
+        "Incorrect. 150 LPCD is the stated benchmark for municipal corporations."
+      ],
+      "basis": "Official Paper I syllabus: Policies of Telangana State; source/basis: Yadadri Bhuvanagiri District Administration, Mission Bhagiratha: https://yadadri.telangana.gov.in/scheme/mission-bhagiratha/"
+    },
+    {
+      "id": "P1-B006-030",
+      "paper": 1,
+      "topicId": "p1-13",
+      "topic": "Policies of Telangana State",
+      "subtopic": "Maha Lakshmi scheme",
+      "difficulty": "standard",
+      "stem": "According to the Government of Telangana's scheme description, the free-bus-travel component of Maha Lakshmi applies within the State to:",
+      "options": [
+        "All passengers on every private inter-State bus",
+        "Women, girls and transgender persons travelling on specified TGSRTC services such as Palle Velugu and Express buses",
+        "Only government employees travelling on city buses",
+        "Only senior citizens travelling on long-distance luxury coaches"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The benefit is a specified State scheme on TGSRTC services, not all private inter-State buses.",
+        "Correct. The State description identifies women, girls and transgender persons and specifies Palle Velugu and Express services within Telangana.",
+        "Incorrect. It is not limited to government employees.",
+        "Incorrect. It is not limited to senior citizens or luxury coaches."
+      ],
+      "basis": "Official Paper I syllabus: Policies of Telangana State; source/basis: Mulugu District Administration, Telangana schemes listing: https://mulugu.telangana.gov.in/schemes/"
+    },
+    {
+      "id": "P1-B006-031",
+      "paper": 1,
+      "topicId": "p1-13",
+      "topic": "Policies of Telangana State",
+      "subtopic": "Bala Bharosa programme",
+      "difficulty": "advanced",
+      "stem": "The Telangana State Portal's January 2026 release describes Bala Bharosa primarily as a programme intended to:",
+      "options": [
+        "Provide assistive devices and support to persons with disabilities",
+        "Provide crop-price insurance only to tenant farmers",
+        "Replace all urban public transport with electric buses",
+        "Provide scholarships exclusively for overseas postgraduate study"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The State release describes distribution of assistive devices and support under Bala Bharosa for persons with disabilities.",
+        "Incorrect. Crop support is a different policy area.",
+        "Incorrect. The release does not describe a transport-replacement programme.",
+        "Incorrect. Overseas training is mentioned in a broader welfare context, but Bala Bharosa is directed to disability support."
+      ],
+      "basis": "Official Paper I syllabus: Policies of Telangana State; source/basis: Telangana State Portal, Bala Bharosa and Pranamam launch release (January 2026): https://www.telangana.gov.in/news/press-releases/2026/01/honble-cm-sri-a-revanth-reddy-participated-in-the-launch-of-bala-bharosa-and-pranamam-schemes-at-jyotirao-phule-praja-bhavan/"
+    },
+    {
+      "id": "P1-B006-032",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Data interpretation: arithmetic mean",
+      "difficulty": "standard",
+      "stem": "A water-treatment plant records treated volumes of 48 ML, 60 ML and 72 ML in three successive shifts. What is the arithmetic mean volume per shift?",
+      "options": [
+        "54 ML",
+        "60 ML",
+        "62 ML",
+        "64 ML"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The total is 180 ML; divided by three it is 60 ML.",
+        "Correct. (48+60+72)/3 = 180/3 = 60 ML.",
+        "Incorrect. Sixty-two is not the arithmetic mean.",
+        "Incorrect. Sixty-four is not obtained by averaging the observations."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; source/basis: Original numerical item; arithmetic mean = sum divided by count."
+    },
+    {
+      "id": "P1-B006-033",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Logical reasoning: ordering constraints",
+      "difficulty": "advanced",
+      "stem": "Five pumps P, Q, R, S and T are tested once each. P must be tested before R; Q must be immediately after S; and T cannot be first. Which sequence satisfies all three conditions?",
+      "options": [
+        "S, Q, P, R, T",
+        "Q, S, P, R, T",
+        "P, R, S, T, Q",
+        "T, S, Q, R, P"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. S is immediately followed by Q, P is before R, and T is not first.",
+        "Incorrect. Q appears before S.",
+        "Incorrect. S is followed by T rather than Q.",
+        "Incorrect. T is first and R appears before P."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; source/basis: Original analytical-reasoning item; all constraints stated explicitly."
+    },
+    {
+      "id": "P1-B006-034",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Data interpretation: median",
+      "difficulty": "moderate",
+      "stem": "Five daily treatment-output values, arranged in ascending order, are 45, 52, 60, 67 and 75 ML. What is the median?",
+      "options": [
+        "52 ML",
+        "58 ML",
+        "60 ML",
+        "62 ML"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. 52 ML is the second observation, not the middle.",
+        "Incorrect. 58 ML is not the middle observation.",
+        "Correct. With five ordered observations, the third value is the median: 60 ML.",
+        "Incorrect. 62 ML is not the middle value."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; source/basis: Original data-interpretation item; median of an odd number of ordered observations."
+    },
+    {
+      "id": "P1-B006-035",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "English usage: countable nouns",
+      "difficulty": "standard",
+      "stem": "Choose the grammatically correct completion: 'The inspection recorded ___ defective valves this month than last month.'",
+      "options": [
+        "less",
+        "fewer",
+        "much",
+        "little"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. 'Less' is normally used with uncountable nouns.",
+        "Correct. 'Fewer' is used with countable plural nouns such as valves.",
+        "Incorrect. 'Much' does not correctly modify the countable plural noun here.",
+        "Incorrect. 'Little' is not the correct comparative quantifier."
+      ],
+      "basis": "Official Paper I syllabus: Basic English (10th class Standard); source/basis: Cambridge English Grammar, countable and uncountable quantifiers."
+    },
+    {
+      "id": "P1-B006-036",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "English vocabulary: phrase meaning",
+      "difficulty": "moderate",
+      "stem": "In the sentence 'The revised operating procedure was introduced in lieu of the earlier procedure', the phrase 'in lieu of' means:",
+      "options": [
+        "In addition to",
+        "Instead of",
+        "Because of",
+        "Immediately after"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. 'In lieu of' indicates substitution, not addition.",
+        "Correct. 'In lieu of' means 'instead of' or 'in place of'.",
+        "Incorrect. 'Because of' expresses cause, not replacement.",
+        "Incorrect. 'Immediately after' expresses time sequence, not substitution."
+      ],
+      "basis": "Official Paper I syllabus: Basic English (10th class Standard); source/basis: Cambridge Dictionary, 'in lieu of'; standard English vocabulary."
+    },
+    {
+      "id": "P1-B006-037",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "English usage: prepositions",
+      "difficulty": "advanced",
+      "stem": "Choose the correct preposition: 'The contractor was held responsible ___ restoring the damaged road surface.'",
+      "options": [
+        "at",
+        "for",
+        "with",
+        "by"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. 'Responsible at' is not the standard construction.",
+        "Correct. The standard collocation is 'responsible for' an action or outcome.",
+        "Incorrect. 'Responsible with' is not the correct preposition here.",
+        "Incorrect. 'Responsible by' does not express the person's duty."
+      ],
+      "basis": "Official Paper I syllabus: Basic English (10th class Standard); source/basis: Cambridge English Grammar, adjective + preposition patterns."
+    },
+    {
+      "id": "P1-B006-038",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Ecosystem resilience",
+      "difficulty": "moderate",
+      "stem": "After a drought, a wetland recovers its ecological functions and species interactions without changing into a fundamentally different ecosystem. This capacity is best described as:",
+      "options": [
+        "Ecosystem resilience",
+        "Biomagnification",
+        "Desertification",
+        "Eutrophication"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Resilience is the capacity to absorb disturbance and recover while retaining essential ecosystem functions.",
+        "Incorrect. Biomagnification is increasing contaminant concentration through trophic levels.",
+        "Incorrect. Desertification is land degradation in drylands.",
+        "Incorrect. Eutrophication is nutrient enrichment of water bodies."
+      ],
+      "basis": "Official Paper I syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies; source/basis: UNEP ecosystem-resilience concepts; standard ecology texts on disturbance and recovery."
+    },
+    {
+      "id": "P1-B006-039",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Public finance: revenue deficit",
+      "difficulty": "advanced",
+      "stem": "A government reports revenue expenditure of ₹8.4 lakh crore and revenue receipts of ₹7.1 lakh crore. What is its revenue deficit?",
+      "options": [
+        "₹0.9 lakh crore",
+        "₹1.1 lakh crore",
+        "₹1.3 lakh crore",
+        "₹15.5 lakh crore"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. ₹0.9 lakh crore is not the difference.",
+        "Incorrect. ₹1.1 lakh crore is an arithmetic error.",
+        "Correct. Revenue deficit = 8.4 − 7.1 = ₹1.3 lakh crore.",
+        "Incorrect. ₹15.5 lakh crore is the sum, not the deficit."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana; source/basis: Government of India, Union Budget, Budget at a Glance; revenue deficit definition."
+    },
+    {
+      "id": "P1-B006-040",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "Physical, Social and Economic Geography of India",
+      "subtopic": "Himalayan orogeny",
+      "difficulty": "standard",
+      "stem": "The Himalayas are classified as young fold mountains primarily because they formed through:",
+      "options": [
+        "Rifting of the Indian plate away from Africa",
+        "Collision and continuing convergence of the Indian and Eurasian plates",
+        "Uplift caused only by volcanic island arcs",
+        "Deposition of river alluvium without tectonic compression"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The Himalayas did not form by the Indian plate separating from Africa.",
+        "Correct. They formed from convergence and collision of the Indian and Eurasian plates.",
+        "Incorrect. Volcanic island-arc construction is not the principal mechanism.",
+        "Incorrect. Alluvial deposition forms plains, not a compressional fold-and-thrust belt."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography of India; source/basis: NCERT, India: Physical Environment, structure and physiography; plate-tectonic account."
+    },
+    {
+      "id": "P2-B006-001",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Exponential distribution: memoryless property",
+      "difficulty": "standard",
+      "stem": "Let X be an exponentially distributed waiting time with rate λ > 0. Which identity expresses the memoryless property?",
+      "options": [
+        "P(X > s+t | X > s) = P(X > t)",
+        "P(X > s+t | X > s) = P(X > s)P(X > t) for every distribution",
+        "P(X > s+t) = P(X > s) + P(X > t)",
+        "P(X > s+t | X > s) = 0 for all positive s and t"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. After waiting s units without an event, the remaining waiting time has the original exponential distribution.",
+        "Incorrect. This is not the defining conditional identity and is not valid for arbitrary waiting-time distributions.",
+        "Incorrect. Survival probabilities do not add in this way.",
+        "Incorrect. The conditional probability is generally positive for finite s and t."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics; source/basis: Ross, A First Course in Probability; exponential distribution and memoryless property."
+    },
+    {
+      "id": "P2-B006-002",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Descriptive statistics: coefficient of variation",
+      "difficulty": "moderate",
+      "stem": "A data set has mean 40 units and standard deviation 8 units. What is its coefficient of variation?",
+      "options": [
+        "5%",
+        "20%",
+        "32%",
+        "48%"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Five percent misapplies the ratio.",
+        "Correct. CV=(standard deviation/mean)×100=(8/40)×100=20%.",
+        "Incorrect. 32 is not the percentage ratio.",
+        "Incorrect. 48 is the sum, not the coefficient of variation."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics; source/basis: OpenStax Introductory Statistics; coefficient of variation as relative dispersion."
+    },
+    {
+      "id": "P2-B006-003",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Probability density functions: median",
+      "difficulty": "advanced",
+      "stem": "A continuous random variable X has density f(x)=2x for 0≤x≤1 and zero elsewhere. What is its median?",
+      "options": [
+        "1/2",
+        "1/√2",
+        "√3/2",
+        "1"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. F(1/2)=1/4, below the required cumulative probability 1/2.",
+        "Correct. F(x)=x² on [0,1]; F(m)=1/2 gives m=1/√2.",
+        "Incorrect. F(√3/2)=3/4, not 1/2.",
+        "Incorrect. F(1)=1, so 1 is the upper endpoint, not the median."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics; source/basis: Ross, A First Course in Probability; CDF and median of a continuous random variable."
+    },
+    {
+      "id": "P2-B006-004",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Linear algebra: idempotent matrices",
+      "difficulty": "moderate",
+      "stem": "A square matrix A satisfies A² = A. Which statement must be true about every eigenvalue of A?",
+      "options": [
+        "Every eigenvalue is −1",
+        "Every eigenvalue is either 0 or 1",
+        "Every eigenvalue is strictly positive",
+        "The eigenvalues may be any real numbers"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. −1 does not satisfy λ²=λ.",
+        "Correct. For an eigenvalue λ, A²v=Av implies λ²=λ, so λ is 0 or 1.",
+        "Incorrect. Zero is permitted.",
+        "Incorrect. Every eigenvalue must satisfy λ(λ−1)=0."
+      ],
+      "basis": "Official Paper II syllabus: Set Theory & Algebra; Linear Algebra; source/basis: Strang, Introduction to Linear Algebra; eigenvalues of idempotent matrices."
+    },
+    {
+      "id": "P2-B006-005",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Linear algebra: consistency of linear systems",
+      "difficulty": "moderate",
+      "stem": "A system Ax=b has three unknowns. If rank(A)=rank([A|b])=2, which conclusion follows?",
+      "options": [
+        "The system has no solution",
+        "The system has exactly one solution",
+        "The system has infinitely many solutions",
+        "The system has exactly two solutions"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Equal ranks mean the system is consistent.",
+        "Incorrect. A unique solution for three unknowns requires rank 3.",
+        "Correct. The system is consistent and rank 2 is below the three unknowns, leaving a free variable.",
+        "Incorrect. Rank does not count solutions; a consistent underdetermined system has infinitely many."
+      ],
+      "basis": "Official Paper II syllabus: Set Theory & Algebra; Linear Algebra; source/basis: Lay, Linear Algebra and Its Applications; rank criterion for consistency and solutions."
+    },
+    {
+      "id": "P2-B006-006",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Lattices: meet and join",
+      "difficulty": "advanced",
+      "stem": "In the lattice formed by the power set P(S) ordered by set inclusion, what are the meet and join of two subsets A and B?",
+      "options": [
+        "Meet = A∪B; join = A∩B",
+        "Meet = A∩B; join = A∪B",
+        "Meet = A−B; join = B−A",
+        "Meet = A×B; join = A∪B"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This reverses the greatest lower bound and least upper bound.",
+        "Correct. The greatest lower bound is intersection; the least upper bound is union.",
+        "Incorrect. Set differences are not meet and join in this lattice.",
+        "Incorrect. Cartesian product is not the meet operation."
+      ],
+      "basis": "Official Paper II syllabus: Set Theory & Algebra; Linear Algebra; source/basis: Rosen, Discrete Mathematics and Its Applications; power-set lattice under inclusion."
+    },
+    {
+      "id": "P2-B006-007",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Graph theory: graph isomorphism",
+      "difficulty": "standard",
+      "stem": "Two finite simple graphs G and H are isomorphic when there is a bijection between their vertex sets that:",
+      "options": [
+        "Preserves adjacency between every pair of vertices",
+        "Preserves only the numerical labels assigned to vertices",
+        "Maps every edge of G to a vertex of H",
+        "Requires G and H to have identical drawings in the plane"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. A graph isomorphism is a bijection on vertices that preserves adjacency and non-adjacency.",
+        "Incorrect. Vertex labels are arbitrary and need not be preserved.",
+        "Incorrect. An isomorphism maps vertices to vertices and preserves the induced edge relation.",
+        "Incorrect. Isomorphic graphs may be drawn differently; geometry is irrelevant."
+      ],
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; source/basis: Rosen, Discrete Mathematics and Its Applications; graph isomorphism."
+    },
+    {
+      "id": "P2-B006-008",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Combinatorics: spanning trees of complete graphs",
+      "difficulty": "moderate",
+      "stem": "How many distinct spanning trees does the complete graph K4 contain?",
+      "options": [
+        "4",
+        "8",
+        "12",
+        "16"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Incorrect. Four is the number of vertices.",
+        "Incorrect. Eight is not Cayley's formula result for K4.",
+        "Incorrect. Twelve is not the count.",
+        "Correct. Cayley's formula gives n^(n−2); for K4 this is 4²=16."
+      ],
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; source/basis: Rosen, Discrete Mathematics and Its Applications; Cayley's formula."
+    },
+    {
+      "id": "P2-B006-009",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Graph theory: Hall's marriage theorem",
+      "difficulty": "advanced",
+      "stem": "For a bipartite graph with left vertex set L and right vertex set R, Hall's condition guarantees a matching that saturates every vertex of L when:",
+      "options": [
+        "Every vertex of L has degree exactly one",
+        "For every subset X of L, the neighbourhood N(X) has at least |X| vertices",
+        "The graph has the same number of edges and vertices",
+        "Every vertex of R is adjacent to every vertex of L"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. A saturating matching may exist even when left vertices have several neighbours.",
+        "Correct. Hall's theorem requires |N(X)|≥|X| for every subset X of L.",
+        "Incorrect. Total edge and vertex counts do not express Hall's condition.",
+        "Incorrect. Complete bipartite adjacency is sufficient in many cases but not necessary."
+      ],
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; source/basis: Hall's marriage theorem; Rosen, Discrete Mathematics and Its Applications."
+    },
+    {
+      "id": "P2-B006-010",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Graph theory: cut vertices",
+      "difficulty": "moderate",
+      "stem": "Which statement defines a cut vertex of a connected undirected graph?",
+      "options": [
+        "A vertex whose deletion, together with its incident edges, increases the number of connected components",
+        "A vertex whose degree is necessarily one",
+        "A vertex that belongs to every cycle in the graph",
+        "A vertex whose deletion always makes every remaining vertex isolated"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. A cut vertex is one whose removal increases the number of connected components.",
+        "Incorrect. A cut vertex need not have degree one.",
+        "Incorrect. A cut vertex need not lie on every cycle.",
+        "Incorrect. Removal need not isolate all remaining vertices."
+      ],
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; source/basis: Rosen, Discrete Mathematics and Its Applications; articulation points."
+    },
+    {
+      "id": "P2-B006-011",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Sequential circuits: Johnson counter",
+      "difficulty": "standard",
+      "stem": "A 4-bit Johnson counter is formed from a shift register with the complemented last output fed back to the first input. How many distinct states occur in its normal sequence before repeating?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "16"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Four is the number of flip-flops, not the sequence length.",
+        "Incorrect. Six is not the standard 2n state count.",
+        "Correct. An n-bit Johnson counter has 2n states; four flip-flops yield eight.",
+        "Incorrect. Sixteen is the unrestricted 4-bit binary-counter state count."
+      ],
+      "basis": "Official Paper II syllabus: Digital Logic; source/basis: Mano & Ciletti, Digital Design; Johnson counters."
+    },
+    {
+      "id": "P2-B006-012",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Sequential circuits: Moore and Mealy machines",
+      "difficulty": "moderate",
+      "stem": "Which statement correctly distinguishes a Moore finite-state machine from a Mealy finite-state machine?",
+      "options": [
+        "A Moore machine's output depends only on the present state; a Mealy machine's output depends on present state and input",
+        "A Moore machine has no state memory, whereas a Mealy machine always uses a stack",
+        "A Mealy machine's output depends only on the present state",
+        "A Moore machine can have only one state"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Moore outputs are state-dependent; Mealy outputs depend on current state and current input.",
+        "Incorrect. Both are finite-state machines with state memory; a stack belongs to pushdown automata.",
+        "Incorrect. This describes Moore-style dependence, not Mealy dependence.",
+        "Incorrect. Moore machines may contain multiple states."
+      ],
+      "basis": "Official Paper II syllabus: Digital Logic; source/basis: Mano & Ciletti, Digital Design; Moore and Mealy machines."
+    },
+    {
+      "id": "P2-B006-013",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Computer arithmetic: IEEE 754 single precision",
+      "difficulty": "moderate",
+      "stem": "In IEEE 754 binary32 (single-precision) floating-point representation, how many bits are allocated to the exponent field?",
+      "options": [
+        "7",
+        "8",
+        "11",
+        "23"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Seven is not the binary32 exponent width.",
+        "Correct. Binary32 uses 1 sign bit, 8 exponent bits and 23 fraction bits.",
+        "Incorrect. Eleven exponent bits are used in binary64.",
+        "Incorrect. Twenty-three bits are allocated to the fraction field."
+      ],
+      "basis": "Official Paper II syllabus: Digital Logic; source/basis: IEEE 754-2019, binary32 interchange format; standard computer arithmetic references."
+    },
+    {
+      "id": "P2-B006-014",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Computer organization: endianness",
+      "difficulty": "moderate",
+      "stem": "A 32-bit word is stored beginning at memory address 100. On a little-endian machine, which byte is stored at address 100?",
+      "options": [
+        "The most significant byte",
+        "The least significant byte",
+        "The sign bit only",
+        "The byte containing the parity bit, if any"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The most significant byte is stored at the highest address within the word in little-endian order.",
+        "Correct. Little-endian representation places the least significant byte at the lowest memory address.",
+        "Incorrect. A sign bit is a bit within the word, not a separate byte selected by endianness.",
+        "Incorrect. Endianness concerns byte order, not a parity byte."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; source/basis: Patterson & Hennessy, Computer Organization and Design; byte ordering."
+    },
+    {
+      "id": "P2-B006-015",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Cache memory: write-through policy",
+      "difficulty": "moderate",
+      "stem": "Under a write-through cache policy, what happens when the processor writes a value to a cache line?",
+      "options": [
+        "The cache is updated but main memory is never updated",
+        "The cache and the corresponding main-memory location are both updated on the write",
+        "The cache line is invalidated and no data is written",
+        "The write is always postponed until the cache line is evicted"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. That is closer to write-back behaviour.",
+        "Correct. Write-through propagates each write to the next memory level as well as updating the cache.",
+        "Incorrect. Invalidation is not the defining behaviour.",
+        "Incorrect. Deferring the update until eviction is characteristic of write-back."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; source/basis: Patterson & Hennessy, Computer Organization and Design; cache write policies."
+    },
+    {
+      "id": "P2-B006-016",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Instruction pipelining: ideal speedup",
+      "difficulty": "moderate",
+      "stem": "An ideal pipeline has k stages of equal delay and no stalls. For a long stream of instructions, what speedup does it approach relative to a non-pipelined implementation with the same stage delays?",
+      "options": [
+        "1/k",
+        "Approximately k",
+        "Approximately k²",
+        "It approaches zero as the instruction count grows"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Pipelining overlaps stages and does not slow steady-state throughput by k.",
+        "Correct. After filling, one instruction completes per clock; ideal throughput speedup approaches k.",
+        "Incorrect. The gain is linear in the number of balanced stages, not quadratic.",
+        "Incorrect. Throughput improves as the stream grows and fill/drain overhead becomes relatively small."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; source/basis: Patterson & Hennessy, Computer Organization and Design; ideal pipeline throughput."
+    },
+    {
+      "id": "P2-B006-017",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "I/O organization: vectored interrupts",
+      "difficulty": "moderate",
+      "stem": "In a vectored-interrupt system, what information does the interrupt vector typically provide?",
+      "options": [
+        "The physical address of the next free disk block",
+        "The address or index used to locate the appropriate interrupt service routine",
+        "The entire contents of the processor register file",
+        "The size of the main-memory address bus"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Disk allocation is a file-system function.",
+        "Correct. The vector identifies or points to the interrupt service routine for the interrupt source or type.",
+        "Incorrect. The processor saves context separately.",
+        "Incorrect. Address-bus width is unrelated to identifying the ISR."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; source/basis: Patterson & Hennessy, Computer Organization and Design; vectored interrupts."
+    },
+    {
+      "id": "P2-B006-018",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C programming: function pointers",
+      "difficulty": "moderate",
+      "stem": "In C, which declaration defines `fp` as a pointer to a function that accepts one `int` argument and returns an `int`?",
+      "options": [
+        "int *fp(int);",
+        "int (*fp)(int);",
+        "int (*fp(int))(void);",
+        "int fp*(int);"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This declares a function returning a pointer to int.",
+        "Correct. fp points to a function taking int and returning int.",
+        "Incorrect. This declares a function returning a pointer to another function.",
+        "Incorrect. This is not a valid declaration for the stated type."
+      ],
+      "basis": "Official Paper II syllabus: Programming and Data Structures; source/basis: ISO C draft N1570, declarators and function declarators."
+    },
+    {
+      "id": "P2-B006-019",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Data structures: linked-list cycle detection",
+      "difficulty": "moderate",
+      "stem": "Which method detects whether a singly linked list contains a cycle in O(n) time and O(1) auxiliary space?",
+      "options": [
+        "Sort the node values and check whether they are ordered",
+        "Use two pointers moving at different speeds and test whether they meet",
+        "Copy every node address into a hash set",
+        "Reverse the list repeatedly until the head becomes null"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Sorting values does not establish whether pointers form a cycle.",
+        "Correct. Floyd's tortoise-and-hare algorithm uses one-step and two-step pointers; they meet if a cycle exists.",
+        "Incorrect. A hash set needs O(n) auxiliary storage.",
+        "Incorrect. Repeated reversal is not a valid cycle-detection method."
+      ],
+      "basis": "Official Paper II syllabus: Programming and Data Structures; source/basis: CLRS, Introduction to Algorithms; Floyd cycle-finding algorithm."
+    },
+    {
+      "id": "P2-B006-020",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Trees: array representation",
+      "difficulty": "advanced",
+      "stem": "A complete binary tree is stored in a zero-based array. For the node at index 5, what are the indices of its left and right children?",
+      "options": [
+        "10 and 11",
+        "11 and 12",
+        "12 and 13",
+        "5 and 6"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. These do not follow the zero-based child-index formula for i=5.",
+        "Correct. Left child=2i+1 and right child=2i+2; for i=5 the indices are 11 and 12.",
+        "Incorrect. These indices misapply the formula.",
+        "Incorrect. These are not the child indices."
+      ],
+      "basis": "Official Paper II syllabus: Programming and Data Structures; source/basis: Standard data-structures texts; array representation of complete binary trees."
+    },
+    {
+      "id": "P2-B006-021",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C programming: pointer to const data",
+      "difficulty": "moderate",
+      "stem": "Given `const int *p = &x;`, which operation is permitted through p, assuming x is an ordinary int object?",
+      "options": [
+        "Assign a new value to `*p` through this pointer",
+        "Increment p so that it points to another compatible int object",
+        "Change the declared type of x at run time",
+        "Use `*p` as an lvalue to modify x"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The pointed-to int is const-qualified through p.",
+        "Correct. The pointer itself is not const-qualified; it may be incremented to another compatible int object.",
+        "Incorrect. C does not change an object's declared type at run time.",
+        "Incorrect. A const-qualified lvalue cannot be used through p to modify the stored int."
+      ],
+      "basis": "Official Paper II syllabus: Programming and Data Structures; source/basis: ISO C draft N1570, type qualifiers and pointer declarators."
+    },
+    {
+      "id": "P2-B006-022",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Sorting: counting sort",
+      "difficulty": "moderate",
+      "stem": "Counting sort is most suitable when the input consists of integer keys in a reasonably small range of size k. Its usual time complexity is:",
+      "options": [
+        "Θ(n log n) regardless of k",
+        "Θ(n + k)",
+        "Θ(k log n)",
+        "Θ(n²)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Counting sort is not comparison-based and can run in linear time in n plus key range.",
+        "Correct. Counting sort counts occurrences and computes positions in O(n+k) time.",
+        "Incorrect. The standard algorithm is not Θ(k log n).",
+        "Incorrect. Quadratic time is not its usual complexity."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; source/basis: CLRS, Introduction to Algorithms; counting sort."
+    },
+    {
+      "id": "P2-B006-023",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Disjoint-set union: path compression",
+      "difficulty": "moderate",
+      "stem": "In a disjoint-set union structure, what is the purpose of path compression during FIND?",
+      "options": [
+        "To make every set contain exactly two elements",
+        "To make nodes on the traversed path point directly to the representative, shortening future searches",
+        "To sort all elements in increasing order",
+        "To split a set whenever two elements are found to be equal"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Path compression does not impose a fixed set size.",
+        "Correct. FIND redirects visited nodes toward the representative, reducing future traversal depth.",
+        "Incorrect. Disjoint-set union maintains partitions, not sorted sequences.",
+        "Incorrect. Equality does not split a disjoint set."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; source/basis: CLRS, Introduction to Algorithms; disjoint-set forests with path compression."
+    },
+    {
+      "id": "P2-B006-024",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Dynamic programming: weighted interval scheduling",
+      "difficulty": "moderate",
+      "stem": "In weighted interval scheduling, let p(j) be the rightmost activity compatible with activity j and let vj be its value. Which recurrence gives the optimal value for the first j activities?",
+      "options": [
+        "OPT(j)=OPT(j−1)+vj for every j",
+        "OPT(j)=max(vj+OPT(p(j)), OPT(j−1))",
+        "OPT(j)=min(vj+OPT(p(j)), OPT(j−1))",
+        "OPT(j)=vj×OPT(p(j))"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Adding every activity ignores conflicts between overlapping activities.",
+        "Correct. The recurrence compares taking activity j plus the best compatible prefix with skipping activity j.",
+        "Incorrect. The objective is to maximise total value, not minimise it.",
+        "Incorrect. Values are added, not multiplied, and take/skip alternatives are compared."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; source/basis: CLRS, Introduction to Algorithms; weighted interval scheduling recurrence."
+    },
+    {
+      "id": "P2-B006-025",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Heuristic search: admissibility",
+      "difficulty": "advanced",
+      "stem": "For an optimal A* search using path cost g(n) and heuristic h(n), an admissible heuristic is one that:",
+      "options": [
+        "Never overestimates the true minimum remaining cost to a goal",
+        "Always equals the exact remaining cost for every node",
+        "Is negative for every non-goal node",
+        "Depends only on the number of nodes already expanded"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Admissibility means h(n) is a lower bound on the true optimal cost-to-go.",
+        "Incorrect. Exact knowledge is stronger than necessary; an admissible heuristic may underestimate.",
+        "Incorrect. Being negative everywhere is not the defining condition.",
+        "Incorrect. A heuristic estimates remaining solution cost, not expanded-node count."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; source/basis: Russell & Norvig, Artificial Intelligence: A Modern Approach; admissible heuristics and A*."
+    },
+    {
+      "id": "P2-B006-026",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Context-free languages: closure properties",
+      "difficulty": "moderate",
+      "stem": "Which operation is a context-free language class not closed under in general?",
+      "options": [
+        "Union",
+        "Concatenation",
+        "Kleene star",
+        "Intersection"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Incorrect. Context-free languages are closed under union.",
+        "Incorrect. They are closed under concatenation.",
+        "Incorrect. They are closed under Kleene star.",
+        "Correct. They are not closed under intersection in general, although intersection with a regular language is context-free."
+      ],
+      "basis": "Official Paper II syllabus: Theory of Computation; source/basis: Sipser, Introduction to the Theory of Computation; CFL closure properties."
+    },
+    {
+      "id": "P2-B006-027",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Grammars: Chomsky normal form",
+      "difficulty": "advanced",
+      "stem": "Which production forms are permitted in Chomsky Normal Form for a context-free grammar, apart from the optional start-symbol production S → ε?",
+      "options": [
+        "A → BCD or A → ab",
+        "A → BC or A → a",
+        "A → aB or A → ε for every nonterminal",
+        "A → B* or A → a+b"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Three nonterminals or two terminals on the right side are not CNF forms.",
+        "Correct. CNF productions have either two nonterminals or one terminal, with the optional S→ε exception.",
+        "Incorrect. These are not the defining CNF forms.",
+        "Incorrect. Regular-expression operators are not CNF production syntax."
+      ],
+      "basis": "Official Paper II syllabus: Theory of Computation; source/basis: Sipser, Introduction to the Theory of Computation; Chomsky normal form."
+    },
+    {
+      "id": "P2-B006-028",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Turing machines: universal machine",
+      "difficulty": "standard",
+      "stem": "What is the defining capability of a universal Turing machine?",
+      "options": [
+        "It decides every undecidable language",
+        "It simulates the computation of any encoded Turing machine on an encoded input",
+        "It accepts only regular languages",
+        "It always halts after a fixed number of steps"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. A universal machine can simulate machines that do not halt; it cannot decide every undecidable language.",
+        "Correct. It takes an encoding of a machine and input, then simulates that machine on that input.",
+        "Incorrect. Its computational capability is not limited to regular languages.",
+        "Incorrect. Simulation may continue indefinitely if the simulated machine does not halt."
+      ],
+      "basis": "Official Paper II syllabus: Theory of Computation; source/basis: Sipser, Introduction to the Theory of Computation; universal Turing machines."
+    },
+    {
+      "id": "P2-B006-029",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Decidability: closure under complement",
+      "difficulty": "advanced",
+      "stem": "If a language L is decidable, which statement must also be true?",
+      "options": [
+        "Its complement is undecidable",
+        "Its complement is decidable by a machine that swaps accept and reject outcomes",
+        "Its complement must be regular",
+        "Its complement can only be recognised by a nondeterministic finite automaton"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Decidable languages are closed under complement.",
+        "Correct. A decider for L halts on every input; swapping accept and reject gives a decider for the complement.",
+        "Incorrect. Decidability does not imply regularity.",
+        "Incorrect. A complement need not be regular or restricted to finite automata."
+      ],
+      "basis": "Official Paper II syllabus: Theory of Computation; source/basis: Sipser, Introduction to the Theory of Computation; decidability and complement."
+    },
+    {
+      "id": "P2-B006-030",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Code generation: backpatching",
+      "difficulty": "moderate",
+      "stem": "In intermediate-code generation, backpatching is used primarily to:",
+      "options": [
+        "Replace every variable with a machine register before parsing",
+        "Fill in unresolved jump targets once the target instruction addresses become known",
+        "Remove all branches from the control-flow graph",
+        "Convert every arithmetic expression directly into machine code"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Register allocation is a separate task.",
+        "Correct. Backpatching records incomplete branch targets and fills them when target locations are known.",
+        "Incorrect. It resolves branches; it does not eliminate them.",
+        "Incorrect. It is an intermediate-code technique, not direct translation of every expression."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; source/basis: Aho, Lam, Sethi & Ullman, Compilers: Principles, Techniques, and Tools; backpatching."
+    },
+    {
+      "id": "P2-B006-031",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Runtime environments: activation records",
+      "difficulty": "moderate",
+      "stem": "Which item is normally stored in a procedure's activation record (stack frame) to support return to the caller?",
+      "options": [
+        "The source program's complete symbol table",
+        "A return address",
+        "The complete executable file",
+        "The operating system's entire page table"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. A symbol table is compile-time metadata, not copied wholesale into each call frame.",
+        "Correct. The return address identifies where execution resumes after the procedure returns.",
+        "Incorrect. The executable file is not stored in each activation record.",
+        "Incorrect. The process page table is an OS memory structure, not a per-call field."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; source/basis: Aho et al., Compilers: Principles, Techniques, and Tools; activation records."
+    },
+    {
+      "id": "P2-B006-032",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Code optimization: peephole optimization",
+      "difficulty": "standard",
+      "stem": "Peephole optimization examines:",
+      "options": [
+        "The entire source repository and rewrites its architecture",
+        "A small window of consecutive target or intermediate instructions for local improvements",
+        "Only the names of variables in the symbol table",
+        "Only the first and last instructions of a program"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Repository-wide architectural redesign is outside its scope.",
+        "Correct. It inspects a short instruction sequence and replaces inefficient patterns with equivalent, more efficient ones.",
+        "Incorrect. Symbol-table naming is not the focus.",
+        "Incorrect. It is not restricted to the first and last instructions."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; source/basis: Aho et al., Compilers: Principles, Techniques, and Tools; peephole optimization."
+    },
+    {
+      "id": "P2-B006-033",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Disk scheduling: SSTF",
+      "difficulty": "moderate",
+      "stem": "Under the Shortest Seek Time First (SSTF) disk-scheduling policy, the next request selected is the one:",
+      "options": [
+        "With the earliest arrival time, regardless of head position",
+        "At the smallest seek distance from the current disk-head position",
+        "With the largest cylinder number",
+        "Requested by the process with the highest CPU priority"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Earliest-arrival ordering describes FCFS.",
+        "Correct. SSTF selects the pending request requiring the least head movement.",
+        "Incorrect. SSTF does not always select the highest-numbered cylinder.",
+        "Incorrect. CPU process priority is not the SSTF rule."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; source/basis: Silberschatz, Galvin & Gagne, Operating System Concepts; disk scheduling."
+    },
+    {
+      "id": "P2-B006-034",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Operating systems: system calls",
+      "difficulty": "advanced",
+      "stem": "When a user program invokes a conventional system call, the processor typically:",
+      "options": [
+        "Continues executing the service entirely in user mode without entering the kernel",
+        "Transfers control to a kernel entry point through a controlled trap or system-call mechanism",
+        "Reboots the machine to load the requested service",
+        "Switches the process permanently into a device driver"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. A system call requests a privileged OS service and normally enters kernel mode.",
+        "Correct. The mechanism transfers control to a protected kernel entry point so the OS can validate and perform the service.",
+        "Incorrect. A system call does not reboot the computer.",
+        "Incorrect. The process does not become a device driver."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; source/basis: Silberschatz, Galvin & Gagne, Operating System Concepts; system-call interface."
+    },
+    {
+      "id": "P2-B006-035",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Concurrency: priority inversion",
+      "difficulty": "moderate",
+      "stem": "A low-priority task holds a lock needed by a high-priority task, while medium-priority tasks repeatedly pre-empt the low-priority task. Which protocol can mitigate this priority inversion?",
+      "options": [
+        "Priority inheritance",
+        "Round-robin time slicing only",
+        "Demand paging",
+        "First-fit memory allocation"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Priority inheritance temporarily raises the lock holder's priority so it can release the needed resource.",
+        "Incorrect. Round-robin alone does not resolve the lock dependency.",
+        "Incorrect. Demand paging is a virtual-memory technique.",
+        "Incorrect. First-fit is a memory-allocation strategy."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; source/basis: Silberschatz, Galvin & Gagne, Operating System Concepts; priority inheritance."
+    },
+    {
+      "id": "P2-B006-036",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Disk scheduling: SCAN algorithm",
+      "difficulty": "moderate",
+      "stem": "In the SCAN disk-scheduling algorithm, the disk head:",
+      "options": [
+        "Moves in one direction servicing requests along the way, reaches an end, and then reverses direction",
+        "Always services the request with the shortest seek distance and never reverses systematically",
+        "Services only requests at the outermost cylinder",
+        "Returns to cylinder zero after every request"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. SCAN sweeps across the disk in one direction, servicing requests, then reverses at the end of the sweep.",
+        "Incorrect. Selecting the shortest seek distance is SSTF.",
+        "Incorrect. SCAN services requests across cylinders.",
+        "Incorrect. Returning to zero after every request is not SCAN."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; source/basis: Silberschatz, Galvin & Gagne, Operating System Concepts; SCAN/elevator scheduling."
+    },
+    {
+      "id": "P2-B006-037",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Database concurrency: phantom reads",
+      "difficulty": "moderate",
+      "stem": "Transaction T1 executes the same range query twice. Between executions, T2 inserts and commits a row that satisfies the range predicate. T1 sees the new row on its second execution. This phenomenon is:",
+      "options": [
+        "Dirty read",
+        "Phantom read",
+        "Lost update",
+        "Write skew"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. A dirty read involves reading uncommitted data.",
+        "Correct. A phantom read occurs when repeating a predicate query returns a different row set due to a concurrent qualifying insert or delete.",
+        "Incorrect. A lost update occurs when concurrent writes overwrite one another.",
+        "Incorrect. Write skew is a different anomaly involving concurrent writes and a violated constraint."
+      ],
+      "basis": "Official Paper II syllabus: Databases; source/basis: Silberschatz, Korth & Sudarshan, Database System Concepts; isolation phenomena."
+    },
+    {
+      "id": "P2-B006-038",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Database indexing: composite index",
+      "difficulty": "advanced",
+      "stem": "A B-tree index is built on columns `(department_id, salary)` in that order. Which query can generally exploit the leftmost-prefix property without a separate index on another column?",
+      "options": [
+        "WHERE salary = 50000 only",
+        "WHERE department_id = 12",
+        "WHERE employee_name = 'Ravi'",
+        "WHERE hire_date > '2025-01-01'"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. A predicate on only the second column generally cannot use the leading prefix as effectively.",
+        "Correct. The index begins with department_id, so a predicate on that leading column can use the composite index.",
+        "Incorrect. employee_name is not part of the index.",
+        "Incorrect. hire_date is not part of the index."
+      ],
+      "basis": "Official Paper II syllabus: Databases; source/basis: Silberschatz, Korth & Sudarshan, Database System Concepts; composite B-tree indexes."
+    },
+    {
+      "id": "P2-B006-039",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Database indexing: covering index",
+      "difficulty": "standard",
+      "stem": "A database index is called a covering index for a particular query when:",
+      "options": [
+        "It contains every table in the database",
+        "It contains all columns needed by the query, allowing the engine to answer without fetching additional columns from the base table",
+        "It automatically encrypts all indexed values",
+        "It guarantees that the query returns every row in the table"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. A covering index concerns columns required by a query, not the number of tables.",
+        "Correct. If the index contains all columns required for filtering and output, the query can be satisfied from the index alone.",
+        "Incorrect. Encryption is not its defining property.",
+        "Incorrect. A covering index does not change the query's logical result set."
+      ],
+      "basis": "Official Paper II syllabus: Databases; source/basis: Silberschatz, Korth & Sudarshan, Database System Concepts; index-only access."
+    },
+    {
+      "id": "P2-B006-040",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "SQL: ON DELETE CASCADE",
+      "difficulty": "advanced",
+      "stem": "Table Employee has a foreign key `department_id` referencing Department(id) with `ON DELETE CASCADE`. What happens when a referenced Department row is deleted?",
+      "options": [
+        "The deletion is rejected in every case",
+        "All Employee rows referencing that Department are automatically deleted",
+        "Only the department_id values are changed to zero",
+        "The Employee table definition is dropped"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. ON DELETE CASCADE propagates deletion to referencing rows.",
+        "Correct. Referencing Employee rows are deleted automatically when the Department row is deleted.",
+        "Incorrect. Cascading deletion removes dependent rows; it does not rewrite the key to zero.",
+        "Incorrect. The table definition remains."
+      ],
+      "basis": "Official Paper II syllabus: Databases; source/basis: Silberschatz, Korth & Sudarshan, Database System Concepts; SQL referential actions."
+    },
+    {
+      "id": "P2-B006-041",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Project management: PERT expected time",
+      "difficulty": "moderate",
+      "stem": "In PERT, an activity has optimistic time a=2 days, most likely time m=5 days and pessimistic time b=8 days. What is its expected duration using (a+4m+b)/6?",
+      "options": [
+        "4 days",
+        "5 days",
+        "6 days",
+        "7 days"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Four days is below the weighted estimate.",
+        "Correct. (2+4×5+8)/6=30/6=5 days.",
+        "Incorrect. Six days is not the weighted average.",
+        "Incorrect. Seven days overweights the pessimistic estimate."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering; source/basis: Pressman & Maxim, Software Engineering; PERT three-point estimate."
+    },
+    {
+      "id": "P2-B006-042",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Project management: critical path",
+      "difficulty": "advanced",
+      "stem": "In a project network, which path determines the minimum possible project completion time under the Critical Path Method (CPM)?",
+      "options": [
+        "The path with the fewest activities",
+        "The path with the greatest total duration",
+        "The path containing the least expensive activities",
+        "The path with the largest number of parallel branches"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. The fewest activities need not have the longest duration.",
+        "Correct. The critical path is the longest-duration path through the network and determines earliest project completion.",
+        "Incorrect. Direct cost does not define the critical path in basic CPM.",
+        "Incorrect. The number of parallel branches does not determine duration."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering; source/basis: Pressman & Maxim, Software Engineering; Critical Path Method."
+    },
+    {
+      "id": "P2-B006-043",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Requirements engineering: traceability matrix",
+      "difficulty": "standard",
+      "stem": "What is the primary purpose of a requirements traceability matrix?",
+      "options": [
+        "To record only the salary and availability of project staff",
+        "To link each requirement to related design elements, implementation components and verification tests",
+        "To replace all test cases with a single acceptance test",
+        "To calculate physical memory addresses of program variables"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Staff records are not requirements traceability.",
+        "Correct. Traceability links requirements across lifecycle artefacts and helps verify each requirement is implemented and tested.",
+        "Incorrect. It supports test coverage; it does not eliminate detailed test cases.",
+        "Incorrect. Memory-address calculation is unrelated."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering; source/basis: Pressman & Maxim, Software Engineering; requirements traceability."
+    },
+    {
+      "id": "P2-B006-044",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "UML: sequence diagrams",
+      "difficulty": "advanced",
+      "stem": "A UML sequence diagram is most directly used to model:",
+      "options": [
+        "The static inheritance hierarchy of classes",
+        "The time-ordered messages exchanged between lifelines or objects in an interaction",
+        "The physical layout of servers in a data centre",
+        "The distribution of database records across storage blocks"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Class diagrams model static class structure and inheritance.",
+        "Correct. A sequence diagram shows messages ordered along a time axis between lifelines.",
+        "Incorrect. Deployment diagrams model physical deployment topology.",
+        "Incorrect. Database storage layout is not the purpose."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering; source/basis: OMG UML 2.5.1 Specification; interaction and sequence diagrams."
+    },
+    {
+      "id": "P2-B006-045",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "IPv4 fragmentation: fragment offset",
+      "difficulty": "moderate",
+      "stem": "In IPv4, the Fragment Offset field expresses the fragment's position in the original datagram in units of:",
+      "options": [
+        "1 byte",
+        "4 bytes",
+        "8 bytes",
+        "16 bytes"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. The offset is not in single-byte units.",
+        "Incorrect. Four-byte units are not specified.",
+        "Correct. IPv4 encodes fragment offset in 8-byte units.",
+        "Incorrect. Sixteen-byte units do not match RFC 791."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; source/basis: IETF RFC 791, Internet Protocol: https://www.rfc-editor.org/rfc/rfc791"
+    },
+    {
+      "id": "P2-B006-046",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "DNS: MX records",
+      "difficulty": "advanced",
+      "stem": "Which DNS resource-record type identifies the mail-exchange host responsible for receiving email for a domain?",
+      "options": [
+        "A",
+        "CNAME",
+        "MX",
+        "PTR"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. A maps a host name to an IPv4 address.",
+        "Incorrect. CNAME identifies an alias.",
+        "Correct. MX identifies the mail exchanger and may include a preference value.",
+        "Incorrect. PTR is used for reverse mapping."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; source/basis: IETF RFC 1035, Domain Names: https://www.rfc-editor.org/rfc/rfc1035"
+    },
+    {
+      "id": "P2-B006-047",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Cryptography: Diffie–Hellman key exchange",
+      "difficulty": "standard",
+      "stem": "What is the principal purpose of the Diffie–Hellman key-exchange method?",
+      "options": [
+        "To create a shared secret over a public channel without sending the secret itself",
+        "To encrypt a message using the recipient's public key and decrypt it with the private key",
+        "To produce a collision-free cryptographic hash of any file",
+        "To generate a digital signature using only a symmetric key"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Diffie–Hellman lets parties derive a common secret over a public channel; authentication must be added separately.",
+        "Incorrect. That describes public-key encryption, not the key-agreement purpose.",
+        "Incorrect. Hash functions are a different primitive and cannot guarantee collision freedom for arbitrary-length inputs.",
+        "Incorrect. Digital signatures use asymmetric signing and verification keys."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; source/basis: Diffie & Hellman, New Directions in Cryptography (1976); standard cryptography texts."
+    },
+    {
+      "id": "P2-B006-048",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Data-link protocols: Go-Back-N ARQ",
+      "difficulty": "advanced",
+      "stem": "In Go-Back-N ARQ, when the receiver expects frame 5 but receives frame 7, which behaviour is normally used?",
+      "options": [
+        "Accept frame 7 and deliver it immediately while buffering all missing frames",
+        "Discard the out-of-order frame and continue acknowledging the last correctly received in-order frame",
+        "Send a separate acknowledgement for every bit in frame 7",
+        "Terminate the link permanently"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Buffering and selectively accepting out-of-order frames is associated more closely with Selective Repeat.",
+        "Correct. Go-Back-N normally accepts only the next expected frame, discards out-of-order frames and repeats the cumulative acknowledgement.",
+        "Incorrect. ARQ acknowledgements operate on frames or sequence numbers, not individual bits.",
+        "Incorrect. An out-of-order frame does not normally terminate the link."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; source/basis: Kurose & Ross, Computer Networking: A Top-Down Approach; Go-Back-N."
+    },
+    {
+      "id": "P2-B006-049",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "JavaScript: event propagation",
+      "difficulty": "moderate",
+      "stem": "In the DOM event-bubbling model, after an event is handled at its target element, the event normally propagates:",
+      "options": [
+        "From the document root down to the target only",
+        "From the target element upward through its ancestors",
+        "Only to sibling elements at the same depth",
+        "Directly to the browser's network stack"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Root-to-target propagation is the capturing phase.",
+        "Correct. During bubbling, the event travels from the target through ancestor elements toward the document.",
+        "Incorrect. Bubbling follows the ancestor chain, not siblings.",
+        "Incorrect. DOM event propagation is not part of the network stack."
+      ],
+      "basis": "Official Paper II syllabus: Web Technologies; source/basis: WHATWG DOM Standard, event dispatch and bubbling: https://dom.spec.whatwg.org/"
+    },
+    {
+      "id": "P2-B006-050",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "PHP: superglobal arrays",
+      "difficulty": "advanced",
+      "stem": "In PHP, which superglobal array normally contains form fields submitted using the HTTP POST method with standard form encoding?",
+      "options": [
+        "$_GET",
+        "$_POST",
+        "$_SERVER",
+        "$_COOKIE"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. $_GET contains query-string parameters.",
+        "Correct. $_POST contains form data submitted in the request body using POST form encodings.",
+        "Incorrect. $_SERVER contains server/request environment information.",
+        "Incorrect. $_COOKIE contains cookie values."
+      ],
+      "basis": "Official Paper II syllabus: Web Technologies; source/basis: PHP Manual, predefined POST variables: https://www.php.net/manual/en/reserved.variables.post.php"
+    },
+    {
+      "id": "P2-B006-051",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "JSP: implicit objects",
+      "difficulty": "standard",
+      "stem": "In a JSP page, which implicit object provides a writer for sending character output to the response?",
+      "options": [
+        "out",
+        "config",
+        "application",
+        "pageContext only"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The implicit object out is a JspWriter used to write character output to the response.",
+        "Incorrect. config provides servlet configuration information.",
+        "Incorrect. application represents the ServletContext.",
+        "Incorrect. pageContext provides access to context and other objects; the direct writer is out."
+      ],
+      "basis": "Official Paper II syllabus: Web Technologies; source/basis: Jakarta Server Pages Specification; JSP implicit objects and JspWriter."
+    },
+    {
+      "id": "P2-B006-052",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "XML: CDATA sections",
+      "difficulty": "advanced",
+      "stem": "What is the purpose of a CDATA section in XML?",
+      "options": [
+        "To declare an external DTD that validates every attribute",
+        "To include character data containing markup characters without having them parsed as markup",
+        "To define a namespace prefix for every element",
+        "To encrypt the contents of an XML document"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. DTD declarations are separate markup declarations.",
+        "Correct. CDATA tells the parser to treat contents as character data rather than markup, except the terminator `]]>`.",
+        "Incorrect. Namespace declarations use xmlns attributes.",
+        "Incorrect. CDATA provides no encryption."
+      ],
+      "basis": "Official Paper II syllabus: Web Technologies; source/basis: W3C XML 1.0 Recommendation, CDATA sections: https://www.w3.org/TR/xml/"
+    },
+    {
+      "id": "P2-B006-053",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "Java generics: invariance",
+      "difficulty": "moderate",
+      "stem": "Given `class NumberBox<T> { }`, why is a value of type `NumberBox<Integer>` not assignable to a variable of type `NumberBox<Number>` in Java?",
+      "options": [
+        "Java generic classes are invariant unless a wildcard or suitable type parameter relationship is declared",
+        "Integer is not a subtype of Number",
+        "All generic type arguments are converted to Object at run time and therefore assignments are prohibited",
+        "NumberBox cannot be instantiated with wrapper classes"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Java generic types are invariant; NumberBox<Integer> is not a subtype of NumberBox<Number>.",
+        "Incorrect. Integer is a subtype of Number; the restriction arises from invariance.",
+        "Incorrect. Type erasure does not prohibit all assignments; generic compatibility rules do.",
+        "Incorrect. Generic classes can be instantiated with wrapper types."
+      ],
+      "basis": "Official Paper II syllabus: OOPS Concepts, Programming in C++ and JAVA; source/basis: Java Language Specification, §4.5 and §4.10.2: https://docs.oracle.com/javase/specs/jls/se21/html/jls-4.html"
+    },
+    {
+      "id": "P2-B006-054",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "Java: equals and hashCode contract",
+      "difficulty": "advanced",
+      "stem": "Which statement is required by the Java Object contract for equals() and hashCode()?",
+      "options": [
+        "If two objects are equal according to equals(), they must have the same hashCode()",
+        "If two objects have the same hashCode(), they must be equal",
+        "hashCode() must return a unique value for every object",
+        "equals() must always compare object memory addresses only"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Equal objects must produce the same hash code, or hash-based collections may behave inconsistently.",
+        "Incorrect. Hash collisions are permitted.",
+        "Incorrect. The finite hash-code range cannot guarantee uniqueness.",
+        "Incorrect. equals() may implement logical equality, not only reference identity."
+      ],
+      "basis": "Official Paper II syllabus: OOPS Concepts, Programming in C++ and JAVA; source/basis: Java SE 21 API, Object.equals and hashCode contracts: https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html"
+    },
+    {
+      "id": "P2-B006-055",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "C++: pure virtual functions",
+      "difficulty": "standard",
+      "stem": "In C++, a class that declares at least one pure virtual function is:",
+      "options": [
+        "Always a concrete class that can be instantiated directly",
+        "An abstract class that cannot be instantiated directly",
+        "A namespace with no data members",
+        "A template that must have exactly two type parameters"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. A class with an unimplemented pure virtual function is abstract.",
+        "Correct. A pure virtual function is declared using =0; the abstract class cannot be instantiated directly.",
+        "Incorrect. Abstractness does not turn a class into a namespace.",
+        "Incorrect. Pure virtual functions do not determine template arity."
+      ],
+      "basis": "Official Paper II syllabus: OOPS Concepts, Programming in C++ and JAVA; source/basis: ISO C++ draft standard; abstract classes and pure virtual functions."
+    },
+    {
+      "id": "P2-B006-056",
+      "paper": 2,
+      "topicId": "p2-16",
+      "topic": "Data Mining",
+      "subtopic": "Association rules: Apriori property",
+      "difficulty": "moderate",
+      "stem": "Which property allows the Apriori algorithm to prune a candidate itemset before counting its support?",
+      "options": [
+        "Every non-empty subset of a frequent itemset must also be frequent",
+        "Every superset of an infrequent itemset must be frequent",
+        "Support must increase whenever an item is added to an itemset",
+        "Confidence of every rule must equal its support"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Apriori downward closure says every non-empty subset of a frequent itemset is frequent; a candidate with an infrequent subset can be pruned.",
+        "Incorrect. A superset of an infrequent itemset cannot be frequent.",
+        "Incorrect. Support can only stay the same or decrease when items are added.",
+        "Incorrect. Confidence and support have different denominators."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; source/basis: Han, Kamber & Pei, Data Mining: Concepts and Techniques; Apriori principle."
+    },
+    {
+      "id": "P2-B006-057",
+      "paper": 2,
+      "topicId": "p2-16",
+      "topic": "Data Mining",
+      "subtopic": "Classification: precision and recall",
+      "difficulty": "advanced",
+      "stem": "A classifier produces TP=36, FP=12 and FN=9. What are its precision and recall, respectively?",
+      "options": [
+        "75% and 80%",
+        "80% and 75%",
+        "80% and 90%",
+        "90% and 80%"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Precision=36/(36+12)=75%; recall=36/(36+9)=80%.",
+        "Incorrect. This reverses the computed values.",
+        "Incorrect. Neither metric is 90%.",
+        "Incorrect. The counts do not produce these values."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; source/basis: Han, Kamber & Pei, Data Mining: Concepts and Techniques; confusion matrix, precision and recall."
+    },
+    {
+      "id": "P2-B006-058",
+      "paper": 2,
+      "topicId": "p2-16",
+      "topic": "Data Mining",
+      "subtopic": "Ensemble learning: random forests",
+      "difficulty": "standard",
+      "stem": "Which combination best describes the usual construction of a random forest?",
+      "options": [
+        "A single decision tree trained on the entire data set with no feature selection",
+        "Many decision trees trained using bootstrap samples and random subsets of features",
+        "A collection of linear regressions combined by taking their median",
+        "A single neural network trained with a fixed feature order"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. That describes a single tree.",
+        "Correct. Random forests combine many trees, commonly using bootstrap samples and random feature subsets at split selection.",
+        "Incorrect. Random forests are tree ensembles, not linear-regression ensembles.",
+        "Incorrect. A random forest is not a single neural network."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; source/basis: Breiman, Random Forests (2001); Han, Kamber & Pei, Data Mining: Concepts and Techniques."
+    },
+    {
+      "id": "P2-B006-059",
+      "paper": 2,
+      "topicId": "p2-16",
+      "topic": "Data Mining",
+      "subtopic": "Clustering: single-link hierarchical method",
+      "difficulty": "advanced",
+      "stem": "In agglomerative hierarchical clustering using single-link distance, the distance between two clusters is defined as:",
+      "options": [
+        "The maximum distance between any pair of points from the two clusters",
+        "The minimum distance between any pair of points from the two clusters",
+        "The distance between the two cluster centroids only",
+        "The average of all within-cluster distances"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Maximum pairwise distance defines complete-link.",
+        "Correct. Single-link distance is the minimum pairwise distance between points in different clusters.",
+        "Incorrect. Centroid distance is a separate linkage method.",
+        "Incorrect. Average-link uses average cross-cluster distance."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; source/basis: Han, Kamber & Pei, Data Mining: Concepts and Techniques; hierarchical clustering."
+    },
+    {
+      "id": "P2-B006-060",
+      "paper": 2,
+      "topicId": "p2-16",
+      "topic": "Data Mining",
+      "subtopic": "Clustering: K-means objective",
+      "difficulty": "moderate",
+      "stem": "In standard K-means clustering, which objective is minimised during iterative assignment and centroid-update steps?",
+      "options": [
+        "The total number of clusters multiplied by the largest cluster size",
+        "The within-cluster sum of squared Euclidean distances from points to their assigned centroids",
+        "The number of features in the data set",
+        "The maximum pairwise distance between any two observations in the entire data set"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Cluster count and largest cluster size are not the K-means objective.",
+        "Correct. K-means minimises the within-cluster sum of squared distances to assigned centroids.",
+        "Incorrect. Feature count is a property of the data, not the objective.",
+        "Incorrect. Maximum pairwise distance is not the standard K-means objective."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; source/basis: Han, Kamber & Pei, Data Mining: Concepts and Techniques; K-means objective."
     }
   ],
-  "qualityNote": "Batch 001 added after structural validation, answer-index/option consistency checks, exact-stem comparison against the existing bank, and one duplicate-concept replacement. Batch 001 contributes 40 Paper I and 60 Paper II questions. Semantic overlap beyond flagged exact matches still requires subject-matter review; browser end-to-end testing and production deployment must be verified separately. Current bank snapshot verified on 2026-11-07: 514 questions (198 Paper I, 316 Paper II). The bulk importer is available at batch-import.html; it validates JSON batches and exports a merged file, while semantic duplicate review and GitHub commit remain manual.",
+  "qualityNote": "Batch 001 added after structural validation, answer-index/option consistency checks, exact-stem comparison against the existing bank, and one duplicate-concept replacement. Batch 001 contributes 40 Paper I and 60 Paper II questions. Semantic overlap beyond flagged exact matches still requires subject-matter review; browser end-to-end testing and production deployment must be verified separately. Current bank snapshot verified on 2026-11-07: 514 questions (198 Paper I, 316 Paper II). The bulk importer is available at batch-import.html; it validates JSON batches and exports a merged file, while semantic duplicate review and GitHub commit remain manual. Batch 006 adds 100 original questions (40 Paper I, 60 Paper II) after full-bank and prior Batch 004 duplicate review, answer-key/calculation checks, and schema validation. Current bank snapshot verified 2026-11-07: 781 questions (309 Paper I, 472 Paper II).",
   "requirement": {
     "targetTotal": 3500,
     "targetPaper2": 2000,
     "targetPaper1": 1500,
-    "currentTotal": 681,
-    "currentPaper2": 412,
-    "currentPaper1": 269,
+    "currentTotal": 781,
+    "currentPaper2": 472,
+    "currentPaper1": 309,
     "status": "in_progress",
     "qualityGate": "Every added question must have a unique ID, official syllabus mapping, four options, a verified answer index, four option-specific explanations, and a difficulty label."
   }
