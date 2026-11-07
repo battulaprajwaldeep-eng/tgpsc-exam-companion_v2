@@ -2,6 +2,7 @@
    Loads after index.html so it can use the app's existing local state and question bank. */
 s.schemaVersion=3;
 s.studiedTopics=s.studiedTopics||[];
+s.studiedSubtopics=s.studiedSubtopics||[];
 s.studyLogs=s.studyLogs||[];
 
 function trackerTopicId(paper,index){return (paper===2?"p2-":"p1-")+String(index+1).padStart(2,"0")}
@@ -56,6 +57,7 @@ function syllabusView(){
   $("paper1List").innerHTML=gs.map((title,i)=>trackerTopicRow(trackerTopicId(1,i),title)).join("");
   populateStudyLog();
   renderStudyLog();
+  renderPaper2Subtopics();
 }
 function trackerTopicRow(id,title){
   const e=trackerTopicEvidence(id);
@@ -145,4 +147,30 @@ function selectBalanced(pool,count){
     chosen.push(q);topicCounts.set(id,(topicCounts.get(id)||0)+1);
   }
   return chosen;
+}
+
+let trackerOfficialSyllabusCache=null;
+async function renderPaper2Subtopics(){
+  const target=$("paper2subtopicChecklist");if(!target)return;
+  try{
+    if(!trackerOfficialSyllabusCache){
+      const response=await fetch("./study-data.json");
+      if(!response.ok)throw Error("Syllabus file unavailable");
+      trackerOfficialSyllabusCache=(await response.json()).syllabus;
+    }
+    const topics=trackerOfficialSyllabusCache.paper2||[];
+    target.innerHTML="<h3>Paper II detailed syllabus checklist</h3><p class='small muted'>Checklist items below are split directly from the official syllabus detail text. Paper I has no separate detail list in the stored notification transcription, so it remains tracked by its 15 official headings.</p>"+topics.map(topic=>{
+      const items=String(topic.details||"").split(";").map(x=>x.trim()).filter(Boolean);
+      const checked=items.filter((_,i)=>s.studiedSubtopics.includes(topic.id+"::"+i)).length;
+      return "<details style='padding:8px 0;border-bottom:1px solid var(--line)'><summary><b>"+trackerEscape(topic.title)+"</b> · "+checked+"/"+items.length+" studied</summary>"+items.map((label,i)=>{
+        const id=topic.id+"::"+i,done=s.studiedSubtopics.includes(id);
+        return "<label style='display:flex;gap:8px;align-items:flex-start;padding:5px 0'><input type='checkbox' style='width:auto;margin-top:6px' "+(done?"checked":"")+" onchange=\"toggleStudiedSubtopic('"+id+"',this.checked)\"><span class='small'>"+trackerEscape(label)+"</span></label>";
+      }).join("")+"</details>";
+    }).join("");
+  }catch(error){target.textContent="Detailed Paper II checklist could not load. Refresh when online."}
+}
+function toggleStudiedSubtopic(id,checked){
+  s.studiedSubtopics=s.studiedSubtopics.filter(x=>x!==id);
+  if(checked)s.studiedSubtopics.push(id);
+  save();renderPaper2Subtopics();
 }
