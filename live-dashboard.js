@@ -80,7 +80,8 @@
       if(typeof topicMasteryView==="function")topicMasteryView();
     }
   }
-  window.renderLiveDashboard=render;\n  async function initialise(){
+  window.renderLiveDashboard=render;
+  async function initialise(){
     try{
       if(typeof loadBank==="function")await loadBank();
       if((!Array.isArray(cse)||!cse.length)&&typeof fetch==="function"){
