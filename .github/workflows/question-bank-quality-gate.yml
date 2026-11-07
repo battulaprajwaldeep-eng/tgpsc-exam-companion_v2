@@ -9,7 +9,7 @@ on:
       - "generated-batches/**"
       - "batch-import.html"
       - "index.html"
-      - "study-tracker.js"
+      - "study-tracker.js"\n      - "live-dashboard.js"\n      - "supabase-config.js"\n      - "supabase-cloud.js"\n      - "supabase/migrations/**"
       - "live-dashboard.js"
       - "sw.js"
       - "scripts/validate_question_bank.py"
@@ -48,5 +48,5 @@ jobs:
         run: node --check study-tracker.js
       - name: Check live dashboard JavaScript syntax
         run: node --check live-dashboard.js
-      - name: Compile batch generator
+      - name: Check Supabase cloud sync JavaScript syntax\n        run: node --check supabase-cloud.js\n      - name: Compile batch generator
         run: python -m py_compile scripts/generate_question_batch.py
