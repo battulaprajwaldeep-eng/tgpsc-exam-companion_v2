@@ -13699,19 +13699,19 @@
       "topic": "Economic and Social Development of India and Telangana",
       "subtopic": "Human Development Index",
       "difficulty": "standard",
-      "stem": "Which set contains the three dimensions used in the Human Development Index?",
+      "stem": "A tax is progressive when:",
       "options": [
-        "Life expectancy, education and standard of living measured by GNI per capita",
-        "Literacy alone, exports and population growth",
-        "Infant mortality, tax revenue and industrial output",
-        "Life expectancy, military spending and land area"
+        "The average tax rate rises as income rises",
+        "Every taxpayer pays the same absolute amount",
+        "The marginal tax rate remains constant at every income level",
+        "Tax is charged only on imported goods"
       ],
       "answer": 0,
       "explanations": [
-        "Correct — HDI combines health, education and standard of living, represented by life expectancy, education indicators and GNI per capita.",
-        "Incorrect — exports and population growth are not HDI dimensions.",
-        "Incorrect — these are not the three components in the HDI methodology.",
-        "Incorrect — military spending and land area are not HDI dimensions."
+        "Correct — progressivity means the average tax burden rises as income or the tax base increases.",
+        "Incorrect — an equal absolute payment is a lump-sum structure, not progressive taxation.",
+        "Incorrect — a constant marginal rate is characteristic of a proportional-rate structure, not a progressive schedule.",
+        "Incorrect — an import tariff is not the defining feature of progressivity."
       ],
       "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana; source/basis: UNDP, Human Development Report technical notes."
     },
@@ -13975,19 +13975,19 @@
       "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
       "subtopic": "President's ordinance power",
       "difficulty": "difficult",
-      "stem": "The President's power to promulgate an ordinance under Article 123 is available when:",
+      "stem": "Under Article 123, when may the President promulgate an ordinance?",
       "options": [
-        "The Lok Sabha alone is not in session, regardless of the Rajya Sabha",
-        "Parliament has passed a resolution authorising the President to legislate",
-        "Both Houses of Parliament are not in session and circumstances require immediate action",
-        "The Supreme Court has suspended a statute"
+        "Only when both Houses of Parliament are in session",
+        "When at least one House of Parliament is not in session and the President is satisfied that immediate action is necessary",
+        "Only after authorisation by the Supreme Court",
+        "Whenever a State Legislature is not in session"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanations": [
-        "Incorrect — Article 123 refers to the Houses of Parliament not being in session, not merely the Lok Sabha alone.",
-        "Incorrect — a prior parliamentary resolution is not the constitutional trigger for this ordinance power.",
-        "Correct — Article 123 permits an ordinance when both Houses are not in session and the President is satisfied that immediate action is necessary.",
-        "Incorrect — judicial suspension of a statute is not the trigger specified in Article 123."
+        "Incorrect — Article 123 permits an ordinance in the situation where Parliament is not fully in session, not when both Houses are sitting.",
+        "Correct — the constitutional condition is that, except when both Houses are in session, the President may act if satisfied that circumstances require immediate action.",
+        "Incorrect — prior Supreme Court authorisation is not a condition in Article 123.",
+        "Incorrect — a State Legislature's session status relates to the Governor's ordinance power under Article 213, not the President's power under Article 123."
       ],
       "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; source/basis: Constitution of India, Article 123; Legislative Department edition 2025."
     },
@@ -15383,14 +15383,14 @@
         "DOM builds an in-memory document tree, whereas SAX reports parsing events as the document is read",
         "SAX always builds a complete editable tree before reporting anything",
         "DOM is limited to XML files smaller than one kilobyte",
-        "SAX can parse only documents with a DTD"
+        "Low cohesion and low coupling"
       ],
       "answer": 0,
       "explanations": [
         "Correct — DOM exposes a tree representation in memory, while SAX is event-driven and can process a stream incrementally.",
         "Incorrect — SAX is event-driven and does not require building a complete tree.",
         "Incorrect — DOM has no one-kilobyte size restriction; memory use is the practical concern.",
-        "Incorrect — SAX can parse well-formed XML without requiring a DTD."
+        "Incorrect — low coupling is desirable, but low cohesion means a module groups unrelated responsibilities and is not the preferred design."
       ],
       "basis": "Official Paper II syllabus: Web Technologies; source/basis: W3C XML processing concepts; DOM and SAX parser documentation."
     },
