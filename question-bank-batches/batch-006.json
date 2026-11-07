@@ -1,0 +1,1015 @@
+{
+  "batch": 6,
+  "sequence": "006",
+  "title": "TGPSC HMWSSB Manager CSE/IT — Batch 006",
+  "createdOn": "2026-11-07",
+  "status": "draft_not_published",
+  "paperSplit": {
+    "paperI": 40,
+    "paperII": 0
+  },
+  "difficultyCounts": {
+    "moderate": 20,
+    "advanced": 7,
+    "standard": 13
+  },
+  "topicCoverage": [
+    {
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "count": 4
+    },
+    {
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "count": 3
+    },
+    {
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "count": 2
+    },
+    {
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "count": 2
+    },
+    {
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "count": 2
+    },
+    {
+      "topicId": "p1-06",
+      "topic": "Physical, Social and Economic Geography of India",
+      "count": 3
+    },
+    {
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "count": 3
+    },
+    {
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "count": 3
+    },
+    {
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "count": 2
+    },
+    {
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "count": 2
+    },
+    {
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "count": 3
+    },
+    {
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "count": 3
+    },
+    {
+      "topicId": "p1-13",
+      "topic": "Policies of Telangana State",
+      "count": 3
+    },
+    {
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "count": 2
+    },
+    {
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "count": 3
+    }
+  ],
+  "questions": [
+    {
+      "id": "P1-B006-001",
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "subtopic": "Critical mineral processing policy",
+      "difficulty": "moderate",
+      "stem": "The Union Cabinet-approved Capex Support Scheme to Promote Critical Mineral Processing, announced on 4 November 2026, has what total financial outlay?",
+      "options": [
+        "₹1,814 crore",
+        "₹2,414 crore",
+        "₹2,814 crore",
+        "₹3,814 crore"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The PMO announcement gives ₹2,814 crore as the scheme's five-year financial outlay.",
+        "₹2,414 crore is not the amount stated in the Cabinet announcement.",
+        "₹2,814 crore is the announced outlay for the five-year scheme.",
+        "₹3,814 crore exceeds the amount specified by the Cabinet."
+      ],
+      "basis": "Official Paper I syllabus; PMO, Cabinet announcement dated 4 Nov 2026: https://www.pmindia.gov.in/en/news_updates/cabinet-approves-capex-support-scheme-to-promote-critical-mineral-processing-with-an-outlay-of-rs-2814-crore-for-lithium-and-nickel-processing/"
+    },
+    {
+      "id": "P1-B006-002",
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "subtopic": "Critical mineral processing policy",
+      "difficulty": "advanced",
+      "stem": "Under the 2026 critical-mineral processing scheme, which plant configuration matches the announced minimum capacities?",
+      "options": [
+        "Two lithium plants of 50 kt each and two nickel plants of 30 kt each",
+        "Two lithium plants of 30 kt each and two nickel plants of 50 kt each",
+        "Four lithium plants of 30 kt each, with no nickel plants",
+        "One lithium plant of 30 kt and three nickel plants of 50 kt each"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The announcement specifies two lithium plants, each with a minimum capacity of 30 kt.",
+        "The scheme specifies two lithium plants at 30 kt and two nickel plants at 50 kt each, not the reverse.",
+        "The scheme covers both lithium and nickel and specifies two plants for each mineral.",
+        "The announced configuration is two plants for each mineral, not one lithium and three nickel plants."
+      ],
+      "basis": "Official Paper I syllabus; PMO, Capex Support Scheme details, 4 Nov 2026: https://www.pmindia.gov.in/en/news_updates/cabinet-approves-capex-support-scheme-to-promote-critical-mineral-processing-with-an-outlay-of-rs-2814-crore-for-lithium-and-nickel-processing/"
+    },
+    {
+      "id": "P1-B006-003",
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "subtopic": "Space sustainability and ISRO",
+      "difficulty": "moderate",
+      "stem": "According to the Department of Space's 13 August 2026 parliamentary reply, ISRO's Debris Free Space Mission is intended principally to:",
+      "options": [
+        "increase the number of satellites in congested low-Earth orbits",
+        "safeguard space assets and limit further debris through active removal and end-of-life disposal measures",
+        "replace all ground-based space-object tracking with optical sensors",
+        "move every operational Indian satellite into geostationary orbit"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Adding satellites without mitigation would aggravate the debris problem rather than meet the mission's stated purpose.",
+        "The PIB reply identifies active debris removal and end-of-life disposal as key measures for protecting space assets and limiting new debris.",
+        "The reply describes tracking and space-situational-awareness work as complementary capabilities, not a replacement for debris mitigation.",
+        "The mission is not a programme to relocate every Indian satellite to geostationary orbit."
+      ],
+      "basis": "Official Paper I syllabus; PIB, Department of Space parliamentary reply, 13 Aug 2026: https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2298940&lang=2&reg=48"
+    },
+    {
+      "id": "P1-B006-004",
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "subtopic": "United Nations Security Council 2026",
+      "difficulty": "standard",
+      "stem": "Which country holds the rotating presidency of the United Nations Security Council during November 2026?",
+      "options": [
+        "Liberia",
+        "Greece",
+        "Latvia",
+        "Bahrain"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Liberia is listed for December 2026, not November.",
+        "Greece held the presidency in October 2026.",
+        "The UN Security Council presidency table lists Latvia for November 2026.",
+        "Bahrain held the presidency in April 2026."
+      ],
+      "basis": "Official Paper I syllabus; United Nations Security Council, Presidency schedule for 2026: https://main.un.org/securitycouncil/en/content/presidency"
+    },
+    {
+      "id": "P1-B006-005",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "International Court of Justice jurisdiction",
+      "difficulty": "standard",
+      "stem": "Under Article 34(1) of the Statute of the International Court of Justice, who may be parties in contentious cases before the Court?",
+      "options": [
+        "States",
+        "Individuals and states jointly",
+        "Non-governmental organisations",
+        "Corporations and states"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Article 34(1) states that only states may be parties in cases before the Court.",
+        "Individuals do not become parties to contentious cases before the ICJ under Article 34(1).",
+        "NGOs may contribute information in other contexts but are not parties under this provision.",
+        "Corporations are not parties to ICJ contentious cases under Article 34(1)."
+      ],
+      "basis": "Official Paper I syllabus; Statute of the International Court of Justice, Article 34(1): https://www.icj-cij.org/statute"
+    },
+    {
+      "id": "P1-B006-006",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "International criminal justice and complementarity",
+      "difficulty": "advanced",
+      "stem": "A national court with jurisdiction is genuinely investigating the same alleged crimes that form the basis of an ICC case. Under the Rome Statute, which principle is most directly engaged when assessing admissibility?",
+      "options": [
+        "Universal jurisdiction",
+        "Complementarity",
+        "Diplomatic protection",
+        "State succession"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Universal jurisdiction concerns a state's asserted authority to prosecute certain crimes; it is not the Rome Statute's central admissibility test.",
+        "Complementarity makes the ICC a court of last resort where genuine national proceedings ordinarily render a case inadmissible, subject to the Statute's exceptions.",
+        "Diplomatic protection concerns a state espousing a national's claim against another state.",
+        "State succession concerns the replacement of one state by another in international relations."
+      ],
+      "basis": "Official Paper I syllabus; Rome Statute of the International Criminal Court, Article 17; ICC Core Legal Texts: https://www.icc-cpi.int/publications/core-legal-texts/rome-statute-international-criminal-court"
+    },
+    {
+      "id": "P1-B006-007",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "UN Security Council voting procedure",
+      "difficulty": "moderate",
+      "stem": "A substantive draft resolution receives 12 affirmative votes, two abstentions (one by a permanent member), and one negative vote by a non-permanent member. Under Article 27 of the UN Charter, what is the result?",
+      "options": [
+        "It fails because any negative vote defeats a substantive resolution",
+        "It passes because at least nine members vote in favour and no permanent member casts a negative vote",
+        "It fails because a permanent member abstained",
+        "It requires a second vote by the General Assembly"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A negative vote by a non-permanent member does not by itself defeat a substantive resolution.",
+        "The resolution has more than the required nine affirmative votes, and a permanent-member abstention is not a veto.",
+        "An abstention by a permanent member is not treated as a veto under established Security Council practice.",
+        "Article 27 does not require a General Assembly vote when the Council validly adopts a resolution."
+      ],
+      "basis": "Official Paper I syllabus; UN Charter, Article 27; UN Security Council voting system: https://www.un.org/en/about-us/un-charter/full-text"
+    },
+    {
+      "id": "P1-B006-008",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Hydrogen fuel-cell operation",
+      "difficulty": "moderate",
+      "stem": "In a hydrogen proton-exchange-membrane fuel cell, which path taken by electrons produces useful external electric current?",
+      "options": [
+        "Electrons pass through the electrolyte membrane from cathode to anode",
+        "Electrons travel through the external circuit from the anode toward the cathode",
+        "Electrons are consumed by oxygen before reaching the cathode",
+        "Electrons remain inside the hydrogen storage tank"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The membrane conducts protons, not electrons; electrons do not travel through it as the external current.",
+        "Hydrogen is split at the anode; electrons travel through the external circuit to the cathode, creating current.",
+        "Oxygen participates in the cathode reaction, where it combines with protons and electrons to form water.",
+        "The hydrogen storage tank supplies fuel; it is not the path for the electrical current."
+      ],
+      "basis": "Official Paper I syllabus; US Department of Energy, Fuel Cells: https://www.energy.gov/cmei/fuels/fuel-cells"
+    },
+    {
+      "id": "P1-B006-009",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Green hydrogen production",
+      "difficulty": "standard",
+      "stem": "Hydrogen is commonly described as green hydrogen when it is produced by:",
+      "options": [
+        "steam reforming of natural gas without capturing carbon dioxide",
+        "coal gasification using grid electricity of unspecified origin",
+        "water electrolysis powered by renewable electricity",
+        "thermal cracking of petroleum without an energy-source requirement"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Unabated natural-gas reforming is a fossil-based production route and is not green hydrogen.",
+        "Coal gasification is a fossil-based route; unspecified grid electricity does not establish renewable-powered production.",
+        "Electrolysis powered by renewable electricity is the defining production pathway used for green hydrogen.",
+        "Petroleum cracking is not the renewable-electrolysis pathway described for green hydrogen."
+      ],
+      "basis": "Official Paper I syllabus; MNRE, National Green Hydrogen Mission; US Department of Energy, Hydrogen Production: Electrolysis: https://mnre.gov.in/en/national-green-hydrogen-mission/ ; https://www.energy.gov/cmei/fuels/hydrogen-production-electrolysis"
+    },
+    {
+      "id": "P1-B006-010",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Environmental impact assessment",
+      "difficulty": "moderate",
+      "stem": "In India's EIA process, the scoping stage is primarily intended to:",
+      "options": [
+        "issue the final environmental clearance before appraisal",
+        "identify key environmental issues and settle the terms of reference for the EIA study",
+        "conduct post-project environmental monitoring",
+        "transfer the project to the pollution-control board for construction"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Final environmental clearance follows appraisal and the applicable decision process, not scoping alone.",
+        "Scoping identifies the significant issues and establishes the terms of reference for the detailed EIA study.",
+        "Post-project monitoring occurs after project approval and implementation; it is not the primary purpose of scoping.",
+        "Scoping does not transfer project ownership or authorise construction."
+      ],
+      "basis": "Official Paper I syllabus; MoEFCC, EIA Notification 2006 and amendments, scoping provisions: https://parivesh.nic.in/"
+    },
+    {
+      "id": "P1-B006-011",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Urban stormwater management",
+      "difficulty": "standard",
+      "stem": "A bioswale is installed beside a paved road to manage stormwater. Which mechanism best explains its main benefit?",
+      "options": [
+        "It accelerates runoff directly into the nearest drain",
+        "It stores and filters runoff while promoting infiltration through vegetated soil",
+        "It converts stormwater into potable water without treatment",
+        "It prevents all rainfall from reaching the road surface"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Rapidly conveying all runoff would increase peak flow rather than provide the intended green-infrastructure treatment.",
+        "A bioswale uses vegetation and engineered soil to slow, filter, store and infiltrate runoff.",
+        "A bioswale is not a complete drinking-water treatment plant and cannot make all runoff potable by itself.",
+        "A bioswale manages runoff after it reaches the surface; it does not prevent rainfall."
+      ],
+      "basis": "Official Paper I syllabus; US EPA, Green Infrastructure and bioretention practices: https://www.epa.gov/green-infrastructure"
+    },
+    {
+      "id": "P1-B006-012",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Human Development Index",
+      "difficulty": "standard",
+      "stem": "In the Human Development Index, the standard-of-living dimension is measured using:",
+      "options": [
+        "Gini coefficient",
+        "Gross national income per capita",
+        "Consumer price inflation",
+        "Government revenue as a share of GDP"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The Gini coefficient measures inequality, not the HDI standard-of-living indicator.",
+        "UNDP uses gross national income per capita for the HDI standard-of-living dimension.",
+        "Inflation is an important macroeconomic indicator but is not the HDI income indicator.",
+        "Government revenue relative to GDP is a fiscal measure, not the HDI standard-of-living indicator."
+      ],
+      "basis": "Official Paper I syllabus; UNDP, Human Development Index methodology: https://hdr.undp.org/data-center/human-development-index"
+    },
+    {
+      "id": "P1-B006-013",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Income distribution measurement",
+      "difficulty": "moderate",
+      "stem": "When expressed on a 0-to-1 coefficient scale, which interpretation of the Gini coefficient is correct?",
+      "options": [
+        "0 denotes perfect equality and 1 denotes perfect inequality",
+        "0 denotes perfect inequality and 1 denotes perfect equality",
+        "Both 0 and 1 denote equal income distribution",
+        "The coefficient measures only the rate of economic growth"
+      ],
+      "answer": 0,
+      "explanations": [
+        "On the 0-to-1 scale, zero represents perfect equality and one represents maximal inequality.",
+        "The endpoints are reversed in this option.",
+        "The endpoints have different meanings; they do not both represent equality.",
+        "The Gini coefficient describes distributional inequality, not the growth rate of output."
+      ],
+      "basis": "Official Paper I syllabus; World Bank, Gini index indicator and inequality methodology: https://data.worldbank.org/indicator/SI.POV.GINI"
+    },
+    {
+      "id": "P1-B006-014",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "Physical, Social and Economic Geography of India",
+      "subtopic": "Northern Plains: Bhabar and Terai",
+      "difficulty": "moderate",
+      "stem": "A field team observes that small streams disappear into coarse, porous deposits immediately south of the Shiwalik foothills. In which adjoining belt are these streams characteristically likely to re-emerge and create marshy conditions?",
+      "options": [
+        "Bhangar",
+        "Khadar",
+        "Terai",
+        "Deccan Trap"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Bhangar refers to older alluvium of the northern plains, not the marshy belt of stream emergence.",
+        "Khadar is newer floodplain alluvium deposited by rivers.",
+        "The Terai lies south of the Bhabar belt; streams re-emerge there and the area is often marshy.",
+        "The Deccan Trap is a basaltic plateau region, geographically unrelated to this Himalayan foothill sequence."
+      ],
+      "basis": "Official Paper I syllabus; NCERT, India: Physical Environment, Class XI, chapter on physiography of India."
+    },
+    {
+      "id": "P1-B006-015",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "Physical, Social and Economic Geography of India",
+      "subtopic": "Longitude and local time",
+      "difficulty": "standard",
+      "stem": "Two places differ in longitude by 7.5°. Assuming local solar time, how much time difference does this produce, and which place is ahead?",
+      "options": [
+        "30 minutes; the place farther east is ahead",
+        "15 minutes; the place farther west is ahead",
+        "45 minutes; the place farther east is ahead",
+        "1 hour; the place farther west is ahead"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Earth rotates 15° per hour, so 7.5° corresponds to 30 minutes; eastern longitudes experience local noon earlier.",
+        "7.5° does not correspond to 15 minutes, and the west-east direction is reversed.",
+        "45 minutes corresponds to 11.25° of rotation, not 7.5°.",
+        "One hour corresponds to 15°; the direction is also reversed."
+      ],
+      "basis": "Official Paper I syllabus; NCERT, India: Physical Environment, Class XI, longitude and time; standard Earth-rotation relation."
+    },
+    {
+      "id": "P1-B006-016",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "Physical, Social and Economic Geography of India",
+      "subtopic": "Northeast monsoon",
+      "difficulty": "moderate",
+      "stem": "Which statement best describes the northeast monsoon's importance to India's rainfall distribution?",
+      "options": [
+        "It supplies most of the annual rainfall to the Thar Desert during June–September",
+        "It is a major October–December rainfall season for Tamil Nadu and adjoining southeastern peninsular regions",
+        "It affects only the Himalayan foothills during January–March",
+        "It is simply another name for western disturbances"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The Thar Desert's principal rainy season is associated with the southwest monsoon, not the northeast monsoon.",
+        "IMD identifies October–December northeast-monsoon rainfall as especially important for Tamil Nadu and adjoining southeastern subdivisions.",
+        "The northeast monsoon season is not confined to the Himalayan foothills or January–March.",
+        "Western disturbances are mid-latitude weather systems affecting north and northwest India, not the northeast monsoon."
+      ],
+      "basis": "Official Paper I syllabus; India Meteorological Department, Northeast Monsoon 2025 report and RMC Chennai monsoon reports: https://mausam.imd.gov.in/chennai/monsoon.php"
+    },
+    {
+      "id": "P1-B006-017",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Mission Bhagiratha design demand",
+      "difficulty": "advanced",
+      "stem": "Using Mission Bhagiratha's stated rural norm of 100 litres per capita per day, what daily volume is required for a rural population of 80,000, before allowing for losses or peak factors?",
+      "options": [
+        "0.8 million litres, or 0.8 MLD",
+        "8 million litres, or 8 MLD",
+        "80 million litres, or 80 MLD",
+        "800 million litres, or 800 MLD"
+      ],
+      "answer": 1,
+      "explanations": [
+        "0.8 million litres would provide only 10 LPCD to 80,000 people.",
+        "80,000 × 100 = 8,000,000 litres per day, which is 8 million litres or 8 MLD.",
+        "80 million litres would equal 1,000 LPCD, ten times the stated norm.",
+        "800 million litres would equal 10,000 LPCD, one hundred times the stated norm."
+      ],
+      "basis": "Official Paper I syllabus; Government of Telangana, Mission Bhagiratha design norms: https://mbbulk.telangana.gov.in/mbbulkweb/about.html"
+    },
+    {
+      "id": "P1-B006-018",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Major reservoirs and rivers",
+      "difficulty": "standard",
+      "stem": "Nizam Sagar, an important irrigation reservoir in Telangana, is constructed across which river?",
+      "options": [
+        "Musi",
+        "Manjira",
+        "Pranahita",
+        "Munneru"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Musi is a tributary of the Krishna and is associated with Hyderabad's drainage system.",
+        "Nizam Sagar is built across the Manjira River.",
+        "Pranahita is a major tributary of the Godavari and is not the river impounded by Nizam Sagar.",
+        "Munneru is a tributary of the Krishna system, not the river at Nizam Sagar."
+      ],
+      "basis": "Official Paper I syllabus; Kamareddy District, Government of Telangana, Nizam Sagar Dam; Telangana Irrigation & CAD Department: https://kamareddy.telangana.gov.in/tourist-place/nizam-sagar-dam/ ; https://irrigation.telangana.gov.in/img/projectspdf/nizamsagar.pdf"
+    },
+    {
+      "id": "P1-B006-019",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Godavari basin and river confluences",
+      "difficulty": "moderate",
+      "stem": "Kaleshwaram in Jayashankar Bhupalpally district is located at the confluence of which two rivers?",
+      "options": [
+        "Krishna and Tungabhadra",
+        "Godavari and Pranahita",
+        "Manjira and Musi",
+        "Godavari and Manjira"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Krishna and Tungabhadra meet far to the south and do not form the Kaleshwaram confluence.",
+        "Telangana Tourism identifies Kaleshwaram as the confluence of the Godavari and Pranahita rivers.",
+        "Manjira and Musi are not the two rivers meeting at Kaleshwaram.",
+        "Manjira joins the Godavari upstream, but the Kaleshwaram confluence is with the Pranahita."
+      ],
+      "basis": "Official Paper I syllabus; Telangana Tourism, Kaleshwaram; Jayashankar Bhupalpally district: https://tourism.telangana.gov.in/page/kaleshwaram"
+    },
+    {
+      "id": "P1-B006-020",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Government of India Act 1935",
+      "difficulty": "moderate",
+      "stem": "Which constitutional change was introduced by the Government of India Act, 1935 at the provincial level?",
+      "options": [
+        "Dyarchy was introduced in provinces for the first time",
+        "Provincial autonomy replaced dyarchy in the provinces",
+        "Universal adult franchise was introduced throughout British India",
+        "The office of Governor-General was abolished"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Dyarchy in provinces had been introduced by the Government of India Act, 1919; the 1935 Act ended it there.",
+        "The 1935 Act introduced provincial autonomy and abolished provincial dyarchy.",
+        "The Act did not introduce universal adult franchise across British India.",
+        "The Act retained the Governor-General; it did not abolish the office."
+      ],
+      "basis": "Official Paper I syllabus; Bipan Chandra et al., India's Struggle for Independence, constitutional developments; M.V. Pylee, Constitutional History of India."
+    },
+    {
+      "id": "P1-B006-021",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Cripps Mission 1942",
+      "difficulty": "advanced",
+      "stem": "Which feature formed part of the Cripps proposals of 1942?",
+      "options": [
+        "Immediate transfer of all power to an elected Indian cabinet before the war ended",
+        "A post-war constitution-making process, with provinces able to decline joining the proposed Union",
+        "A permanent abolition of the princely states without negotiation",
+        "An immediate republic with a directly elected President"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The Cripps proposals did not offer immediate complete transfer of power before the war ended.",
+        "The proposals envisaged a post-war constitution-making body and allowed provinces not to join the proposed Union.",
+        "The proposals did not abolish princely states by unilateral declaration.",
+        "They did not create an immediate Indian republic or a directly elected presidency."
+      ],
+      "basis": "Official Paper I syllabus; Bipan Chandra et al., India's Struggle for Independence, chapter on the Cripps Mission; NCERT, modern Indian history."
+    },
+    {
+      "id": "P1-B006-022",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Morley-Minto reforms",
+      "difficulty": "standard",
+      "stem": "The Indian Councils Act, 1909, associated with the Morley-Minto reforms, is especially known for introducing:",
+      "options": [
+        "Separate electorates for Muslims",
+        "Provincial autonomy",
+        "Dyarchy at the Centre",
+        "Universal adult franchise"
+      ],
+      "answer": 0,
+      "explanations": [
+        "The 1909 reforms introduced separate electorates for Muslims.",
+        "Provincial autonomy was a feature of the Government of India Act, 1935.",
+        "Dyarchy at the Centre was contemplated by the 1935 Act but was never brought into operation.",
+        "Universal adult franchise was not introduced by the 1909 Act."
+      ],
+      "basis": "Official Paper I syllabus; Bipan Chandra et al., India's Struggle for Independence; standard account of the Indian Councils Act, 1909."
+    },
+    {
+      "id": "P1-B006-023",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Hyderabad State integration",
+      "difficulty": "moderate",
+      "stem": "The police action that led to the integration of the former Hyderabad State into the Indian Union in September 1948 was codenamed:",
+      "options": [
+        "Operation Vijay",
+        "Operation Polo",
+        "Operation Meghdoot",
+        "Operation Cactus"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Operation Vijay is associated with India's 1961 action in Goa.",
+        "Operation Polo was the codename for the 1948 police action in Hyderabad State.",
+        "Operation Meghdoot began in 1984 in the Siachen region.",
+        "Operation Cactus was the 1988 Indian intervention in the Maldives."
+      ],
+      "basis": "Official Paper I syllabus; Press Information Bureau, Ministry of Home Affairs, Hyderabad Liberation Day and Operation Polo: https://www.pib.gov.in/PressReleasePage.aspx?PRID=1860131&lang=2&reg=48"
+    },
+    {
+      "id": "P1-B006-024",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Adivasi resistance in Telangana",
+      "difficulty": "moderate",
+      "stem": "The slogan “Jal, Jangal, Zameen”, associated with Komaram Bheem, expresses a demand most directly connected with:",
+      "options": [
+        "Exclusive control of overseas trade",
+        "Rights over water, forests and land for indigenous communities",
+        "Abolition of all local languages in the Deccan",
+        "Expansion of colonial railway concessions"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The slogan is not about overseas trade or commercial privileges.",
+        "It articulates Adivasi claims to natural resources, customary rights and control over water, forests and land.",
+        "The slogan does not advocate the abolition of local languages.",
+        "Railway concessions were not the central issue expressed by the slogan."
+      ],
+      "basis": "Official Paper I syllabus; Telangana State Board/SCERT Telangana History, Adivasi resistance and Komaram Bheem; PIB Hyderabad Liberation Day background: https://www.pib.gov.in/PressReleasePage.aspx?PRID=1859181&lang=2&reg=48"
+    },
+    {
+      "id": "P1-B006-025",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "District Planning Committee",
+      "difficulty": "advanced",
+      "stem": "Under Article 243ZD of the Constitution, at least what fraction of the total members of a District Planning Committee must be elected by and from among elected members of Panchayats and Municipalities in the district?",
+      "options": [
+        "One-half",
+        "Two-thirds",
+        "Three-fourths",
+        "Four-fifths"
+      ],
+      "answer": 3,
+      "explanations": [
+        "One-half is below the constitutional minimum.",
+        "Two-thirds is the minimum specified for a Metropolitan Planning Committee under Article 243ZE, not a District Planning Committee.",
+        "Three-fourths is below the minimum of four-fifths in Article 243ZD.",
+        "Article 243ZD requires not less than four-fifths of the total membership to be elected from the specified local-body representatives."
+      ],
+      "basis": "Official Paper I syllabus; Constitution of India, Article 243ZD, Legislative Department: https://www.legislative.gov.in/static/uploads/2025/08/7af1daa22d65f9d04c00ae9b9aa5a799.pdf"
+    },
+    {
+      "id": "P1-B006-026",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Metropolitan Planning Committee",
+      "difficulty": "moderate",
+      "stem": "Article 243ZE requires at least what fraction of the members of a Metropolitan Planning Committee to be elected by and from among elected municipal members and Panchayat chairpersons in the metropolitan area?",
+      "options": [
+        "One-half",
+        "Two-thirds",
+        "Four-fifths",
+        "All members"
+      ],
+      "answer": 1,
+      "explanations": [
+        "One-half is below the constitutional minimum.",
+        "Article 243ZE specifies not less than two-thirds of the total members.",
+        "Four-fifths is the minimum specified for District Planning Committees under Article 243ZD.",
+        "The Constitution allows representation of governments and organisations; it does not require every member to be elected."
+      ],
+      "basis": "Official Paper I syllabus; Constitution of India, Article 243ZE, Legislative Department: https://www.legislative.gov.in/static/uploads/2025/08/7af1daa22d65f9d04c00ae9b9aa5a799.pdf"
+    },
+    {
+      "id": "P1-B006-027",
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "subtopic": "PESA and Gram Sabha powers",
+      "difficulty": "moderate",
+      "stem": "Under the Provisions of the Panchayats (Extension to the Scheduled Areas) Act, 1996, which role is specifically assigned to the Gram Sabha in relation to local development?",
+      "options": [
+        "It approves development plans, programmes and projects before their implementation by the Gram Panchayat",
+        "It appoints the Governor of the State",
+        "It issues High Court writs in scheduled districts",
+        "It approves the Union Budget"
+      ],
+      "answer": 0,
+      "explanations": [
+        "PESA gives the Gram Sabha an important prior-approval role for local social and economic development plans, programmes and projects.",
+        "The Governor is appointed under the constitutional process; a Gram Sabha has no such power.",
+        "High Court writ jurisdiction is a judicial power, not a Gram Sabha function.",
+        "The Union Budget is a parliamentary financial process and is not approved by a Gram Sabha."
+      ],
+      "basis": "Official Paper I syllabus; Panchayats (Extension to the Scheduled Areas) Act, 1996, s.4(e); Ministry of Panchayati Raj: https://panchayat.gov.in/en/pesa-act/"
+    },
+    {
+      "id": "P1-B006-028",
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "subtopic": "Transgender rights and non-discrimination",
+      "difficulty": "advanced",
+      "stem": "Under Section 3 of the Transgender Persons (Protection of Rights) Act, 2019, which action is expressly within the prohibited forms of discrimination?",
+      "options": [
+        "Refusing or discontinuing healthcare services to a transgender person because of their identity",
+        "Requiring a public hospital to maintain ordinary patient records",
+        "Applying clinically necessary treatment protocols equally to all patients",
+        "Providing a grievance-redressal mechanism for service users"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Section 3 expressly prohibits denial, discontinuation or unfair treatment in healthcare services.",
+        "Ordinary patient-record requirements are not, by themselves, discrimination under Section 3.",
+        "Equal application of clinically necessary protocols is not the discriminatory denial described in Section 3.",
+        "A grievance-redressal mechanism supports access and accountability; it is not a prohibited discriminatory act."
+      ],
+      "basis": "Official Paper I syllabus; Transgender Persons (Protection of Rights) Act, 2019, s.3, India Code (as amended): https://www.indiacode.nic.in/bitstream/123456789/13091/1/A2019-40.pdf"
+    },
+    {
+      "id": "P1-B006-029",
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "subtopic": "Disability rights in public employment",
+      "difficulty": "advanced",
+      "stem": "Section 20(2) of the Rights of Persons with Disabilities Act, 2016 requires every Government establishment to:",
+      "options": [
+        "Provide reasonable accommodation and an appropriate barrier-free and conducive environment to employees with disabilities",
+        "Reserve every post exclusively for persons with disabilities",
+        "Require employees to disclose disability publicly to all colleagues",
+        "Deny promotion whenever an employee acquires a disability"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Section 20(2) expressly requires reasonable accommodation and an appropriate barrier-free and conducive work environment.",
+        "The Act contains reservation provisions for identified posts, but Section 20(2) does not reserve every post exclusively.",
+        "Public disclosure to all colleagues is not required by Section 20(2).",
+        "Section 20(3) says promotion shall not be denied merely on the ground of disability."
+      ],
+      "basis": "Official Paper I syllabus; Rights of Persons with Disabilities Act, 2016, s.20, India Code: https://www.indiacode.nic.in/bitstream/123456789/13684/1/a2016-49_act.pdf"
+    },
+    {
+      "id": "P1-B006-030",
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Cheriyal scroll painting",
+      "difficulty": "standard",
+      "stem": "Which feature most clearly identifies the Cheriyal scroll-painting tradition of Telangana?",
+      "options": [
+        "Metal inlay on blackened steel",
+        "Narrative cloth scrolls depicting mythological and folk stories in sequential panels",
+        "Stone mosaics made exclusively for temple floors",
+        "Single-colour geometric weaving on silk"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Metal inlay on blackened steel describes Bidriware, not Cheriyal scroll painting.",
+        "Cheriyal paintings are narrative cloth scrolls that present stories in a sequence, often compared with a film roll or comic strip.",
+        "Stone mosaics are not the defining medium or narrative format of Cheriyal painting.",
+        "Geometric silk weaving is a textile tradition, not the Cheriyal scroll-painting form."
+      ],
+      "basis": "Official Paper I syllabus; Telangana Tourism, Arts & Crafts: https://tourism.telangana.gov.in/page/arts-crafts"
+    },
+    {
+      "id": "P1-B006-031",
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Adilabad Dokra craft",
+      "difficulty": "moderate",
+      "stem": "The traditional Dokra metal craft of Adilabad is associated with which production technique?",
+      "options": [
+        "Lost-wax casting",
+        "Power-loom jacquard weaving",
+        "Blue-and-white porcelain glazing",
+        "Machine-stamped sheet-metal embossing"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Dokra metal craft is traditionally produced using the lost-wax casting technique.",
+        "Jacquard weaving is a textile process, not the metal-casting method used for Dokra.",
+        "Porcelain glazing is a ceramic process unrelated to Dokra metal casting.",
+        "Machine-stamped sheet-metal embossing is not the traditional lost-wax method."
+      ],
+      "basis": "Official Paper I syllabus; Telangana Tourism, Arts & Crafts: https://tourism.telangana.gov.in/page/arts-crafts"
+    },
+    {
+      "id": "P1-B006-032",
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Karimnagar silver filigree",
+      "difficulty": "moderate",
+      "stem": "In which year did Karimnagar's silver filigree craft receive its Geographical Indication (GI) tag, according to Telangana Tourism?",
+      "options": [
+        "1997",
+        "2001",
+        "2007",
+        "2017"
+      ],
+      "answer": 2,
+      "explanations": [
+        "1997 is not the year recorded by Telangana Tourism for this GI tag.",
+        "2001 is not the recorded year.",
+        "Telangana Tourism records the Karimnagar silver filigree GI tag as awarded in 2007.",
+        "2017 is a later year and does not match the recorded GI award."
+      ],
+      "basis": "Official Paper I syllabus; Telangana Tourism, Arts & Crafts, Silver Filigrees: https://tourism.telangana.gov.in/page/arts-crafts"
+    },
+    {
+      "id": "P1-B006-033",
+      "paper": 1,
+      "topicId": "p1-13",
+      "topic": "Policies of Telangana State",
+      "subtopic": "TG-iPASS statutory approval timelines",
+      "difficulty": "moderate",
+      "stem": "Under the Telangana TG-iPASS framework, if no decision is issued within the statutory period, the deemed-approval period for a mega project is:",
+      "options": [
+        "7 days",
+        "15 days",
+        "30 days",
+        "60 days"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Seven days is not the general mega-project deemed-approval period.",
+        "Invest Telangana states that mega projects have a 15-day statutory window.",
+        "Thirty days is the general period for other projects, not mega projects.",
+        "Sixty days is not the stated TG-iPASS mega-project period."
+      ],
+      "basis": "Official Paper I syllabus; Invest Telangana, TG-iPASS statutory approval timeline: https://invest.telangana.gov.in/"
+    },
+    {
+      "id": "P1-B006-034",
+      "paper": 1,
+      "topicId": "p1-13",
+      "topic": "Policies of Telangana State",
+      "subtopic": "T-PRIDE incentives",
+      "difficulty": "moderate",
+      "stem": "The T-PRIDE incentive package described by the Government of Telangana is specifically intended to support:",
+      "options": [
+        "Large foreign-owned mining corporations",
+        "SC/ST entrepreneurs establishing eligible enterprises",
+        "Only state-owned public-sector banks",
+        "Only exporters of agricultural commodities"
+      ],
+      "answer": 1,
+      "explanations": [
+        "T-PRIDE is a special incentive package for Scheduled Caste and Scheduled Tribe entrepreneurs.",
+        "The scheme is not designed exclusively for large foreign-owned mining corporations.",
+        "It is not restricted to public-sector banks.",
+        "It is not an export-only agricultural commodity scheme."
+      ],
+      "basis": "Official Paper I syllabus; Government of Telangana, Medak District Industries Department, T-PRIDE: https://medak.telangana.gov.in/industries/"
+    },
+    {
+      "id": "P1-B006-035",
+      "paper": 1,
+      "topicId": "p1-13",
+      "topic": "Policies of Telangana State",
+      "subtopic": "Aasara social security pensions",
+      "difficulty": "standard",
+      "stem": "The central purpose of Telangana's Aasara pension scheme is best described as:",
+      "options": [
+        "Providing a social-security safety net to vulnerable people who have lost livelihood or income support",
+        "Financing only new industrial machinery purchases",
+        "Providing short-term crop loans to large commercial farms",
+        "Subsidising private-sector exports"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Aasara is described by the State as a social-safety-net pension scheme for vulnerable groups such as older persons, widows, people with HIV-AIDS, and certain traditional workers.",
+        "Industrial capital subsidies are separate from the Aasara pension scheme.",
+        "Crop credit is not the purpose of Aasara pensions.",
+        "Export subsidies are unrelated to the scheme's social-security objective."
+      ],
+      "basis": "Official Paper I syllabus; Government of Telangana, Aasara Pensions: https://hyderabad.telangana.gov.in/scheme/aasara-pensions/"
+    },
+    {
+      "id": "P1-B006-036",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Percentage share from water production data",
+      "difficulty": "standard",
+      "stem": "Four water-treatment plants produce 18, 24, 30 and 28 MLD respectively. What percentage of their combined production is supplied by the second plant?",
+      "options": [
+        "18%",
+        "24%",
+        "28%",
+        "30%"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The first plant contributes 18 out of 100 MLD, or 18%.",
+        "Total production is 18+24+30+28 = 100 MLD; the second plant's share is 24/100 = 24%.",
+        "The third plant contributes 30 MLD, not 28%.",
+        "The fourth plant contributes 28 MLD; 30% is the third plant's share."
+      ],
+      "basis": "Official Paper I syllabus; Official Paper I syllabus; arithmetic derivation from the values stated in the question."
+    },
+    {
+      "id": "P1-B006-037",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Weighted-average water quality",
+      "difficulty": "moderate",
+      "stem": "Two reservoirs contribute 40% and 60% of a blended supply. Their chloride concentrations are 120 mg/L and 200 mg/L respectively. Assuming complete mixing, what is the blend concentration?",
+      "options": [
+        "152 mg/L",
+        "160 mg/L",
+        "168 mg/L",
+        "180 mg/L"
+      ],
+      "answer": 2,
+      "explanations": [
+        "152 mg/L does not equal the weighted sum of the two source concentrations.",
+        "160 mg/L is the unweighted midpoint, but the two sources contribute different proportions.",
+        "0.40×120 + 0.60×200 = 48 + 120 = 168 mg/L.",
+        "180 mg/L overweights the higher-concentration source relative to its stated 60% contribution."
+      ],
+      "basis": "Official Paper I syllabus; Official Paper I syllabus; weighted-mean calculation from the stated source fractions and concentrations."
+    },
+    {
+      "id": "P1-B006-038",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "Inversion with hardly",
+      "difficulty": "moderate",
+      "stem": "Choose the grammatically correct completion: “Hardly ___ the control valve when the pressure dropped.”",
+      "options": [
+        "had the operator opened",
+        "the operator had opened",
+        "did the operator opened",
+        "has the operator open"
+      ],
+      "answer": 0,
+      "explanations": [
+        "With fronted 'Hardly', inversion places 'had' before the subject; 'when' introduces the following event.",
+        "This order omits the required subject-auxiliary inversion after 'Hardly'.",
+        "After 'did', the main verb must be in base form, and this construction requires the past-perfect inversion.",
+        "This present-perfect form does not fit the past event sequence or the required inversion."
+      ],
+      "basis": "Official Paper I syllabus; Standard English grammar: inversion with hardly/scarcely and the conjunction when; Cambridge English Grammar reference."
+    },
+    {
+      "id": "P1-B006-039",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "Subject-verb agreement with each",
+      "difficulty": "standard",
+      "stem": "Choose the correct verb: “Each of the two reports ___ a separate annexure.”",
+      "options": [
+        "contain",
+        "contains",
+        "have contained",
+        "are containing"
+      ],
+      "answer": 1,
+      "explanations": [
+        "'Each' is singular in this construction, so the singular verb is required.",
+        "'Contains' agrees with the singular subject 'Each'.",
+        "'Have contained' is plural and does not agree with 'Each'.",
+        "'Are containing' is plural and is not the appropriate agreement or tense here."
+      ],
+      "basis": "Official Paper I syllabus; Standard English grammar: subject-verb agreement with distributive pronouns."
+    },
+    {
+      "id": "P1-B006-040",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "Prepositions after insist",
+      "difficulty": "standard",
+      "stem": "Choose the correct preposition: “The engineer insisted ___ checking the valve twice.”",
+      "options": [
+        "at",
+        "for",
+        "on",
+        "with"
+      ],
+      "answer": 2,
+      "explanations": [
+        "'Insist at' is not the standard collocation for requiring an action.",
+        "'Insist for checking' is not the standard construction.",
+        "'Insist on' is followed by a noun or gerund, such as 'checking'.",
+        "'Insist with checking' is not the standard collocation."
+      ],
+      "basis": "Official Paper I syllabus; Standard English grammar and collocations: insist on + noun/gerund."
+    }
+  ]
+}
