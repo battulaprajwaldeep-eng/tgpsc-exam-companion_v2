@@ -199,7 +199,7 @@
   // Wrap the app's existing save() so every quiz/checklist/study-log change is queued.
   const originalSave = window.save;
   if (typeof originalSave === "function") {
-    window.save = function () { const result = originalSave.apply(this, arguments); queueSync(); return result; };
+    window.save = function () { if (typeof s !== "undefined") s.cloudUpdatedAt = new Date().toISOString(); const result = originalSave.apply(this, arguments); queueSync(); return result; };
   }
   window.addEventListener("online", () => { if (session || localStorage.getItem(QUEUE_KEY) === "1") syncNow(); });
   window.addEventListener("storage", event => { if (event.key === "tgpscState" && session) syncNow(); });
