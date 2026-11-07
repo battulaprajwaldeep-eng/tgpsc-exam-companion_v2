@@ -74,7 +74,7 @@ def validate_question(q, index, topics, errors, label):
         errors.append(f"{where}: four non-empty option-specific explanations are required")
     roman = "I" if paper == 1 else "II"
     basis = q.get("basis", "")
-    if not isinstance(basis, str) or not re.search(rf"(?:official\\s+)?paper\\s+{roman}\\b", basis, re.IGNORECASE):
+    if not isinstance(basis, str) or not re.search(rf"(?:official\s+)?paper\s+{roman}\\b", basis, re.IGNORECASE):
         errors.append(f"{where}: basis must identify Paper {roman} syllabus")
 
 
