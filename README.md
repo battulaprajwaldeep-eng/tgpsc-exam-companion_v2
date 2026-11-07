@@ -27,7 +27,7 @@ Historical data is an evidence-based summary, not a complete transcript of every
 
 - The question bank currently contains 681 questions (269 Paper I, 412 Paper II; verified 7 November 2026). It remains in progress and is not proof of full syllabus coverage or exam readiness.
 - A mobile-friendly bulk JSON importer is available at `batch-import.html`. It validates schema fields, exact duplicate IDs/stems, flags lexical similarity for manual review, and exports a merged JSON file locally. It does not write directly to GitHub; review and commit the exported file through a pull request.
-- New quiz attempts are stored in the current browser's local storage. First-attempt dashboard accuracy excludes revision sessions; topic/subtopic evidence is based on completed practice questions only. Data is not cloud-synchronised between devices; export backups regularly.
+- New quiz attempts are stored in the current browser's local storage. First-attempt dashboard accuracy excludes revision sessions; topic/subtopic evidence is based on completed practice questions only. When the question bank loads, the app backfills topic and subtopic metadata into older saved attempts where matching question IDs still exist. Data is not cloud-synchronised between devices; export backups regularly.
 - Imported historical aggregates are shown separately from new browser-session records. Uncertain records are not counted.
 - No account login, server database, automatic question generation or guaranteed live recruitment feed is implemented.
 
