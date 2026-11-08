@@ -22,7 +22,7 @@ Compared all 100 candidate stems against:
 2. 400 extracted question stems from the user's prior Batch 001–004 source documents.
 3. Candidate-to-candidate exact stem normalisation.
 
-No exact or high-similarity matches remained. Repeated or high-overlap candidates were replaced before the batch artifact was written.
+No exact or high-similarity matches remained. Repeated or high-overlap candidates were replaced before the batch artifact was written. The first repository validation pass also caught two option pairs that became identical after Unicode/punctuation normalisation; both option sets and their explanations were corrected before the final quality-gate rerun.
 
 ## Source and fact-check basis
 - Current affairs: Invest Telangana Global Summit 2026; Telangana Innovation Startup Challenge 2026; PMO BRICS New Delhi Declaration (12 September 2026); India–Italy Joint Declaration (20 May 2026).
@@ -36,7 +36,7 @@ No exact or high-similarity matches remained. Repeated or high-overlap candidate
 - Government facts checked against the cited official sources; source links are embedded in each question's `basis` field.
 
 ## Repository quality gate
-Pending GitHub Actions on the Batch 007 pull request:
+The initial GitHub quality-gate run identified two normalised-option collisions; both were corrected. The duplicate-scan implementation was also given mathematically safe SequenceMatcher upper-bound prefilters to reduce runtime without changing the 0.92 warning threshold. A fresh quality-gate run is required after these fixes:
 - `python scripts/validate_question_bank.py`
 - `node question-bank-tests.js`
 - `node --check study-tracker.js`
