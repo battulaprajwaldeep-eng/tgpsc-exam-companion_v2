@@ -22,7 +22,7 @@ Compared all 100 candidate stems against:
 2. 400 extracted question stems from the user's prior Batch 001–004 source documents.
 3. Candidate-to-candidate exact stem normalisation.
 
-No exact or high-similarity matches remained. Repeated or high-overlap candidates were replaced before the batch artifact was written. The first repository validation pass also caught two option pairs that became identical after Unicode/punctuation normalisation; both option sets and their explanations were corrected before the final quality-gate rerun.
+No exact or high-similarity matches remained. Repeated or high-overlap candidates were replaced before the batch artifact was written. The Pranahita tributary question was tightened to match the official project description, and the Telangana geography/statutory source links were checked against the relevant government pages. The first repository validation pass also caught three option pairs that became identical after Unicode/punctuation normalisation; both option sets and their explanations were corrected before the final quality-gate rerun.
 
 ## Source and fact-check basis
 - Current affairs: Invest Telangana Global Summit 2026; Telangana Innovation Startup Challenge 2026; PMO BRICS New Delhi Declaration (12 September 2026); India–Italy Joint Declaration (20 May 2026).
