@@ -42,6 +42,10 @@ Paper II: `p2-01`: 4, `p2-02`: 4, `p2-03`: 4, `p2-04`: 4, `p2-05`: 3, `p2-06`: 3
 ## Validation and publication status
 - Candidate structural checks: PASS.
 - Exact duplicate and ID-collision audit: PASS.
-- Repository Python validator, Node regression tests, JavaScript syntax checks and generator compilation: pending pull-request CI.
-- Live-bank counts on branch: 981 total; Paper I 389; Paper II 592.
-- Cloudflare deployment: not verified; repository publication and live deployment are separate checks.
+- Repository Python question-bank validator: PASS (PR #31 quality-gate workflow).
+- Node question-selection regression tests: PASS.
+- Question-generator JavaScript syntax/compilation checks: PASS.
+- PR #31 merged after the repository quality workflows passed. Merge commit: `a32a65bf8a89a853a66634b6c5163a828b1ba146`.
+- Verified main-branch live-bank counts after merge: 981 total; Paper I 389; Paper II 592. Pre-existing 881 records preserved.
+- Cloudflare Workers production build check after merge: SUCCESS; build ID `ebef1ffa-1361-46f8-969c-ad8d586dc725`, version ID `c4d58cff-b916-4efa-b474-f08f9669ddf7`.
+- The Cloudflare PR check initially reported failure, but the post-merge production build check succeeded. Direct HTTP retrieval of the live Worker page was not accessible from this verification session, so browser-level end-to-end rendering is not independently confirmed.
