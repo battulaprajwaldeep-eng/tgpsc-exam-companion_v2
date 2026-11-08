@@ -36,12 +36,10 @@ No exact or high-similarity matches remained. Repeated or high-overlap candidate
 - Government facts checked against the cited official sources; source links are embedded in each question's `basis` field.
 
 ## Repository quality gate
-The initial GitHub quality-gate run identified two normalised-option collisions; both were corrected. The duplicate-scan implementation was also given mathematically safe SequenceMatcher upper-bound prefilters to reduce runtime without changing the 0.92 warning threshold. A fresh quality-gate run is required after these fixes:
-- `python scripts/validate_question_bank.py`
-- `node question-bank-tests.js`
-- `node --check study-tracker.js`
-- `node --check live-dashboard.js`
-- `python -m py_compile scripts/generate_question_batch.py`
+- Initial validator run caught two option pairs that collapsed under Unicode/punctuation normalisation; both were replaced with distinct wording and matching explanations.
+- The near-duplicate scan now uses mathematically safe `real_quick_ratio()` and `quick_ratio()` upper-bound filters before the full SequenceMatcher calculation. The 0.92 warning threshold and detection semantics are unchanged.
+- Subsequent PR #30 quality gate passed: `python scripts/validate_question_bank.py`, `node question-bank-tests.js`, `node --check study-tracker.js`, `node --check live-dashboard.js`, and `python -m py_compile scripts/generate_question_batch.py`.
+- A final metadata/audit-note update is being rechecked by the same required workflows before merge.
 
 ## Live bank counts after append on branch
 - Total: 881
