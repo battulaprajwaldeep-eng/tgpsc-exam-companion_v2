@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101827"><title>Full Syllabus Coverage | TGPSC Exam Companion</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1220;--panel:#121d30;--panel2:#19263b;--line:#2a3a52;--text:#edf3fb;--muted:#9aabc1;--accent:#79b8ff;--good:#35c98a;--warn:#ffd166;--bad:#ff7777}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui}header,main{max-width:900px;margin:auto;padding:18px}h1{font-size:1.5rem;margin:.2rem 0}h2{font-size:1.2rem}.muted,small{color:var(--muted)}a{color:var(--accent)}.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px;margin:12px 0}.row{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}.pill{font-size:.78rem;border:1px solid var(--line);padding:3px 9px;border-radius:99px}.bar{height:8px;background:var(--panel2);border-radius:9px;overflow:hidden}.bar span{display:block;height:100%;background:var(--accent)}details{border-top:1px solid var(--line);padding:10px 0}summary{cursor:pointer;font-weight:700}.sub{padding:9px 12px;margin:7px 0;background:var(--panel2);border-radius:10px}.status{font-size:.78rem;color:var(--warn)}.filters{display:flex;gap:8px;flex-wrap:wrap}button{background:var(--panel2);color:var(--text);border:1px solid var(--line);padding:9px 12px;border-radius:10px;font:inherit}button.active{background:#203650;border-color:var(--accent)}input{background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:9px;padding:10px;width:100%;font:inherit}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}.kpi{background:var(--panel2);padding:12px;border-radius:12px}.kpi b{font-size:1.5rem;display:block}
+</style></head><body><header><a href="./index.html">← Back to preparation dashboard</a><h1>Full syllabus coverage centre</h1><p class="muted">Official syllabus first. This page audits subtopic and question coverage; it does not pretend a heading or checkbox is a completed lesson.</p></header><main>
+<section class="card"><div class="row"><div><b>Coverage audit</b><p class="muted">Question counts are taken from the currently published bank and matched by official topic ID and subtopic label.</p></div><span class="pill" id="bankState">Loading bank…</span></div><div class="grid" id="summary"></div><p class="muted" id="notice"></p></section>
+<section class="card"><div class="row"><h2>Browse syllabus</h2><input id="search" placeholder="Search topics or subtopics" style="max-width:330px"></div><div class="filters"><button class="active" data-paper="all">All</button><button data-paper="2">Paper II · CSE/IT</button><button data-paper="1">Paper I · General Studies</button></div><div id="topics"></div></section>
+<section class="card"><h2>How coverage is classified</h2><p><b>Listed:</b> appears in the official syllabus transcription.</p><p><b>Questions mapped:</b> at least one live-bank question has this subtopic label. This is not proof of sufficient exam-level practice.</p><p><b>Needs question development:</b> no live-bank question is mapped to the subtopic.</p><p><b>Learning content:</b> this audit does not count a heading as teaching material. Detailed notes, worked examples and verified exam-level question sets must be authored and reviewed separately before a subtopic can be declared learning-complete.</p></section>
+</main>
+<script>
+const P1={
+"p1-01":["Regional current affairs","National current affairs","International current affairs"],
+"p1-02":["International relations","International organisations","Bilateral and multilateral events"],
+"p1-03":["General science","Indian achievements in science","Indian achievements in technology"],
+"p1-04":["Environmental issues","Climate change and biodiversity","Disaster prevention","Disaster mitigation"],
+"p1-05":["Indian economy and development","Telangana economy and development","Social development indicators","Welfare and development programmes"],
+"p1-06":["India physical geography","India social geography","India economic geography"],
+"p1-07":["Telangana physical geography","Telangana social geography","Telangana economic geography","Telangana demography"],
+"p1-08":["Modern Indian history","Socio-economic and cultural developments","Indian national movement"],
+"p1-09":["Telangana history","Telangana socio-economic and cultural history","Telangana statehood movement","Formation of Telangana state"],
+"p1-10":["Indian Constitution","Indian political system","Governance","Public policy"],
+"p1-11":["Social exclusion","Gender rights and inclusion","Caste and tribe issues","Disability rights","Inclusive policies"],
+"p1-12":["Telangana society and culture","Heritage","Arts","Literature"],
+"p1-13":["Telangana state policies","Major state programmes and implementation"],
+"p1-14":["Logical reasoning","Analytical ability","Data interpretation"],
+"p1-15":["Grammar and usage","Vocabulary","Reading comprehension","Sentence structure and basic writing"]
+};
+let syllabus=null,bank=[],paper="all";
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function render(){
+ const target=document.getElementById("topics"),term=document.getElementById("search").value.trim().toLowerCase();
+ if(!syllabus)return;
+ const groups=[...(paper==="all"||paper==="2"?syllabus.paper2.map(t=>({...t,paper:2})):[]),...(paper==="all"||paper==="1"?syllabus.paper1.map(t=>({...t,paper:1})):[])];
+ target.innerHTML=groups.map(t=>{
+  const subs=t.paper===1?(P1[t.id]||[]):String(t.details||"").split(/[;.]/).map(x=>x.trim()).filter(Boolean);
+  const qs=bank.filter(q=>q.topicId===t.id),matched=qs.length;
+  const rows=subs.map(label=>{
+   const n=qs.filter(q=>String(q.subtopic||"").toLowerCase()===label.toLowerCase()).length;
+   const loose=qs.filter(q=>String(q.subtopic||"").toLowerCase().includes(label.toLowerCase())||label.toLowerCase().includes(String(q.subtopic||" ").toLowerCase())).length;
+   const count=Math.max(n,loose);
+   return {label,count};
+  }).filter(x=>(t.title+" "+x.label).toLowerCase().includes(term));
+  if(term&&!t.title.toLowerCase().includes(term)&&!rows.length)return "";
+  const total=rows.length,covered=rows.filter(x=>x.count>0).length;
+  return '<details class="card" open><summary><span class="row"><span>Paper '+t.paper+' · '+esc(t.title)+'</span><span class="pill">'+matched+' bank questions</span></span></summary><p class="muted">'+(t.details?esc(t.details):"Planning breakdown of this official Paper I heading; these subheadings organise study and are not additional notification wording.")+'</p><div class="bar"><span style="width:'+(total?covered/total*100:0)+'%"></span></div><p class="muted">'+covered+' / '+total+' listed study subtopics have a matching or related question label. Exact counts should be reviewed because existing bank labels may be broader.</p>'+rows.map(x=>'<div class="sub"><div class="row"><b>'+esc(x.label)+'</b><span class="pill">'+x.count+' mapped questions</span></div><div class="status">'+(x.count?"Question coverage exists · adequacy and answer quality still require review":"Needs mapped exam-style questions")+'</div></div>').join("")+'</details>';
+ }).join("");
+ if(!target.innerHTML)target.innerHTML='<p class="muted">No matching syllabus items.</p>';
+}
+async function init(){
+ try{
+  const [a,b]=await Promise.all([fetch("./study-data.json",{cache:"no-store"}),fetch("./question-bank.json",{cache:"no-store"})]);
+  if(!a.ok||!b.ok)throw Error("Required syllabus or bank file could not be loaded.");
+  syllabus=(await a.json()).syllabus;bank=(await b.json()).questions||[];
+  const p1=bank.filter(q=>q.paper===1).length,p2=bank.filter(q=>q.paper===2).length;
+  document.getElementById("bankState").textContent=bank.length+" live questions";
+  document.getElementById("summary").innerHTML='<div class="kpi"><b>15</b>Paper I official headings</div><div class="kpi"><b>16</b>Paper II official headings</div><div class="kpi"><b>'+p1+'</b>Paper I bank questions</div><div class="kpi"><b>'+p2+'</b>Paper II bank questions</div>';
+  document.getElementById("notice").textContent="A large question-bank total does not prove full coverage. Use the per-subtopic counts below to find gaps; all questions still need exam-standard and answer-key review.";
+  render();
+ }catch(e){document.getElementById("bankState").textContent="Could not load";document.getElementById("notice").textContent=e.message;}
+}
+document.querySelectorAll("[data-paper]").forEach(b=>b.addEventListener("click",()=>{paper=b.dataset.paper;document.querySelectorAll("[data-paper]").forEach(x=>x.classList.toggle("active",x===b));render()}));
+document.getElementById("search").addEventListener("input",render);init();
+</script></body></html>
