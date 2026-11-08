@@ -1,0 +1,2351 @@
+{
+  "batch": "008",
+  "status": "reviewed",
+  "createdOn": "2026-11-08",
+  "paperSplit": {
+    "paper1": 40,
+    "paper2": 60,
+    "total": 100
+  },
+  "difficultyCounts": {
+    "moderate": 54,
+    "standard": 17,
+    "difficult": 29
+  },
+  "topicCoverage": {
+    "p1-01": 4,
+    "p1-02": 4,
+    "p1-03": 2,
+    "p1-04": 2,
+    "p1-05": 2,
+    "p1-06": 2,
+    "p1-07": 2,
+    "p1-08": 2,
+    "p1-09": 2,
+    "p1-10": 1,
+    "p1-11": 4,
+    "p1-12": 4,
+    "p1-13": 4,
+    "p1-14": 2,
+    "p1-15": 3,
+    "p2-01": 4,
+    "p2-02": 4,
+    "p2-03": 4,
+    "p2-04": 4,
+    "p2-05": 3,
+    "p2-06": 3,
+    "p2-07": 3,
+    "p2-08": 4,
+    "p2-09": 3,
+    "p2-10": 3,
+    "p2-11": 2,
+    "p2-12": 3,
+    "p2-13": 3,
+    "p2-14": 5,
+    "p2-15": 5,
+    "p2-16": 7
+  },
+  "sourceNote": "Exactly 100 original questions mapped to the 31 official topic IDs in study-data.json. Current-affairs, Telangana policy, statutory, cultural and geography facts are sourced to official government, UN, WMO, NASA/ISRO and EU materials; technical questions cite standard textbooks, specifications and RFCs in each question's basis.",
+  "questions": [
+    {
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "subtopic": "ISRO GSLV-F17 / EOS-05 mission",
+      "difficulty": "moderate",
+      "stem": "ISRO's GSLV-F17 mission placed the EOS-05 Earth-observation spacecraft into which orbit, according to the mission description?",
+      "options": [
+        "Geostationary orbit directly",
+        "Sub-Geosynchronous Transfer Orbit (Sub-GTO)",
+        "Low Earth polar orbit",
+        "Lunar transfer orbit"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The mission page specifies Sub-GTO, not direct geostationary insertion.",
+        "Correct. ISRO reports that GSLV-F17 placed EOS-05 into a Sub-Geosynchronous Transfer Orbit.",
+        "A low Earth polar orbit is not the orbit reported for EOS-05.",
+        "The spacecraft is an Earth-observation satellite; the mission was not a lunar transfer."
+      ],
+      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International; source/basis: ISRO, GSLV-F17/EOS-05 Mission page, 29 August 2026: https://new1.isro.gov.in/Mission_GSLVF17.html",
+      "id": "P1-B008-001"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "subtopic": "India AI Impact Summit 2026",
+      "difficulty": "standard",
+      "stem": "The India AI Impact Summit 2026 was scheduled as a five-day programme at which venue and dates?",
+      "options": [
+        "Yashobhoomi, New Delhi, 1–5 March 2026",
+        "Bharat Mandapam, New Delhi, 16–20 February 2026",
+        "Vigyan Bhawan, New Delhi, 10–14 January 2026",
+        "HICC, Hyderabad, 16–20 February 2026"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Yashobhoomi is not the venue specified in the official summit programme.",
+        "Correct. The official IndiaAI material identifies Bharat Mandapam and 16–20 February 2026.",
+        "Those dates and venue do not match the published programme.",
+        "The summit was held in New Delhi, not Hyderabad."
+      ],
+      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International; source/basis: IndiaAI / MeitY official summit material: https://www.impactexpo.indiaai.gov.in/resources/press-media ; PIB, Agenda of Events and Notable Attendees: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2216805",
+      "id": "P1-B008-002"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "subtopic": "Telangana Next-Gen Life Sciences Policy 2026–2030",
+      "difficulty": "moderate",
+      "stem": "Which pair of headline targets is stated in Telangana's Next-Gen Life Sciences Policy 2026–2030?",
+      "options": [
+        "₹25 billion investment and 5,000 jobs",
+        "USD 25 billion investment and 50,000 jobs",
+        "USD 25 billion investment and 500,000 jobs",
+        "USD 5 billion investment and 2 million jobs"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The policy expresses its investment target in US dollars, not rupees.",
+        "The jobs target is ten times larger than 50,000.",
+        "Correct. The official policy portal states USD 25 billion in investment and 500,000 new jobs.",
+        "Neither target matches the policy's stated headline figures."
+      ],
+      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International; source/basis: Invest Telangana, Next-Gen Life Sciences Policy 2026–2030: https://invest.telangana.gov.in/policy-life-sciences/",
+      "id": "P1-B008-003"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "subtopic": "Tholi Mudda breakfast scheme",
+      "difficulty": "standard",
+      "stem": "Telangana's Tholi Mudda initiative, launched in March 2026, was described primarily as a breakfast scheme for which group?",
+      "options": [
+        "Children attending Anganwadi centres",
+        "Students enrolled in engineering colleges",
+        "Pregnant women admitted to district hospitals",
+        "All employees of government offices"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The State release identifies Anganwadi children as the intended beneficiaries.",
+        "The launch release does not describe a college-student breakfast programme.",
+        "The initiative is directed at children in Anganwadi centres, not hospital in-patients.",
+        "Government employees are not the target group stated in the release."
+      ],
+      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International; source/basis: Telangana State Portal, Tholi Mudda launch, 28 March 2026: https://www.telangana.gov.in/news/press-releases/2026/03/honble-cm-sri-a-revanth-reddy-participated-in-launch-of-the-breakfast-scheme-for-anganwadi-children-and-distribution-of-mobiles-to-anganwadi-teachers-at-the-assembly-conference-hall-hyd/",
+      "id": "P1-B008-004"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "EU–India 16th Summit and trade negotiations",
+      "difficulty": "moderate",
+      "stem": "At the 16th EU–India Summit in New Delhi on 27 January 2026, which trade-related milestone did the leaders announce?",
+      "options": [
+        "The immediate entry into force of a customs union",
+        "The successful conclusion of negotiations on an EU–India free trade agreement",
+        "India's accession to the European Single Market",
+        "The replacement of the WTO by a bilateral tariff authority"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A customs union was not the outcome announced at the summit.",
+        "Correct. The Council of the EU records the successful conclusion of negotiations; conclusion of negotiations is not the same as entry into force.",
+        "India did not join the EU Single Market.",
+        "A bilateral summit cannot replace the multilateral WTO system."
+      ],
+      "basis": "Official Paper I syllabus: International Relations and Events; source/basis: Council of the EU, EU–India Summit, 27 January 2026: https://www.consilium.europa.eu/en/meetings/international-summit/2026/01/27/",
+      "id": "P1-B008-005"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "EU–India security and defence partnership",
+      "difficulty": "moderate",
+      "stem": "Which set of subjects is expressly covered by the EU–India security and defence partnership welcomed at the January 2026 summit?",
+      "options": [
+        "Only agricultural tariffs and fisheries",
+        "Only student mobility and tourism",
+        "Maritime security, defence industry and technology, cyber and hybrid threats, space, and counterterrorism",
+        "A common EU–India currency and a joint central bank"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Agricultural tariffs and fisheries are not the partnership's stated security scope.",
+        "Mobility and people-to-people links are separate cooperation areas.",
+        "Correct. The Council's summit summary lists these security and defence fields.",
+        "The partnership does not establish a common currency or central bank."
+      ],
+      "basis": "Official Paper I syllabus: International Relations and Events; source/basis: Council of the EU, EU–India Summit, 27 January 2026: https://www.consilium.europa.eu/en/meetings/international-summit/2026/01/27/",
+      "id": "P1-B008-006"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "International Labour Organization tripartism",
+      "difficulty": "moderate",
+      "stem": "What makes the International Labour Organization's standard governance structure distinctive among international organisations?",
+      "options": [
+        "It gives governments, employers and workers formal representation in a tripartite structure",
+        "It is composed only of national labour ministries",
+        "It is governed exclusively by trade unions",
+        "It has one representative for every multinational corporation"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. ILO tripartism brings together government, employer and worker representatives.",
+        "The ILO is not an exclusively intergovernmental body of labour ministries.",
+        "Workers participate, but they do not govern the organisation alone.",
+        "Employer representation is organised through employer delegates, not one seat for each corporation."
+      ],
+      "basis": "Official Paper I syllabus: International Relations and Events; source/basis: ILO Constitution, Article 3, and ILO description of tripartism: https://www.ilo.org/about-ilo/how-ilo-works",
+      "id": "P1-B008-007"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "International Criminal Court jurisdiction",
+      "difficulty": "difficult",
+      "stem": "Which statement most accurately distinguishes the International Criminal Court (ICC) from the International Court of Justice (ICJ)?",
+      "options": [
+        "The ICC decides maritime boundary disputes between States",
+        "The ICC issues advisory opinions to the UN General Assembly",
+        "The ICC prosecutes States for violating trade agreements",
+        "The ICC may prosecute natural persons for crimes within its Rome Statute jurisdiction"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Maritime boundary disputes between States are matters for the ICJ or other agreed tribunals, not the ICC.",
+        "Advisory opinions are a function of the ICJ, not the ICC.",
+        "Trade-agreement disputes are not crimes prosecuted by the ICC.",
+        "Correct. The Rome Statute establishes individual criminal responsibility for crimes within the Court's jurisdiction."
+      ],
+      "basis": "Official Paper I syllabus: International Relations and Events; source/basis: Rome Statute of the International Criminal Court, Articles 5 and 25: https://www.icc-cpi.int/sites/default/files/2024-05/Rome-Statute-eng.pdf",
+      "id": "P1-B008-008"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "NISAR dual-frequency synthetic aperture radar",
+      "difficulty": "moderate",
+      "stem": "The NASA–ISRO NISAR mission carries two synthetic aperture radar instruments. Which pairing of provider and radar band is correct?",
+      "options": [
+        "NASA—S-band; ISRO—L-band",
+        "NASA—X-band; ISRO—C-band",
+        "NASA—L-band; ISRO—S-band",
+        "NASA—Ku-band; ISRO—Ka-band"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The providers are reversed in this option.",
+        "Neither X-band nor C-band is the stated two-radar pairing.",
+        "Correct. NASA/JPL supplies the L-band radar and ISRO supplies the S-band radar.",
+        "Ku-band and Ka-band are not the two NISAR imaging radar bands."
+      ],
+      "basis": "Official Paper I syllabus: General Science; India’s Achievements in Science and Technology; source/basis: NASA Science, NISAR mission and instruments: https://science.nasa.gov/mission/nisar/ ; ISRO/NASA NISAR mission material",
+      "id": "P1-B008-009"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Photovoltaic effect",
+      "difficulty": "standard",
+      "stem": "In a conventional solar photovoltaic cell, which energy conversion occurs directly at the semiconductor junction?",
+      "options": [
+        "Light energy into electrical energy",
+        "Electrical energy into mechanical energy",
+        "Chemical energy into nuclear energy",
+        "Heat energy into sound energy"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Absorbed photons create charge carriers and a junction field separates them, producing electrical output.",
+        "Mechanical conversion describes a motor, not a photovoltaic cell.",
+        "A photovoltaic junction does not perform nuclear conversion.",
+        "Sound generation is not the operating principle of a photovoltaic cell."
+      ],
+      "basis": "Official Paper I syllabus: General Science; India’s Achievements in Science and Technology; source/basis: NCERT Physics, Semiconductor Electronics; standard photovoltaic-cell operating principle",
+      "id": "P1-B008-010"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Sendai Framework priority for preparedness and Build Back Better",
+      "difficulty": "moderate",
+      "stem": "Under the Sendai Framework for Disaster Risk Reduction 2015–2030, which priority explicitly links preparedness for effective response with 'Build Back Better'?",
+      "options": [
+        "Priority 1: Understanding disaster risk",
+        "Priority 4: Enhancing disaster preparedness for effective response and recovery",
+        "Priority 2: Strengthening disaster risk governance",
+        "Priority 3: Investing in disaster risk reduction for resilience"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Priority 1 concerns understanding hazards, exposure, vulnerability and capacity.",
+        "Correct. Priority 4 explicitly covers preparedness and Build Back Better in recovery, rehabilitation and reconstruction.",
+        "Priority 2 concerns governance arrangements and coordination.",
+        "Priority 3 concerns investment in structural and non-structural risk reduction."
+      ],
+      "basis": "Official Paper I syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies; source/basis: UN Office for Disaster Risk Reduction, Sendai Framework priorities: https://www.undrr.org/implementing-sendai-framework/what-sendai-framework",
+      "id": "P1-B008-011"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "People-centred multi-hazard early-warning system",
+      "difficulty": "difficult",
+      "stem": "Under the WMO's four-pillar model for people-centred multi-hazard early-warning systems, warning dissemination and communication is which pillar?",
+      "options": [
+        "Pillar 1",
+        "Pillar 2",
+        "Pillar 3",
+        "Pillar 4"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Pillar 1 is disaster-risk knowledge.",
+        "Pillar 2 covers detection, observation, monitoring, analysis and forecasting.",
+        "Correct. Pillar 3 communicates warnings to people at risk.",
+        "Pillar 4 concerns preparedness and response capabilities."
+      ],
+      "basis": "Official Paper I syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies; source/basis: World Meteorological Organization, Early Warnings for All: https://wmo.int/activities/early-warnings-all/wmo-and-early-warnings-all-initiative",
+      "id": "P1-B008-012"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "GDP deflator and coverage",
+      "difficulty": "moderate",
+      "stem": "Which statement best distinguishes the GDP deflator from a consumer price index?",
+      "options": [
+        "It measures only prices of imported consumer goods",
+        "It covers prices of domestically produced final goods and services and changes with the composition of domestic output",
+        "It is calculated only from a fixed basket of food items",
+        "It measures changes in the exchange rate rather than prices"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Imports are not the defining coverage of the GDP deflator.",
+        "Correct. The implicit GDP deflator is based on nominal GDP relative to real GDP and covers domestically produced final output.",
+        "A food-only basket is much narrower than the GDP deflator.",
+        "An exchange-rate index is not a GDP price index."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana; source/basis: NCERT, Introductory Macroeconomics, national-income aggregates and price indices; System of National Accounts 2008",
+      "id": "P1-B008-013"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Gini coefficient interpretation",
+      "difficulty": "standard",
+      "stem": "A country reports a Gini coefficient of 0.18 on the conventional 0-to-1 scale. Which interpretation is correct?",
+      "options": [
+        "It indicates greater measured income inequality than a value of 0.72",
+        "It means exactly 18 per cent of the population is poor",
+        "It indicates relatively low measured inequality compared with a value of 0.72",
+        "It proves that every household has identical income"
+      ],
+      "answer": 2,
+      "explanations": [
+        "A lower Gini value indicates less, not more, inequality on this scale.",
+        "The Gini coefficient is not a poverty headcount ratio.",
+        "Correct. Values closer to zero indicate a distribution closer to perfect equality.",
+        "Only a value of zero represents perfect equality in the idealised measure."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana; source/basis: World Bank, Poverty and Inequality Platform, Gini index definition: https://data.worldbank.org/indicator/SI.POV.GINI",
+      "id": "P1-B008-014"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "Physical, Social and Economic Geography of India",
+      "subtopic": "Orographic rainfall and rain-shadow regions",
+      "difficulty": "standard",
+      "stem": "Moist south-west monsoon winds rise over the western slopes of the Western Ghats. Which rainfall pattern is most likely?",
+      "options": [
+        "Heavy orographic rain on the windward side and reduced rainfall in the leeward rain-shadow region",
+        "Heavy rain only on the leeward Deccan side",
+        "No rainfall on either side because the Ghats block all moisture",
+        "Uniform rainfall on both sides regardless of relief"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Forced ascent cools moist air and produces windward rainfall; descending air is drier on the leeward side.",
+        "The leeward plateau is generally the rain-shadow side, not the side of maximum orographic rain.",
+        "The Ghats do not eliminate all rainfall; they redistribute it spatially.",
+        "Relief strongly affects the distribution of monsoon rainfall."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography of India; source/basis: NCERT, India: Physical Environment, Indian monsoon and relief rainfall",
+      "id": "P1-B008-015"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "Physical, Social and Economic Geography of India",
+      "subtopic": "Coriolis effect",
+      "difficulty": "moderate",
+      "stem": "An air parcel moves horizontally over Earth. In the idealised rotating-Earth description, the Coriolis deflection is:",
+      "options": [
+        "To the left in the Northern Hemisphere and to the right in the Southern Hemisphere",
+        "To the right in both hemispheres",
+        "To the right in the Northern Hemisphere and to the left in the Southern Hemisphere, with zero horizontal deflection at the equator",
+        "Always directed towards the equator"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The hemispheric directions are reversed in this option.",
+        "The direction changes sign between hemispheres.",
+        "Correct. The Coriolis parameter changes sign across the equator and is zero at the equator.",
+        "The force is not universally directed towards the equator."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography of India; source/basis: NCERT, Fundamentals of Physical Geography, atmospheric circulation and Coriolis force",
+      "id": "P1-B008-016"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Telangana river-basin area distribution",
+      "difficulty": "moderate",
+      "stem": "According to the Telangana Irrigation and CAD Department, approximately what shares of the State's area lie in the Godavari and Krishna basins, respectively?",
+      "options": [
+        "56% and 43%",
+        "43% and 56%",
+        "70% and 30%",
+        "50% and 50%"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The department reports about 56% in the Godavari basin and 43% in the Krishna basin.",
+        "This reverses the two basin shares.",
+        "The official proportions are not a 70:30 division.",
+        "The two basins do not divide the State equally."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; source/basis: Government of Telangana, Irrigation and CAD Department: https://www.telangana.gov.in/departments/irrigation-and-cad/",
+      "id": "P1-B008-017"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Telangana 2011 Census sex ratio",
+      "difficulty": "standard",
+      "stem": "According to the Government of Telangana's State Profile using Census 2011 figures, what was the State's sex ratio?",
+      "options": [
+        "954 females per 1,000 males",
+        "988 females per 1,000 males",
+        "1,012 females per 1,000 males",
+        "932 females per 1,000 males"
+      ],
+      "answer": 1,
+      "explanations": [
+        "954 is the Hyderabad district figure shown in the State's statistical material, not the State figure.",
+        "Correct. The State Profile reports 988 females per 1,000 males for Telangana in Census 2011.",
+        "The reported State figure was below 1,000.",
+        "932 is the child sex ratio, not the overall sex ratio."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; source/basis: Government of Telangana, State Profile / Census 2011 demographic table: https://www.telangana.gov.in/About/State-Profile/",
+      "id": "P1-B008-018"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Government of India Act 1935 and provincial autonomy",
+      "difficulty": "moderate",
+      "stem": "Which change is correctly associated with the Government of India Act, 1935?",
+      "options": [
+        "It introduced dyarchy in all provinces for the first time",
+        "It abolished provincial legislatures",
+        "It introduced provincial autonomy and ended dyarchy in the provinces",
+        "It immediately established a sovereign republic"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Dyarchy in provinces was introduced by the 1919 Act, not the 1935 Act.",
+        "The 1935 Act provided for provincial legislatures rather than abolishing them.",
+        "Correct. Provincial autonomy replaced provincial dyarchy under the 1935 constitutional scheme.",
+        "The Act did not establish an independent republic."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement; source/basis: Bipan Chandra et al., India's Struggle for Independence; NCERT, Themes in Indian History / constitutional developments",
+      "id": "P1-B008-019"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Lahore Congress and Purna Swaraj",
+      "difficulty": "standard",
+      "stem": "What was the principal political resolution adopted at the Indian National Congress's Lahore Session of December 1929?",
+      "options": [
+        "Acceptance of the Cabinet Mission Plan",
+        "Purna Swaraj or complete independence as the Congress objective",
+        "Acceptance of separate electorates under the 1909 Act",
+        "Creation of the Constituent Assembly under the Cripps proposals"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The Cabinet Mission Plan was presented in 1946.",
+        "Correct. The Lahore Session declared Purna Swaraj as the Congress goal; 26 January 1930 was observed as Independence Day.",
+        "The separate-electorate reforms belong to the Morley–Minto reforms of 1909.",
+        "The Cripps proposals came in 1942 and did not create the Constituent Assembly as stated."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement; source/basis: NCERT, India and the Contemporary World / Bipan Chandra, India's Struggle for Independence",
+      "id": "P1-B008-020"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Hyderabad State Congress, 1938",
+      "difficulty": "moderate",
+      "stem": "The Hyderabad State Congress, formed in 1938 to press for democratic rights in the princely State, was prominently led by whom?",
+      "options": [
+        "Swami Ramananda Tirtha",
+        "Alluri Sitarama Raju",
+        "Tantia Tope",
+        "Dadabhai Naoroji"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. SCERT Telangana identifies Swami Ramananda Tirtha as a prominent leader of the Hyderabad State Congress.",
+        "Alluri Sitarama Raju led the Rampa rebellion in the Madras Presidency in the 1920s.",
+        "Tantia Tope was a leader in the 1857 uprising.",
+        "Dadabhai Naoroji was an early Indian nationalist and Congress leader, not the Hyderabad State Congress leader."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state; source/basis: SCERT Telangana, Class VIII Social Studies, Freedom Movement in Hyderabad State: https://www.scert.telangana.gov.in/pdf/publication/ebooks2019/8th%20social%20em.pdf",
+      "id": "P1-B008-021"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Burgula Ramakrishna Rao and Hyderabad State",
+      "difficulty": "moderate",
+      "stem": "Who is identified in Telangana government historical material as the first elected Chief Minister of the erstwhile Hyderabad State?",
+      "options": [
+        "Konda Venkata Ranga Reddy",
+        "Swami Ramananda Tirtha",
+        "Burgula Ramakrishna Rao",
+        "K. V. Ranga Rao"
+      ],
+      "answer": 2,
+      "explanations": [
+        "K. V. Ranga Reddy was a public figure in the Hyderabad State movement, but not the first elected Chief Minister.",
+        "Swami Ramananda Tirtha was a prominent Hyderabad State Congress leader.",
+        "Correct. Telangana government material identifies Burgula Ramakrishna Rao as the first elected Chief Minister of Hyderabad State.",
+        "This name does not identify the first elected Chief Minister."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state; source/basis: Shadnagar Municipality, Government of Telangana, historical profile of Burgula Ramakrishna Rao: https://shadnagarmunicipality.telangana.gov.in/pages/about-us",
+      "id": "P1-B008-022"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "Article 169 and creation or abolition of State Legislative Councils",
+      "difficulty": "difficult",
+      "stem": "Before Parliament may create or abolish a State Legislative Council under Article 169, what resolution must the State Legislative Assembly pass?",
+      "options": [
+        "A simple majority of members present and voting only",
+        "A majority of the total membership and a majority of not less than two-thirds of members present and voting",
+        "Unanimous approval of both Houses of the State Legislature",
+        "A resolution passed only by the State Legislative Council"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Article 169 requires a special majority, not merely a simple majority of those present and voting.",
+        "Correct. The Assembly must satisfy both the majority of its total membership and the two-thirds-of-members-present-and-voting condition.",
+        "Unanimity of both Houses is not the constitutional requirement; the resolution is passed by the Assembly.",
+        "A State Legislative Council cannot be the sole initiator of the Article 169 resolution."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; source/basis: Constitution of India, Article 169, Legislative Department: https://www.legislative.gov.in/static/uploads/2025/08/7af1daa22d65f9d04c00ae9b9aa5a799.pdf",
+      "id": "P1-B008-023"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "subtopic": "RPwD Act Section 32 higher-education reservation",
+      "difficulty": "moderate",
+      "stem": "Under Section 32 of the Rights of Persons with Disabilities Act, 2016, the minimum reservation in Government and Government-aided higher educational institutions for persons with benchmark disabilities is:",
+      "options": [
+        "Not less than 5% of seats",
+        "Not less than 2% of seats",
+        "Not less than 4% of seats",
+        "Not less than 10% of seats"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Section 32 prescribes not less than five per cent of seats for persons with benchmark disabilities.",
+        "Two per cent is below the statutory minimum.",
+        "Four per cent is the separate reservation level in Government establishments under Section 34, not Section 32 higher education.",
+        "The Act does not prescribe a ten per cent minimum in Section 32."
+      ],
+      "basis": "Official Paper I syllabus: Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies; source/basis: Rights of Persons with Disabilities Act, 2016, Section 32, India Code / official Act text",
+      "id": "P1-B008-024"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "subtopic": "POCSO Act definition of child",
+      "difficulty": "standard",
+      "stem": "For the purposes of the Protection of Children from Sexual Offences Act, 2012, a 'child' means a person:",
+      "options": [
+        "Below 14 years of age",
+        "Below 16 years of age",
+        "Below 18 years of age",
+        "Below 21 years of age"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The statutory definition is not limited to persons below 14.",
+        "The Act uses a higher age threshold than 16.",
+        "Correct. Section 2(d) defines a child as any person below eighteen years of age.",
+        "Twenty-one is not the age threshold in the POCSO definition."
+      ],
+      "basis": "Official Paper I syllabus: Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies; source/basis: Protection of Children from Sexual Offences Act, 2012, Section 2(d), India Code",
+      "id": "P1-B008-025"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "subtopic": "SC/ST Prevention of Atrocities Act special courts",
+      "difficulty": "moderate",
+      "stem": "Section 14 of the Scheduled Castes and the Scheduled Tribes (Prevention of Atrocities) Act, 1989 principally provides for:",
+      "options": [
+        "A national commission to determine caste certificates",
+        "Reservation of seats in Parliament",
+        "A general civil-court appeal against every administrative order",
+        "Special Courts and Exclusive Special Courts for speedy trial of offences under the Act"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Section 14 concerns courts for trial, not caste-certificate administration.",
+        "Parliamentary reservation is governed by constitutional provisions, not this section.",
+        "The section does not create a general civil appeal mechanism.",
+        "Correct. Section 14 provides for Special Courts and Exclusive Special Courts to facilitate speedy trial."
+      ],
+      "basis": "Official Paper I syllabus: Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies; source/basis: Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act, 1989, Section 14, India Code",
+      "id": "P1-B008-026"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "subtopic": "Article 16(4) and public-employment reservation",
+      "difficulty": "difficult",
+      "stem": "Article 16(4) of the Constitution enables the State to make reservation in appointments or posts in favour of:",
+      "options": [
+        "Every citizen without regard to representation in public services",
+        "A backward class of citizens that, in the State's opinion, is not adequately represented in the services under the State",
+        "Only persons below the poverty line",
+        "Only persons who have served in the armed forces"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Article 16(4) is not an unrestricted reservation for every citizen.",
+        "Correct. The clause refers to a backward class of citizens not adequately represented in State services, as assessed by the State.",
+        "Poverty-line status alone is not the test stated in Article 16(4).",
+        "Ex-servicemen provisions are not the subject of Article 16(4)."
+      ],
+      "basis": "Official Paper I syllabus: Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies; source/basis: Constitution of India, Article 16(4), Legislative Department",
+      "id": "P1-B008-027"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Bonalu festival and its principal deity",
+      "difficulty": "standard",
+      "stem": "Bonalu, a major Telangana folk festival celebrated during Ashada Masam, is principally associated with worship of:",
+      "options": [
+        "Lord Venkateswara",
+        "Goddess Mahakali",
+        "Lord Ayyappa",
+        "Lord Subrahmanya"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Venkateswara worship is associated with Tirumala and other Vaishnava traditions.",
+        "Correct. Telangana government descriptions identify Mahakali as the principal deity of Bonalu.",
+        "Ayyappa worship is not the defining association of Bonalu.",
+        "Subrahmanya is not the principal deity identified for Bonalu."
+      ],
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; source/basis: Hyderabad District, Government of Telangana, Bonalu: https://hyderabad.telangana.gov.in/festival/bonalu/",
+      "id": "P1-B008-028"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Banjara needlecraft",
+      "difficulty": "moderate",
+      "stem": "Which feature is especially characteristic of the Banjara needlecraft described by Hyderabad District's cultural profile?",
+      "options": [
+        "Geometric embroidery with contrasting threads, small mirrors, beads and cowrie embellishments",
+        "Only monochrome block printing on paper",
+        "Metal inlay on blackened zinc alloy",
+        "Resist-dyed yarn patterns woven as Pochampally Ikat"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Banjara needlecraft uses colourful embroidery, geometric motifs and embellishments such as mirrors, beads and cowries.",
+        "Block printing on paper is not the described Banjara textile craft.",
+        "Metal inlay on a zinc alloy describes Bidri-type metalwork, not needlecraft.",
+        "Resist-dyeing yarn before weaving describes Ikat, not Banjara embroidery."
+      ],
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; source/basis: Hyderabad District, Government of Telangana, Handicraft / Banjara Needle Crafts: https://hyderabad.telangana.gov.in/handicraft/",
+      "id": "P1-B008-029"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Chindu Bhagavatam as a Telangana performing art",
+      "difficulty": "moderate",
+      "stem": "Chindu Bhagavatam, performed widely in Telangana, is best classified as:",
+      "options": [
+        "A metal-casting technique used for temple icons",
+        "A purely instrumental percussion ensemble",
+        "A theatre form combining dance, music, dialogue, costume and make-up, often narrating Bhagavatam stories",
+        "A form of classical architecture based on star-shaped temples"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Metal casting is a craft process, not this performing art.",
+        "It is not merely an instrumental ensemble.",
+        "Correct. Telangana cultural sources describe Chindu Bhagavatam as a Yakshagana variant integrating theatre, dance, music and dialogue.",
+        "Star-shaped temple plans are architectural features, not a performing-art category."
+      ],
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; source/basis: Telangana State Portal, Language and Culture: https://www.telangana.gov.in/about/language-culture/ ; Suryapet District Culture and Heritage",
+      "id": "P1-B008-030"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Gadwal Sico saree construction",
+      "difficulty": "difficult",
+      "stem": "Which construction detail is characteristic of a traditional Gadwal Sico saree?",
+      "options": [
+        "A body made entirely of wool with a jute border",
+        "A cotton body combined with a silk border and pallu, joined through weaving",
+        "A synthetic body printed after stitching",
+        "A silk body with a paper-fibre border"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Wool and jute are not the defining materials of the traditional Sico saree.",
+        "Correct. Telangana Tourism describes a cotton body with silk border/pallu, joined by weaving; Sico refers to silk-cotton.",
+        "The description is not of a printed synthetic garment.",
+        "Paper fibre is not a traditional Gadwal saree material."
+      ],
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; source/basis: Telangana Tourism, Arts and Crafts—Gadwal Saree: https://tourism.telangana.gov.in/page/arts-crafts",
+      "id": "P1-B008-031"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-13",
+      "topic": "Policies of Telangana State",
+      "subtopic": "Telangana Bhu Bharati Act, 2025",
+      "difficulty": "moderate",
+      "stem": "The Telangana Bhu Bharati (Record of Rights in Land) Act, 2025 is principally concerned with which administrative subject?",
+      "options": [
+        "Regulation of municipal drinking-water tariffs",
+        "Land records and the legal framework for recording rights in land",
+        "Registration of private universities",
+        "Allocation of seats in local bodies"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Municipal water tariffs are not the subject of the Bhu Bharati Act.",
+        "Correct. The Act is explicitly titled the Record of Rights in Land Act.",
+        "Private-university regulation is a separate subject.",
+        "Local-body reservation is not the purpose of this land-records statute."
+      ],
+      "basis": "Official Paper I syllabus: Policies of Telangana State; source/basis: Government of Telangana, Bhu Bharati Act and Rules 2025: https://bhubharati.telangana.gov.in/BhubharatiDocuments",
+      "id": "P1-B008-032"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-13",
+      "topic": "Policies of Telangana State",
+      "subtopic": "Indiramma Indlu housing assistance",
+      "difficulty": "standard",
+      "stem": "Under the Telangana Indiramma Indlu housing scheme, the commonly stated construction assistance for an eligible selected household is:",
+      "options": [
+        "₹1 lakh",
+        "₹2.5 lakh",
+        "₹5 lakh",
+        "₹10 lakh"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The official scheme descriptions specify a larger grant than ₹1 lakh.",
+        "₹2.5 lakh is not the stated standard assistance amount.",
+        "Correct. Government district pages state ₹5 lakh financial assistance for eligible house construction.",
+        "₹10 lakh is not the scheme's standard per-house assistance amount."
+      ],
+      "basis": "Official Paper I syllabus: Policies of Telangana State; source/basis: Government of Telangana district scheme pages, Indiramma Indlu: https://mulugu.telangana.gov.in/scheme/indiramma-indlu/ ; https://kamareddy.telangana.gov.in/scheme/indiramma-indlu-scheme/",
+      "id": "P1-B008-033"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-13",
+      "topic": "Policies of Telangana State",
+      "subtopic": "Maha Lakshmi free bus-travel component",
+      "difficulty": "moderate",
+      "stem": "Which group is included in the free-bus-travel component of Telangana's Maha Lakshmi scheme, according to the State district portal description?",
+      "options": [
+        "Women, girls and transgender persons travelling on eligible TGSRTC services within Telangana",
+        "Only women employed by the State Government",
+        "Only students below 18 years with school identity cards",
+        "All residents of neighbouring States on private buses"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The district portal describes free TGSRTC travel for women, girls and transgender persons within the State.",
+        "The benefit is not restricted to government employees.",
+        "The stated beneficiaries are not limited to school students.",
+        "The scheme concerns eligible TGSRTC services, not private buses or unrestricted travel by all neighbouring-State residents."
+      ],
+      "basis": "Official Paper I syllabus: Policies of Telangana State; source/basis: Mahabubnagar District, Government of Telangana, Maha Lakshmi Scheme: https://mahabubnagar.telangana.gov.in/scheme/maha-lakshmi-scheme/",
+      "id": "P1-B008-034"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-13",
+      "topic": "Policies of Telangana State",
+      "subtopic": "T-PRIDE entrepreneurship incentives",
+      "difficulty": "difficult",
+      "stem": "Telangana's T-PRIDE programme is specifically intended to provide additional industrial incentives to enterprises owned by which groups?",
+      "options": [
+        "Only large foreign-owned corporations",
+        "Only public-sector undertakings",
+        "Only registered agricultural cooperatives",
+        "Scheduled Caste, Scheduled Tribe and persons-with-disabilities entrepreneurs"
+      ],
+      "answer": 3,
+      "explanations": [
+        "T-PRIDE is a targeted inclusion programme, not a general foreign-investor subsidy.",
+        "Public-sector undertakings are not its defined target group.",
+        "Agricultural cooperatives are not the stated beneficiary category.",
+        "Correct. Telangana district industry material describes special/additional T-PRIDE incentives for SC-, ST- and PHC-owned enterprises."
+      ],
+      "basis": "Official Paper I syllabus: Policies of Telangana State; source/basis: Government of Telangana, District Industries Centre, T-IDEA / T-PRIDE: https://suryapet.telangana.gov.in/industries/",
+      "id": "P1-B008-035"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Percentage and proportional reasoning",
+      "difficulty": "moderate",
+      "stem": "A storage tank is 60% full. After 120 litres are added, it becomes 80% full. What is the tank's total capacity?",
+      "options": [
+        "400 litres",
+        "500 litres",
+        "600 litres",
+        "800 litres"
+      ],
+      "answer": 2,
+      "explanations": [
+        "A 400-litre tank would gain only 80 litres between 60% and 80%.",
+        "A 500-litre tank would gain 100 litres over that interval.",
+        "Correct. The 20-percentage-point increase equals 120 litres, so capacity = 120/0.20 = 600 litres.",
+        "An 800-litre tank would require 160 litres for a 20-point increase."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; source/basis: Standard quantitative aptitude: percentages and proportional reasoning; R.S. Aggarwal, Quantitative Aptitude",
+      "id": "P1-B008-036"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Syllogistic reasoning",
+      "difficulty": "moderate",
+      "stem": "Statements: All filtration units are treatment components. No treatment component is disposable. Which conclusion necessarily follows?",
+      "options": [
+        "No filtration unit is disposable",
+        "Some filtration units are disposable",
+        "Every non-disposable object is a filtration unit",
+        "No treatment component is a filtration unit"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Every filtration unit belongs to the treatment-component class, and that class has no disposable members.",
+        "This directly contradicts the second statement when applied to filtration units.",
+        "The premises do not say that all non-disposable objects are filtration units.",
+        "The first statement says filtration units are treatment components, not that the two classes are disjoint."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; source/basis: Standard verbal reasoning: categorical syllogisms; R.S. Aggarwal, A Modern Approach to Verbal & Non-Verbal Reasoning",
+      "id": "P1-B008-037"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "Inversion after 'no sooner'",
+      "difficulty": "standard",
+      "stem": "Choose the grammatically correct completion: “No sooner had the pump started ___ the pressure indicator began to fluctuate.”",
+      "options": [
+        "when",
+        "then",
+        "as",
+        "than"
+      ],
+      "answer": 3,
+      "explanations": [
+        "'No sooner' is conventionally paired with 'than', not 'when'.",
+        "'Then' does not complete the standard correlative construction.",
+        "'As' is not the required conjunction in this pattern.",
+        "Correct. The standard construction is 'No sooner ... than ...', with subject–auxiliary inversion after 'No sooner'."
+      ],
+      "basis": "Official Paper I syllabus: Basic English (10th class Standard); source/basis: Wren & Martin, High School English Grammar and Composition, correlative conjunctions and inversion",
+      "id": "P1-B008-038"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "Vocabulary: prudent",
+      "difficulty": "standard",
+      "stem": "In the sentence “The engineer adopted a prudent maintenance schedule,” the word 'prudent' most nearly means:",
+      "options": [
+        "Reckless",
+        "Careful and sensible",
+        "Unavoidable",
+        "Expensive"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Reckless is nearly the opposite of prudent.",
+        "Correct. Prudent means showing care, good judgement and foresight.",
+        "Unavoidable describes necessity, not judgement.",
+        "Expensive refers to cost and is not the meaning of prudent."
+      ],
+      "basis": "Official Paper I syllabus: Basic English (10th class Standard); source/basis: Oxford Learner's Dictionaries, prudent; standard competitive-exam vocabulary",
+      "id": "P1-B008-039"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "Reported speech and tense backshift",
+      "difficulty": "moderate",
+      "stem": "Choose the correct reported form of: The engineer said, “I am inspecting the valve now.”",
+      "options": [
+        "The engineer said that I am inspecting the valve now.",
+        "The engineer said that he is inspecting the valve tomorrow.",
+        "The engineer said that he was inspecting the valve then.",
+        "The engineer said that he had inspected the valve yesterday."
+      ],
+      "answer": 2,
+      "explanations": [
+        "The pronoun does not normally remain 'I' when reporting the engineer's statement in the third person.",
+        "The tense and time expression have not been adjusted for ordinary indirect speech.",
+        "Correct. Present progressive commonly backshifts to past progressive and 'now' changes to 'then' in this reported context.",
+        "This changes the action to past perfect and 'yesterday', which the original statement did not say."
+      ],
+      "basis": "Official Paper I syllabus: Basic English (10th class Standard); source/basis: Wren & Martin, High School English Grammar and Composition, direct and indirect speech",
+      "id": "P1-B008-040"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Poisson distribution probability",
+      "difficulty": "difficult",
+      "stem": "A call centre receives calls according to a Poisson process with mean 2 calls per minute. What is the probability of receiving exactly two calls in a one-minute interval? (Use e^-2 ≈ 0.1353.)",
+      "options": [
+        "0.1353",
+        "0.2707",
+        "0.4060",
+        "0.5413"
+      ],
+      "answer": 1,
+      "explanations": [
+        "0.1353 is P(X=0) for λ=2, not P(X=2).",
+        "Correct. P(X=2)=e^-2·2²/2!=2e^-2≈0.2707.",
+        "0.4060 is not obtained from the Poisson probability mass function at k=2.",
+        "0.5413 exceeds the exact probability and is not the calculated value."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics; source/basis: Sheldon Ross, A First Course in Probability, Poisson distribution and probability mass function",
+      "id": "P2-B008-001"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Continuous uniform distribution variance",
+      "difficulty": "moderate",
+      "stem": "A random variable X is uniformly distributed over the interval [2,8]. What is Var(X)?",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "12"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. For U(a,b), variance is (b−a)²/12 = 6²/12 = 3.",
+        "6 is the interval width, not the variance.",
+        "9 is the squared half-width, not the variance.",
+        "12 does not follow from the uniform-variance formula."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics; source/basis: Devore, Probability and Statistics for Engineering and the Sciences, continuous uniform distribution",
+      "id": "P2-B008-002"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Normal distribution tail probability",
+      "difficulty": "difficult",
+      "stem": "Suppose X is normally distributed with mean 70 and standard deviation 10. Approximately what is P(X > 85)?",
+      "options": [
+        "0.9332",
+        "0.5000",
+        "0.1587",
+        "0.0668"
+      ],
+      "answer": 3,
+      "explanations": [
+        "0.9332 is approximately P(X<85), the complementary tail.",
+        "0.5 is the probability above the mean 70, not above 85.",
+        "0.1587 is the upper-tail probability beyond z=1, not z=1.5.",
+        "Correct. z=(85−70)/10=1.5 and P(Z>1.5)≈0.0668."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics; source/basis: Standard normal distribution table; Devore, Probability and Statistics for Engineering and the Sciences",
+      "id": "P2-B008-003"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Variance under affine transformation",
+      "difficulty": "moderate",
+      "stem": "A random variable X has variance 4. If Y=3X+5, what is Var(Y)?",
+      "options": [
+        "12",
+        "17",
+        "36",
+        "41"
+      ],
+      "answer": 2,
+      "explanations": [
+        "12 is 3·Var(X), but variance scales by the square of the multiplier.",
+        "17 incorrectly adds the constant 5 to a variance.",
+        "Correct. Var(aX+b)=a²Var(X), so Var(Y)=3²×4=36.",
+        "41 incorrectly adds both the scale and constant rather than applying the variance rule."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics; source/basis: Casella and Berger, Statistical Inference, expectation and variance under transformations",
+      "id": "P2-B008-004"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Cayley–Hamilton theorem",
+      "difficulty": "difficult",
+      "stem": "Which statement is the Cayley–Hamilton theorem for a square matrix A?",
+      "options": [
+        "A is always equal to its transpose",
+        "Every eigenvalue of A is zero",
+        "A commutes with every matrix of the same order",
+        "A satisfies its own characteristic polynomial"
+      ],
+      "answer": 3,
+      "explanations": [
+        "The theorem does not assert that A is symmetric.",
+        "It does not force all eigenvalues to be zero.",
+        "Commutativity with every same-order matrix is false in general.",
+        "Correct. If p(λ)=det(λI−A) is the characteristic polynomial, then p(A)=0."
+      ],
+      "basis": "Official Paper II syllabus: Set Theory & Algebra; Linear Algebra; source/basis: Lay, Linear Algebra and Its Applications; standard Cayley–Hamilton theorem",
+      "id": "P2-B008-005"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Generators of a finite cyclic group",
+      "difficulty": "moderate",
+      "stem": "How many generators does a cyclic group of order 18 have?",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "18"
+      ],
+      "answer": 1,
+      "explanations": [
+        "φ(18)=6, not 3.",
+        "Correct. A cyclic group of order n has φ(n) generators; φ(18)=18(1−1/2)(1−1/3)=6.",
+        "9 elements are not generators of a cyclic group of order 18.",
+        "A cyclic group of order 18 has 18 elements but only six generators."
+      ],
+      "basis": "Official Paper II syllabus: Set Theory & Algebra; Linear Algebra; source/basis: Gallian, Contemporary Abstract Algebra, cyclic groups and Euler's totient function",
+      "id": "P2-B008-006"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Multiplicative inverse modulo n",
+      "difficulty": "moderate",
+      "stem": "What is the multiplicative inverse of 12 modulo 35?",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "3"
+      ],
+      "answer": 3,
+      "explanations": [
+        "12×2=24, which is not congruent to 1 modulo 35.",
+        "12×4=48≡13 (mod 35), not 1.",
+        "12×5=60≡25 (mod 35), not 1.",
+        "Correct. 12×3=36≡1 (mod 35), so 3 is the inverse."
+      ],
+      "basis": "Official Paper II syllabus: Set Theory & Algebra; Linear Algebra; source/basis: Rosen, Discrete Mathematics and Its Applications, modular arithmetic and inverses",
+      "id": "P2-B008-007"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Kernel of a group homomorphism",
+      "difficulty": "difficult",
+      "stem": "For a group homomorphism φ:G→H, which property must the kernel ker(φ) have?",
+      "options": [
+        "It is a normal subgroup of G",
+        "It must equal G in every homomorphism",
+        "It must contain every element of H",
+        "It must be a cyclic subgroup of prime order"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The kernel is a subgroup and is normal because gkg⁻¹ maps to the identity for every g∈G and k∈ker(φ).",
+        "The kernel equals G only for the trivial homomorphism, not every homomorphism.",
+        "The kernel is a subset of G, not H.",
+        "A kernel need not be cyclic or have prime order."
+      ],
+      "basis": "Official Paper II syllabus: Set Theory & Algebra; Linear Algebra; source/basis: Gallian, Contemporary Abstract Algebra, kernels and normal subgroups",
+      "id": "P2-B008-008"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Solving a first-order linear recurrence",
+      "difficulty": "moderate",
+      "stem": "Let a₀=1 and aₙ=3aₙ₋₁+2 for n≥1. Which closed form satisfies this recurrence?",
+      "options": [
+        "3ⁿ+1",
+        "2·3ⁿ−1",
+        "2ⁿ+3",
+        "3ⁿ−2"
+      ],
+      "answer": 1,
+      "explanations": [
+        "For n=0 this gives 2, not the required a₀=1.",
+        "Correct. At n=0 it gives 1; substituting gives 3(2·3ⁿ⁻¹−1)+2=2·3ⁿ−1.",
+        "At n=0 this gives 4, not 1, and it does not satisfy the recurrence.",
+        "At n=0 this gives −1, not 1."
+      ],
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; source/basis: Rosen, Discrete Mathematics and Its Applications, recurrence relations",
+      "id": "P2-B008-009"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Inclusion–exclusion for three finite sets",
+      "difficulty": "difficult",
+      "stem": "Three sets A, B and C have sizes 40, 35 and 30. Their pairwise intersections have sizes 10, 8 and 6, and |A∩B∩C|=3. What is |A∪B∪C|?",
+      "options": [
+        "78",
+        "81",
+        "84",
+        "90"
+      ],
+      "answer": 2,
+      "explanations": [
+        "78 omits the required correction for the triple intersection.",
+        "81 is the sum of individual sizes minus pairwise intersections, without adding the triple intersection back.",
+        "Correct. 40+35+30−10−8−6+3=84.",
+        "90 is the sum of the three set sizes and ignores all overlaps."
+      ],
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; source/basis: Rosen, Discrete Mathematics and Its Applications, principle of inclusion–exclusion",
+      "id": "P2-B008-010"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Euler trail and odd-degree vertices",
+      "difficulty": "moderate",
+      "stem": "A connected undirected graph has exactly two vertices of odd degree. Which statement is necessarily true?",
+      "options": [
+        "It has an Euler circuit but no Euler trail",
+        "It has neither an Euler trail nor an Euler circuit",
+        "It has an Euler trail using every edge exactly once, but no Euler circuit",
+        "It must be a tree"
+      ],
+      "answer": 2,
+      "explanations": [
+        "An Euler circuit requires every vertex to have even degree.",
+        "A connected graph with two odd-degree vertices does have an Euler trail.",
+        "Correct. A connected graph has an Euler trail exactly when it has zero or two odd-degree vertices; with two, it has no Euler circuit.",
+        "The degree condition does not imply that the graph is acyclic or a tree."
+      ],
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; source/basis: Rosen, Discrete Mathematics and Its Applications, Euler trails and circuits",
+      "id": "P2-B008-011"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Counting binary strings with no consecutive ones",
+      "difficulty": "difficult",
+      "stem": "How many binary strings of length 6 contain no two consecutive 1s?",
+      "options": [
+        "13",
+        "18",
+        "21",
+        "32"
+      ],
+      "answer": 2,
+      "explanations": [
+        "13 is too small; the count follows the Fibonacci recurrence with initial values 1,2.",
+        "18 is not the Fibonacci count for length 6.",
+        "Correct. If f(n) counts such strings, f(n)=f(n−1)+f(n−2), f(1)=2 and f(2)=3; hence f(6)=21.",
+        "32 counts all binary strings without restricting adjacent 1s."
+      ],
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; source/basis: Rosen, Discrete Mathematics and Its Applications, recurrence counting",
+      "id": "P2-B008-012"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "NOR SR latch forbidden input",
+      "difficulty": "moderate",
+      "stem": "For a cross-coupled NOR SR latch with active-high S and R inputs, which input combination is the forbidden or invalid condition?",
+      "options": [
+        "S=1, R=1",
+        "S=1, R=0",
+        "S=0, R=1",
+        "S=0, R=0"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. With both NOR inputs asserted, both outputs are driven low, violating the complementary-state requirement; release can lead to an indeterminate state.",
+        "S=1, R=0 is the set condition for the conventional NOR latch.",
+        "S=0, R=1 is the reset condition.",
+        "S=0, R=0 is the hold condition for a NOR SR latch."
+      ],
+      "basis": "Official Paper II syllabus: Digital Logic; source/basis: Mano and Ciletti, Digital Design, SR latch truth table",
+      "id": "P2-B008-013"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Static-1 hazard in sum-of-products logic",
+      "difficulty": "difficult",
+      "stem": "In a two-level sum-of-products circuit, two adjacent input combinations both produce output 1, but the corresponding minterms are covered by separate product terms with no common implicant. Which correction most directly removes the resulting static-1 hazard?",
+      "options": [
+        "Delete one of the product terms",
+        "Add a redundant consensus/bridging product term that covers the adjacent transition",
+        "Invert the output permanently",
+        "Replace every AND gate with an OR gate"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Deleting a required product term may change the Boolean function rather than remove only the hazard.",
+        "Correct. A redundant consensus term provides overlapping coverage during the input transition and removes the static-1 hazard.",
+        "Inverting the output changes the function and does not solve the hazard as stated.",
+        "Replacing gate types indiscriminately changes the implemented logic."
+      ],
+      "basis": "Official Paper II syllabus: Digital Logic; source/basis: Mano and Ciletti, Digital Design, hazards in combinational circuits",
+      "id": "P2-B008-014"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Implementing a Boolean function with a 4-to-1 multiplexer",
+      "difficulty": "difficult",
+      "stem": "A 4-to-1 multiplexer uses A and B as its select inputs to implement F(A,B,C)=Σm(1,2,6,7), with A as the most significant variable. Which data-input assignment (D0,D1,D2,D3) is correct for select codes AB=00,01,10,11?",
+      "options": [
+        "(C, C′, 0, 1)",
+        "(C′, C, 1, 0)",
+        "(0, 1, C, C′)",
+        "(1, 0, C′, C)"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. For AB=00, F=C; for 01, F=C′; for 10, F=0; for 11, F=1.",
+        "This reverses the first two cofactors and the last two constants.",
+        "This assigns the cofactors to the wrong select combinations.",
+        "This also assigns the cofactors and constants to the wrong select codes."
+      ],
+      "basis": "Official Paper II syllabus: Digital Logic; source/basis: Mano and Ciletti, Digital Design, Shannon expansion and multiplexer implementation",
+      "id": "P2-B008-015"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "BCD adder correction",
+      "difficulty": "moderate",
+      "stem": "After adding two valid BCD digits, when must a BCD adder add 0110₂ to the four-bit sum?",
+      "options": [
+        "Whenever the binary sum is odd",
+        "Only when the lower digit is zero",
+        "When the four-bit sum exceeds 1001₂ or a carry out occurs",
+        "Whenever the sum is less than 1001₂"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Oddness of the sum is unrelated to BCD correction.",
+        "A zero lower digit is not the correction condition.",
+        "Correct. A binary sum above 9 is not a valid BCD digit; adding six corrects the digit, including the carry-out case.",
+        "A sum below or equal to 9 is already a valid BCD digit and needs no correction."
+      ],
+      "basis": "Official Paper II syllabus: Digital Logic; source/basis: Mano and Ciletti, Digital Design, BCD addition",
+      "id": "P2-B008-016"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Direct-mapped cache line selection",
+      "difficulty": "moderate",
+      "stem": "A direct-mapped cache contains 64 lines. Main-memory block number 130 is referenced. Using zero-based line numbering, which cache line is selected?",
+      "options": [
+        "0",
+        "2",
+        "4",
+        "6"
+      ],
+      "answer": 1,
+      "explanations": [
+        "130 mod 64 is not 0.",
+        "Correct. The line index is block number modulo number of lines: 130 mod 64=2.",
+        "4 is not the remainder of 130 divided by 64.",
+        "6 is not the remainder of 130 divided by 64."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; source/basis: Patterson and Hennessy, Computer Organization and Design, direct-mapped cache indexing",
+      "id": "P2-B008-017"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "DMA cycle stealing",
+      "difficulty": "moderate",
+      "stem": "In cycle-stealing Direct Memory Access (DMA), what does the DMA controller do?",
+      "options": [
+        "It takes individual memory/bus cycles for transfers, temporarily delaying the CPU's use of the bus",
+        "It permanently disables the CPU while a device transfers data",
+        "It copies every byte through a CPU register and is therefore programmed I/O",
+        "It changes the virtual address space of the process"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Cycle stealing interleaves DMA transfers with CPU activity by taking selected bus cycles.",
+        "The CPU is not permanently disabled; this describes an extreme burst-transfer misconception.",
+        "DMA is specifically intended to avoid requiring the CPU to move each byte through its registers.",
+        "DMA does not alter a process's virtual address space."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; source/basis: Stallings, Computer Organization and Architecture, DMA transfer modes",
+      "id": "P2-B008-018"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Ideal pipeline execution time",
+      "difficulty": "difficult",
+      "stem": "A five-stage instruction pipeline executes 20 instructions with no stalls, no fill/drain overhead beyond the stages, and one instruction entering each cycle. How many clock cycles are required to complete all instructions?",
+      "options": [
+        "20",
+        "23",
+        "24",
+        "100"
+      ],
+      "answer": 2,
+      "explanations": [
+        "20 cycles would ignore the initial pipeline fill.",
+        "23 omits one of the five stages in the fill-plus-throughput calculation.",
+        "Correct. Ideal cycles = k+n−1 = 5+20−1 = 24.",
+        "100 cycles is the unpipelined total for five stages per instruction."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; source/basis: Patterson and Hennessy, Computer Organization and Design, pipeline latency and throughput",
+      "id": "P2-B008-019"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C pointer arithmetic on arrays",
+      "difficulty": "standard",
+      "stem": "In C, let `int a[6] = {4, 7, 9, 12, 15, 18}; int *p = a;`. What value is produced by `*(p + 3)`?",
+      "options": [
+        "4",
+        "9",
+        "12",
+        "15"
+      ],
+      "answer": 2,
+      "explanations": [
+        "p points to a[0], so this is not the first element.",
+        "p+2 would point to a[2], whose value is 9.",
+        "Correct. Pointer addition is scaled by the pointed-to type; p+3 points to a[3], whose value is 12.",
+        "p+4 points to a[4], whose value is 15."
+      ],
+      "basis": "Official Paper II syllabus: Programming and Data Structures; source/basis: ISO C11 draft N1570, pointer arithmetic and array subscripting, §§6.5.2.1 and 6.5.6",
+      "id": "P2-B008-020"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Circular queue full condition with one reserved slot",
+      "difficulty": "moderate",
+      "stem": "A circular queue of array capacity N uses the convention that one slot is always left unused to distinguish full from empty. With `front` pointing to the first element and `rear` to the next insertion position, which condition indicates that the queue is full?",
+      "options": [
+        "front == rear",
+        "(rear + 1) % N == front",
+        "rear == N",
+        "front == 0"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Under this representation, front==rear denotes the empty queue.",
+        "Correct. Advancing rear by one modulo N would collide with front, so the reserved-slot queue is full.",
+        "rear may wrap around and need not equal N.",
+        "front being zero says nothing by itself about fullness."
+      ],
+      "basis": "Official Paper II syllabus: Programming and Data Structures; source/basis: Mark Allen Weiss, Data Structures and Algorithm Analysis, circular-array queue implementation",
+      "id": "P2-B008-021"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Floyd cycle-detection algorithm",
+      "difficulty": "moderate",
+      "stem": "In Floyd's tortoise-and-hare algorithm for detecting a cycle in a singly linked list, how are the two pointers advanced during each iteration?",
+      "options": [
+        "Both pointers advance by one node",
+        "The slow pointer advances by two nodes and the fast pointer by one",
+        "The slow pointer advances by one node and the fast pointer by two",
+        "The fast pointer moves to the last node on every iteration"
+      ],
+      "answer": 2,
+      "explanations": [
+        "If both move at the same speed, the method cannot force a catch-up within a cycle.",
+        "The speeds are reversed in this option.",
+        "Correct. The fast pointer gains one node per iteration relative to the slow pointer and eventually meets it if a cycle exists.",
+        "The fast pointer follows links; it does not jump directly to the last node."
+      ],
+      "basis": "Official Paper II syllabus: Programming and Data Structures; source/basis: Weiss, Data Structures and Algorithm Analysis, linked-list cycle detection",
+      "id": "P2-B008-022"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Counting sort complexity",
+      "difficulty": "moderate",
+      "stem": "Counting sort is applied to n integer keys known to lie in the range 0 through k. What is its standard time complexity?",
+      "options": [
+        "Θ(n log n)",
+        "Θ(n+k)",
+        "Θ(k log n)",
+        "Θ(n²)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Counting sort is not comparison-based and does not require n log n comparisons.",
+        "Correct. Counting the key frequencies, forming cumulative counts and placing the n items takes Θ(n+k) time.",
+        "There is no k log n sorting step in the standard algorithm.",
+        "Quadratic time is not the standard counting-sort bound."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; source/basis: CLRS, Introduction to Algorithms, 4th ed., counting sort",
+      "id": "P2-B008-023"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Bellman–Ford shortest paths",
+      "difficulty": "difficult",
+      "stem": "Which statement about the Bellman–Ford single-source shortest-path algorithm is correct?",
+      "options": [
+        "It requires all edge weights to be non-negative",
+        "It works only on undirected acyclic graphs",
+        "It cannot detect negative-weight cycles",
+        "It supports negative edge weights and can detect a reachable negative-weight cycle"
+      ],
+      "answer": 3,
+      "explanations": [
+        "The non-negative-weight restriction is associated with Dijkstra's algorithm, not Bellman–Ford.",
+        "Bellman–Ford applies to directed graphs and does not require acyclicity.",
+        "An additional relaxation pass can reveal a reachable negative-weight cycle.",
+        "Correct. Bellman–Ford relaxes edges repeatedly and reports a reachable negative cycle if further relaxation remains possible."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; source/basis: CLRS, Introduction to Algorithms, 4th ed., Bellman–Ford algorithm",
+      "id": "P2-B008-024"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "A* search and admissible heuristics",
+      "difficulty": "difficult",
+      "stem": "In A* search for a shortest path, a heuristic h(n) is admissible when it:",
+      "options": [
+        "Never overestimates the true minimum remaining cost to a goal",
+        "Always equals the exact remaining cost",
+        "Is greater than the true remaining cost at every non-goal node",
+        "Depends only on the number of edges already traversed"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. An admissible heuristic is optimistic: h(n)≤h*(n) for every node.",
+        "Equality is sufficient but not required; an admissible heuristic may underestimate.",
+        "Overestimation violates admissibility and can destroy the optimality guarantee.",
+        "The heuristic estimates remaining cost, not merely the path already travelled."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; source/basis: Russell and Norvig, Artificial Intelligence: A Modern Approach, A* search and admissible heuristics",
+      "id": "P2-B008-025"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Closure of deterministic context-free languages under complement",
+      "difficulty": "difficult",
+      "stem": "Which closure property is guaranteed for deterministic context-free languages (DCFLs)?",
+      "options": [
+        "Closure under arbitrary intersection of two DCFLs",
+        "Closure under complement",
+        "Closure under arbitrary union of two DCFLs",
+        "Closure under reversal in every case"
+      ],
+      "answer": 1,
+      "explanations": [
+        "DCFLs are not closed under arbitrary intersection.",
+        "Correct. A deterministic pushdown automaton can be complemented by exchanging accepting and rejecting outcomes after ensuring the machine halts appropriately.",
+        "DCFLs are not closed under arbitrary union.",
+        "Reversal is not a general closure property of DCFLs."
+      ],
+      "basis": "Official Paper II syllabus: Theory of Computation; source/basis: Hopcroft, Motwani and Ullman, Introduction to Automata Theory, Languages, and Computation, deterministic context-free languages",
+      "id": "P2-B008-026"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Rice's theorem",
+      "difficulty": "difficult",
+      "stem": "Rice's theorem states that which class of properties of Turing-machine-recognisable languages is undecidable?",
+      "options": [
+        "Every syntactic property of a machine's state names",
+        "Only properties concerning the number of tape symbols",
+        "Every non-trivial semantic property of the language/function recognised or computed",
+        "Only properties of finite automata"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Renaming states is a syntactic change and is not the subject of Rice's theorem.",
+        "The theorem is not restricted to tape-alphabet size.",
+        "Correct. Any non-trivial property depending on the language/function recognised by a Turing machine is undecidable in general.",
+        "Rice's theorem concerns Turing-computable behaviour, not only finite automata."
+      ],
+      "basis": "Official Paper II syllabus: Theory of Computation; source/basis: Sipser, Introduction to the Theory of Computation, 3rd ed., Rice's theorem",
+      "id": "P2-B008-027"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Linear bounded automata and context-sensitive languages",
+      "difficulty": "moderate",
+      "stem": "Which computational model characterises the class of context-sensitive languages?",
+      "options": [
+        "Finite automata",
+        "Pushdown automata with one stack",
+        "Unrestricted Turing machines with no space bound",
+        "Linear bounded automata"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Finite automata recognise regular languages.",
+        "Pushdown automata characterise context-free languages.",
+        "Unrestricted Turing machines recognise recursively enumerable languages.",
+        "Correct. Context-sensitive languages are exactly those recognised by linear bounded automata."
+      ],
+      "basis": "Official Paper II syllabus: Theory of Computation; source/basis: Sipser, Introduction to the Theory of Computation, 3rd ed., context-sensitive languages",
+      "id": "P2-B008-028"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Ambiguous context-free grammar",
+      "difficulty": "moderate",
+      "stem": "A context-free grammar is ambiguous if there exists at least one string in its language that:",
+      "options": [
+        "Has two distinct parse trees (equivalently, two distinct leftmost derivations)",
+        "Cannot be generated by any derivation",
+        "Contains no terminal symbols",
+        "Has exactly one derivation of every possible type"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Ambiguity requires at least one string with more than one distinct parse tree or leftmost derivation.",
+        "A string generated by the grammar is not un-generable.",
+        "A string may contain terminals; ambiguity is about its structural derivations.",
+        "Ambiguity is the existence of multiple parse structures, not uniqueness."
+      ],
+      "basis": "Official Paper II syllabus: Theory of Computation; source/basis: Hopcroft, Motwani and Ullman, Introduction to Automata Theory, Languages, and Computation, CFG ambiguity",
+      "id": "P2-B008-029"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Elimination of direct left recursion",
+      "difficulty": "moderate",
+      "stem": "For a grammar production A→Aα | β, where β does not begin with A, which standard transformation removes this direct left recursion?",
+      "options": [
+        "A→Aβ; β→α",
+        "A→βA′; A′→αA′ | ε",
+        "A→αβ; A′→ε",
+        "A→β; A′→Aα"
+      ],
+      "answer": 1,
+      "explanations": [
+        "This retains direct left recursion in A.",
+        "Correct. The transformed grammar first derives β and then repeats α through A′, with ε allowing termination.",
+        "This does not preserve the original language in general.",
+        "This does not express the repeated α suffix correctly."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; source/basis: Aho, Lam, Sethi and Ullman, Compilers: Principles, Techniques, and Tools, 2nd ed., left-recursion elimination",
+      "id": "P2-B008-030"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "LL(1) predictive parsing table conflict",
+      "difficulty": "difficult",
+      "stem": "During construction of an LL(1) predictive parsing table, two different productions for the same nonterminal are entered in the same table cell M[A,a]. What does this indicate?",
+      "options": [
+        "The grammar is necessarily regular",
+        "The grammar has no ε-productions",
+        "The grammar is not LL(1) as written because the parser cannot choose a unique production using one lookahead symbol",
+        "The grammar is automatically unambiguous"
+      ],
+      "answer": 2,
+      "explanations": [
+        "A parsing-table conflict does not imply regularity.",
+        "A conflict can occur with or without ε-productions.",
+        "Correct. An LL(1) parser must have at most one production in each table entry for a nonterminal and lookahead terminal.",
+        "A table conflict does not prove that the grammar is unambiguous."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; source/basis: Aho, Lam, Sethi and Ullman, Compilers: Principles, Techniques, and Tools, 2nd ed., LL(1) parsing tables",
+      "id": "P2-B008-031"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Synthesized attributes in syntax-directed translation",
+      "difficulty": "moderate",
+      "stem": "In an attribute grammar, a synthesized attribute of a parse-tree node is normally computed from:",
+      "options": [
+        "Attributes of its parent only",
+        "The lexical order of all tokens in the source file",
+        "The node's future siblings only",
+        "Attributes of the node's children and local information"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Attributes passed from a parent to a child are inherited attributes, not synthesized ones.",
+        "Token order alone is not the defining rule for a synthesized attribute.",
+        "A synthesized attribute is computed bottom-up from the node's descendants, not from future siblings.",
+        "Correct. Synthesized attributes flow from child nodes towards their parent in the parse tree."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; source/basis: Aho, Lam, Sethi and Ullman, Compilers: Principles, Techniques, and Tools, syntax-directed definitions",
+      "id": "P2-B008-032"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Banker's algorithm and safe states",
+      "difficulty": "moderate",
+      "stem": "In the Banker's deadlock-avoidance algorithm, a state is safe when:",
+      "options": [
+        "At least one process has a zero maximum resource claim",
+        "A sequence exists in which every process can obtain its remaining need, finish, and release its allocation",
+        "No process currently holds any resource",
+        "The total number of resources is greater than the number of processes"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A zero maximum claim is not required for safety.",
+        "Correct. A safe sequence demonstrates that all processes can finish in some order using currently available resources plus resources released by completed processes.",
+        "Processes may hold resources in a safe state.",
+        "A numerical comparison between total resources and process count is not the safety criterion."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; source/basis: Silberschatz, Galvin and Gagne, Operating System Concepts, deadlock avoidance",
+      "id": "P2-B008-033"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "LRU stack property and Belady's anomaly",
+      "difficulty": "difficult",
+      "stem": "Which statement about the Least Recently Used (LRU) page-replacement algorithm is correct?",
+      "options": [
+        "LRU is a stack algorithm and therefore does not exhibit Belady's anomaly",
+        "LRU always produces more page faults than FIFO",
+        "LRU requires the reference string to be sorted by page number",
+        "LRU replaces the page with the largest virtual address"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. LRU has the stack/inclusion property: increasing the number of frames cannot increase its page-fault count.",
+        "There is no universal rule that LRU produces more faults than FIFO.",
+        "Page references are processed in their temporal order, not sorted by page number.",
+        "Replacement is based on recency of use, not virtual-address magnitude."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; source/basis: Silberschatz, Galvin and Gagne, Operating System Concepts, LRU and stack algorithms",
+      "id": "P2-B008-034"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "LOOK disk-scheduling algorithm",
+      "difficulty": "moderate",
+      "stem": "How does LOOK disk scheduling differ from SCAN?",
+      "options": [
+        "LOOK always moves to cylinder zero before reversing",
+        "LOOK reverses direction only after a fixed time quantum",
+        "LOOK reverses at the last pending request in the current direction instead of travelling to the physical end of the disk",
+        "LOOK serves requests in random order"
+      ],
+      "answer": 2,
+      "explanations": [
+        "LOOK need not travel to cylinder zero unless it is the last request in that direction.",
+        "A time quantum is not the LOOK reversal rule.",
+        "Correct. LOOK 'looks' for the final request in the current direction and reverses there, avoiding unnecessary travel to the disk boundary.",
+        "Random service describes neither LOOK nor SCAN."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; source/basis: Silberschatz, Galvin and Gagne, Operating System Concepts, disk scheduling",
+      "id": "P2-B008-035"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "SQL window function ROW_NUMBER",
+      "difficulty": "moderate",
+      "stem": "What does `ROW_NUMBER() OVER (PARTITION BY department ORDER BY salary DESC)` produce in a SQL query?",
+      "options": [
+        "One aggregated row per department",
+        "A unique sequential row number within each department partition, ordered by descending salary",
+        "A count of all employees with the same salary",
+        "A ranking that always assigns equal numbers to tied salaries"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The window function does not collapse rows into one aggregate row per department.",
+        "Correct. ROW_NUMBER assigns 1, 2, 3, ... separately within each department partition according to the specified ordering.",
+        "It does not count employees by salary.",
+        "Tied sort values still receive distinct row numbers; RANK or DENSE_RANK behave differently."
+      ],
+      "basis": "Official Paper II syllabus: Databases; source/basis: PostgreSQL documentation, window functions; Elmasri and Navathe, Fundamentals of Database Systems",
+      "id": "P2-B008-036"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Multi-version concurrency control",
+      "difficulty": "difficult",
+      "stem": "What is the principal concurrency benefit of multi-version concurrency control (MVCC) in a transactional database?",
+      "options": [
+        "It eliminates the need for transaction isolation",
+        "It stores only one physical version of every row",
+        "It forces every reader to acquire an exclusive lock on every row",
+        "It can let readers use a consistent snapshot while writers create newer row versions"
+      ],
+      "answer": 3,
+      "explanations": [
+        "MVCC does not eliminate isolation semantics; it is one way to implement them.",
+        "Multiple versions, rather than only one, are central to MVCC.",
+        "Readers generally do not need exclusive locks merely to read an MVCC snapshot.",
+        "Correct. Versioned reads can avoid many read-write blocking conflicts while preserving a transactionally consistent snapshot."
+      ],
+      "basis": "Official Paper II syllabus: Databases; source/basis: PostgreSQL documentation, MVCC introduction; Elmasri and Navathe, Fundamentals of Database Systems",
+      "id": "P2-B008-037"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Cyclomatic complexity calculation",
+      "difficulty": "moderate",
+      "stem": "A control-flow graph has E=10 edges, N=8 nodes and one connected component (P=1). What is its cyclomatic complexity?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "explanations": [
+        "E−N+2P is not 2 for these values.",
+        "The result is not 3 when the component term is included.",
+        "Correct. V(G)=E−N+2P=10−8+2=4.",
+        "5 would require one additional edge or a different graph count."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering; source/basis: McCabe, A Complexity Measure; Pressman and Maxim, Software Engineering, cyclomatic complexity",
+      "id": "P2-B008-038"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Mutation testing",
+      "difficulty": "moderate",
+      "stem": "What is the primary purpose of mutation testing in software quality assurance?",
+      "options": [
+        "To measure execution speed under maximum load",
+        "To assess whether a test suite detects small, deliberately introduced faults in the program",
+        "To automatically convert source code from one language to another",
+        "To prove that the program contains no defects"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Performance benchmarking is a different testing activity.",
+        "Correct. Mutants are small program changes; tests that detect them provide evidence about the fault-detection strength of the test suite.",
+        "Language translation is not the purpose of mutation testing.",
+        "No practical test technique proves the complete absence of all defects."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering; source/basis: ISTQB Foundation Level syllabus, test techniques; Pressman and Maxim, Software Engineering",
+      "id": "P2-B008-039"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Verification versus validation",
+      "difficulty": "standard",
+      "stem": "Which statement correctly distinguishes software verification from software validation?",
+      "options": [
+        "Verification checks conformance to specified requirements; validation checks whether the resulting system meets user needs",
+        "Verification is performed only after deployment; validation only before coding",
+        "Verification and validation are identical terms",
+        "Validation checks coding style, while verification checks market demand"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Verification asks whether the product is being built according to specification; validation asks whether the right product is being built for users.",
+        "Both activities can occur throughout development; they are not restricted to those single phases.",
+        "They are related but distinct quality activities.",
+        "The definitions are reversed and do not capture the standard distinction."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering; source/basis: ISO/IEC/IEEE 12207 software life-cycle processes; Pressman and Maxim, Software Engineering",
+      "id": "P2-B008-040"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "TCP receive-window flow control",
+      "difficulty": "moderate",
+      "stem": "In TCP, which mechanism primarily communicates how much additional data the receiver is currently prepared to accept?",
+      "options": [
+        "The sender's congestion window (cwnd)",
+        "The IP time-to-live field",
+        "The DNS resource-record TTL",
+        "The receiver-advertised window (rwnd)"
+      ],
+      "answer": 3,
+      "explanations": [
+        "The congestion window reflects the sender's estimate of network capacity, not the receiver's buffer advertisement.",
+        "IP TTL limits packet lifetime/hop count.",
+        "DNS TTL controls caching duration for resource records.",
+        "Correct. The advertised receive window communicates receiver-side flow-control capacity."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; source/basis: Kurose and Ross, Computer Networking: A Top-Down Approach; RFC 9293, Transmission Control Protocol",
+      "id": "P2-B008-041"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "IPv6 multicast and absence of broadcast",
+      "difficulty": "moderate",
+      "stem": "Which statement about IPv6 delivery semantics is correct?",
+      "options": [
+        "IPv6 uses broadcast addresses in the same way as IPv4",
+        "IPv6 has no broadcast; multicast is used for one-to-many delivery and functions such as neighbour discovery",
+        "IPv6 forbids multicast",
+        "IPv6 replaces all unicast addressing with anycast"
+      ],
+      "answer": 1,
+      "explanations": [
+        "IPv6 does not define broadcast addressing as IPv4 does.",
+        "Correct. IPv6 uses multicast for group delivery and neighbour-discovery functions.",
+        "Multicast is a fundamental part of IPv6.",
+        "IPv6 continues to support unicast and multicast; anycast is an additional addressing mode."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; source/basis: RFC 8200, Internet Protocol, Version 6 (IPv6) Specification; RFC 4861, Neighbor Discovery",
+      "id": "P2-B008-042"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "IPv6 Path MTU Discovery",
+      "difficulty": "difficult",
+      "stem": "An IPv6 router cannot forward a packet because it is larger than the next-link MTU. What is the normal IPv6 behaviour?",
+      "options": [
+        "The router fragments the packet into smaller fragments",
+        "The router silently discards it and never informs the source",
+        "The router discards it and sends an ICMPv6 Packet Too Big message so the source can adjust packet size",
+        "The router converts the packet into an IPv4 datagram"
+      ],
+      "answer": 2,
+      "explanations": [
+        "IPv6 routers do not fragment packets in transit.",
+        "Silently discarding without the required feedback would prevent proper Path MTU Discovery.",
+        "Correct. The router sends ICMPv6 Packet Too Big; the source adapts the packet size or performs source fragmentation where appropriate.",
+        "IPv6 forwarding does not translate a packet into IPv4."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; source/basis: RFC 8201, Path MTU Discovery for IP version 6; RFC 4443, ICMPv6",
+      "id": "P2-B008-043"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "XML namespace identifiers",
+      "difficulty": "moderate",
+      "stem": "In XML, what is the principal role of a namespace name such as `urn:example:inventory`?",
+      "options": [
+        "It uniquely identifies an element/attribute vocabulary; it need not be a retrievable web page",
+        "It specifies the physical directory in which the XML file must be stored",
+        "It encrypts all elements using the named protocol",
+        "It determines the order in which XML elements are parsed"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. A namespace URI is an identifier used to distinguish names; XML processors do not have to retrieve it as a document.",
+        "A namespace name does not prescribe file-system storage.",
+        "Namespaces do not provide encryption.",
+        "Parsing order follows XML structure and grammar, not the namespace identifier."
+      ],
+      "basis": "Official Paper II syllabus: Web Technologies; source/basis: W3C, Namespaces in XML 1.0 Recommendation: https://www.w3.org/TR/xml-names/",
+      "id": "P2-B008-044"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "JSP implicit object out",
+      "difficulty": "standard",
+      "stem": "In a JSP page, what is the type and purpose of the implicit object `out`?",
+      "options": [
+        "A JDBC Connection used for database queries",
+        "A JspWriter used to write response content",
+        "A ServletContext used to access application-wide attributes",
+        "An HttpSession used to retain user-specific state"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Database connections are not represented by the JSP `out` object.",
+        "Correct. `out` is the JspWriter associated with the response output stream.",
+        "The application-wide context is exposed through the `application` implicit object.",
+        "User-session state is exposed through `session`."
+      ],
+      "basis": "Official Paper II syllabus: Web Technologies; source/basis: Jakarta Server Pages specification, implicit objects; Oracle Java EE JSP tutorial",
+      "id": "P2-B008-045"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "PHP POST superglobal",
+      "difficulty": "standard",
+      "stem": "In PHP, which superglobal array normally contains form fields submitted in the body of an HTTP POST request using the standard form encoding?",
+      "options": [
+        "$_GET",
+        "$_SERVER",
+        "$_POST",
+        "$_COOKIE"
+      ],
+      "answer": 2,
+      "explanations": [
+        "$_GET contains query-string parameters.",
+        "$_SERVER contains server and request environment information.",
+        "Correct. $_POST contains form variables submitted using POST form encoding.",
+        "$_COOKIE contains cookie values sent by the browser."
+      ],
+      "basis": "Official Paper II syllabus: Web Technologies; source/basis: PHP Manual, Variables From External Sources: https://www.php.net/manual/en/reserved.variables.post.php",
+      "id": "P2-B008-046"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "HTTP Cache-Control no-store versus no-cache",
+      "difficulty": "difficult",
+      "stem": "Which statement correctly distinguishes the HTTP response directives `Cache-Control: no-store` and `Cache-Control: no-cache`?",
+      "options": [
+        "Both require every response to be encrypted",
+        "no-store allows storage but requires revalidation; no-cache forbids storage",
+        "no-store forbids caches from storing the response; no-cache permits storage but requires revalidation before reuse",
+        "no-store applies only to cookies, while no-cache applies only to HTML"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Neither directive is an encryption mechanism.",
+        "The meanings are reversed in this option.",
+        "Correct. `no-store` prohibits storage; `no-cache` allows storage but requires successful validation before reuse.",
+        "The directives apply to HTTP caching generally, not only cookies or HTML."
+      ],
+      "basis": "Official Paper II syllabus: Web Technologies; source/basis: RFC 9111, HTTP Caching, Cache-Control directives: https://www.rfc-editor.org/rfc/rfc9111",
+      "id": "P2-B008-047"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "HTML async versus defer script loading",
+      "difficulty": "moderate",
+      "stem": "For a classic external script in HTML, which statement about the `defer` attribute is correct?",
+      "options": [
+        "The script is downloaded in parallel and executed after document parsing, in document order",
+        "The script blocks parsing while it downloads and executes immediately",
+        "The script executes before the HTML parser reaches the script element",
+        "The script is executed only after the user clicks the page"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Deferred classic scripts execute after parsing completes and preserve document order relative to other deferred classic scripts.",
+        "This describes a parser-blocking script without async/defer.",
+        "Execution before the parser reaches the element is not the defer behaviour.",
+        "The attribute does not make execution depend on a user click."
+      ],
+      "basis": "Official Paper II syllabus: Web Technologies; source/basis: WHATWG HTML Living Standard, script processing model: https://html.spec.whatwg.org/multipage/scripting.html",
+      "id": "P2-B008-048"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "Java static method hiding",
+      "difficulty": "moderate",
+      "stem": "In Java, a subclass declares a static method with the same signature as a static method in its superclass. How is the selected method normally determined?",
+      "options": [
+        "By runtime overriding based on the object's dynamic class",
+        "By the reference/expression type at compile time; static methods are hidden, not overridden polymorphically",
+        "By the most recently loaded class file",
+        "By the value of the method's return object"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Runtime overriding applies to instance methods, not static method dispatch.",
+        "Correct. Static method selection is based on the compile-time type of the qualifying reference or class name.",
+        "Class-loading order does not define static method selection.",
+        "A returned object's value does not determine which static method is invoked."
+      ],
+      "basis": "Official Paper II syllabus: OOPS Concepts, Programming in C++ and JAVA; source/basis: Java Language Specification, §8.4.8.2, Hiding (by Class Methods)",
+      "id": "P2-B008-049"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "C++ virtual inheritance in diamond hierarchy",
+      "difficulty": "difficult",
+      "stem": "In a C++ diamond-shaped inheritance hierarchy, both intermediate classes inherit from the same base class. What is the purpose of declaring that base inheritance as `virtual`?",
+      "options": [
+        "To make all base-class functions pure virtual",
+        "To prevent construction of any derived object",
+        "To force every method call to use static binding",
+        "To ensure the most-derived object contains one shared base-class subobject rather than duplicate base subobjects"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Virtual inheritance does not make all base functions pure virtual.",
+        "It does not prohibit constructing the derived object.",
+        "It does not control static versus dynamic method binding.",
+        "Correct. Virtual base classes ensure a single shared base subobject in the most-derived object."
+      ],
+      "basis": "Official Paper II syllabus: OOPS Concepts, Programming in C++ and JAVA; source/basis: C++ working draft, virtual base classes and multiple inheritance: https://eel.is/c++draft/class.mi",
+      "id": "P2-B008-050"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "Java constructors and inheritance",
+      "difficulty": "standard",
+      "stem": "Which statement about constructors in Java is correct?",
+      "options": [
+        "Constructors are inherited by subclasses just like public instance methods",
+        "A subclass may inherit a superclass constructor and change only its return type",
+        "Constructors are not inherited; a subclass constructor invokes a superclass constructor explicitly or through an implicit `super()` when permitted",
+        "A constructor must be declared static to be inherited"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Constructors are not inherited as methods.",
+        "A constructor has no return type to change and is not inherited.",
+        "Correct. A subclass constructor must initialise the superclass portion, using an explicit constructor invocation or an implicit no-argument super call when available.",
+        "Constructors cannot be declared static."
+      ],
+      "basis": "Official Paper II syllabus: OOPS Concepts, Programming in C++ and JAVA; source/basis: Java Language Specification, §8.8 constructors and §8.8.7 constructor bodies",
+      "id": "P2-B008-051"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "C++ friend function access",
+      "difficulty": "moderate",
+      "stem": "Which statement about a C++ friend function is correct?",
+      "options": [
+        "It is a member function automatically stored in the class's object layout",
+        "It is not a member of the class, but it may access the class's private and protected members when declared as a friend",
+        "It can access only public members",
+        "It must be virtual"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A friend function is not made a class member merely by the friend declaration.",
+        "Correct. Friendship grants access rights but does not make the function a member.",
+        "The purpose of friendship is to permit specified non-members to access non-public members.",
+        "A non-member friend function cannot be virtual."
+      ],
+      "basis": "Official Paper II syllabus: OOPS Concepts, Programming in C++ and JAVA; source/basis: C++ working draft, friend declarations: https://eel.is/c++draft/class.friend",
+      "id": "P2-B008-052"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "Java conflicting interface default methods",
+      "difficulty": "difficult",
+      "stem": "A Java class implements two unrelated interfaces that provide the same default instance method signature. What must the class normally do to resolve the conflict?",
+      "options": [
+        "Override the method and provide an implementation or explicitly select a suitable interface default",
+        "Do nothing; the JVM randomly chooses one default method",
+        "Declare both interfaces as abstract classes",
+        "Delete one interface at runtime"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The implementing class must resolve the inherited default-method conflict, commonly by overriding and optionally using `InterfaceName.super.method()`.",
+        "Java does not select conflicting defaults randomly.",
+        "Interfaces are not converted into abstract classes by this conflict.",
+        "Interfaces are part of the type declaration and cannot be deleted at runtime to resolve compilation."
+      ],
+      "basis": "Official Paper II syllabus: OOPS Concepts, Programming in C++ and JAVA; source/basis: Java Language Specification, §8.4.8 and §9.4.1, interface default methods",
+      "id": "P2-B008-053"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-16",
+      "topic": "Data Mining",
+      "subtopic": "Gini impurity calculation for a binary decision-tree node",
+      "difficulty": "moderate",
+      "stem": "A decision-tree node contains 70% positive and 30% negative examples. Using Gini impurity G=1−Σpᵢ², what is the node's impurity?",
+      "options": [
+        "0.21",
+        "0.30",
+        "0.42",
+        "0.70"
+      ],
+      "answer": 2,
+      "explanations": [
+        "0.21 is the product of the two class proportions, not the stated Gini formula.",
+        "0.30 is the minority-class proportion, not the impurity.",
+        "Correct. G=1−(0.7²+0.3²)=1−(0.49+0.09)=0.42.",
+        "0.70 is the majority-class proportion, not the impurity."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; source/basis: Han, Kamber and Pei, Data Mining: Concepts and Techniques, decision-tree impurity measures",
+      "id": "P2-B008-054"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-16",
+      "topic": "Data Mining",
+      "subtopic": "ROC AUC interpretation",
+      "difficulty": "moderate",
+      "stem": "For a binary classifier, an ROC AUC of 0.90 is most accurately interpreted as:",
+      "options": [
+        "The classifier is correct on exactly 90% of all records at every threshold",
+        "A randomly selected positive example is ranked above a randomly selected negative example with probability about 0.90",
+        "The false-positive rate is always 0.10",
+        "The classifier has exactly 90% precision"
+      ],
+      "answer": 1,
+      "explanations": [
+        "AUC is threshold-independent ranking performance, not accuracy at every threshold.",
+        "Correct. AUC has the probabilistic ranking interpretation for a randomly chosen positive-negative pair.",
+        "The false-positive rate varies with the selected threshold.",
+        "Precision depends on the threshold and class prevalence; it is not equal to AUC."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; source/basis: Hastie, Tibshirani and Friedman, The Elements of Statistical Learning, ROC analysis",
+      "id": "P2-B008-055"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-16",
+      "topic": "Data Mining",
+      "subtopic": "Feature scaling in k-nearest neighbours",
+      "difficulty": "moderate",
+      "stem": "A k-nearest-neighbours classifier uses Euclidean distance. One numeric feature ranges from 0 to 1, while another ranges from 0 to 100,000. What is the main risk if the features are used without scaling?",
+      "options": [
+        "The large-range feature can dominate the distance calculation and distort neighbour selection",
+        "The small-range feature is automatically multiplied by 100,000",
+        "Euclidean distance becomes undefined",
+        "The algorithm changes into a decision tree"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Differences on a large numeric scale can dominate the sum of squared coordinate differences.",
+        "No automatic rescaling occurs in ordinary Euclidean distance.",
+        "Euclidean distance remains mathematically defined for these finite numeric features.",
+        "Feature scaling does not change k-NN into another classifier."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; source/basis: Han, Kamber and Pei, Data Mining: Concepts and Techniques, data preprocessing and k-NN",
+      "id": "P2-B008-056"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-16",
+      "topic": "Data Mining",
+      "subtopic": "Complete-linkage hierarchical clustering",
+      "difficulty": "difficult",
+      "stem": "In agglomerative hierarchical clustering, how is the distance between two clusters defined by complete linkage?",
+      "options": [
+        "The minimum pairwise distance between their points",
+        "The distance between their centroids only",
+        "The average of all within-cluster distances",
+        "The maximum pairwise distance between a point in one cluster and a point in the other"
+      ],
+      "answer": 3,
+      "explanations": [
+        "The minimum pairwise distance defines single linkage.",
+        "Centroid distance is a different cluster-distance definition.",
+        "Average linkage uses the average cross-cluster pairwise distance.",
+        "Correct. Complete linkage uses the maximum cross-cluster pairwise distance."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; source/basis: Han, Kamber and Pei, Data Mining: Concepts and Techniques, hierarchical clustering",
+      "id": "P2-B008-057"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-16",
+      "topic": "Data Mining",
+      "subtopic": "Association-rule conviction",
+      "difficulty": "difficult",
+      "stem": "An association rule A→B has confidence 0.80, and B occurs in 0.40 of all transactions. Using conviction=(1−support(B))/(1−confidence(A→B)), what is its conviction?",
+      "options": [
+        "0.75",
+        "1.20",
+        "2.00",
+        "3.00"
+      ],
+      "answer": 3,
+      "explanations": [
+        "0.75 is not obtained from the stated numerator and denominator.",
+        "1.20 is not the ratio of 0.60 to 0.20.",
+        "2.00 would require a numerator of 0.40 with denominator 0.20.",
+        "Correct. Conviction=(1−0.40)/(1−0.80)=0.60/0.20=3.00."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; source/basis: Han, Kamber and Pei, Data Mining: Concepts and Techniques, association-rule interestingness measures",
+      "id": "P2-B008-058"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-16",
+      "topic": "Data Mining",
+      "subtopic": "Eclat frequent-itemset mining",
+      "difficulty": "moderate",
+      "stem": "Which representation is central to the Eclat frequent-itemset mining algorithm?",
+      "options": [
+        "A vertical layout storing, for each item, the transaction-ID set in which it occurs",
+        "A horizontal table of candidate itemsets generated only by breadth-first enumeration",
+        "A decision tree whose leaves are class labels",
+        "A neural-network weight matrix"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Eclat uses vertical transaction-ID lists (tidsets) and intersects them to calculate support of combined itemsets.",
+        "The horizontal candidate-generation description is closer to the classic Apriori approach.",
+        "A decision tree is a supervised classification model, not the Eclat representation.",
+        "A neural-network weight matrix is unrelated to frequent-itemset mining."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; source/basis: Han, Kamber and Pei, Data Mining: Concepts and Techniques, Eclat algorithm",
+      "id": "P2-B008-059"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-16",
+      "topic": "Data Mining",
+      "subtopic": "Support vectors and maximum-margin classification",
+      "difficulty": "difficult",
+      "stem": "In a support vector machine with a hard-margin linear separator, which training points determine the position of the maximum-margin decision boundary?",
+      "options": [
+        "All training points equally, regardless of their distance from the boundary",
+        "Only the support vectors lying closest to the separating hyperplane",
+        "Only points classified correctly far from the boundary",
+        "Only points from the majority class"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Distant non-support points do not individually determine the maximum-margin boundary once the margin constraints are satisfied.",
+        "Correct. The support vectors are the constraint-active points closest to the hyperplane and determine the maximum-margin separator.",
+        "Points far from the boundary generally do not define the margin.",
+        "The support vectors can come from both classes; majority-class membership is not the rule."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; source/basis: Bishop, Pattern Recognition and Machine Learning; standard support-vector-machine maximum-margin formulation",
+      "id": "P2-B008-060"
+    }
+  ]
+}
