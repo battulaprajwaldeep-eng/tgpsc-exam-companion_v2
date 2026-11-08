@@ -1045,14 +1045,14 @@
       "difficulty": "difficult",
       "stem": "A joint density is f(x,y)=2 on the triangular region 0 < x < y < 1 and zero elsewhere. What is the marginal density fX(x) for 0 < x < 1?",
       "options": [
-        "2x",
-        "2(1−x)",
-        "1−x²",
-        "2/(1−x)"
+        "2 times x",
+        "2 times (1 minus x)",
+        "1 minus x squared",
+        "2 divided by (1 minus x)"
       ],
       "answer": 1,
       "explanations": [
-        "Integrating over y from x to 1 does not give 2x.",
+        "Integrating the constant density from y=x to 1 gives 2(1−x), not 2x.",
         "Correct. fX(x)=∫ from x to 1 of 2 dy = 2(1−x).",
         "1−x² is not the integral of the given joint density over the permitted y-range.",
         "The marginal is obtained by integration, not division by the remaining interval length."
