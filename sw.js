@@ -1,5 +1,5 @@
-const CACHE="tgpsc-companion-v17";
-const FILES=["./","./index.html","./study-tracker.js","./live-dashboard.js","./manifest.webmanifest","./study-data.json","./question-bank.json","./government-exams.html","./batch-import.html"];
+const CACHE="tgpsc-companion-v18";
+const FILES=["./","./index.html","./learning-centre.html","./study-tracker.js","./live-dashboard.js","./manifest.webmanifest","./study-data.json","./question-bank.json","./government-exams.html","./batch-import.html"];
 self.addEventListener("install",event=>event.waitUntil((async()=>{
   const cache=await caches.open(CACHE);
   await Promise.all(FILES.map(async path=>{
