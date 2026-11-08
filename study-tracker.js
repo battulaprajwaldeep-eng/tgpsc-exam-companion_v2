@@ -155,8 +155,11 @@ function selectBalanced(pool,count){
       const weakness=e.attempts?((1-accuracy)*180):0;
       const sampleNeed=Math.max(0,15-e.attempts)*1.5;
       const repeatedTopic=(topicCounts.get(id)||0)*500;
-      const difficulty=q.difficulty==="advanced"?3:q.difficulty==="difficult"?2:q.difficulty==="moderate"?1:0;
-      const score=coverage+weakness+sampleNeed-repeatedTopic+difficulty+Math.random();
+      // Prefer a sound learning progression. Harder labels must never receive a
+      // selection bonus: standard/easy and moderate questions build the base,
+      // while difficult/advanced questions remain available for deliberate stretch.
+      const difficultyFit={easy:5,standard:5,moderate:3,difficult:0,advanced:-5}[q.difficulty]??1;
+      const score=coverage+weakness+sampleNeed-repeatedTopic+difficultyFit+Math.random();
       if(score>bestScore){bestScore=score;best=n}
     }
     const q=candidates.splice(best,1)[0],id=q.topicId||"unknown";
