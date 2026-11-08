@@ -8,9 +8,9 @@
     "total": 100
   },
   "difficultyCounts": {
-    "moderate": 54,
-    "standard": 17,
-    "difficult": 29
+    "moderate": 55,
+    "standard": 15,
+    "difficult": 30
   },
   "topicCoverage": {
     "p1-01": 4,
@@ -45,7 +45,7 @@
     "p2-15": 5,
     "p2-16": 7
   },
-  "sourceNote": "Exactly 100 original questions mapped to the 31 official topic IDs in study-data.json. Current-affairs, Telangana policy, statutory, cultural and geography facts are sourced to official government, UN, WMO, NASA/ISRO and EU materials; technical questions cite standard textbooks, specifications and RFCs in each question's basis.",
+  "sourceNote": "Exactly 100 original questions mapped to the 31 official topic IDs in study-data.json. Current-affairs, international-relations, statutory, Telangana policy, culture and geography facts are supported by official government, UN, WMO, NASA/ISRO, EU and ISA sources; technical questions cite standard textbooks, specifications and RFCs in each question's basis.",
   "questions": [
     {
       "paper": 1,
@@ -212,23 +212,23 @@
       "paper": 1,
       "topicId": "p1-02",
       "topic": "International Relations and Events",
-      "subtopic": "International Criminal Court jurisdiction",
-      "difficulty": "difficult",
-      "stem": "Which statement most accurately distinguishes the International Criminal Court (ICC) from the International Court of Justice (ICJ)?",
+      "subtopic": "International Solar Alliance origin and purpose",
+      "difficulty": "moderate",
+      "stem": "The International Solar Alliance (ISA) was conceived as a joint initiative of India and France. Which statement best describes its central purpose?",
       "options": [
-        "The ICC decides maritime boundary disputes between States",
-        "The ICC issues advisory opinions to the UN General Assembly",
-        "The ICC prosecutes States for violating trade agreements",
-        "The ICC may prosecute natural persons for crimes within its Rome Statute jurisdiction"
+        "To promote wider deployment of solar-energy technologies and cooperation among member countries",
+        "To regulate global petroleum production quotas",
+        "To replace the UN Framework Convention on Climate Change",
+        "To operate a single electricity grid for all member countries"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanations": [
-        "Maritime boundary disputes between States are matters for the ICJ or other agreed tribunals, not the ICC.",
-        "Advisory opinions are a function of the ICJ, not the ICC.",
-        "Trade-agreement disputes are not crimes prosecuted by the ICC.",
-        "Correct. The Rome Statute establishes individual criminal responsibility for crimes within the Court's jurisdiction."
+        "Correct. The ISA is a member-driven platform to scale solar deployment, energy access and energy security.",
+        "Petroleum production quotas are not the ISA's mandate.",
+        "The ISA complements climate cooperation; it does not replace the UNFCCC.",
+        "The ISA does not operate a single supranational electricity grid."
       ],
-      "basis": "Official Paper I syllabus: International Relations and Events; source/basis: Rome Statute of the International Criminal Court, Articles 5 and 25: https://www.icc-cpi.int/sites/default/files/2024-05/Rome-Statute-eng.pdf",
+      "basis": "Official Paper I syllabus: International Relations and Events; source/basis: International Solar Alliance, Background and Framework Agreement: https://isolaralliance.org/about/background",
       "id": "P1-B008-008"
     },
     {
@@ -350,46 +350,46 @@
       "paper": 1,
       "topicId": "p1-05",
       "topic": "Economic and Social Development of India and Telangana",
-      "subtopic": "Gini coefficient interpretation",
-      "difficulty": "standard",
-      "stem": "A country reports a Gini coefficient of 0.18 on the conventional 0-to-1 scale. Which interpretation is correct?",
+      "subtopic": "Price elasticity of demand",
+      "difficulty": "moderate",
+      "stem": "The price of a service falls by 10% and the quantity demanded rises by 15%. Using the percentage-change method, the absolute value of price elasticity of demand is:",
       "options": [
-        "It indicates greater measured income inequality than a value of 0.72",
-        "It means exactly 18 per cent of the population is poor",
-        "It indicates relatively low measured inequality compared with a value of 0.72",
-        "It proves that every household has identical income"
+        "0.67, so demand is inelastic",
+        "1.00, so demand is unit elastic",
+        "1.50, so demand is elastic",
+        "2.50, so demand is perfectly elastic"
       ],
       "answer": 2,
       "explanations": [
-        "A lower Gini value indicates less, not more, inequality on this scale.",
-        "The Gini coefficient is not a poverty headcount ratio.",
-        "Correct. Values closer to zero indicate a distribution closer to perfect equality.",
-        "Only a value of zero represents perfect equality in the idealised measure."
+        "0.67 reverses the ratio of percentage quantity change to percentage price change.",
+        "Unit elasticity would require equal percentage changes in quantity and price.",
+        "Correct. |Ed|=15%/10%=1.5, which is greater than one and therefore elastic.",
+        "An elasticity of 1.5 is not perfectly elastic; perfectly elastic demand is represented by an unbounded elasticity."
       ],
-      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana; source/basis: World Bank, Poverty and Inequality Platform, Gini index definition: https://data.worldbank.org/indicator/SI.POV.GINI",
+      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana; source/basis: NCERT, Introductory Microeconomics, elasticity of demand; standard percentage-change method",
       "id": "P1-B008-014"
     },
     {
       "paper": 1,
       "topicId": "p1-06",
       "topic": "Physical, Social and Economic Geography of India",
-      "subtopic": "Orographic rainfall and rain-shadow regions",
-      "difficulty": "standard",
-      "stem": "Moist south-west monsoon winds rise over the western slopes of the Western Ghats. Which rainfall pattern is most likely?",
+      "subtopic": "Black-soil shrink–swell behaviour",
+      "difficulty": "difficult",
+      "stem": "Black cotton soils of the Deccan are noted for pronounced swelling when wet and cracking when dry. Which clay mineral is chiefly associated with this shrink–swell behaviour?",
       "options": [
-        "Heavy orographic rain on the windward side and reduced rainfall in the leeward rain-shadow region",
-        "Heavy rain only on the leeward Deccan side",
-        "No rainfall on either side because the Ghats block all moisture",
-        "Uniform rainfall on both sides regardless of relief"
+        "Kaolinite",
+        "Montmorillonite",
+        "Quartz",
+        "Gypsum"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct. Forced ascent cools moist air and produces windward rainfall; descending air is drier on the leeward side.",
-        "The leeward plateau is generally the rain-shadow side, not the side of maximum orographic rain.",
-        "The Ghats do not eliminate all rainfall; they redistribute it spatially.",
-        "Relief strongly affects the distribution of monsoon rainfall."
+        "Kaolinite generally has much lower shrink–swell activity than expansive smectite clays.",
+        "Correct. Montmorillonite is an expansive smectite clay that absorbs water between layers and shrinks on drying.",
+        "Quartz is a framework mineral and does not cause the characteristic clay expansion.",
+        "Gypsum is not the principal expansive clay mineral responsible for black-soil cracking."
       ],
-      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography of India; source/basis: NCERT, India: Physical Environment, Indian monsoon and relief rainfall",
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography of India; source/basis: ICAR soil-science references; NCERT, India: Physical Environment, soils of the Deccan region",
       "id": "P1-B008-015"
     },
     {
@@ -879,23 +879,23 @@
       "paper": 1,
       "topicId": "p1-14",
       "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
-      "subtopic": "Syllogistic reasoning",
+      "subtopic": "Relative percentage increase",
       "difficulty": "moderate",
-      "stem": "Statements: All filtration units are treatment components. No treatment component is disposable. Which conclusion necessarily follows?",
+      "stem": "A treatment plant improves its operating efficiency from 72% to 81%. What is the relative percentage increase compared with the original efficiency?",
       "options": [
-        "No filtration unit is disposable",
-        "Some filtration units are disposable",
-        "Every non-disposable object is a filtration unit",
-        "No treatment component is a filtration unit"
+        "9%",
+        "11.25%",
+        "12.5%",
+        "18%"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct. Every filtration unit belongs to the treatment-component class, and that class has no disposable members.",
-        "This directly contradicts the second statement when applied to filtration units.",
-        "The premises do not say that all non-disposable objects are filtration units.",
-        "The first statement says filtration units are treatment components, not that the two classes are disjoint."
+        "Nine percentage points is the absolute increase, not the relative percentage increase.",
+        "11.25% would use an incorrect denominator.",
+        "Correct. Relative increase = (81−72)/72×100 = 9/72×100 = 12.5%.",
+        "18% is not obtained by dividing the nine-point increase by the original value."
       ],
-      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; source/basis: Standard verbal reasoning: categorical syllogisms; R.S. Aggarwal, A Modern Approach to Verbal & Non-Verbal Reasoning",
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; source/basis: Standard quantitative aptitude: percentage increase and percentage-point distinction; R.S. Aggarwal, Quantitative Aptitude",
       "id": "P1-B008-037"
     },
     {
@@ -971,46 +971,46 @@
       "paper": 2,
       "topicId": "p2-01",
       "topic": "Probability and Statistics",
-      "subtopic": "Poisson distribution probability",
+      "subtopic": "Variance of a sum with non-zero covariance",
       "difficulty": "difficult",
-      "stem": "A call centre receives calls according to a Poisson process with mean 2 calls per minute. What is the probability of receiving exactly two calls in a one-minute interval? (Use e^-2 ≈ 0.1353.)",
+      "stem": "Random variables X and Y have Var(X)=4, Var(Y)=9 and Cov(X,Y)=−2. What is Var(X+Y)?",
       "options": [
-        "0.1353",
-        "0.2707",
-        "0.4060",
-        "0.5413"
+        "5",
+        "9",
+        "13",
+        "17"
       ],
       "answer": 1,
       "explanations": [
-        "0.1353 is P(X=0) for λ=2, not P(X=2).",
-        "Correct. P(X=2)=e^-2·2²/2!=2e^-2≈0.2707.",
-        "0.4060 is not obtained from the Poisson probability mass function at k=2.",
-        "0.5413 exceeds the exact probability and is not the calculated value."
+        "5 omits part of the variance terms.",
+        "Correct. Var(X+Y)=Var(X)+Var(Y)+2Cov(X,Y)=4+9−4=9.",
+        "13 would be the result if covariance were zero.",
+        "17 incorrectly adds the absolute covariance term instead of using its negative sign."
       ],
-      "basis": "Official Paper II syllabus: Probability and Statistics; source/basis: Sheldon Ross, A First Course in Probability, Poisson distribution and probability mass function",
+      "basis": "Official Paper II syllabus: Probability and Statistics; source/basis: Ross, A First Course in Probability; covariance and variance of sums",
       "id": "P2-B008-001"
     },
     {
       "paper": 2,
       "topicId": "p2-01",
       "topic": "Probability and Statistics",
-      "subtopic": "Continuous uniform distribution variance",
+      "subtopic": "Geometric distribution expected waiting time",
       "difficulty": "moderate",
-      "stem": "A random variable X is uniformly distributed over the interval [2,8]. What is Var(X)?",
+      "stem": "Independent trials succeed with probability 0.25 on each trial. If X is the number of trials up to and including the first success, what is E[X]?",
       "options": [
+        "2",
         "3",
-        "6",
-        "9",
-        "12"
+        "4",
+        "5"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct. For U(a,b), variance is (b−a)²/12 = 6²/12 = 3.",
-        "6 is the interval width, not the variance.",
-        "9 is the squared half-width, not the variance.",
-        "12 does not follow from the uniform-variance formula."
+        "For a geometric distribution counted from trial 1, the mean is not 2 at p=0.25.",
+        "The expected number is greater than three for a success probability of one quarter.",
+        "Correct. E[X]=1/p=1/0.25=4 trials.",
+        "5 is not the reciprocal of the stated success probability."
       ],
-      "basis": "Official Paper II syllabus: Probability and Statistics; source/basis: Devore, Probability and Statistics for Engineering and the Sciences, continuous uniform distribution",
+      "basis": "Official Paper II syllabus: Probability and Statistics; source/basis: Ross, A First Course in Probability, geometric distribution",
       "id": "P2-B008-002"
     },
     {
@@ -1040,23 +1040,23 @@
       "paper": 2,
       "topicId": "p2-01",
       "topic": "Probability and Statistics",
-      "subtopic": "Variance under affine transformation",
+      "subtopic": "Zero correlation and statistical independence",
       "difficulty": "moderate",
-      "stem": "A random variable X has variance 4. If Y=3X+5, what is Var(Y)?",
+      "stem": "Which statement about two random variables with finite, non-zero variances and correlation coefficient zero is always valid?",
       "options": [
-        "12",
-        "17",
-        "36",
-        "41"
+        "They must be statistically independent",
+        "They have no linear correlation, but they may still be dependent through a non-linear relationship",
+        "Their covariance must be positive",
+        "They must have identical probability distributions"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanations": [
-        "12 is 3·Var(X), but variance scales by the square of the multiplier.",
-        "17 incorrectly adds the constant 5 to a variance.",
-        "Correct. Var(aX+b)=a²Var(X), so Var(Y)=3²×4=36.",
-        "41 incorrectly adds both the scale and constant rather than applying the variance rule."
+        "Zero correlation does not in general imply independence; that implication needs additional conditions such as joint normality.",
+        "Correct. Zero correlation rules out linear association measured by covariance but does not rule out all dependence.",
+        "With positive standard deviations, zero correlation means covariance is zero, not positive.",
+        "Correlation zero places no requirement that the marginal distributions be identical."
       ],
-      "basis": "Official Paper II syllabus: Probability and Statistics; source/basis: Casella and Berger, Statistical Inference, expectation and variance under transformations",
+      "basis": "Official Paper II syllabus: Probability and Statistics; source/basis: Casella and Berger, Statistical Inference, correlation and independence",
       "id": "P2-B008-004"
     },
     {
@@ -1109,23 +1109,23 @@
       "paper": 2,
       "topicId": "p2-02",
       "topic": "Set Theory & Algebra; Linear Algebra",
-      "subtopic": "Multiplicative inverse modulo n",
+      "subtopic": "Diagonalizability and distinct eigenvalues",
       "difficulty": "moderate",
-      "stem": "What is the multiplicative inverse of 12 modulo 35?",
+      "stem": "A real 3×3 matrix has three distinct real eigenvalues. Which conclusion is guaranteed?",
       "options": [
-        "2",
-        "4",
-        "5",
-        "3"
+        "It is diagonalizable over the real numbers",
+        "It must be the zero matrix",
+        "Its determinant must be zero",
+        "It must be symmetric"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanations": [
-        "12×2=24, which is not congruent to 1 modulo 35.",
-        "12×4=48≡13 (mod 35), not 1.",
-        "12×5=60≡25 (mod 35), not 1.",
-        "Correct. 12×3=36≡1 (mod 35), so 3 is the inverse."
+        "Correct. Eigenvectors associated with distinct eigenvalues are linearly independent, giving three independent eigenvectors and a diagonalization.",
+        "A zero matrix has only the eigenvalue zero, so it cannot have three distinct eigenvalues.",
+        "The determinant is the product of eigenvalues and need not be zero.",
+        "A matrix can have distinct real eigenvalues without being symmetric."
       ],
-      "basis": "Official Paper II syllabus: Set Theory & Algebra; Linear Algebra; source/basis: Rosen, Discrete Mathematics and Its Applications, modular arithmetic and inverses",
+      "basis": "Official Paper II syllabus: Set Theory & Algebra; Linear Algebra; source/basis: Lay, Linear Algebra and Its Applications, eigenvalues and diagonalization",
       "id": "P2-B008-007"
     },
     {
@@ -1155,92 +1155,92 @@
       "paper": 2,
       "topicId": "p2-03",
       "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
-      "subtopic": "Solving a first-order linear recurrence",
-      "difficulty": "moderate",
-      "stem": "Let a₀=1 and aₙ=3aₙ₋₁+2 for n≥1. Which closed form satisfies this recurrence?",
+      "subtopic": "Catalan numbers and full parenthesizations",
+      "difficulty": "difficult",
+      "stem": "How many different full parenthesizations are possible for a product of five ordered operands, where multiplication is binary and operand order cannot change?",
       "options": [
-        "3ⁿ+1",
-        "2·3ⁿ−1",
-        "2ⁿ+3",
-        "3ⁿ−2"
+        "5",
+        "10",
+        "14",
+        "42"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanations": [
-        "For n=0 this gives 2, not the required a₀=1.",
-        "Correct. At n=0 it gives 1; substituting gives 3(2·3ⁿ⁻¹−1)+2=2·3ⁿ−1.",
-        "At n=0 this gives 4, not 1, and it does not satisfy the recurrence.",
-        "At n=0 this gives −1, not 1."
+        "Five is not the Catalan number for five ordered operands.",
+        "10 is not the count of full binary parenthesizations for five operands.",
+        "Correct. The count is the fourth Catalan number C₄ = (1/5)·binomial(8,4)=14.",
+        "42 is the fifth Catalan number, which corresponds to six ordered operands."
       ],
-      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; source/basis: Rosen, Discrete Mathematics and Its Applications, recurrence relations",
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; source/basis: Rosen, Discrete Mathematics and Its Applications, Catalan numbers and parenthesizations",
       "id": "P2-B008-009"
     },
     {
       "paper": 2,
       "topicId": "p2-03",
       "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
-      "subtopic": "Inclusion–exclusion for three finite sets",
-      "difficulty": "difficult",
-      "stem": "Three sets A, B and C have sizes 40, 35 and 30. Their pairwise intersections have sizes 10, 8 and 6, and |A∩B∩C|=3. What is |A∪B∪C|?",
+      "subtopic": "Combinations with a forbidden pair",
+      "difficulty": "moderate",
+      "stem": "An eight-person team is available. How many three-person committees can be formed if two specified people are not allowed to serve together?",
       "options": [
-        "78",
-        "81",
-        "84",
-        "90"
+        "44",
+        "48",
+        "50",
+        "56"
       ],
       "answer": 2,
       "explanations": [
-        "78 omits the required correction for the triple intersection.",
-        "81 is the sum of individual sizes minus pairwise intersections, without adding the triple intersection back.",
-        "Correct. 40+35+30−10−8−6+3=84.",
-        "90 is the sum of the three set sizes and ignores all overlaps."
+        "44 subtracts too many committees containing the specified pair.",
+        "48 does not follow from the combination count.",
+        "Correct. There are C(8,3)=56 committees; C(6,1)=6 contain both specified people, so 56−6=50 are allowed.",
+        "56 counts every committee, including the six forbidden ones."
       ],
-      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; source/basis: Rosen, Discrete Mathematics and Its Applications, principle of inclusion–exclusion",
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; source/basis: Rosen, Discrete Mathematics and Its Applications, combinations and restricted selections",
       "id": "P2-B008-010"
     },
     {
       "paper": 2,
       "topicId": "p2-03",
       "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
-      "subtopic": "Euler trail and odd-degree vertices",
-      "difficulty": "moderate",
-      "stem": "A connected undirected graph has exactly two vertices of odd degree. Which statement is necessarily true?",
+      "subtopic": "Leaf count from degree sequence of a tree",
+      "difficulty": "difficult",
+      "stem": "A finite tree has exactly two vertices of degree 3 and four vertices of degree 4; every other vertex is a leaf. How many leaves does the tree have?",
       "options": [
-        "It has an Euler circuit but no Euler trail",
-        "It has neither an Euler trail nor an Euler circuit",
-        "It has an Euler trail using every edge exactly once, but no Euler circuit",
-        "It must be a tree"
+        "8",
+        "10",
+        "12",
+        "14"
       ],
       "answer": 2,
       "explanations": [
-        "An Euler circuit requires every vertex to have even degree.",
-        "A connected graph with two odd-degree vertices does have an Euler trail.",
-        "Correct. A connected graph has an Euler trail exactly when it has zero or two odd-degree vertices; with two, it has no Euler circuit.",
-        "The degree condition does not imply that the graph is acyclic or a tree."
+        "Eight omits part of the degree excess contributed by the four degree-4 vertices.",
+        "Ten is still below the value required by the tree degree-sum identity.",
+        "Correct. For a tree, L=2+Σ(d−2)n_d=2+2(3−2)+4(4−2)=12 leaves.",
+        "Fourteen would require a larger total degree excess than the stated internal vertices provide."
       ],
-      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; source/basis: Rosen, Discrete Mathematics and Its Applications, Euler trails and circuits",
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; source/basis: Rosen, Discrete Mathematics and Its Applications, trees and degree-sum identities",
       "id": "P2-B008-011"
     },
     {
       "paper": 2,
       "topicId": "p2-03",
       "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
-      "subtopic": "Counting binary strings with no consecutive ones",
-      "difficulty": "difficult",
-      "stem": "How many binary strings of length 6 contain no two consecutive 1s?",
+      "subtopic": "Complement of a simple graph",
+      "difficulty": "moderate",
+      "stem": "A simple undirected graph G has 7 vertices and 11 edges. How many edges does its complement have?",
       "options": [
-        "13",
-        "18",
-        "21",
-        "32"
+        "7",
+        "9",
+        "10",
+        "21"
       ],
       "answer": 2,
       "explanations": [
-        "13 is too small; the count follows the Fibonacci recurrence with initial values 1,2.",
-        "18 is not the Fibonacci count for length 6.",
-        "Correct. If f(n) counts such strings, f(n)=f(n−1)+f(n−2), f(1)=2 and f(2)=3; hence f(6)=21.",
-        "32 counts all binary strings without restricting adjacent 1s."
+        "Seven is not the difference between all possible edges and the 11 existing edges.",
+        "Nine is one less than the correct complement count.",
+        "Correct. A simple graph on 7 vertices has C(7,2)=21 possible edges; the complement has 21−11=10.",
+        "21 is the total number of possible edges before subtracting the edges of G."
       ],
-      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; source/basis: Rosen, Discrete Mathematics and Its Applications, recurrence counting",
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; source/basis: Rosen, Discrete Mathematics and Its Applications, graph complements",
       "id": "P2-B008-012"
     },
     {
@@ -1339,115 +1339,115 @@
       "paper": 2,
       "topicId": "p2-05",
       "topic": "Computer Organization and Architecture",
-      "subtopic": "Direct-mapped cache line selection",
+      "subtopic": "Write-allocate versus no-write-allocate cache policy",
       "difficulty": "moderate",
-      "stem": "A direct-mapped cache contains 64 lines. Main-memory block number 130 is referenced. Using zero-based line numbering, which cache line is selected?",
+      "stem": "A cache uses a write-allocate policy. On a write miss, what normally happens?",
       "options": [
-        "0",
-        "2",
-        "4",
-        "6"
+        "The processor halts until the entire cache is invalidated",
+        "The missed block is brought into the cache and the write is then applied to that cached block",
+        "The write is discarded because the block is absent",
+        "Every cache line is copied to main memory"
       ],
       "answer": 1,
       "explanations": [
-        "130 mod 64 is not 0.",
-        "Correct. The line index is block number modulo number of lines: 130 mod 64=2.",
-        "4 is not the remainder of 130 divided by 64.",
-        "6 is not the remainder of 130 divided by 64."
+        "A write-allocate policy does not require halting or invalidating the entire cache.",
+        "Correct. Write-allocate fetches the missed block into the cache before or as the store is completed there.",
+        "The store is not discarded; the policy defines how the miss is handled.",
+        "Copying every cache line is unrelated to write allocation."
       ],
-      "basis": "Official Paper II syllabus: Computer Organization and Architecture; source/basis: Patterson and Hennessy, Computer Organization and Design, direct-mapped cache indexing",
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; source/basis: Patterson and Hennessy, Computer Organization and Design, cache write policies",
       "id": "P2-B008-017"
     },
     {
       "paper": 2,
       "topicId": "p2-05",
       "topic": "Computer Organization and Architecture",
-      "subtopic": "DMA cycle stealing",
-      "difficulty": "moderate",
-      "stem": "In cycle-stealing Direct Memory Access (DMA), what does the DMA controller do?",
+      "subtopic": "Tomasulo algorithm and register renaming",
+      "difficulty": "difficult",
+      "stem": "In Tomasulo's dynamic scheduling algorithm, register renaming primarily eliminates which classes of data hazard?",
       "options": [
-        "It takes individual memory/bus cycles for transfers, temporarily delaying the CPU's use of the bus",
-        "It permanently disables the CPU while a device transfers data",
-        "It copies every byte through a CPU register and is therefore programmed I/O",
-        "It changes the virtual address space of the process"
+        "Read-after-write (RAW) only",
+        "Structural hazards in every functional unit",
+        "Both write-after-read (WAR) and write-after-write (WAW), while true RAW dependencies remain",
+        "All control hazards and branch mispredictions"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct. Cycle stealing interleaves DMA transfers with CPU activity by taking selected bus cycles.",
-        "The CPU is not permanently disabled; this describes an extreme burst-transfer misconception.",
-        "DMA is specifically intended to avoid requiring the CPU to move each byte through its registers.",
-        "DMA does not alter a process's virtual address space."
+        "RAW is a true data dependence and cannot be removed merely by renaming registers.",
+        "Register renaming is not a guarantee that all functional-unit structural conflicts disappear.",
+        "Correct. Renaming removes false name dependencies WAR and WAW; true RAW dependencies must still be respected.",
+        "Register renaming does not eliminate branch-control hazards."
       ],
-      "basis": "Official Paper II syllabus: Computer Organization and Architecture; source/basis: Stallings, Computer Organization and Architecture, DMA transfer modes",
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; source/basis: Patterson and Hennessy, Computer Organization and Design, Tomasulo scheduling",
       "id": "P2-B008-018"
     },
     {
       "paper": 2,
       "topicId": "p2-05",
       "topic": "Computer Organization and Architecture",
-      "subtopic": "Ideal pipeline execution time",
+      "subtopic": "Effective CPI with branch misprediction penalty",
       "difficulty": "difficult",
-      "stem": "A five-stage instruction pipeline executes 20 instructions with no stalls, no fill/drain overhead beyond the stages, and one instruction entering each cycle. How many clock cycles are required to complete all instructions?",
+      "stem": "A processor has a base CPI of 1.0. Branches are 20% of instructions; 10% of branches are mispredicted, and each misprediction costs 3 extra cycles. Assuming no other stalls, what is the effective CPI?",
       "options": [
-        "20",
-        "23",
-        "24",
-        "100"
+        "1.006",
+        "1.03",
+        "1.06",
+        "1.60"
       ],
       "answer": 2,
       "explanations": [
-        "20 cycles would ignore the initial pipeline fill.",
-        "23 omits one of the five stages in the fill-plus-throughput calculation.",
-        "Correct. Ideal cycles = k+n−1 = 5+20−1 = 24.",
-        "100 cycles is the unpipelined total for five stages per instruction."
+        "1.006 understates the product of branch frequency, misprediction rate and penalty.",
+        "1.03 omits one factor in the penalty calculation.",
+        "Correct. Extra CPI=0.20×0.10×3=0.06, so effective CPI=1.06.",
+        "1.60 treats every branch as a misprediction and overstates the penalty."
       ],
-      "basis": "Official Paper II syllabus: Computer Organization and Architecture; source/basis: Patterson and Hennessy, Computer Organization and Design, pipeline latency and throughput",
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; source/basis: Patterson and Hennessy, Computer Organization and Design, branch prediction and CPI",
       "id": "P2-B008-019"
     },
     {
       "paper": 2,
       "topicId": "p2-06",
       "topic": "Programming and Data Structures",
-      "subtopic": "C pointer arithmetic on arrays",
-      "difficulty": "standard",
-      "stem": "In C, let `int a[6] = {4, 7, 9, 12, 15, 18}; int *p = a;`. What value is produced by `*(p + 3)`?",
+      "subtopic": "C pointer-to-const versus const pointer",
+      "difficulty": "difficult",
+      "stem": "In C, which statement correctly describes `const int *p` compared with `int * const p`?",
       "options": [
-        "4",
-        "9",
-        "12",
-        "15"
+        "Both declarations make the pointed-to integer and the pointer itself unmodifiable",
+        "`const int *p` makes p itself unassignable, while `int * const p` makes the pointed-to integer unmodifiable",
+        "`const int *p` makes the pointed-to integer non-modifiable through p but allows p to be reassigned; `int * const p` fixes p but allows `*p` to be modified",
+        "Neither declaration has any effect on assignment"
       ],
       "answer": 2,
       "explanations": [
-        "p points to a[0], so this is not the first element.",
-        "p+2 would point to a[2], whose value is 9.",
-        "Correct. Pointer addition is scaled by the pointed-to type; p+3 points to a[3], whose value is 12.",
-        "p+4 points to a[4], whose value is 15."
+        "The declarations impose different constraints and do not both make both objects immutable.",
+        "The meanings are reversed in this option.",
+        "Correct. The first is a pointer to const int; the second is a const pointer to int.",
+        "Both declarations affect which assignments are permitted."
       ],
-      "basis": "Official Paper II syllabus: Programming and Data Structures; source/basis: ISO C11 draft N1570, pointer arithmetic and array subscripting, §§6.5.2.1 and 6.5.6",
+      "basis": "Official Paper II syllabus: Programming and Data Structures; source/basis: ISO C11 draft N1570, type qualifiers and pointer declarators, §§6.7.3 and 6.7.6.1",
       "id": "P2-B008-020"
     },
     {
       "paper": 2,
       "topicId": "p2-06",
       "topic": "Programming and Data Structures",
-      "subtopic": "Circular queue full condition with one reserved slot",
+      "subtopic": "Deque implementation using a doubly linked list",
       "difficulty": "moderate",
-      "stem": "A circular queue of array capacity N uses the convention that one slot is always left unused to distinguish full from empty. With `front` pointing to the first element and `rear` to the next insertion position, which condition indicates that the queue is full?",
+      "stem": "A deque must support insertion and deletion at both the front and rear in O(1) time. Which linked representation supports these operations directly when both end pointers are maintained?",
       "options": [
-        "front == rear",
-        "(rear + 1) % N == front",
-        "rear == N",
-        "front == 0"
+        "A singly linked list with only a head pointer",
+        "A doubly linked list with head and tail pointers",
+        "A binary search tree without parent links",
+        "A singly linked list with no tail pointer"
       ],
       "answer": 1,
       "explanations": [
-        "Under this representation, front==rear denotes the empty queue.",
-        "Correct. Advancing rear by one modulo N would collide with front, so the reserved-slot queue is full.",
-        "rear may wrap around and need not equal N.",
-        "front being zero says nothing by itself about fullness."
+        "With only a head pointer, deleting the rear node requires finding its predecessor.",
+        "Correct. A doubly linked list with head and tail pointers supports constant-time updates at both ends.",
+        "A binary search tree is not the direct representation for deque end operations.",
+        "Without a tail pointer, rear operations cannot generally be performed in constant time."
       ],
-      "basis": "Official Paper II syllabus: Programming and Data Structures; source/basis: Mark Allen Weiss, Data Structures and Algorithm Analysis, circular-array queue implementation",
+      "basis": "Official Paper II syllabus: Programming and Data Structures; source/basis: Weiss, Data Structures and Algorithm Analysis, deques and linked-list representations",
       "id": "P2-B008-021"
     },
     {
@@ -1500,23 +1500,23 @@
       "paper": 2,
       "topicId": "p2-07",
       "topic": "Algorithms",
-      "subtopic": "Bellman–Ford shortest paths",
-      "difficulty": "difficult",
-      "stem": "Which statement about the Bellman–Ford single-source shortest-path algorithm is correct?",
+      "subtopic": "Quickselect expected and worst-case complexity",
+      "difficulty": "moderate",
+      "stem": "Quickselect is used to find the kth smallest element in an unsorted array by partitioning around pivots. With randomised pivots, which complexity statement is correct?",
       "options": [
-        "It requires all edge weights to be non-negative",
-        "It works only on undirected acyclic graphs",
-        "It cannot detect negative-weight cycles",
-        "It supports negative edge weights and can detect a reachable negative-weight cycle"
+        "Expected Θ(n) time, with Θ(n²) worst case",
+        "Expected Θ(n log n) time and Θ(n log n) worst case",
+        "Expected Θ(log n) time and Θ(n) worst case",
+        "Θ(n²) time in every case"
       ],
-      "answer": 3,
+      "answer": 0,
       "explanations": [
-        "The non-negative-weight restriction is associated with Dijkstra's algorithm, not Bellman–Ford.",
-        "Bellman–Ford applies to directed graphs and does not require acyclicity.",
-        "An additional relaxation pass can reveal a reachable negative-weight cycle.",
-        "Correct. Bellman–Ford relaxes edges repeatedly and reports a reachable negative cycle if further relaxation remains possible."
+        "Correct. Randomised Quickselect has expected linear time, although consistently poor pivots can produce quadratic worst-case time.",
+        "The expected bound is linear, not n log n, and the worst case can be quadratic.",
+        "The algorithm must inspect/partition a linear amount of data in the expected case.",
+        "Quadratic time is a worst-case possibility, not the cost in every case."
       ],
-      "basis": "Official Paper II syllabus: Algorithms; source/basis: CLRS, Introduction to Algorithms, 4th ed., Bellman–Ford algorithm",
+      "basis": "Official Paper II syllabus: Algorithms; source/basis: CLRS, Introduction to Algorithms, 4th ed., randomized selection",
       "id": "P2-B008-024"
     },
     {
@@ -1546,23 +1546,23 @@
       "paper": 2,
       "topicId": "p2-08",
       "topic": "Theory of Computation",
-      "subtopic": "Closure of deterministic context-free languages under complement",
-      "difficulty": "difficult",
-      "stem": "Which closure property is guaranteed for deterministic context-free languages (DCFLs)?",
+      "subtopic": "Pumping lemma for regular languages",
+      "difficulty": "moderate",
+      "stem": "Which statement is part of the pumping lemma for regular languages? For some pumping length p, every string s in L with |s|≥p can be written s=xyz such that:",
       "options": [
-        "Closure under arbitrary intersection of two DCFLs",
-        "Closure under complement",
-        "Closure under arbitrary union of two DCFLs",
-        "Closure under reversal in every case"
+        "|xy|≤p, |y|≥1, and xyᶦz belongs to L for every i≥0",
+        "|x|=|y|=|z| and xyz belongs to every language",
+        "y must be the final symbol of s",
+        "xyᶦz must be outside L for every i>1"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanations": [
-        "DCFLs are not closed under arbitrary intersection.",
-        "Correct. A deterministic pushdown automaton can be complemented by exchanging accepting and rejecting outcomes after ensuring the machine halts appropriately.",
-        "DCFLs are not closed under arbitrary union.",
-        "Reversal is not a general closure property of DCFLs."
+        "Correct. These are the standard decomposition and pumping conditions for a regular language.",
+        "The lemma does not require equal-length pieces or membership in every language.",
+        "The pumped segment y occurs within the first p symbols, not necessarily at the end.",
+        "The pumping lemma requires all pumped strings to remain in L, not leave it."
       ],
-      "basis": "Official Paper II syllabus: Theory of Computation; source/basis: Hopcroft, Motwani and Ullman, Introduction to Automata Theory, Languages, and Computation, deterministic context-free languages",
+      "basis": "Official Paper II syllabus: Theory of Computation; source/basis: Sipser, Introduction to the Theory of Computation, 3rd ed., pumping lemma for regular languages",
       "id": "P2-B008-026"
     },
     {
@@ -1615,161 +1615,161 @@
       "paper": 2,
       "topicId": "p2-08",
       "topic": "Theory of Computation",
-      "subtopic": "Ambiguous context-free grammar",
-      "difficulty": "moderate",
-      "stem": "A context-free grammar is ambiguous if there exists at least one string in its language that:",
+      "subtopic": "Myhill–Nerode equivalence and minimal DFA states",
+      "difficulty": "difficult",
+      "stem": "For a language L, define x~L y when, for every suffix z, xz is in L exactly when yz is in L. If this equivalence relation has k equivalence classes, what does the Myhill–Nerode theorem imply when L is regular?",
       "options": [
-        "Has two distinct parse trees (equivalently, two distinct leftmost derivations)",
-        "Cannot be generated by any derivation",
-        "Contains no terminal symbols",
-        "Has exactly one derivation of every possible type"
+        "Every DFA for L has exactly k accepting states",
+        "The minimal DFA for L has exactly k states",
+        "L must be context-sensitive but not regular",
+        "The minimal DFA has k² states"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct. Ambiguity requires at least one string with more than one distinct parse tree or leftmost derivation.",
-        "A string generated by the grammar is not un-generable.",
-        "A string may contain terminals; ambiguity is about its structural derivations.",
-        "Ambiguity is the existence of multiple parse structures, not uniqueness."
+        "The number k counts distinguishable state classes, not only accepting states.",
+        "Correct. The equivalence classes of the Myhill–Nerode relation correspond one-to-one with states of the minimal DFA.",
+        "The theorem characterises regularity; it does not imply that a regular language is non-regular.",
+        "The minimal state count is k, not k squared."
       ],
-      "basis": "Official Paper II syllabus: Theory of Computation; source/basis: Hopcroft, Motwani and Ullman, Introduction to Automata Theory, Languages, and Computation, CFG ambiguity",
+      "basis": "Official Paper II syllabus: Theory of Computation; source/basis: Sipser, Introduction to the Theory of Computation, 3rd ed., Myhill–Nerode theorem",
       "id": "P2-B008-029"
     },
     {
       "paper": 2,
       "topicId": "p2-09",
       "topic": "Compiler Design",
-      "subtopic": "Elimination of direct left recursion",
+      "subtopic": "Backpatching in intermediate-code generation",
       "difficulty": "moderate",
-      "stem": "For a grammar production A→Aα | β, where β does not begin with A, which standard transformation removes this direct left recursion?",
+      "stem": "In compiler intermediate-code generation, what is the purpose of backpatching?",
       "options": [
-        "A→Aβ; β→α",
-        "A→βA′; A′→αA′ | ε",
-        "A→αβ; A′→ε",
-        "A→β; A′→Aα"
+        "To allocate physical memory pages for source variables",
+        "To remove all loop statements from the source program",
+        "To fill in unresolved target addresses of jumps once the destination instruction locations are known",
+        "To convert every arithmetic expression into machine code immediately"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanations": [
-        "This retains direct left recursion in A.",
-        "Correct. The transformed grammar first derives β and then repeats α through A′, with ε allowing termination.",
-        "This does not preserve the original language in general.",
-        "This does not express the repeated α suffix correctly."
+        "Memory-page allocation is an operating-system responsibility, not backpatching.",
+        "Backpatching does not eliminate loops.",
+        "Correct. Forward jumps may be emitted before their target locations are known; backpatching fills those addresses later.",
+        "Intermediate code is not necessarily converted directly to final machine code at that point."
       ],
-      "basis": "Official Paper II syllabus: Compiler Design; source/basis: Aho, Lam, Sethi and Ullman, Compilers: Principles, Techniques, and Tools, 2nd ed., left-recursion elimination",
+      "basis": "Official Paper II syllabus: Compiler Design; source/basis: Aho, Lam, Sethi and Ullman, Compilers: Principles, Techniques, and Tools, backpatching",
       "id": "P2-B008-030"
     },
     {
       "paper": 2,
       "topicId": "p2-09",
       "topic": "Compiler Design",
-      "subtopic": "LL(1) predictive parsing table conflict",
-      "difficulty": "difficult",
-      "stem": "During construction of an LL(1) predictive parsing table, two different productions for the same nonterminal are entered in the same table cell M[A,a]. What does this indicate?",
+      "subtopic": "Compiler activation records",
+      "difficulty": "moderate",
+      "stem": "Which set most accurately describes typical contents of a procedure activation record (stack frame)?",
       "options": [
-        "The grammar is necessarily regular",
-        "The grammar has no ε-productions",
-        "The grammar is not LL(1) as written because the parser cannot choose a unique production using one lookahead symbol",
-        "The grammar is automatically unambiguous"
+        "Only the source file name and compiler version",
+        "Return address, saved registers/control information, parameters and local storage as required by the calling convention",
+        "Only global variables shared by every procedure",
+        "The complete executable image of the process"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanations": [
-        "A parsing-table conflict does not imply regularity.",
-        "A conflict can occur with or without ε-productions.",
-        "Correct. An LL(1) parser must have at most one production in each table entry for a nonterminal and lookahead terminal.",
-        "A table conflict does not prove that the grammar is unambiguous."
+        "Source-file metadata is not the normal run-time contents of a stack frame.",
+        "Correct. An activation record typically stores return/control information, saved state, arguments and local variables, subject to the ABI.",
+        "Globals usually reside in static storage, not in each procedure's activation record.",
+        "The executable image is not copied into every call frame."
       ],
-      "basis": "Official Paper II syllabus: Compiler Design; source/basis: Aho, Lam, Sethi and Ullman, Compilers: Principles, Techniques, and Tools, 2nd ed., LL(1) parsing tables",
+      "basis": "Official Paper II syllabus: Compiler Design; source/basis: Aho, Lam, Sethi and Ullman, Compilers: Principles, Techniques, and Tools; standard run-time storage organisation",
       "id": "P2-B008-031"
     },
     {
       "paper": 2,
       "topicId": "p2-09",
       "topic": "Compiler Design",
-      "subtopic": "Synthesized attributes in syntax-directed translation",
-      "difficulty": "moderate",
-      "stem": "In an attribute grammar, a synthesized attribute of a parse-tree node is normally computed from:",
+      "subtopic": "Lookahead in an LR(1) item",
+      "difficulty": "difficult",
+      "stem": "In a canonical LR(1) item written `[A → α·, a]`, what role does the terminal `a` play?",
       "options": [
-        "Attributes of its parent only",
-        "The lexical order of all tokens in the source file",
-        "The node's future siblings only",
-        "Attributes of the node's children and local information"
+        "It is the first symbol already consumed by α",
+        "It is a nonterminal that must be pushed onto the parser stack",
+        "It specifies a lookahead terminal under which the completed production may be reduced",
+        "It is always the end-marker, regardless of the item"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanations": [
-        "Attributes passed from a parent to a child are inherited attributes, not synthesized ones.",
-        "Token order alone is not the defining rule for a synthesized attribute.",
-        "A synthesized attribute is computed bottom-up from the node's descendants, not from future siblings.",
-        "Correct. Synthesized attributes flow from child nodes towards their parent in the parse tree."
+        "The symbols before the dot have been recognised; the lookahead is not the first consumed symbol.",
+        "The lookahead is a terminal, not a nonterminal to push as a grammar symbol.",
+        "Correct. The LR(1) lookahead restricts when the completed item may reduce, helping distinguish contexts.",
+        "The lookahead can be a terminal from the grammar; it is not always the end-marker."
       ],
-      "basis": "Official Paper II syllabus: Compiler Design; source/basis: Aho, Lam, Sethi and Ullman, Compilers: Principles, Techniques, and Tools, syntax-directed definitions",
+      "basis": "Official Paper II syllabus: Compiler Design; source/basis: Aho, Lam, Sethi and Ullman, Compilers: Principles, Techniques, and Tools, LR(1) items",
       "id": "P2-B008-032"
     },
     {
       "paper": 2,
       "topicId": "p2-10",
       "topic": "Operating Systems",
-      "subtopic": "Banker's algorithm and safe states",
+      "subtopic": "TLB miss versus page fault",
       "difficulty": "moderate",
-      "stem": "In the Banker's deadlock-avoidance algorithm, a state is safe when:",
+      "stem": "A process accesses a virtual page whose page-table entry is valid and whose page is already resident in RAM, but the translation is absent from the TLB. What normally occurs?",
       "options": [
-        "At least one process has a zero maximum resource claim",
-        "A sequence exists in which every process can obtain its remaining need, finish, and release its allocation",
-        "No process currently holds any resource",
-        "The total number of resources is greater than the number of processes"
+        "A TLB miss causes a translation lookup/page-table walk, but not necessarily a page fault",
+        "The operating system must terminate the process",
+        "The page must be fetched from disk in every case",
+        "The TLB miss proves that the virtual address is invalid"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanations": [
-        "A zero maximum claim is not required for safety.",
-        "Correct. A safe sequence demonstrates that all processes can finish in some order using currently available resources plus resources released by completed processes.",
-        "Processes may hold resources in a safe state.",
-        "A numerical comparison between total resources and process count is not the safety criterion."
+        "Correct. A TLB miss means the translation is not cached; the page table may still show a valid resident page.",
+        "A TLB miss is a normal event and does not by itself justify terminating the process.",
+        "A disk read is required only if the page is not resident and a page fault must be serviced.",
+        "The page can be valid even though its translation is absent from the TLB."
       ],
-      "basis": "Official Paper II syllabus: Operating Systems; source/basis: Silberschatz, Galvin and Gagne, Operating System Concepts, deadlock avoidance",
+      "basis": "Official Paper II syllabus: Operating Systems; source/basis: Silberschatz, Galvin and Gagne, Operating System Concepts, TLBs and demand paging",
       "id": "P2-B008-033"
     },
     {
       "paper": 2,
       "topicId": "p2-10",
       "topic": "Operating Systems",
-      "subtopic": "LRU stack property and Belady's anomaly",
+      "subtopic": "Working-set model and thrashing",
       "difficulty": "difficult",
-      "stem": "Which statement about the Least Recently Used (LRU) page-replacement algorithm is correct?",
+      "stem": "In the working-set model, WSSᵢ(Δ) for process i is best defined as:",
       "options": [
-        "LRU is a stack algorithm and therefore does not exhibit Belady's anomaly",
-        "LRU always produces more page faults than FIFO",
-        "LRU requires the reference string to be sorted by page number",
-        "LRU replaces the page with the largest virtual address"
+        "The total number of pages ever allocated to the process",
+        "The number of distinct pages referenced by the process during the most recent window of Δ memory references/time units",
+        "The number of page faults since the process was created",
+        "The number of frames installed in the TLB"
       ],
-      "answer": 0,
+      "answer": 1,
       "explanations": [
-        "Correct. LRU has the stack/inclusion property: increasing the number of frames cannot increase its page-fault count.",
-        "There is no universal rule that LRU produces more faults than FIFO.",
-        "Page references are processed in their temporal order, not sorted by page number.",
-        "Replacement is based on recency of use, not virtual-address magnitude."
+        "The working set is a recent locality measure, not every page ever allocated.",
+        "Correct. WSSᵢ(Δ) counts the distinct pages referenced within the chosen recent window Δ.",
+        "Page-fault count is a different statistic.",
+        "TLB entries are not the definition of a process's working set."
       ],
-      "basis": "Official Paper II syllabus: Operating Systems; source/basis: Silberschatz, Galvin and Gagne, Operating System Concepts, LRU and stack algorithms",
+      "basis": "Official Paper II syllabus: Operating Systems; source/basis: Silberschatz, Galvin and Gagne, Operating System Concepts, working-set model and thrashing",
       "id": "P2-B008-034"
     },
     {
       "paper": 2,
       "topicId": "p2-10",
       "topic": "Operating Systems",
-      "subtopic": "LOOK disk-scheduling algorithm",
-      "difficulty": "moderate",
-      "stem": "How does LOOK disk scheduling differ from SCAN?",
+      "subtopic": "Effective access time with a TLB",
+      "difficulty": "difficult",
+      "stem": "A system has a TLB lookup time of 10 ns, main-memory access time of 100 ns and a TLB hit ratio of 0.90. With a single-level page table and no page faults, what is the effective access time if a TLB miss requires one page-table memory access plus one data memory access?",
       "options": [
-        "LOOK always moves to cylinder zero before reversing",
-        "LOOK reverses direction only after a fixed time quantum",
-        "LOOK reverses at the last pending request in the current direction instead of travelling to the physical end of the disk",
-        "LOOK serves requests in random order"
+        "110 ns",
+        "115 ns",
+        "120 ns",
+        "210 ns"
       ],
       "answer": 2,
       "explanations": [
-        "LOOK need not travel to cylinder zero unless it is the last request in that direction.",
-        "A time quantum is not the LOOK reversal rule.",
-        "Correct. LOOK 'looks' for the final request in the current direction and reverses there, avoiding unnecessary travel to the disk boundary.",
-        "Random service describes neither LOOK nor SCAN."
+        "110 ns is the TLB-hit path only and ignores misses.",
+        "115 ns does not match the weighted hit/miss average.",
+        "Correct. Hit path=10+100=110 ns; miss path=10+100+100=210 ns; EAT=0.9×110+0.1×210=120 ns.",
+        "210 ns is the miss path, not the average across hits and misses."
       ],
-      "basis": "Official Paper II syllabus: Operating Systems; source/basis: Silberschatz, Galvin and Gagne, Operating System Concepts, disk scheduling",
+      "basis": "Official Paper II syllabus: Operating Systems; source/basis: Silberschatz, Galvin and Gagne, Operating System Concepts, TLB effective access time",
       "id": "P2-B008-035"
     },
     {
@@ -1891,46 +1891,46 @@
       "paper": 2,
       "topicId": "p2-13",
       "topic": "Computer Networks",
-      "subtopic": "TCP receive-window flow control",
+      "subtopic": "TCP Selective Acknowledgment (SACK)",
       "difficulty": "moderate",
-      "stem": "In TCP, which mechanism primarily communicates how much additional data the receiver is currently prepared to accept?",
+      "stem": "What information does the TCP Selective Acknowledgment (SACK) option allow a receiver to report?",
       "options": [
-        "The sender's congestion window (cwnd)",
-        "The IP time-to-live field",
-        "The DNS resource-record TTL",
-        "The receiver-advertised window (rwnd)"
+        "Only the total number of application bytes generated",
+        "Non-contiguous blocks of data that have been received successfully, so the sender can retransmit missing ranges more precisely",
+        "The receiver's DNS server address",
+        "The IP address of every router on the path"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanations": [
-        "The congestion window reflects the sender's estimate of network capacity, not the receiver's buffer advertisement.",
-        "IP TTL limits packet lifetime/hop count.",
-        "DNS TTL controls caching duration for resource records.",
-        "Correct. The advertised receive window communicates receiver-side flow-control capacity."
+        "SACK is not an application-byte-generation counter.",
+        "Correct. SACK reports received sequence-number blocks beyond the cumulative ACK, allowing more targeted retransmission.",
+        "DNS server configuration is unrelated to TCP acknowledgement options.",
+        "TCP SACK does not enumerate the IP routers traversed by a packet."
       ],
-      "basis": "Official Paper II syllabus: Computer Networks; source/basis: Kurose and Ross, Computer Networking: A Top-Down Approach; RFC 9293, Transmission Control Protocol",
+      "basis": "Official Paper II syllabus: Computer Networks; source/basis: RFC 2018, TCP Selective Acknowledgment Options: https://www.rfc-editor.org/rfc/rfc2018",
       "id": "P2-B008-041"
     },
     {
       "paper": 2,
       "topicId": "p2-13",
       "topic": "Computer Networks",
-      "subtopic": "IPv6 multicast and absence of broadcast",
-      "difficulty": "moderate",
-      "stem": "Which statement about IPv6 delivery semantics is correct?",
+      "subtopic": "IPv6 link-local address prefix",
+      "difficulty": "standard",
+      "stem": "Which prefix is reserved for IPv6 link-local unicast addresses?",
       "options": [
-        "IPv6 uses broadcast addresses in the same way as IPv4",
-        "IPv6 has no broadcast; multicast is used for one-to-many delivery and functions such as neighbour discovery",
-        "IPv6 forbids multicast",
-        "IPv6 replaces all unicast addressing with anycast"
+        "2000::/3",
+        "FC00::/7",
+        "FE80::/10",
+        "FF00::/8"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanations": [
-        "IPv6 does not define broadcast addressing as IPv4 does.",
-        "Correct. IPv6 uses multicast for group delivery and neighbour-discovery functions.",
-        "Multicast is a fundamental part of IPv6.",
-        "IPv6 continues to support unicast and multicast; anycast is an additional addressing mode."
+        "2000::/3 is the global-unicast allocation range.",
+        "FC00::/7 is reserved for unique-local addresses.",
+        "Correct. FE80::/10 identifies link-local unicast addresses that are valid only on the local link.",
+        "FF00::/8 is the IPv6 multicast address range."
       ],
-      "basis": "Official Paper II syllabus: Computer Networks; source/basis: RFC 8200, Internet Protocol, Version 6 (IPv6) Specification; RFC 4861, Neighbor Discovery",
+      "basis": "Official Paper II syllabus: Computer Networks; source/basis: RFC 4291, IP Version 6 Addressing Architecture: https://www.rfc-editor.org/rfc/rfc4291",
       "id": "P2-B008-042"
     },
     {
@@ -2259,46 +2259,46 @@
       "paper": 2,
       "topicId": "p2-16",
       "topic": "Data Mining",
-      "subtopic": "Complete-linkage hierarchical clustering",
+      "subtopic": "Ward's hierarchical clustering method",
       "difficulty": "difficult",
-      "stem": "In agglomerative hierarchical clustering, how is the distance between two clusters defined by complete linkage?",
+      "stem": "In Ward's agglomerative hierarchical clustering method, which pair of clusters is selected for merging at each step?",
       "options": [
-        "The minimum pairwise distance between their points",
-        "The distance between their centroids only",
-        "The average of all within-cluster distances",
-        "The maximum pairwise distance between a point in one cluster and a point in the other"
+        "The pair with the smallest maximum cross-cluster point distance",
+        "The pair with the smallest minimum cross-cluster point distance",
+        "The pair whose merger causes the smallest increase in within-cluster sum of squared errors",
+        "The pair with the greatest difference in cluster sizes"
       ],
-      "answer": 3,
+      "answer": 2,
       "explanations": [
-        "The minimum pairwise distance defines single linkage.",
-        "Centroid distance is a different cluster-distance definition.",
-        "Average linkage uses the average cross-cluster pairwise distance.",
-        "Correct. Complete linkage uses the maximum cross-cluster pairwise distance."
+        "This describes complete-linkage distance.",
+        "This describes single-linkage distance.",
+        "Correct. Ward's criterion chooses the merge that produces the smallest increase in total within-cluster sum of squares.",
+        "Cluster-size difference is not the defining Ward criterion."
       ],
-      "basis": "Official Paper II syllabus: Data Mining; source/basis: Han, Kamber and Pei, Data Mining: Concepts and Techniques, hierarchical clustering",
+      "basis": "Official Paper II syllabus: Data Mining; source/basis: Han, Kamber and Pei, Data Mining: Concepts and Techniques, hierarchical clustering and Ward's method",
       "id": "P2-B008-057"
     },
     {
       "paper": 2,
       "topicId": "p2-16",
       "topic": "Data Mining",
-      "subtopic": "Association-rule conviction",
-      "difficulty": "difficult",
-      "stem": "An association rule A→B has confidence 0.80, and B occurs in 0.40 of all transactions. Using conviction=(1−support(B))/(1−confidence(A→B)), what is its conviction?",
+      "subtopic": "Isolation Forest anomaly detection",
+      "difficulty": "moderate",
+      "stem": "Why do anomalies tend to receive shorter average path lengths in an Isolation Forest?",
       "options": [
-        "0.75",
-        "1.20",
-        "2.00",
-        "3.00"
+        "They are always assigned to the largest cluster",
+        "Random partitioning often isolates rare or unusual observations with fewer splits than common observations",
+        "The algorithm first computes the exact Euclidean distance to every other record",
+        "The algorithm trains a single maximum-margin hyperplane"
       ],
-      "answer": 3,
+      "answer": 1,
       "explanations": [
-        "0.75 is not obtained from the stated numerator and denominator.",
-        "1.20 is not the ratio of 0.60 to 0.20.",
-        "2.00 would require a numerator of 0.40 with denominator 0.20.",
-        "Correct. Conviction=(1−0.40)/(1−0.80)=0.60/0.20=3.00."
+        "Cluster size is not the principle used by Isolation Forest.",
+        "Correct. Unusual observations are easier to separate through random partitions and therefore tend to have shorter isolation paths.",
+        "Isolation Forest does not require exhaustive pairwise Euclidean-distance computation.",
+        "A maximum-margin hyperplane describes an SVM, not Isolation Forest."
       ],
-      "basis": "Official Paper II syllabus: Data Mining; source/basis: Han, Kamber and Pei, Data Mining: Concepts and Techniques, association-rule interestingness measures",
+      "basis": "Official Paper II syllabus: Data Mining; source/basis: Liu, Ting and Zhou, Isolation Forest; Han, Kamber and Pei, Data Mining: Concepts and Techniques",
       "id": "P2-B008-058"
     },
     {
