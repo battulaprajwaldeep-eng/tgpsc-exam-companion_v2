@@ -258,23 +258,23 @@
       "paper": 1,
       "topicId": "p1-03",
       "topic": "General Science; India’s Achievements in Science and Technology",
-      "subtopic": "Photovoltaic effect",
-      "difficulty": "standard",
-      "stem": "In a conventional solar photovoltaic cell, which energy conversion occurs directly at the semiconductor junction?",
+      "subtopic": "Radioactive decay and half-life",
+      "difficulty": "moderate",
+      "stem": "A radioactive sample has a half-life of 6 hours. If its initial mass is 800 mg, how much remains after 18 hours, assuming exponential decay?",
       "options": [
-        "Light energy into electrical energy",
-        "Electrical energy into mechanical energy",
-        "Chemical energy into nuclear energy",
-        "Heat energy into sound energy"
+        "400 mg",
+        "200 mg",
+        "100 mg",
+        "50 mg"
       ],
-      "answer": 0,
+      "answer": 2,
       "explanations": [
-        "Correct. Absorbed photons create charge carriers and a junction field separates them, producing electrical output.",
-        "Mechanical conversion describes a motor, not a photovoltaic cell.",
-        "A photovoltaic junction does not perform nuclear conversion.",
-        "Sound generation is not the operating principle of a photovoltaic cell."
+        "400 mg remains after one half-life, not three.",
+        "200 mg remains after two half-lives (12 hours), not three.",
+        "Correct. Eighteen hours is three half-lives: 800→400→200→100 mg.",
+        "50 mg would remain after four half-lives (24 hours)."
       ],
-      "basis": "Official Paper I syllabus: General Science; India’s Achievements in Science and Technology; source/basis: NCERT Physics, Semiconductor Electronics; standard photovoltaic-cell operating principle",
+      "basis": "Official Paper I syllabus: General Science; India’s Achievements in Science and Technology; source/basis: NCERT Physics, nuclei and radioactive decay; standard half-life relation N=N₀(1/2)^(t/T½).",
       "id": "P1-B008-010"
     },
     {
