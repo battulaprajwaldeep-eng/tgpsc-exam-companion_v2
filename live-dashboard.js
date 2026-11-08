@@ -57,7 +57,7 @@
     const right=rows.filter(q=>q.selected===q.answer).length;
     const bankTotal=Array.isArray(bank)?bank.length:0;
     const p2=paperStats(rows,2),p1=paperStats(rows,1);
-    const strong=topics.filter(t=>t.attempts>=10&&t.accuracy>=80).sort((a,b)=>b.accuracy-a.accuracy).slice(0,5);
+    const strong=topics.filter(t=>t.attempts>=15&&t.accuracy>=80&&typeof trackerDelayedRevisionSuccess==="function"&&trackerDelayedRevisionSuccess(t.id)).sort((a,b)=>b.accuracy-a.accuracy).slice(0,5);
     const weak=topics.filter(t=>t.attempts>=5&&t.accuracy<60).sort((a,b)=>a.accuracy-b.accuracy).slice(0,5);
     const covered=topics.filter(t=>t.attempts>0).length,total=topicCatalog.length||topics.length;
     const sessions=(s.history||[]).filter(r=>r.mode!=="revision").length;
@@ -68,7 +68,7 @@
       ["Syllabus topics practised",covered+"/"+total]
     ];
     el("liveKpis").innerHTML=kpis.map(([label,value])=>'<div class="card stat"><span class="muted small">'+label+'</span><strong>'+value+'</strong></div>').join("");
-    el("liveStrong").innerHTML=renderTopicList(strong,"No strong area confirmed yet. Build a sample of at least 10 distinct first-attempt questions and reach 80%.");
+    el("liveStrong").innerHTML=renderTopicList(strong,"No mastered area confirmed yet. Reach 80% across at least 15 distinct first attempts, then successfully revise a previously missed question after 24 hours.");
     el("liveWeak").innerHTML=renderTopicList(weak,"No weak area meets the minimum 5-question evidence threshold yet.");
     el("livePapers").innerHTML='<p><b>Paper II · CSE/IT</b><br>'+(p2.accuracy===null?"No attempts yet":p2.accuracy+"% · "+p2.right+"/"+p2.attempts+" correct")+'</p><p><b>Paper I · General Studies</b><br>'+(p1.accuracy===null?"No attempts yet":p1.accuracy+"% · "+p1.right+"/"+p1.attempts+" correct")+'</p><p class="small muted">Question accuracy, not a pass prediction. Paper II carries twice the marks per question.</p>';
     el("liveCoverage").innerHTML=renderCoverage(topics);
