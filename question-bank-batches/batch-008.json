@@ -879,23 +879,23 @@
       "paper": 1,
       "topicId": "p1-14",
       "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
-      "subtopic": "Relative percentage increase",
+      "subtopic": "Weighted-average flow rate",
       "difficulty": "moderate",
-      "stem": "A treatment plant improves its operating efficiency from 72% to 81%. What is the relative percentage increase compared with the original efficiency?",
+      "stem": "A pump delivers 24 cubic metres per minute for 15 minutes and then 18 cubic metres per minute for 10 minutes. What is its average discharge over the full 25-minute period?",
       "options": [
-        "9%",
-        "11.25%",
-        "12.5%",
-        "18%"
+        "18.0 m³/min",
+        "20.0 m³/min",
+        "21.6 m³/min",
+        "22.5 m³/min"
       ],
       "answer": 2,
       "explanations": [
-        "Nine percentage points is the absolute increase, not the relative percentage increase.",
-        "11.25% would use an incorrect denominator.",
-        "Correct. Relative increase = (81−72)/72×100 = 9/72×100 = 12.5%.",
-        "18% is not obtained by dividing the nine-point increase by the original value."
+        "18.0 m³/min is only the second-period rate.",
+        "20.0 m³/min understates the total volume divided by the full duration.",
+        "Correct. Total volume=24×15+18×10=540 m³; average=540/25=21.6 m³/min.",
+        "22.5 m³/min is not the weighted average over the stated durations."
       ],
-      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; source/basis: Standard quantitative aptitude: percentage increase and percentage-point distinction; R.S. Aggarwal, Quantitative Aptitude",
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; source/basis: Standard quantitative aptitude: weighted averages and rate calculations; R.S. Aggarwal, Quantitative Aptitude",
       "id": "P1-B008-037"
     },
     {
@@ -1224,23 +1224,23 @@
       "paper": 2,
       "topicId": "p2-03",
       "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
-      "subtopic": "Complement of a simple graph",
+      "subtopic": "Stars-and-bars counting",
       "difficulty": "moderate",
-      "stem": "A simple undirected graph G has 7 vertices and 11 edges. How many edges does its complement have?",
+      "stem": "How many non-negative integer solutions are there to x₁+x₂+x₃=10?",
       "options": [
-        "7",
-        "9",
-        "10",
-        "21"
+        "45",
+        "55",
+        "66",
+        "78"
       ],
       "answer": 2,
       "explanations": [
-        "Seven is not the difference between all possible edges and the 11 existing edges.",
-        "Nine is one less than the correct complement count.",
-        "Correct. A simple graph on 7 vertices has C(7,2)=21 possible edges; the complement has 21−11=10.",
-        "21 is the total number of possible edges before subtracting the edges of G."
+        "45 is not the stars-and-bars count for three non-negative variables.",
+        "55 would correspond to a different total or number of variables.",
+        "Correct. Stars and bars gives C(10+3−1,3−1)=C(12,2)=66.",
+        "78 is not the binomial coefficient required by the formula."
       ],
-      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; source/basis: Rosen, Discrete Mathematics and Its Applications, graph complements",
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; source/basis: Rosen, Discrete Mathematics and Its Applications, combinations with repetition / stars and bars",
       "id": "P2-B008-012"
     },
     {
@@ -1615,23 +1615,23 @@
       "paper": 2,
       "topicId": "p2-08",
       "topic": "Theory of Computation",
-      "subtopic": "Myhill–Nerode equivalence and minimal DFA states",
-      "difficulty": "difficult",
-      "stem": "For a language L, define x~L y when, for every suffix z, xz is in L exactly when yz is in L. If this equivalence relation has k equivalence classes, what does the Myhill–Nerode theorem imply when L is regular?",
+      "subtopic": "Universal Turing machine",
+      "difficulty": "moderate",
+      "stem": "What is the defining capability of a universal Turing machine?",
       "options": [
-        "Every DFA for L has exactly k accepting states",
-        "The minimal DFA for L has exactly k states",
-        "L must be context-sensitive but not regular",
-        "The minimal DFA has k² states"
+        "It accepts every language, including undecidable languages",
+        "It simulates the computation of an encoded Turing machine on an encoded input",
+        "It decides the halting problem for every machine-input pair",
+        "It uses no tape and therefore has constant memory"
       ],
       "answer": 1,
       "explanations": [
-        "The number k counts distinguishable state classes, not only accepting states.",
-        "Correct. The equivalence classes of the Myhill–Nerode relation correspond one-to-one with states of the minimal DFA.",
-        "The theorem characterises regularity; it does not imply that a regular language is non-regular.",
-        "The minimal state count is k, not k squared."
+        "A universal machine does not decide every language.",
+        "Correct. Given an encoding of machine M and input w, it can simulate M on w step by step.",
+        "The halting problem remains undecidable; universality does not solve it.",
+        "A Turing machine uses an unbounded tape model; it is not a constant-memory device."
       ],
-      "basis": "Official Paper II syllabus: Theory of Computation; source/basis: Sipser, Introduction to the Theory of Computation, 3rd ed., Myhill–Nerode theorem",
+      "basis": "Official Paper II syllabus: Theory of Computation; source/basis: Sipser, Introduction to the Theory of Computation, 3rd ed., universal Turing machines",
       "id": "P2-B008-029"
     },
     {
@@ -1753,23 +1753,23 @@
       "paper": 2,
       "topicId": "p2-10",
       "topic": "Operating Systems",
-      "subtopic": "Effective access time with a TLB",
+      "subtopic": "Page-fault frequency control",
       "difficulty": "difficult",
-      "stem": "A system has a TLB lookup time of 10 ns, main-memory access time of 100 ns and a TLB hit ratio of 0.90. With a single-level page table and no page faults, what is the effective access time if a TLB miss requires one page-table memory access plus one data memory access?",
+      "stem": "An operating system uses page-fault-frequency control with an upper and lower acceptable fault-rate threshold. If a process's page-fault rate rises above the upper threshold, the usual response is to:",
       "options": [
-        "110 ns",
-        "115 ns",
-        "120 ns",
-        "210 ns"
+        "Reduce the process's frame allocation immediately",
+        "Allocate additional frames to the process if available, or suspend/rebalance load if memory is exhausted",
+        "Disable the page table and use segmentation only",
+        "Increase the process's CPU time slice without changing memory allocation"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanations": [
-        "110 ns is the TLB-hit path only and ignores misses.",
-        "115 ns does not match the weighted hit/miss average.",
-        "Correct. Hit path=10+100=110 ns; miss path=10+100+100=210 ns; EAT=0.9×110+0.1×210=120 ns.",
-        "210 ns is the miss path, not the average across hits and misses."
+        "Reducing frames would generally increase the page-fault rate further.",
+        "Correct. The high fault rate indicates insufficient resident frames; the OS may allocate more frames or reduce multiprogramming if none are available.",
+        "Page-fault-frequency control does not replace paging with segmentation.",
+        "A CPU time-slice change does not directly address the memory-pressure signal."
       ],
-      "basis": "Official Paper II syllabus: Operating Systems; source/basis: Silberschatz, Galvin and Gagne, Operating System Concepts, TLB effective access time",
+      "basis": "Official Paper II syllabus: Operating Systems; source/basis: Silberschatz, Galvin and Gagne, Operating System Concepts, page-fault-frequency strategy",
       "id": "P2-B008-035"
     },
     {
@@ -2121,21 +2121,21 @@
       "paper": 2,
       "topicId": "p2-15",
       "topic": "OOPS Concepts, Programming in C++ and JAVA",
-      "subtopic": "Java constructors and inheritance",
-      "difficulty": "standard",
-      "stem": "Which statement about constructors in Java is correct?",
+      "subtopic": "Implicit superclass-constructor invocation in Java",
+      "difficulty": "difficult",
+      "stem": "A Java class `Parent` declares only `Parent(int x)` and has no no-argument constructor. A subclass `Child` declares no constructor of its own. What happens when the source is compiled?",
       "options": [
-        "Constructors are inherited by subclasses just like public instance methods",
-        "A subclass may inherit a superclass constructor and change only its return type",
-        "Constructors are not inherited; a subclass constructor invokes a superclass constructor explicitly or through an implicit `super()` when permitted",
-        "A constructor must be declared static to be inherited"
+        "The compiler automatically passes zero to Parent(int)",
+        "The Child class is valid because constructors are inherited",
+        "Compilation fails because the generated default Child constructor attempts an unavailable no-argument super() call",
+        "The JVM chooses a Parent constructor at run time"
       ],
       "answer": 2,
       "explanations": [
-        "Constructors are not inherited as methods.",
-        "A constructor has no return type to change and is not inherited.",
-        "Correct. A subclass constructor must initialise the superclass portion, using an explicit constructor invocation or an implicit no-argument super call when available.",
-        "Constructors cannot be declared static."
+        "Java does not invent an argument value for a superclass constructor.",
+        "Constructors are not inherited by subclasses.",
+        "Correct. The implicit default constructor for Child invokes super(); because Parent has no accessible no-argument constructor, compilation fails.",
+        "Constructor resolution is checked at compile time, not deferred to the JVM."
       ],
       "basis": "Official Paper II syllabus: OOPS Concepts, Programming in C++ and JAVA; source/basis: Java Language Specification, §8.8 constructors and §8.8.7 constructor bodies",
       "id": "P2-B008-051"
@@ -2144,21 +2144,21 @@
       "paper": 2,
       "topicId": "p2-15",
       "topic": "OOPS Concepts, Programming in C++ and JAVA",
-      "subtopic": "C++ friend function access",
+      "subtopic": "C++ friend declaration and non-member access",
       "difficulty": "moderate",
-      "stem": "Which statement about a C++ friend function is correct?",
+      "stem": "A class `Box` contains the declaration `friend int compare(const Box&, const Box&);`. Which statement about `compare` is correct?",
       "options": [
-        "It is a member function automatically stored in the class's object layout",
-        "It is not a member of the class, but it may access the class's private and protected members when declared as a friend",
-        "It can access only public members",
-        "It must be virtual"
+        "It becomes a virtual member function of Box",
+        "It remains a non-member function but may access Box's private and protected members",
+        "It can access only public members of Box",
+        "It is automatically called whenever two Box objects are compared"
       ],
       "answer": 1,
       "explanations": [
-        "A friend function is not made a class member merely by the friend declaration.",
-        "Correct. Friendship grants access rights but does not make the function a member.",
-        "The purpose of friendship is to permit specified non-members to access non-public members.",
-        "A non-member friend function cannot be virtual."
+        "A friend declaration does not make the function a virtual member.",
+        "Correct. Friendship grants the named non-member access rights without making it a member of the class.",
+        "Access to private and protected members is the reason for the friend declaration.",
+        "The declaration grants access but does not define an automatic operator or invocation."
       ],
       "basis": "Official Paper II syllabus: OOPS Concepts, Programming in C++ and JAVA; source/basis: C++ working draft, friend declarations: https://eel.is/c++draft/class.friend",
       "id": "P2-B008-052"
@@ -2259,23 +2259,23 @@
       "paper": 2,
       "topicId": "p2-16",
       "topic": "Data Mining",
-      "subtopic": "Ward's hierarchical clustering method",
-      "difficulty": "difficult",
-      "stem": "In Ward's agglomerative hierarchical clustering method, which pair of clusters is selected for merging at each step?",
+      "subtopic": "AdaBoost reweighting of training examples",
+      "difficulty": "moderate",
+      "stem": "In AdaBoost, how are training-example weights typically changed after a weak learner is fitted?",
       "options": [
-        "The pair with the smallest maximum cross-cluster point distance",
-        "The pair with the smallest minimum cross-cluster point distance",
-        "The pair whose merger causes the smallest increase in within-cluster sum of squared errors",
-        "The pair with the greatest difference in cluster sizes"
+        "Misclassified examples receive increased relative weight so the next learner focuses more on them",
+        "All examples are permanently assigned equal weight after every round",
+        "Correctly classified examples always receive the largest weight",
+        "The algorithm discards every example classified incorrectly"
       ],
-      "answer": 2,
+      "answer": 0,
       "explanations": [
-        "This describes complete-linkage distance.",
-        "This describes single-linkage distance.",
-        "Correct. Ward's criterion chooses the merge that produces the smallest increase in total within-cluster sum of squares.",
-        "Cluster-size difference is not the defining Ward criterion."
+        "Correct. AdaBoost increases the relative emphasis on misclassified examples when constructing the next weak learner.",
+        "The weights are updated, not reset permanently to equal values.",
+        "Correctly classified examples generally receive reduced relative emphasis compared with misclassified examples.",
+        "Misclassified examples are not simply discarded; their influence is increased."
       ],
-      "basis": "Official Paper II syllabus: Data Mining; source/basis: Han, Kamber and Pei, Data Mining: Concepts and Techniques, hierarchical clustering and Ward's method",
+      "basis": "Official Paper II syllabus: Data Mining; source/basis: Hastie, Tibshirani and Friedman, The Elements of Statistical Learning, boosting and AdaBoost",
       "id": "P2-B008-057"
     },
     {
