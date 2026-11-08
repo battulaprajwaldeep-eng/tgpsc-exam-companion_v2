@@ -436,30 +436,30 @@
         "Musi and Manjira do not form the Kaleshwaram confluence.",
         "Bhima is a Krishna tributary and is not the river meeting the Godavari at Kaleshwaram."
       ],
-      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; source/basis: Government of Telangana, Kaleshwaram Lift Irrigation Project: https://bhoopalapally.telangana.gov.in/tourist-place/kaleshwaram-lift-irrigation-project/"
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; source/basis: Telangana Tourism, Kaleshwaram: https://tourism.telangana.gov.in/page/kaleshwaram"
     },
     {
       "id": "P1-B007-018",
       "paper": 1,
       "topicId": "p1-07",
       "topic": "Physical, Social and Economic Geography and Demography of Telangana",
-      "subtopic": "Pranahita tributary system",
+      "subtopic": "Major tributaries contributing to the Pranahita system",
       "difficulty": "moderate",
-      "stem": "The Pranahita River system is formed principally by the confluence of which major rivers near the Telangana–Maharashtra region?",
+      "stem": "According to the official description of the Pranahita river system, which set lists the major rivers contributing to it?",
       "options": [
-        "Wardha and Wainganga",
-        "Godavari and Krishna",
-        "Musi and Dindi",
-        "Manjira and Manair"
+        "Wardha, Painganga and Wainganga",
+        "Musi, Dindi and Manjira",
+        "Krishna, Tungabhadra and Bhima",
+        "Pennar, Palar and Cauvery"
       ],
       "answer": 0,
       "explanations": [
-        "Correct. The Pranahita is formed at the confluence of the Wardha and Wainganga; the Painganga is also part of its wider tributary system.",
-        "The Godavari and Krishna are separate major river systems.",
-        "Musi and Dindi are associated with the Krishna basin, not the Pranahita confluence.",
-        "Manjira and Manair are Godavari-basin tributaries but do not form the Pranahita."
+        "Correct. The official project description identifies Wardha, Painganga and Wainganga among the tributaries that combine to form the Pranahita system.",
+        "Musi, Dindi and Manjira are associated with other Telangana river systems, not the listed Pranahita tributaries.",
+        "Krishna, Tungabhadra and Bhima are not the tributaries identified in the official Pranahita description.",
+        "Pennar, Palar and Cauvery are separate southern river systems, not tributaries of the Pranahita."
       ],
-      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; source/basis: SCERT Telangana, Class VII Social Studies, Telangana map and river systems: https://scert.telangana.gov.in/pdf/publication/ebooks2019/7th%20social%20part1%202022-23.pdf"
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; source/basis: Government of Telangana, Kaleshwaram Lift Irrigation Project description of the Pranahita tributaries: https://bhoopalapally.telangana.gov.in/tourist-place/kaleshwaram-lift-irrigation-project/"
     },
     {
       "id": "P1-B007-019",
@@ -482,7 +482,7 @@
         "Pennar drains a different peninsular basin.",
         "Cauvery is a separate southern river basin."
       ],
-      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; source/basis: SCERT Telangana, Class VII Social Studies, Telangana map and river systems: https://scert.telangana.gov.in/pdf/publication/ebooks2019/7th%20social%20part1%202022-23.pdf"
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; source/basis: Medak District, Government of Telangana, About District (Manjira is a Godavari tributary): https://medak.telangana.gov.in/about-district/"
     },
     {
       "id": "P1-B007-020",
@@ -643,7 +643,7 @@
         "The Governor of a State has no power to dissolve the Lok Sabha.",
         "The Governor cannot rewrite a Bill unilaterally and enact that text."
       ],
-      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; source/basis: Legislative Department, Constitution of India (2025): https://www.legislative.gov.in/static/uploads/2025/08/7af1daa22d65f9d04c00ae9b9aa5a799.pdf"
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; source/basis: Legislative Department, Constitution of India (official 2025 text): https://www.legislative.gov.in/static/uploads/2025/07/359f70a69695affb9d72f8393102bd2e.pdf"
     },
     {
       "id": "P1-B007-027",
@@ -666,7 +666,7 @@
         "Article 324 concerns the Election Commission's superintendence of elections.",
         "Article 368 prescribes the constitutional amendment procedure."
       ],
-      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; source/basis: Legislative Department, Constitution of India (2025): https://www.legislative.gov.in/static/uploads/2025/08/7af1daa22d65f9d04c00ae9b9aa5a799.pdf"
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; source/basis: Legislative Department, Constitution of India (official 2025 text): https://www.legislative.gov.in/static/uploads/2025/07/359f70a69695affb9d72f8393102bd2e.pdf"
     },
     {
       "id": "P1-B007-028",
@@ -689,7 +689,7 @@
         "These are judicial institutions, not municipalities.",
         "The Constitution provides for three categories, not only corporations."
       ],
-      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; source/basis: Legislative Department, Constitution of India (2025): https://www.legislative.gov.in/static/uploads/2025/08/7af1daa22d65f9d04c00ae9b9aa5a799.pdf"
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; source/basis: Legislative Department, Constitution of India (official 2025 text): https://www.legislative.gov.in/static/uploads/2025/07/359f70a69695affb9d72f8393102bd2e.pdf"
     },
     {
       "id": "P1-B007-029",
@@ -712,7 +712,7 @@
         "The Lok Sabha Speaker has no such Article 263 power.",
         "The Finance Commission is a separate constitutional body with functions under Article 280."
       ],
-      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; source/basis: Legislative Department, Constitution of India (2025): https://www.legislative.gov.in/static/uploads/2025/07/359f70a69695affb9d72f8393102bd2e.pdf"
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; source/basis: Legislative Department, Constitution of India (official 2025 text): https://www.legislative.gov.in/static/uploads/2025/07/359f70a69695affb9d72f8393102bd2e.pdf"
     },
     {
       "id": "P1-B007-030",
@@ -735,7 +735,7 @@
         "The Act does not exempt anyone from generally applicable criminal law.",
         "The provision concerns the person's own identity, not another person's records."
       ],
-      "basis": "Official Paper I syllabus: Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies; source/basis: India Code, Transgender Persons (Protection of Rights) Act, 2019: https://www.indiacode.nic.in/bitstream/123456789/13091/1/A2019-40.pdf"
+      "basis": "Official Paper I syllabus: Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies; source/basis: India Code, Transgender Persons (Protection of Rights) Act, 2019, Section 4: https://www.indiacode.nic.in/bitstream/123456789/18955/1/a2019-40.pdf"
     },
     {
       "id": "P1-B007-031",
@@ -781,7 +781,7 @@
         "It is not located in Jogulamba Gadwal.",
         "It is not in the Hyderabad metropolitan district of Medchal–Malkajgiri."
       ],
-      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; source/basis: Department of Heritage Telangana, Phanigiri excavations: https://tgarch.telangana.gov.in/Excavationinfo"
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; source/basis: Telangana Tourism, Suryapet destination (Phanigiri Buddhist site): https://tourism.telangana.gov.in/destinations/suryapet"
     },
     {
       "id": "P1-B007-033",
@@ -804,7 +804,7 @@
         "These deities are not the presiding pair identified for Peddagattu.",
         "Kaleshwara and Mukteshwara are associated with Kaleshwaram."
       ],
-      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; source/basis: Telangana Tourism, Suryapet and Peddagattu Jathara: https://www.tourism.telangana.gov.in/destinations/suryapet"
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; source/basis: Suryapet District, Government of Telangana, Places of Interest (Peddagattu Jathara): https://suryapet.telangana.gov.in/places-of-interest/"
     },
     {
       "id": "P1-B007-034",
@@ -827,7 +827,7 @@
         "These are not the general timelines stated by the portal.",
         "The portal does not prescribe these longer general periods for the two categories."
       ],
-      "basis": "Official Paper I syllabus: Policies of Telangana State; source/basis: Invest Telangana, TG-iPASS statutory approvals: https://invest.telangana.gov.in/"
+      "basis": "Official Paper I syllabus: Policies of Telangana State; source/basis: Invest Telangana, Government of Telangana, TG-iPASS deemed-approval periods: https://invest.telangana.gov.in/"
     },
     {
       "id": "P1-B007-035",
@@ -850,7 +850,7 @@
         "These dates and values are not the published Telangana Rising milestones.",
         "The official vision includes both the 2034 and 2047 milestones."
       ],
-      "basis": "Official Paper I syllabus: Policies of Telangana State; source/basis: Invest Telangana, Telangana Rising vision and 2047 targets: https://invest.telangana.gov.in/"
+      "basis": "Official Paper I syllabus: Policies of Telangana State; source/basis: Invest Telangana, Government of Telangana, Telangana Rising interim and 2047 economic targets: https://invest.telangana.gov.in/"
     },
     {
       "id": "P1-B007-036",
@@ -873,7 +873,7 @@
         "36 is not obtained by applying inclusion–exclusion to the given counts.",
         "46 incorrectly subtracts or adds the intersection."
       ],
-      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; source/basis: OpenStax, Introductory Statistics 2e; ILO statistical definitions."
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; source/basis: OpenStax, Introductory Statistics 2e, inclusion–exclusion and set-counting applications."
     },
     {
       "id": "P1-B007-037",
@@ -919,7 +919,7 @@
         "60 is the absolute increase in megalitres, not the percentage.",
         "125% is the new output as a percentage of the original, not the percentage increase."
       ],
-      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; source/basis: OpenStax, Introductory Statistics 2e; ILO statistical definitions."
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; source/basis: OpenStax, Introductory Statistics 2e, percentage change and relative measures."
     },
     {
       "id": "P1-B007-039",
