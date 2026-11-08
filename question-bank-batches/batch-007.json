@@ -712,7 +712,7 @@
         "The Lok Sabha Speaker has no such Article 263 power.",
         "The Finance Commission is a separate constitutional body with functions under Article 280."
       ],
-      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; source/basis: Legislative Department, Constitution of India (2025): https://www.legislative.gov.in/static/uploads/2025/08/7af1daa22d65f9d04c00ae9b9aa5a799.pdf"
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; source/basis: Legislative Department, Constitution of India (2025): https://www.legislative.gov.in/static/uploads/2025/07/359f70a69695affb9d72f8393102bd2e.pdf"
     },
     {
       "id": "P1-B007-030",
@@ -1277,15 +1277,15 @@
       "options": [
         "n",
         "2n",
-        "2ⁿ",
-        "2ⁿ−1"
+        "2^n",
+        "2^n - 1"
       ],
       "answer": 1,
       "explanations": [
         "n is the number of stages, not the standard state count.",
         "Correct. A Johnson counter with n stages has 2n distinct states in its normal cycle.",
-        "2ⁿ is the state count of an unrestricted n-bit register, not this Johnson sequence.",
-        "2ⁿ−1 is not the Johnson-counter state-count formula."
+        "2^n is the state count of an unrestricted n-bit register, not this Johnson sequence.",
+        "2^n - 1 is not the Johnson-counter state-count formula."
       ],
       "basis": "Official Paper II syllabus: Digital Logic; source/basis: M. Morris Mano and Michael Ciletti, Digital Design, 6th ed.; IEEE 754-2019."
     },
@@ -2218,16 +2218,16 @@
       "difficulty": "difficult",
       "stem": "Which parameter type is conventionally used by a C++ move constructor to bind to an expiring object and enable resource transfer?",
       "options": [
-        "T&",
-        "const T& only",
-        "T&&",
-        "volatile T*"
+        "A pointer to T",
+        "A const lvalue reference to T",
+        "An rvalue reference to T",
+        "A volatile pointer to T"
       ],
       "answer": 2,
       "explanations": [
-        "T& is an lvalue reference and does not express the usual move-constructor binding.",
+        "A pointer is not the conventional parameter type of a move constructor.",
         "A const lvalue reference can bind to temporaries but normally cannot support moving from mutable resources.",
-        "Correct. T&& is an rvalue reference, the conventional move-constructor parameter type.",
+        "Correct. An rvalue reference to T is the conventional move-constructor parameter type.",
         "A volatile pointer is not the move-constructor parameter convention."
       ],
       "basis": "Official Paper II syllabus: OOPS Concepts, Programming in C++ and JAVA; source/basis: C++ working draft, move constructors and rvalue references: https://eel.is/c++draft/"
