@@ -51,7 +51,7 @@ def validate(q,p,ids):
  fields={"id","paper","topicId","topic","subtopic","difficulty","stem","options","answer","explanations","basis"}
  if not isinstance(q,dict) or set(q)!=fields:return "incorrect fields"
  if q["paper"]!=p or q["topicId"] not in ids:return "paper/topic mismatch"
- if q["difficulty"] not in ("standard","moderate","advanced"):return "bad difficulty"
+ if q["difficulty"] not in ("easy","standard","moderate","difficult","advanced"):return "bad difficulty"
  if not isinstance(q["stem"],str) or len(q["stem"].strip())<35:return "stem too short"
  if not isinstance(q["options"],list) or len(q["options"])!=4 or any(not isinstance(x,str) or not x.strip() for x in q["options"]):return "needs four options"
  if len({norm(x) for x in q["options"]})!=4:return "duplicate options"
@@ -84,7 +84,7 @@ def main():
 Generate exactly {N2+N1} original MCQs: {N2} Paper II (paper=2), {N1} Paper I (paper=1).
 Official Paper II syllabus topics:\n{desc[2]}\nOfficial Paper I syllabus topics:\n{desc[1]}
 Each object has exactly: id,paper,topicId,topic,subtopic,difficulty,stem,options,answer,explanations,basis.
-Use temporary IDs. Exactly four plausible option strings; answer is zero-based integer; explanations has four option-specific strings. Difficulty standard/moderate/advanced (target 20/50/30%). Basis must begin Official Paper I syllabus: or Official Paper II syllabus: and name the area.
+Use temporary IDs. Exactly four plausible option strings; answer is zero-based integer; explanations has four option-specific strings. Difficulty easy/standard/moderate/difficult/advanced. Across the batch target approximately 20% easy+standard, 50% moderate, 25% difficult, and no more than 5% advanced; keep advanced items rare and only where the official syllabus supports them. Basis must begin Official Paper I syllabus: or Official Paper II syllabus: and name the area.
 Set degree-level exam difficulty, not beginner trivia. Prefer multi-step numerical problems, code tracing, SQL, algorithm/graph reasoning, scenarios and close conceptual distinctions. Stems must be self-contained and unambiguous; specify assumptions, units, indexing and rounding. Exactly one defensible answer. Avoid all/none, vague wording and unsupported current facts. Cover topics broadly, favour underrepresented areas.
 Do not copy or lightly modify these existing stems:\n{prior}\nReturn valid JSON only."""
  generated=json.loads(call(prompt))
