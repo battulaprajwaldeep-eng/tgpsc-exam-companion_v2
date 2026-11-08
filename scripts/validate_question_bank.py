@@ -146,7 +146,14 @@ def main():
         if not stem:
             continue
         for other_id, other_stem in normalized[i + 1:]:
-            if other_id != qid and other_stem and SequenceMatcher(None, stem, other_stem).ratio() >= 0.92:
+            if other_id == qid or not other_stem:
+                continue
+            matcher = SequenceMatcher(None, stem, other_stem)
+            # These inexpensive upper bounds cannot exceed ratio().
+            # If either is below 0.92, the full calculation cannot pass.
+            if matcher.real_quick_ratio() < 0.92 or matcher.quick_ratio() < 0.92:
+                continue
+            if matcher.ratio() >= 0.92:
                 warnings.append(f"possible near-duplicate: {qid} ↔ {other_id}")
 
     if errors:
