@@ -1,0 +1,613 @@
+{
+  "questions": [
+    {
+      "paper": 2,
+      "topicId": "p2-09",
+      "subtopic": "Common-subexpression elimination and side effects",
+      "difficulty": "difficult",
+      "stem": "A compiler considers replacing two occurrences of `x + y` in one basic block with a single computed temporary. Under which condition is this common-subexpression elimination safe?",
+      "options": [
+        "The values of x and y are unchanged between the occurrences and evaluating the expression has no relevant side effects",
+        "The expression occurs in two different source files",
+        "The second occurrence is inside a loop, regardless of variable updates",
+        "The compiler has not yet built a symbol table"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Reuse is safe only if the operands retain the same values and the expression is free of side effects that would make reevaluation observable.",
+        "Occurrences in different files do not by themselves establish that the expression is available or safe to reuse.",
+        "A loop may change x or y between iterations, so unconditional reuse can change program behaviour.",
+        "A symbol table is useful compiler infrastructure but its absence is not the semantic condition for safe elimination."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; code optimisation and common-subexpression elimination; Aho, Lam, Sethi and Ullman, Compilers: Principles, Techniques, and Tools, optimisation chapter."
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-09",
+      "subtopic": "Abstract syntax tree versus parse tree",
+      "difficulty": "standard",
+      "stem": "Compared with a concrete parse tree, an abstract syntax tree (AST) normally:",
+      "options": [
+        "Retains every grammar punctuation token and every intermediate nonterminal",
+        "Omits syntactic details that are not needed for the program's essential structure",
+        "Represents only lexical tokens and no operators",
+        "Must contain more nodes than the corresponding parse tree"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A concrete parse tree usually preserves grammar productions and punctuation more explicitly than an AST.",
+        "Correct. An AST removes grammar-only structure such as redundant parentheses and punctuation while retaining meaningful constructs and relationships.",
+        "An AST represents operators, expressions and statements, not merely lexical tokens.",
+        "An AST is generally more compact; it need not and normally does not contain more nodes than a parse tree."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; syntax trees and intermediate representations; Aho, Lam, Sethi and Ullman, syntax trees."
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-09",
+      "subtopic": "Activation records: dynamic link",
+      "difficulty": "moderate",
+      "stem": "In a conventional stack-based runtime environment, what does the dynamic link (control link) in an activation record normally identify?",
+      "options": [
+        "The activation record of the lexically enclosing procedure",
+        "The activation record of the caller procedure",
+        "The address of the first instruction in the current function",
+        "The global symbol table"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The lexically enclosing procedure is normally associated with a static link, not the dynamic link.",
+        "Correct. The dynamic/control link points to the caller's activation record and supports restoration of the caller's environment.",
+        "The return address identifies where execution resumes; it is not the dynamic link itself.",
+        "The global symbol table is not the activation record's dynamic link."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; runtime environments and activation records; Aho, Lam, Sethi and Ullman, runtime storage organisation."
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-10",
+      "subtopic": "Threads and process address-space sharing",
+      "difficulty": "standard",
+      "stem": "Within a conventional multithreaded process, which resource is normally private to each thread rather than shared by all threads of that process?",
+      "options": [
+        "The process's code segment",
+        "The process's global data and heap",
+        "The thread's stack and register context",
+        "The process's open-file table"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Threads of one process normally share the process code address space.",
+        "Global data and heap are normally shared by threads in the same process.",
+        "Correct. Each thread has its own execution stack and register context, while sharing the process address space and many process resources.",
+        "Open files are generally process-level resources shared by threads, subject to descriptor-level operations."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; processes and threads; Silberschatz, Galvin and Gagne, Operating System Concepts, threads."
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-10",
+      "subtopic": "System calls and user-to-kernel transition",
+      "difficulty": "moderate",
+      "stem": "A user program invokes a protected file-read operation through a system call. What is the essential role of the system-call mechanism?",
+      "options": [
+        "It changes the process permanently into kernel mode",
+        "It provides a controlled entry into the kernel so privileged OS services can execute on the program's behalf",
+        "It copies the entire disk into user memory before the call",
+        "It eliminates the need for access-control checks"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A system call does not permanently leave the process in kernel mode; execution returns to user mode after the service.",
+        "Correct. A system call provides a controlled transition to kernel code, where the OS validates arguments and performs privileged operations.",
+        "A file-read system call does not copy the entire disk into memory.",
+        "The kernel must still enforce permissions and other protection checks."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; system calls, protection and security; Silberschatz, Galvin and Gagne, Operating System Concepts, system structures."
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-10",
+      "subtopic": "UNIX file permissions: octal mode",
+      "difficulty": "moderate",
+      "stem": "A UNIX-like file is assigned permission mode 0754. Which permissions does this encode for owner, group and others, respectively?",
+      "options": [
+        "rwx, r-x, r--",
+        "rw-, r-x, rw-",
+        "rwx, rw-, r--",
+        "r-x, rwx, r--"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Octal 7=4+2+1 gives rwx; 5=4+1 gives r-x; 4 gives r--.",
+        "The owner field is 7, not 6, and others are 4, not 6.",
+        "The group field is 5, not 6.",
+        "The owner and group permissions are reversed in this option."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; file systems, protection and security; POSIX file permission model / Linux manual pages, chmod."
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-10",
+      "subtopic": "SSTF disk scheduling and starvation",
+      "difficulty": "difficult",
+      "stem": "A disk scheduler repeatedly services the pending request closest to the current head position (Shortest Seek Time First). Which disadvantage can occur under a sustained stream of requests near the current head location?",
+      "options": [
+        "The head must always travel to the physical end before each request",
+        "A distant request may be postponed for a long time, causing starvation",
+        "The algorithm cannot reduce average seek distance",
+        "It guarantees a strict first-come, first-served order"
+      ],
+      "answer": 1,
+      "explanations": [
+        "SSTF does not require movement to the physical end before each request.",
+        "Correct. Repeatedly choosing nearby requests can indefinitely postpone a request far from the current head position.",
+        "SSTF is used precisely because it can reduce average seek distance compared with FCFS in many workloads.",
+        "SSTF does not preserve arrival order; FCFS is the policy that guarantees that order."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; I/O systems and disk scheduling; Silberschatz, Galvin and Gagne, Operating System Concepts, mass-storage structure."
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-11",
+      "subtopic": "ER model: weak entity identification",
+      "difficulty": "moderate",
+      "stem": "In an ER model, a weak entity has a partial key but cannot be uniquely identified by that key alone. How is it normally identified?",
+      "options": [
+        "By its partial key alone across the entire database",
+        "By combining the owner's key with the weak entity's partial key",
+        "By assigning every attribute a separate primary key",
+        "By removing the identifying relationship"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A partial key distinguishes weak entities only within the context of an owner; it is not globally unique by itself.",
+        "Correct. A weak entity is identified by the key of its owner entity together with its own partial key.",
+        "A separate primary key for every attribute is not the ER identification rule.",
+        "The identifying relationship is essential to the weak entity's existence and identification."
+      ],
+      "basis": "Official Paper II syllabus: Databases; ER model and database design; Elmasri and Navathe, Fundamentals of Database Systems, ER modelling."
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-11",
+      "subtopic": "B+ tree: leaf-level organisation",
+      "difficulty": "moderate",
+      "stem": "Which structural property makes a B+ tree particularly suitable for ordered range queries?",
+      "options": [
+        "All search records are stored only in the root node",
+        "Leaf nodes are commonly linked in key order, allowing sequential traversal after locating the first key",
+        "Internal nodes contain every record and leaves contain no keys",
+        "The tree is always unbalanced so that sequential access is faster"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A B+ tree distributes search information through internal nodes and stores data entries at the leaf level.",
+        "Correct. Linked, ordered leaves allow a range scan to continue sequentially after the initial search.",
+        "This reverses the usual B+ tree organisation: internal nodes guide search and leaves hold data entries or record pointers.",
+        "B+ trees are height-balanced; they do not deliberately become unbalanced."
+      ],
+      "basis": "Official Paper II syllabus: Databases; file structures, indexing and B/B+ trees; Elmasri and Navathe, Fundamentals of Database Systems, index structures."
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-11",
+      "subtopic": "Relational mapping: one-to-many relationship",
+      "difficulty": "standard",
+      "stem": "When mapping a binary one-to-many relationship from an ER model to relational tables, where is the foreign key for the relationship normally placed?",
+      "options": [
+        "In the table on the one side, referencing the many-side table",
+        "In the table on the many side, referencing the primary key on the one side",
+        "In a third table containing one row for every attribute",
+        "It is unnecessary because a one-to-many relationship cannot be represented relationally"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Placing the foreign key on the one side would not naturally represent multiple related many-side rows without repeating or restructuring data.",
+        "Correct. The primary key of the one-side entity is stored as a foreign key in the relation representing the many-side entity.",
+        "A separate table for every attribute is not the standard mapping rule.",
+        "A one-to-many relationship is routinely represented using a foreign key."
+      ],
+      "basis": "Official Paper II syllabus: Databases; ER-to-relational mapping and integrity constraints; Elmasri and Navathe, Fundamentals of Database Systems, relational database design."
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-11",
+      "subtopic": "SQL EXISTS predicate",
+      "difficulty": "moderate",
+      "stem": "A correlated subquery is used with `WHERE EXISTS (subquery)`. Under SQL semantics, when does EXISTS evaluate to TRUE for a given outer row?",
+      "options": [
+        "When the subquery returns at least one row",
+        "Only when the subquery returns exactly one row",
+        "Only when the first selected column is non-NULL",
+        "When the subquery returns no rows"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. EXISTS tests whether the subquery produces at least one row; the values in its select list do not determine the truth of EXISTS.",
+        "EXISTS is true for one or more rows, not only exactly one.",
+        "A row containing NULL still counts as a row for EXISTS.",
+        "No rows causes EXISTS to be FALSE."
+      ],
+      "basis": "Official Paper II syllabus: Databases; SQL predicates and subqueries; PostgreSQL documentation, Subquery Expressions – EXISTS; https://www.postgresql.org/docs/current/functions-subquery.html"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-12",
+      "subtopic": "PERT expected activity duration",
+      "difficulty": "moderate",
+      "stem": "For a PERT activity, the optimistic time is 2 days, the most likely time is 5 days and the pessimistic time is 8 days. Using the standard three-point PERT estimate, what is the expected duration?",
+      "options": [
+        "4 days",
+        "5 days",
+        "5.5 days",
+        "6 days"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Four days is below the weighted estimate.",
+        "Correct. Expected duration = (a+4m+b)/6 = (2+4×5+8)/6 = 30/6 = 5 days.",
+        "5.5 days is not the result of the standard PERT weighting.",
+        "Six days would be the simple average of the three estimates, not the weighted PERT estimate."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering; project planning and management; standard PERT three-point estimate, e.g. Pressman, Software Engineering."
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-12",
+      "subtopic": "Alpha testing versus beta testing",
+      "difficulty": "standard",
+      "stem": "Which statement best distinguishes beta testing from alpha testing in software development?",
+      "options": [
+        "Beta testing is always performed by the development team in a controlled laboratory",
+        "Beta testing is typically performed by selected external users in a real or realistic user environment before general release",
+        "Alpha testing can begin only after public release",
+        "Alpha and beta testing are both forms of static code inspection"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The development team in a controlled environment is more characteristic of alpha testing.",
+        "Correct. Beta testing involves selected users outside the development organisation using the product in realistic conditions before wider release.",
+        "Alpha testing generally occurs before beta testing and before public release.",
+        "Both alpha and beta are execution-based testing activities, not static code inspection."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering; testing and implementation; Pressman and Maxim, Software Engineering: A Practitioner's Approach, software testing."
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-12",
+      "subtopic": "Software maintenance: corrective maintenance",
+      "difficulty": "moderate",
+      "stem": "A deployed billing system produces an incorrect tax total because of a defect in its calculation routine. A patch is issued to remove that defect. What type of software maintenance is this?",
+      "options": [
+        "Adaptive maintenance",
+        "Perfective maintenance",
+        "Corrective maintenance",
+        "Preventive maintenance"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Adaptive maintenance changes software to accommodate a changed environment or platform.",
+        "Perfective maintenance improves performance, maintainability or functionality beyond correcting a fault.",
+        "Correct. Corrective maintenance fixes faults discovered after delivery.",
+        "Preventive maintenance modifies software to reduce the likelihood of future problems, rather than directly correcting this reported defect."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering; software life cycle, implementation and maintenance; ISO/IEC/IEEE 14764, Software Life Cycle Processes – Maintenance."
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-13",
+      "subtopic": "IP routing: longest-prefix match",
+      "difficulty": "difficult",
+      "stem": "A router has two matching routes for destination 10.1.2.77: 10.1.0.0/16 and 10.1.2.0/24. Which route is selected by standard longest-prefix matching?",
+      "options": [
+        "10.1.0.0/16 because it was learned first",
+        "10.1.2.0/24 because it has the longer matching prefix",
+        "Both routes are used in alternating packets by default",
+        "The router must discard the packet because two routes match"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Route age is not the general selection rule when longest-prefix matching applies.",
+        "Correct. The /24 route matches more leading address bits than /16 and is therefore the most specific route.",
+        "Equal-cost multipath requires equal preference and prefix length or other routing conditions; it is not the default result here.",
+        "Multiple matching prefixes are normal in routing tables; the most specific matching route is selected."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; routing algorithms and IPv4 forwarding; RFC 1812, Requirements for IP Version 4 Routers; https://www.rfc-editor.org/rfc/rfc1812"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-13",
+      "subtopic": "IPv4 TTL and ICMP Time Exceeded",
+      "difficulty": "moderate",
+      "stem": "An IPv4 packet reaches a router with TTL=1. What should a conforming router do when forwarding the packet would reduce the TTL to zero?",
+      "options": [
+        "Forward it with TTL=0",
+        "Discard it and normally send an ICMP Time Exceeded message, subject to ICMP error-message rules",
+        "Reset the TTL to 64",
+        "Fragment it into two packets"
+      ],
+      "answer": 1,
+      "explanations": [
+        "An IPv4 packet with TTL reduced to zero must not be forwarded.",
+        "Correct. The router discards the packet and normally reports ICMP Time Exceeded, subject to the protocol's restrictions on generating ICMP errors.",
+        "Routers do not reset an expired packet's TTL to 64.",
+        "TTL expiration is unrelated to fragmentation; the router does not split the packet for this reason."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; IPv4 and ICMP; RFC 791 and RFC 792; https://www.rfc-editor.org/rfc/rfc791 and https://www.rfc-editor.org/rfc/rfc792"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-13",
+      "subtopic": "TLS certificate and public-key authentication",
+      "difficulty": "moderate",
+      "stem": "In a typical authenticated TLS connection, what is the primary purpose of the server's certificate chain?",
+      "options": [
+        "To encrypt all application data directly with the certificate's public key",
+        "To bind the server's identity to a public key through signatures that the client can validate to a trusted root",
+        "To assign the client's IP address dynamically",
+        "To replace the need for a key exchange"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Application data is normally protected with negotiated symmetric traffic keys, not encrypted directly with the certificate public key.",
+        "Correct. The certificate chain lets the client validate that a trusted certificate authority has vouched for the association between the server identity and its public key.",
+        "IP address assignment is the role of network configuration protocols such as DHCP.",
+        "A certificate authenticates a public key; it does not by itself replace the TLS key-establishment process."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; public-key cryptography and secure protocols; RFC 8446, TLS 1.3; https://www.rfc-editor.org/rfc/rfc8446"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-13",
+      "subtopic": "UDP checksum and pseudo-header",
+      "difficulty": "difficult",
+      "stem": "For UDP over IPv4, which information is included in the pseudo-header used in checksum computation in addition to the UDP header and data?",
+      "options": [
+        "Source IP address, destination IP address, protocol number and UDP length",
+        "Only the source and destination MAC addresses",
+        "The complete Ethernet frame including its FCS",
+        "Only the destination IP address and application port"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The IPv4 pseudo-header includes source and destination IP addresses, a zero field, protocol number and UDP length, helping detect misdelivery to the wrong IP protocol or addresses.",
+        "MAC addresses belong to the link layer and are not part of the UDP pseudo-header.",
+        "The Ethernet frame and its FCS are outside UDP checksum computation.",
+        "The pseudo-header includes both IP addresses, protocol identification and UDP length, not only the destination address and port."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; TCP/UDP and transport-layer error detection; RFC 768, User Datagram Protocol; https://www.rfc-editor.org/rfc/rfc768"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-14",
+      "subtopic": "XML namespaces: expanded names",
+      "difficulty": "moderate",
+      "stem": "In XML, two elements use different prefixes, but both prefixes are bound to the same namespace URI and the elements have the same local name. How are their expanded names treated?",
+      "options": [
+        "As different names because the prefixes differ",
+        "As the same expanded name because the namespace URI and local name match",
+        "As invalid XML because one URI cannot have two prefixes",
+        "As the same name only if the prefixes are lexically identical"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A prefix is a placeholder and is not itself part of the expanded name.",
+        "Correct. An expanded name is determined by the namespace URI and local part; different prefixes bound to the same URI can identify the same expanded name.",
+        "XML permits multiple prefixes to be bound to the same namespace URI.",
+        "Lexical prefix identity is not required when the namespace URI and local name are identical."
+      ],
+      "basis": "Official Paper II syllabus: Web Technologies; XML namespaces; W3C Namespaces in XML 1.0 Recommendation; https://www.w3.org/TR/xml-names/"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-14",
+      "subtopic": "PHP isset and empty semantics",
+      "difficulty": "moderate",
+      "stem": "In PHP, for a variable `$x` that is set to the integer value `0`, which statement is correct?",
+      "options": [
+        "isset($x) is false and empty($x) is false",
+        "isset($x) is true and empty($x) is true",
+        "isset($x) is true and empty($x) is false",
+        "Both isset($x) and empty($x) are false"
+      ],
+      "answer": 1,
+      "explanations": [
+        "`isset` is true for a variable set to zero, so this option is false.",
+        "Correct. `isset($x)` is true because x exists and is not NULL; `empty($x)` is also true because zero is treated as empty in PHP.",
+        "`empty(0)` evaluates to true in PHP, so the second part of this option is false.",
+        "Both expressions are not false; isset is true for a set, non-NULL variable."
+      ],
+      "basis": "Official Paper II syllabus: Web Technologies; PHP; PHP Manual, isset() and empty(); https://www.php.net/manual/en/function.isset.php and https://www.php.net/manual/en/function.empty.php"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-14",
+      "subtopic": "JavaScript closures and lexical environment",
+      "difficulty": "standard",
+      "stem": "A JavaScript function is returned from an outer function and invoked after the outer function has finished executing. Why can it still access a local variable declared in the outer function?",
+      "options": [
+        "The browser automatically copies every local variable into the global object",
+        "The returned function retains access to its lexical environment through a closure",
+        "JavaScript restarts the outer function whenever the inner function is called",
+        "The variable is converted automatically into a DOM property"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Ordinary local variables are not automatically copied to the global object.",
+        "Correct. A closure retains the lexical environment needed to resolve free variables even after the outer call has returned.",
+        "Calling the inner function does not restart the outer function.",
+        "Lexical variables do not become DOM properties merely because a function is returned."
+      ],
+      "basis": "Official Paper II syllabus: Web Technologies; client-side scripting; ECMAScript Language Specification, Environment Records and closures; https://tc39.es/ecma262/"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-15",
+      "subtopic": "Java try-with-resources close order",
+      "difficulty": "moderate",
+      "stem": "A Java try-with-resources statement declares resources R1 and then R2. If both resources are successfully initialized and the statement exits, in what order are they closed?",
+      "options": [
+        "R1, then R2",
+        "R2, then R1",
+        "In parallel, with no specified order",
+        "Only R2 is closed automatically"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Resources are not closed in declaration order.",
+        "Correct. Java closes resources in the reverse order of their initialization/declaration, so R2 closes before R1.",
+        "The language specifies reverse-order closing; it is not an unspecified parallel operation.",
+        "Both resources are closed automatically when control leaves the try-with-resources statement."
+      ],
+      "basis": "Official Paper II syllabus: OOPS Concepts, Programming in C++ and JAVA; Java Language Specification, try-with-resources; https://docs.oracle.com/javase/specs/"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-15",
+      "subtopic": "C++ operator overloading constraints",
+      "difficulty": "difficult",
+      "stem": "Which property of a built-in C++ operator cannot be changed by overloading that operator for a user-defined type?",
+      "options": [
+        "The implementation body executed for the user-defined operands",
+        "The operator's precedence and associativity",
+        "The return type of the overloaded function",
+        "The class in which a member overload is declared"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The programmer supplies the overloaded operator's implementation body.",
+        "Correct. Overloading cannot change an operator's precedence, associativity or number of operands; those are fixed by the language grammar.",
+        "An overloaded operator function may have an appropriate user-defined return type.",
+        "A member overload can be declared in the class, subject to the language's operator-overloading rules."
+      ],
+      "basis": "Official Paper II syllabus: OOPS Concepts, Programming in C++ and JAVA; ISO C++ standard, operator overloading; https://eel.is/c++draft/over.oper"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-15",
+      "subtopic": "Java interface static methods",
+      "difficulty": "moderate",
+      "stem": "A class implements interface I, which declares a static method `helper()`. How is that interface static method normally invoked?",
+      "options": [
+        "Through an instance of the implementing class, using dynamic dispatch",
+        "Through the interface name, such as I.helper()",
+        "It is automatically inherited as a static method of every implementing class",
+        "Only from within a constructor of the implementing class"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Interface static methods are not instance methods and are not dynamically dispatched through an implementing object.",
+        "Correct. A static method declared in an interface is invoked using the interface type name.",
+        "Interface static methods are not inherited by implementing classes as their own static methods.",
+        "The method is not restricted to constructors; it can be invoked through the interface name wherever accessible."
+      ],
+      "basis": "Official Paper II syllabus: OOPS Concepts, Programming in C++ and JAVA; Java Language Specification, interface methods; https://docs.oracle.com/javase/specs/"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-16",
+      "subtopic": "Decision trees: gain ratio",
+      "difficulty": "moderate",
+      "stem": "Why does the gain-ratio criterion divide information gain by split information when selecting an attribute for a decision tree?",
+      "options": [
+        "To favour attributes with the largest number of distinct values even more strongly",
+        "To reduce information gain's bias toward attributes that create many small partitions",
+        "To make every split have exactly zero entropy",
+        "To replace class labels with continuous target values"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Gain ratio is intended to reduce, not amplify, the preference for attributes with many distinct values.",
+        "Correct. Split information normalises information gain and can penalise attributes that fragment the data into many partitions.",
+        "The criterion does not force child nodes or splits to have zero entropy.",
+        "Gain ratio is a classification split criterion and does not convert a categorical target into a continuous one."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; classification algorithms and decision-tree induction; Quinlan, C4.5: Programs for Machine Learning, gain ratio."
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-16",
+      "subtopic": "Random forest: out-of-bag observations",
+      "difficulty": "difficult",
+      "stem": "A random forest is trained using bootstrap samples of size n drawn with replacement from n training cases. Approximately what fraction of the original cases is left out of a particular tree's bootstrap sample as out-of-bag data for large n?",
+      "options": [
+        "About 5%",
+        "About 18.4%",
+        "About 36.8%",
+        "About 63.2%"
+      ],
+      "answer": 2,
+      "explanations": [
+        "About 5% is too small; repeated sampling with replacement leaves a much larger fraction unselected.",
+        "About 18.4% is not the limiting probability of being unselected.",
+        "Correct. The probability a case is never selected is (1−1/n)ⁿ, which approaches e⁻¹≈0.368 as n grows.",
+        "About 63.2% is the approximate fraction selected at least once, not the out-of-bag fraction."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; classification ensembles and random forests; Breiman, Random Forests (2001), bootstrap sampling and out-of-bag estimation."
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-16",
+      "subtopic": "Multiclass one-versus-rest classification",
+      "difficulty": "standard",
+      "stem": "A one-versus-rest strategy is used to extend a binary classifier to K mutually exclusive classes. How many binary classifiers are trained?",
+      "options": [
+        "K−1",
+        "K",
+        "K(K−1)/2",
+        "2K"
+      ],
+      "answer": 1,
+      "explanations": [
+        "K−1 is not the standard one-versus-rest count; that count belongs to some other multiclass decompositions.",
+        "Correct. One classifier is trained for each class, treating that class as positive and all remaining classes as negative.",
+        "K(K−1)/2 is the number of pairwise classifiers in one-versus-one classification.",
+        "2K is not the one-versus-rest classifier count."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; classification algorithms; standard one-versus-rest multiclass reduction, scikit-learn User Guide; https://scikit-learn.org/stable/modules/multiclass.html"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-16",
+      "subtopic": "Classification threshold and sensitivity",
+      "difficulty": "moderate",
+      "stem": "A binary classifier produces a score interpreted as the probability of the positive class. If the positive-class decision threshold is lowered while the score distribution is unchanged, which effect is generally expected?",
+      "options": [
+        "Fewer cases are predicted positive, so sensitivity generally falls",
+        "More cases are predicted positive, so sensitivity generally rises and specificity may fall",
+        "Both sensitivity and specificity must rise",
+        "The ROC curve becomes undefined"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Lowering the threshold generally classifies more cases as positive, not fewer.",
+        "Correct. A lower threshold tends to increase true positives and sensitivity/recall, while it can also increase false positives and reduce specificity.",
+        "Sensitivity and specificity generally trade off as the threshold changes; they do not both have to rise.",
+        "The ROC curve is defined from true-positive and false-positive rates across thresholds."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; classification evaluation and decision thresholds; standard classification metrics, scikit-learn User Guide; https://scikit-learn.org/stable/modules/model_evaluation.html"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-16",
+      "subtopic": "Permutation feature importance",
+      "difficulty": "advanced",
+      "stem": "In permutation feature importance, how is the importance of a feature commonly estimated on a validation set?",
+      "options": [
+        "By measuring the score change after randomly permuting that feature's values while leaving other features unchanged",
+        "By counting the number of times the feature name appears in the source code",
+        "By assigning the feature the largest possible numeric value",
+        "By removing the target variable before training and measuring training accuracy"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Permutation importance measures how much model performance deteriorates when the association between one feature and the target is broken by permuting that feature.",
+        "Source-code frequency is unrelated to predictive contribution.",
+        "Setting a feature to a large value is not the permutation procedure and may create out-of-distribution data.",
+        "Removing the target variable would prevent supervised training rather than estimate feature importance."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; classification evaluation and feature relevance; scikit-learn User Guide, permutation feature importance; https://scikit-learn.org/stable/modules/permutation_importance.html"
+    }
+  ]
+}
