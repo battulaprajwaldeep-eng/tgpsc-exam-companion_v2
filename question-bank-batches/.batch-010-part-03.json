@@ -4,7 +4,7 @@
       "paper": 2,
       "topicId": "p2-02",
       "subtopic": "Positive-definite real symmetric matrices",
-      "difficulty": "difficult",
+      "difficulty": "advanced",
       "stem": "A real symmetric matrix A is positive definite if xᵀAx>0 for every non-zero real vector x. Which statement about its eigenvalues is necessarily true?",
       "options": [
         "All eigenvalues are strictly positive",
@@ -24,23 +24,23 @@
     {
       "paper": 2,
       "topicId": "p2-03",
-      "subtopic": "Cyclomatic number of a connected graph",
-      "difficulty": "moderate",
-      "stem": "A connected undirected graph has 8 vertices and 10 edges. What is its cyclomatic number, i.e. the number of independent cycles?",
+      "subtopic": "Maximum independent set in a path graph",
+      "difficulty": "standard",
+      "stem": "For the path graph P₅ with vertices v₁–v₂–v₃–v₄–v₅, what is the size of a maximum independent set?",
       "options": [
-        "1",
         "2",
         "3",
-        "4"
+        "4",
+        "5"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanations": [
-        "A connected graph with 8 vertices needs 7 edges for a spanning tree, so one extra edge would be one independent cycle, not one here.",
-        "Two independent cycles would require 9 edges for 8 vertices.",
-        "Correct. For a connected graph, the cycle rank is E−V+1=10−8+1=3.",
-        "Four independent cycles would require 11 edges for 8 vertices."
+        "Two vertices can be selected, but the set {v₁,v₃,v₅} shows that a larger independent set exists.",
+        "Correct. Choosing v₁, v₃ and v₅ gives three vertices with no edge between any pair; no four vertices can be selected without including adjacent vertices in P₅.",
+        "Any selection of four of the five path vertices must include at least one adjacent pair, so it is not independent.",
+        "All five vertices cannot be selected because each consecutive pair is connected by an edge."
       ],
-      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Rosen, Discrete Mathematics and Its Applications, cycle rank of a graph."
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; standard definition of independent sets and path graphs, e.g. West, Introduction to Graph Theory."
     },
     {
       "paper": 2,
@@ -88,7 +88,7 @@
       "paper": 2,
       "topicId": "p2-03",
       "subtopic": "Hasse diagrams of partially ordered sets",
-      "difficulty": "moderate",
+      "difficulty": "difficult",
       "stem": "When drawing a Hasse diagram for a finite partially ordered set, which relations are conventionally omitted from the diagram?",
       "options": [
         "Cover relations between comparable elements",
@@ -109,7 +109,7 @@
       "paper": 2,
       "topicId": "p2-04",
       "subtopic": "Sequential circuit timing: minimum clock period",
-      "difficulty": "difficult",
+      "difficulty": "advanced",
       "stem": "A register-to-register path has clock-to-Q delay 0.6 ns, combinational delay 2.1 ns and setup time 0.3 ns. Ignoring skew and uncertainty, what is the minimum clock period required for correct capture?",
       "options": [
         "2.1 ns",
@@ -151,7 +151,7 @@
       "paper": 2,
       "topicId": "p2-04",
       "subtopic": "BCD addition and correction",
-      "difficulty": "moderate",
+      "difficulty": "difficult",
       "stem": "Two valid packed-BCD digits, 8 and 7, are added. After the required BCD correction, what packed-BCD result represents the decimal sum?",
       "options": [
         "0000 1111",
@@ -193,7 +193,7 @@
       "paper": 2,
       "topicId": "p2-05",
       "subtopic": "Two-way set-associative cache address fields",
-      "difficulty": "difficult",
+      "difficulty": "advanced",
       "stem": "A byte-addressable 32-bit machine has a 32 KiB, two-way set-associative cache with 64-byte blocks. Assuming conventional indexing, how many tag bits are in a physical address?",
       "options": [
         "16",
@@ -214,7 +214,7 @@
       "paper": 2,
       "topicId": "p2-05",
       "subtopic": "Ideal pipeline latency and throughput",
-      "difficulty": "moderate",
+      "difficulty": "difficult",
       "stem": "An ideal five-stage pipeline has a one-cycle stage latency and no stalls. How many clock cycles are required to complete 100 instructions after the pipeline is filled?",
       "options": [
         "100",
@@ -298,7 +298,7 @@
       "paper": 2,
       "topicId": "p2-06",
       "subtopic": "C function-pointer declaration",
-      "difficulty": "moderate",
+      "difficulty": "difficult",
       "stem": "Which declaration defines `fp` as a pointer to a function taking two `int` arguments and returning an `int`?",
       "options": [
         "fp is a function that returns a pointer to int",
@@ -361,7 +361,7 @@
       "paper": 2,
       "topicId": "p2-07",
       "subtopic": "Kahn's topological sorting and cycle detection",
-      "difficulty": "moderate",
+      "difficulty": "difficult",
       "stem": "Kahn's algorithm for topological sorting of a directed graph removes zero-indegree vertices repeatedly. If fewer than V vertices are output, what can be concluded?",
       "options": [
         "The graph is necessarily a complete directed graph",
@@ -445,7 +445,7 @@
       "paper": 2,
       "topicId": "p2-08",
       "subtopic": "Epsilon-closure in NFA construction",
-      "difficulty": "moderate",
+      "difficulty": "difficult",
       "stem": "In the subset construction for converting an ε-NFA to a DFA, what does ε-closure(q) contain?",
       "options": [
         "Only q, with no other states",
