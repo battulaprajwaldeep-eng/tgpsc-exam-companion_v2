@@ -45,23 +45,23 @@
     {
       "paper": 2,
       "topicId": "p2-03",
-      "subtopic": "Cayley's formula for spanning trees of a complete graph",
-      "difficulty": "difficult",
-      "stem": "How many distinct spanning trees does the complete graph K₄ contain?",
+      "subtopic": "Counting binary relations on a finite set",
+      "difficulty": "moderate",
+      "stem": "A set A contains three elements. How many distinct binary relations can be defined on A?",
       "options": [
-        "8",
-        "12",
-        "16",
-        "24"
+        "64",
+        "256",
+        "512",
+        "729"
       ],
       "answer": 2,
       "explanations": [
-        "K₄ has more than eight spanning trees.",
-        "Twelve is not the value given by Cayley's formula.",
-        "Correct. Cayley's formula states that Kₙ has nⁿ⁻² spanning trees; for n=4, 4²=16.",
-        "Twenty-four is 4!, which counts vertex permutations, not spanning trees."
+        "64 is 2⁶ and would count subsets of a six-element set, not ordered pairs from A×A.",
+        "256 is 2⁸ and uses eight ordered pairs instead of the nine in A×A.",
+        "Correct. A binary relation is any subset of A×A. Since |A×A|=3×3=9, there are 2⁹=512 possible relations.",
+        "729 is 3⁶ and is not the count of subsets of the nine ordered pairs."
       ],
-      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Cayley's formula, standard graph-theory result."
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Rosen, Discrete Mathematics and Its Applications, relations and counting subsets."
     },
     {
       "paper": 2,
@@ -87,23 +87,20 @@
     {
       "paper": 2,
       "topicId": "p2-03",
-      "subtopic": "Negation of a universally quantified implication",
-      "difficulty": "standard",
-      "stem": "What is the logically equivalent negation of the statement ∀x(P(x)→Q(x))?",
+      "subtopic": "Hasse diagrams of partially ordered sets",
+      "difficulty": "moderate",
+      "stem": "When drawing a Hasse diagram for a finite partially ordered set, which relations are conventionally omitted from the diagram?",
       "options": [
-        "∀x(P(x)∧¬Q(x))",
-        "∃x(P(x)∧¬Q(x))",
-        "∃x(¬P(x)∨Q(x))",
-        "∀x(¬P(x)→Q(x))"
+        "Cover relations between comparable elements|Reflexive loops and transitive relations implied by other paths|All relations involving maximal elements|All relations between incomparable elements"
       ],
       "answer": 1,
       "explanations": [
-        "The negation of a universal statement is existential, not universal.",
-        "Correct. Negating P→Q gives P∧¬Q; negating the universal quantifier gives an existential counterexample.",
-        "This expression is equivalent to the original implication after quantifier transformation, not its negation.",
-        "This is not the logical negation of the original universally quantified implication."
+        "Cover relations are the essential edges shown in a Hasse diagram.",
+        "Correct. Reflexive loops are omitted, and a relation implied by transitivity through an intermediate element is not drawn as a separate edge.",
+        "Maximal elements are represented as vertices and are not removed from the diagram.",
+        "Incomparable pairs have no order relation to draw; their absence is not the rule being asked about."
       ],
-      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Mathematical Logic; Rosen, Discrete Mathematics and Its Applications, predicate logic and quantifier negation."
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Mathematical Logic; Rosen, Discrete Mathematics and Its Applications, partially ordered sets and Hasse diagrams."
     },
     {
       "paper": 2,
@@ -423,44 +420,38 @@
     {
       "paper": 2,
       "topicId": "p2-07",
-      "subtopic": "Dynamic array append: amortised analysis",
+      "subtopic": "Counting sort stability",
       "difficulty": "difficult",
-      "stem": "A dynamic array doubles its capacity whenever an append would exceed the current capacity. Starting with capacity 1, what is the amortised time complexity per append over a long sequence of n appends?",
+      "stem": "In the stable version of counting sort, after cumulative counts have been computed, why is the input array normally traversed from right to left when placing elements into the output array?",
       "options": [
-        "O(log n)",
-        "O(n)",
-        "O(1)",
-        "O(n log n)"
+        "It makes the algorithm comparison-based|It preserves the relative order of records with equal keys|It reduces the key range k to log k|It guarantees that the output is sorted even if cumulative counts are omitted"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanations": [
-        "O(log n) is the number of resizing events, not the amortised cost per append.",
-        "O(n) describes the cost of a single resize at large capacity, not the amortised cost per append.",
-        "Correct. Most appends cost O(1); the total copying work across geometric capacity doublings is O(n), so the amortised cost per append is O(1).",
-        "O(n log n) overcounts the total copying work because capacities grow geometrically."
+        "Counting sort remains a non-comparison sorting algorithm; traversal direction does not make it comparison-based.",
+        "Correct. Placing items from right to left while decrementing cumulative positions preserves the original relative order of equal-key records.",
+        "The key range k is not changed by the traversal direction.",
+        "Cumulative counts are required to determine final positions; reversing traversal does not replace them."
       ],
-      "basis": "Official Paper II syllabus: Algorithms; amortised analysis and dynamic data structures; CLRS, Introduction to Algorithms, aggregate and accounting methods."
+      "basis": "Official Paper II syllabus: Algorithms; sorting and stability; CLRS, Introduction to Algorithms, Counting Sort."
     },
     {
       "paper": 2,
       "topicId": "p2-08",
-      "subtopic": "DFA language emptiness",
+      "subtopic": "Epsilon-closure in NFA construction",
       "difficulty": "moderate",
-      "stem": "How can one decide whether the language accepted by a finite DFA is empty?",
+      "stem": "In the subset construction for converting an ε-NFA to a DFA, what does ε-closure(q) contain?",
       "options": [
-        "Check whether every state is accepting",
-        "Perform graph reachability from the start state and test whether any accepting state is reachable",
-        "Count the number of transitions and compare it with the number of states",
-        "Minimise the DFA and inspect whether it has exactly one state"
+        "Only q, with no other states|Every state reachable from q using one or more input symbols|q itself and every state reachable from q using zero or more ε-transitions|Only accepting states reachable from q by ε-transitions"
       ],
-      "answer": 1,
+      "answer": 2,
       "explanations": [
-        "A DFA can accept a non-empty language even if some states are non-accepting; the test is reachability of an accepting state.",
-        "Correct. The accepted language is non-empty exactly when at least one accepting state is reachable from the initial state.",
-        "The raw number of transitions does not determine whether an accepting state can be reached.",
-        "A one-state minimal DFA may accept either the empty language or all strings depending on its accepting status; minimisation alone is not the test."
+        "The zero-transition path means q itself is always included, but ε-closure may contain additional states.",
+        "Input-symbol transitions are not ε-transitions and are not included in ε-closure.",
+        "Correct. ε-closure includes q and all states reachable by any finite sequence of ε-transitions, including a sequence of length zero.",
+        "ε-closure is not restricted to accepting states; it includes all states reachable through ε-transitions."
       ],
-      "basis": "Official Paper II syllabus: Theory of Computation; finite automata and decidability; Sipser, Introduction to the Theory of Computation, decision problems for regular languages."
+      "basis": "Official Paper II syllabus: Theory of Computation; finite automata and ε-NFA conversion; Sipser, Introduction to the Theory of Computation, subset construction."
     },
     {
       "paper": 2,
