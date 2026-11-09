@@ -381,23 +381,23 @@
     {
       "paper": 1,
       "topicId": "p1-07",
-      "subtopic": "Manair River and Godavari system",
+      "subtopic": "2011 Census decadal population growth",
       "difficulty": "moderate",
-      "stem": "The Lower Manair Dam is built on the Manair River. Which major river receives the Manair system?",
+      "stem": "What decadal population growth rate for Telangana during 2001–2011 is reported in the State's official statistical profile?",
       "options": [
-        "Krishna",
-        "Godavari",
-        "Musi",
-        "Tungabhadra"
+        "10.58%",
+        "13.58%",
+        "17.70%",
+        "21.20%"
       ],
       "answer": 1,
       "explanations": [
-        "Krishna is not the receiving river identified for Manair.",
-        "Correct. The Karimnagar District portal identifies Manair as a tributary of the Godavari.",
-        "Musi is a different river in the Krishna basin.",
-        "Tungabhadra is a Krishna tributary, not the river receiving Manair."
+        "10.58% is not the State-level 2001–2011 growth rate in the official profile.",
+        "Correct. The Government of Telangana reports a decadal growth rate of 13.58% for 2001–2011.",
+        "17.70% is the all-India 2001–2011 decadal growth rate cited in the same comparison, not Telangana's rate.",
+        "21.20% is not the figure reported for Telangana in the 2011 Census profile."
       ],
-      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; Karimnagar District Government, Lower Manair Dam; https://karimnagar.telangana.gov.in/tourist-place/lower-manair-dam/"
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; Government of Telangana, State Profile / Directorate of Economics and Statistics, 2011 Census decadal growth rate; https://www.telangana.gov.in/about/state-profile/"
     },
     {
       "paper": 1,
