@@ -318,65 +318,65 @@
     {
       "paper": 1,
       "topicId": "p1-07",
-      "subtopic": "Telangana river basin distribution",
-      "difficulty": "moderate",
-      "stem": "According to the Telangana Irrigation and CAD Department's overview, approximately what share of the State's area lies in the Krishna river basin?",
-      "options": [
-        "About 25%",
-        "About 43%",
-        "About 56%",
-        "About 75%"
-      ],
-      "answer": 1,
-      "explanations": [
-        "About 25% is substantially below the department's stated share.",
-        "Correct. The department reports approximately 43% of Telangana in the Krishna basin and about 56% in the Godavari basin.",
-        "About 56% is the approximate Godavari-basin share, not the Krishna share.",
-        "About 75% is not the figure in the department's overview."
-      ],
-      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; Telangana Irrigation and CAD Department, Irrigation Development in Telangana; https://www.telangana.gov.in/departments/irrigation-and-cad/"
-    },
-    {
-      "paper": 1,
-      "topicId": "p1-07",
-      "subtopic": "Dindi River basin",
+      "subtopic": "2011 Census literacy profile",
       "difficulty": "standard",
-      "stem": "The Dindi River, which flows through parts of the Mahabubnagar region, is identified by the district administration as a tributary of which major river?",
+      "stem": "According to the 2011 Census figures reproduced in the Telangana State Profile, what was the State's overall literacy rate?",
       "options": [
-        "Godavari",
-        "Krishna",
-        "Manjira",
-        "Musi"
+        "62.54%",
+        "66.54%",
+        "70.54%",
+        "73.00%"
       ],
       "answer": 1,
       "explanations": [
-        "Godavari is a separate major basin in Telangana.",
-        "Correct. The Mahabubnagar District portal identifies Dindi as a tributary of the Krishna.",
-        "Manjira is a tributary of the Godavari system, not the Dindi's receiving river.",
-        "Musi is another Krishna-basin river but is not the river to which Dindi is tributary."
+        "62.54% is below the figure reported for Telangana in the 2011 Census profile.",
+        "Correct. The State Profile reports overall literacy of 66.54% (male 75.04%, female 57.99%).",
+        "70.54% is not the Telangana figure in the 2011 Census profile.",
+        "73.00% is the approximate all-India literacy rate in 2011, not Telangana's 66.54%."
       ],
-      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; Mahabubnagar District Government, About District – Rivers; https://mahabubnagar.telangana.gov.in/about-district-2-2/"
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; Government of Telangana, State Profile – Census 2011 literacy rates; https://www.telangana.gov.in/about/state-profile/"
     },
     {
       "paper": 1,
       "topicId": "p1-07",
-      "subtopic": "Kinnerasani River and Godavari basin",
+      "subtopic": "2011 Census rural–urban distribution",
       "difficulty": "moderate",
-      "stem": "The Kinnerasani project in Bhadradri Kothagudem district is constructed on a river that is an important tributary of which basin?",
+      "stem": "In the 2011 Census demographic profile published by the Government of Telangana, approximately what share of the State's population lived in rural areas?",
       "options": [
-        "Krishna basin",
-        "Pennar basin",
-        "Godavari basin",
-        "Cauvery basin"
+        "38.88%",
+        "43.00%",
+        "56.00%",
+        "61.12%"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanations": [
-        "The Kinnerasani is not identified as a Krishna-basin tributary.",
-        "The Pennar basin lies farther south and is not the Kinnerasani's receiving basin.",
-        "Correct. The district administration identifies Kinnerasani as an important tributary of the Godavari.",
-        "The Cauvery basin is geographically separate from the Kinnerasani system."
+        "38.88% is the urban population share, not the rural share.",
+        "43% is the approximate share of the State's area in the Krishna basin, not its rural population share.",
+        "56% is close to the approximate Godavari-basin area share, not the rural population share.",
+        "Correct. The State Profile reports 61.12% rural and 38.88% urban population in the 2011 Census."
       ],
-      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; Bhadradri Kothagudem District Government, District History – Kinnerasani Project; https://kothagudem.telangana.gov.in/history/"
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; Government of Telangana, State Profile – Census 2011 rural and urban population; https://www.telangana.gov.in/about/state-profile/"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-07",
+      "subtopic": "2011 Census population density",
+      "difficulty": "moderate",
+      "stem": "What population density per square kilometre is reported for Telangana in the State's 2011 Census profile?",
+      "options": [
+        "268",
+        "312",
+        "350",
+        "412"
+      ],
+      "answer": 1,
+      "explanations": [
+        "268 is not the State-level density reported in the profile.",
+        "Correct. The Telangana State Profile gives a 2011 Census population density of 312 persons per square kilometre.",
+        "350 is not the reported State-level figure.",
+        "412 is not the reported State-level figure."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; Government of Telangana, State Profile – Census 2011 population density; https://www.telangana.gov.in/about/state-profile/"
     },
     {
       "paper": 1,
