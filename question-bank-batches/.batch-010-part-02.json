@@ -133,7 +133,10 @@
       "difficulty": "moderate",
       "stem": "Nagoba Jatara, a major Gond tribal festival in Telangana, is traditionally held at which place?",
       "options": [
-        "Keslapur in Indravelli mandal, Adilabad district|Medaram in Mulugu district|Basar in Nirmal district|Alampur in Jogulamba Gadwal district"
+        "Keslapur in Indravelli mandal, Adilabad district",
+        "Medaram in Mulugu district",
+        "Basar in Nirmal district",
+        "Alampur in Jogulamba Gadwal district"
       ],
       "answer": 0,
       "explanations": [
