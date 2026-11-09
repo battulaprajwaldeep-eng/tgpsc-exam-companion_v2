@@ -7,7 +7,10 @@
       "difficulty": "difficult",
       "stem": "During intermediate-code generation for a conditional branch, the target label of a jump is not yet known. What is the purpose of backpatching?",
       "options": [
-        "To fill the unresolved jump target later, when its address or label becomes known|To allocate a new register for every Boolean variable|To eliminate all branches by converting them into data declarations|To perform lexical analysis on the source file a second time"
+        "To fill the unresolved jump target later, when its address or label becomes known",
+        "To allocate a new register for every Boolean variable",
+        "To eliminate all branches by converting them into data declarations",
+        "To perform lexical analysis on the source file a second time"
       ],
       "answer": 0,
       "explanations": [
@@ -172,7 +175,10 @@
       "difficulty": "moderate",
       "stem": "A database has a composite B-tree index on columns (city, pincode), in that order. Which query pattern can generally make direct use of the leading index prefix?",
       "options": [
-        "A predicate on pincode alone, with no condition on city|A predicate on city alone, or on both city and pincode|A predicate only on an unrelated column such as salary|A predicate on the second key only is always as efficient as a predicate on the first key"
+        "A predicate on pincode alone, with no condition on city",
+        "A predicate on city alone, or on both city and pincode",
+        "A predicate only on an unrelated column such as salary",
+        "A predicate on the second key only is always as efficient as a predicate on the first key"
       ],
       "answer": 1,
       "explanations": [
