@@ -3,23 +3,20 @@
     {
       "paper": 2,
       "topicId": "p2-09",
-      "subtopic": "Common-subexpression elimination and side effects",
+      "subtopic": "Backpatching in intermediate-code generation",
       "difficulty": "difficult",
-      "stem": "A compiler considers replacing two occurrences of `x + y` in one basic block with a single computed temporary. Under which condition is this common-subexpression elimination safe?",
+      "stem": "During intermediate-code generation for a conditional branch, the target label of a jump is not yet known. What is the purpose of backpatching?",
       "options": [
-        "The values of x and y are unchanged between the occurrences and evaluating the expression has no relevant side effects",
-        "The expression occurs in two different source files",
-        "The second occurrence is inside a loop, regardless of variable updates",
-        "The compiler has not yet built a symbol table"
+        "To fill the unresolved jump target later, when its address or label becomes known|To allocate a new register for every Boolean variable|To eliminate all branches by converting them into data declarations|To perform lexical analysis on the source file a second time"
       ],
       "answer": 0,
       "explanations": [
-        "Correct. Reuse is safe only if the operands retain the same values and the expression is free of side effects that would make reevaluation observable.",
-        "Occurrences in different files do not by themselves establish that the expression is available or safe to reuse.",
-        "A loop may change x or y between iterations, so unconditional reuse can change program behaviour.",
-        "A symbol table is useful compiler infrastructure but its absence is not the semantic condition for safe elimination."
+        "Correct. Backpatching records incomplete jump instructions and fills their target addresses once the relevant labels are determined during code generation.",
+        "Register allocation is a separate optimisation/task and is not the purpose of backpatching.",
+        "Backpatching does not eliminate control-flow branches or convert them into declarations.",
+        "Lexical analysis is not repeated to resolve an unknown branch target."
       ],
-      "basis": "Official Paper II syllabus: Compiler Design; code optimisation and common-subexpression elimination; Aho, Lam, Sethi and Ullman, Compilers: Principles, Techniques, and Tools, optimisation chapter."
+      "basis": "Official Paper II syllabus: Compiler Design; syntax-directed translation and intermediate-code generation; Aho, Lam, Sethi and Ullman, backpatching and Boolean expressions."
     },
     {
       "paper": 2,
@@ -171,23 +168,20 @@
     {
       "paper": 2,
       "topicId": "p2-11",
-      "subtopic": "B+ tree: leaf-level organisation",
+      "subtopic": "Composite B-tree indexes and leftmost-prefix use",
       "difficulty": "moderate",
-      "stem": "Which structural property makes a B+ tree particularly suitable for ordered range queries?",
+      "stem": "A database has a composite B-tree index on columns (city, pincode), in that order. Which query pattern can generally make direct use of the leading index prefix?",
       "options": [
-        "All search records are stored only in the root node",
-        "Leaf nodes are commonly linked in key order, allowing sequential traversal after locating the first key",
-        "Internal nodes contain every record and leaves contain no keys",
-        "The tree is always unbalanced so that sequential access is faster"
+        "A predicate on pincode alone, with no condition on city|A predicate on city alone, or on both city and pincode|A predicate only on an unrelated column such as salary|A predicate on the second key only is always as efficient as a predicate on the first key"
       ],
       "answer": 1,
       "explanations": [
-        "A B+ tree distributes search information through internal nodes and stores data entries at the leaf level.",
-        "Correct. Linked, ordered leaves allow a range scan to continue sequentially after the initial search.",
-        "This reverses the usual B+ tree organisation: internal nodes guide search and leaves hold data entries or record pointers.",
-        "B+ trees are height-balanced; they do not deliberately become unbalanced."
+        "A predicate on the second column alone generally cannot exploit the leading-key ordering as a normal prefix lookup.",
+        "Correct. A composite index ordered by (city, pincode) can generally support lookups beginning with city, including city alone or city together with pincode.",
+        "An unrelated column is not part of this index and cannot be searched directly through it.",
+        "The leftmost-prefix property means a predicate on pincode alone is not generally equivalent in efficiency to one on city."
       ],
-      "basis": "Official Paper II syllabus: Databases; file structures, indexing and B/B+ trees; Elmasri and Navathe, Fundamentals of Database Systems, index structures."
+      "basis": "Official Paper II syllabus: Databases; indexing and query processing; PostgreSQL documentation, multicolumn indexes; https://www.postgresql.org/docs/current/indexes-multicolumn.html"
     },
     {
       "paper": 2,
