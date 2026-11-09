@@ -172,7 +172,7 @@
       "paper": 2,
       "topicId": "p2-11",
       "subtopic": "Composite B-tree indexes and leftmost-prefix use",
-      "difficulty": "moderate",
+      "difficulty": "difficult",
       "stem": "A database has a composite B-tree index on columns (city, pincode), in that order. Which query pattern can generally make direct use of the leading index prefix?",
       "options": [
         "A predicate on pincode alone, with no condition on city",
@@ -235,7 +235,7 @@
       "paper": 2,
       "topicId": "p2-12",
       "subtopic": "PERT expected activity duration",
-      "difficulty": "moderate",
+      "difficulty": "difficult",
       "stem": "For a PERT activity, the optimistic time is 2 days, the most likely time is 5 days and the pessimistic time is 8 days. Using the standard three-point PERT estimate, what is the expected duration?",
       "options": [
         "4 days",
@@ -361,7 +361,7 @@
       "paper": 2,
       "topicId": "p2-13",
       "subtopic": "UDP checksum and pseudo-header",
-      "difficulty": "difficult",
+      "difficulty": "advanced",
       "stem": "For UDP over IPv4, which information is included in the pseudo-header used in checksum computation in addition to the UDP header and data?",
       "options": [
         "Source IP address, destination IP address, protocol number and UDP length",
