@@ -45,23 +45,23 @@
     {
       "paper": 2,
       "topicId": "p2-03",
-      "subtopic": "Counting binary relations on a finite set",
+      "subtopic": "Combinatorics: binary strings with fixed Hamming weight",
       "difficulty": "moderate",
-      "stem": "A set A contains three elements. How many distinct binary relations can be defined on A?",
+      "stem": "An 8-bit status word must contain exactly three bits set to 1. How many different bit patterns satisfy this requirement?",
       "options": [
+        "28",
+        "56",
         "64",
-        "256",
-        "512",
-        "729"
+        "70"
       ],
-      "answer": 2,
+      "answer": 1,
       "explanations": [
-        "64 is 2⁶ and would count subsets of a six-element set, not ordered pairs from A×A.",
-        "256 is 2⁸ and uses eight ordered pairs instead of the nine in A×A.",
-        "Correct. A binary relation is any subset of A×A. Since |A×A|=3×3=9, there are 2⁹=512 possible relations.",
-        "729 is 3⁶ and is not the count of subsets of the nine ordered pairs."
+        "28 is not the number of ways to choose three distinct bit positions from eight.",
+        "Correct. Choose which three of the eight positions contain 1: C(8,3)=8×7×6/(3×2×1)=56.",
+        "64 counts all patterns of length six, not 8-bit patterns with exactly three ones.",
+        "70 is C(8,4), the number of patterns with exactly four ones."
       ],
-      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Rosen, Discrete Mathematics and Its Applications, relations and counting subsets."
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Rosen, Discrete Mathematics and Its Applications, combinations and binomial coefficients."
     },
     {
       "paper": 2,
@@ -91,7 +91,10 @@
       "difficulty": "moderate",
       "stem": "When drawing a Hasse diagram for a finite partially ordered set, which relations are conventionally omitted from the diagram?",
       "options": [
-        "Cover relations between comparable elements|Reflexive loops and transitive relations implied by other paths|All relations involving maximal elements|All relations between incomparable elements"
+        "Cover relations between comparable elements",
+        "Reflexive loops and transitive relations implied by other paths",
+        "All relations involving maximal elements",
+        "All relations between incomparable elements"
       ],
       "answer": 1,
       "explanations": [
@@ -298,10 +301,10 @@
       "difficulty": "moderate",
       "stem": "Which declaration defines `fp` as a pointer to a function taking two `int` arguments and returning an `int`?",
       "options": [
-        "int *fp(int, int);",
-        "int (*fp)(int, int);",
-        "int (*fp(int, int));",
-        "int fp*(int, int);"
+        "fp is a function that returns a pointer to int",
+        "fp is a pointer to a function taking two int arguments and returning int",
+        "fp is an array of pointers to functions with unspecified size",
+        "fp is a pointer to an int object"
       ],
       "answer": 1,
       "explanations": [
@@ -424,7 +427,10 @@
       "difficulty": "difficult",
       "stem": "In the stable version of counting sort, after cumulative counts have been computed, why is the input array normally traversed from right to left when placing elements into the output array?",
       "options": [
-        "It makes the algorithm comparison-based|It preserves the relative order of records with equal keys|It reduces the key range k to log k|It guarantees that the output is sorted even if cumulative counts are omitted"
+        "It makes the algorithm comparison-based",
+        "It preserves the relative order of records with equal keys",
+        "It reduces the key range k to log k",
+        "It guarantees that the output is sorted even if cumulative counts are omitted"
       ],
       "answer": 1,
       "explanations": [
@@ -442,7 +448,10 @@
       "difficulty": "moderate",
       "stem": "In the subset construction for converting an ε-NFA to a DFA, what does ε-closure(q) contain?",
       "options": [
-        "Only q, with no other states|Every state reachable from q using one or more input symbols|q itself and every state reachable from q using zero or more ε-transitions|Only accepting states reachable from q by ε-transitions"
+        "Only q, with no other states",
+        "Every state reachable from q using one or more input symbols",
+        "q itself and every state reachable from q using zero or more ε-transitions",
+        "Only accepting states reachable from q by ε-transitions"
       ],
       "answer": 2,
       "explanations": [
@@ -482,9 +491,9 @@
       "stem": "An NFA has n states. Under the standard subset construction, what is the maximum possible number of states in an equivalent DFA before minimisation?",
       "options": [
         "n",
-        "n²",
-        "2n",
-        "2ⁿ"
+        "n squared",
+        "2 times n",
+        "2 to the power n"
       ],
       "answer": 3,
       "explanations": [
