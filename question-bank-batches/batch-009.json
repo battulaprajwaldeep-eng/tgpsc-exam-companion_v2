@@ -46,7 +46,7 @@
     "p2-15": 3,
     "p2-16": 4
   },
-  "sourceNote": "Every question includes an official syllabus mapping and a concise source/basis. Current-affairs items use official ISRO, Telangana Government, Gazette of India and MoSPI records; technical items cite standard textbooks, statutory texts or protocol/specification references.",
+  "sourceNote": "Each question includes an official syllabus mapping and a concise source/basis. Current-affairs and policy items use official ISRO, Telangana Government and Gazette of India records; economy and technical items cite RBI/IMF, standard textbooks, statutory texts or protocol/specification references.",
   "questions": [
     {
       "paper": 1,
@@ -54,7 +54,7 @@
       "topic": "Current affairs – Regional, National and International",
       "subtopic": "GSLV-F18 and NVS-03 mission (30 October 2026)",
       "difficulty": "moderate",
-      "stem": "According to ISRO's 30 October 2026 mission update, which launcher successfully placed the NVS-03 spacecraft into its intended orbit?",
+      "stem": "According to ISRO's 28 October 2026 mission update, which launcher successfully placed the NVS-03 spacecraft into its intended orbit?",
       "options": [
         "PSLV-C62",
         "GSLV-F18",
@@ -68,7 +68,7 @@
         "LVM3-M6 carried a different commercial payload in 2025.",
         "SSLV-D3 was an earlier small-satellite launch vehicle mission."
       ],
-      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International; source/basis: ISRO, GSLV-F18/NVS-03 mission update, 30 Oct 2026; https://www.isro.gov.in/",
+      "basis": "Official Paper I syllabus: Current affairs; source/basis: ISRO, GSLV-F18/NVS-03 Mission update, 28 Oct 2026; https://www.isro.gov.in/ISRO_EN/Mission_GSLVF18.html",
       "id": "P1-B009-001"
     },
     {
@@ -712,7 +712,7 @@
         "Dasarathi was a prominent poet and lyricist, but not the author of this state song.",
         "C. Narayana Reddy was a noted poet and writer, not the lyricist of this song."
       ],
-      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; source/basis: Government of Telangana, State Song page and 2 Jun 2024 declaration identifying Ande Sri as lyricist; https://www.telangana.gov.in/telangana-state-song/",
+      "basis": "Official Paper I syllabus: Telangana Society, Culture, Heritage, Arts and Literature; source/basis: Government of Telangana, Praja Palana Dinotsavam speech, 17 Sep 2024, identifies Ande Sri as the lyricist and declares the song official; https://www.telangana.gov.in/news/press-releases/2024/09/telangana-praja-palana-dinotsavam/",
       "id": "P1-B009-029"
     },
     {
@@ -1306,7 +1306,7 @@
       "answer": 1,
       "explanations": [
         "A logical right shift would insert zeros and would not preserve the negative sign.",
-        "Correct. An arithmetic right shift replicates the sign bit: 1110 1000 → 1111 1010 → 1111 1010.",
+        "Correct. Sign extension repeats the sign bit: 1110 1000 → 1111 0100 after one arithmetic shift, then 1111 1010 after the second.",
         "This shifts the bits by a different pattern and does not correctly replicate the sign bit twice.",
         "This is not the result of a two-position arithmetic right shift."
       ],
