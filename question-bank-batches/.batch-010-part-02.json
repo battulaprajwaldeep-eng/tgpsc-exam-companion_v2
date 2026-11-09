@@ -3,23 +3,23 @@
     {
       "paper": 1,
       "topicId": "p1-09",
-      "subtopic": "Hyderabad State integration: Operation Polo",
+      "subtopic": "Vetti and agrarian relations in pre-statehood Telangana",
       "difficulty": "moderate",
-      "stem": "Which event immediately preceded the integration of the princely State of Hyderabad into the Indian Union in September 1948?",
+      "stem": "In the agrarian and social history of pre-statehood Telangana, the term 'vetti' most directly referred to which practice?",
       "options": [
-        "A plebiscite conducted by the United Nations",
-        "The Indian military action known as Operation Polo",
-        "The signing of the Gentlemen's Agreement",
-        "The adoption of the States Reorganisation Act"
+        "A land-revenue assessment paid in cash",
+        "A system of forced unpaid labour imposed on dependent households",
+        "A voluntary village grain bank",
+        "A hereditary grant of tax-free land"
       ],
       "answer": 1,
       "explanations": [
-        "No UN-supervised plebiscite was the immediate event described.",
-        "Correct. Operation Polo, often called the police action, led to the surrender of the Nizam's forces and Hyderabad's integration in September 1948.",
-        "The Gentlemen's Agreement was associated with the 1956 merger of Telangana with Andhra State, not the 1948 integration.",
-        "The States Reorganisation Act was enacted in 1956, eight years after Operation Polo."
+        "Vetti was not simply a cash land-revenue assessment.",
+        "Correct. Vetti referred to forced, unpaid labour exacted from oppressed rural communities and was a major grievance in Telangana's agrarian history.",
+        "A voluntary grain bank is a community support mechanism, not forced labour.",
+        "A tax-free land grant is not the meaning of vetti."
       ],
-      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state; Government of India/standard Hyderabad State history references, Operation Polo, September 1948; https://knowindia.india.gov.in/"
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state; SCERT Telangana Social Studies, Telangana agrarian history and peasant struggle; https://scert.telangana.gov.in/"
     },
     {
       "paper": 1,
@@ -108,44 +108,41 @@
     {
       "paper": 1,
       "topicId": "p1-11",
-      "subtopic": "POCSO Act: definition of child",
-      "difficulty": "standard",
-      "stem": "For the purposes of the Protection of Children from Sexual Offences Act, 2012, a 'child' means a person below which age?",
+      "subtopic": "Maternity Benefit Act: duration of paid maternity leave",
+      "difficulty": "moderate",
+      "stem": "Under the Maternity Benefit Act, 1961 as amended in 2017, the ordinary paid maternity-benefit period for an eligible woman with fewer than two surviving children is:",
       "options": [
-        "14 years",
-        "16 years",
-        "18 years",
-        "21 years"
+        "12 weeks",
+        "18 weeks",
+        "20 weeks",
+        "26 weeks"
       ],
-      "answer": 2,
+      "answer": 3,
       "explanations": [
-        "Fourteen years is not the statutory definition under POCSO.",
-        "Sixteen years is not the age threshold used by the Act.",
-        "Correct. Section 2(1)(d) defines a child as any person below eighteen years of age.",
-        "Twenty-one years is not the definition used in POCSO."
+        "Twelve weeks applies in specified cases such as a woman with two or more surviving children and certain adopting or commissioning mothers, not the ordinary category asked here.",
+        "Eighteen weeks is not the statutory period introduced by the 2017 amendment.",
+        "Twenty weeks is not the statutory period in Section 5(3).",
+        "Correct. The 2017 amendment increased the entitlement to 26 weeks for an eligible woman with fewer than two surviving children, with not more than eight weeks before the expected delivery date."
       ],
-      "basis": "Official Paper I syllabus: Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies; Protection of Children from Sexual Offences Act, 2012, Section 2(1)(d); https://www.indiacode.nic.in/"
+      "basis": "Official Paper I syllabus: Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies; Maternity Benefit (Amendment) Act, 2017, Section 5; Ministry of Labour & Employment; https://labour.gov.in/acts/maternity-benefitamendment-act28-march-2017"
     },
     {
       "paper": 1,
       "topicId": "p1-12",
-      "subtopic": "Sammakka–Saralamma Jatara location",
-      "difficulty": "standard",
-      "stem": "The Sammakka–Saralamma Jatara, a major Adivasi religious congregation in Telangana, is traditionally associated with which place?",
+      "subtopic": "Nagoba Jatara and Gond cultural traditions",
+      "difficulty": "moderate",
+      "stem": "Nagoba Jatara, a major Gond tribal festival in Telangana, is traditionally held at which place?",
       "options": [
-        "Medaram in Mulugu district",
-        "Basar in Nirmal district",
-        "Alampur in Jogulamba Gadwal district",
-        "Yadagirigutta in Yadadri Bhuvanagiri district"
+        "Keslapur in Indravelli mandal, Adilabad district|Medaram in Mulugu district|Basar in Nirmal district|Alampur in Jogulamba Gadwal district"
       ],
       "answer": 0,
       "explanations": [
-        "Correct. Medaram, in present-day Mulugu district, is the traditional venue of the Sammakka–Saralamma Jatara.",
-        "Basar is associated with the Gnana Saraswati temple on the Godavari, not this Jatara.",
-        "Alampur is known for its temple complex and is not the Jatara venue.",
-        "Yadagirigutta is associated with the Lakshmi Narasimha temple."
+        "Correct. Telangana Tourism identifies Nagoba Jatara with Keslapur village in Indravelli mandal of Adilabad district; it is associated with the Mesaram clan of Gonds.",
+        "Medaram is associated with the Sammakka–Saralamma Jatara, a different tribal festival.",
+        "Basar is known for the Gnana Saraswati temple on the Godavari.",
+        "Alampur is known for its temple complex and is not the venue of Nagoba Jatara."
       ],
-      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; Telangana Tourism / Mulugu District Government, Sammakka–Saralamma Jatara at Medaram; https://tourism.telangana.gov.in/"
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; Telangana Tourism, Festivals and Fairs – Nagoba Jaatara; https://www.tourism.telangana.gov.in/page/festivals-and-fairs"
     },
     {
       "paper": 1,
@@ -423,23 +420,23 @@
     {
       "paper": 2,
       "topicId": "p2-01",
-      "subtopic": "Continuous probability density: median",
+      "subtopic": "Exponential distribution: memoryless property",
       "difficulty": "moderate",
-      "stem": "A continuous random variable has density f(x)=2x for 0≤x≤1 and zero elsewhere. What is its median m?",
+      "stem": "The lifetime T of a component follows an exponential distribution with mean 5 hours. Given that it has already operated for 3 hours, what is the probability that it operates for at least 5 additional hours?",
       "options": [
-        "1/2",
-        "1/√2",
-        "√3/2",
-        "3/4"
+        "e⁻⁵",
+        "e⁻¹",
+        "1−e⁻¹",
+        "e⁻⁸⁄⁵"
       ],
       "answer": 1,
       "explanations": [
-        "1/2 is not the median because F(1/2)=1/4, not 1/2.",
-        "Correct. F(x)=x² on [0,1]; setting F(m)=1/2 gives m=1/√2.",
-        "√3/2 corresponds to cumulative probability 3/4, not 1/2.",
-        "3/4 gives F(3/4)=9/16, which is greater than one-half."
+        "e⁻⁵ would correspond to a five-hour interval at rate 1 per hour, not rate 1/5 per hour.",
+        "Correct. The exponential distribution is memoryless: P(T>8 | T>3)=P(T>5)=e^(−5/5)=e⁻¹.",
+        "1−e⁻¹ is the probability of failure within the next five hours, not survival for at least five hours.",
+        "e⁻⁸⁄⁵ is the probability of surviving eight hours from the start, not five additional hours conditional on surviving three."
       ],
-      "basis": "Official Paper II syllabus: Probability and Statistics; Ross, A First Course in Probability, continuous distributions and quantiles."
+      "basis": "Official Paper II syllabus: Probability and Statistics; Ross, A First Course in Probability, exponential distribution and memoryless property."
     },
     {
       "paper": 2,
