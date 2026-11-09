@@ -1,0 +1,529 @@
+{
+  "questions": [
+    {
+      "paper": 1,
+      "topicId": "p1-09",
+      "subtopic": "Hyderabad State integration: Operation Polo",
+      "difficulty": "moderate",
+      "stem": "Which event immediately preceded the integration of the princely State of Hyderabad into the Indian Union in September 1948?",
+      "options": [
+        "A plebiscite conducted by the United Nations",
+        "The Indian military action known as Operation Polo",
+        "The signing of the Gentlemen's Agreement",
+        "The adoption of the States Reorganisation Act"
+      ],
+      "answer": 1,
+      "explanations": [
+        "No UN-supervised plebiscite was the immediate event described.",
+        "Correct. Operation Polo, often called the police action, led to the surrender of the Nizam's forces and Hyderabad's integration in September 1948.",
+        "The Gentlemen's Agreement was associated with the 1956 merger of Telangana with Andhra State, not the 1948 integration.",
+        "The States Reorganisation Act was enacted in 1956, eight years after Operation Polo."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state; Government of India/standard Hyderabad State history references, Operation Polo, September 1948; https://knowindia.india.gov.in/"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-09",
+      "subtopic": "Andhra Pradesh Reorganisation Act: common capital provision",
+      "difficulty": "difficult",
+      "stem": "Under Section 5 of the Andhra Pradesh Reorganisation Act, 2014, Hyderabad was provided as the common capital of the successor States for a period not exceeding how long from the appointed day?",
+      "options": [
+        "Five years",
+        "Ten years",
+        "Fifteen years",
+        "Until Parliament separately legislates"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Five years is shorter than the statutory maximum.",
+        "Correct. Section 5 provides for Hyderabad as common capital for a period not exceeding ten years from the appointed day.",
+        "Fifteen years is not the limit specified in Section 5.",
+        "The Act itself specifies a maximum period; it is not left wholly open-ended for later legislation."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state; Andhra Pradesh Reorganisation Act, 2014, Section 5; https://www.indiacode.nic.in/"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-10",
+      "subtopic": "State Finance Commission under Article 243-I",
+      "difficulty": "moderate",
+      "stem": "Under Article 243-I of the Constitution, who constitutes the State Finance Commission and at what interval?",
+      "options": [
+        "The President of India every five years",
+        "The Governor of the State every five years",
+        "The State Legislature every six years",
+        "The Election Commission of India every five years"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The President constitutes the Union Finance Commission under Article 280, not the State Finance Commission under Article 243-I.",
+        "Correct. The Governor constitutes a Finance Commission every five years to review the financial position of Panchayats.",
+        "The Constitution assigns constitution of the State Finance Commission to the Governor, not the State Legislature at a six-year interval.",
+        "The Election Commission of India has no role in constituting the State Finance Commission."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; Constitution of India, Article 243-I; https://legislative.gov.in/constitution-of-india/"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-10",
+      "subtopic": "State Election Commission and Panchayat elections",
+      "difficulty": "moderate",
+      "stem": "Which constitutional provision vests the superintendence, direction and control of the preparation of electoral rolls for, and conduct of, Panchayat elections in a State Election Commission?",
+      "options": [
+        "Article 243-I",
+        "Article 243-K",
+        "Article 280",
+        "Article 324"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Article 243-I concerns the State Finance Commission.",
+        "Correct. Article 243-K provides for the State Election Commission's control over Panchayat elections.",
+        "Article 280 establishes the Union Finance Commission.",
+        "Article 324 concerns the Election Commission of India and elections to Parliament, State Legislatures, President and Vice-President."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; Constitution of India, Article 243-K; https://legislative.gov.in/constitution-of-india/"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-11",
+      "subtopic": "POSH Act: constitution of Internal Committee",
+      "difficulty": "moderate",
+      "stem": "Under the Sexual Harassment of Women at Workplace Act, 2013, an employer is required to constitute an Internal Committee at a workplace having at least how many employees?",
+      "options": [
+        "Five",
+        "Eight",
+        "Ten",
+        "Twenty"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Five employees is below the statutory threshold.",
+        "Eight employees is also below the threshold.",
+        "Correct. Section 4 requires an Internal Committee at every workplace with ten or more employees; the Act provides for a Local Committee in specified cases where an Internal Committee is not constituted.",
+        "Twenty is not the threshold; the requirement begins at ten employees."
+      ],
+      "basis": "Official Paper I syllabus: Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies; Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013, Section 4; https://www.indiacode.nic.in/"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-11",
+      "subtopic": "POCSO Act: definition of child",
+      "difficulty": "standard",
+      "stem": "For the purposes of the Protection of Children from Sexual Offences Act, 2012, a 'child' means a person below which age?",
+      "options": [
+        "14 years",
+        "16 years",
+        "18 years",
+        "21 years"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Fourteen years is not the statutory definition under POCSO.",
+        "Sixteen years is not the age threshold used by the Act.",
+        "Correct. Section 2(1)(d) defines a child as any person below eighteen years of age.",
+        "Twenty-one years is not the definition used in POCSO."
+      ],
+      "basis": "Official Paper I syllabus: Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies; Protection of Children from Sexual Offences Act, 2012, Section 2(1)(d); https://www.indiacode.nic.in/"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-12",
+      "subtopic": "Sammakka–Saralamma Jatara location",
+      "difficulty": "standard",
+      "stem": "The Sammakka–Saralamma Jatara, a major Adivasi religious congregation in Telangana, is traditionally associated with which place?",
+      "options": [
+        "Medaram in Mulugu district",
+        "Basar in Nirmal district",
+        "Alampur in Jogulamba Gadwal district",
+        "Yadagirigutta in Yadadri Bhuvanagiri district"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Medaram, in present-day Mulugu district, is the traditional venue of the Sammakka–Saralamma Jatara.",
+        "Basar is associated with the Gnana Saraswati temple on the Godavari, not this Jatara.",
+        "Alampur is known for its temple complex and is not the Jatara venue.",
+        "Yadagirigutta is associated with the Lakshmi Narasimha temple."
+      ],
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; Telangana Tourism / Mulugu District Government, Sammakka–Saralamma Jatara at Medaram; https://tourism.telangana.gov.in/"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-12",
+      "subtopic": "Dokra craft and lost-wax casting",
+      "difficulty": "moderate",
+      "stem": "Which manufacturing technique is characteristically associated with Telangana's traditional Dokra metal craft?",
+      "options": [
+        "Wheel-thrown pottery firing",
+        "Lost-wax metal casting",
+        " ikat-resist dyeing of yarn",
+        "Hammered sheet-brass repoussé only"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Wheel-thrown pottery is a ceramic process, not the characteristic Dokra metal-casting method.",
+        "Correct. Dokra is a traditional non-ferrous metal craft made through the lost-wax casting process.",
+        "Ikat-resist dyeing is a textile technique associated with woven patterns, not metal casting.",
+        "Repoussé is a sheet-metal relief technique and does not describe the characteristic lost-wax process."
+      ],
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; Telangana Tourism, Arts & Crafts – Dokra metal craft; https://www.tourism.telangana.gov.in/page/arts-crafts"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-12",
+      "subtopic": "Nirmal toys: material and regional identity",
+      "difficulty": "moderate",
+      "stem": "Nirmal's traditional wooden toys and related craft are associated with which Telangana district?",
+      "options": [
+        "Adilabad",
+        "Nirmal",
+        "Warangal",
+        "Sangareddy"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Adilabad is associated with several tribal crafts, but Nirmal toys are identified with Nirmal.",
+        "Correct. Nirmal district is the regional centre associated with Nirmal wooden toys and paintings.",
+        "Warangal is especially associated with Kakatiya heritage and other crafts, not the Nirmal toy tradition.",
+        "Sangareddy is not the district from which the Nirmal craft takes its name."
+      ],
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; Telangana Tourism, Nirmal destination and arts/crafts; https://tourism.telangana.gov.in/destinations/nirmal"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-12",
+      "subtopic": "Bathukamma: cultural form",
+      "difficulty": "standard",
+      "stem": "Which description most accurately identifies Bathukamma as a Telangana cultural observance?",
+      "options": [
+        "A harvest boat race conducted on the Godavari",
+        "A floral festival in which women arrange seasonal flowers in tiered formations and celebrate collectively",
+        "A martial dance performed exclusively by Kakatiya soldiers",
+        "A Buddhist monastic ceremony held at Phanigiri"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Bathukamma is not a boat race.",
+        "Correct. Bathukamma is a floral festival centred on seasonal flowers, community singing and collective celebration by women.",
+        "The martial dance association is closer to Perini Sivatandavam, not Bathukamma.",
+        "Phanigiri is an archaeological Buddhist site; Bathukamma is not a monastic ceremony."
+      ],
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; Telangana Tourism, Culture and Festivals; https://tourism.telangana.gov.in/experience/culture-history"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-13",
+      "subtopic": "Mission Bhagiratha: service norms",
+      "difficulty": "moderate",
+      "stem": "Under the Mission Bhagiratha design described by the Telangana Government, what is the planned treated piped-water service level for rural households?",
+      "options": [
+        "55 litres per capita per day",
+        "70 litres per capita per day",
+        "100 litres per capita per day",
+        "150 litres per capita per day"
+      ],
+      "answer": 2,
+      "explanations": [
+        "55 LPCD is not the rural service norm in the Mission Bhagiratha description.",
+        "70 LPCD is not the stated rural target.",
+        "Correct. The State's Mission Bhagiratha material specifies 100 LPCD for rural areas, 135 LPCD for municipalities and 150 LPCD for municipal corporations.",
+        "150 LPCD is the stated norm for municipal corporations, not rural households."
+      ],
+      "basis": "Official Paper I syllabus: Policies of Telangana State; Government of Telangana, Mission Bhagiratha – service levels; https://mbbulk.telangana.gov.in/mbbulkweb/about.html"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-13",
+      "subtopic": "Mission Kakatiya: tank-restoration works",
+      "difficulty": "moderate",
+      "stem": "Which set of activities most directly reflects the physical restoration work undertaken under Mission Kakatiya?",
+      "options": [
+        "Desilting tank beds, repairing sluices and weirs, strengthening bunds and restoring feeder channels",
+        "Deepening only major river channels and constructing coastal ports",
+        "Replacing all minor irrigation tanks with groundwater borewells",
+        "Lining every village road and installing rooftop solar panels"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. These are the core tank-restoration components identified by Telangana's irrigation administration.",
+        "Major river channels and ports are outside the programme's tank-restoration scope.",
+        "The programme restores minor irrigation tanks rather than replacing them with borewells.",
+        "Road construction and rooftop solar installation are not the defining Mission Kakatiya works."
+      ],
+      "basis": "Official Paper I syllabus: Policies of Telangana State; Government of Telangana, Mission Kakatiya – restoration components; https://www.telangana.gov.in/mission-kakatiya/"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-13",
+      "subtopic": "Rythu Bima: scheme design",
+      "difficulty": "moderate",
+      "stem": "Which statement correctly distinguishes Telangana's Rythu Bima from an agricultural crop-insurance scheme?",
+      "options": [
+        "It compensates only for measured crop-yield loss after drought",
+        "It is a group life-insurance scheme that provides a death benefit to the enrolled farmer's nominee",
+        "It is a loan-waiver programme for all rural households",
+        "It reimburses the cost of irrigation electricity for tenant farmers"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Crop-yield loss compensation is the role of crop-insurance arrangements, not Rythu Bima's core design.",
+        "Correct. Rythu Bima is a farmer group life-insurance scheme; the official portal describes a ₹5 lakh insured amount paid to the nominee on the enrolled farmer's death.",
+        "Rythu Bima is not a general household loan-waiver programme.",
+        "Electricity reimbursement is not the benefit described for Rythu Bima."
+      ],
+      "basis": "Official Paper I syllabus: Policies of Telangana State; Telangana Rythu Bima official portal, scheme objectives and benefits; https://rythubharosa.telangana.gov.in/Default_Home.aspx"
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-14",
+      "subtopic": "Water-quality mixing: weighted concentration",
+      "difficulty": "difficult",
+      "stem": "A treatment operator mixes 120 litres of water containing a dissolved tracer at 30 mg/L with 80 litres containing the same tracer at 10 mg/L. Assuming volumes are additive and no tracer is lost, what is the final concentration?",
+      "options": [
+        "18 mg/L",
+        "20 mg/L",
+        "22 mg/L",
+        "24 mg/L"
+      ],
+      "answer": 2,
+      "explanations": [
+        "18 mg/L would correspond to a different weighted total; the tracer mass is 3,600 + 800 = 4,400 mg.",
+        "20 mg/L is the unweighted mean of the two concentrations and ignores the unequal volumes.",
+        "Correct. Final concentration = (120×30 + 80×10)/(120+80) = 4,400/200 = 22 mg/L.",
+        "24 mg/L is not obtained from the conserved tracer mass divided by the total volume."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; weighted-average concentration calculation, based on conservation of solute mass."
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-14",
+      "subtopic": "Pipes and cisterns: two inlets and one outlet",
+      "difficulty": "difficult",
+      "stem": "In a test tank, inlet A fills the tank in 12 hours, inlet B fills it in 18 hours, and an outlet empties a full tank in 36 hours. If all three operate together from empty, how long will the tank take to fill?",
+      "options": [
+        "6 hours",
+        "8 hours",
+        "9 hours",
+        "12 hours"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Six hours would require a net rate of one-sixth tank per hour, greater than the actual net rate.",
+        "Eight hours is not consistent with the combined rates.",
+        "Correct. Net rate = 1/12 + 1/18 − 1/36 = 4/36 = 1/9 tank per hour, so the tank fills in 9 hours.",
+        "Twelve hours ignores the positive contribution of inlet B and the outlet's smaller emptying rate."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; work-rate and combined-efficiency problem."
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-14",
+      "subtopic": "Percentage change in non-revenue water",
+      "difficulty": "moderate",
+      "stem": "A water utility reduces non-revenue water from 25% of system input to 20%, with input volume unchanged at 40 million litres per day. By what percentage has the volume of non-revenue water fallen relative to its original volume?",
+      "options": [
+        "5%",
+        "15%",
+        "20%",
+        "25%"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Five percentage points is the absolute reduction in the share, not the percentage fall relative to the original loss volume.",
+        "15% is not obtained by comparing 10 with the original 25.",
+        "Correct. Original loss is 0.25×40 = 10 MLD; new loss is 0.20×40 = 8 MLD. The reduction is 2/10 = 20%.",
+        "25% would be the reduction only if the loss fell from 10 to 7.5 MLD."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; percentage change and water-loss interpretation."
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-15",
+      "subtopic": "Third conditional: past unreal condition",
+      "difficulty": "standard",
+      "stem": "Choose the grammatically correct completion: 'If the isolation valve ___ before the pump started, the tank ___ overflowed.'",
+      "options": [
+        "was closed; will not have",
+        "had been closed; would not have",
+        "would be closed; had not",
+        "has closed; would not"
+      ],
+      "answer": 1,
+      "explanations": [
+        "'Was closed; will not have' mixes an unsuitable past condition with a future-perfect result.",
+        "Correct. The third conditional uses past perfect in the if-clause ('had been closed') and 'would have' plus past participle in the result clause.",
+        "'Would be closed; had not' reverses the clause structure and does not form the required conditional.",
+        "'Has closed; would not' mixes present perfect with an incomplete conditional result."
+      ],
+      "basis": "Official Paper I syllabus: Basic English (10th class Standard); standard English grammar reference, third conditional / unreal past condition."
+    },
+    {
+      "paper": 1,
+      "topicId": "p1-15",
+      "subtopic": "English usage: discuss versus discuss about",
+      "difficulty": "standard",
+      "stem": "Select the sentence that uses the verb 'discuss' correctly in standard formal English.",
+      "options": [
+        "The engineers discussed about the leakage report.",
+        "The engineers discussed the leakage report during the meeting.",
+        "The engineers discussed on the leakage report during the meeting.",
+        "The engineers discussed regarding the leakage report."
+      ],
+      "answer": 1,
+      "explanations": [
+        "'Discuss about' is redundant in standard usage because 'discuss' takes a direct object.",
+        "Correct. 'Discussed the leakage report' uses the verb with its direct object.",
+        "'Discussed on' is not the standard transitive construction in this sentence.",
+        "'Discussed regarding' is also an incorrect or needlessly redundant construction here."
+      ],
+      "basis": "Official Paper I syllabus: Basic English (10th class Standard); Oxford Learner's Dictionaries / standard transitive verb usage for 'discuss'; https://www.oxfordlearnersdictionaries.com/"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-01",
+      "subtopic": "Chebyshev inequality: probability bound",
+      "difficulty": "difficult",
+      "stem": "A random variable X has mean 20 and variance 9. Using Chebyshev's inequality, what is the largest guaranteed upper bound on P(|X−20| ≥ 6)?",
+      "options": [
+        "1/2",
+        "1/3",
+        "1/4",
+        "1/9"
+      ],
+      "answer": 2,
+      "explanations": [
+        "1/2 is a weaker bound than the inequality gives for this deviation.",
+        "1/3 is also larger than the Chebyshev bound.",
+        "Correct. Chebyshev gives P(|X−μ|≥a) ≤ σ²/a² = 9/36 = 1/4.",
+        "1/9 would require a deviation of three standard deviations, not two."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics; Sheldon Ross, A First Course in Probability, Chebyshev inequality; https://www.pearson.com/"
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-01",
+      "subtopic": "Sampling distribution of the sample mean",
+      "difficulty": "moderate",
+      "stem": "A population has variance 16. A simple random sample of 25 independent observations is drawn. What is the variance of the sample mean, assuming sampling with replacement or an effectively infinite population?",
+      "options": [
+        "16",
+        "4",
+        "0.64",
+        "0.16"
+      ],
+      "answer": 2,
+      "explanations": [
+        "16 is the population variance, not the variance of the mean of 25 independent observations.",
+        "4 is the population standard deviation, not the required variance.",
+        "Correct. Var(X̄)=σ²/n=16/25=0.64 under the stated independence assumption.",
+        "0.16 would incorrectly divide the variance by 100."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics; Ross, A First Course in Probability, sampling distributions and variance of the sample mean."
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-01",
+      "subtopic": "Continuous probability density: median",
+      "difficulty": "moderate",
+      "stem": "A continuous random variable has density f(x)=2x for 0≤x≤1 and zero elsewhere. What is its median m?",
+      "options": [
+        "1/2",
+        "1/√2",
+        "√3/2",
+        "3/4"
+      ],
+      "answer": 1,
+      "explanations": [
+        "1/2 is not the median because F(1/2)=1/4, not 1/2.",
+        "Correct. F(x)=x² on [0,1]; setting F(m)=1/2 gives m=1/√2.",
+        "√3/2 corresponds to cumulative probability 3/4, not 1/2.",
+        "3/4 gives F(3/4)=9/16, which is greater than one-half."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics; Ross, A First Course in Probability, continuous distributions and quantiles."
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-01",
+      "subtopic": "Poisson distribution: zero-event probability",
+      "difficulty": "standard",
+      "stem": "If the number of service interruptions in a fixed interval follows a Poisson distribution with parameter λ=2, what is the probability of observing no interruptions in that interval?",
+      "options": [
+        "2e⁻²",
+        "e⁻²",
+        "1−e⁻²",
+        "2e⁻¹"
+      ],
+      "answer": 1,
+      "explanations": [
+        "2e⁻² is the probability of exactly one event, not zero.",
+        "Correct. For X~Poisson(2), P(X=0)=e⁻²·2⁰/0!=e⁻².",
+        "1−e⁻² is the probability of at least one event.",
+        "2e⁻¹ is not the Poisson probability mass at zero for λ=2."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics; Ross, A First Course in Probability, Poisson distribution."
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-02",
+      "subtopic": "Counting injective functions",
+      "difficulty": "moderate",
+      "stem": "Let A contain 3 distinct elements and B contain 5 distinct elements. How many one-to-one functions f:A→B are possible?",
+      "options": [
+        "15",
+        "30",
+        "60",
+        "125"
+      ],
+      "answer": 2,
+      "explanations": [
+        "15 counts 3×5 only if assignments are not distinguished correctly across all domain elements.",
+        "30 omits one factor in the falling factorial count.",
+        "Correct. The images of the three distinct elements must be distinct: 5×4×3=60 injective functions.",
+        "125=5³ counts all functions, including those that map different elements of A to the same element of B."
+      ],
+      "basis": "Official Paper II syllabus: Set Theory & Algebra; Linear Algebra; Rosen, Discrete Mathematics and Its Applications, functions and one-to-one mappings."
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-02",
+      "subtopic": "Idempotent matrix eigenvalues",
+      "difficulty": "difficult",
+      "stem": "A square matrix A satisfies A²=A. Which set contains every possible eigenvalue of A over the complex numbers?",
+      "options": [
+        "Only {−1,1}",
+        "Only {0,1}",
+        "All non-zero real numbers",
+        "All complex roots of unity"
+      ],
+      "answer": 1,
+      "explanations": [
+        "An eigenvalue of −1 would require 1=−1 after applying A²=A to an eigenvector, which is impossible.",
+        "Correct. If Av=λv, then A²v=λ²v and Av=λv; hence λ²=λ, so λ(λ−1)=0 and λ is 0 or 1.",
+        "The equation restricts eigenvalues to two values, not arbitrary non-zero reals.",
+        "Roots of unity other than 1 do not generally satisfy λ²=λ."
+      ],
+      "basis": "Official Paper II syllabus: Set Theory & Algebra; Linear Algebra; Axler, Linear Algebra Done Right, eigenvalues and idempotent linear operators."
+    },
+    {
+      "paper": 2,
+      "topicId": "p2-02",
+      "subtopic": "Orthogonality of eigenvectors of symmetric matrices",
+      "difficulty": "moderate",
+      "stem": "For a real symmetric matrix, eigenvectors corresponding to two distinct eigenvalues are necessarily:",
+      "options": [
+        "Linearly dependent",
+        "Orthogonal under the usual inner product",
+        "Equal in magnitude component by component",
+        "Both eigenvalues necessarily zero"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Eigenvectors associated with distinct eigenvalues are linearly independent, not dependent.",
+        "Correct. Real symmetric matrices are self-adjoint; eigenvectors for distinct eigenvalues are orthogonal.",
+        "There is no requirement that their components have equal magnitudes.",
+        "A real symmetric matrix may have non-zero eigenvalues; the statement concerns eigenvectors, not zero eigenvalues."
+      ],
+      "basis": "Official Paper II syllabus: Set Theory & Algebra; Linear Algebra; standard spectral theorem for real symmetric matrices, e.g. Axler, Linear Algebra Done Right."
+    }
+  ]
+}
