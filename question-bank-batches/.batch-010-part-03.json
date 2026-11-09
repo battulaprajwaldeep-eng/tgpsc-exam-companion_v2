@@ -278,7 +278,7 @@
       "topicId": "p2-06",
       "subtopic": "C recursion with a static local variable",
       "difficulty": "difficult",
-      "stem": "Consider the C function `int f(int n){ static int x=0; if(n==0) return 0; x++; return f(n-1)+x; }`. What does `f(3)` return when called once in a fresh program execution?",
+      "stem": "Consider the C function `int f(int n){ static int x=0; if(n==0) return 0; x++; int y=f(n-1); return y+x; }`. What does `f(3)` return when called once in a fresh program execution?",
       "options": [
         "3",
         "6",
@@ -287,7 +287,7 @@
       ],
       "answer": 2,
       "explanations": [
-        "The function increments x three times; each of the three returning stack frames adds the final static value 3, so the result is not 3.",
+        "The three non-base calls increment the shared static x to 3; each call then returns the recursive result plus the current x, producing 3, 6 and finally 9.",
         "Six would result if only two increments were added during unwinding.",
         "Correct. x becomes 1, then 2, then 3 before the base case returns; each of the three pending calls adds 3, giving 9.",
         "Twelve would require four additions of 3, but only three non-base invocations occur."
