@@ -340,7 +340,7 @@
       "paper": 2,
       "topicId": "p2-06",
       "subtopic": "Binary heap insertion complexity",
-      "difficulty": "standard",
+      "difficulty": "moderate",
       "stem": "A binary max-heap containing n elements is stored in an array. What is the worst-case time complexity of inserting one new key?",
       "options": [
         "O(1)",
