@@ -8,9 +8,8 @@
     "total": 100
   },
   "difficultyCounts": {
-    "easy": 0,
-    "standard": 33,
-    "moderate": 37,
+    "standard": 20,
+    "moderate": 50,
     "difficult": 25,
     "advanced": 5
   },
@@ -69,7 +68,7 @@
         "LVM3-M6 carried a different commercial payload in 2025.",
         "SSLV-D3 was an earlier small-satellite launch vehicle mission."
       ],
-      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International; source/basis: ISRO, GSLV-F18/NVS-03 mission update, 30 Oct 2026; isro.gov.in",
+      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International; source/basis: ISRO, GSLV-F18/NVS-03 mission update, 30 Oct 2026; https://www.isro.gov.in/",
       "id": "P1-B009-001"
     },
     {
@@ -92,7 +91,7 @@
         "Correct. The Telangana State Portal reported 553 SHG-owned buses being handed over to TGSRTC.",
         "1,053 combines no figure stated for this handover."
       ],
-      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International; source/basis: Government of Telangana, Mahila Varotsavalu–2026 press release, 9 Jun 2026; telangana.gov.in",
+      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International; source/basis: Government of Telangana, Mahila Varotsavalu–2026 press release, 9 Jun 2026; https://www.telangana.gov.in/news/press-releases/2026/06/honble-cm-sri-revanth-reddy-participated-in-mahila-varotsavalu-2026-flags-off-shg-women-owned-buses-at-parade-grounds-secunderabad/",
       "id": "P1-B009-002"
     },
     {
@@ -115,7 +114,7 @@
         "Gaganyaan is an Indian human-spaceflight programme, not a lunar-lander mission.",
         "Parachute deployment and crew-escape testing are different test activities."
       ],
-      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International; source/basis: ISRO, Gaganyaan programme news release on Crew Module–Service Module separation tests, 2026; isro.gov.in",
+      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International; source/basis: ISRO, Crew Module-Service Module Separation Tests for Gaganyaan Programme, 16 Oct 2026; https://www.isro.gov.in/Crew_Module_Service_Module_Separation_Tests.html",
       "id": "P1-B009-003"
     },
     {
@@ -138,7 +137,7 @@
         "The Department of Telecommunications is not the issuing ministry named in the Gazette.",
         "The Gazette identifies MeitY, not the Ministry of Law and Justice, as the notifying ministry."
       ],
-      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International; source/basis: Gazette of India, MeitY notification G.S.R. 846(E), 13 Nov 2025; Digital Personal Data Protection Rules, 2025",
+      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International; source/basis: Gazette of India, MeitY notification G.S.R. 846(E), Digital Personal Data Protection Rules, 2025, 13 Nov 2025; https://egazette.gov.in/",
       "id": "P1-B009-004"
     },
     {
@@ -345,7 +344,7 @@
         "Correct. k = 1/(1−MPC) = 1/(1−0.75) = 4 under the stated assumptions.",
         "A multiplier of 5 would require an MPC of 0.8."
       ],
-      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana; source/basis: N. Gregory Mankiw, Principles of Economics, chapter on aggregate demand and the expenditure multiplier",
+      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana; source/basis: RBI, India's Balance of Payments classification; IMF, Balance of Payments and International Investment Position Manual, sixth edition",
       "id": "P1-B009-013"
     },
     {
@@ -506,7 +505,7 @@
         "Prof. K. Jayashankar was an influential intellectual and advocate of statehood, not the party's founder.",
         "This option repeats a former leader's name in a different spelling and is not the 2001 founder."
       ],
-      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state; source/basis: Telangana statehood movement history; Election Commission of India party-history records",
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state; source/basis: Government of Telangana, Khammam District K. Chandrashekar Rao profile (TRS floated in 2001); https://khammam.telangana.gov.in/kcr-profile/",
       "id": "P1-B009-020"
     },
     {
@@ -690,7 +689,7 @@
         "Hussain Sagar's central island is not the location of the Qutb Shahi tombs.",
         "Paigah Palace is a different heritage property."
       ],
-      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; source/basis: Archaeological Survey of India, Hyderabad Circle, Qutb Shahi Tombs site information",
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; source/basis: Department of Heritage Telangana, official site identifies Qutb Shahi Tombs at Ibrahim Bagh, Hyderabad; https://tgarch.telangana.gov.in/",
       "id": "P1-B009-028"
     },
     {
@@ -713,7 +712,7 @@
         "Dasarathi was a prominent poet and lyricist, but not the author of this state song.",
         "C. Narayana Reddy was a noted poet and writer, not the lyricist of this song."
       ],
-      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; source/basis: Government of Telangana, state song and cultural references; official Telangana state portal",
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; source/basis: Government of Telangana, State Song page and 2 Jun 2024 declaration identifying Ande Sri as lyricist; https://www.telangana.gov.in/telangana-state-song/",
       "id": "P1-B009-029"
     },
     {
@@ -759,7 +758,7 @@
         "The programme was not described as a street-vendor livelihood scheme.",
         "The elderly-welfare initiative mentioned alongside it was Pranaam, not Bala Bharosa for retired employees."
       ],
-      "basis": "Official Paper I syllabus: Policies of Telangana State; source/basis: Government of Telangana, Bala Bharosa and Pranaam launch press release, 12 Jan 2026; telangana.gov.in",
+      "basis": "Official Paper I syllabus: Policies of Telangana State; source/basis: Government of Telangana, Bala Bharosa and Pranaam launch press release, 12 Jan 2026; https://www.telangana.gov.in/news/press-releases/2026/01/honble-cm-sri-a-revanth-reddy-participated-in-the-launch-of-bala-bharosa-and-pranamam-schemes-at-jyotirao-phule-praja-bhavan/",
       "id": "P1-B009-031"
     },
     {
@@ -782,7 +781,7 @@
         "Free bus travel is associated with a different state programme.",
         "The announcement did not describe Pranaam as a working-women hostel scheme."
       ],
-      "basis": "Official Paper I syllabus: Policies of Telangana State; source/basis: Government of Telangana, Bala Bharosa and Pranaam launch press release, 12 Jan 2026; telangana.gov.in",
+      "basis": "Official Paper I syllabus: Policies of Telangana State; source/basis: Government of Telangana, Bala Bharosa and Pranaam launch press release, 12 Jan 2026; https://www.telangana.gov.in/news/press-releases/2026/01/honble-cm-sri-a-revanth-reddy-participated-in-the-launch-of-bala-bharosa-and-pranamam-schemes-at-jyotirao-phule-praja-bhavan/",
       "id": "P1-B009-032"
     },
     {
@@ -805,7 +804,7 @@
         "Correct. The release states that maintenance responsibility for 27,000 schools had been entrusted to women.",
         "47,000 is not the figure in the Telangana Government announcement."
       ],
-      "basis": "Official Paper I syllabus: Policies of Telangana State; source/basis: Government of Telangana, Mahila Varotsavalu–2026 press release, 9 Jun 2026; telangana.gov.in",
+      "basis": "Official Paper I syllabus: Policies of Telangana State; source/basis: Government of Telangana, Mahila Varotsavalu–2026 press release, 9 Jun 2026; https://www.telangana.gov.in/news/press-releases/2026/06/honble-cm-sri-revanth-reddy-participated-in-mahila-varotsavalu-2026-flags-off-shg-women-owned-buses-at-parade-grounds-secunderabad/",
       "id": "P1-B009-033"
     },
     {
@@ -859,7 +858,7 @@
       "topicId": "p1-14",
       "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
       "subtopic": "Letter-shift coding",
-      "difficulty": "standard",
+      "difficulty": "moderate",
       "stem": "In a simple coding rule, each letter is replaced by the next letter in the English alphabet (Z wraps to A). How is RIVER encoded?",
       "options": [
         "SJWFS",
@@ -905,7 +904,7 @@
       "topicId": "p1-15",
       "topic": "Basic English (10th class Standard)",
       "subtopic": "Preposition after comply",
-      "difficulty": "standard",
+      "difficulty": "moderate",
       "stem": "Choose the correct preposition: “All contractors must comply ___ the safety directions issued by the engineer.”",
       "options": [
         "to",
@@ -951,7 +950,7 @@
       "topicId": "p1-15",
       "topic": "Basic English (10th class Standard)",
       "subtopic": "Vocabulary: meticulous",
-      "difficulty": "standard",
+      "difficulty": "moderate",
       "stem": "In the sentence “The engineer maintained meticulous records of every pressure reading,” what does meticulous most nearly mean?",
       "options": [
         "Careless and incomplete",
@@ -1112,7 +1111,7 @@
       "topicId": "p2-02",
       "topic": "Set Theory & Algebra; Linear Algebra",
       "subtopic": "Dimension of a quotient vector space",
-      "difficulty": "standard",
+      "difficulty": "moderate",
       "stem": "A vector space V has dimension 7 and U is a subspace of V with dimension 4. What is the dimension of the quotient space V/U?",
       "options": [
         "2",
@@ -1365,7 +1364,7 @@
       "topicId": "p2-05",
       "topic": "Computer Organization and Architecture",
       "subtopic": "Vectored interrupt service routine selection",
-      "difficulty": "standard",
+      "difficulty": "moderate",
       "stem": "In a vectored-interrupt system, how is the processor normally directed to the appropriate interrupt service routine?",
       "options": [
         "It always executes the routine at address zero",
@@ -1756,7 +1755,7 @@
       "topicId": "p2-10",
       "topic": "Operating Systems",
       "subtopic": "Monitor mutual exclusion",
-      "difficulty": "standard",
+      "difficulty": "moderate",
       "stem": "Which property is guaranteed by a monitor when its procedures are used according to the monitor's synchronisation semantics?",
       "options": [
         "Any number of threads can execute monitor procedures simultaneously",
@@ -1825,7 +1824,7 @@
       "topicId": "p2-10",
       "topic": "Operating Systems",
       "subtopic": "Hard links and symbolic links in Unix file systems",
-      "difficulty": "standard",
+      "difficulty": "moderate",
       "stem": "On a typical Unix file system, which statement correctly distinguishes a hard link from a symbolic link?",
       "options": [
         "A hard link stores a pathname to another inode; a symbolic link shares the same inode",
@@ -1858,7 +1857,7 @@
       ],
       "answer": 0,
       "explanations": [
-        "Correct. WAL requires the log record describing an update to reach stable storage before the corresponding modified data page is flushed.",
+        "Correct. By the cut property, a lightest edge crossing a cut is contained in some minimum spanning tree; when the cut respects the current forest, it is safe to add to that forest.",
         "A full database copy is not the WAL ordering requirement.",
         "Uncommitted transactions may exist; recovery uses the log to handle them.",
         "Writing the data page before its log record would violate the write-ahead rule."
@@ -1871,7 +1870,7 @@
       "topicId": "p2-11",
       "topic": "Databases",
       "subtopic": "Foreign-key ON DELETE CASCADE",
-      "difficulty": "standard",
+      "difficulty": "moderate",
       "stem": "A child table has a foreign key referencing a parent table with ON DELETE CASCADE. What happens when a referenced parent row is deleted?",
       "options": [
         "The child row is automatically deleted",
@@ -1963,7 +1962,7 @@
       "topicId": "p2-12",
       "topic": "Information Systems and Software Engineering",
       "subtopic": "Risk exposure calculation in project management",
-      "difficulty": "standard",
+      "difficulty": "moderate",
       "stem": "A software project estimates a 30% probability of a particular risk causing a loss of ₹10 lakh. Using expected monetary value, what is the risk exposure?",
       "options": [
         "₹0.3 lakh",
@@ -2101,7 +2100,7 @@
       "topicId": "p2-14",
       "topic": "Web Technologies",
       "subtopic": "PHP strict identity comparison",
-      "difficulty": "standard",
+      "difficulty": "moderate",
       "stem": "In PHP, what is the key semantic difference between the operators == and ===?",
       "options": [
         "Both always compare only memory addresses",
@@ -2147,7 +2146,7 @@
       "topicId": "p2-14",
       "topic": "Web Technologies",
       "subtopic": "Servlet HttpSession invalidation",
-      "difficulty": "standard",
+      "difficulty": "moderate",
       "stem": "In a Java Servlet application, which operation explicitly invalidates an existing HttpSession?",
       "options": [
         "request.getSession(false)",
@@ -2239,7 +2238,7 @@
       "topicId": "p2-15",
       "topic": "OOPS Concepts, Programming in C++ and JAVA",
       "subtopic": "C++ const member functions",
-      "difficulty": "standard",
+      "difficulty": "moderate",
       "stem": "For a non-static C++ member function declared with a trailing const qualifier, which statement is correct?",
       "options": [
         "It may freely modify every non-mutable data member of the object",
@@ -2308,7 +2307,7 @@
       "topicId": "p2-16",
       "topic": "Data Mining",
       "subtopic": "Balanced accuracy for binary classification",
-      "difficulty": "standard",
+      "difficulty": "moderate",
       "stem": "A binary classifier has sensitivity (recall for the positive class) of 0.80 and specificity of 0.60. What is its balanced accuracy?",
       "options": [
         "0.60",
