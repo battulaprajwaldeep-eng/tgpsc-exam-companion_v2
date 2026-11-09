@@ -299,19 +299,19 @@
       "topicId": "p2-06",
       "subtopic": "C function-pointer declaration",
       "difficulty": "difficult",
-      "stem": "Which declaration defines `fp` as a pointer to a function taking two `int` arguments and returning an `int`?",
+      "stem": "Which C declaration defines `fp` as a pointer to a function taking two `int` arguments and returning an `int`?",
       "options": [
-        "fp is a function that returns a pointer to int",
-        "fp is a pointer to a function taking two int arguments and returning int",
-        "fp is an array of pointers to functions with unspecified size",
-        "fp is a pointer to an int object"
+        "int (*fp)(int, int);",
+        "int *(*fp)(int, int);",
+        "int (*fp)(int);",
+        "int (*fp)(int, int, int);"
       ],
-      "answer": 1,
+      "answer": 0,
       "explanations": [
-        "This declares fp as a function returning a pointer to int, not as a pointer to a function.",
-        "Correct. Parentheses bind the `*` to fp, making fp a pointer to a function with the stated parameter and return types.",
-        "This is not a valid declaration of the required function pointer.",
-        "The placement of `*` in this form is invalid C declarator syntax."
+        "Correct. The parentheses bind `*fp` as a pointer declarator; the pointed-to function accepts two int arguments and returns int.",
+        "This declares fp as a pointer to a function that returns a pointer to int, not a function returning int.",
+        "This is a pointer to a function taking one int argument, so the parameter list is wrong.",
+        "This is a pointer to a function taking three int arguments, so the parameter list is wrong."
       ],
       "basis": "Official Paper II syllabus: Programming and Data Structures; C programming, declarators and function pointers; ISO C draft N1570, declarators; https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf"
     },
