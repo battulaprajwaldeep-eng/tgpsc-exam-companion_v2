@@ -145,7 +145,7 @@
         "Basar is known for the Gnana Saraswati temple on the Godavari.",
         "Alampur is known for its temple complex and is not the venue of Nagoba Jatara."
       ],
-      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; Telangana Tourism, Festivals and Fairs – Nagoba Jaatara; https://www.tourism.telangana.gov.in/page/festivals-and-fairs"
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; SCERT Telangana, Class V EVS, Nagoba fair at Keslapur, Indravelli mandal, Adilabad district; https://scert.telangana.gov.in/pdf/publication/ebooks2019/5%20evs%20bilingual%20part%201%202022-23.pdf"
     },
     {
       "paper": 1,
@@ -166,7 +166,7 @@
         "Ikat-resist dyeing is a textile technique associated with woven patterns, not metal casting.",
         "Repoussé is a sheet-metal relief technique and does not describe the characteristic lost-wax process."
       ],
-      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; Telangana Tourism, Arts & Crafts – Dokra metal craft; https://www.tourism.telangana.gov.in/page/arts-crafts"
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; Telangana Tourism, Arts & Crafts – Dokra metal craft of Adilabad and lost-wax casting; https://www.tourism.telangana.gov.in/page/arts-crafts"
     },
     {
       "paper": 1,
@@ -187,7 +187,7 @@
         "Warangal is especially associated with Kakatiya heritage and other crafts, not the Nirmal toy tradition.",
         "Sangareddy is not the district from which the Nirmal craft takes its name."
       ],
-      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; Telangana Tourism, Nirmal destination and arts/crafts; https://tourism.telangana.gov.in/destinations/nirmal"
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; Telangana Tourism, Nirmal destination – wooden Nirmal toys; https://tourism.telangana.gov.in/destinations/nirmal"
     },
     {
       "paper": 1,
@@ -229,7 +229,7 @@
         "Correct. The State's Mission Bhagiratha material specifies 100 LPCD for rural areas, 135 LPCD for municipalities and 150 LPCD for municipal corporations.",
         "150 LPCD is the stated norm for municipal corporations, not rural households."
       ],
-      "basis": "Official Paper I syllabus: Policies of Telangana State; Government of Telangana, Mission Bhagiratha – service levels; https://mbbulk.telangana.gov.in/mbbulkweb/about.html"
+      "basis": "Official Paper I syllabus: Policies of Telangana State; Telangana Drinking Water Supply Corporation, Mission Bhagiratha service levels (100 LPCD rural, 135 LPCD municipalities, 150 LPCD municipal corporations); https://mbbulk.telangana.gov.in/mbbulkweb/about.html"
     },
     {
       "paper": 1,
@@ -250,7 +250,7 @@
         "The programme restores minor irrigation tanks rather than replacing them with borewells.",
         "Road construction and rooftop solar installation are not the defining Mission Kakatiya works."
       ],
-      "basis": "Official Paper I syllabus: Policies of Telangana State; Government of Telangana, Mission Kakatiya – restoration components; https://www.telangana.gov.in/mission-kakatiya/"
+      "basis": "Official Paper I syllabus: Policies of Telangana State; Government of Telangana, Mission Kakatiya – desilting, feeder-channel, bund, weir and sluice restoration; https://www.telangana.gov.in/mission-kakatiya/"
     },
     {
       "paper": 1,
@@ -271,7 +271,7 @@
         "Rythu Bima is not a general household loan-waiver programme.",
         "Electricity reimbursement is not the benefit described for Rythu Bima."
       ],
-      "basis": "Official Paper I syllabus: Policies of Telangana State; Telangana Rythu Bima official portal, scheme objectives and benefits; https://rythubharosa.telangana.gov.in/Default_Home.aspx"
+      "basis": "Official Paper I syllabus: Policies of Telangana State; Government of Telangana, Rythu Bima – Farmers Group Life Insurance Scheme; https://rythubharosa.telangana.gov.in/Default_Home.aspx"
     },
     {
       "paper": 1,
@@ -424,7 +424,7 @@
       "paper": 2,
       "topicId": "p2-01",
       "subtopic": "Exponential distribution: memoryless property",
-      "difficulty": "moderate",
+      "difficulty": "difficult",
       "stem": "The lifetime T of a component follows an exponential distribution with mean 5 hours. Given that it has already operated for 3 hours, what is the probability that it operates for at least 5 additional hours?",
       "options": [
         "e⁻⁵",
