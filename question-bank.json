@@ -24869,6 +24869,2306 @@
       ],
       "basis": "Official Paper II syllabus: Data Mining; source/basis: Han, Kamber and Pei, Data Mining: Concepts and Techniques, categorical data preprocessing; scikit-learn preprocessing guide",
       "id": "P2-B009-060"
+    },
+    {
+      "id": "P1-B010-001",
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "subtopic": "Telangana Innovation Startup Challenge 2026: milestones",
+      "difficulty": "standard",
+      "stem": "The Government of Telangana's Innovation Startup Challenge launched on 29 October 2026. Which date is listed as the application deadline on the official challenge portal?",
+      "options": [
+        "20 November 2026",
+        "1 December 2026",
+        "7 December 2026",
+        "29 December 2026"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The official TISC portal states that applications close on 20 November 2026.",
+        "1 December 2026 is the scheduled Demo Day at T-Hub, not the application deadline.",
+        "7–9 December 2026 is the Startup Showcase window for selected teams.",
+        "29 December 2026 is not listed as a TISC milestone."
+      ],
+      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International; Government of Telangana, Telangana Innovation Startup Challenge 2026 portal, key dates (launch 29 Oct; deadline 20 Nov; Demo Day 1 Dec); https://tisc.telangana.gov.in/"
+    },
+    {
+      "id": "P1-B010-002",
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "subtopic": "Telangana Cabinet decision: Indiramma Family Life Insurance Scheme",
+      "difficulty": "moderate",
+      "stem": "According to the Telangana Cabinet decisions announced on 5 November 2026, what life-insurance cover was proposed for each family under the Indiramma Family Life Insurance Scheme?",
+      "options": [
+        "₹2 lakh",
+        "₹3 lakh",
+        "₹5 lakh",
+        "₹10 lakh"
+      ],
+      "answer": 2,
+      "explanations": [
+        "₹2 lakh is not the coverage stated in the Cabinet announcement.",
+        "₹3 lakh is not the announced amount.",
+        "Correct. The Cabinet announcement described ₹5 lakh life-insurance coverage for every family in the State.",
+        "₹10 lakh is twice the announced coverage."
+      ],
+      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International; Government of Telangana, Cabinet decisions announced 5–6 Nov 2026, Indiramma Family Life Insurance Scheme; https://www.telangana.gov.in/news/2026/11/%E0%B0%AE%E0%B1%81%E0%B0%96%E0%B1%8D%E0%B0%AF%E0%B0%AE%E0%B0%82%E0%B0%A4%E0%B1%8D%E0%B0%B0%E0%B0%BF-%E0%B0%B6%E0%B1%8D%E0%B0%B0%E0%B1%80-%E0%B0%8E-%E0%B0%B0%E0%B1%87%E0%B0%B5%E0%B0%82%E0%B0%A4-4/"
+    },
+    {
+      "id": "P1-B010-003",
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "subtopic": "Annual Survey of Industries 2024–25: survey period",
+      "difficulty": "moderate",
+      "stem": "MoSPI's 4 November 2026 release of the Annual Survey of Industries (ASI) 2024–25 identifies which period as the survey period?",
+      "options": [
+        "April 2024 to March 2025",
+        "October 2025 to June 2026",
+        "January 2025 to December 2025",
+        "April 2025 to March 2026"
+      ],
+      "answer": 1,
+      "explanations": [
+        "April 2024–March 2025 is not the survey period stated in the 4 November release.",
+        "Correct. MoSPI identifies October 2025 to June 2026 as the survey period for ASI 2024–25.",
+        "January–December 2025 is not the stated period.",
+        "April 2025–March 2026 is not the stated period."
+      ],
+      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International; PIB/MoSPI, Publications (Volume I and Summary Results of Factory Sector) of ASI 2024–25, posted 4 Nov 2026; survey period October 2025 to June 2026; https://www.pib.gov.in/PressReleasePage.aspx?PRID=2332475"
+    },
+    {
+      "id": "P1-B010-004",
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "subtopic": "RBI policy rate: dated current-affairs snapshot",
+      "difficulty": "standard",
+      "stem": "On the Reserve Bank of India's Current Rates page, what policy repo rate was displayed as at 1:00 p.m. on 9 November 2026?",
+      "options": [
+        "5.25%",
+        "5.50%",
+        "5.75%",
+        "6.00%"
+      ],
+      "answer": 1,
+      "explanations": [
+        "5.25% was the displayed Standing Deposit Facility rate, not the policy repo rate.",
+        "Correct. RBI displayed the policy repo rate as 5.50% at the stated 6 November 2026 snapshot.",
+        "5.75% was the displayed Marginal Standing Facility and Bank Rate.",
+        "6.00% was not the policy repo rate shown in that dated snapshot."
+      ],
+      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International; Reserve Bank of India, Current Rates, snapshot dated 9 Nov 2026 at 1:00 p.m.; https://www.rbi.org.in/home.aspx"
+    },
+    {
+      "id": "P1-B010-005",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "UN Charter: prohibition on use of force",
+      "difficulty": "moderate",
+      "stem": "Under Article 2(4) of the UN Charter, which conduct must Member States generally refrain from in their international relations?",
+      "options": [
+        "Threat or use of force against the territorial integrity or political independence of any state",
+        "Any economic sanction approved by a regional organisation",
+        "All criticism of another state's domestic policy",
+        "Any diplomatic negotiation involving a disputed border"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Article 2(4) requires Members to refrain from the threat or use of force against a state's territorial integrity or political independence, or otherwise inconsistently with UN purposes.",
+        "The Charter does not prohibit every economic sanction; sanctions may be authorised under Chapter VII.",
+        "Political criticism is not, by itself, the threat or use of force addressed by Article 2(4).",
+        "Negotiation over a disputed border is not prohibited; peaceful settlement is encouraged."
+      ],
+      "basis": "Official Paper I syllabus: International Relations and Events; Charter of the United Nations, Article 2(4), full text; https://www.un.org/en/about-us/un-charter/full-text"
+    },
+    {
+      "id": "P1-B010-006",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "International Court of Justice: contentious jurisdiction",
+      "difficulty": "difficult",
+      "stem": "Two states submit a contentious dispute to the International Court of Justice. Which statement best describes the legal basis of the Court's jurisdiction in such a case?",
+      "options": [
+        "The Court has compulsory jurisdiction over every dispute between UN members",
+        "Jurisdiction generally depends on the consent of the states concerned",
+        "The UN General Assembly must approve every judgment before it becomes binding",
+        "Any private company may independently file a contentious case against a state"
+      ],
+      "answer": 1,
+      "explanations": [
+        "ICJ jurisdiction is not automatically compulsory for every dispute between all UN members.",
+        "Correct. In contentious cases, the Court's jurisdiction rests on state consent, which may be expressed through a special agreement, treaty clause or optional-clause declarations.",
+        "The General Assembly does not approve ICJ judgments; judgments in contentious cases bind the parties to that case.",
+        "Private companies are not parties entitled to institute contentious proceedings before the ICJ."
+      ],
+      "basis": "Official Paper I syllabus: International Relations and Events; Statute of the International Court of Justice, Articles 34–36; https://www.icj-cij.org/statute"
+    },
+    {
+      "id": "P1-B010-007",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Photoelectric effect: intensity and kinetic energy",
+      "difficulty": "moderate",
+      "stem": "Light of a fixed frequency above the threshold frequency shines on a clean metal surface. If only the light intensity is increased, what happens in the ideal photoelectric-effect model?",
+      "options": [
+        "Maximum kinetic energy increases, but the number of emitted electrons stays fixed",
+        "Maximum kinetic energy remains fixed, while the emission rate can increase",
+        "Threshold frequency decreases",
+        "Work function of the metal increases"
+      ],
+      "answer": 1,
+      "explanations": [
+        "At fixed frequency, increasing intensity does not increase the maximum kinetic energy of emitted photoelectrons.",
+        "Correct. Greater intensity supplies more photons per unit time, so the photoelectron emission rate can increase, while maximum kinetic energy remains set by frequency.",
+        "Threshold frequency is a material property determined by work function; intensity does not lower it.",
+        "The work function is a property of the metal surface and is not increased merely by changing incident intensity."
+      ],
+      "basis": "Official Paper I syllabus: General Science; India’s Achievements in Science and Technology; NCERT Physics, Class XII, Dual Nature of Radiation and Matter, Einstein photoelectric equation; https://ncert.nic.in/textbook.php"
+    },
+    {
+      "id": "P1-B010-008",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Catalysis and chemical equilibrium",
+      "difficulty": "standard",
+      "stem": "A catalyst is added to a reversible reaction that has already reached equilibrium at constant temperature. Which statement is correct?",
+      "options": [
+        "The equilibrium constant increases",
+        "The equilibrium composition shifts towards products",
+        "The forward and reverse reactions reach equilibrium faster, but the equilibrium constant is unchanged",
+        "The catalyst changes the enthalpy of reaction"
+      ],
+      "answer": 2,
+      "explanations": [
+        "A catalyst does not alter the thermodynamic equilibrium constant at a fixed temperature.",
+        "A catalyst accelerates both directions; it does not shift the equilibrium composition by itself.",
+        "Correct. By lowering activation barriers for forward and reverse pathways, a catalyst helps the system attain equilibrium faster without changing K.",
+        "A catalyst changes reaction rates, not the reaction enthalpy of the initial and final states."
+      ],
+      "basis": "Official Paper I syllabus: General Science; India’s Achievements in Science and Technology; NCERT Chemistry, Class XII, Chemical Kinetics and Catalysis; https://ncert.nic.in/textbook.php"
+    },
+    {
+      "id": "P1-B010-009",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "CFCs and stratospheric ozone depletion",
+      "difficulty": "moderate",
+      "stem": "Why can chlorofluorocarbons (CFCs) cause catalytic depletion of stratospheric ozone after reaching the upper atmosphere?",
+      "options": [
+        "They release chlorine radicals under ultraviolet radiation, and those radicals can participate in repeated ozone-destroying cycles",
+        "They convert all atmospheric oxygen directly into carbon dioxide",
+        "They absorb only infrared radiation and therefore cool the stratosphere",
+        "They increase the rate of nitrogen fixation in the stratosphere"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. UV photolysis of CFCs can release chlorine radicals; catalytic cycles allow a chlorine radical to destroy many ozone molecules before being deactivated.",
+        "CFC photochemistry does not convert atmospheric oxygen into carbon dioxide.",
+        "CFC-driven ozone depletion is not explained by infrared absorption cooling the stratosphere.",
+        "Nitrogen fixation is not the mechanism of CFC-related ozone loss."
+      ],
+      "basis": "Official Paper I syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies; UNEP, Scientific Assessment of Ozone Depletion; Montreal Protocol background; https://ozone.unep.org/science/assessment"
+    },
+    {
+      "id": "P1-B010-010",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Solid-waste management: source segregation",
+      "difficulty": "standard",
+      "stem": "Under India's Solid Waste Management Rules, 2016, which set of streams is used for source segregation by waste generators?",
+      "options": [
+        "Wet waste, dry waste and domestic hazardous waste",
+        "Only recyclable and non-recyclable waste",
+        "Biomedical waste, e-waste and radioactive waste in one household bin",
+        "Compost, sewage and construction debris"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The 2016 Rules require segregation into biodegradable/wet waste, non-biodegradable/dry waste and domestic hazardous waste.",
+        "The Rules specify a separate domestic hazardous stream in addition to wet and dry waste.",
+        "Biomedical, e-waste and radioactive waste are governed by separate rules and should not be combined as one household stream.",
+        "Compost is generally a treatment product, sewage is a wastewater stream, and construction debris has separate management provisions."
+      ],
+      "basis": "Official Paper I syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies; Solid Waste Management Rules, 2016, Ministry of Environment, Forest and Climate Change; https://moef.gov.in/"
+    },
+    {
+      "id": "P1-B010-011",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Primary deficit in public finance",
+      "difficulty": "moderate",
+      "stem": "A government's fiscal deficit is ₹8.4 lakh crore and its interest payments are ₹2.1 lakh crore. What is the primary deficit?",
+      "options": [
+        "₹6.3 lakh crore",
+        "₹8.4 lakh crore",
+        "₹10.5 lakh crore",
+        "₹4.2 lakh crore"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Primary deficit = fiscal deficit − interest payments = 8.4 − 2.1 = ₹6.3 lakh crore.",
+        "₹8.4 lakh crore is the fiscal deficit before removing interest payments.",
+        "Adding interest payments would not produce the primary deficit.",
+        "₹4.2 lakh crore is not obtained from the stated definition."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana; Government of India, Union Budget glossary / public-finance definitions; https://www.indiabudget.gov.in/"
+    },
+    {
+      "id": "P1-B010-012",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "GST: destination-based taxation",
+      "difficulty": "moderate",
+      "stem": "A taxable supply is consumed in State B, although the supplier is located in State A. Which principle best explains why GST is described as a destination-based consumption tax?",
+      "options": [
+        "Tax revenue is assigned only to the state where the supplier's factory is located",
+        "Tax is intended to accrue to the place of consumption, subject to the applicable inter-State settlement rules",
+        "GST is levied only when goods cross an international border",
+        "The tax is collected exclusively by local municipal bodies"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The supplier's location alone is not the defining destination principle.",
+        "Correct. GST follows the destination principle: the tax burden/revenue is associated with consumption, with IGST settlement rules governing inter-State supplies.",
+        "GST applies to domestic supplies as well as imports; it is not limited to international borders.",
+        "GST is administered through the Union and State tax framework, not exclusively by municipalities."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana; GST Council, GST structure and destination-based taxation; https://gstcouncil.gov.in/"
+    },
+    {
+      "id": "P1-B010-013",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "Physical, Social and Economic Geography of India",
+      "subtopic": "Himalayan foothill physiography: Bhabar",
+      "difficulty": "moderate",
+      "stem": "Which feature characterises the Bhabar belt along the Himalayan foothills?",
+      "options": [
+        "Fine alluvium deposited in a deltaic estuary",
+        "A porous belt of coarse pebbles and sediments in which streams may disappear underground",
+        "A permanently waterlogged marsh belt south of the Terai",
+        "A high-altitude zone of glacial cirques"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A deltaic estuary is not the Bhabar belt.",
+        "Correct. The Bhabar is a narrow, coarse, porous depositional belt at the foothills where streams can sink into the permeable deposits.",
+        "The marshy belt where streams re-emerge is the Terai, not Bhabar.",
+        "Glacial cirques are high-mountain landforms, not the foothill Bhabar belt."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography of India; NCERT, India: Physical Environment, Physiographic divisions of the Northern Plains; https://ncert.nic.in/textbook.php"
+    },
+    {
+      "id": "P1-B010-014",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "Physical, Social and Economic Geography of India",
+      "subtopic": "Peninsular physiography: Eastern Ghats",
+      "difficulty": "difficult",
+      "stem": "Which comparison between the Eastern Ghats and Western Ghats is geographically most accurate?",
+      "options": [
+        "Both ranges form equally continuous escarpments along the coast",
+        "The Eastern Ghats are more discontinuous because major east-flowing rivers dissect them, whereas the Western Ghats are comparatively continuous",
+        "The Western Ghats are lower and more discontinuous than the Eastern Ghats throughout their length",
+        "The Eastern Ghats are a young fold mountain system formed by the collision of the Indian and Eurasian plates"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The two ranges do not have equal continuity; the Eastern Ghats are notably discontinuous.",
+        "Correct. Large rivers such as the Mahanadi, Godavari, Krishna and Kaveri cut across the Eastern Ghats, while the Western Ghats form a more continuous escarpment.",
+        "This reverses the usual continuity comparison and is not accurate as a general description.",
+        "The Eastern Ghats are an ancient eroded range, not a young Himalayan-style fold system."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography of India; NCERT, India: Physical Environment, Peninsular Plateau and Western/Eastern Ghats; https://ncert.nic.in/textbook.php"
+    },
+    {
+      "id": "P1-B010-015",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "Physical, Social and Economic Geography of India",
+      "subtopic": "Brahmaputra: entry into India",
+      "difficulty": "standard",
+      "stem": "By what name is the Brahmaputra generally known when it enters India in Arunachal Pradesh from Tibet?",
+      "options": [
+        "Teesta",
+        "Siang or Dihang",
+        "Subansiri",
+        "Lohit"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Teesta is a separate Himalayan river system.",
+        "Correct. The Yarlung Tsangpo enters Arunachal Pradesh and is known as the Siang or Dihang before major tributaries join it.",
+        "Subansiri is a major tributary that joins the Brahmaputra system in Assam.",
+        "Lohit is another important tributary, not the name used for the main river at its entry into Arunachal Pradesh."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography of India; NCERT, India: Physical Environment, Himalayan river systems; https://ncert.nic.in/textbook.php"
+    },
+    {
+      "id": "P1-B010-016",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "2011 Census literacy profile",
+      "difficulty": "standard",
+      "stem": "What percentage of Telangana residents aged seven years and above were literate in the 2011 Census?",
+      "options": [
+        "62.54%",
+        "66.54%",
+        "70.54%",
+        "73.00%"
+      ],
+      "answer": 1,
+      "explanations": [
+        "62.54% is below the figure reported for Telangana in the 2011 Census profile.",
+        "Correct. The State Profile reports overall literacy of 66.54% (male 75.04%, female 57.99%).",
+        "70.54% is not the Telangana figure in the 2011 Census profile.",
+        "73.00% is the approximate all-India literacy rate in 2011, not Telangana's 66.54%."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; Government of Telangana, State Profile – Census 2011 literacy rates; https://www.telangana.gov.in/about/state-profile/"
+    },
+    {
+      "id": "P1-B010-017",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "2011 Census rural–urban distribution",
+      "difficulty": "moderate",
+      "stem": "In the 2011 Census demographic profile published by the Government of Telangana, approximately what share of the State's population lived in rural areas?",
+      "options": [
+        "38.88%",
+        "43.00%",
+        "56.00%",
+        "61.12%"
+      ],
+      "answer": 3,
+      "explanations": [
+        "38.88% is the urban population share, not the rural share.",
+        "43% is the approximate share of the State's area in the Krishna basin, not its rural population share.",
+        "56% is close to the approximate Godavari-basin area share, not the rural population share.",
+        "Correct. The State Profile reports 61.12% rural and 38.88% urban population in the 2011 Census."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; Government of Telangana, State Profile – Census 2011 rural and urban population; https://www.telangana.gov.in/about/state-profile/"
+    },
+    {
+      "id": "P1-B010-018",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "2011 Census population density",
+      "difficulty": "moderate",
+      "stem": "What population density per square kilometre is reported for Telangana in the State's 2011 Census profile?",
+      "options": [
+        "268",
+        "312",
+        "350",
+        "412"
+      ],
+      "answer": 1,
+      "explanations": [
+        "268 is not the State-level density reported in the profile.",
+        "Correct. The Telangana State Profile gives a 2011 Census population density of 312 persons per square kilometre.",
+        "350 is not the reported State-level figure.",
+        "412 is not the reported State-level figure."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; Government of Telangana, State Profile – Census 2011 population density; https://www.telangana.gov.in/about/state-profile/"
+    },
+    {
+      "id": "P1-B010-019",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "2011 Census decadal population growth",
+      "difficulty": "moderate",
+      "stem": "What decadal population growth rate for Telangana during 2001–2011 is reported in the State's official statistical profile?",
+      "options": [
+        "10.58%",
+        "13.58%",
+        "17.70%",
+        "21.20%"
+      ],
+      "answer": 1,
+      "explanations": [
+        "10.58% is not the State-level 2001–2011 growth rate in the official profile.",
+        "Correct. The Government of Telangana reports a decadal growth rate of 13.58% for 2001–2011.",
+        "17.70% is the all-India 2001–2011 decadal growth rate cited in the same comparison, not Telangana's rate.",
+        "21.20% is not the figure reported for Telangana in the 2011 Census profile."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography and Demography of Telangana; Government of Telangana, State Profile / Directorate of Economics and Statistics, 2011 Census decadal growth rate; https://www.telangana.gov.in/about/state-profile/"
+    },
+    {
+      "id": "P1-B010-020",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Ghadar Party: founding location",
+      "difficulty": "moderate",
+      "stem": "The Ghadar Party was organised in 1913 by Indian expatriate revolutionaries. In which city was its early headquarters and newspaper activity centred?",
+      "options": [
+        "London",
+        "San Francisco",
+        "Berlin",
+        "Tokyo"
+      ],
+      "answer": 1,
+      "explanations": [
+        "London hosted several Indian nationalist activities, but it was not the Ghadar Party's principal early centre.",
+        "Correct. The Ghadar movement developed among Indian migrants on the Pacific Coast, with its headquarters and newspaper activity centred in San Francisco.",
+        "Berlin was associated with the Berlin Committee/Indian Independence Committee, a distinct wartime initiative.",
+        "Tokyo was not the Ghadar Party's principal early headquarters."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement; standard reference: Bipan Chandra, India's Struggle for Independence, Ghadar movement chapter; https://ncert.nic.in/textbook.php"
+    },
+    {
+      "id": "P1-B010-021",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Ilbert Bill controversy, 1883",
+      "difficulty": "difficult",
+      "stem": "What was the central issue behind the controversy over the Ilbert Bill of 1883 in British India?",
+      "options": [
+        "It proposed elected Indian members for the Viceroy's Executive Council",
+        "It sought to remove the racial bar preventing qualified Indian judges from trying European British subjects in criminal cases",
+        "It introduced separate electorates for religious communities",
+        "It transferred control of the Indian Army to provincial legislatures"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The Bill did not propose elected Indian membership in the Viceroy's Executive Council.",
+        "Correct. The Bill sought to allow senior Indian magistrates and judges to try European British subjects, provoking strong opposition from the European community.",
+        "Separate electorates were associated with the 1909 reforms, not the Ilbert Bill.",
+        "The Bill did not transfer military control to provincial legislatures."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement; standard reference: Bipan Chandra, India's Struggle for Independence, colonial legal reforms; https://ncert.nic.in/textbook.php"
+    },
+    {
+      "id": "P1-B010-022",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Indian Councils Act, 1892",
+      "difficulty": "moderate",
+      "stem": "Which limited parliamentary function was introduced by the Indian Councils Act, 1892?",
+      "options": [
+        "Members could discuss the annual budget and ask questions subject to restrictions, but could not vote on the budget",
+        "Members could remove the Viceroy through a no-confidence motion",
+        "Provincial legislatures received full responsible government",
+        "The Act established universal adult franchise"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The 1892 Act expanded legislative councils and permitted limited discussion of the budget and questions, without granting a vote on the budget.",
+        "A no-confidence mechanism to remove the Viceroy was not created by the Act.",
+        "Full provincial responsible government came much later, notably under the 1935 Act's provincial autonomy provisions.",
+        "Universal adult franchise was not introduced by the 1892 Act."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement; Indian Councils Act, 1892, statutory text and standard modern-history references; https://www.legislation.gov.uk/ukpga/Vict/55-56/14/contents"
+    },
+    {
+      "id": "P1-B010-023",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Vetti and agrarian relations in pre-statehood Telangana",
+      "difficulty": "moderate",
+      "stem": "In the agrarian and social history of pre-statehood Telangana, the term 'vetti' most directly referred to which practice?",
+      "options": [
+        "A land-revenue assessment paid in cash",
+        "A system of forced unpaid labour imposed on dependent households",
+        "A voluntary village grain bank",
+        "A hereditary grant of tax-free land"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Vetti was not simply a cash land-revenue assessment.",
+        "Correct. Vetti referred to forced, unpaid labour exacted from oppressed rural communities and was a major grievance in Telangana's agrarian history.",
+        "A voluntary grain bank is a community support mechanism, not forced labour.",
+        "A tax-free land grant is not the meaning of vetti."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state; SCERT Telangana, Class VIII Social Studies, Telangana Armed Struggle and vetti; https://www.scert.telangana.gov.in/pdf/publication/ebooks2019/8th%20social%20em.pdf"
+    },
+    {
+      "id": "P1-B010-024",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Andhra Pradesh Reorganisation Act: common capital provision",
+      "difficulty": "difficult",
+      "stem": "Under Section 5 of the Andhra Pradesh Reorganisation Act, 2014, Hyderabad was provided as the common capital of the successor States for a period not exceeding how long from the appointed day?",
+      "options": [
+        "Five years",
+        "Ten years",
+        "Fifteen years",
+        "Until Parliament separately legislates"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Five years is shorter than the statutory maximum.",
+        "Correct. Section 5 provides for Hyderabad as common capital for a period not exceeding ten years from the appointed day.",
+        "Fifteen years is not the limit specified in Section 5.",
+        "The Act itself specifies a maximum period; it is not left wholly open-ended for later legislation."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state; Andhra Pradesh Reorganisation Act, 2014, Section 5; https://www.indiacode.nic.in/"
+    },
+    {
+      "id": "P1-B010-025",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "State Finance Commission under Article 243-I",
+      "difficulty": "moderate",
+      "stem": "Under Article 243-I of the Constitution, who constitutes the State Finance Commission and at what interval?",
+      "options": [
+        "The President of India every five years",
+        "The Governor of the State every five years",
+        "The State Legislature every six years",
+        "The Election Commission of India every five years"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The President constitutes the Union Finance Commission under Article 280, not the State Finance Commission under Article 243-I.",
+        "Correct. The Governor constitutes a Finance Commission every five years to review the financial position of Panchayats.",
+        "The Constitution assigns constitution of the State Finance Commission to the Governor, not the State Legislature at a six-year interval.",
+        "The Election Commission of India has no role in constituting the State Finance Commission."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; Constitution of India, Article 243-I; https://legislative.gov.in/constitution-of-india/"
+    },
+    {
+      "id": "P1-B010-026",
+      "paper": 1,
+      "topicId": "p1-10",
+      "topic": "Indian Constitution; Indian Political System; Governance and Public Policy",
+      "subtopic": "State Election Commission and Panchayat elections",
+      "difficulty": "moderate",
+      "stem": "Which constitutional provision vests the superintendence, direction and control of the preparation of electoral rolls for, and conduct of, Panchayat elections in a State Election Commission?",
+      "options": [
+        "Article 243-I",
+        "Article 243-K",
+        "Article 280",
+        "Article 324"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Article 243-I concerns the State Finance Commission.",
+        "Correct. Article 243-K provides for the State Election Commission's control over Panchayat elections.",
+        "Article 280 establishes the Union Finance Commission.",
+        "Article 324 concerns the Election Commission of India and elections to Parliament, State Legislatures, President and Vice-President."
+      ],
+      "basis": "Official Paper I syllabus: Indian Constitution; Indian Political System; Governance and Public Policy; Constitution of India, Article 243-K; https://legislative.gov.in/constitution-of-india/"
+    },
+    {
+      "id": "P1-B010-027",
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "subtopic": "POSH Act: constitution of Internal Committee",
+      "difficulty": "moderate",
+      "stem": "Under the Sexual Harassment of Women at Workplace Act, 2013, an employer is required to constitute an Internal Committee at a workplace having at least how many employees?",
+      "options": [
+        "Five",
+        "Eight",
+        "Ten",
+        "Twenty"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Five employees is below the statutory threshold.",
+        "Eight employees is also below the threshold.",
+        "Correct. Section 4 requires an Internal Committee at every workplace with ten or more employees; the Act provides for a Local Committee in specified cases where an Internal Committee is not constituted.",
+        "Twenty is not the threshold; the requirement begins at ten employees."
+      ],
+      "basis": "Official Paper I syllabus: Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies; Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013, Section 4; https://www.indiacode.nic.in/"
+    },
+    {
+      "id": "P1-B010-028",
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "subtopic": "Maternity Benefit Act: duration of paid maternity leave",
+      "difficulty": "moderate",
+      "stem": "Under the Maternity Benefit Act, 1961 as amended in 2017, the ordinary paid maternity-benefit period for an eligible woman with fewer than two surviving children is:",
+      "options": [
+        "12 weeks",
+        "18 weeks",
+        "20 weeks",
+        "26 weeks"
+      ],
+      "answer": 3,
+      "explanations": [
+        "Twelve weeks applies in specified cases such as a woman with two or more surviving children and certain adopting or commissioning mothers, not the ordinary category asked here.",
+        "Eighteen weeks is not the statutory period introduced by the 2017 amendment.",
+        "Twenty weeks is not the statutory period in Section 5(3).",
+        "Correct. The 2017 amendment increased the entitlement to 26 weeks for an eligible woman with fewer than two surviving children, with not more than eight weeks before the expected delivery date."
+      ],
+      "basis": "Official Paper I syllabus: Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies; Maternity Benefit Act, 1961 as amended by Act 6 of 2017, Section 5(3); India Code; https://www.indiacode.nic.in/bitstream/123456789/12874/1/the_maternity_benefit_act%2C_1961_no._53_of_1961_date_12.12.1961.pdf"
+    },
+    {
+      "id": "P1-B010-029",
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Nagoba Jatara and Gond cultural traditions",
+      "difficulty": "moderate",
+      "stem": "Nagoba Jatara, a major Gond tribal festival in Telangana, is traditionally held at which place?",
+      "options": [
+        "Keslapur in Indravelli mandal, Adilabad district",
+        "Medaram in Mulugu district",
+        "Basar in Nirmal district",
+        "Alampur in Jogulamba Gadwal district"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Telangana Tourism identifies Nagoba Jatara with Keslapur village in Indravelli mandal of Adilabad district; it is associated with the Mesaram clan of Gonds.",
+        "Medaram is associated with the Sammakka–Saralamma Jatara, a different tribal festival.",
+        "Basar is known for the Gnana Saraswati temple on the Godavari.",
+        "Alampur is known for its temple complex and is not the venue of Nagoba Jatara."
+      ],
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; SCERT Telangana, Class V EVS, Nagoba fair at Keslapur, Indravelli mandal, Adilabad district; https://scert.telangana.gov.in/pdf/publication/ebooks2019/5%20evs%20bilingual%20part%201%202022-23.pdf"
+    },
+    {
+      "id": "P1-B010-030",
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Dokra craft and lost-wax casting",
+      "difficulty": "moderate",
+      "stem": "Which manufacturing technique is characteristically associated with Telangana's traditional Dokra metal craft?",
+      "options": [
+        "Wheel-thrown pottery firing",
+        "Lost-wax metal casting",
+        " ikat-resist dyeing of yarn",
+        "Hammered sheet-brass repoussé only"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Wheel-thrown pottery is a ceramic process, not the characteristic Dokra metal-casting method.",
+        "Correct. Dokra is a traditional non-ferrous metal craft made through the lost-wax casting process.",
+        "Ikat-resist dyeing is a textile technique associated with woven patterns, not metal casting.",
+        "Repoussé is a sheet-metal relief technique and does not describe the characteristic lost-wax process."
+      ],
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; Telangana Tourism, Arts & Crafts – Dokra metal craft of Adilabad and lost-wax casting; https://www.tourism.telangana.gov.in/page/arts-crafts"
+    },
+    {
+      "id": "P1-B010-031",
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Nirmal toys: material and regional identity",
+      "difficulty": "moderate",
+      "stem": "Nirmal's traditional wooden toys and related craft are associated with which Telangana district?",
+      "options": [
+        "Adilabad",
+        "Nirmal",
+        "Warangal",
+        "Sangareddy"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Adilabad is associated with several tribal crafts, but Nirmal toys are identified with Nirmal.",
+        "Correct. Nirmal district is the regional centre associated with Nirmal wooden toys and paintings.",
+        "Warangal is especially associated with Kakatiya heritage and other crafts, not the Nirmal toy tradition.",
+        "Sangareddy is not the district from which the Nirmal craft takes its name."
+      ],
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; Telangana Tourism, Nirmal destination – wooden Nirmal toys; https://tourism.telangana.gov.in/destinations/nirmal"
+    },
+    {
+      "id": "P1-B010-032",
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Bathukamma: cultural form",
+      "difficulty": "standard",
+      "stem": "Which description most accurately identifies Bathukamma as a Telangana cultural observance?",
+      "options": [
+        "A harvest boat race conducted on the Godavari",
+        "A floral festival in which women arrange seasonal flowers in tiered formations and celebrate collectively",
+        "A martial dance performed exclusively by Kakatiya soldiers",
+        "A Buddhist monastic ceremony held at Phanigiri"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Bathukamma is not a boat race.",
+        "Correct. Bathukamma is a floral festival centred on seasonal flowers, community singing and collective celebration by women.",
+        "The martial dance association is closer to Perini Sivatandavam, not Bathukamma.",
+        "Phanigiri is an archaeological Buddhist site; Bathukamma is not a monastic ceremony."
+      ],
+      "basis": "Official Paper I syllabus: Society, Culture, Heritage, Arts and Literature of Telangana; Telangana Tourism, Warangal destination and Bathukamma festival; https://tourism.telangana.gov.in/destinations/warangal"
+    },
+    {
+      "id": "P1-B010-033",
+      "paper": 1,
+      "topicId": "p1-13",
+      "topic": "Policies of Telangana State",
+      "subtopic": "Mission Bhagiratha: service norms",
+      "difficulty": "moderate",
+      "stem": "Under the Mission Bhagiratha design described by the Telangana Government, what is the planned treated piped-water service level for rural households?",
+      "options": [
+        "55 litres per capita per day",
+        "70 litres per capita per day",
+        "100 litres per capita per day",
+        "150 litres per capita per day"
+      ],
+      "answer": 2,
+      "explanations": [
+        "55 LPCD is not the rural service norm in the Mission Bhagiratha description.",
+        "70 LPCD is not the stated rural target.",
+        "Correct. The State's Mission Bhagiratha material specifies 100 LPCD for rural areas, 135 LPCD for municipalities and 150 LPCD for municipal corporations.",
+        "150 LPCD is the stated norm for municipal corporations, not rural households."
+      ],
+      "basis": "Official Paper I syllabus: Policies of Telangana State; Telangana Drinking Water Supply Corporation, Mission Bhagiratha service levels (100 LPCD rural, 135 LPCD municipalities, 150 LPCD municipal corporations); https://mbbulk.telangana.gov.in/mbbulkweb/about.html"
+    },
+    {
+      "id": "P1-B010-034",
+      "paper": 1,
+      "topicId": "p1-13",
+      "topic": "Policies of Telangana State",
+      "subtopic": "Mission Kakatiya: tank-restoration works",
+      "difficulty": "moderate",
+      "stem": "Which set of activities most directly reflects the physical restoration work undertaken under Mission Kakatiya?",
+      "options": [
+        "Desilting tank beds, repairing sluices and weirs, strengthening bunds and restoring feeder channels",
+        "Deepening only major river channels and constructing coastal ports",
+        "Replacing all minor irrigation tanks with groundwater borewells",
+        "Lining every village road and installing rooftop solar panels"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. These are the core tank-restoration components identified by Telangana's irrigation administration.",
+        "Major river channels and ports are outside the programme's tank-restoration scope.",
+        "The programme restores minor irrigation tanks rather than replacing them with borewells.",
+        "Road construction and rooftop solar installation are not the defining Mission Kakatiya works."
+      ],
+      "basis": "Official Paper I syllabus: Policies of Telangana State; Government of Telangana, Mission Kakatiya – desilting, feeder-channel, bund, weir and sluice restoration; https://www.telangana.gov.in/mission-kakatiya/"
+    },
+    {
+      "id": "P1-B010-035",
+      "paper": 1,
+      "topicId": "p1-13",
+      "topic": "Policies of Telangana State",
+      "subtopic": "Rythu Bima: scheme design",
+      "difficulty": "moderate",
+      "stem": "Which statement correctly distinguishes Telangana's Rythu Bima from an agricultural crop-insurance scheme?",
+      "options": [
+        "It compensates only for measured crop-yield loss after drought",
+        "It is a group life-insurance scheme that provides a death benefit to the enrolled farmer's nominee",
+        "It is a loan-waiver programme for all rural households",
+        "It reimburses the cost of irrigation electricity for tenant farmers"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Crop-yield loss compensation is the role of crop-insurance arrangements, not Rythu Bima's core design.",
+        "Correct. Rythu Bima is a farmer group life-insurance scheme; the official portal describes a ₹5 lakh insured amount paid to the nominee on the enrolled farmer's death.",
+        "Rythu Bima is not a general household loan-waiver programme.",
+        "Electricity reimbursement is not the benefit described for Rythu Bima."
+      ],
+      "basis": "Official Paper I syllabus: Policies of Telangana State; Jogulamba Gadwal District Government, Agriculture Schemes – Rs 5 lakh life-insurance cover for farmers under Rythu Bima; https://gadwal.telangana.gov.in/scheme-category/agricultural/"
+    },
+    {
+      "id": "P1-B010-036",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Water-quality mixing: weighted concentration",
+      "difficulty": "difficult",
+      "stem": "A treatment operator mixes 120 litres of water containing a dissolved tracer at 30 mg/L with 80 litres containing the same tracer at 10 mg/L. Assuming volumes are additive and no tracer is lost, what is the final concentration?",
+      "options": [
+        "18 mg/L",
+        "20 mg/L",
+        "22 mg/L",
+        "24 mg/L"
+      ],
+      "answer": 2,
+      "explanations": [
+        "18 mg/L would correspond to a different weighted total; the tracer mass is 3,600 + 800 = 4,400 mg.",
+        "20 mg/L is the unweighted mean of the two concentrations and ignores the unequal volumes.",
+        "Correct. Final concentration = (120×30 + 80×10)/(120+80) = 4,400/200 = 22 mg/L.",
+        "24 mg/L is not obtained from the conserved tracer mass divided by the total volume."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; weighted-average concentration calculation, based on conservation of solute mass."
+    },
+    {
+      "id": "P1-B010-037",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Pipes and cisterns: two inlets and one outlet",
+      "difficulty": "difficult",
+      "stem": "In a test tank, inlet A fills the tank in 12 hours, inlet B fills it in 18 hours, and an outlet empties a full tank in 36 hours. If all three operate together from empty, how long will the tank take to fill?",
+      "options": [
+        "6 hours",
+        "8 hours",
+        "9 hours",
+        "12 hours"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Six hours would require a net rate of one-sixth tank per hour, greater than the actual net rate.",
+        "Eight hours is not consistent with the combined rates.",
+        "Correct. Net rate = 1/12 + 1/18 − 1/36 = 4/36 = 1/9 tank per hour, so the tank fills in 9 hours.",
+        "Twelve hours ignores the positive contribution of inlet B and the outlet's smaller emptying rate."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; work-rate and combined-efficiency problem."
+    },
+    {
+      "id": "P1-B010-038",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Percentage change in non-revenue water",
+      "difficulty": "moderate",
+      "stem": "A water utility reduces non-revenue water from 25% of system input to 20%, with input volume unchanged at 40 million litres per day. By what percentage has the volume of non-revenue water fallen relative to its original volume?",
+      "options": [
+        "5%",
+        "15%",
+        "20%",
+        "25%"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Five percentage points is the absolute reduction in the share, not the percentage fall relative to the original loss volume.",
+        "15% is not obtained by comparing 10 with the original 25.",
+        "Correct. Original loss is 0.25×40 = 10 MLD; new loss is 0.20×40 = 8 MLD. The reduction is 2/10 = 20%.",
+        "25% would be the reduction only if the loss fell from 10 to 7.5 MLD."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; percentage change and water-loss interpretation."
+    },
+    {
+      "id": "P1-B010-039",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "Third conditional: past unreal condition",
+      "difficulty": "standard",
+      "stem": "Choose the grammatically correct completion: 'If the isolation valve ___ before the pump started, the tank ___ overflowed.'",
+      "options": [
+        "was closed; will not have",
+        "had been closed; would not have",
+        "would be closed; had not",
+        "has closed; would not"
+      ],
+      "answer": 1,
+      "explanations": [
+        "'Was closed; will not have' mixes an unsuitable past condition with a future-perfect result.",
+        "Correct. The third conditional uses past perfect in the if-clause ('had been closed') and 'would have' plus past participle in the result clause.",
+        "'Would be closed; had not' reverses the clause structure and does not form the required conditional.",
+        "'Has closed; would not' mixes present perfect with an incomplete conditional result."
+      ],
+      "basis": "Official Paper I syllabus: Basic English (10th class Standard); standard English grammar reference, third conditional / unreal past condition."
+    },
+    {
+      "id": "P1-B010-040",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "English usage: discuss versus discuss about",
+      "difficulty": "standard",
+      "stem": "Select the sentence that uses the verb 'discuss' correctly in standard formal English.",
+      "options": [
+        "The engineers discussed about the leakage report.",
+        "The engineers discussed the leakage report during the meeting.",
+        "The engineers discussed on the leakage report during the meeting.",
+        "The engineers discussed regarding the leakage report."
+      ],
+      "answer": 1,
+      "explanations": [
+        "'Discuss about' is redundant in standard usage because 'discuss' takes a direct object.",
+        "Correct. 'Discussed the leakage report' uses the verb with its direct object.",
+        "'Discussed on' is not the standard transitive construction in this sentence.",
+        "'Discussed regarding' is also an incorrect or needlessly redundant construction here."
+      ],
+      "basis": "Official Paper I syllabus: Basic English (10th class Standard); Oxford Learner's Dictionaries / standard transitive verb usage for 'discuss'; https://www.oxfordlearnersdictionaries.com/"
+    },
+    {
+      "id": "P2-B010-001",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Chebyshev inequality: probability bound",
+      "difficulty": "difficult",
+      "stem": "A random variable X has mean 20 and variance 9. Using Chebyshev's inequality, what is the largest guaranteed upper bound on P(|X−20| ≥ 6)?",
+      "options": [
+        "1/2",
+        "1/3",
+        "1/4",
+        "1/9"
+      ],
+      "answer": 2,
+      "explanations": [
+        "1/2 is a weaker bound than the inequality gives for this deviation.",
+        "1/3 is also larger than the Chebyshev bound.",
+        "Correct. Chebyshev gives P(|X−μ|≥a) ≤ σ²/a² = 9/36 = 1/4.",
+        "1/9 would require a deviation of three standard deviations, not two."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics; Sheldon Ross, A First Course in Probability, Chebyshev inequality; https://www.pearson.com/"
+    },
+    {
+      "id": "P2-B010-002",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Sampling distribution of the sample mean",
+      "difficulty": "moderate",
+      "stem": "A population has variance 16. A simple random sample of 25 independent observations is drawn. What is the variance of the sample mean, assuming sampling with replacement or an effectively infinite population?",
+      "options": [
+        "16",
+        "4",
+        "0.64",
+        "0.16"
+      ],
+      "answer": 2,
+      "explanations": [
+        "16 is the population variance, not the variance of the mean of 25 independent observations.",
+        "4 is the population standard deviation, not the required variance.",
+        "Correct. Var(X̄)=σ²/n=16/25=0.64 under the stated independence assumption.",
+        "0.16 would incorrectly divide the variance by 100."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics; Ross, A First Course in Probability, sampling distributions and variance of the sample mean."
+    },
+    {
+      "id": "P2-B010-003",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Exponential distribution: memoryless property",
+      "difficulty": "difficult",
+      "stem": "The lifetime T of a component follows an exponential distribution with mean 5 hours. Given that it has already operated for 3 hours, what is the probability that it operates for at least 5 additional hours?",
+      "options": [
+        "e⁻⁵",
+        "e⁻¹",
+        "1−e⁻¹",
+        "e⁻⁸⁄⁵"
+      ],
+      "answer": 1,
+      "explanations": [
+        "e⁻⁵ would correspond to a five-hour interval at rate 1 per hour, not rate 1/5 per hour.",
+        "Correct. The exponential distribution is memoryless: P(T>8 | T>3)=P(T>5)=e^(−5/5)=e⁻¹.",
+        "1−e⁻¹ is the probability of failure within the next five hours, not survival for at least five hours.",
+        "e⁻⁸⁄⁵ is the probability of surviving eight hours from the start, not five additional hours conditional on surviving three."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics; Ross, A First Course in Probability, exponential distribution and memoryless property."
+    },
+    {
+      "id": "P2-B010-004",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Poisson distribution: zero-event probability",
+      "difficulty": "standard",
+      "stem": "If the number of service interruptions in a fixed interval follows a Poisson distribution with parameter λ=2, what is the probability of observing no interruptions in that interval?",
+      "options": [
+        "2e⁻²",
+        "e⁻²",
+        "1−e⁻²",
+        "2e⁻¹"
+      ],
+      "answer": 1,
+      "explanations": [
+        "2e⁻² is the probability of exactly one event, not zero.",
+        "Correct. For X~Poisson(2), P(X=0)=e⁻²·2⁰/0!=e⁻².",
+        "1−e⁻² is the probability of at least one event.",
+        "2e⁻¹ is not the Poisson probability mass at zero for λ=2."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics; Ross, A First Course in Probability, Poisson distribution."
+    },
+    {
+      "id": "P2-B010-005",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Counting injective functions",
+      "difficulty": "moderate",
+      "stem": "Let A contain 3 distinct elements and B contain 5 distinct elements. How many one-to-one functions f:A→B are possible?",
+      "options": [
+        "15",
+        "30",
+        "60",
+        "125"
+      ],
+      "answer": 2,
+      "explanations": [
+        "15 counts 3×5 only if assignments are not distinguished correctly across all domain elements.",
+        "30 omits one factor in the falling factorial count.",
+        "Correct. The images of the three distinct elements must be distinct: 5×4×3=60 injective functions.",
+        "125=5³ counts all functions, including those that map different elements of A to the same element of B."
+      ],
+      "basis": "Official Paper II syllabus: Set Theory & Algebra; Linear Algebra; Rosen, Discrete Mathematics and Its Applications, functions and one-to-one mappings."
+    },
+    {
+      "id": "P2-B010-006",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Idempotent matrix eigenvalues",
+      "difficulty": "difficult",
+      "stem": "A square matrix A satisfies A²=A. Which set contains every possible eigenvalue of A over the complex numbers?",
+      "options": [
+        "Only {−1,1}",
+        "Only {0,1}",
+        "All non-zero real numbers",
+        "All complex roots of unity"
+      ],
+      "answer": 1,
+      "explanations": [
+        "An eigenvalue of −1 would require 1=−1 after applying A²=A to an eigenvector, which is impossible.",
+        "Correct. If Av=λv, then A²v=λ²v and Av=λv; hence λ²=λ, so λ(λ−1)=0 and λ is 0 or 1.",
+        "The equation restricts eigenvalues to two values, not arbitrary non-zero reals.",
+        "Roots of unity other than 1 do not generally satisfy λ²=λ."
+      ],
+      "basis": "Official Paper II syllabus: Set Theory & Algebra; Linear Algebra; Axler, Linear Algebra Done Right, eigenvalues and idempotent linear operators."
+    },
+    {
+      "id": "P2-B010-007",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Orthogonality of eigenvectors of symmetric matrices",
+      "difficulty": "moderate",
+      "stem": "For a real symmetric matrix, eigenvectors corresponding to two distinct eigenvalues are necessarily:",
+      "options": [
+        "Linearly dependent",
+        "Orthogonal under the usual inner product",
+        "Equal in magnitude component by component",
+        "Both eigenvalues necessarily zero"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Eigenvectors associated with distinct eigenvalues are linearly independent, not dependent.",
+        "Correct. Real symmetric matrices are self-adjoint; eigenvectors for distinct eigenvalues are orthogonal.",
+        "There is no requirement that their components have equal magnitudes.",
+        "A real symmetric matrix may have non-zero eigenvalues; the statement concerns eigenvectors, not zero eigenvalues."
+      ],
+      "basis": "Official Paper II syllabus: Set Theory & Algebra; Linear Algebra; standard spectral theorem for real symmetric matrices, e.g. Axler, Linear Algebra Done Right."
+    },
+    {
+      "id": "P2-B010-008",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Positive-definite real symmetric matrices",
+      "difficulty": "advanced",
+      "stem": "A real symmetric matrix A is positive definite if xᵀAx>0 for every non-zero real vector x. Which statement about its eigenvalues is necessarily true?",
+      "options": [
+        "All eigenvalues are strictly positive",
+        "All eigenvalues are non-positive",
+        "At least one eigenvalue must be zero",
+        "Eigenvalues may be non-real"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. For a real symmetric matrix, positive definiteness is equivalent to all eigenvalues being strictly positive.",
+        "Non-positive eigenvalues would violate xᵀAx>0 for an eigenvector associated with such an eigenvalue.",
+        "A zero eigenvalue would make the quadratic form zero for a non-zero eigenvector, contradicting positive definiteness.",
+        "Real symmetric matrices have real eigenvalues by the spectral theorem."
+      ],
+      "basis": "Official Paper II syllabus: Set Theory & Algebra; Linear Algebra; standard spectral theorem and positive-definite matrices, e.g. Axler, Linear Algebra Done Right."
+    },
+    {
+      "id": "P2-B010-009",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Maximum independent set in a path graph",
+      "difficulty": "standard",
+      "stem": "For the path graph P₅ with vertices v₁–v₂–v₃–v₄–v₅, what is the size of a maximum independent set?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Two vertices can be selected, but the set {v₁,v₃,v₅} shows that a larger independent set exists.",
+        "Correct. Choosing v₁, v₃ and v₅ gives three vertices with no edge between any pair; no four vertices can be selected without including adjacent vertices in P₅.",
+        "Any selection of four of the five path vertices must include at least one adjacent pair, so it is not independent.",
+        "All five vertices cannot be selected because each consecutive pair is connected by an edge."
+      ],
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; standard definition of independent sets and path graphs, e.g. West, Introduction to Graph Theory."
+    },
+    {
+      "id": "P2-B010-010",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Combinatorics: binary strings with fixed Hamming weight",
+      "difficulty": "moderate",
+      "stem": "An 8-bit status word must contain exactly three bits set to 1. How many different bit patterns satisfy this requirement?",
+      "options": [
+        "28",
+        "56",
+        "64",
+        "70"
+      ],
+      "answer": 1,
+      "explanations": [
+        "28 is not the number of ways to choose three distinct bit positions from eight.",
+        "Correct. Choose which three of the eight positions contain 1: C(8,3)=8×7×6/(3×2×1)=56.",
+        "64 counts all patterns of length six, not 8-bit patterns with exactly three ones.",
+        "70 is C(8,4), the number of patterns with exactly four ones."
+      ],
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Rosen, Discrete Mathematics and Its Applications, combinations and binomial coefficients."
+    },
+    {
+      "id": "P2-B010-011",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Bipartite graph characterisation",
+      "difficulty": "moderate",
+      "stem": "Which condition is equivalent to an undirected graph being bipartite?",
+      "options": [
+        "It contains at least one Hamiltonian cycle",
+        "It contains no cycle of any length",
+        "It contains no cycle of odd length",
+        "Every vertex has even degree"
+      ],
+      "answer": 2,
+      "explanations": [
+        "A bipartite graph need not contain a Hamiltonian cycle.",
+        "A bipartite graph may contain even cycles, so it need not be acyclic.",
+        "Correct. An undirected graph is bipartite if and only if it has no odd cycle.",
+        "Even degrees at all vertices do not guarantee bipartiteness; for example, K₃ has all degrees 2 but is not bipartite."
+      ],
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; standard characterisation of bipartite graphs, e.g. West, Introduction to Graph Theory."
+    },
+    {
+      "id": "P2-B010-012",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Hasse diagrams of partially ordered sets",
+      "difficulty": "difficult",
+      "stem": "When drawing a Hasse diagram for a finite partially ordered set, which relations are conventionally omitted from the diagram?",
+      "options": [
+        "Cover relations between comparable elements",
+        "Reflexive loops and transitive relations implied by other paths",
+        "All relations involving maximal elements",
+        "All relations between incomparable elements"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Cover relations are the essential edges shown in a Hasse diagram.",
+        "Correct. Reflexive loops are omitted, and a relation implied by transitivity through an intermediate element is not drawn as a separate edge.",
+        "Maximal elements are represented as vertices and are not removed from the diagram.",
+        "Incomparable pairs have no order relation to draw; their absence is not the rule being asked about."
+      ],
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Mathematical Logic; Rosen, Discrete Mathematics and Its Applications, partially ordered sets and Hasse diagrams."
+    },
+    {
+      "id": "P2-B010-013",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Sequential circuit timing: minimum clock period",
+      "difficulty": "advanced",
+      "stem": "A register-to-register path has clock-to-Q delay 0.6 ns, combinational delay 2.1 ns and setup time 0.3 ns. Ignoring skew and uncertainty, what is the minimum clock period required for correct capture?",
+      "options": [
+        "2.1 ns",
+        "2.7 ns",
+        "3.0 ns",
+        "3.6 ns"
+      ],
+      "answer": 2,
+      "explanations": [
+        "2.1 ns omits both the launch register's clock-to-Q delay and the capture register's setup requirement.",
+        "2.7 ns includes clock-to-Q and combinational delay but omits setup time.",
+        "Correct. The minimum period is tCQ + tcomb + tsetup = 0.6 + 2.1 + 0.3 = 3.0 ns.",
+        "3.6 ns adds an extra 0.6 ns not required by the stated path model."
+      ],
+      "basis": "Official Paper II syllabus: Digital Logic; sequential-circuit timing and setup constraints; Mano, Digital Design, sequential circuit timing."
+    },
+    {
+      "id": "P2-B010-014",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Two's-complement overflow",
+      "difficulty": "moderate",
+      "stem": "In 8-bit signed two's-complement arithmetic, the bit patterns for +100 and +60 are added. What result is stored, and what is the status of the operation?",
+      "options": [
+        "−96 with signed overflow",
+        "+160 with no overflow",
+        "−96 with no overflow",
+        "+32 with signed overflow"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. 100+60=160; modulo 256 the stored byte is 1010 0000, which represents −96 in 8-bit two's complement. Since two positive operands produce a negative result, signed overflow occurred.",
+        "+160 is outside the representable range −128 to +127, so it cannot be represented without overflow in 8 bits.",
+        "The stored pattern represents −96, but the operation does overflow because the mathematical result is outside the signed range.",
+        "+32 is not the modulo-256 sum of the two operands."
+      ],
+      "basis": "Official Paper II syllabus: Digital Logic; number representation and computer arithmetic; Mano, Computer System Architecture, signed binary arithmetic."
+    },
+    {
+      "id": "P2-B010-015",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "BCD addition and correction",
+      "difficulty": "difficult",
+      "stem": "Two valid packed-BCD digits, 8 and 7, are added. After the required BCD correction, what packed-BCD result represents the decimal sum?",
+      "options": [
+        "0000 1111",
+        "0001 0101",
+        "0001 0001",
+        "0000 1001"
+      ],
+      "answer": 1,
+      "explanations": [
+        "0000 1111 is the uncorrected binary sum 15, not a valid single BCD digit representation.",
+        "Correct. 8+7=15; the BCD result is tens digit 0001 and units digit 0101, i.e. 0001 0101.",
+        "0001 0001 represents decimal 11 in packed BCD.",
+        "0000 1001 represents decimal 9, not 15."
+      ],
+      "basis": "Official Paper II syllabus: Digital Logic; computer arithmetic and BCD addition; Mano, Digital Design, number codes and arithmetic circuits."
+    },
+    {
+      "id": "P2-B010-016",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "4-to-1 multiplexer implementation of XOR",
+      "difficulty": "standard",
+      "stem": "A 4-to-1 multiplexer uses A as the most significant select input and B as the least significant select input. Which data-input assignment implements F=A⊕B?",
+      "options": [
+        "D₀=0, D₁=1, D₂=1, D₃=0",
+        "D₀=1, D₁=0, D₂=0, D₃=1",
+        "D₀=0, D₁=0, D₂=1, D₃=1",
+        "D₀=1, D₁=1, D₂=0, D₃=0"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. For select AB=00,01,10,11, XOR outputs 0,1,1,0 respectively, so the four data inputs must match that sequence.",
+        "This assignment implements XNOR, the complement of XOR.",
+        "This assignment produces F=A, not XOR.",
+        "This assignment produces F=¬A, not XOR."
+      ],
+      "basis": "Official Paper II syllabus: Digital Logic; combinational circuit synthesis using multiplexers; Mano, Digital Design, multiplexers and Boolean functions."
+    },
+    {
+      "id": "P2-B010-017",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Two-way set-associative cache address fields",
+      "difficulty": "advanced",
+      "stem": "A byte-addressable 32-bit machine has a 32 KiB, two-way set-associative cache with 64-byte blocks. Assuming conventional indexing, how many tag bits are in a physical address?",
+      "options": [
+        "16",
+        "18",
+        "20",
+        "22"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Sixteen bits would leave too many bits assigned to the set index or block offset.",
+        "Correct. There are 32 KiB/64 B=512 blocks and 512/2=256 sets, so offset=6 bits, index=8 bits and tag=32−6−8=18 bits.",
+        "Twenty bits would result from using an incorrect smaller index or offset field.",
+        "Twenty-two bits would undercount the number of address bits needed for the set and byte offset."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; cache organisation and address fields; Patterson and Hennessy, Computer Organization and Design, cache mapping."
+    },
+    {
+      "id": "P2-B010-018",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Ideal pipeline latency and throughput",
+      "difficulty": "difficult",
+      "stem": "An ideal five-stage pipeline has a one-cycle stage latency and no stalls. How many clock cycles are required to complete 100 instructions after the pipeline is filled?",
+      "options": [
+        "100",
+        "104",
+        "500",
+        "505"
+      ],
+      "answer": 1,
+      "explanations": [
+        "100 cycles would be the ideal count only if the pipeline had one stage.",
+        "Correct. An ideal k-stage pipeline needs k+n−1 cycles; 5+100−1=104 cycles.",
+        "500 cycles corresponds to executing every instruction through all five stages serially without overlap.",
+        "505 cycles incorrectly adds a full pipeline latency after every instruction."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; instruction pipelining and throughput; Patterson and Hennessy, Computer Organization and Design, pipelined datapaths."
+    },
+    {
+      "id": "P2-B010-019",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "DMA cycle stealing",
+      "difficulty": "moderate",
+      "stem": "In cycle-stealing Direct Memory Access, how does the DMA controller typically obtain the system bus?",
+      "options": [
+        "It disables the CPU permanently for the entire I/O transfer",
+        "It takes individual bus cycles when required, temporarily delaying CPU memory access",
+        "It copies data only through CPU registers and never becomes bus master",
+        "It interrupts the CPU after every byte and requires software to copy that byte"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Cycle stealing does not permanently disable the CPU for the entire transfer.",
+        "Correct. The DMA controller temporarily takes individual bus cycles; CPU memory accesses may be delayed during those cycles.",
+        "DMA is specifically intended to transfer data without requiring the CPU to copy every word through its registers.",
+        "Per-byte software copying describes programmed I/O rather than cycle-stealing DMA."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; I/O interface and DMA mode; Patterson and Hennessy, Computer Organization and Design, I/O and DMA."
+    },
+    {
+      "id": "P2-B010-020",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "PC-relative addressing mode",
+      "difficulty": "standard",
+      "stem": "In a conventional PC-relative addressing mode, the effective address is formed by which operation?",
+      "options": [
+        "Adding a sign-extended displacement to the program counter (or the architecture-defined next-PC base)",
+        "Multiplying the displacement by the contents of the stack pointer",
+        "Using the displacement as an absolute physical address without modification",
+        "Adding the contents of the accumulator to the memory data bus"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. PC-relative addressing adds a signed displacement to a program-counter base, with the precise base (current or next instruction) defined by the architecture.",
+        "The stack pointer is not the base register in PC-relative addressing.",
+        "An absolute address uses the address field directly; PC-relative mode applies a PC-based offset.",
+        "The accumulator and memory data bus do not define PC-relative effective-address calculation."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture; machine instructions and addressing modes; Patterson and Hennessy, Computer Organization and Design, addressing modes."
+    },
+    {
+      "id": "P2-B010-021",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C recursion with a static local variable",
+      "difficulty": "difficult",
+      "stem": "Consider the C function `int f(int n){ static int x=0; if(n==0) return 0; x++; int y=f(n-1); return y+x; }`. What does `f(3)` return when called once in a fresh program execution?",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "12"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The three non-base calls increment the shared static x to 3; each call then returns the recursive result plus the current x, producing 3, 6 and finally 9.",
+        "Six would result if only two increments were added during unwinding.",
+        "Correct. x becomes 1, then 2, then 3 before the base case returns; each of the three pending calls adds 3, giving 9.",
+        "Twelve would require four additions of 3, but only three non-base invocations occur."
+      ],
+      "basis": "Official Paper II syllabus: Programming and Data Structures; C functions, recursion and storage duration; ISO C draft N1570, storage duration and block-scope static objects; https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf"
+    },
+    {
+      "id": "P2-B010-022",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C function-pointer declaration",
+      "difficulty": "difficult",
+      "stem": "Which C declaration defines `fp` as a pointer to a function taking two `int` arguments and returning an `int`?",
+      "options": [
+        "int (*fp)(int, int);",
+        "int *(*fp)(int, int);",
+        "int (*fp)(int);",
+        "int (*fp)(int, int, int);"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The parentheses bind `*fp` as a pointer declarator; the pointed-to function accepts two int arguments and returns int.",
+        "This declares fp as a pointer to a function that returns a pointer to int, not a function returning int.",
+        "This is a pointer to a function taking one int argument, so the parameter list is wrong.",
+        "This is a pointer to a function taking three int arguments, so the parameter list is wrong."
+      ],
+      "basis": "Official Paper II syllabus: Programming and Data Structures; C programming, declarators and function pointers; ISO C draft N1570, declarators; https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf"
+    },
+    {
+      "id": "P2-B010-023",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C strncpy and null termination",
+      "difficulty": "moderate",
+      "stem": "In C, `strncpy(dest, src, n)` is called with `src` containing at least n non-null characters. Which statement is correct about the resulting destination array?",
+      "options": [
+        "It is guaranteed to end with a null character",
+        "It contains exactly n characters and is always a valid C string",
+        "It may contain no terminating null character within the first n bytes",
+        "The function appends a null character after byte n in all cases"
+      ],
+      "answer": 2,
+      "explanations": [
+        "A null terminator is not guaranteed when the source length is at least n.",
+        "The copied bytes need not include a terminator, so the result is not always a valid C string.",
+        "Correct. `strncpy` pads with null bytes only when the source is shorter than n; if at least n non-null characters are copied, no null terminator is appended within those n bytes.",
+        "The function does not automatically write an extra byte after the n-byte destination region."
+      ],
+      "basis": "Official Paper II syllabus: Programming and Data Structures; C strings and standard library; ISO C draft N1570, §7.24.2.4 strncpy; https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf"
+    },
+    {
+      "id": "P2-B010-024",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Binary heap insertion complexity",
+      "difficulty": "moderate",
+      "stem": "A binary max-heap containing n elements is stored in an array. What is the worst-case time complexity of inserting one new key?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n log n)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "O(1) is the best case when the new key remains at the leaf, not the worst case.",
+        "Correct. After insertion at the next leaf position, the key may move up at most the height of the heap, which is O(log n).",
+        "O(n) is not required because the heap property can be restored by following one rootward path.",
+        "O(n log n) would be unnecessarily high; insertion does not rebuild the entire heap."
+      ],
+      "basis": "Official Paper II syllabus: Programming and Data Structures; binary heaps; CLRS, Introduction to Algorithms, priority queues and heap operations."
+    },
+    {
+      "id": "P2-B010-025",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Kahn's topological sorting and cycle detection",
+      "difficulty": "difficult",
+      "stem": "Kahn's algorithm for topological sorting of a directed graph removes zero-indegree vertices repeatedly. If fewer than V vertices are output, what can be concluded?",
+      "options": [
+        "The graph is necessarily a complete directed graph",
+        "The graph contains at least one directed cycle",
+        "The graph is disconnected but acyclic",
+        "Every vertex has indegree exactly one"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A complete directed graph is not the specific condition detected by Kahn's algorithm.",
+        "Correct. If fewer than V vertices can be removed, the remaining subgraph has no zero-indegree vertex and therefore contains a directed cycle.",
+        "Disconnected acyclic directed graphs can still have all vertices output in a topological order.",
+        "The algorithm does not imply that every vertex has indegree one."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; graph traversal and topological sorting; CLRS, Introduction to Algorithms, topological sort."
+    },
+    {
+      "id": "P2-B010-026",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "DFS complexity with adjacency lists",
+      "difficulty": "standard",
+      "stem": "A depth-first search is run once over every vertex of a graph represented by adjacency lists. What is its time complexity in terms of V vertices and E edges?",
+      "options": [
+        "O(V²) for every graph representation",
+        "O(V+E)",
+        "O(E log V)",
+        "O(VE)"
+      ],
+      "answer": 1,
+      "explanations": [
+        "O(V²) is the usual bound for an adjacency-matrix scan, not adjacency lists.",
+        "Correct. Each vertex is visited once and each adjacency-list edge is examined a constant number of times, giving O(V+E).",
+        "Sorting edges is not part of standard DFS.",
+        "O(VE) overstates the work for adjacency-list DFS."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; graph traversals and complexity analysis; CLRS, Introduction to Algorithms, depth-first search."
+    },
+    {
+      "id": "P2-B010-027",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Heapsort: time and auxiliary space",
+      "difficulty": "moderate",
+      "stem": "Which complexity statement is correct for in-place heapsort on an array of n elements?",
+      "options": [
+        "Worst-case O(n log n) time and O(1) auxiliary array space",
+        "Worst-case O(n²) time and O(log n) auxiliary array space",
+        "Worst-case O(n log n) time and O(n) auxiliary array space",
+        "Worst-case O(log n) time and O(1) auxiliary array space"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Building a heap takes O(n), and n extract operations take O(n log n); the in-place array implementation uses O(1) auxiliary space.",
+        "O(n²) is not the worst-case running time of heapsort.",
+        "An additional O(n) array is not required by in-place heapsort.",
+        "O(log n) is too small for sorting n arbitrary keys under the comparison model."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; sorting and best/worst-case time/space analysis; CLRS, Introduction to Algorithms, heapsort."
+    },
+    {
+      "id": "P2-B010-028",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Counting sort stability",
+      "difficulty": "difficult",
+      "stem": "In the stable version of counting sort, after cumulative counts have been computed, why is the input array normally traversed from right to left when placing elements into the output array?",
+      "options": [
+        "It makes the algorithm comparison-based",
+        "It preserves the relative order of records with equal keys",
+        "It reduces the key range k to log k",
+        "It guarantees that the output is sorted even if cumulative counts are omitted"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Counting sort remains a non-comparison sorting algorithm; traversal direction does not make it comparison-based.",
+        "Correct. Placing items from right to left while decrementing cumulative positions preserves the original relative order of equal-key records.",
+        "The key range k is not changed by the traversal direction.",
+        "Cumulative counts are required to determine final positions; reversing traversal does not replace them."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; sorting and stability; CLRS, Introduction to Algorithms, Counting Sort."
+    },
+    {
+      "id": "P2-B010-029",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Epsilon-closure in NFA construction",
+      "difficulty": "difficult",
+      "stem": "In the subset construction for converting an ε-NFA to a DFA, what does ε-closure(q) contain?",
+      "options": [
+        "Only q, with no other states",
+        "Every state reachable from q using one or more input symbols",
+        "q itself and every state reachable from q using zero or more ε-transitions",
+        "Only accepting states reachable from q by ε-transitions"
+      ],
+      "answer": 2,
+      "explanations": [
+        "The zero-transition path means q itself is always included, but ε-closure may contain additional states.",
+        "Input-symbol transitions are not ε-transitions and are not included in ε-closure.",
+        "Correct. ε-closure includes q and all states reachable by any finite sequence of ε-transitions, including a sequence of length zero.",
+        "ε-closure is not restricted to accepting states; it includes all states reachable through ε-transitions."
+      ],
+      "basis": "Official Paper II syllabus: Theory of Computation; finite automata and ε-NFA conversion; Sipser, Introduction to the Theory of Computation, subset construction."
+    },
+    {
+      "id": "P2-B010-030",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Equivalence of two DFAs",
+      "difficulty": "difficult",
+      "stem": "A standard way to decide whether two complete DFAs accept exactly the same language is to construct a product automaton for their symmetric difference. What must be tested in that product automaton?",
+      "options": [
+        "Whether it has any reachable accepting state where exactly one component state is accepting",
+        "Whether both initial states are accepting",
+        "Whether every product state has two outgoing transitions",
+        "Whether the two DFAs have the same number of states"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The symmetric-difference automaton accepts strings accepted by exactly one DFA; the languages are equivalent precisely when no accepting product state is reachable.",
+        "Initial-state acceptance alone cannot establish equivalence for all strings.",
+        "The number of outgoing transitions depends on the alphabet and completeness; it is not the equivalence criterion.",
+        "Equivalent DFAs may have different numbers of states before minimisation."
+      ],
+      "basis": "Official Paper II syllabus: Theory of Computation; finite automata and language equivalence; Sipser, Introduction to the Theory of Computation, closure and decision properties of regular languages."
+    },
+    {
+      "id": "P2-B010-031",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "NFA subset construction state bound",
+      "difficulty": "moderate",
+      "stem": "An NFA has n states. Under the standard subset construction, what is the maximum possible number of states in an equivalent DFA before minimisation?",
+      "options": [
+        "n",
+        "n squared",
+        "2 times n",
+        "2 to the power n"
+      ],
+      "answer": 3,
+      "explanations": [
+        "The construction can require more states than n because each DFA state represents a subset of NFA states.",
+        "n² is not the general upper bound for the subset construction.",
+        "2n is not the number of all subsets of an n-element state set.",
+        "Correct. An n-state NFA has 2ⁿ possible subsets of states, so the constructed DFA has at most 2ⁿ states."
+      ],
+      "basis": "Official Paper II syllabus: Theory of Computation; finite automata and NFA-to-DFA conversion; Sipser, Introduction to the Theory of Computation, subset construction."
+    },
+    {
+      "id": "P2-B010-032",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Backpatching in intermediate-code generation",
+      "difficulty": "difficult",
+      "stem": "During intermediate-code generation for a conditional branch, the target label of a jump is not yet known. What is the purpose of backpatching?",
+      "options": [
+        "To fill the unresolved jump target later, when its address or label becomes known",
+        "To allocate a new register for every Boolean variable",
+        "To eliminate all branches by converting them into data declarations",
+        "To perform lexical analysis on the source file a second time"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Backpatching records incomplete jump instructions and fills their target addresses once the relevant labels are determined during code generation.",
+        "Register allocation is a separate optimisation/task and is not the purpose of backpatching.",
+        "Backpatching does not eliminate control-flow branches or convert them into declarations.",
+        "Lexical analysis is not repeated to resolve an unknown branch target."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; syntax-directed translation and intermediate-code generation; Aho, Lam, Sethi and Ullman, backpatching and Boolean expressions."
+    },
+    {
+      "id": "P2-B010-033",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Abstract syntax tree versus parse tree",
+      "difficulty": "standard",
+      "stem": "Compared with a concrete parse tree, an abstract syntax tree (AST) normally:",
+      "options": [
+        "Retains every grammar punctuation token and every intermediate nonterminal",
+        "Omits syntactic details that are not needed for the program's essential structure",
+        "Represents only lexical tokens and no operators",
+        "Must contain more nodes than the corresponding parse tree"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A concrete parse tree usually preserves grammar productions and punctuation more explicitly than an AST.",
+        "Correct. An AST removes grammar-only structure such as redundant parentheses and punctuation while retaining meaningful constructs and relationships.",
+        "An AST represents operators, expressions and statements, not merely lexical tokens.",
+        "An AST is generally more compact; it need not and normally does not contain more nodes than a parse tree."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; syntax trees and intermediate representations; Aho, Lam, Sethi and Ullman, syntax trees."
+    },
+    {
+      "id": "P2-B010-034",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Activation records: dynamic link",
+      "difficulty": "moderate",
+      "stem": "In a conventional stack-based runtime environment, what does the dynamic link (control link) in an activation record normally identify?",
+      "options": [
+        "The activation record of the lexically enclosing procedure",
+        "The activation record of the caller procedure",
+        "The address of the first instruction in the current function",
+        "The global symbol table"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The lexically enclosing procedure is normally associated with a static link, not the dynamic link.",
+        "Correct. The dynamic/control link points to the caller's activation record and supports restoration of the caller's environment.",
+        "The return address identifies where execution resumes; it is not the dynamic link itself.",
+        "The global symbol table is not the activation record's dynamic link."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; runtime environments and activation records; Aho, Lam, Sethi and Ullman, runtime storage organisation."
+    },
+    {
+      "id": "P2-B010-035",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Threads and process address-space sharing",
+      "difficulty": "standard",
+      "stem": "Within a conventional multithreaded process, which resource is normally private to each thread rather than shared by all threads of that process?",
+      "options": [
+        "The process's code segment",
+        "The process's global data and heap",
+        "The thread's stack and register context",
+        "The process's open-file table"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Threads of one process normally share the process code address space.",
+        "Global data and heap are normally shared by threads in the same process.",
+        "Correct. Each thread has its own execution stack and register context, while sharing the process address space and many process resources.",
+        "Open files are generally process-level resources shared by threads, subject to descriptor-level operations."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; processes and threads; Silberschatz, Galvin and Gagne, Operating System Concepts, threads."
+    },
+    {
+      "id": "P2-B010-036",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "System calls and user-to-kernel transition",
+      "difficulty": "moderate",
+      "stem": "A user program invokes a protected file-read operation through a system call. What is the essential role of the system-call mechanism?",
+      "options": [
+        "It changes the process permanently into kernel mode",
+        "It provides a controlled entry into the kernel so privileged OS services can execute on the program's behalf",
+        "It copies the entire disk into user memory before the call",
+        "It eliminates the need for access-control checks"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A system call does not permanently leave the process in kernel mode; execution returns to user mode after the service.",
+        "Correct. A system call provides a controlled transition to kernel code, where the OS validates arguments and performs privileged operations.",
+        "A file-read system call does not copy the entire disk into memory.",
+        "The kernel must still enforce permissions and other protection checks."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; system calls, protection and security; Silberschatz, Galvin and Gagne, Operating System Concepts, system structures."
+    },
+    {
+      "id": "P2-B010-037",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "UNIX file permissions: octal mode",
+      "difficulty": "moderate",
+      "stem": "A UNIX-like file is assigned permission mode 0754. Which permissions does this encode for owner, group and others, respectively?",
+      "options": [
+        "rwx, r-x, r--",
+        "rw-, r-x, rw-",
+        "rwx, rw-, r--",
+        "r-x, rwx, r--"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Octal 7=4+2+1 gives rwx; 5=4+1 gives r-x; 4 gives r--.",
+        "The owner field is 7, not 6, and others are 4, not 6.",
+        "The group field is 5, not 6.",
+        "The owner and group permissions are reversed in this option."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; file systems, protection and security; POSIX file permission model / Linux manual pages, chmod."
+    },
+    {
+      "id": "P2-B010-038",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "SSTF disk scheduling and starvation",
+      "difficulty": "difficult",
+      "stem": "A disk scheduler repeatedly services the pending request closest to the current head position (Shortest Seek Time First). Which disadvantage can occur under a sustained stream of requests near the current head location?",
+      "options": [
+        "The head must always travel to the physical end before each request",
+        "A distant request may be postponed for a long time, causing starvation",
+        "The algorithm cannot reduce average seek distance",
+        "It guarantees a strict first-come, first-served order"
+      ],
+      "answer": 1,
+      "explanations": [
+        "SSTF does not require movement to the physical end before each request.",
+        "Correct. Repeatedly choosing nearby requests can indefinitely postpone a request far from the current head position.",
+        "SSTF is used precisely because it can reduce average seek distance compared with FCFS in many workloads.",
+        "SSTF does not preserve arrival order; FCFS is the policy that guarantees that order."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; I/O systems and disk scheduling; Silberschatz, Galvin and Gagne, Operating System Concepts, mass-storage structure."
+    },
+    {
+      "id": "P2-B010-039",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "ER model: weak entity identification",
+      "difficulty": "moderate",
+      "stem": "In an ER model, a weak entity has a partial key but cannot be uniquely identified by that key alone. How is it normally identified?",
+      "options": [
+        "By its partial key alone across the entire database",
+        "By combining the owner's key with the weak entity's partial key",
+        "By assigning every attribute a separate primary key",
+        "By removing the identifying relationship"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A partial key distinguishes weak entities only within the context of an owner; it is not globally unique by itself.",
+        "Correct. A weak entity is identified by the key of its owner entity together with its own partial key.",
+        "A separate primary key for every attribute is not the ER identification rule.",
+        "The identifying relationship is essential to the weak entity's existence and identification."
+      ],
+      "basis": "Official Paper II syllabus: Databases; ER model and database design; Elmasri and Navathe, Fundamentals of Database Systems, ER modelling."
+    },
+    {
+      "id": "P2-B010-040",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Composite B-tree indexes and leftmost-prefix use",
+      "difficulty": "difficult",
+      "stem": "A database has a composite B-tree index on columns (city, pincode), in that order. Which query pattern can generally make direct use of the leading index prefix?",
+      "options": [
+        "A predicate on pincode alone, with no condition on city",
+        "A predicate on city alone, or on both city and pincode",
+        "A predicate only on an unrelated column such as salary",
+        "A predicate on the second key only is always as efficient as a predicate on the first key"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A predicate on the second column alone generally cannot exploit the leading-key ordering as a normal prefix lookup.",
+        "Correct. A composite index ordered by (city, pincode) can generally support lookups beginning with city, including city alone or city together with pincode.",
+        "An unrelated column is not part of this index and cannot be searched directly through it.",
+        "The leftmost-prefix property means a predicate on pincode alone is not generally equivalent in efficiency to one on city."
+      ],
+      "basis": "Official Paper II syllabus: Databases; indexing and query processing; PostgreSQL documentation, multicolumn indexes; https://www.postgresql.org/docs/current/indexes-multicolumn.html"
+    },
+    {
+      "id": "P2-B010-041",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Relational mapping: one-to-many relationship",
+      "difficulty": "standard",
+      "stem": "When mapping a binary one-to-many relationship from an ER model to relational tables, where is the foreign key for the relationship normally placed?",
+      "options": [
+        "In the table on the one side, referencing the many-side table",
+        "In the table on the many side, referencing the primary key on the one side",
+        "In a third table containing one row for every attribute",
+        "It is unnecessary because a one-to-many relationship cannot be represented relationally"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Placing the foreign key on the one side would not naturally represent multiple related many-side rows without repeating or restructuring data.",
+        "Correct. The primary key of the one-side entity is stored as a foreign key in the relation representing the many-side entity.",
+        "A separate table for every attribute is not the standard mapping rule.",
+        "A one-to-many relationship is routinely represented using a foreign key."
+      ],
+      "basis": "Official Paper II syllabus: Databases; ER-to-relational mapping and integrity constraints; Elmasri and Navathe, Fundamentals of Database Systems, relational database design."
+    },
+    {
+      "id": "P2-B010-042",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "SQL EXISTS predicate",
+      "difficulty": "moderate",
+      "stem": "A correlated subquery is used with `WHERE EXISTS (subquery)`. Under SQL semantics, when does EXISTS evaluate to TRUE for a given outer row?",
+      "options": [
+        "When the subquery returns at least one row",
+        "Only when the subquery returns exactly one row",
+        "Only when the first selected column is non-NULL",
+        "When the subquery returns no rows"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. EXISTS tests whether the subquery produces at least one row; the values in its select list do not determine the truth of EXISTS.",
+        "EXISTS is true for one or more rows, not only exactly one.",
+        "A row containing NULL still counts as a row for EXISTS.",
+        "No rows causes EXISTS to be FALSE."
+      ],
+      "basis": "Official Paper II syllabus: Databases; SQL predicates and subqueries; PostgreSQL documentation, Subquery Expressions – EXISTS; https://www.postgresql.org/docs/current/functions-subquery.html"
+    },
+    {
+      "id": "P2-B010-043",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "PERT expected activity duration",
+      "difficulty": "difficult",
+      "stem": "For a PERT activity, the optimistic time is 2 days, the most likely time is 5 days and the pessimistic time is 8 days. Using the standard three-point PERT estimate, what is the expected duration?",
+      "options": [
+        "4 days",
+        "5 days",
+        "5.5 days",
+        "6 days"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Four days is below the weighted estimate.",
+        "Correct. Expected duration = (a+4m+b)/6 = (2+4×5+8)/6 = 30/6 = 5 days.",
+        "5.5 days is not the result of the standard PERT weighting.",
+        "Six days would be the simple average of the three estimates, not the weighted PERT estimate."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering; project planning and management; standard PERT three-point estimate, e.g. Pressman, Software Engineering."
+    },
+    {
+      "id": "P2-B010-044",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Alpha testing versus beta testing",
+      "difficulty": "standard",
+      "stem": "Which statement best distinguishes beta testing from alpha testing in software development?",
+      "options": [
+        "Beta testing is always performed by the development team in a controlled laboratory",
+        "Beta testing is typically performed by selected external users in a real or realistic user environment before general release",
+        "Alpha testing can begin only after public release",
+        "Alpha and beta testing are both forms of static code inspection"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The development team in a controlled environment is more characteristic of alpha testing.",
+        "Correct. Beta testing involves selected users outside the development organisation using the product in realistic conditions before wider release.",
+        "Alpha testing generally occurs before beta testing and before public release.",
+        "Both alpha and beta are execution-based testing activities, not static code inspection."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering; testing and implementation; Pressman and Maxim, Software Engineering: A Practitioner's Approach, software testing."
+    },
+    {
+      "id": "P2-B010-045",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Software maintenance: corrective maintenance",
+      "difficulty": "moderate",
+      "stem": "A deployed billing system produces an incorrect tax total because of a defect in its calculation routine. A patch is issued to remove that defect. What type of software maintenance is this?",
+      "options": [
+        "Adaptive maintenance",
+        "Perfective maintenance",
+        "Corrective maintenance",
+        "Preventive maintenance"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Adaptive maintenance changes software to accommodate a changed environment or platform.",
+        "Perfective maintenance improves performance, maintainability or functionality beyond correcting a fault.",
+        "Correct. Corrective maintenance fixes faults discovered after delivery.",
+        "Preventive maintenance modifies software to reduce the likelihood of future problems, rather than directly correcting this reported defect."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering; software life cycle, implementation and maintenance; ISO/IEC/IEEE 14764, Software Life Cycle Processes – Maintenance."
+    },
+    {
+      "id": "P2-B010-046",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "IP routing: longest-prefix match",
+      "difficulty": "difficult",
+      "stem": "A router has two matching routes for destination 10.1.2.77: 10.1.0.0/16 and 10.1.2.0/24. Which route is selected by standard longest-prefix matching?",
+      "options": [
+        "10.1.0.0/16 because it was learned first",
+        "10.1.2.0/24 because it has the longer matching prefix",
+        "Both routes are used in alternating packets by default",
+        "The router must discard the packet because two routes match"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Route age is not the general selection rule when longest-prefix matching applies.",
+        "Correct. The /24 route matches more leading address bits than /16 and is therefore the most specific route.",
+        "Equal-cost multipath requires equal preference and prefix length or other routing conditions; it is not the default result here.",
+        "Multiple matching prefixes are normal in routing tables; the most specific matching route is selected."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; routing algorithms and IPv4 forwarding; RFC 1812, Requirements for IP Version 4 Routers; https://www.rfc-editor.org/rfc/rfc1812"
+    },
+    {
+      "id": "P2-B010-047",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "IPv4 TTL and ICMP Time Exceeded",
+      "difficulty": "moderate",
+      "stem": "An IPv4 packet reaches a router with TTL=1. What should a conforming router do when forwarding the packet would reduce the TTL to zero?",
+      "options": [
+        "Forward it with TTL=0",
+        "Discard it and normally send an ICMP Time Exceeded message, subject to ICMP error-message rules",
+        "Reset the TTL to 64",
+        "Fragment it into two packets"
+      ],
+      "answer": 1,
+      "explanations": [
+        "An IPv4 packet with TTL reduced to zero must not be forwarded.",
+        "Correct. The router discards the packet and normally reports ICMP Time Exceeded, subject to the protocol's restrictions on generating ICMP errors.",
+        "Routers do not reset an expired packet's TTL to 64.",
+        "TTL expiration is unrelated to fragmentation; the router does not split the packet for this reason."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; IPv4 and ICMP; RFC 791 and RFC 792; https://www.rfc-editor.org/rfc/rfc791 and https://www.rfc-editor.org/rfc/rfc792"
+    },
+    {
+      "id": "P2-B010-048",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "TLS certificate and public-key authentication",
+      "difficulty": "moderate",
+      "stem": "In a typical authenticated TLS connection, what is the primary purpose of the server's certificate chain?",
+      "options": [
+        "To encrypt all application data directly with the certificate's public key",
+        "To bind the server's identity to a public key through signatures that the client can validate to a trusted root",
+        "To assign the client's IP address dynamically",
+        "To replace the need for a key exchange"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Application data is normally protected with negotiated symmetric traffic keys, not encrypted directly with the certificate public key.",
+        "Correct. The certificate chain lets the client validate that a trusted certificate authority has vouched for the association between the server identity and its public key.",
+        "IP address assignment is the role of network configuration protocols such as DHCP.",
+        "A certificate authenticates a public key; it does not by itself replace the TLS key-establishment process."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; public-key cryptography and secure protocols; RFC 8446, TLS 1.3; https://www.rfc-editor.org/rfc/rfc8446"
+    },
+    {
+      "id": "P2-B010-049",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "UDP checksum and pseudo-header",
+      "difficulty": "advanced",
+      "stem": "For UDP over IPv4, which information is included in the pseudo-header used in checksum computation in addition to the UDP header and data?",
+      "options": [
+        "Source IP address, destination IP address, protocol number and UDP length",
+        "Only the source and destination MAC addresses",
+        "The complete Ethernet frame including its FCS",
+        "Only the destination IP address and application port"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The IPv4 pseudo-header includes source and destination IP addresses, a zero field, protocol number and UDP length, helping detect misdelivery to the wrong IP protocol or addresses.",
+        "MAC addresses belong to the link layer and are not part of the UDP pseudo-header.",
+        "The Ethernet frame and its FCS are outside UDP checksum computation.",
+        "The pseudo-header includes both IP addresses, protocol identification and UDP length, not only the destination address and port."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; TCP/UDP and transport-layer error detection; RFC 768, User Datagram Protocol; https://www.rfc-editor.org/rfc/rfc768"
+    },
+    {
+      "id": "P2-B010-050",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "XML namespaces: expanded names",
+      "difficulty": "moderate",
+      "stem": "In XML, two elements use different prefixes, but both prefixes are bound to the same namespace URI and the elements have the same local name. How are their expanded names treated?",
+      "options": [
+        "As different names because the prefixes differ",
+        "As the same expanded name because the namespace URI and local name match",
+        "As invalid XML because one URI cannot have two prefixes",
+        "As the same name only if the prefixes are lexically identical"
+      ],
+      "answer": 1,
+      "explanations": [
+        "A prefix is a placeholder and is not itself part of the expanded name.",
+        "Correct. An expanded name is determined by the namespace URI and local part; different prefixes bound to the same URI can identify the same expanded name.",
+        "XML permits multiple prefixes to be bound to the same namespace URI.",
+        "Lexical prefix identity is not required when the namespace URI and local name are identical."
+      ],
+      "basis": "Official Paper II syllabus: Web Technologies; XML namespaces; W3C Namespaces in XML 1.0 Recommendation; https://www.w3.org/TR/xml-names/"
+    },
+    {
+      "id": "P2-B010-051",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "PHP isset and empty semantics",
+      "difficulty": "moderate",
+      "stem": "In PHP, for a variable `$x` that is set to the integer value `0`, which statement is correct?",
+      "options": [
+        "isset($x) is false and empty($x) is false",
+        "isset($x) is true and empty($x) is true",
+        "isset($x) is true and empty($x) is false",
+        "Both isset($x) and empty($x) are false"
+      ],
+      "answer": 1,
+      "explanations": [
+        "`isset` is true for a variable set to zero, so this option is false.",
+        "Correct. `isset($x)` is true because x exists and is not NULL; `empty($x)` is also true because zero is treated as empty in PHP.",
+        "`empty(0)` evaluates to true in PHP, so the second part of this option is false.",
+        "Both expressions are not false; isset is true for a set, non-NULL variable."
+      ],
+      "basis": "Official Paper II syllabus: Web Technologies; PHP; PHP Manual, isset() and empty(); https://www.php.net/manual/en/function.isset.php and https://www.php.net/manual/en/function.empty.php"
+    },
+    {
+      "id": "P2-B010-052",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "JavaScript closures and lexical environment",
+      "difficulty": "standard",
+      "stem": "A JavaScript function is returned from an outer function and invoked after the outer function has finished executing. Why can it still access a local variable declared in the outer function?",
+      "options": [
+        "The browser automatically copies every local variable into the global object",
+        "The returned function retains access to its lexical environment through a closure",
+        "JavaScript restarts the outer function whenever the inner function is called",
+        "The variable is converted automatically into a DOM property"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Ordinary local variables are not automatically copied to the global object.",
+        "Correct. A closure retains the lexical environment needed to resolve free variables even after the outer call has returned.",
+        "Calling the inner function does not restart the outer function.",
+        "Lexical variables do not become DOM properties merely because a function is returned."
+      ],
+      "basis": "Official Paper II syllabus: Web Technologies; client-side scripting; ECMAScript Language Specification, Environment Records and closures; https://tc39.es/ecma262/"
+    },
+    {
+      "id": "P2-B010-053",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "Java try-with-resources close order",
+      "difficulty": "moderate",
+      "stem": "A Java try-with-resources statement declares resources R1 and then R2. If both resources are successfully initialized and the statement exits, in what order are they closed?",
+      "options": [
+        "R1, then R2",
+        "R2, then R1",
+        "In parallel, with no specified order",
+        "Only R2 is closed automatically"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Resources are not closed in declaration order.",
+        "Correct. Java closes resources in the reverse order of their initialization/declaration, so R2 closes before R1.",
+        "The language specifies reverse-order closing; it is not an unspecified parallel operation.",
+        "Both resources are closed automatically when control leaves the try-with-resources statement."
+      ],
+      "basis": "Official Paper II syllabus: OOPS Concepts, Programming in C++ and JAVA; Java Language Specification, try-with-resources; https://docs.oracle.com/javase/specs/"
+    },
+    {
+      "id": "P2-B010-054",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "C++ operator overloading constraints",
+      "difficulty": "difficult",
+      "stem": "Which property of a built-in C++ operator cannot be changed by overloading that operator for a user-defined type?",
+      "options": [
+        "The implementation body executed for the user-defined operands",
+        "The operator's precedence and associativity",
+        "The return type of the overloaded function",
+        "The class in which a member overload is declared"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The programmer supplies the overloaded operator's implementation body.",
+        "Correct. Overloading cannot change an operator's precedence, associativity or number of operands; those are fixed by the language grammar.",
+        "An overloaded operator function may have an appropriate user-defined return type.",
+        "A member overload can be declared in the class, subject to the language's operator-overloading rules."
+      ],
+      "basis": "Official Paper II syllabus: OOPS Concepts, Programming in C++ and JAVA; ISO C++ standard, operator overloading; https://eel.is/c++draft/over.oper"
+    },
+    {
+      "id": "P2-B010-055",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "Java interface static methods",
+      "difficulty": "moderate",
+      "stem": "A class implements interface I, which declares a static method `helper()`. How is that interface static method normally invoked?",
+      "options": [
+        "Through an instance of the implementing class, using dynamic dispatch",
+        "Through the interface name, such as I.helper()",
+        "It is automatically inherited as a static method of every implementing class",
+        "Only from within a constructor of the implementing class"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Interface static methods are not instance methods and are not dynamically dispatched through an implementing object.",
+        "Correct. A static method declared in an interface is invoked using the interface type name.",
+        "Interface static methods are not inherited by implementing classes as their own static methods.",
+        "The method is not restricted to constructors; it can be invoked through the interface name wherever accessible."
+      ],
+      "basis": "Official Paper II syllabus: OOPS Concepts, Programming in C++ and JAVA; Java Language Specification, interface methods; https://docs.oracle.com/javase/specs/"
+    },
+    {
+      "id": "P2-B010-056",
+      "paper": 2,
+      "topicId": "p2-16",
+      "topic": "Data Mining",
+      "subtopic": "Decision trees: gain ratio",
+      "difficulty": "moderate",
+      "stem": "Why does the gain-ratio criterion divide information gain by split information when selecting an attribute for a decision tree?",
+      "options": [
+        "To favour attributes with the largest number of distinct values even more strongly",
+        "To reduce information gain's bias toward attributes that create many small partitions",
+        "To make every split have exactly zero entropy",
+        "To replace class labels with continuous target values"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Gain ratio is intended to reduce, not amplify, the preference for attributes with many distinct values.",
+        "Correct. Split information normalises information gain and can penalise attributes that fragment the data into many partitions.",
+        "The criterion does not force child nodes or splits to have zero entropy.",
+        "Gain ratio is a classification split criterion and does not convert a categorical target into a continuous one."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; classification algorithms and decision-tree induction; Quinlan, C4.5: Programs for Machine Learning, gain ratio."
+    },
+    {
+      "id": "P2-B010-057",
+      "paper": 2,
+      "topicId": "p2-16",
+      "topic": "Data Mining",
+      "subtopic": "Random forest: out-of-bag observations",
+      "difficulty": "difficult",
+      "stem": "A random forest is trained using bootstrap samples of size n drawn with replacement from n training cases. Approximately what fraction of the original cases is left out of a particular tree's bootstrap sample as out-of-bag data for large n?",
+      "options": [
+        "About 5%",
+        "About 18.4%",
+        "About 36.8%",
+        "About 63.2%"
+      ],
+      "answer": 2,
+      "explanations": [
+        "About 5% is too small; repeated sampling with replacement leaves a much larger fraction unselected.",
+        "About 18.4% is not the limiting probability of being unselected.",
+        "Correct. The probability a case is never selected is (1−1/n)ⁿ, which approaches e⁻¹≈0.368 as n grows.",
+        "About 63.2% is the approximate fraction selected at least once, not the out-of-bag fraction."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; classification ensembles and random forests; Breiman, Random Forests (2001), bootstrap sampling and out-of-bag estimation."
+    },
+    {
+      "id": "P2-B010-058",
+      "paper": 2,
+      "topicId": "p2-16",
+      "topic": "Data Mining",
+      "subtopic": "Multiclass one-versus-rest classification",
+      "difficulty": "standard",
+      "stem": "A one-versus-rest strategy is used to extend a binary classifier to K mutually exclusive classes. How many binary classifiers are trained?",
+      "options": [
+        "K−1",
+        "K",
+        "K(K−1)/2",
+        "2K"
+      ],
+      "answer": 1,
+      "explanations": [
+        "K−1 is not the standard one-versus-rest count; that count belongs to some other multiclass decompositions.",
+        "Correct. One classifier is trained for each class, treating that class as positive and all remaining classes as negative.",
+        "K(K−1)/2 is the number of pairwise classifiers in one-versus-one classification.",
+        "2K is not the one-versus-rest classifier count."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; classification algorithms; standard one-versus-rest multiclass reduction, scikit-learn User Guide; https://scikit-learn.org/stable/modules/multiclass.html"
+    },
+    {
+      "id": "P2-B010-059",
+      "paper": 2,
+      "topicId": "p2-16",
+      "topic": "Data Mining",
+      "subtopic": "Classification threshold and sensitivity",
+      "difficulty": "moderate",
+      "stem": "A binary classifier produces a score interpreted as the probability of the positive class. If the positive-class decision threshold is lowered while the score distribution is unchanged, which effect is generally expected?",
+      "options": [
+        "Fewer cases are predicted positive, so sensitivity generally falls",
+        "More cases are predicted positive, so sensitivity generally rises and specificity may fall",
+        "Both sensitivity and specificity must rise",
+        "The ROC curve becomes undefined"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Lowering the threshold generally classifies more cases as positive, not fewer.",
+        "Correct. A lower threshold tends to increase true positives and sensitivity/recall, while it can also increase false positives and reduce specificity.",
+        "Sensitivity and specificity generally trade off as the threshold changes; they do not both have to rise.",
+        "The ROC curve is defined from true-positive and false-positive rates across thresholds."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; classification evaluation and decision thresholds; standard classification metrics, scikit-learn User Guide; https://scikit-learn.org/stable/modules/model_evaluation.html"
+    },
+    {
+      "id": "P2-B010-060",
+      "paper": 2,
+      "topicId": "p2-16",
+      "topic": "Data Mining",
+      "subtopic": "Permutation feature importance",
+      "difficulty": "advanced",
+      "stem": "In permutation feature importance, how is the importance of a feature commonly estimated on a validation set?",
+      "options": [
+        "By measuring the score change after randomly permuting that feature's values while leaving other features unchanged",
+        "By counting the number of times the feature name appears in the source code",
+        "By assigning the feature the largest possible numeric value",
+        "By removing the target variable before training and measuring training accuracy"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Permutation importance measures how much model performance deteriorates when the association between one feature and the target is broken by permuting that feature.",
+        "Source-code frequency is unrelated to predictive contribution.",
+        "Setting a feature to a large value is not the permutation procedure and may create out-of-distribution data.",
+        "Removing the target variable would prevent supervised training rather than estimate feature importance."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; classification evaluation and feature relevance; scikit-learn User Guide, permutation feature importance; https://scikit-learn.org/stable/modules/permutation_importance.html"
     }
   ],
   "qualityNote": "Batch 008 appended on 2026-11-08: exactly 100 original questions (40 Paper I, 60 Paper II), mapped to all 31 official topic IDs in study-data.json. Every item has four distinct options, a zero-based answer index, four option-specific explanations and a source/basis field. Exact normalized-stem comparison covered the complete 881-question pre-batch live bank and the candidate set; high-overlap candidates identified during screening were replaced before this final draft. Government and statutory facts use official sources identified in the batch artifact; technical items cite standard textbooks, specifications and RFCs. PR quality gates and deployment are tracked separately.",
@@ -24876,9 +27176,9 @@
     "targetTotal": 3500,
     "targetPaper2": 2000,
     "targetPaper1": 1500,
-    "currentTotal": 1081,
-    "currentPaper2": 652,
-    "currentPaper1": 429,
+    "currentTotal": 1181,
+    "currentPaper2": 712,
+    "currentPaper1": 469,
     "status": "in_progress",
     "qualityGate": "Every added question must have a unique ID, official syllabus mapping, four options, a verified answer index, four option-specific explanations, and a difficulty label."
   }
