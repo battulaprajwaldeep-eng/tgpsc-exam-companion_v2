@@ -1,5 +1,7 @@
 // Local-only Piper TTS worker. Speech synthesis runs on-device; no speech text is sent to a TTS API.
 let ttsModule = null;
+let ttsSession = null;
+let sessionPromise = null;
 let stage = "loading Piper engine";
 const nativeFetch = self.fetch.bind(self);
 self.fetch = async (input, init) => {
@@ -38,32 +40,39 @@ self.onmessage = async (event) => {
       ttsModule = await import("https://esm.sh/@the-vedantic-coder/piper-tts-web@1.0.10?bundle");
     }
 
-    stage = "initializing single-threaded ONNX Runtime from the same-origin asset bridge";
-    try {
-      Object.defineProperty(self.navigator, "hardwareConcurrency", { configurable: true, value: 1 });
-    } catch (_) {}
+    if (!ttsSession) {
+      stage = "initializing single-threaded ONNX Runtime from the same-origin asset bridge";
+      try {
+        Object.defineProperty(self.navigator, "hardwareConcurrency", { configurable: true, value: 1 });
+      } catch (_) {}
 
-    stage = "downloading or opening the Indian-English voice model";
-    const session = await ttsModule.TtsSession.create({
-      voiceId: data.voiceId || "en_IN-spicor-medium",
-      progress: (progress) => {
-        const total = Number(progress && progress.total) || 0;
-        const loaded = Number(progress && progress.loaded) || 0;
-        const percent = total > 0 ? Math.round((loaded / total) * 100) : null;
-        self.postMessage({
-          type: "progress",
-          message: percent === null
-            ? "Preparing the voice model and speech engine…"
-            : "Downloading voice model: " + percent + "%"
+      if (!sessionPromise) {
+        stage = "loading the Indian-English voice model once";
+        sessionPromise = ttsModule.TtsSession.create({
+          voiceId: data.voiceId || "en_IN-spicor-medium",
+          progress: (progress) => {
+            const total = Number(progress && progress.total) || 0;
+            const loaded = Number(progress && progress.loaded) || 0;
+            const percent = total > 0 ? Math.round((loaded / total) * 100) : null;
+            self.postMessage({
+              type: "progress",
+              message: percent === null
+                ? "Loading voice model once…"
+                : "Loading voice model: " + percent + "%"
+            });
+          },
+          wasmPaths: {
+            onnxWasm: self.location.origin + "/onnxruntime/",
+            piperData: "https://cdn.jsdelivr.net/npm/@diffusionstudio/piper-wasm@1.0.0/build/piper_phonemize.data",
+            piperWasm: "https://cdn.jsdelivr.net/npm/@diffusionstudio/piper-wasm@1.0.0/build/piper_phonemize.wasm"
+          }
         });
-      },
-      wasmPaths: {
-        onnxWasm: self.location.origin + "/onnxruntime/",
-        piperData: "https://cdn.jsdelivr.net/npm/@diffusionstudio/piper-wasm@1.0.0/build/piper_phonemize.data",
-        piperWasm: "https://cdn.jsdelivr.net/npm/@diffusionstudio/piper-wasm@1.0.0/build/piper_phonemize.wasm"
       }
-    });
-    const blob = await session.predict(data.text);
+      ttsSession = await sessionPromise;
+    }
+
+    stage = "generating speech with the already-loaded voice model";
+    const blob = await ttsSession.predict(data.text);
 
     if (!(blob instanceof Blob) || blob.size === 0) {
       throw new Error("The speech engine returned an empty audio file.");
