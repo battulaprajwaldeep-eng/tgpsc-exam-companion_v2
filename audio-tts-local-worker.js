@@ -1,6 +1,20 @@
 // Local-only Piper TTS worker. Speech synthesis runs on-device; no speech text is sent to a TTS API.
 let ttsModule = null;
 let stage = "loading Piper engine";
+const nativeFetch = self.fetch.bind(self);
+self.fetch = async (input, init) => {
+  const requestUrl = typeof input === "string" ? input : (input && input.url) || String(input);
+  try {
+    const response = await nativeFetch(input, init);
+    if (!response.ok) {
+      throw new Error("HTTP " + response.status + " " + response.statusText + " at " + requestUrl);
+    }
+    return response;
+  } catch (error) {
+    const detail = error && error.message ? error.message : String(error);
+    throw new Error("Network/CORS fetch failed at " + requestUrl + ": " + detail);
+  }
+};
 
 self.onmessage = async (event) => {
   const data = event.data || {};
