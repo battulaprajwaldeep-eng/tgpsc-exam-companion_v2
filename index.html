@@ -81,8 +81,8 @@ function renderReview(r){
    const correct=k===q.answer,chosen=k===q.selected,cls=correct?"correct":chosen?"incorrect":"";
    const tag=correct?'<span class="review-tag correct">✓ CORRECT</span>':chosen?'<span class="review-tag incorrect">✕ YOUR ANSWER</span>':"";
    const explanation=(q.explanations||[])[k]||"No explanation provided for this option.";
-   return '<div class="review-option '+cls+'"><div class="review-option-head"><b>'+String.fromCharCode(65+k)+'. '+escapeHtml(o)+'</b>'+tag+'</div><details class="review-explain"><summary>Why this option?</summary><p>'+escapeHtml(explanation)+'</p></details></div>';
-  }).join("")+'<details class="recall-aid"><summary>Memory shortcut / quick diagram</summary><div class="aid-cue">'+escapeHtml(aid.cue)+'</div>'+(aid.diagram?'<pre class="aid-diagram">'+escapeHtml(aid.diagram)+'</pre>':'')+'</details></article>';
+   return '<div class="review-option '+cls+'"><div class="review-option-head"><b>'+String.fromCharCode(65+k)+'. '+escapeHtml(o)+'</b>'+tag+'</div><details class="review-explain" '+(correct?'open':'')+'><summary>'+(correct?'Correct answer explanation':'Why this option?')+'</summary><p>'+escapeHtml(explanation)+'</p></details></div>';
+  }).join("")+'<section class="recall-aid"><div class="memory-trick-title">🧠 Memory Trick / Quick Diagram</div><div class="aid-cue">'+escapeHtml(aid.cue)+'</div>'+(aid.diagram?'<pre class="aid-diagram">'+escapeHtml(aid.diagram)+'</pre>':'')+'</section></article>';
  }).join("");
 }
 function stats(){const first=(s.history||[]).filter(x=>x.mode!=="revision");let a=first.reduce((x,y)=>x+y.total,0),r=first.reduce((x,y)=>x+y.right,0);$("answered").textContent=a;$("accuracy").textContent=a?Math.round(r/a*100)+"%":"—"}
