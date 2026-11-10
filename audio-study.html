@@ -24,7 +24,7 @@
 
 
  const localGenerateBtn=$("generateLocalBtn"),localParts=$("localAudioParts");let localWorker=null,localBusy=false;
- function splitLocalText(value){const paras=value.replace(/\\r/g,"").split(/\\n+/).map(x=>x.trim()).filter(Boolean),out=[];for(const para of paras){let rest=para;while(rest.length>1800){let cut=Math.max(rest.lastIndexOf(". ",1800),rest.lastIndexOf("? ",1800),rest.lastIndexOf("! ",1800),rest.lastIndexOf("; ",1800));if(cut<700)cut=rest.lastIndexOf(" ",1800);if(cut<700)cut=1800;else if(rest[cut]==="."||rest[cut]==="?"||rest[cut]==="!")cut+=1;out.push(rest.slice(0,cut).trim());rest=rest.slice(cut).trim();}if(rest)out.push(rest);}return out;}
+ function splitLocalText(value){const paras=value.replace(/\\r/g,"").split(/\\n+/).map(x=>x.trim()).filter(Boolean),out=[];for(const para of paras){let rest=para;while(rest.length>2400){let cut=Math.max(rest.lastIndexOf(". ",2400),rest.lastIndexOf("? ",2400),rest.lastIndexOf("! ",2400),rest.lastIndexOf("; ",2400));if(cut<700)cut=rest.lastIndexOf(" ",2400);if(cut<700)cut=1800;else if(rest[cut]==="."||rest[cut]==="?"||rest[cut]==="!")cut+=1;out.push(rest.slice(0,cut).trim());rest=rest.slice(cut).trim();}if(rest)out.push(rest);}return out;}
  async function combineWavBlobs(blobs){
    if(!blobs.length)throw new Error("No audio chunks were generated.");
    const pcmParts=[];let header=null,dataSizeOffset=-1,totalData=0,formatBytes=null;
