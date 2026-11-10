@@ -12,7 +12,13 @@ const ORT_FILES = new Set([
   "ort-wasm-threaded.jsep.mjs",
   "ort-wasm-threaded.jsep.wasm",
   "ort-wasm-simd-threaded.jsep.mjs",
-  "ort-wasm-simd-threaded.jsep.wasm"
+  "ort-wasm-simd-threaded.jsep.wasm",
+  "ort-wasm-simd-threaded.mjs",
+  "ort-wasm-simd-threaded.wasm",
+  "ort-wasm-simd.mjs",
+  "ort-wasm-simd.wasm",
+  "ort-wasm-simd.jsep.mjs",
+  "ort-wasm-simd.jsep.wasm"
 ]);
 
 export default {
@@ -27,7 +33,7 @@ export default {
       if (!ORT_FILES.has(filename)) {
         return new Response("ONNX Runtime asset not allowed", { status: 404 });
       }
-      const upstreamUrl = "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.18.0/dist/" + filename;
+      const upstreamUrl = "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.31.1/dist/" + filename;
       try {
         const headers = new Headers();
         const range = request.headers.get("Range");
