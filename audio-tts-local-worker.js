@@ -34,10 +34,15 @@ self.onmessage = async (event) => {
       ttsModule = await import("https://esm.sh/@the-vedantic-coder/piper-tts-web@1.0.10?bundle");
     }
 
+    stage = "initializing single-threaded ONNX Runtime from the same-origin asset bridge";
+    try {
+      Object.defineProperty(self.navigator, "hardwareConcurrency", { configurable: true, value: 1 });
+    } catch (_) {}
+
     stage = "downloading or opening the Indian-English voice model";
-    const blob = await ttsModule.predict(
-      { text: data.text, voiceId: data.voiceId || "en_IN-spicor-medium" },
-      (progress) => {
+    const session = await ttsModule.TtsSession.create({
+      voiceId: data.voiceId || "en_IN-spicor-medium",
+      progress: (progress) => {
         const total = Number(progress && progress.total) || 0;
         const loaded = Number(progress && progress.loaded) || 0;
         const percent = total > 0 ? Math.round((loaded / total) * 100) : null;
@@ -47,8 +52,14 @@ self.onmessage = async (event) => {
             ? "Preparing the voice model and speech engine…"
             : "Downloading voice model: " + percent + "%"
         });
+      },
+      wasmPaths: {
+        onnxWasm: self.location.origin + "/onnxruntime/",
+        piperData: "https://cdn.jsdelivr.net/npm/@diffusionstudio/piper-wasm@1.0.0/build/piper_phonemize.data",
+        piperWasm: "https://cdn.jsdelivr.net/npm/@diffusionstudio/piper-wasm@1.0.0/build/piper_phonemize.wasm"
       }
-    );
+    });
+    const blob = await session.predict(data.text);
 
     if (!(blob instanceof Blob) || blob.size === 0) {
       throw new Error("The speech engine returned an empty audio file.");
