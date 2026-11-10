@@ -22,8 +22,10 @@
  const KEY="tgpscAudioStudyDraftV1"; let voices=[],chunks=[],index=0,playing=false,paused=false,runToken=0,wakeLock=null,mp3Url=null,generatedUrl=null;
  const demo="Welcome to your TGPSC CSE revision. Today we will revise the CPU instruction cycle. The main stages are fetch, decode, execute and write back. During fetch, the processor reads the next instruction from memory using the program counter. The instruction is placed in the instruction register. The program counter is updated to the next instruction address. During decode, the control unit identifies the operation and the operands. During execute, the ALU or another execution unit performs the required operation. The result may then be written to a register or memory. Remember the sequence: fetch, decode, execute, write back. A common exam trap is confusing the instruction register with the program counter. The program counter stores the address of the next instruction; the instruction register stores the current instruction. Pause and recall the four stages before moving to the next topic.";
  const ttsEndpoint=$("ttsEndpoint"),ttsVoice=$("ttsVoice"),ttsSpeed=$("ttsSpeed"),generateMp3Btn=$("generateMp3Btn"),generatedPlayer=$("generatedPlayer"),downloadGenerated=$("downloadGenerated");
- const TTS_ENDPOINT_KEY="tgpscTtsEndpointV1";
+ const TTS_ENDPOINT_KEY="tgpscTtsEndpointV1",TTS_KEY_KEY="tgpscTtsApiKeyV1";
  ttsEndpoint.value=localStorage.getItem(TTS_ENDPOINT_KEY)||"";
+ $("ttsApiKey").value=sessionStorage.getItem(TTS_KEY_KEY)||"";
+ $("ttsApiKey").addEventListener("input",()=>sessionStorage.setItem(TTS_KEY_KEY,$("ttsApiKey").value));
  ttsEndpoint.addEventListener("change",()=>localStorage.setItem(TTS_ENDPOINT_KEY,ttsEndpoint.value.trim()));
  ttsSpeed.addEventListener("input",()=>{$("ttsSpeedValue").textContent=Number(ttsSpeed.value).toFixed(2)+"×";});
  function splitForTts(text){const paras=text.replace(/\r/g,"").split(/\n+/).map(x=>x.trim()).filter(Boolean),out=[];for(const para of paras){const sentences=para.match(/[^.!?]+[.!?]+|[^.!?]+$/g)||[para];let part="";for(let s of sentences){s=s.trim();while(s.length>3900){let cut=s.lastIndexOf(" ",3900);if(cut<1000)cut=3900;out.push(s.slice(0,cut).trim());s=s.slice(cut).trim();}if(part&&part.length+s.length+1>3900){out.push(part);part="";}part+=(part?" ":"")+s;}if(part)out.push(part);}return out;}
