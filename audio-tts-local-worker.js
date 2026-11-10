@@ -3,16 +3,24 @@ let ttsModule = null;
 let stage = "loading Piper engine";
 const nativeFetch = self.fetch.bind(self);
 self.fetch = async (input, init) => {
-  const requestUrl = typeof input === "string" ? input : (input && input.url) || String(input);
+  const originalUrl = typeof input === "string" ? input : (input && input.url) || String(input);
+  let requestUrl = originalUrl;
   try {
-    const response = await nativeFetch(input, init);
+    const parsed = new URL(originalUrl, self.location.href);
+    const modelPrefix = "https://huggingface.co/" + "navgurukul-ai-labs/text-to-speech-en-IN-piper/resolve/main/";
+    if (parsed.href.startsWith(modelPrefix)) {
+      const filename = decodeURIComponent(parsed.pathname.split("/").pop());
+      requestUrl = new URL("/hf-model/" + encodeURIComponent(filename), self.location.origin).href;
+    }
+    const response = await nativeFetch(requestUrl, init);
     if (!response.ok) {
-      throw new Error("HTTP " + response.status + " " + response.statusText + " at " + requestUrl);
+      const detail = await response.clone().text().catch(() => "");
+      throw new Error("HTTP " + response.status + " " + response.statusText + " at " + requestUrl + (detail ? " — " + detail.slice(0, 240) : ""));
     }
     return response;
   } catch (error) {
     const detail = error && error.message ? error.message : String(error);
-    throw new Error("Network/CORS fetch failed at " + requestUrl + ": " + detail);
+    throw new Error("Model download failed at " + requestUrl + ": " + detail);
   }
 };
 
