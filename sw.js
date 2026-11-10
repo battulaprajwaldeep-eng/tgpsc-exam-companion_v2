@@ -1,4 +1,4 @@
-const CACHE="tgpsc-companion-v39";
+const CACHE="tgpsc-companion-v40";
 const FILES=["./","./index.html","./app-ui.css","./learning-centre.html","./memory-tricks.html","./audio-study.html","./audio-tts-local-worker.js","./study-tracker.js","./live-dashboard.js","./manifest.webmanifest","./study-data.json","./question-bank.json","./government-exams.html","./batch-import.html"];
 self.addEventListener("install",event=>event.waitUntil((async()=>{
   const cache=await caches.open(CACHE);

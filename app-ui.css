@@ -78,3 +78,29 @@ nav button{min-width:0!important;white-space:normal;font-size:.7rem!important;li
  header,main{max-width:960px}
  main{padding:12px 20px 36px}
 }
+
+/* Results/review screen: compact, edge-to-edge content hierarchy. */
+#results>.card{background:transparent!important;border:0!important;box-shadow:none!important;padding:0!important;margin:0!important}
+#resultBody>.card{background:transparent!important;border:0!important;box-shadow:none!important;border-radius:0!important;padding:12px 0!important;margin:0!important}
+#resultBody>.card+.card{border-top:1px solid var(--line)!important}
+#resultBody>.card .eyebrow{font-size:.72rem!important}
+#resultBody>.card>p{font-size:1rem!important;line-height:1.5!important;margin:8px 0!important}
+.review-option{background:#17263b!important;border:1px solid #2b3e58!important;border-radius:12px!important;padding:11px 13px!important;margin:7px 0!important;font-size:.96rem!important;line-height:1.45!important}
+.review-option b{font-size:.98rem!important;line-height:1.45!important}
+.review-option .muted{font-size:.9rem!important;line-height:1.45!important}
+.review-option.correct{background:#12392f!important;border:2px solid var(--success)!important}
+.review-option.incorrect{background:#43262d!important;border:2px solid var(--danger)!important}
+.review-tag{font-size:.7rem!important;padding:2px 7px!important}
+.recall-aid{background:transparent!important;border:0!important;border-top:1px solid var(--line)!important;border-radius:0!important;padding:11px 0 0!important;margin:12px 0 0!important}
+.recall-aid>b{font-size:1.05rem!important;line-height:1.4!important}
+.recall-aid .aid-cue{font-size:.96rem!important;line-height:1.5!important}
+.aid-diagram{font-size:.82rem!important}
+#resultBody>.notice{margin:0 0 12px!important;font-size:.9rem!important;line-height:1.45!important}
+@media(max-width:420px){
+ #results>.card{padding:0!important}
+ #resultBody>.card{padding:10px 0!important}
+ .review-option{padding:10px 11px!important;font-size:.92rem!important}
+ .review-option b{font-size:.94rem!important}
+ .review-option .muted{font-size:.86rem!important}
+ .recall-aid .aid-cue{font-size:.92rem!important}
+}
