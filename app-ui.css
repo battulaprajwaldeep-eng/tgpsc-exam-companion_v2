@@ -144,3 +144,62 @@ nav button{min-width:0!important;white-space:normal;font-size:.7rem!important;li
 .recall-aid .aid-diagram{margin:9px 0 0!important;padding:9px!important;background:#171d29!important;border-radius:9px!important;font-size:.82rem!important}
 .review-explain[open] p{padding-top:5px}
 @media(max-width:420px){.recall-aid{padding:10px 11px!important}.memory-trick-title{font-size:.92rem}.recall-aid .aid-cue{font-size:.88rem!important}}
+
+/* v3 compactness pass — consistent density across every app page */
+:root{--radius:14px}
+body{font-size:15px;line-height:1.5}
+header{padding:15px 14px 6px}
+main{padding:7px 10px 24px}
+h1{font-size:1.32rem;line-height:1.25}
+h2{font-size:1.13rem;line-height:1.32}
+h3{font-size:1rem;line-height:1.35}
+p{margin-block:.42em}
+.card{padding:12px;margin:8px 0;border-radius:14px}
+.card .card:not(.stat):not(.kpi):not(.rev-kpi){padding:6px 0;margin:6px 0}
+.stats{gap:7px}
+.stat,.kpi,.rev-kpi{padding:9px!important;border-radius:11px!important}
+.stat strong,.kpi strong,.rev-kpi strong{font-size:1.18rem}
+.eyebrow{font-size:.7rem;letter-spacing:.07em}
+.btn,button{min-height:42px}
+input:not([type=checkbox]):not([type=radio]):not([type=range]),select,textarea{padding:10px;border-radius:10px}
+table{font-size:.88rem}
+th,td{padding:8px 6px}
+.notice,.note,.status{padding:9px 11px;font-size:.88rem;line-height:1.45}
+.qtext{font-size:1.04rem!important;line-height:1.5!important;margin:10px 0!important}
+.option{font-size:.94rem!important;line-height:1.45!important;padding:10px 11px!important}
+.option b{font-size:.95rem!important}
+.review-question{padding:10px 0}
+.review-stem{font-size:.96rem!important;line-height:1.48!important;margin:7px 0 9px!important}
+.review-option{padding:8px 10px!important;margin:5px 0!important;border-radius:10px!important}
+.review-option-head>b{font-size:.9rem!important;line-height:1.4!important}
+.review-explain summary,.recall-aid summary{font-size:.8rem;padding:3px 0}
+.review-explain p{font-size:.84rem!important;line-height:1.45!important}
+.recall-aid{padding:9px 10px!important;margin:8px 0 0!important;border-radius:10px!important}
+.memory-trick-title{font-size:.88rem;margin-bottom:5px}
+.recall-aid .aid-cue{font-size:.85rem!important;line-height:1.45!important}
+.recall-aid .aid-diagram{font-size:.76rem!important;padding:7px!important;margin-top:7px!important}
+.home-tool-grid{gap:7px}
+.home-tool-grid>a,.home-tool-more{padding:9px 10px}
+.home-tool-grid>a b,.home-tool-more summary b{font-size:.86rem}
+.home-tool-grid>a span{font-size:.74rem}
+nav button{min-height:46px!important;font-size:.66rem!important;padding:5px 0!important}
+@media(max-width:420px){
+ body{font-size:15px}
+ header{padding:13px 11px 5px}
+ main{padding:6px 9px 20px}
+ .card{padding:10px;margin:7px 0;border-radius:12px}
+ h1{font-size:1.25rem}
+ h2{font-size:1.08rem}
+ h3{font-size:.96rem}
+ .qtext{font-size:1rem!important}
+ .option{font-size:.91rem!important;padding:9px!important}
+ .review-stem{font-size:.93rem!important}
+ .review-option-head>b{font-size:.87rem!important}
+ .recall-aid .aid-cue{font-size:.82rem!important}
+ nav button{font-size:.61rem!important;min-height:44px!important}
+}
+@media(min-width:700px){
+ body{font-size:16px}
+ header,main{max-width:920px}
+ .card{padding:16px}
+}
