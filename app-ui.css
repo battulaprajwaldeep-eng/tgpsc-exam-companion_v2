@@ -1,4 +1,4 @@
-/* Shared TGPSC Exam Companion UI system — v1 */
+/* Shared TGPSC Exam Companion UI system — v2: compact, chat-like reading layout */
 :root{color-scheme:dark;--bg:#08111f;--panel:#101d30;--panel2:#172840;--line:#2a405d;--text:#edf4ff;--muted:#9db0c9;--accent:#83bdff;--good:#42d6a0;--warn:#ffd477;--bad:#ff8585;--focus:#ffe08a;--radius:18px}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
@@ -40,3 +40,41 @@ nav button.active{color:var(--accent)!important}
 @media(min-width:700px){body{font-size:17px}header,main{max-width:960px}.card{padding:21px}}
 @media(max-width:420px){header{padding:18px 15px 8px}main{padding-inline:12px}.card{padding:15px;border-radius:16px}nav button{font-size:.64rem!important}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+
+/* Mobile-first reading layout: use the screen, not nested card frames. */
+body{font-size:16px;line-height:1.55}
+header,main{width:100%;max-width:960px;margin-inline:auto}
+header{padding:18px 16px 8px}
+main{padding:8px 12px 28px}
+h1{font-size:1.4rem;line-height:1.25}
+h2{font-size:1.18rem;line-height:1.35}
+h3{font-size:1.04rem;line-height:1.4}
+.qtext{font-size:1.08rem!important;line-height:1.55!important;font-weight:650;margin:14px 0!important}
+.option{font-size:1rem!important;line-height:1.5!important;padding:13px 14px!important;min-height:0!important}
+.option b{font-size:1rem!important}
+.review-option{font-size:1rem;line-height:1.5;padding:11px 12px}
+p,.muted{font-size:1rem;line-height:1.55}
+.small,.muted.small{font-size:.88rem}
+.eyebrow{font-size:.74rem}
+.card{padding:15px;margin:9px 0;border-radius:15px;box-shadow:none}
+/* A card inside another card should read as a section, not another framed panel. */
+.card .card:not(.stat):not(.kpi):not(.rev-kpi){background:transparent;border:0;border-radius:0;box-shadow:none;padding:8px 0;margin:8px 0}
+.card .card:not(.stat):not(.kpi):not(.rev-kpi)>.card{padding:6px 0}
+.card .stats .card,.card .stat,.card .kpi,.card .rev-kpi{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:11px;box-shadow:none}
+#quiz>.card,#results>.card{padding:15px}
+#quiz .option{margin:8px 0}
+nav{display:grid!important;grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:0!important}
+nav button{min-width:0!important;white-space:normal;font-size:.7rem!important;line-height:1.25!important;padding:6px 1px!important}
+@media(max-width:420px){
+ header{padding:16px 13px 6px}
+ main{padding:7px 10px 24px}
+ .card{padding:13px;margin:8px 0;border-radius:13px}
+ .qtext{font-size:1.04rem!important}
+ .option{font-size:.96rem!important;padding:12px!important}
+ nav button{font-size:.63rem!important}
+}
+@media(min-width:700px){
+ body{font-size:16px}
+ header,main{max-width:960px}
+ main{padding:12px 20px 36px}
+}
