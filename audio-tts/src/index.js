@@ -24,6 +24,10 @@ export default {
     if (origin && origin !== ALLOWED_ORIGIN) {
       return new Response("Origin not allowed", { status: 403, headers });
     }
+    const suppliedKey = (request.headers.get("Authorization") || "").replace(/^Bearer\s+/i, "");
+    if (!env.AUDIO_API_KEY || suppliedKey !== env.AUDIO_API_KEY) {
+      return new Response("Unauthorized: configure and provide the private audio generation key", { status: 401, headers });
+    }
     let input;
     try { input = await request.json(); }
     catch { return new Response("Invalid JSON body", { status: 400, headers }); }
