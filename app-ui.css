@@ -136,3 +136,11 @@ nav button{min-width:0!important;white-space:normal;font-size:.7rem!important;li
  .home-tool-grid{gap:7px}
  .home-tool-grid>a,.home-tool-more{padding:10px}
 }
+
+/* Always-visible memory trick: one consistent study message per question. */
+.recall-aid{display:block!important;background:#2b281b!important;border:1px solid #76602b!important;border-radius:12px!important;padding:12px 13px!important;margin:11px 0 0!important}
+.memory-trick-title{font-size:.96rem;font-weight:800;color:#ffda83;margin:0 0 7px}
+.recall-aid .aid-cue{font-size:.91rem!important;line-height:1.55!important;color:#f1e8d1;margin:0!important}
+.recall-aid .aid-diagram{margin:9px 0 0!important;padding:9px!important;background:#171d29!important;border-radius:9px!important;font-size:.82rem!important}
+.review-explain[open] p{padding-top:5px}
+@media(max-width:420px){.recall-aid{padding:10px 11px!important}.memory-trick-title{font-size:.92rem}.recall-aid .aid-cue{font-size:.88rem!important}}
