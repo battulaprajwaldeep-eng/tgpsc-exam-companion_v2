@@ -8,9 +8,13 @@ self.fetch = async (input, init) => {
   try {
     const parsed = new URL(originalUrl, self.location.href);
     const modelPrefix = "https://huggingface.co/" + "navgurukul-ai-labs/text-to-speech-en-IN-piper/resolve/main/";
+    const oldOrtPrefix = "https://cdnjs.cloudflare.com/ajax/libs/onnxruntime-web/1.18.0/";
     if (parsed.href.startsWith(modelPrefix)) {
       const filename = decodeURIComponent(parsed.pathname.split("/").pop());
       requestUrl = new URL("/hf-model/" + encodeURIComponent(filename), self.location.origin).href;
+    } else if (parsed.href.startsWith(oldOrtPrefix)) {
+      const filename = decodeURIComponent(parsed.pathname.split("/").pop());
+      requestUrl = new URL("/onnxruntime/" + encodeURIComponent(filename), self.location.origin).href;
     }
     const response = await nativeFetch(requestUrl, init);
     if (!response.ok) {
