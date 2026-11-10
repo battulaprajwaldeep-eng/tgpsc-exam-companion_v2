@@ -27169,16 +27169,246 @@
         "Removing the target variable would prevent supervised training rather than estimate feature importance."
       ],
       "basis": "Official Paper II syllabus: Data Mining; classification evaluation and feature relevance; scikit-learn User Guide, permutation feature importance; https://scikit-learn.org/stable/modules/permutation_importance.html"
+    },
+    {
+      "id": "P1-MEM-20261111-01",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "UN Charter Article 4(2): admission of new members",
+      "difficulty": "standard",
+      "stem": "A State seeks admission to the United Nations. Under Article 4(2) of the UN Charter, which sequence is required?",
+      "options": [
+        "The General Assembly decides first and the Security Council endorses afterward.",
+        "The Security Council recommends admission, after which the General Assembly decides.",
+        "The Secretary-General admits the State after receiving its application.",
+        "ECOSOC recommends admission and the General Assembly merely records it."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Article 4(2) makes the General Assembly decision follow a Security Council recommendation; the order cannot be reversed.",
+        "Correct. The Security Council must recommend the applicant before the General Assembly decides on admission.",
+        "Incorrect. The Secretary-General receives and circulates the application but has no power to admit a State.",
+        "Incorrect. ECOSOC has no role in the Article 4(2) admission sequence."
+      ],
+      "basis": "Official Paper I syllabus: International Relations and Events; UN Charter Article 4(2); UN Security Council Repertoire on Membership https://main.un.org/securitycouncil/en/content/repertoire/membership-united-nations and UN General Assembly Rules 136–138 https://www.un.org/en/ga/about/ropga/ropga_adms.shtml"
+    },
+    {
+      "id": "P1-MEM-20261111-02",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "Physical, Social and Economic Geography of India",
+      "subtopic": "ENSO and Indian summer monsoon rainfall",
+      "difficulty": "moderate",
+      "stem": "Which statement best describes the usual relationship between El Niño and India's June–September summer monsoon?",
+      "options": [
+        "El Niño is anomalous cooling of the equatorial Pacific and normally strengthens the Indian summer monsoon.",
+        "El Niño is anomalous warming in the central or eastern equatorial Pacific and is often associated with reduced Indian summer monsoon rainfall, but the relationship is not deterministic.",
+        "El Niño is a seasonal reversal of winds over the Indian Ocean and always causes drought throughout India.",
+        "El Niño is warming of the North Atlantic and has no recognised teleconnection with the Indian monsoon."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. El Niño is associated with anomalous warming, not cooling, in the central/eastern equatorial Pacific; it is not normally a strengthening signal for the Indian summer monsoon.",
+        "Correct. El Niño has often been associated with weaker or deficient Indian summer monsoon rainfall, but the relationship varies and other modes such as the Indian Ocean Dipole also matter.",
+        "Incorrect. A seasonal wind reversal describes monsoon circulation, not El Niño; the effect is not an inevitable nationwide drought.",
+        "Incorrect. The defining oceanic signal is in the equatorial Pacific, and IMD research documents ENSO–Indian monsoon teleconnections."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography of India; India Meteorological Department MAUSAM research on ENSO and Indian summer monsoon https://mausamjournal.imd.gov.in/index.php/MAUSAM/article/view/2557 and ENSO–IOD–MJO interactions https://mausamjournal.imd.gov.in/index.php/MAUSAM/article/view/7811"
+    },
+    {
+      "id": "P1-MEM-20261111-03",
+      "paper": 1,
+      "topicId": "p1-14",
+      "topic": "Logical Reasoning; Analytical Ability and Data Interpretation",
+      "subtopic": "Fundamental counting principle with positional constraints",
+      "difficulty": "moderate",
+      "stem": "A four-digit code is formed from digits 1, 2, 3, 4, 5 and 6 without repetition. The first digit must be odd and the last digit must be even. How many codes are possible?",
+      "options": [
+        "54",
+        "72",
+        "108",
+        "144"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. 54 = 3 × 3 × C(4,2) treats the two middle digits as an unordered pair, but their positions are different and order matters.",
+        "Incorrect. After choosing the first and last digits, four digits remain for the third position and then three for the second; using only two choices for the final open position undercounts.",
+        "Correct. There are 3 choices for the first (odd) digit, 3 for the last (even) digit, then 4 × 3 ordered choices for the middle positions: 3 × 3 × 4 × 3 = 108.",
+        "Incorrect. 144 = 3 × 3 × 4 × 4 allows the same remaining digit to be used in both middle positions, violating the no-repetition condition."
+      ],
+      "basis": "Official Paper I syllabus: Logical Reasoning; Analytical Ability and Data Interpretation; fundamental counting principle and permutations; calculation independently verified."
+    },
+    {
+      "id": "P1-MEM-20261111-04",
+      "paper": 1,
+      "topicId": "p1-15",
+      "topic": "Basic English (10th class Standard)",
+      "subtopic": "Mandative subjunctive after recommendation",
+      "difficulty": "standard",
+      "stem": "After reviewing the safety report, the committee recommended that each operator ___ the emergency-shutdown procedure before starting a shift.",
+      "options": [
+        "rehearses",
+        "rehearse",
+        "rehearsed",
+        "to rehearse"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Rehearses is the ordinary present indicative form; the formal mandative that-clause uses the base form.",
+        "Correct. After recommended that, formal English can use the mandative subjunctive base form rehearse, even with a singular subject.",
+        "Incorrect. Rehearsed is a past-tense form and does not express the recommended action in this construction.",
+        "Incorrect. The mandative that-clause takes the base verb without to; a British English alternative is should rehearse."
+      ],
+      "basis": "Official Paper I syllabus: Basic English (10th class Standard); formal mandative subjunctive after recommend that; Collins English Dictionary, recommend https://www.collinsdictionary.com/us/dictionary/english/recommend"
+    },
+    {
+      "id": "P2-MEM-20261111-01",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Articulation point (cut vertex) in an undirected graph",
+      "difficulty": "difficult",
+      "stem": "An undirected graph consists of two triangles, A–B–C–A and C–D–E–C, sharing only vertex C. Which vertex is an articulation point?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. Removing A leaves B connected to C, so the two triangles remain joined through C.",
+        "Incorrect. Removing B leaves A connected to C, so the graph remains connected.",
+        "Correct. Removing C separates vertices A and B from D and E, increasing the number of connected components.",
+        "Incorrect. Removing D leaves E connected to C, so the graph remains connected."
+      ],
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; Princeton Algorithms, Undirected Graphs: Bridges and articulation points https://algs4.cs.princeton.edu/41graph/index.php"
+    },
+    {
+      "id": "P2-MEM-20261111-02",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Peephole optimization",
+      "difficulty": "standard",
+      "stem": "After code generation, a compiler examines a short window of consecutive target instructions and replaces a redundant local instruction pattern with an equivalent, cheaper sequence. Which optimization technique is being used?",
+      "options": [
+        "Loop-invariant code motion",
+        "Peephole optimization",
+        "Common-subexpression elimination",
+        "Register allocation"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Loop-invariant code motion moves computations that do not change outside a loop; it does not primarily inspect a small target-instruction window.",
+        "Correct. Peephole optimization matches short local instruction patterns and replaces them with equivalent, usually cheaper sequences.",
+        "Incorrect. Common-subexpression elimination reuses a previously computed expression when safe; it is not defined by a small sliding window over target instructions.",
+        "Incorrect. Register allocation assigns program values to machine registers; it does not remove a local instruction pattern."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; Aho, Lam, Sethi and Ullman, Compilers: Principles, Techniques, and Tools, 2nd ed., section on peephole optimization; TITE Compiler Design lecture notes https://tite.ac.in/assets/frontend/pdf/lecture-notes/btech/4thsem/Compiler-Design-4thsem.pdf"
+    },
+    {
+      "id": "P2-MEM-20261111-03",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "Decision table testing",
+      "difficulty": "standard",
+      "stem": "A requirements analyst models three independent yes/no conditions in a complete limited-entry decision table. Before infeasible combinations are removed, how many rule columns are needed to represent every possible combination?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "12"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Three independent binary conditions do not produce six combinations; each condition doubles the number of possible combinations.",
+        "Correct. Each of the three conditions has two possible values, so the complete table contains 2 × 2 × 2 = 2³ = 8 rule columns.",
+        "Incorrect. Nine is 3², but the number of combinations is found by multiplying two choices for each of the three independent conditions.",
+        "Incorrect. Twelve is not the product of the binary choices; the full table has 2³ columns."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering; ISTQB Certified Tester Foundation Level Syllabus v4.0.1, §4.2.3 Decision Table Testing https://istqb.org/wp-content/uploads/2024/11/ISTQB_CTFL_Syllabus_v4.0.1.pdf"
+    },
+    {
+      "id": "P2-MEM-20261111-04",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "PHP include versus require failure handling",
+      "difficulty": "moderate",
+      "stem": "Under PHP 8, a script attempts to load a file that does not exist. If the failure is not caught, which statement correctly distinguishes `include` from `require`?",
+      "options": [
+        "`include` raises an Error, while `require` only emits a warning and continues.",
+        "`include` emits a warning and returns false; `require` raises an Error exception, interrupting normal execution if uncaught.",
+        "Both constructs silently skip the missing file and return null.",
+        "`include` returns true, while `require` returns false without issuing a diagnostic."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This reverses the documented failure behaviour: include warns, while require raises an Error in PHP 8.",
+        "Correct. The PHP manual states that include issues E_WARNING and returns false when the file cannot be included; require raises an Error exception, which interrupts normal execution if uncaught.",
+        "Incorrect. Neither construct silently ignores a missing file; both report failure.",
+        "Incorrect. include does not return true on a missing file, and require does not silently return false."
+      ],
+      "basis": "Official Paper II syllabus: Web Technologies; PHP Manual, include https://www.php.net/manual/en/function.include.php and require https://www.php.net/manual/en/function.require.php"
+    },
+    {
+      "id": "P2-MEM-20261111-05",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "Java generics: type erasure",
+      "difficulty": "moderate",
+      "stem": "Consider the Java declaration `class Box<T> { T get() { ... } }`, where T has no explicit bound. What type replaces T in the erased form of the compiled class?",
+      "options": [
+        "The primitive type Object",
+        "Object",
+        "A distinct runtime class is generated for every type argument",
+        "Class<T> is inserted automatically as a runtime type token"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Object is a reference type, not a primitive type.",
+        "Correct. An unbounded type parameter is erased to Object; the compiler inserts casts where needed to preserve type safety.",
+        "Incorrect. Java generics use type erasure rather than generating a separate runtime class for every parameterized type.",
+        "Incorrect. A Class<T> token is not automatically added to every generic class; it must be passed explicitly if runtime type information is required."
+      ],
+      "basis": "Official Paper II syllabus: OOPS Concepts, Programming in C++ and JAVA; Oracle Java Tutorials, Erasure of Generic Types https://docs.oracle.com/javase/tutorial/java/generics/genTypes.html"
+    },
+    {
+      "id": "P2-MEM-20261111-06",
+      "paper": 2,
+      "topicId": "p2-16",
+      "topic": "Data Mining",
+      "subtopic": "Association-rule conviction",
+      "difficulty": "moderate",
+      "stem": "An association rule X → Y has support(Y) = 0.25 and confidence(X → Y) = 0.75. Using conviction = (1 − support(Y)) / (1 − confidence(X → Y)), what is its conviction?",
+      "options": [
+        "0.75",
+        "1.5",
+        "3.0",
+        "4.0"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. 0.75 is only the numerator, 1 − support(Y); conviction also divides by 1 − confidence.",
+        "Incorrect. Substituting the stated values gives 0.75 ÷ 0.25, not 1.5.",
+        "Correct. Conviction = (1 − 0.25) ÷ (1 − 0.75) = 0.75 ÷ 0.25 = 3.0.",
+        "Incorrect. 4.0 is 1 ÷ (1 − confidence); that omits the factor 1 − support(Y) = 0.75."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; eGyanKosh, Data Mining Fundamentals and Frequent Pattern Mining, Unit 9, association-rule conviction formula https://egyankosh.ac.in/bitstream/123456789/89133/3/Unit-9.pdf"
     }
   ],
-  "qualityNote": "Batch 008 appended on 2026-11-08: exactly 100 original questions (40 Paper I, 60 Paper II), mapped to all 31 official topic IDs in study-data.json. Every item has four distinct options, a zero-based answer index, four option-specific explanations and a source/basis field. Exact normalized-stem comparison covered the complete 881-question pre-batch live bank and the candidate set; high-overlap candidates identified during screening were replaced before this final draft. Government and statutory facts use official sources identified in the batch artifact; technical items cite standard textbooks, specifications and RFCs. PR quality gates and deployment are tracked separately.",
+  "qualityNote": "Batch 008 appended on 2026-11-08: exactly 100 original questions (40 Paper I, 60 Paper II), mapped to all 31 official topic IDs in study-data.json. Every item has four distinct options, a zero-based answer index, four option-specific explanations and a source/basis field. Exact normalized-stem comparison covered the complete 881-question pre-batch live bank and the candidate set; high-overlap candidates identified during screening were replaced before this final draft. Government and statutory facts use official sources identified in the batch artifact; technical items cite standard textbooks, specifications and RFCs. PR quality gates and deployment are tracked separately.\nMini-batch 2026-11-11: added 10 original syllabus-mapped MCQs (4 Paper I, 6 Paper II) and 10 recall cards with the same paper split. New MCQs use IDs P1-MEM-20261111-01..04 and P2-MEM-20261111-01..06. The complete pre-existing question set and card set were audited; no existing question records were modified.",
   "requirement": {
     "targetTotal": 3500,
     "targetPaper2": 2000,
     "targetPaper1": 1500,
-    "currentTotal": 1181,
-    "currentPaper2": 712,
-    "currentPaper1": 469,
+    "currentTotal": 1191,
+    "currentPaper2": 718,
+    "currentPaper1": 473,
     "status": "in_progress",
     "qualityGate": "Every added question must have a unique ID, official syllabus mapping, four options, a verified answer index, four option-specific explanations, and a difficulty label."
   }
