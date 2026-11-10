@@ -104,3 +104,35 @@ nav button{min-width:0!important;white-space:normal;font-size:.7rem!important;li
  .review-option .muted{font-size:.86rem!important}
  .recall-aid .aid-cue{font-size:.92rem!important}
 }
+
+/* Study-flow polish: progressive disclosure and a quieter home screen. */
+.review-question{padding:14px 0;border-bottom:1px solid var(--line)}
+.review-question:last-child{border-bottom:0}
+.review-topic{display:block;margin-top:4px;font-size:.9rem;color:var(--muted)}
+.review-stem{font-size:1.02rem!important;line-height:1.5!important;margin:9px 0 12px!important}
+.review-option{padding:10px 12px!important;margin:7px 0!important}
+.review-option-head{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.review-option-head>b{font-size:.94rem!important;line-height:1.45!important}
+.review-explain{margin-top:6px;border-top:1px solid #ffffff12;padding-top:5px}
+.review-explain summary,.recall-aid summary{font-size:.83rem;font-weight:650;color:var(--accent);padding:4px 0;cursor:pointer;list-style-position:inside}
+.review-explain p{font-size:.88rem!important;line-height:1.5!important;margin:6px 0 2px!important;color:var(--muted)}
+.recall-aid{display:block;margin:10px 0 0!important;padding:8px 0 0!important;border-top:1px solid var(--line)!important}
+.recall-aid .aid-cue{font-size:.9rem!important;line-height:1.5!important;margin:7px 0}
+.home-tools h3{margin:3px 0 12px}
+.home-tool-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.home-tool-grid>a,.home-tool-more{display:block;min-width:0;padding:11px 12px;border:1px solid var(--line);border-radius:12px;background:var(--panel2);text-decoration:none;color:var(--text)}
+.home-tool-grid>a b,.home-tool-more summary b{display:block;font-size:.91rem}
+.home-tool-grid>a span{display:block;font-size:.78rem;color:var(--muted);line-height:1.4;margin-top:3px}
+.home-tool-more summary{list-style:none;cursor:pointer}
+.home-tool-more summary::-webkit-details-marker{display:none}
+.home-tool-more p{margin:6px 0;font-size:.8rem}
+.home-tool-more>a{font-size:.85rem}
+.home-privacy{margin:11px 0 0}
+@media(max-width:420px){
+ .review-question{padding:11px 0}
+ .review-stem{font-size:.98rem!important}
+ .review-option{padding:9px 10px!important}
+ .review-option-head>b{font-size:.9rem!important}
+ .home-tool-grid{gap:7px}
+ .home-tool-grid>a,.home-tool-more{padding:10px}
+}
