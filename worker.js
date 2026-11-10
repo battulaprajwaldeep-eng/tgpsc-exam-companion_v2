@@ -27,7 +27,7 @@ export default {
       if (!ORT_FILES.has(filename)) {
         return new Response("ONNX Runtime asset not allowed", { status: 404 });
       }
-      const upstreamUrl = "https://cdnjs.cloudflare.com/ajax/libs/onnxruntime-web/1.18.0/" + filename;
+      const upstreamUrl = "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.18.0/dist/" + filename;
       try {
         const headers = new Headers();
         const range = request.headers.get("Range");
