@@ -203,3 +203,43 @@ nav button{min-height:46px!important;font-size:.66rem!important;padding:5px 0!im
  header,main{max-width:920px}
  .card{padding:16px}
 }
+
+/* Results review v7: compact summary, readable option rows and strong question boundaries. */
+.review-summary{background:#101d30;border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:0 0 14px}
+.review-summary-top{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:.9rem}
+.review-summary-top strong{color:#65d6ad;font-size:.88rem}
+.review-summary-track{height:5px;background:#26364c;border-radius:99px;overflow:hidden;margin:8px 0}
+.review-summary-track span{display:block;height:100%;background:#35b98a;border-radius:99px}
+.review-summary-meta{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:.75rem;color:var(--muted)}
+.review-summary-foot{font-size:.72rem;color:var(--muted);margin-top:5px}
+.review-question{padding:14px 0 16px!important;margin:0 0 4px;border-bottom:2px solid #40536d!important}
+.review-question:last-child{border-bottom:0!important;margin-bottom:0}
+.review-question-head{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:3px}
+.review-qnum{font-size:.7rem;font-weight:850;letter-spacing:.07em;color:var(--accent)}
+.review-qmeta{font-size:.7rem;color:var(--muted)}
+.review-topic{font-size:.82rem!important;margin:2px 0 5px!important}
+.review-stem{font-size:.96rem!important;line-height:1.48!important;margin:6px 0 8px!important}
+.review-options{display:grid;gap:5px}
+.review-option{background:#17263b!important;border:1px solid #2b3e58!important;border-radius:9px!important;padding:8px 10px!important;margin:0!important}
+.review-option-head{display:flex;align-items:flex-start;justify-content:space-between;gap:6px}
+.review-option-head>b{font-size:.87rem!important;line-height:1.4!important;font-weight:650}
+.review-tag{font-size:.62rem!important;white-space:nowrap;padding:2px 6px;border-radius:99px;font-weight:800}
+.review-explanation{font-size:.81rem;line-height:1.45;color:#c2d0e2;margin:5px 0 0;padding-top:5px;border-top:1px solid #ffffff12}
+.review-explain{margin-top:4px!important;padding-top:3px!important;border-top:1px solid #ffffff10!important}
+.review-explain summary{font-size:.72rem!important;padding:2px 0!important}
+.review-explain p{font-size:.79rem!important;line-height:1.4!important;margin:4px 0 0!important}
+.recall-aid{margin:7px 0 0!important;padding:8px 10px!important;border-radius:9px!important}
+.memory-trick-title{font-size:.82rem!important;margin-bottom:4px!important}
+.recall-aid .aid-cue{font-size:.81rem!important;line-height:1.42!important}
+.recall-aid .aid-diagram{font-size:.72rem!important;line-height:1.35!important;padding:6px!important;margin-top:6px!important;white-space:pre-wrap}
+@media(max-width:420px){
+ .review-summary{padding:9px 10px;margin-bottom:11px}
+ .review-summary-meta{font-size:.69rem}
+ .review-question{padding:12px 0 14px!important;border-bottom-width:2px!important}
+ .review-stem{font-size:.92rem!important}
+ .review-option{padding:7px 8px!important}
+ .review-option-head>b{font-size:.83rem!important}
+ .review-explanation{font-size:.77rem}
+ .review-explain p{font-size:.75rem!important}
+ .recall-aid .aid-cue{font-size:.77rem!important}
+}
