@@ -33,7 +33,7 @@ export default {
       if (!ORT_FILES.has(filename)) {
         return new Response("ONNX Runtime asset not allowed", { status: 404 });
       }
-      const upstreamUrl = "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.31.1/dist/" + filename;
+      const upstreamUrl = "https://cdnjs.cloudflare.com/ajax/libs/onnxruntime-web/1.30.0/" + filename;
       try {
         const headers = new Headers();
         const range = request.headers.get("Range");
@@ -42,7 +42,7 @@ export default {
         const responseHeaders = new Headers(upstream.headers);
         responseHeaders.set("Cache-Control", "public, max-age=31536000, immutable");
         responseHeaders.set("Cross-Origin-Resource-Policy", "same-origin");
-        responseHeaders.set("X-TTS-Runtime-Source", "cdnjs-onnxruntime-web-1.18.0");
+        responseHeaders.set("X-TTS-Runtime-Source", "cdnjs-onnxruntime-web-1.30.0");
         return new Response(upstream.body, {
           status: upstream.status,
           statusText: upstream.statusText,
