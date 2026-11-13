@@ -27399,16 +27399,246 @@
         "Incorrect. 4.0 is 1 ÷ (1 − confidence); that omits the factor 1 − support(Y) = 0.75."
       ],
       "basis": "Official Paper II syllabus: Data Mining; eGyanKosh, Data Mining Fundamentals and Frequent Pattern Mining, Unit 9, association-rule conviction formula https://egyankosh.ac.in/bitstream/123456789/89133/3/Unit-9.pdf"
+    },
+    {
+      "id": "P1-MEM-20261114-01",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "ICC complementarity under Rome Statute Article 17",
+      "difficulty": "moderate",
+      "stem": "Under Article 17 of the Rome Statute, which circumstance can make a case admissible before the ICC despite domestic proceedings?",
+      "options": [
+        "The State with jurisdiction is unwilling or unable genuinely to investigate or prosecute the case.",
+        "The domestic court is located outside the country's capital.",
+        "The accused disagrees with a national court's decision and files an ordinary appeal to the ICC.",
+        "The alleged offence has affected citizens of more than one country."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Under Article 17, a case may be admissible when the State with jurisdiction is unwilling or unable genuinely to carry out the investigation or prosecution, subject to the Statute's other admissibility requirements.",
+        "The location of a domestic court does not determine ICC admissibility under the complementarity principle.",
+        "The ICC is not an ordinary appellate court for national criminal judgments.",
+        "Cross-border effects alone do not establish admissibility; the Rome Statute's jurisdiction and admissibility conditions still apply."
+      ],
+      "basis": "Official Paper I syllabus: International Relations and Events. Rome Statute of the International Criminal Court, Article 17; ICC official complementarity guidance: https://asp.icc-cpi.int/complementarity"
+    },
+    {
+      "id": "P1-MEM-20261114-02",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "Physical, Social and Economic Geography of India",
+      "subtopic": "Northeast monsoon: October–December rainfall over Tamil Nadu and adjoining southeast India",
+      "difficulty": "standard",
+      "stem": "The India Meteorological Department identifies the northeast monsoon as an important October–December rainfall season for which of the following regions?",
+      "options": [
+        "Tamil Nadu, Puducherry and Karaikal, along with adjoining southeast peninsular subdivisions.",
+        "Punjab and Haryana in the northwestern plains.",
+        "Western Rajasthan and the Thar Desert.",
+        "The Konkan coast of Maharashtra and Goa as its principal beneficiary."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The IMD's northeast-monsoon seasonal reports identify Tamil Nadu, Puducherry and Karaikal among the key subdivisions benefiting from October–December northeast-monsoon rainfall.",
+        "Punjab and Haryana receive most of their principal monsoon rainfall during the southwest monsoon, not the northeast-monsoon season.",
+        "Western Rajasthan is not the principal region identified for northeast-monsoon rainfall.",
+        "The Konkan coast is primarily associated with southwest-monsoon rainfall; it is not the key southeast-peninsular northeast-monsoon region."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography of India. India Meteorological Department, Northeast Monsoon 2024 seasonal report (October–December): https://mausam.imd.gov.in/chennai/mcdata/ne_monsoon_2024.pdf"
+    },
+    {
+      "id": "P1-MEM-20261114-03",
+      "paper": 1,
+      "topicId": "p1-08",
+      "topic": "Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement",
+      "subtopic": "Khilafat movement: identification of the Ali Brothers",
+      "difficulty": "standard",
+      "stem": "Which pair of leaders became popularly known as the Ali Brothers and led the Khilafat movement in India?",
+      "options": [
+        "Muhammad Ali and Shaukat Ali.",
+        "Abul Kalam Azad and Hakim Ajmal Khan.",
+        "Motilal Nehru and Chittaranjan Das.",
+        "Lala Lajpat Rai and Bal Gangadhar Tilak."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Muhammad Ali and Shaukat Ali were popularly known as the Ali Brothers and were leading figures in the Khilafat movement.",
+        "Abul Kalam Azad and Hakim Ajmal Khan were prominent public figures, but they were not the Ali Brothers.",
+        "Motilal Nehru and C. R. Das were associated with the Swaraj Party, not the Ali Brothers identity.",
+        "Lala Lajpat Rai and Bal Gangadhar Tilak were prominent nationalist leaders from an earlier political context; they were not the Ali Brothers."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Modern India with special emphasis on Indian National Movement. INFLIBNET e-content, Non-Cooperation Movement and Khilafat Movement: https://ebooks.inflibnet.ac.in/icp01/chapter/non-cooperation-movement/"
+    },
+    {
+      "id": "P1-MEM-20261114-04",
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "subtopic": "Article 30(1): minority right to establish and administer educational institutions",
+      "difficulty": "standard",
+      "stem": "A religious or linguistic minority plans to establish and administer an educational institution of its choice. Which constitutional safeguard directly protects this right?",
+      "options": [
+        "Article 30(1).",
+        "Article 29(1).",
+        "Article 26.",
+        "Article 16."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Article 30(1) gives religious and linguistic minorities the right to establish and administer educational institutions of their choice.",
+        "Article 29(1) protects the right of any section of citizens with a distinct language, script or culture to conserve it.",
+        "Article 26 concerns the right of religious denominations to manage their own affairs in matters of religion and related matters.",
+        "Article 16 concerns equality of opportunity in matters of public employment."
+      ],
+      "basis": "Official Paper I syllabus: Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies. Constitution of India, Article 30(1), Legislative Department, Government of India (2025 edition): https://www.legislative.gov.in/static/uploads/2025/07/359f70a69695affb9d72f8393102bd2e.pdf"
+    },
+    {
+      "id": "P2-MEM-20261114-01",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "C11 volatile qualifier versus atomic synchronization",
+      "difficulty": "moderate",
+      "stem": "Two C11 threads access a shared `volatile int flag`; one writes while the other reads, without an atomic operation or a lock. Which statement is correct?",
+      "options": [
+        "The volatile qualifier makes every read and write indivisible, so the access is automatically thread-safe.",
+        "The volatile qualifier creates a release/acquire synchronizes-with relationship between the threads.",
+        "The volatile qualifier alone provides neither atomicity nor inter-thread synchronization; use a C atomic object or a mutex for thread-safe communication.",
+        "The volatile qualifier automatically orders all ordinary memory accesses made by both threads."
+      ],
+      "answer": 2,
+      "explanations": [
+        "Incorrect. C's volatile qualifier does not promise indivisible accesses; atomicity must come from an atomic type or another synchronization mechanism.",
+        "Incorrect. C volatile does not create a release/acquire synchronizes-with relationship between threads.",
+        "Correct. In C11, volatile affects treatment of accesses but does not itself make them atomic or establish inter-thread synchronization. Conflicting unsynchronized non-atomic accesses can constitute a data race; use `_Atomic` operations or a mutex.",
+        "Incorrect. Volatile does not impose a global ordering on ordinary non-volatile memory accesses across threads."
+      ],
+      "basis": "Official Paper II syllabus: Programming in C. SEI CERT C CON02-C, Do not use volatile as a synchronization primitive: https://cmu-sei.github.io/secure-coding-standards/sei-cert-c-coding-standard/recommendations/concurrency-con/con02-c/ ; WG14 N1479, C atomic versus volatile rationale: https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1479.htm"
+    },
+    {
+      "id": "P2-MEM-20261114-02",
+      "paper": 2,
+      "topicId": "p2-09",
+      "topic": "Compiler Design",
+      "subtopic": "Loop unrolling as a compiler code-optimisation technique",
+      "difficulty": "standard",
+      "stem": "An optimizing compiler duplicates a loop body several times within one iteration so that fewer loop-control branches are executed. Which optimization is being applied?",
+      "options": [
+        "Loop unrolling.",
+        "Loop-invariant code motion.",
+        "Strength reduction.",
+        "Dead-code elimination."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Loop unrolling replicates the loop body and adjusts the iteration step, reducing loop-control overhead at the possible cost of increased code size.",
+        "Loop-invariant code motion moves computations that do not change across iterations outside the loop; it does not primarily duplicate the body.",
+        "Strength reduction replaces an expensive operation with a cheaper equivalent operation, often inside a loop.",
+        "Dead-code elimination removes computations whose results are not needed; it does not replicate loop iterations."
+      ],
+      "basis": "Official Paper II syllabus: Compiler Design; basics of code optimisation. LLVM documentation, Analysis and Transform Passes, `loop-unroll`: https://www.llvm.org/docs/Passes.html"
+    },
+    {
+      "id": "P2-MEM-20261114-03",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "UML sequence diagrams: meaning and notation of a lifeline",
+      "difficulty": "standard",
+      "stem": "In a UML sequence interaction, what is the name of the vertical dashed line that descends from a participant's head?",
+      "options": [
+        "Lifeline.",
+        "Activation bar (execution specification).",
+        "Message arrow.",
+        "Combined fragment."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The vertical dashed line is the lifeline, representing the participant's presence in the interaction over time.",
+        "An activation bar, or execution specification, is drawn as a narrow rectangle on a lifeline to show an execution period.",
+        "A message is shown by an arrow between lifelines, not by the vertical dashed line itself.",
+        "A combined fragment encloses part of an interaction to express operators such as alt, opt or loop."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering; introduction to UML. Object Management Group, UML 2.5.1, Sequence Diagrams and Lifeline classifier: https://www.omg.org/spec/UML/2.5.1/PDF"
+    },
+    {
+      "id": "P2-MEM-20261114-04",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Stop-and-Wait ARQ: ideal link utilisation",
+      "difficulty": "moderate",
+      "stem": "An ideal Stop-and-Wait ARQ link has one-way propagation delay four times the frame transmission time, so a = Tₚ/Tₜ = 4. Ignoring acknowledgement transmission and processing delays, what is the link utilisation?",
+      "options": [
+        "20%.",
+        "11.1% (approximately).",
+        "8%.",
+        "44.4% (approximately)."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. This is 1/(1+a), which omits the return propagation delay of the acknowledgement.",
+        "Correct. U = Tₜ/(Tₜ + 2Tₚ) = 1/(1 + 2a) = 1/(1 + 8) = 1/9 ≈ 11.1%.",
+        "Incorrect. The ideal utilisation is 1/9, not 8%.",
+        "Incorrect. The propagation-to-transmission ratio does not produce a utilisation of 4/9; the denominator is 1 + 2a."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; flow and error control. National Institute of Technology Srinagar, Unit III notes, Stop-and-Wait link utilisation: https://nitsri.ac.in/Department/Electronics%20%26%20Communication%20Engineering/Unit_III.pdf"
+    },
+    {
+      "id": "P2-MEM-20261114-05",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "Servlet RequestDispatcher.forward versus HttpServletResponse.sendRedirect",
+      "difficulty": "moderate",
+      "stem": "A servlet must pass the current request to a JSP on the same server, preserving the same request and response objects and avoiding a new browser request. Which operation is appropriate?",
+      "options": [
+        "Call `response.sendRedirect(\"/report.jsp\")`.",
+        "Call `request.getRequestDispatcher(\"/report.jsp\").forward(request, response)`.",
+        "Set the response status to 302 and continue writing the JSP output.",
+        "Invalidate the HTTP session and return without dispatching."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. `sendRedirect` sends a redirect response to the client; the browser then makes a new request to the target URL.",
+        "Correct. `RequestDispatcher.forward` performs a server-side dispatch to another resource using the current request and response objects.",
+        "A 302 status instructs the client to redirect; it is not an internal server-side forward.",
+        "Invalidating the session does not dispatch the current request to the JSP."
+      ],
+      "basis": "Official Paper II syllabus: Web Technologies; Servlets. Jakarta Servlet 6.0 API, RequestDispatcher.forward: https://jakarta.ee/specifications/servlet/6.0/apidocs/jakarta.servlet/jakarta/servlet/requestdispatcher ; HttpServletResponse.sendRedirect: https://jakarta.ee/specifications/servlet/6.0/apidocs/jakarta.servlet/jakarta/servlet/http/httpservletresponse"
+    },
+    {
+      "id": "P2-MEM-20261114-06",
+      "paper": 2,
+      "topicId": "p2-16",
+      "topic": "Data Mining",
+      "subtopic": "Support vector machines: kernel trick and implicit feature mapping",
+      "difficulty": "moderate",
+      "stem": "An SVM implementation evaluates K(x,z)=⟨φ(x),φ(z)⟩ directly from x and z, without constructing φ(x) or φ(z). What computational idea is being used?",
+      "options": [
+        "The kernel trick.",
+        "One-hot encoding.",
+        "Bootstrap aggregation.",
+        "Feature scaling."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The kernel trick evaluates the inner product that would result from an implicit feature mapping without explicitly constructing the mapped feature vectors.",
+        "One-hot encoding represents categorical values with binary indicator features; it is not the implicit inner-product calculation described.",
+        "Bootstrap aggregation trains models on resampled datasets and combines their predictions; it is an ensemble technique.",
+        "Feature scaling changes the numerical scale of input features; it does not replace explicit feature mapping with a kernel calculation."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; classification algorithms. scikit-learn User Guide, Support Vector Machines and kernel functions: https://scikit-learn.org/stable/modules/svm.html"
     }
   ],
-  "qualityNote": "Batch 008 appended on 2026-11-08: exactly 100 original questions (40 Paper I, 60 Paper II), mapped to all 31 official topic IDs in study-data.json. Every item has four distinct options, a zero-based answer index, four option-specific explanations and a source/basis field. Exact normalized-stem comparison covered the complete 881-question pre-batch live bank and the candidate set; high-overlap candidates identified during screening were replaced before this final draft. Government and statutory facts use official sources identified in the batch artifact; technical items cite standard textbooks, specifications and RFCs. PR quality gates and deployment are tracked separately.\nMini-batch 2026-11-11: added 10 original syllabus-mapped MCQs (4 Paper I, 6 Paper II) and 10 recall cards with the same paper split. New MCQs use IDs P1-MEM-20261111-01..04 and P2-MEM-20261111-01..06. The complete pre-existing question set and card set were audited; no existing question records were modified.",
+  "qualityNote": "Batch 008 appended on 2026-11-08: exactly 100 original questions (40 Paper I, 60 Paper II), mapped to all 31 official topic IDs in study-data.json. Every item has four distinct options, a zero-based answer index, four option-specific explanations and a source/basis field. Exact normalized-stem comparison covered the complete 881-question pre-batch live bank and the candidate set; high-overlap candidates identified during screening were replaced before this final draft. Government and statutory facts use official sources identified in the batch artifact; technical items cite standard textbooks, specifications and RFCs. PR quality gates and deployment are tracked separately.\nMini-batch 2026-11-11: added 10 original syllabus-mapped MCQs (4 Paper I, 6 Paper II) and 10 recall cards with the same paper split. New MCQs use IDs P1-MEM-20261111-01..04 and P2-MEM-20261111-01..06. The complete pre-existing question set and card set were audited; no existing question records were modified.\nMini-batch 2026-11-14 (Batch 013): proposed 10 original MCQs (4 Paper I, 6 Paper II) and 10 recall cards with the same split. The 1,191-question main bank becomes 1,201 on this branch (Paper I 477; Paper II 724); memory cards become 94. Candidate screening included 100 additional questions on open PR #8, 100 alternate Batch 006 stems on open PR #27, and 10 questions each in open PRs #58 and #59. Pending PRs remain separate and unchanged.",
   "requirement": {
     "targetTotal": 3500,
     "targetPaper2": 2000,
     "targetPaper1": 1500,
-    "currentTotal": 1191,
-    "currentPaper2": 718,
-    "currentPaper1": 473,
+    "currentTotal": 1201,
+    "currentPaper2": 724,
+    "currentPaper1": 477,
     "status": "in_progress",
     "qualityGate": "Every added question must have a unique ID, official syllabus mapping, four options, a verified answer index, four option-specific explanations, and a difficulty label."
   }
