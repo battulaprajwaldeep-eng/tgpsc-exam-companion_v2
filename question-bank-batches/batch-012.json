@@ -1,0 +1,269 @@
+{
+  "batchId": "012",
+  "date": "2026-11-13",
+  "status": "submitted-for-review",
+  "paperSplit": {
+    "paper1": 4,
+    "paper2": 6
+  },
+  "difficultyCounts": {
+    "standard": 3,
+    "moderate": 7
+  },
+  "preImportCounts": {
+    "total": 1191,
+    "paper1": 473,
+    "paper2": 718,
+    "memoryCards": 84
+  },
+  "postImportCounts": {
+    "total": 1201,
+    "paper1": 477,
+    "paper2": 724,
+    "memoryCards": 94
+  },
+  "topicCoverage": {
+    "p1-01": 1,
+    "p1-02": 1,
+    "p1-03": 1,
+    "p1-06": 1,
+    "p2-07": 1,
+    "p2-08": 1,
+    "p2-11": 1,
+    "p2-13": 1,
+    "p2-14": 1,
+    "p2-16": 1
+  },
+  "questions": [
+    {
+      "id": "P1-MEM-20261113-05",
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "subtopic": "Telangana skills reforms: ITIs upgraded to Advanced Technology Centres (11 November 2026)",
+      "difficulty": "standard",
+      "stem": "According to the Telangana State Portal's 11 November 2026 press release, which change to Industrial Training Institutes (ITIs) was highlighted as part of the State's education-and-skills reforms?",
+      "options": [
+        "They were upgraded into Advanced Technology Centres (ATCs).",
+        "They were converted into district polytechnic universities.",
+        "They were placed under the National Council for Vocational Education and Training.",
+        "They were merged with government degree colleges."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The State Portal release says ITIs had been upgraded into Advanced Technology Centres (ATCs), with reforms focused on education, skills and innovation.",
+        "The release does not describe ITIs being converted into polytechnic universities.",
+        "The release does not say the ITIs were placed under this national council.",
+        "The release does not describe a merger of ITIs with degree colleges."
+      ],
+      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International. Telangana State Portal press release, 11 November 2026: https://www.telangana.gov.in/news/press-releases/2026/11/honble-cm-sri-a-revanth-reddy-participates-in-national-education-day-minorities-welfare-day-program-on-the-occasion-of-maulana-abul-kalam-azad-jayanti-at-sevalal-banjara-bhavan-banjara-hills-hyd/"
+    },
+    {
+      "id": "P1-MEM-20261113-06",
+      "paper": 1,
+      "topicId": "p1-02",
+      "topic": "International Relations and Events",
+      "subtopic": "WTO national treatment under GATT Article III",
+      "difficulty": "moderate",
+      "stem": "An imported water pump has cleared customs and is like a domestically manufactured pump. Under the WTO's GATT Article III national-treatment rule, which measure would generally violate the principle?",
+      "options": [
+        "Charging the imported pump a higher internal tax than the like domestic pump.",
+        "Applying the same internal tax rate to imported and like domestic pumps.",
+        "Applying a customs tariff at the border within the member's bound rate.",
+        "Applying the same internal safety standard to imported and domestic pumps."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. National treatment under GATT Article III prevents imported like products from being subjected to higher internal taxes than domestic like products.",
+        "Equal internal tax treatment is consistent with national treatment, assuming the products are like and the measure is otherwise compliant.",
+        "A customs tariff collected at the border is not the internal-tax comparison tested by Article III; tariff commitments are a separate issue.",
+        "An internal safety standard applied equally to imported and domestic like products does not, on that fact alone, breach national treatment."
+      ],
+      "basis": "Official Paper I syllabus: International Relations and Events. WTO, GATT 1994 Article III and National Treatment glossary: https://www.wto.org/english/docs_e/legal_e/gatt47_e.htm"
+    },
+    {
+      "id": "P1-MEM-20261113-07",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Zener diode reverse-breakdown voltage regulation",
+      "difficulty": "standard",
+      "stem": "A 6.2 V Zener diode is connected in reverse bias across a load, with a series resistor. If the supply voltage rises slightly while the diode remains within its specified current and power limits, what is the expected output?",
+      "options": [
+        "It remains approximately 6.2 V; the Zener current adjusts to absorb the change.",
+        "It rises by exactly the same amount as the supply.",
+        "It falls to approximately 0.7 V because the diode is reverse biased.",
+        "It becomes zero because reverse bias prevents all current in breakdown."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. In its designed reverse-breakdown region, a Zener diode holds its terminal voltage approximately at its Zener voltage; the series resistor limits current and the Zener current changes.",
+        "A regulated output does not track a small supply increase one-for-one while the Zener remains in regulation.",
+        "About 0.7 V is a typical forward drop for a silicon diode, not the regulated reverse-breakdown voltage of this 6.2 V Zener.",
+        "A Zener is designed to conduct in its reverse-breakdown region; it does not block all current there."
+      ],
+      "basis": "Official Paper I syllabus: General Science; India’s Achievements in Science and Technology. Electronics Textbook, Zener diodes and reverse-breakdown voltage regulation: https://www.allaboutcircuits.com/textbook/semiconductors/chpt-3/zener-diodes/"
+    },
+    {
+      "id": "P1-MEM-20261113-08",
+      "paper": 1,
+      "topicId": "p1-06",
+      "topic": "Physical, Social and Economic Geography of India",
+      "subtopic": "Indian Ocean Dipole: positive-phase sea-surface-temperature pattern",
+      "difficulty": "moderate",
+      "stem": "Which sea-surface-temperature pattern characterises a positive phase of the Indian Ocean Dipole (IOD)?",
+      "options": [
+        "Warmer-than-normal western equatorial Indian Ocean and cooler-than-normal eastern equatorial Indian Ocean.",
+        "Cooler-than-normal western equatorial Indian Ocean and warmer-than-normal eastern equatorial Indian Ocean.",
+        "Simultaneous warming across the entire equatorial Indian Ocean with no east–west gradient.",
+        "A warm central Pacific and cool eastern Pacific, with no Indian Ocean anomaly."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. A positive IOD is characterised by warmer-than-normal sea-surface temperatures in the western tropical Indian Ocean and cooler-than-normal temperatures in the eastern tropical Indian Ocean.",
+        "This is the opposite east–west anomaly pattern, associated with a negative IOD.",
+        "A dipole requires an east–west contrast; uniform warming does not describe its positive phase.",
+        "This describes a Pacific Ocean pattern, not the Indian Ocean Dipole."
+      ],
+      "basis": "Official Paper I syllabus: Physical, Social and Economic Geography of India. India Meteorological Department, Indian Ocean Dipole description: https://mausam.imd.gov.in/event/innovation.php"
+    },
+    {
+      "id": "P2-MEM-20261113-07",
+      "paper": 2,
+      "topicId": "p2-07",
+      "topic": "Algorithms",
+      "subtopic": "Amortized analysis of stack MULTIPOP operations",
+      "difficulty": "moderate",
+      "stem": "An initially empty stack supports PUSH, POP and MULTIPOP. For any sequence of n such operations, what is the general upper bound on total work, and hence the amortized work per operation?",
+      "options": [
+        "O(n) total; O(1) amortized per operation.",
+        "O(n²) total; O(n) amortized per operation.",
+        "O(n log n) total; O(log n) amortized per operation.",
+        "O(1) total; O(1/n) amortized per operation."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Each element is pushed at most once and can be popped at most once, including through MULTIPOP, so the total number of stack-element operations is O(n).",
+        "A single MULTIPOP can cost O(n), but elements cannot be popped repeatedly after they have been removed; the whole sequence is not O(n²).",
+        "There is no necessary logarithmic factor: charging each pop to its earlier push gives a linear total bound.",
+        "A sequence containing n operations necessarily has at least linear total operation overhead; it cannot have O(1) total work."
+      ],
+      "basis": "Official Paper II syllabus: Algorithms; amortized analysis and worst-case time complexity. Princeton/Kleinberg–Tardos lecture notes, Multipop stack aggregate method: https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/AmortizedAnalysis.pdf"
+    },
+    {
+      "id": "P2-MEM-20261113-08",
+      "paper": 2,
+      "topicId": "p2-08",
+      "topic": "Theory of Computation",
+      "subtopic": "Nondeterministic PDA acceptance by final state versus empty stack",
+      "difficulty": "moderate",
+      "stem": "For nondeterministic pushdown automata (NPDAs), which statement about acceptance by final state and acceptance by empty stack is correct?",
+      "options": [
+        "Acceptance by empty stack is strictly more powerful.",
+        "Both modes recognise exactly the same class of languages; an equivalent NPDA can be constructed.",
+        "Acceptance by final state recognises only regular languages.",
+        "The two modes are equivalent only when the PDA has no epsilon-transitions."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Neither acceptance mode is more powerful for NPDAs; each can simulate the other.",
+        "Correct. For NPDAs, acceptance by final state and acceptance by empty stack are equivalent in language-recognition power.",
+        "Incorrect. NPDAs accepting by final state can recognise context-free languages, including non-regular ones.",
+        "Incorrect. The equivalence theorem does not require eliminating all epsilon-transitions from the original PDA."
+      ],
+      "basis": "Official Paper II syllabus: Theory of Computation; context-free languages and push-down automata. Columbia University, PDA acceptance modes: https://www.cs.columbia.edu/~aho/cs3261/Lectures/L8-PDA.html"
+    },
+    {
+      "id": "P2-MEM-20261113-09",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Safety of tuple relational calculus expressions",
+      "difficulty": "moderate",
+      "stem": "A tuple relational calculus (TRC) expression is syntactically valid but can return tuples containing values that occur in neither the database relations nor the constants referenced by the formula. What is the problem with this expression?",
+      "options": [
+        "It is unsafe because its result may be infinite or depend on values outside the active domain.",
+        "It is invalid because tuple relational calculus cannot use negation.",
+        "It violates first normal form because tuple variables contain attributes.",
+        "It is not relationally complete because it cannot be translated into SQL."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. An unsafe TRC expression can produce an infinite or domain-dependent result; a safe expression restricts result values to the domain of the formula.",
+        "TRC permits logical negation; safety restrictions address the range of values and finiteness, not a blanket ban on negation.",
+        "First normal form concerns relation attributes and values, not the safety condition for a TRC query expression.",
+        "Safe TRC has the same expressive power as relational algebra; the issue described is safety, not relational completeness."
+      ],
+      "basis": "Official Paper II syllabus: Databases; relational model and tuple relational calculus. Silberschatz, Korth and Sudarshan, Database System Concepts, Chapter 27, Safety of Expressions: https://codex.cs.yale.edu/avi/db-book/online-chapters-dir/27.pdf"
+    },
+    {
+      "id": "P2-MEM-20261113-10",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Digital signatures: private-key signing and public-key verification",
+      "difficulty": "standard",
+      "stem": "A sender digitally signs a document using its private key, and a recipient verifies the signature using the corresponding public key. Which security property is not supplied by the digital-signature operation alone?",
+      "options": [
+        "Integrity of the signed data.",
+        "Evidence supporting origin authentication.",
+        "Support for signer non-repudiation.",
+        "Confidentiality of the document contents."
+      ],
+      "answer": 3,
+      "explanations": [
+        "A valid digital signature supports integrity by allowing the recipient to detect alteration of the signed data.",
+        "A valid signature verified with the signer's trusted public key supports authentication of the signed origin.",
+        "Digital signatures provide support for signer non-repudiation, subject to sound key management and implementation.",
+        "Correct. A digital signature does not hide the document contents; confidentiality requires encryption or another confidentiality mechanism."
+      ],
+      "basis": "Official Paper II syllabus: Computer Networks; public/private key cryptography and digital signature. NIST CSRC, Digital Signature glossary: https://csrc.nist.gov/glossary/term/digital_signature"
+    },
+    {
+      "id": "P2-MEM-20261113-11",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "JSP JspContext.findAttribute scope-search order",
+      "difficulty": "moderate",
+      "stem": "In a JSP page, the same attribute name `theme` exists in request and session scope, but not in page scope. What does `pageContext.findAttribute(\"theme\")` return?",
+      "options": [
+        "The value from session scope, because session lasts longer.",
+        "The value from request scope, because it is searched before session scope.",
+        "The value from application scope, because it is global.",
+        "null, because findAttribute searches only page scope."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Incorrect. Session scope is searched after request scope, so it does not win when the name already exists in request scope.",
+        "Correct. JspContext.findAttribute searches page, request, session and application scopes in that order; request is the first matching scope here.",
+        "Incorrect. Application scope is searched after request and session scopes.",
+        "Incorrect. getAttribute(name) checks page scope only; findAttribute(name) searches all four scopes in order."
+      ],
+      "basis": "Official Paper II syllabus: Web Technologies; Servlets and JSP. Jakarta Server Pages API, JspContext.findAttribute method: https://jakarta.ee/specifications/pages/3.0/apidocs/jakarta/servlet/jsp/JspContext.html"
+    },
+    {
+      "id": "P2-MEM-20261113-12",
+      "paper": 2,
+      "topicId": "p2-16",
+      "topic": "Data Mining",
+      "subtopic": "DBSCAN core-point criterion and min_samples",
+      "difficulty": "moderate",
+      "stem": "A DBSCAN run uses `min_samples = 5`. Under the standard definition, how many samples must lie in a point's `eps`-neighbourhood for it to qualify as a core point?",
+      "options": [
+        "At least five samples, including the point itself.",
+        "At least five other samples, excluding the point itself.",
+        "Exactly five clusters must be within `eps`.",
+        "Any number, provided the point is closest to a centroid."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The DBSCAN core-sample definition counts the point itself as part of its `eps`-neighbourhood, so at least five samples in total are required here.",
+        "Incorrect. The point itself is included in the standard `min_samples` count.",
+        "Incorrect. `min_samples` is a neighbourhood sample count, not a count of clusters.",
+        "Incorrect. DBSCAN is density-based and does not assign points by distance to a centroid."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; clustering algorithms. Scikit-learn user guide, DBSCAN core-sample definition: https://scikit-learn.org/stable/modules/clustering.html#dbscan"
+    }
+  ]
+}
