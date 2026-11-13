@@ -40,7 +40,7 @@
 
 ## Primary references
 
-- Telangana Government, RARE / Kodangal Industrial Hub release, 7 November 2026: https://www.telangana.gov.in/news/press-releases/2026/11/
+- Telangana Government, RARE / Kodangal Industrial Hub release, 7 November 2026: https://www.telangana.gov.in/news/press-releases/2026/11/%E0%B0%95%E0%B1%8A%E0%B0%A1%E0%B0%82%E0%B0%97%E0%B0%B2%E0%B1%8D%E0%B0%A8%E0%B1%81-%E0%B0%AA%E0%B0%BE%E0%B0%B0%E0%B0%BF%E0%B0%B6%E0%B1%8D%E0%B0%B0%E0%B0%BE%E0%B0%AE%E0%B0%BF%E0%B0%95-%E0%B0%B9/
 - Jangaon District, Government of Telangana, History (Hyderabad State and Operation Polo): https://jangaon.telangana.gov.in/history/
 - Constitution of India, Article 46, Legislative Department, Government of India: https://www.legislative.gov.in/static/uploads/2025/07/359f70a69695affb9d72f8393102bd2e.pdf
 - Crowding out, NCERT Class XII, Government Budget and the Economy, SATHEE-IITK: https://sathee.iitk.ac.in/sathee-cuet/student-corner/ncert-books/class-12/economics/introductory-to-macroeconomics/chapter-05-government-budget-and-the-economy/
