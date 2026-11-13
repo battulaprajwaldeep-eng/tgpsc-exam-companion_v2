@@ -27399,6 +27399,236 @@
         "Incorrect. 4.0 is 1 ÷ (1 − confidence); that omits the factor 1 − support(Y) = 0.75."
       ],
       "basis": "Official Paper II syllabus: Data Mining; eGyanKosh, Data Mining Fundamentals and Frequent Pattern Mining, Unit 9, association-rule conviction formula https://egyankosh.ac.in/bitstream/123456789/89133/3/Unit-9.pdf"
+    },
+    {
+      "id": "P1-MEM-20261113-01",
+      "paper": 1,
+      "topicId": "p1-05",
+      "topic": "Economic and Social Development of India and Telangana",
+      "subtopic": "Crowding-out effect of deficit-financed government borrowing",
+      "difficulty": "moderate",
+      "stem": "A government finances a larger fiscal deficit by issuing additional bonds. If the supply of private savings does not increase, which outcome describes the standard crowding-out channel?",
+      "options": [
+        "Private investment may fall as government borrowing competes for available savings and pushes interest rates upward.",
+        "Private investment must rise because government bonds add directly to firms' retained earnings.",
+        "The fiscal deficit automatically turns into a current-account surplus.",
+        "Interest rates are forced to zero because government bonds are risk-free."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. In the standard crowding-out mechanism, additional government borrowing competes for available savings; upward pressure on interest rates can reduce private borrowing and investment.",
+        "Government bonds are liabilities issued to finance public borrowing; they do not automatically become firms' retained earnings.",
+        "A fiscal deficit and the current-account balance are different measures; one does not automatically determine the other.",
+        "Government borrowing does not force interest rates to zero; it may put upward pressure on rates when funds are constrained."
+      ],
+      "basis": "Official Paper I syllabus: Economic and Social Development of India and Telangana; NCERT Class XII Introductory Macroeconomics, Chapter 5, Government Budget and the Economy (crowding-out discussion), SATHEE-IITK: https://sathee.iitk.ac.in/sathee-cuet/student-corner/ncert-books/class-12/economics/introductory-to-macroeconomics/chapter-05-government-budget-and-the-economy/"
+    },
+    {
+      "id": "P1-MEM-20261113-02",
+      "paper": 1,
+      "topicId": "p1-09",
+      "topic": "Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state",
+      "subtopic": "Operation Polo and Hyderabad State integration in 1948",
+      "difficulty": "standard",
+      "stem": "Which codename is associated with the 1948 operation that led to Hyderabad State's integration into the Indian Union?",
+      "options": [
+        "Operation Vijay",
+        "Operation Polo",
+        "Operation Meghdoot",
+        "Operation Cactus"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Operation Vijay is associated with the 1961 liberation of Goa, not the 1948 integration of Hyderabad State.",
+        "Correct. Operation Polo is the codename associated with the 1948 action that brought Hyderabad State into the Indian Union.",
+        "Operation Meghdoot refers to the 1984 military operation in the Siachen Glacier region.",
+        "Operation Cactus refers to India's 1988 intervention in the Maldives."
+      ],
+      "basis": "Official Paper I syllabus: Socio-economic, Political and Cultural History of Telangana with special emphasis on Telangana Statehood Movement and formation of Telangana state; Jangaon District, Government of Telangana, History: https://jangaon.telangana.gov.in/history/"
+    },
+    {
+      "id": "P1-MEM-20261113-03",
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "subtopic": "National Commission for Backward Classes: Article 338B",
+      "difficulty": "standard",
+      "stem": "The National Commission for Backward Classes (NCBC) is provided for under which Article of the Constitution of India?",
+      "options": [
+        "Article 338",
+        "Article 338A",
+        "Article 338B",
+        "Article 340"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Article 338 provides for the National Commission for Scheduled Castes.",
+        "Article 338A provides for the National Commission for Scheduled Tribes.",
+        "Correct. Article 338B provides for the National Commission for Backward Classes; it was inserted by the Constitution (102nd Amendment) Act, 2018.",
+        "Article 340 empowers the President to appoint a commission to investigate the conditions of backward classes; it is not the article establishing the NCBC."
+      ],
+      "basis": "Official Paper I syllabus: Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies; Constitution of India, Article 338B, Legislative Department, Government of India (inserted by the 102nd Amendment Act, 2018): https://www.legislative.gov.in/static/uploads/2025/07/359f70a69695affb9d72f8393102bd2e.pdf"
+    },
+    {
+      "id": "P1-MEM-20261113-04",
+      "paper": 1,
+      "topicId": "p1-13",
+      "topic": "Policies of Telangana State",
+      "subtopic": "RARE initiative and Kodangal Industrial Hub (November 2026)",
+      "difficulty": "moderate",
+      "stem": "In the Telangana Government's November 2026 release, what does the RARE initiative stand for, and what is the stated focus of its Kodangal project?",
+      "options": [
+        "Regional Agriculture and Renewable Energy; establish a large solar park.",
+        "Rural Area Road Expansion; build a state-wide highway logistics terminal.",
+        "Rural Agriculture Region Economy; develop Kodangal as an industrial hub to attract investment and create local jobs.",
+        "River and Reservoir Enhancement; restore tanks and irrigation canals."
+      ],
+      "answer": 2,
+      "explanations": [
+        "The official release expands RARE as Rural Agriculture Region Economy; it does not describe the initiative as a solar-park programme.",
+        "The expansion is not Rural Area Road Expansion, and the cited Kodangal project is an industrial hub.",
+        "Correct. The State Portal identifies RARE as Rural Agriculture Region Economy and describes the Kodangal development as an industrial hub intended to attract investment and create local employment.",
+        "River and reservoir restoration is not the expansion or stated focus of the RARE/Kodangal announcement."
+      ],
+      "basis": "Official Paper I syllabus: Policies of Telangana State; Telangana State Portal, RARE Industrial Expo/Kodangal Industrial Hub release, 7 November 2026: https://www.telangana.gov.in/news/press-releases/2026/11/%E0%B0%95%E0%B1%8A%E0%B0%A1%E0%B0%82%E0%B0%97%E0%B0%B2%E0%B1%8D%E0%B0%A8%E0%B1%81%E0%B0%AA%E0%B0%BE%E0%B0%B0%E0%B0%BF%E0%B0%B6%E0%B0%BE%E0%B0%AE%E0%B0%BF%E0%B0%95-%E0%B0%B9/"
+    },
+    {
+      "id": "P2-MEM-20261113-01",
+      "paper": 2,
+      "topicId": "p2-01",
+      "topic": "Probability and Statistics",
+      "subtopic": "Continuous random variables: probability at a single point",
+      "difficulty": "standard",
+      "stem": "A continuous random variable X has a probability density function f(x), with f(2) = 0.4. What is P(X = 2)?",
+      "options": [
+        "0",
+        "0.4",
+        "0.8",
+        "It cannot be determined because f(2) is non-zero."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. For a continuous random variable, the probability at any single exact point is zero; probabilities are obtained by integrating the density over an interval.",
+        "The density value f(2) is not the probability that X equals 2.",
+        "A point probability is not twice the density value; a single point has zero interval width and therefore zero probability.",
+        "A non-zero density at 2 does not create a positive point probability. The probability at the point remains zero."
+      ],
+      "basis": "Official Paper II syllabus: Probability and Statistics; Carnegie Mellon University, Continuous Random Variables, proposition on point probabilities: https://www.math.cmu.edu/~gautam/c/2026-425/notes/cts-rvs.html"
+    },
+    {
+      "id": "P2-MEM-20261113-02",
+      "paper": 2,
+      "topicId": "p2-02",
+      "topic": "Set Theory & Algebra; Linear Algebra",
+      "subtopic": "Counting binary relations on a finite set",
+      "difficulty": "moderate",
+      "stem": "A set A contains 3 elements. How many different binary relations can be defined on A?",
+      "options": [
+        "9",
+        "64",
+        "512",
+        "729"
+      ],
+      "answer": 2,
+      "explanations": [
+        "Nine is the number of ordered pairs in A × A, not the number of possible relations.",
+        "Sixty-four counts the reflexive relations on a three-element set; the question allows every binary relation, including non-reflexive ones.",
+        "Correct. A binary relation is any subset of A × A. There are 3 × 3 = 9 ordered pairs, and each pair can independently be included or excluded, giving 2⁹ = 512 relations.",
+        "729 is 3⁶ and does not count the subsets of the nine possible ordered pairs."
+      ],
+      "basis": "Official Paper II syllabus: Set Theory & Algebra; Linear Algebra; Rosen, Discrete Mathematics and Its Applications, section on relations (a relation on A is a subset of A × A); independent count: 2^(3×3) = 512."
+    },
+    {
+      "id": "P2-MEM-20261113-03",
+      "paper": 2,
+      "topicId": "p2-03",
+      "topic": "Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",
+      "subtopic": "Ordinary generating function for the sequence a_n = n",
+      "difficulty": "moderate",
+      "stem": "For the sequence aₙ = n for n ≥ 0, which expression is its ordinary generating function A(x) = Σₙ≥₀ aₙxⁿ?",
+      "options": [
+        "x divided by (1 minus x) squared",
+        "1 divided by (1 minus x)",
+        "1 divided by (1 minus x) squared",
+        "x divided by (1 plus x) squared"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Differentiating 1/(1 − x) = Σₙ≥₀ xⁿ and multiplying by x gives Σₙ≥₀ n xⁿ = x/(1 − x)², for |x| < 1.",
+        "1/(1 − x) is the generating function for the constant sequence 1, 1, 1, …, not 0, 1, 2, 3, ….",
+        "1/(1 − x)² generates 1, 2, 3, 4, …; its coefficient of xⁿ is n + 1.",
+        "The plus sign produces an alternating-sign pattern and is not the generating function for aₙ = n."
+      ],
+      "basis": "Official Paper II syllabus: Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic; Rosen, Discrete Mathematics and Its Applications, generating functions; identity derived from the geometric series for |x| < 1."
+    },
+    {
+      "id": "P2-MEM-20261113-04",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Write-invalidate cache coherence in shared-memory multiprocessors",
+      "difficulty": "moderate",
+      "stem": "In a write-invalidate cache-coherence protocol, two processors hold the same cache block in the Shared state. Processor P1 wants to write to that block. Which action is required before P1 can safely modify its cached copy?",
+      "options": [
+        "P1 broadcasts an invalidation so other shared copies become invalid before P1 writes.",
+        "P1 writes locally while all other Shared copies remain valid.",
+        "P1 sends the updated data to every cache without invalidating any copy.",
+        "P1 discards its copy and waits for another processor to perform the write."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. A write-invalidate protocol invalidates other cached copies of the block so the writing processor can obtain exclusive write ownership and preserve coherence.",
+        "Leaving other Shared copies valid would allow processors to read stale data after P1 modifies its copy.",
+        "Sending updated data to all copies is a write-update approach, not a write-invalidate approach.",
+        "The protocol does not require the writer to wait for another processor; it requests ownership and invalidates other copies."
+      ],
+      "basis": "Official Paper II syllabus: Computer Organization and Architecture (multiprocessors and cache); Cornell University CS3410, Cache Coherency: https://www.cs.cornell.edu/courses/cs3410/2025fa/notes/cachecoherency.html; INFLIBNET e-content, Cache Coherence I: https://ebooks.inflibnet.ac.in/csp2/chapter/cache-coherence-i/"
+    },
+    {
+      "id": "P2-MEM-20261113-05",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Queue implemented with two stacks: amortized complexity",
+      "difficulty": "moderate",
+      "stem": "A FIFO queue is implemented using two stacks. Enqueue pushes onto an input stack; dequeue transfers all input items to an output stack only when the output stack is empty. What is the amortized time per queue operation over a sequence of m operations?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n²)"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Each item is pushed onto the input stack once, transferred to the output stack at most once, and popped once. Thus a sequence of m queue operations takes O(m) total time, or O(1) amortized per operation.",
+        "The implementation does not perform a logarithmic search or tree operation; stack operations are constant time.",
+        "A single dequeue can take O(n) when it transfers many items, but this is not the amortized cost per operation over the whole sequence.",
+        "Each item is moved only a constant number of times, so the total work is linear rather than quadratic."
+      ],
+      "basis": "Official Paper II syllabus: Programming and Data Structures; Cornell University CS312, Amortized Algorithms, queue using two stacks: https://www.cs.cornell.edu/courses/cs312/2007fa/lectures/lec20.html; Princeton COS 226, Stacks and Queues: https://www.cs.princeton.edu/courses/archive/spring21/cos226/lectures/study/13StacksAndQueues.html"
+    },
+    {
+      "id": "P2-MEM-20261113-06",
+      "paper": 2,
+      "topicId": "p2-10",
+      "topic": "Operating Systems",
+      "subtopic": "Paging: internal fragmentation in the final page",
+      "difficulty": "moderate",
+      "stem": "A process requires 10 KiB of memory and the operating system uses 4 KiB pages. If the process is allocated the minimum whole number of pages, how much space is wasted inside its allocated pages?",
+      "options": [
+        "2 KiB of internal fragmentation",
+        "2 KiB of external fragmentation",
+        "4 KiB of internal fragmentation",
+        "10 KiB of internal fragmentation"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Three pages allocate 12 KiB. The process uses 10 KiB, leaving 2 KiB unused inside its final allocated page; this is internal fragmentation.",
+        "The unused space is inside an allocated page, not a gap between separate free memory blocks; it is internal fragmentation.",
+        "The process needs three 4 KiB pages, so the allocated capacity is 12 KiB and the waste is 12 − 10 = 2 KiB, not 4 KiB.",
+        "The process uses 10 KiB of the 12 KiB allocated; only the remaining 2 KiB is unused."
+      ],
+      "basis": "Official Paper II syllabus: Operating Systems; INFLIBNET e-content, Memory Management – Paging I, section 21.2.3 Fragmentation: https://ebooks.inflibnet.ac.in/csp3/chapter/memory-management-paging-i/"
     }
   ],
   "qualityNote": "Batch 008 appended on 2026-11-08: exactly 100 original questions (40 Paper I, 60 Paper II), mapped to all 31 official topic IDs in study-data.json. Every item has four distinct options, a zero-based answer index, four option-specific explanations and a source/basis field. Exact normalized-stem comparison covered the complete 881-question pre-batch live bank and the candidate set; high-overlap candidates identified during screening were replaced before this final draft. Government and statutory facts use official sources identified in the batch artifact; technical items cite standard textbooks, specifications and RFCs. PR quality gates and deployment are tracked separately.\nMini-batch 2026-11-11: added 10 original syllabus-mapped MCQs (4 Paper I, 6 Paper II) and 10 recall cards with the same paper split. New MCQs use IDs P1-MEM-20261111-01..04 and P2-MEM-20261111-01..06. The complete pre-existing question set and card set were audited; no existing question records were modified.",
@@ -27406,9 +27636,9 @@
     "targetTotal": 3500,
     "targetPaper2": 2000,
     "targetPaper1": 1500,
-    "currentTotal": 1191,
-    "currentPaper2": 718,
-    "currentPaper1": 473,
+    "currentTotal": 1201,
+    "currentPaper2": 724,
+    "currentPaper1": 477,
     "status": "in_progress",
     "qualityGate": "Every added question must have a unique ID, official syllabus mapping, four options, a verified answer index, four option-specific explanations, and a difficulty label."
   }
