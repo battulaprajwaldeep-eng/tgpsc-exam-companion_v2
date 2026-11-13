@@ -24,9 +24,9 @@
 
 ## Content notes
 
-- Paper I: crowding-out effect in public finance; Operation Polo and Hyderabad State integration; Article 338B / NCBC; Telangana's RARE initiative and Kodangal Industrial Hub.
+- Paper I: crowding-out effect in public finance; Operation Polo and Hyderabad State integration; Article 46 and weaker sections; Telangana's RARE initiative and Kodangal Industrial Hub.
 - Paper II: point probability for continuous random variables; counting binary relations; ordinary generating functions; write-invalidate cache coherence; two-stack queue amortized complexity; paging internal fragmentation.
-- The constitutional commission item distinguishes NCBC Article 338B from the previously tested NCST Article 338A. The RARE/Kodangal item is separate from earlier Telangana scheme questions.
+- The Article 46 item tests the Directive Principle on educational and economic interests of weaker sections; it is distinct from the existing Article 39A free-legal-aid item. The RARE/Kodangal item is separate from earlier Telangana scheme questions.
 - All 10 MCQs use canonical topic IDs from `study-data.json`, four distinct options, a zero-based answer index and four option-specific explanations.
 - All 10 memory cards use the existing `p/t/hook/scene/trap/q/a` schema and preserve existing cards.
 
@@ -42,7 +42,7 @@
 
 - Telangana Government, RARE / Kodangal Industrial Hub release, 7 November 2026: https://www.telangana.gov.in/news/press-releases/2026/11/
 - Jangaon District, Government of Telangana, History (Hyderabad State and Operation Polo): https://jangaon.telangana.gov.in/history/
-- Constitution of India, Article 338B, Legislative Department, Government of India: https://www.legislative.gov.in/static/uploads/2025/07/359f70a69695affb9d72f8393102bd2e.pdf
+- Constitution of India, Article 46, Legislative Department, Government of India: https://www.legislative.gov.in/static/uploads/2025/07/359f70a69695affb9d72f8393102bd2e.pdf
 - Crowding out, NCERT Class XII, Government Budget and the Economy, SATHEE-IITK: https://sathee.iitk.ac.in/sathee-cuet/student-corner/ncert-books/class-12/economics/introductory-to-macroeconomics/chapter-05-government-budget-and-the-economy/
 - Continuous random variables, Carnegie Mellon University: https://www.math.cmu.edu/~gautam/c/2026-425/notes/cts-rvs.html
 - Relations and generating functions: Rosen, `Discrete Mathematics and Its Applications`.
