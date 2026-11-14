@@ -27,7 +27,7 @@
 | p2-15 | Java Object.wait and monitor ownership | Wait / notify / monitor-reacquisition sequence |
 | p2-16 | Closed versus maximal frequent itemsets | Definition and support-information comparison |
 
-Every card includes a concise hook, plain-English explanation/scene, a specific exam trap, and an active-recall question with answer. The topic-first card data remains in the existing expandable-card schema. The renderer supplies the Learn visual, while the existing Exam Traps, Practice and Quick Revision modes use each card's trap, recall question/answer and hook. Pagination remains six cards per page. All visuals are inline SVG with text captions; no remote image dependency was added.
+Every card includes a concise hook, plain-English explanation/scene, a specific exam trap, and an active-recall question with answer. The topic-first card data remains in the existing expandable-card schema. The renderer supplies the Learn visual, while the existing Exam Traps, Practice and Quick Revision modes use each card's trap, recall question/answer and hook. Pagination remains six cards per page. All visuals are inline SVG with text captions; no remote image dependency was added. Valid-card totals also ignore a pre-existing sparse array slot in the base card data; no existing card text was changed.
 
 ## MCQ quality and answer checks
 - Every question has four distinct options, a valid zero-based answer index, four option-specific explanations, difficulty, exact official topic ID/title, subtopic and source/basis.
