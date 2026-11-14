@@ -44,7 +44,12 @@ const attempted=new Set(s.attemptedIds),ids=new Set(),unused=bank.filter(q=>!att
 const p2Pool=unused.filter(q=>q.paper===2),p1Pool=unused.filter(q=>q.paper===1);
 const p2=selectBalanced(p2Pool,5),p1=selectBalanced(p1Pool,5);
 if(!p2.length&&!p1.length){save();alert("You have attempted every question currently available in normal practice. Use Revise mistakes for targeted repeat practice, or add more new questions to the bank.");return}
-session=[...p2,...p1];sessionMode="practice";s.sessionMode=sessionMode;s.answers={};s.activeSession=session.map(q=>q.id);s.currentIndex=0;i=0;save();draw();show("quiz")}
+// Preserve the 5+5 paper split when possible, then fill any shortfall
+// from the remaining unseen bank so a practice session reaches 10 questions.
+const chosenIds=new Set([...p2,...p1].map(q=>q.id));
+const remaining=unused.filter(q=>!chosenIds.has(q.id));
+const fill=selectBalanced(remaining,10-p2.length-p1.length);
+session=[...p2,...p1,...fill];sessionMode="practice";s.sessionMode=sessionMode;s.answers={};s.activeSession=session.map(q=>q.id);s.currentIndex=0;i=0;save();draw();show("quiz")}
 async function startTimedQuiz(){if(!await loadBank())return;
 if(Array.isArray(s.activeSession)&&s.activeSession.length){alert("You have an unfinished session. Continue or submit it before starting a timed test.");return}
 // Timed mocks are assessments, not first-attempt practice: reuse the full bank,
