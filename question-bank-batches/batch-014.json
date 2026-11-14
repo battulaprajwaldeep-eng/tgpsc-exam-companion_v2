@@ -1,0 +1,269 @@
+{
+  "batch": "014",
+  "date": "2026-11-14",
+  "status": "submitted-for-review",
+  "paperSplit": {
+    "paper1": 4,
+    "paper2": 6,
+    "total": 10
+  },
+  "difficultyCounts": {
+    "standard": 2,
+    "moderate": 5,
+    "advanced": 3
+  },
+  "preImportCounts": {
+    "total": 1191,
+    "paper1": 473,
+    "paper2": 718
+  },
+  "postImportCounts": {
+    "total": 1201,
+    "paper1": 477,
+    "paper2": 724
+  },
+  "topicCoverage": {
+    "p1-03": 1,
+    "p1-04": 1,
+    "p1-07": 1,
+    "p1-12": 1,
+    "p2-04": 1,
+    "p2-05": 1,
+    "p2-11": 1,
+    "p2-13": 1,
+    "p2-14": 1,
+    "p2-15": 1
+  },
+  "questions": [
+    {
+      "id": "P1-MEM-20261114-05",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "First law of thermodynamics; heat and work sign convention",
+      "difficulty": "standard",
+      "stem": "A gas in a piston-cylinder absorbs 500 J of heat and does 200 J of work on its surroundings. Using the convention that work done by the gas is positive, what is the change in its internal energy?",
+      "options": [
+        "700 J",
+        "300 J",
+        "−300 J",
+        "−700 J"
+      ],
+      "answer": 1,
+      "explanations": [
+        "The first-law convention here is ΔU = Q − W, so work done by the gas is subtracted: 500 − 200, not 500 + 200.",
+        "Correct. Heat added is +500 J and work done by the gas is +200 J, so ΔU = 500 − 200 = +300 J.",
+        "The sign is reversed. Because the gas receives more heat than the work it sends out, its internal energy increases.",
+        "This would imply a net loss of 700 J, but the gas receives 500 J and transfers only 200 J out as work."
+      ],
+      "basis": "Official Paper I syllabus — p1-03 General Science. OpenStax, University Physics Volume 2, §3.3, First Law of Thermodynamics: https://openstax.org/books/university-physics-volume-2/pages/3-3-first-law-of-thermodynamics"
+    },
+    {
+      "id": "P1-MEM-20261114-06",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "Kigali Amendment; hydrofluorocarbon phase-down",
+      "difficulty": "moderate",
+      "stem": "The Kigali Amendment to the Montreal Protocol adds a phasedown of which group of chemicals, which do not deplete stratospheric ozone but have high global-warming potential?",
+      "options": [
+        "Hydrofluorocarbons (HFCs)",
+        "Chlorofluorocarbons (CFCs)",
+        "Halons",
+        "Methyl bromide"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The Kigali Amendment adds a phasedown of HFC production and consumption; HFCs are not ozone-depleting but can have high global-warming potential.",
+        "CFCs are ozone-depleting substances already controlled under the Montreal Protocol; they are not the new chemical group added by Kigali.",
+        "Halons are ozone-depleting substances controlled under the Montreal Protocol, not the specific Kigali HFC phasedown target.",
+        "Methyl bromide is an ozone-depleting substance controlled under the Montreal Protocol, not the HFC group targeted by Kigali."
+      ],
+      "basis": "Official Paper I syllabus — p1-04 Environmental issues. Government of India, PMO, Cabinet approval for ratification of the Kigali Amendment: https://www.pmindia.gov.in/en/news_updates/cabinet-approves-ratification-of-kigali-amendment-to-the-montreal-protocol-on-substances-that-deplete-the-ozone-layer-for-phase-down-of-hydrofluorocarbons/"
+    },
+    {
+      "id": "P1-MEM-20261114-07",
+      "paper": 1,
+      "topicId": "p1-07",
+      "topic": "Physical, Social and Economic Geography and Demography of Telangana",
+      "subtopic": "Telangana natural vegetation; dry deciduous forests",
+      "difficulty": "standard",
+      "stem": "A field note describes Telangana's natural vegetation as largely deciduous, with teak and species of Terminalia, Pterocarpus and Anogeissus. Which broad forest type best matches the Telangana Forest Department's description?",
+      "options": [
+        "Tropical wet evergreen",
+        "Dry deciduous",
+        "Mangrove",
+        "Alpine coniferous"
+      ],
+      "answer": 1,
+      "explanations": [
+        "Evergreen forests retain dense foliage through the year and are not the broad type identified in the Telangana Forest Department description.",
+        "Correct. The State's vegetation is described as largely dry deciduous, with teak and the listed dry-forest genera.",
+        "Mangroves are tidal coastal or estuarine forests; Telangana is an inland Deccan state.",
+        "Alpine coniferous forests are associated with high mountain environments, not Telangana's broad natural vegetation."
+      ],
+      "basis": "Official Paper I syllabus — p1-07 Geography and Demography of Telangana. Telangana Government, Nirmal District Forest Department: https://nirmal.telangana.gov.in/forest-department/"
+    },
+    {
+      "id": "P1-MEM-20261114-08",
+      "paper": 1,
+      "topicId": "p1-12",
+      "topic": "Society, Culture, Heritage, Arts and Literature of Telangana",
+      "subtopic": "Telangana folk dance forms; Lambadi",
+      "difficulty": "moderate",
+      "stem": "A Telangana Tourism profile lists Lambadi among the popular dance forms of Narayanpet. Which option correctly identifies Lambadi in this cultural context?",
+      "options": [
+        "A folk dance form associated with Lambadi/Banjara communities",
+        "A scroll-painting tradition practised by Cheriyal artisans",
+        "A brass inlay craft centred on Pembarthi",
+        "A Kakatiya-era warrior dance known as Perini Sivatandavam"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Telangana Tourism lists Lambadi among Narayanpet's popular dance forms; it is associated with Lambadi/Banjara cultural traditions.",
+        "Cheriyal is known for narrative scroll painting, not the Lambadi dance form.",
+        "Pembarthi is associated with brassware and metal craft, not Lambadi dance.",
+        "Perini Sivatandavam is a distinct Kakatiya-era warrior dance tradition; it is not Lambadi."
+      ],
+      "basis": "Official Paper I syllabus — p1-12 Society, Culture, Heritage, Arts and Literature of Telangana. Telangana Tourism, Narayanpet destination profile: https://tourism.telangana.gov.in/destinations/narayanpet"
+    },
+    {
+      "id": "P2-MEM-20261114-07",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "JK flip-flop; race-around condition",
+      "difficulty": "advanced",
+      "stem": "A level-triggered JK flip-flop has J = K = 1, and the active clock pulse remains high longer than the flip-flop's propagation delay. Which behaviour describes the race-around condition?",
+      "options": [
+        "The output may toggle repeatedly during the same active clock pulse, making its final state uncertain.",
+        "The output changes exactly once at the leading clock edge, regardless of pulse width.",
+        "Both Q and Q̅ are forced high for the duration of the pulse.",
+        "The flip-flop becomes permanently insensitive to J and K after the first toggle."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. With J = K = 1, feedback can cause repeated toggling while a level-triggered clock remains active longer than the propagation delay; the final state may be ambiguous.",
+        "A single transition at a clock edge describes edge-triggered operation, not the race-around behaviour of a level-triggered JK flip-flop.",
+        "Q and Q̅ are complementary outputs; race-around does not force both outputs high.",
+        "The flip-flop does not become permanently disabled; the issue is repeated state changes within one active clock pulse."
+      ],
+      "basis": "Official Paper II syllabus — p2-04 Digital Logic. IIT Kharagpur Virtual Labs, Synthesis of Flip-Flops: https://coa-iitkgp.vlabs.ac.in/exp/synthesis-flip-flops/theory.html"
+    },
+    {
+      "id": "P2-MEM-20261114-08",
+      "paper": 2,
+      "topicId": "p2-05",
+      "topic": "Computer Organization and Architecture",
+      "subtopic": "Bus arbitration; centralized daisy-chain priority",
+      "difficulty": "moderate",
+      "stem": "In a centralized daisy-chain bus-arbitration scheme, two devices request the bus simultaneously. The bus-grant signal propagates serially from the arbiter through the devices. Which requester receives the grant first?",
+      "options": [
+        "The requesting device nearest to the arbiter in the grant chain",
+        "The requesting device farthest from the arbiter",
+        "The device with the largest memory capacity",
+        "The device that issued its request last"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The grant reaches the first device in the chain first; a requesting device captures it instead of passing it onward.",
+        "A farther device receives the grant only if all earlier devices pass it along.",
+        "Memory capacity does not determine priority in a daisy-chain arbitration scheme.",
+        "The scheme uses fixed physical priority, not last-requested or time-based priority."
+      ],
+      "basis": "Official Paper II syllabus — p2-05 Computer Organization and Architecture. Florida International University, Bus Arbitration: https://users.cs.fiu.edu/~downeyt/cda4101/x-arbiter.htm"
+    },
+    {
+      "id": "P2-MEM-20261114-09",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "View serializability; blind writes; precedence graph",
+      "difficulty": "advanced",
+      "stem": "Consider schedule S: r1(X), w2(X), w1(X), w3(X). Assume no transaction reads a value written by another transaction. Which statement is correct?",
+      "options": [
+        "S is view-serializable but not conflict-serializable.",
+        "S is conflict-serializable but not view-serializable.",
+        "S is neither view-serializable nor conflict-serializable.",
+        "S is both conflict-serializable and view-serializable."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. S is view-equivalent to serial order T1, T2, T3: T1 reads the initial value of X and T3 performs the final write. But the conflict graph contains T1→T2 (r1 before w2) and T2→T1 (w2 before w1), so it has a cycle.",
+        "The cycle T1→T2→T1 means the schedule is not conflict-serializable; conflict-serializable schedules are view-serializable, not the reverse in every case.",
+        "The schedule is view-equivalent to T1, T2, T3 because its read-from and final-write relationships match that serial order.",
+        "The precedence graph is cyclic, so the schedule cannot be conflict-serializable even though it is view-serializable."
+      ],
+      "basis": "Official Paper II syllabus — p2-11 Databases. IIT Kharagpur, Database System Concepts, Concurrency Control, View Serializability: https://cse.iitkgp.ac.in/~ksrao/pdf/dbms-23/ch18.pdf; Cornell CS4320 concurrency-control slides: https://www.cs.cornell.edu/courses/cs4320/2008fa/slides/20081031_cc.pdf"
+    },
+    {
+      "id": "P2-MEM-20261114-10",
+      "paper": 2,
+      "topicId": "p2-13",
+      "topic": "Computer Networks",
+      "subtopic": "Ethernet CSMA/CD; binary exponential backoff",
+      "difficulty": "moderate",
+      "stem": "In classic Ethernet's binary exponential backoff, a station has experienced three collisions on the same frame. Which range of integer slot counts may it choose for the next backoff?",
+      "options": [
+        "0 or 1 slot",
+        "0 through 3 slots",
+        "0 through 7 slots",
+        "0 through 15 slots"
+      ],
+      "answer": 2,
+      "explanations": [
+        "This is the range after the first collision, not the third.",
+        "This is the range after the second collision, not the third.",
+        "Correct. After the i-th collision, the station chooses K from 0 through 2^i − 1 (subject to the exponent cap); for i = 3, the range is 0 through 7.",
+        "0 through 15 is the range after the fourth collision, not the third."
+      ],
+      "basis": "Official Paper II syllabus — p2-13 Computer Networks. ANU Centre for Distance Education, Computer Networks, Ethernet and Binary Exponential Backoff: https://anucde.info/material/202MC24.pdf"
+    },
+    {
+      "id": "P2-MEM-20261114-11",
+      "paper": 2,
+      "topicId": "p2-14",
+      "topic": "Web Technologies",
+      "subtopic": "XML Schema; simple-type restriction and facets",
+      "difficulty": "moderate",
+      "stem": "An XML document must restrict an <age> element to an integer value from 18 through 60 inclusive. Which XML Schema Definition (XSD) mechanism expresses this numeric range constraint?",
+      "options": [
+        "An xs:simpleType restriction of xs:integer using xs:minInclusive and xs:maxInclusive facets",
+        "An xs:sequence compositor listing child elements in order",
+        "A DTD #PCDATA declaration, which automatically validates integer ranges",
+        "An xmlns:xs namespace declaration by itself"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. An XSD simple-type restriction can constrain an integer value with inclusive lower and upper facets such as xs:minInclusive and xs:maxInclusive.",
+        "xs:sequence controls the order and occurrence of child elements; it does not constrain an element's numeric value range.",
+        "#PCDATA declares parsed character data in a DTD; it does not provide this numeric range validation.",
+        "A namespace declaration associates a prefix with a namespace URI; it does not define datatype or value constraints."
+      ],
+      "basis": "Official Paper II syllabus — p2-14 Web Technologies. W3C XML Schema 1.1 Part 2: Datatypes: https://www.w3.org/TR/2012/REC-xmlschema11-2-20120405/; W3C XML Schema 1.1 Part 1: https://www.w3.org/TR/xmlschema11-1/"
+    },
+    {
+      "id": "P2-MEM-20261114-12",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "Java class initialization; superclass and instance initialization order",
+      "difficulty": "advanced",
+      "stem": "A Java program creates a Child object, where Child extends Parent. Assume neither class has been initialized, and each class has a static initialization block, an instance initialization block and a constructor that prints its class label. What is the order of the six labels?",
+      "options": [
+        "Parent static, Child static, Parent instance, Parent constructor, Child instance, Child constructor",
+        "Child static, Parent static, Child instance, Parent instance, Child constructor, Parent constructor",
+        "Parent instance, Parent constructor, Parent static, Child static, Child instance, Child constructor",
+        "Parent static, Parent instance, Child static, Child instance, Parent constructor, Child constructor"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. Class initialization runs the superclass before the subclass. During object construction, superclass instance initializers run before the superclass constructor; only after that do the subclass instance initializers and constructor run.",
+        "The superclass is initialized before the subclass, and the superclass constructor runs before subclass instance initialization; this order reverses both rules.",
+        "Static class initialization must occur before instance construction, so the parent instance block cannot run first.",
+        "The parent constructor body runs before the child instance initializers; the listed order incorrectly places the child static block after parent instance initialization."
+      ],
+      "basis": "Official Paper II syllabus — p2-15 OOPS Concepts, Programming in C++ and JAVA. Java Language Specification, Chapter 12, Execution (class initialization and instance creation): https://docs.oracle.com/javase/specs/jls/se7/html/jls-12.html"
+    }
+  ]
+}
