@@ -47,9 +47,11 @@ if(!p2.length&&!p1.length){save();alert("You have attempted every question curre
 session=[...p2,...p1];sessionMode="practice";s.sessionMode=sessionMode;s.answers={};s.activeSession=session.map(q=>q.id);s.currentIndex=0;i=0;save();draw();show("quiz")}
 async function startTimedQuiz(){if(!await loadBank())return;
 if(Array.isArray(s.activeSession)&&s.activeSession.length){alert("You have an unfinished session. Continue or submit it before starting a timed test.");return}
-const attempted=new Set(s.attemptedIds),ids=new Set(),unused=bank.filter(q=>!attempted.has(q.id)&&!ids.has(q.id)&&ids.add(q.id));
-const p2=selectBalanced(unused.filter(q=>q.paper===2),17),p1=selectBalanced(unused.filter(q=>q.paper===1),8);
-if(p2.length<17||p1.length<8){alert("A full 25-question timed set needs at least 17 unseen Paper II and 8 unseen Paper I questions. Add more questions to the bank or continue normal practice.");return}
+// Timed mocks are assessments, not first-attempt practice: reuse the full bank,
+// while keeping question IDs unique within this test. Normal practice stays unseen-only.
+const ids=new Set(),available=bank.filter(q=>q&&q.id!=null&&!ids.has(q.id)&&ids.add(q.id));
+const p2=selectBalanced(available.filter(q=>q.paper===2),17),p1=selectBalanced(available.filter(q=>q.paper===1),8);
+if(p2.length<17||p1.length<8){alert("The question bank needs at least 17 Paper II and 8 Paper I questions for a full timed test. Add questions to the bank and try again.");return}
 session=[...p2,...p1];sessionMode="timed";s.sessionMode=sessionMode;s.answers={};s.activeSession=session.map(q=>q.id);s.currentIndex=0;s.timedEndsAt=Date.now()+25*60*1000;i=0;save();draw();show("quiz");startQuizClock()}
 function startQuizClock(){if(quizTimerHandle)clearInterval(quizTimerHandle);const box=$("quizTimer");if(sessionMode!=="timed"){box.hidden=true;return}box.hidden=false;const tick=()=>{const remaining=Math.max(0,Number(s.timedEndsAt||0)-Date.now()),minutes=Math.floor(remaining/60000),seconds=Math.floor((remaining%60000)/1000);box.textContent="Timed test · "+String(minutes).padStart(2,"0")+":"+String(seconds).padStart(2,"0")+" remaining";if(remaining<=0){clearInterval(quizTimerHandle);quizTimerHandle=null;finish(true)}};tick();if(s.activeSession&&sessionMode==="timed")quizTimerHandle=setInterval(tick,1000)}
 async function startRevision(){if(!await loadBank())return;const missed=new Set(s.flaggedQuestions||[]);(s.history||[]).forEach(r=>(r.review||[]).forEach(q=>{if(q.selected!==undefined&&q.selected!==q.answer)missed.add(q.id)}));const qs=[...missed].map(id=>bank.find(q=>q.id===id)).filter(Boolean).slice(0,10);if(!qs.length){alert("No recorded mistakes to revise yet. Complete a practice session first.");return}session=qs;sessionMode="revision";s.sessionMode=sessionMode;s.answers={};s.activeSession=session.map(q=>q.id);s.currentIndex=0;i=0;save();draw();show("quiz")}
