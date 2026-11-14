@@ -1,0 +1,259 @@
+{
+  "batch": "015",
+  "status": "proposed",
+  "createdOn": "2026-11-14",
+  "paperSplit": {
+    "paper1": 4,
+    "paper2": 6
+  },
+  "difficultyCounts": {
+    "standard": 2,
+    "moderate": 4,
+    "advanced": 4
+  },
+  "topicCoverage": {
+    "p1-01": 1,
+    "p1-03": 1,
+    "p1-04": 1,
+    "p1-11": 1,
+    "p2-04": 1,
+    "p2-06": 1,
+    "p2-11": 1,
+    "p2-12": 1,
+    "p2-15": 1,
+    "p2-16": 1
+  },
+  "sourceNote": "All questions are mapped to the official syllabus and include four distinct options, a zero-based answer index, four option-specific explanations, difficulty, and a source/basis.",
+  "questions": [
+    {
+      "id": "P1-MEM-20261114-09",
+      "paper": 1,
+      "topicId": "p1-01",
+      "topic": "Current affairs – Regional, National and International",
+      "subtopic": "International Year of Rangelands and Pastoralists 2026",
+      "difficulty": "standard",
+      "stem": "For the United Nations' 2026 International Year of Rangelands and Pastoralists (IYRP), which organisation was designated as the lead agency for the observance?",
+      "options": [
+        "Food and Agriculture Organization (FAO)",
+        "United Nations Environment Programme (UNEP)",
+        "International Fund for Agricultural Development (IFAD)",
+        "United Nations Development Programme (UNDP)"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The UN General Assembly declared 2026 the IYRP, and FAO is the lead agency coordinating the observance with partners.",
+        "UNEP works on environmental matters, but FAO was designated as the lead agency for IYRP 2026.",
+        "IFAD supports rural development and investment, but it is not the designated lead agency for this observance.",
+        "UNDP leads broader development work, but the IYRP lead-agency role belongs to FAO."
+      ],
+      "basis": "Official Paper I syllabus: Current affairs – Regional, National and International; FAO, International Year of Rangelands and Pastoralists 2026; UNGA Resolution A/RES/76/253; https://www.fao.org/rangelands-pastoralists-2026/about/"
+    },
+    {
+      "id": "P1-MEM-20261114-10",
+      "paper": 1,
+      "topicId": "p1-03",
+      "topic": "General Science; India’s Achievements in Science and Technology",
+      "subtopic": "Aditya-L1 halo orbit around Sun–Earth L1",
+      "difficulty": "moderate",
+      "stem": "Why is Aditya-L1 placed in a halo orbit around the Sun–Earth L1 point for its solar-observation mission?",
+      "options": [
+        "It enables a continuous view of the Sun without occultation or eclipses by Earth.",
+        "It places the spacecraft inside Earth's atmosphere to sample auroras directly.",
+        "L1 is a point where all gravitational forces become zero, so the spacecraft can remain motionless.",
+        "It places the spacecraft between Earth and the Moon to monitor lunar tides."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. ISRO identifies the uninterrupted view of the Sun, without occultation or eclipses, as a major advantage of the L1 halo orbit.",
+        "L1 is far outside Earth's atmosphere; Aditya-L1 studies the Sun and space weather from a space-based vantage point.",
+        "L1 is a gravitational balance region in the rotating Sun–Earth system, not a location with zero gravity or a motionless spacecraft.",
+        "Aditya-L1 operates around the Sun–Earth L1 point, not between Earth and the Moon."
+      ],
+      "basis": "Official Paper I syllabus: General Science; India’s Achievements in Science and Technology; ISRO, Aditya-L1 mission; https://www.isro.gov.in/Aditya_L1.html"
+    },
+    {
+      "id": "P1-MEM-20261114-11",
+      "paper": 1,
+      "topicId": "p1-04",
+      "topic": "Environmental issues; Disaster Management – Prevention and Mitigation Strategies",
+      "subtopic": "IMD heat-wave criteria for plains",
+      "difficulty": "moderate",
+      "stem": "For a plains station that has reached the IMD minimum absolute-temperature condition of at least 40°C, what departure from normal defines a severe heat wave under the departure-based criterion?",
+      "options": [
+        "2.5°C to 4.4°C",
+        "4.5°C to 6.4°C",
+        "At least 6.5°C",
+        "At least 10°C only when the maximum temperature is 50°C"
+      ],
+      "answer": 2,
+      "explanations": [
+        "This range does not meet the IMD severe category; it is below the departure threshold for a heat wave.",
+        "A departure of 4.5°C to 6.4°C meets the heat-wave category, but not the severe heat-wave category.",
+        "Correct. For plains stations meeting the minimum absolute-temperature condition, a departure of at least 6.5°C is classified as a severe heat wave.",
+        "The IMD does not require a 10°C departure or a 50°C maximum for this departure-based severe category."
+      ],
+      "basis": "Official Paper I syllabus: Environmental issues; Disaster Management – Prevention and Mitigation Strategies; India Meteorological Department, definition/criteria table, 23 October 2024; https://internal.imd.gov.in/press_release/20241023_pr_3356.pdf"
+    },
+    {
+      "id": "P1-MEM-20261114-12",
+      "paper": 1,
+      "topicId": "p1-11",
+      "topic": "Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies",
+      "subtopic": "103rd Constitutional Amendment: EWS provisions",
+      "difficulty": "standard",
+      "stem": "The Constitution (One Hundred and Third Amendment) Act, 2019 inserted which clauses to enable special provisions and reservation for Economically Weaker Sections (EWS)?",
+      "options": [
+        "Articles 15(6) and 16(6)",
+        "Articles 15(4) and 16(4)",
+        "Articles 21A and 45",
+        "Articles 243D and 243T"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. The 103rd Amendment inserted Article 15(6) for special provisions including education and Article 16(6) for reservation in public employment for EWS.",
+        "Articles 15(4) and 16(4) concern advancement/reservation for socially and educationally backward classes and SC/ST-related provisions, not the EWS clauses inserted by the 103rd Amendment.",
+        "Article 21A concerns the right to education for children, while Article 45 is a Directive Principle on early childhood care and education.",
+        "Articles 243D and 243T concern reservation in Panchayats and Municipalities, respectively."
+      ],
+      "basis": "Official Paper I syllabus: Social Exclusion; Rights issues and inclusive policies; Constitution (103rd Amendment) Act, 2019; PIB, Ministry of Social Justice and Empowerment, 9 July 2019; https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=1577969"
+    },
+    {
+      "id": "P2-MEM-20261114-13",
+      "paper": 2,
+      "topicId": "p2-04",
+      "topic": "Digital Logic",
+      "subtopic": "Asynchronous versus synchronous reset",
+      "difficulty": "moderate",
+      "stem": "A D flip-flop has an active-low asynchronous reset. The reset is asserted while the clock is stopped. What should happen to the output Q?",
+      "options": [
+        "Q changes only on the next active clock edge.",
+        "Q is forced to its reset state without waiting for a clock edge.",
+        "Q toggles once because the reset acts as a clock pulse.",
+        "Q becomes high-impedance until the clock restarts."
+      ],
+      "answer": 1,
+      "explanations": [
+        "That describes a synchronous reset, whose effect is sampled at an active clock edge.",
+        "Correct. An asserted asynchronous reset acts independently of the clock and forces the flip-flop to its reset state.",
+        "A reset is not a clock pulse and does not toggle the stored state.",
+        "A reset does not place the flip-flop output in a high-impedance state."
+      ],
+      "basis": "Official Paper II syllabus: Digital Logic; NPTEL, Digital Electronic Circuits, IIT Kharagpur, counter design with asynchronous reset/preset; https://www.nptel.ac.in/courses/108105132"
+    },
+    {
+      "id": "P2-MEM-20261114-14",
+      "paper": 2,
+      "topicId": "p2-06",
+      "topic": "Programming and Data Structures",
+      "subtopic": "Signed overflow and unsigned wraparound in C",
+      "difficulty": "advanced",
+      "stem": "In standard C, an ordinary `int` expression overflows, while an `unsigned int` expression exceeds its maximum. Which statement is correct?",
+      "options": [
+        "Both are defined to wrap modulo the type's range.",
+        "Signed overflow is undefined behavior; unsigned arithmetic is reduced modulo one more than its maximum representable value.",
+        "Signed overflow saturates at the maximum value; unsigned overflow is undefined.",
+        "Both cases must raise a hardware exception."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Unsigned arithmetic wraps modulo the type's range, but standard signed integer overflow is not defined to wrap.",
+        "Correct. A signed result outside the representable range has undefined behavior; unsigned arithmetic is defined modulo one more than the type's maximum value.",
+        "C does not generally define signed overflow as saturating, and unsigned overflow is defined rather than undefined.",
+        "The C language does not require a hardware exception for either case."
+      ],
+      "basis": "Official Paper II syllabus: Programming and Data Structures; ISO/IEC WG14 C11 draft N1570, integer arithmetic rules; SEI CERT C INT32-C; https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf ; https://cmu-sei.github.io/secure-coding-standards/sei-cert-c-coding-standard/rules/integers-int/int32-c/"
+    },
+    {
+      "id": "P2-MEM-20261114-15",
+      "paper": 2,
+      "topicId": "p2-11",
+      "topic": "Databases",
+      "subtopic": "Phantom reads in transaction isolation",
+      "difficulty": "moderate",
+      "stem": "Transaction T1 runs the same predicate query twice. Between the executions, T2 inserts and commits a new row that satisfies the predicate. The new row appears in T1's second result. Which anomaly is illustrated?",
+      "options": [
+        "Dirty read",
+        "Non-repeatable read",
+        "Phantom read",
+        "Lost update"
+      ],
+      "answer": 2,
+      "explanations": [
+        "A dirty read occurs when a transaction reads data written by another transaction before that write is committed; T2 has committed here.",
+        "A non-repeatable read changes the value of an existing row that is read again; this scenario changes the set of rows matching a predicate.",
+        "Correct. A phantom read occurs when re-executing a predicate query returns a changed set of rows because another transaction committed a matching row.",
+        "A lost update occurs when one transaction's write is overwritten by another; no update is lost in this scenario."
+      ],
+      "basis": "Official Paper II syllabus: Databases; PostgreSQL 18 documentation, Transaction Isolation, SQL-standard definition of phantom read; https://www.postgresql.org/docs/18/transaction-iso.html"
+    },
+    {
+      "id": "P2-MEM-20261114-16",
+      "paper": 2,
+      "topicId": "p2-12",
+      "topic": "Information Systems and Software Engineering",
+      "subtopic": "UML shared aggregation versus composition",
+      "difficulty": "advanced",
+      "stem": "In UML, which rule distinguishes composite aggregation (composition) from shared aggregation?",
+      "options": [
+        "A part may belong to several composite objects at the same time.",
+        "The composite is responsible for its parts; a part may belong to at most one composite at a time and is deleted with it if still contained.",
+        "Shared aggregation always enforces the same part-lifecycle rule as composition.",
+        "Composition differs from association only by the direction of its arrow."
+      ],
+      "answer": 1,
+      "explanations": [
+        "A part object may be included in at most one composite object at a time, so this statement contradicts composite aggregation.",
+        "Correct. UML defines composite aggregation as a strong form in which the composite is responsible for the existence and storage of its parts; a contained part is deleted with the composite unless it is removed first.",
+        "The UML specification says the precise semantics of shared aggregation vary by application area and modeler; it does not impose composition's lifecycle rule.",
+        "Composition is a form of aggregation with stronger part-ownership/lifecycle semantics, not merely a different arrow direction."
+      ],
+      "basis": "Official Paper II syllabus: Information Systems and Software Engineering; OMG UML 2.5.1, §9.5.3, AggregationKind semantics; https://www.omg.org/spec/UML/2.5.1/PDF"
+    },
+    {
+      "id": "P2-MEM-20261114-17",
+      "paper": 2,
+      "topicId": "p2-15",
+      "topic": "OOPS Concepts, Programming in C++ and JAVA",
+      "subtopic": "Java Object.wait and monitor ownership",
+      "difficulty": "advanced",
+      "stem": "A Java thread calls `obj.wait()` while holding `obj`'s monitor. Which statement correctly describes what happens next?",
+      "options": [
+        "It releases `obj`'s monitor while waiting and must reacquire it before `wait()` returns.",
+        "It releases every monitor currently held by the thread.",
+        "It immediately transfers the monitor to the thread selected by `notify()`.",
+        "It can call `wait()` without owning `obj`'s monitor."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. `wait()` places the thread in the object's wait set and releases that object's monitor; the thread must reacquire the monitor before it resumes after the wait.",
+        "`wait()` releases only the monitor of the object on which it is called; other monitors held by the thread remain held.",
+        "`notify()` wakes a waiting thread but does not immediately transfer the monitor; the notifying thread must relinquish it before the awakened thread can reacquire it.",
+        "The current thread must own the object's monitor; otherwise `wait()` throws `IllegalMonitorStateException`."
+      ],
+      "basis": "Official Paper II syllabus: OOPS Concepts, Programming in C++ and JAVA; Oracle Java SE 8 API, java.lang.Object wait/notify; https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html"
+    },
+    {
+      "id": "P2-MEM-20261114-18",
+      "paper": 2,
+      "topicId": "p2-16",
+      "topic": "Data Mining",
+      "subtopic": "Closed versus maximal frequent itemsets",
+      "difficulty": "advanced",
+      "stem": "A frequent itemset X has no proper superset with the same support count, but some proper superset of X is also frequent with a lower support count. How should X be classified?",
+      "options": [
+        "Closed but not maximal",
+        "Maximal but not closed",
+        "Neither closed nor frequent",
+        "Both maximal and closed"
+      ],
+      "answer": 0,
+      "explanations": [
+        "Correct. X is closed because no proper superset has the same support; it is not maximal because at least one proper superset is still frequent.",
+        "A maximal frequent itemset has no frequent proper superset, which is not true in this scenario.",
+        "X is explicitly frequent and satisfies the definition of closed, so this option is false.",
+        "The frequent proper superset means X is not maximal, even though it is closed."
+      ],
+      "basis": "Official Paper II syllabus: Data Mining; LMU Munich, Knowledge Discovery and Data Mining 1, frequent-pattern mining lecture notes, pp. 161–162; Han, Kamber and Pei, Data Mining: Concepts and Techniques, 3rd ed.; https://www.dbs.ifi.lmu.de/Lehre/KDD/WS1920/lecture_notes/KDD1_IV_III_1.pdf"
+    }
+  ]
+}
