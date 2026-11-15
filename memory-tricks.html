@@ -212,11 +212,72 @@ const arrows=labels.slice(0,-1).map((v,i)=>{const xx=offset+(i+1)*widths+i*gap;r
 return '<div class="concept-map" role="img" aria-label="'+esc(title)+': '+esc(labels.join(' then '))+'"><span class="section-label">'+esc(title)+'</span><svg viewBox="0 0 720 116" xmlns="http://www.w3.org/2000/svg">'+arrows+boxes+'</svg><p>'+esc(note)+'</p></div>'
 }
 const topicNames={"P1-01":"Current Affairs","P1-02":"International Relations","P1-03":"General Science","P1-04":"Environment & Disaster Management","P1-05":"Economy & Social Development","P1-06":"India Geography","P1-07":"Telangana Geography","P1-08":"Modern Indian History","P1-09":"Telangana History & Statehood","P1-10":"Constitution & Governance","P1-11":"Social Inclusion & Rights","P1-12":"Telangana Culture & Heritage","P1-13":"Telangana Policies","P1-14":"Reasoning & Data Interpretation","P1-15":"Basic English","P2-01":"Probability & Statistics","P2-02":"Set Theory & Linear Algebra","P2-03":"Discrete Maths & Graph Theory","P2-04":"Digital Logic","P2-05":"Computer Organization","P2-06":"Programming & Data Structures","P2-07":"Algorithms","P2-08":"Theory of Computation","P2-09":"Compiler Design","P2-10":"Operating Systems","P2-11":"Databases","P2-12":"Software Engineering","P2-13":"Computer Networks","P2-14":"Web Technologies","P2-15":"OOP · C++ · Java","P2-16":"Data Mining"};
-function topicKey(x){const m=x.t.match(/P[12]-\d{2}/i);if(m)return m[0].toUpperCase();const first=x.t.split("·")[0].trim();return (x.p===1?"P1 · ":"P2 · ")+first}
+function topicKey(x){
+const s=x.t.toLowerCase();
+const rules=[
+["P2-10",/operating systems|process states|cpu scheduling|page replacement|deadlock/],
+["P2-11",/dbms|database|sql|normaliz|acid|transaction|er diagram/],
+["P2-13",/computer networks|network|subnet|tcp|udp|osi|dns|routing/],
+["P2-09",/compiler|lexical|parsing|syntax tree/],
+["P2-04",/digital logic|boolean|logic gate|flip.flop|k.map/],
+["P2-05",/computer organization|computer architecture|cache|instruction pipeline/],
+["P2-03",/graph theory|discrete math|bfs|dfs|vertex|edge|set theory|relation/],
+["P2-01",/probability|statistics|mean|median|variance/],
+["P2-07",/algorithm|sorting|searching|complexity|dynamic programming|greedy/],
+["P2-08",/theory of computation|automata|dfa|nfa|turing|regular language/],
+["P2-06",/programming|data structure|array|pointer|linked list|stack|queue|tree/],
+["P2-12",/software engineering|information systems|software process|testing|requirement/],
+["P2-14",/web technolog|html|css|javascript|http/],
+["P2-15",/oop|object.oriented|c\+\+|java|inheritance|polymorphism/],
+["P2-16",/data mining|classification|clustering|association rule/],
+["P2-02",/linear algebra|matrix|vector|determinant|set theory/],
+["P1-01",/current affairs/],
+["P1-02",/international relations/],
+["P1-03",/general science|science and technology/],
+["P1-04",/environment|disaster/],
+["P1-05",/economic|social development|economy/],
+["P1-06",/india geography|geography of india/],
+["P1-07",/telangana geography/],
+["P1-08",/modern indian history|national movement/],
+["P1-09",/telangana history|statehood/],
+["P1-10",/constitution|polity|governance/],
+["P1-11",/social inclusion|social exclusion|rights/],
+["P1-12",/telangana culture|heritage|arts|literature/],
+["P1-13",/telangana polic/],
+["P1-14",/reasoning|data interpretation/],
+["P1-15",/basic english|english grammar/]
+];
+for(const [k,re] of rules)if(re.test(s))return k;
+return x.p===1?"P1-15":"P2-06";
+}
 function topicName(key){return topicNames[key]||key.replace(/^P[12] · /,"")}
 function topicEmoji(key){const s=(key+" "+topicName(key)).toLowerCase();if(/operating|computer organization|digital logic|programming/.test(s))return "⚙️";if(/network/.test(s))return "🌐";if(/graph|discrete|algorithm/.test(s))return "🕸️";if(/database/.test(s))return "🗄️";if(/constitution|rights|governance/.test(s))return "⚖️";if(/history|culture|international|current affairs/.test(s))return "📚";if(/probability|statistics|reasoning|data interpretation/.test(s))return "🧮";if(/compiler|computation|web|software/.test(s))return "💻";return "📘"}
 function cardMarkup(x,i){const body=mode==="quick"?'<div class="quick-hook">'+esc(x.hook)+'</div>':mode==="traps"?'<div class="trap"><span class="section-label">Exam trap · avoid this mistake</span><b>'+esc(x.trap)+'</b></div>':mode==="practice"?'<div class="practice-box"><span class="section-label">Attempt before revealing</span><p><b>'+esc(x.q)+'</b></p><details><summary>Show answer and explanation</summary><p>'+esc(x.a)+'</p></details></div><div class="trap"><span class="section-label">Common exam confusion</span><b>'+esc(x.trap)+'</b></div>':'<div class="glance"><span class="glance-label">Remember this</span><p class="hook">'+esc(x.hook)+'</p></div>'+conceptMap(x)+'<div class="picture"><span class="picture-icon" aria-hidden="true">'+visualIcon(x)+'</span><div><span class="section-label">Picture it</span><p>'+esc(x.scene)+'</p></div></div><div class="trap"><span class="section-label">Exam trap</span><b>'+esc(x.trap)+'</b></div><details class="recall"><summary>Test yourself · reveal question</summary><p><b>'+esc(x.q)+'</b></p><button type="button" aria-expanded="false" onclick="reveal(this)">Reveal answer and explanation</button><div class="answer">'+esc(x.a)+'</div></details>';return '<details class="memory-item"><summary class="memory-summary"><span class="topic-icon">'+topicEmoji(topicKey(x))+'</span><span><strong>'+esc(x.t.split("·").slice(-1)[0].trim())+'</strong><small>Paper '+x.p+' · '+(mode==="quick"?"Memory hook":mode==="traps"?"Exam trap":mode==="practice"?"Recall question":"Visual explanation")+'</small></span></summary><div class="memory-body">'+body+'</div></details>'}
-function render(){const term=document.getElementById("search").value.toLowerCase().trim();const rows=data.filter(x=>(filter==="all"||String(x.p)===filter)&&(x.t+" "+x.hook+" "+x.scene+" "+x.trap+" "+x.q+" "+x.a).toLowerCase().includes(term));document.getElementById("count").textContent=rows.length+" of "+data.length+" cards";document.getElementById("total-count").textContent=data.length;document.getElementById("paper2-count").textContent=data.filter(x=>x.p===2).length;document.getElementById("paper1-count").textContent=data.filter(x=>x.p===1).length;document.getElementById("mode-help").textContent=({learn:"Learn: open a card for its visual explanation, memory hook and exam trap.",traps:"Exam traps: scan common confusions topic by topic.",practice:"Practice: attempt each recall question before revealing its explanation.",quick:"Quick revise: scan short hooks without opening full explanations."})[mode];const groups=new Map();rows.forEach(x=>{const k=topicKey(x);if(!groups.has(k))groups.set(k,[]);groups.get(k).push(x)});const browser=document.getElementById("topic-browser");if(activeTopic&&!groups.has(activeTopic))activeTopic=null;if(!activeTopic){browser.innerHTML='<div class="topic-heading"><h3>Browse by syllabus topic</h3><span class="muted">'+groups.size+' topics · '+rows.length+' cards</span></div><div class="topic-grid">'+Array.from(groups.entries()).map(([k,v])=>'<button class="topic-tile" type="button" onclick="openTopic(\''+esc(k).replace(/'/g,"\\'")+'\')"><strong>'+topicEmoji(k)+' '+esc(topicName(k))+'</strong><span>Paper '+v[0].p+' · '+v.length+' '+(v.length===1?"card":"cards")+'</span></button>').join("")+'</div>';document.getElementById("cards").innerHTML="";return}const items=groups.get(activeTopic)||[];const pages=Math.max(1,Math.ceil(items.length/PAGE_SIZE));topicPage=Math.min(topicPage,pages-1);const shown=items.slice(topicPage*PAGE_SIZE,(topicPage+1)*PAGE_SIZE);browser.innerHTML='<div class="library-back"><button type="button" onclick="backToTopics()">← All topics</button></div><div class="topic-heading"><div><h3>'+topicEmoji(activeTopic)+' '+esc(topicName(activeTopic))+'</h3><span class="muted">Paper '+items[0].p+' · '+items.length+' cards</span></div><span class="pill">'+(topicPage+1)+' / '+pages+'</span></div>';document.getElementById("cards").innerHTML='<div class="topic-list">'+shown.map((x,i)=>cardMarkup(x,topicPage*PAGE_SIZE+i)).join("")+'</div>'+(pages>1?'<div class="topic-pager"><button type="button" '+(topicPage===0?"disabled":"")+' onclick="changeTopicPage(-1)">← Previous</button><span class="muted">Cards '+(topicPage*PAGE_SIZE+1)+'–'+Math.min((topicPage+1)*PAGE_SIZE,items.length)+' of '+items.length+'</span><button type="button" '+(topicPage===pages-1?"disabled":"")+' onclick="changeTopicPage(1)">Next →</button></div>':"")}
+function render(){
+const term=document.getElementById("search").value.toLowerCase().trim();
+const rows=data.filter(x=>(filter==="all"||String(x.p)===filter)&&(x.t+" "+x.hook+" "+x.scene+" "+x.trap+" "+x.q+" "+x.a).toLowerCase().includes(term));
+document.getElementById("count").textContent=rows.length+" of "+data.length+" cards";
+document.getElementById("total-count").textContent=data.length;
+document.getElementById("paper2-count").textContent=data.filter(x=>x.p===2).length;
+document.getElementById("paper1-count").textContent=data.filter(x=>x.p===1).length;
+document.getElementById("mode-help").textContent=({learn:"Learn: open a card for its visual explanation, memory hook and exam trap.",traps:"Exam traps: scan common confusions topic by topic.",practice:"Practice: attempt each recall question before revealing its explanation.",quick:"Quick revise: scan short hooks without opening full explanations."})[mode];
+const groups=new Map(Object.keys(topicNames).map(k=>[k,[]]));
+rows.forEach(x=>groups.get(topicKey(x)).push(x));
+const browser=document.getElementById("topic-browser");
+if(activeTopic&&!groups.has(activeTopic))activeTopic=null;
+if(!activeTopic){
+const visible=Array.from(groups.entries()).filter(([k,v])=>filter==="all"||k.startsWith("P"+filter+"-"));
+browser.innerHTML='<div class="topic-heading"><h3>All official syllabus topics</h3><span class="muted">31 topics · '+rows.length+' matching cards</span></div><div class="topic-grid">'+visible.map(([k,v])=>'<button class="topic-tile" type="button" onclick="openTopic(\''+k+'\')"><strong>'+topicEmoji(k)+' '+esc(topicName(k))+'</strong><span>Paper '+k[1]+' · '+v.length+' '+(v.length===1?"card":"cards")+(v.length?"":" · Cards coming soon")+'</span></button>').join("")+'</div>';
+document.getElementById("cards").innerHTML="";
+return;
+}
+const items=groups.get(activeTopic)||[];
+const pages=Math.max(1,Math.ceil(items.length/PAGE_SIZE));
+topicPage=Math.min(topicPage,pages-1);
+const shown=items.slice(topicPage*PAGE_SIZE,(topicPage+1)*PAGE_SIZE);
+browser.innerHTML='<div class="library-back"><button type="button" onclick="backToTopics()">← All topics</button></div><div class="topic-heading"><div><h3>'+topicEmoji(activeTopic)+' '+esc(topicName(activeTopic))+'</h3><span class="muted">Paper '+activeTopic[1]+' · '+items.length+' cards</span></div><span class="pill">'+(topicPage+1)+' / '+pages+'</span></div>';
+document.getElementById("cards").innerHTML=items.length?'<div class="topic-list">'+shown.map((x,i)=>cardMarkup(x,topicPage*PAGE_SIZE+i)).join("")+'</div>'+(pages>1?'<div class="topic-pager"><button type="button" '+(topicPage===0?"disabled":"")+' onclick="changeTopicPage(-1)">← Previous</button><span class="muted">Cards '+(topicPage*PAGE_SIZE+1)+'–'+Math.min((topicPage+1)*PAGE_SIZE,items.length)+' of '+items.length+'</span><button type="button" '+(topicPage===pages-1?"disabled":"")+' onclick="changeTopicPage(1)">Next →</button></div>':""):'<div class="empty-state">No memory cards yet for this topic. This topic remains in the official syllabus list and can be added in the next content batch.</div>';
+}
 function openTopic(k){activeTopic=k;topicPage=0;render();document.getElementById("memory-library").scrollIntoView({behavior:"smooth",block:"start"})}
 function backToTopics(){activeTopic=null;topicPage=0;render()}
 function changeTopicPage(n){topicPage+=n;render();document.getElementById("cards").scrollIntoView({behavior:"smooth",block:"start"})}
