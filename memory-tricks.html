@@ -116,7 +116,7 @@ const data=[
 {p:2,t:"Theory of Computation · Regular expressions",hook:"Regular expressions describe regular languages.",scene:"A regex is a compact pattern recipe for strings accepted by a finite automaton.",trap:"A standard finite automaton cannot count arbitrary matching pairs such as balanced parentheses; that requires more power than regular languages.",q:"Which machine class recognises regular languages?",a:"Finite automata (DFA or NFA)."},
 {p:2,t:"Compiler Design · Parsing",hook:"Lexer makes tokens; parser checks grammar; semantic analysis checks meaning.",scene:"Words → sentence structure → whether the sentence makes sense in the program.",trap:"A syntactically valid expression can still fail semantic checks, such as incompatible types.",q:"Which compiler phase checks grammatical structure?",a:"Syntax analysis (parsing)."},
 {p:2,t:"Operating Systems · Scheduling metrics",hook:"Turnaround = completion − arrival; waiting = turnaround − CPU burst (for a single CPU-burst model).",scene:"Total time in the system minus time actually running gives time spent waiting.",trap:"Response time is first CPU start − arrival; it is not the same as turnaround time.",q:"A process arrives at 2, completes at 12, and needs 4 CPU time units. Find turnaround and waiting time.",a:"Turnaround = 12−2 = 10; waiting = 10−4 = 6 time units, under the single-burst model."},
-{p:2,t:"Operating Systems · Paging",hook:"Page = virtual memory chunk; frame = physical memory slot.",scene:"A page is a numbered book chapter; a frame is the shelf space where it is placed.",trap:"Page size and frame size are equal in a paging system. A page fault means the required page is not currently mapped as needed in RAM.",q:"Where is a virtual page placed in physical memory?",a:"In a page frame."},
+{p:2,t:"Operating Systems · Paging",hook:"Page = virtual memory chunk; frame = physical memory slot.",scene:"A page is a numbered book chapter; a frame is the shelf space where it is placed.",trap:"Page size and frame size are equal in a paging system. A page fault occurs when an access needs OS handling—for example, because the page is not resident, or because the access violates a protection rule.",q:"Where is a virtual page placed in physical memory?",a:"In a page frame."},
 {p:2,t:"Operating Systems · TLB",hook:"TLB caches recent page-table translations.",scene:"Instead of checking the full address directory every time, ask the small fast index first.",trap:"A TLB hit is a translation-cache hit, not necessarily a data-cache hit.",q:"What does a TLB store?",a:"Recent virtual-to-physical address translations."},
 {p:2,t:"DBMS · Candidate and primary keys",hook:"Candidate key = minimal unique identifier; primary key = chosen candidate key.",scene:"Several keys may identify each row uniquely; the database chooses one as its main key.",trap:"A superkey may contain extra attributes. A candidate key is minimal; a primary key cannot contain NULL.",q:"Can a table have multiple candidate keys but only one primary key?",a:"Yes. There may be several candidate keys; one is selected as the primary key."},
 {p:2,t:"DBMS · Normalisation",hook:"1NF atomic values; 2NF no partial dependency on a candidate key; 3NF no transitive non-key dependency (in the common teaching formulation).",scene:"Clean one repeating list, then remove dependence on part of a composite key, then remove indirect non-key dependence.",trap:"2NF matters especially with composite candidate keys. Formal 3NF is defined using functional dependencies and prime attributes.",q:"Which normal form removes partial functional dependency of non-prime attributes on a candidate key?",a:"Second Normal Form (2NF)."},
@@ -147,7 +147,7 @@ const data=[
 {p:1,t:"P1-15 · Basic English (10th class Standard)",hook:"Sentence check: Subject–Verb → Tense → Pronoun → Article/Preposition → Meaning.",scene:"A sentence passes through five checkpoints like a quality-control line.",trap:"Choose grammar by the sentence structure, not by what sounds familiar; watch subject-verb agreement and tense consistency.",q:"Name five quick grammar checks for sentence correction.",a:"Subject-verb agreement, tense, pronoun reference, articles/prepositions and overall meaning."},
 {p:2,t:"P2-01 · Probability and Statistics · Official topic map",hook:"Probability: Sample space → Event → Conditional probability. Statistics: Centre → Spread → Distribution.",scene:"A random experiment produces outcomes; probability measures event chance, while statistics summarises observed data and models random variables.",trap:"Do not confuse P(A|B) with P(B|A), variance with standard deviation, or a probability mass function with a density function.",q:"Which distributions are explicitly listed in the notification?",a:"Uniform, normal, exponential, Poisson and Binomial distributions. Also revise random variables, probability density functions, mean, median, mode and standard deviation."},
 {p:2,t:"P2-02 · Set Theory & Algebra; Linear Algebra · Official topic map",hook:"Sets → Relations → Functions → Groups/Orders/Lattices/Boolean algebra → Matrices/Determinants/Systems/Eigenpairs.",scene:"Think of a maths toolkit: collections, links between elements, mappings, algebraic structures, then matrix operations and vector transformations.",trap:"A relation need not be a function; a group requires closure, associativity, identity and inverses; eigenvectors are non-zero vectors.",q:"What are the two outputs of an eigenvalue equation?",a:"An eigenvalue λ and a non-zero eigenvector v satisfying Av = λv. Also revise determinants and solving linear systems."},
-{p:2,t:"P2-03 · Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",hook:"Count → Recurrence → Graph → Logic. For graphs remember V-E-paths; for logic remember statement → connective → quantifier.",scene:"A counting problem builds arrangements, recurrence describes repeated structure, graph models connections, and logic tests truth and quantification.",trap:"Permutations are order-sensitive; combinations are not. A tree with n vertices has n−1 edges. Do not confuse propositional and first-order logic.",q:"Which concepts are explicitly included under this official topic?",a:"Permutations, combinations, counting, summation, generating functions, recurrence relations; graph connectivity, spanning trees, cut vertices/edges, covering, matching, independent sets, coloring, planarity and isomorphism; propositional and first-order logic."},
+{p:2,t:"P2-03 · Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic",hook:"Count → Recurrence → Graph → Logic. For a tree remember E = V−1; for logic remember statement → connective → quantifier.",scene:"A counting problem builds arrangements, recurrence describes repeated structure, graph models connections, and logic tests truth and quantification.",trap:"Permutations are order-sensitive; combinations are not. A tree with n vertices has n−1 edges. Do not confuse propositional and first-order logic.",q:"Which concepts are explicitly included under this official topic?",a:"Permutations, combinations, counting, summation, generating functions, recurrence relations; graph connectivity, spanning trees, cut vertices/edges, covering, matching, independent sets, coloring, planarity and isomorphism; propositional and first-order logic."},
 {p:2,t:"P2-04 · Digital Logic · Official topic map",hook:"Logic design: Function → Minimise → Combinational/Sequential circuit → Number representation & arithmetic.",scene:"Start with a truth table, simplify the Boolean expression, choose gates or state elements, then check how numbers are encoded and calculated.",trap:"Combinational output depends on current inputs; sequential output also depends on stored state. Fixed-point and floating-point are different representations.",q:"What is the key difference between combinational and sequential circuits?",a:"Combinational circuits depend only on present inputs; sequential circuits depend on present inputs and previous state. Revise logic functions, minimisation, synthesis and fixed/floating-point arithmetic."},
 {p:2,t:"P2-05 · Computer Organization and Architecture · Official topic map",hook:"Instruction path: Fetch → Decode/address → Execute in ALU → Memory/I-O → Interrupt/complete.",scene:"Follow an instruction through CPU, control unit, ALU, memory and I/O; pipeline stages overlap work from different instructions.",trap:"DMA transfers data with reduced CPU involvement; an interrupt requests CPU attention. Cache is faster/smaller than main memory, while secondary storage is persistent.",q:"Which architecture topics must be revised beyond CPU and cache?",a:"Machine instructions/addressing modes, ALU, CPU control, memory and I/O interfaces, interrupts, DMA, pipelining, cache/main memory, secondary storage and multiprocessors."},
 {p:2,t:"P2-06 · Programming and Data Structures · Official topic map",hook:"C execution: Functions → Calls/recursion → Parameters/scope/binding. Structures: Array → Stack/Queue → List → Tree/BST/Heap.",scene:"Picture data moving through containers: indexed row, plate stack, service queue, linked chain and branching tree.",trap:"C passes arguments by value; pointers can be used to modify caller data. A BST's inorder traversal is sorted when its ordering invariant holds.",q:"Which data structures and C language areas are explicitly listed?",a:"C programming, functions, recursion, parameter passing, scope, binding, abstract data types, arrays, stacks, queues, linked lists, trees, binary search trees and binary heaps."},
@@ -247,41 +247,44 @@ return '<div class="concept-map" role="img" aria-label="'+esc(title)+': '+esc(la
 const topicNames={"P1-01":"Current Affairs","P1-02":"International Relations","P1-03":"General Science","P1-04":"Environment & Disaster Management","P1-05":"Economy & Social Development","P1-06":"India Geography","P1-07":"Telangana Geography","P1-08":"Modern Indian History","P1-09":"Telangana History & Statehood","P1-10":"Constitution & Governance","P1-11":"Social Inclusion & Rights","P1-12":"Telangana Culture & Heritage","P1-13":"Telangana Policies","P1-14":"Reasoning & Data Interpretation","P1-15":"Basic English","P2-01":"Probability & Statistics","P2-02":"Set Theory & Linear Algebra","P2-03":"Discrete Maths & Graph Theory","P2-04":"Digital Logic","P2-05":"Computer Organization","P2-06":"Programming & Data Structures","P2-07":"Algorithms","P2-08":"Theory of Computation","P2-09":"Compiler Design","P2-10":"Operating Systems","P2-11":"Databases","P2-12":"Software Engineering","P2-13":"Computer Networks","P2-14":"Web Technologies","P2-15":"OOP · C++ · Java","P2-16":"Data Mining"};
 function topicKey(x){
 const s=x.t.toLowerCase();
+// Official syllabus IDs are authoritative; use them before keyword inference.
+const official=x.t.match(/\b(P[12]-\d{2})\b/i);
+if(official)return official[1].toUpperCase();
 const rules=[
 ["P2-10",/operating systems|process states|cpu scheduling|page replacement|deadlock/],
-["P2-11",/dbms|database|sql|normaliz|acid|transaction|er diagram/],
+["P2-11",/dbms|database|sql|normaliz|acid|transaction|er diagram|phantom read/],
 ["P2-13",/computer networks|network|subnet|tcp|udp|osi|dns|routing/],
-["P2-09",/compiler|lexical|parsing|syntax tree/],
+["P2-09",/compiler|lexical|parsing|syntax tree|peephole/],
 ["P2-04",/digital logic|boolean|logic gate|flip.flop|k.map/],
 ["P2-05",/computer organization|computer architecture|cache|instruction pipeline/],
-["P2-03",/graph theory|discrete math|bfs|dfs|vertex|edge|set theory|relation/],
-["P2-01",/probability|statistics|mean|median|variance/],
+["P2-15",/oop|object.oriented|c\+\+|java|inheritance|polymorphism|generic type erasure/],
+["P2-08",/theory of computation|automata|dfa|nfa|turing|regular language|npda/],
 ["P2-07",/algorithm|sorting|searching|complexity|dynamic programming|greedy/],
-["P2-08",/theory of computation|automata|dfa|nfa|turing|regular language/],
-["P2-06",/programming|data structure|array|pointer|linked list|stack|queue|tree/],
-["P2-12",/software engineering|information systems|software process|testing|requirement/],
-["P2-14",/web technolog|html|css|javascript|http/],
-["P2-15",/oop|object.oriented|c\+\+|java|inheritance|polymorphism/],
-["P2-16",/data mining|classification|clustering|association rule/],
-["P2-02",/linear algebra|matrix|vector|determinant|set theory/],
+["P2-16",/data mining|classification|clustering|association rule|dbscan|conviction/],
+["P2-06",/programming|data structure|array|pointer|linked list|stack|queue|heap|binary search tree/],
+["P2-03",/graph theory|discrete math|combinatorics|bfs|dfs|vertex|edge|recurrence|spanning tree|articulation|cut vertex|matching|coloring|planarity|isomorphism|propositional logic|first.order logic/],
+["P2-01",/probability|statistics|mean|median|variance|distribution/],
+["P2-02",/set theory|relations?|groups?|partial orders?|lattices?|boolean algebra|linear algebra|matri(?:x|ces)|determinants?|eigenvalues?|eigenvectors?/],
+["P2-12",/software engineering|information systems|software process|testing|requirement|decision table/],
+["P2-14",/web technolog|html|css|javascript|http|php|servlet|jsp|xml/],
 ["P1-01",/current affairs/],
-["P1-02",/international relations/],
+["P1-02",/international relations|un charter|wto|national treatment/],
 ["P1-03",/general science|science and technology/],
 ["P1-04",/environment|disaster/],
 ["P1-05",/economic|social development|economy/],
-["P1-06",/india geography|geography of india/],
-["P1-07",/telangana geography/],
-["P1-08",/modern indian history|national movement/],
-["P1-09",/telangana history|statehood/],
+["P1-07",/telangana geography|telangana demography/],
+["P1-06",/geography|latitude|longitude|indian standard time|enso|indian ocean dipole/],
+["P1-08",/modern indian history|indian history|national movement|inc milestones/],
+["P1-09",/telangana history|telangana.*formation|telangana.*statehood|statehood|operation polo/],
 ["P1-10",/constitution|polity|governance/],
-["P1-11",/social inclusion|social exclusion|rights/],
+["P1-11",/social inclusion|social exclusion|rights|article 46/],
 ["P1-12",/telangana culture|heritage|arts|literature/],
-["P1-13",/telangana polic/],
-["P1-14",/reasoning|data interpretation/],
-["P1-15",/basic english|english grammar/]
+["P1-13",/telangana polic|policies of telangana/],
+["P1-14",/reasoning|data interpretation|general ability|percentages|ratio|constrained counting/],
+["P1-15",/basic english|english grammar|subjunctive/]
 ];
 for(const [k,re] of rules)if(re.test(s))return k;
-return x.p===1?"P1-15":"P2-06";
+return x.p===1?"P1-14":"P2-06";
 }
 function topicImagePath(key){return key==="P2-01"?"./assets/topic-images/probability-statistics-v2.svg":"./assets/topic-images/"+key.toLowerCase()+".svg"}
 function topicName(key){return topicNames[key]||key.replace(/^P[12] · /,"")}
