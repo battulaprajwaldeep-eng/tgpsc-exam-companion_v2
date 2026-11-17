@@ -1,0 +1,487 @@
+{
+  "createdOn": "2026-11-16",
+  "status": "deferred-for-future-memory-card-batches",
+  "note": "40 useful cards carried forward from PRs #58, #59, #61, #62 and #66. Not active yet; promote at most ten in a later combined batch after duplicate screening.",
+  "cards": [
+    {
+      "sourceBatch": "011",
+      "card": {
+        "p": 1,
+        "t": "P1-05 · Economic and Social Development of India and Telangana · Crowding-out effect",
+        "hook": "Crowding out = Government borrowing ↑ → competition for savings → interest rates may ↑ → private investment may ↓.",
+        "scene": "Imagine the government and private firms seeking loans from the same pool of savings. If the pool does not grow, one borrower can make funds costlier for the other.",
+        "trap": "Crowding out is a possible mechanism, not an automatic result in every economy. Spare capacity and productive public investment can change the outcome.",
+        "q": "In the standard crowding-out channel, what can happen to private investment when deficit-financed government borrowing rises?",
+        "a": "It may fall if borrowing competes for limited savings and raises interest rates."
+      }
+    },
+    {
+      "sourceBatch": "011",
+      "card": {
+        "p": 1,
+        "t": "P1-13 · Policies of Telangana State · RARE and Kodangal Industrial Hub",
+        "hook": "RARE = Rural Agriculture Region Economy; Kodangal = industrial hub focus.",
+        "scene": "Think rural region → agriculture-linked economy → industries and jobs beyond Hyderabad. The November 2026 release highlights Kodangal as an industrial hub.",
+        "trap": "Do not expand RARE as a road, renewable-energy or reservoir programme. Keep the official expansion and the Kodangal industrial-hub objective together.",
+        "q": "What does RARE stand for in the Telangana Government's November 2026 release?",
+        "a": "Rural Agriculture Region Economy."
+      }
+    },
+    {
+      "sourceBatch": "011",
+      "card": {
+        "p": 2,
+        "t": "P2-01 · Probability and Statistics · Point probability for a continuous random variable",
+        "hook": "PDF height is density, not point probability; area over an interval gives probability.",
+        "scene": "A single point has zero width under the density curve, so its area is zero. A non-zero interval has area and can have positive probability.",
+        "trap": "f(a) can be positive even though P(X = a) = 0. Never read a density value as the probability at that exact point.",
+        "q": "If X is continuous and f(2) = 0.4, what is P(X = 2)?",
+        "a": "Zero. Probability is the integral of the density over an interval; a single point has zero area."
+      }
+    },
+    {
+      "sourceBatch": "011",
+      "card": {
+        "p": 2,
+        "t": "P2-02 · Set Theory & Algebra; Linear Algebra · Counting binary relations",
+        "hook": "A binary relation on n elements is any subset of A × A: n² ordered pairs give 2^(n²) relations.",
+        "scene": "For each ordered pair, make one yes/no choice: include it in the relation or leave it out. With three elements there are nine ordered pairs and 2⁹ choices.",
+        "trap": "Ordered pairs matter: (a,b) and (b,a) are different, and diagonal pairs (a,a) are included among the choices.",
+        "q": "How many binary relations exist on a three-element set?",
+        "a": "2⁹ = 512."
+      }
+    },
+    {
+      "sourceBatch": "011",
+      "card": {
+        "p": 2,
+        "t": "P2-03 · Combinatorics and Discrete Structures; Graph Theory; Mathematical Logic · Ordinary generating functions",
+        "hook": "For aₙ = n: A(x) = x/(1 − x)². For aₙ = 1: A(x) = 1/(1 − x).",
+        "scene": "Start with the geometric series 1 + x + x² + … = 1/(1 − x). Differentiate and multiply by x to turn the coefficients into 0, 1, 2, 3, …",
+        "trap": "Do not confuse the constant sequence 1,1,1,… with the counting sequence 0,1,2,3,…; their generating functions differ.",
+        "q": "What is the ordinary generating function for aₙ = n, n ≥ 0?",
+        "a": "x/(1 − x)², for |x| < 1."
+      }
+    },
+    {
+      "sourceBatch": "011",
+      "card": {
+        "p": 2,
+        "t": "P2-10 · Operating Systems · Paging and internal fragmentation",
+        "hook": "Paging removes external fragmentation but can waste space inside the final page.",
+        "scene": "A 10 KiB process needs three 4 KiB pages, giving 12 KiB allocated. The unused 2 KiB in the last page is internal fragmentation.",
+        "trap": "Internal fragmentation is unused space inside an allocated block. External fragmentation is scattered free space between allocated blocks.",
+        "q": "With 4 KiB pages, how much is wasted when a 10 KiB process gets three pages?",
+        "a": "2 KiB inside the last page: internal fragmentation."
+      }
+    },
+    {
+      "sourceBatch": "012",
+      "card": {
+        "p": 1,
+        "t": "P1-01 · Current affairs – Regional, National and International · ITIs to Advanced Technology Centres",
+        "hook": "ITI → ATC: Telangana highlighted ITI upgrades into Advanced Technology Centres for skills and innovation (11 Nov 2026).",
+        "scene": "Think of the progression as vocational training → advanced hands-on skills → innovation and employability.",
+        "trap": "Do not confuse the ITI upgrade with the separate Skills University; the State Portal specifically names Advanced Technology Centres for ITIs.",
+        "q": "What did the Telangana Government say ITIs had been upgraded into?",
+        "a": "Advanced Technology Centres (ATCs)."
+      }
+    },
+    {
+      "sourceBatch": "012",
+      "card": {
+        "p": 1,
+        "t": "P1-03 · General Science; India’s Achievements in Science and Technology · Zener diode regulation",
+        "hook": "Zener = reverse-biased breakdown → nearly fixed voltage VZ.",
+        "scene": "The series resistor limits current; the Zener shunts extra current so the load voltage stays near VZ.",
+        "trap": "An ordinary diode's reverse breakdown may damage it; Zener operation must remain within specified current and power limits.",
+        "q": "How does a reverse-biased Zener diode regulate voltage?",
+        "a": "It conducts in its designed breakdown region and holds its terminal voltage approximately at VZ."
+      }
+    },
+    {
+      "sourceBatch": "012",
+      "card": {
+        "p": 2,
+        "t": "P2-07 · Algorithms · Stack MULTIPOP amortized analysis",
+        "hook": "Each pushed item is popped at most once → O(n) total work and O(1) amortized work per operation.",
+        "scene": "One MULTIPOP can be long, but the same item cannot be removed twice; charge its removal to its earlier push.",
+        "trap": "The worst-case cost of one operation is not the amortized cost over the full sequence.",
+        "q": "Why is MULTIPOP amortized O(1) per operation?",
+        "a": "Across n operations, each item is pushed once and popped at most once, so total work is O(n)."
+      }
+    },
+    {
+      "sourceBatch": "012",
+      "card": {
+        "p": 2,
+        "t": "P2-11 · Databases · Safe tuple relational calculus",
+        "hook": "Safe TRC = finite, domain-bounded results; output values must come from the formula's active domain.",
+        "scene": "A query cannot return every imaginable tuple outside the data; tie result values to relation values or constants referenced by the formula.",
+        "trap": "A syntactically valid TRC expression can still be unsafe; safety prevents infinite or domain-dependent results.",
+        "q": "Why must a tuple relational calculus expression be safe?",
+        "a": "To ensure its result is finite and all result values are drawn from the formula's domain."
+      }
+    },
+    {
+      "sourceBatch": "012",
+      "card": {
+        "p": 2,
+        "t": "P2-13 · Computer Networks · Digital signatures",
+        "hook": "Private key signs; matching public key verifies; a signature does not provide confidentiality.",
+        "scene": "The sender signs data with a private key; a recipient uses the corresponding public key to check the signature.",
+        "trap": "Signing is not encrypting the document; confidentiality needs a separate encryption mechanism.",
+        "q": "Which security property does a digital signature not provide by itself?",
+        "a": "Confidentiality."
+      }
+    },
+    {
+      "sourceBatch": "013",
+      "card": {
+        "p": 1,
+        "t": "P1-02 · International Relations and Events · ICC complementarity",
+        "hook": "Domestic courts first; the ICC is complementary, not a global appeal court.",
+        "scene": "Picture two layers: national courts handle cases first; the ICC is a backstop when the State with jurisdiction is unwilling or unable genuinely to act.",
+        "trap": "A domestic acquittal after genuine proceedings does not automatically send a case to the ICC. Article 17 tests admissibility and genuineness.",
+        "q": "When may the ICC proceed under the principle of complementarity?",
+        "a": "When the State with jurisdiction is unwilling or unable genuinely to investigate or prosecute, subject to the Rome Statute's other admissibility requirements."
+      }
+    },
+    {
+      "sourceBatch": "013",
+      "card": {
+        "p": 1,
+        "t": "P1-06 · Physical, Social and Economic Geography of India · Northeast monsoon",
+        "hook": "Northeast monsoon = October–December; Tamil Nadu's southeast coast is a key beneficiary.",
+        "scene": "After the southwest monsoon withdraws, the seasonal northeast flow and moisture from the Bay of Bengal bring important rain to the southeast coast.",
+        "trap": "Do not say the northeast monsoon dominates rainfall across all India; most regions depend mainly on the southwest monsoon.",
+        "q": "Which state is especially associated with northeast-monsoon rainfall?",
+        "a": "Tamil Nadu, along with nearby southeast-peninsular subdivisions such as Puducherry and Karaikal."
+      }
+    },
+    {
+      "sourceBatch": "013",
+      "card": {
+        "p": 1,
+        "t": "P1-08 · Modern Indian History · Khilafat and the Ali Brothers",
+        "hook": "Ali Brothers = Muhammad Ali + Shaukat Ali.",
+        "scene": "Connect the post-First World War Ottoman Khalifa issue to the Ali brothers and Gandhi's joint Non-Cooperation–Khilafat mobilisation.",
+        "trap": "Do not confuse the Ali brothers with other nationalist leaders or treat the Khilafat issue as a constitutional reform.",
+        "q": "Who were popularly called the Ali Brothers?",
+        "a": "Muhammad Ali and Shaukat Ali."
+      }
+    },
+    {
+      "sourceBatch": "013",
+      "card": {
+        "p": 1,
+        "t": "P1-11 · Social Exclusion and Rights · Article 30(1)",
+        "hook": "Article 29 = conserve language and culture; Article 30 = establish and administer minority educational institutions.",
+        "scene": "Think of two doors: Article 29 protects cultural identity; Article 30 protects minority-run educational institutions.",
+        "trap": "Article 30 covers religious and linguistic minorities. Article 29(1) concerns any section of citizens with a distinct language, script or culture.",
+        "q": "What right is guaranteed by Article 30(1)?",
+        "a": "Religious and linguistic minorities may establish and administer educational institutions of their choice."
+      }
+    },
+    {
+      "sourceBatch": "013",
+      "card": {
+        "p": 2,
+        "t": "P2-06 · Programming in C · volatile versus atomic",
+        "hook": "C volatile = observable accesses; it is not atomic and is not a thread lock.",
+        "scene": "Think of volatile as a note to the compiler to respect certain accesses, not a traffic signal that safely coordinates two threads.",
+        "trap": "Do not transfer Java volatile semantics to C. C thread synchronisation needs atomic operations or locks.",
+        "q": "Does `volatile int` make a shared increment thread-safe?",
+        "a": "No. It does not guarantee atomicity or inter-thread synchronisation; use a C atomic object or a mutex."
+      }
+    },
+    {
+      "sourceBatch": "013",
+      "card": {
+        "p": 2,
+        "t": "P2-09 · Compiler Design · loop unrolling",
+        "hook": "Loop unrolling = copy the loop body to reduce loop-control overhead.",
+        "scene": "Instead of doing one lap at a time, perform four repeated actions in one lap and advance the loop counter by four.",
+        "trap": "Unrolling can increase code size and is safe only when the transformed loop preserves program behaviour. It is not loop-invariant code motion.",
+        "q": "What compiler optimisation duplicates loop-body statements?",
+        "a": "Loop unrolling."
+      }
+    },
+    {
+      "sourceBatch": "013",
+      "card": {
+        "p": 2,
+        "t": "P2-12 · Information Systems and Software Engineering · UML lifelines",
+        "hook": "Sequence diagram: lifeline = participant; vertical direction = time; arrow = message.",
+        "scene": "Imagine each participant as a vertical column. Message arrows pass between columns as the interaction progresses downward.",
+        "trap": "A lifeline is not a class-inheritance line or a deployment node.",
+        "q": "What does a lifeline represent in a UML sequence diagram?",
+        "a": "A participant in the interaction and its presence over the course of the interaction."
+      }
+    },
+    {
+      "sourceBatch": "013",
+      "card": {
+        "p": 2,
+        "t": "P2-13 · Computer Networks · Stop-and-Wait ARQ utilisation",
+        "hook": "Stop-and-Wait utilisation = 1/(1+2a), where a = propagation time ÷ frame transmission time.",
+        "scene": "One frame travels out and its acknowledgement travels back; the sender waits through two propagation trips before sending the next frame.",
+        "trap": "Do not use 1/(1+a). The ideal cycle includes two one-way propagation delays. Ignore ACK transmission and processing only when the question says so.",
+        "q": "If a = 4, what is ideal Stop-and-Wait utilisation?",
+        "a": "1/(1+2×4) = 1/9, approximately 11.1%."
+      }
+    },
+    {
+      "sourceBatch": "013",
+      "card": {
+        "p": 2,
+        "t": "P2-14 · Web Technologies · servlet forward versus redirect",
+        "hook": "forward = server-side handoff with the current request; redirect = 302 response and a new browser request.",
+        "scene": "Forward is passing a file to another desk inside the same office. Redirect is sending the visitor to a new address.",
+        "trap": "A forward must occur before the response is committed. sendRedirect commits a redirect response to the client.",
+        "q": "Which servlet API performs an internal server-side handoff?",
+        "a": "RequestDispatcher.forward(request, response)."
+      }
+    },
+    {
+      "sourceBatch": "013",
+      "card": {
+        "p": 2,
+        "t": "P2-16 · Data Mining · SVM kernel trick",
+        "hook": "Kernel trick = compute an inner product in an implicit feature space without building the mapped vectors.",
+        "scene": "The kernel is a shortcut calculator: it returns the similarity as if the data had been lifted into a richer feature space.",
+        "trap": "A kernel does not guarantee perfect separation. Kernel choice and regularisation still matter.",
+        "q": "What does a kernel function provide in an SVM?",
+        "a": "An inner product in the feature space, computed directly from the original input vectors."
+      }
+    },
+    {
+      "sourceBatch": "014",
+      "card": {
+        "p": 1,
+        "t": "P1-03 · General Science · First law of thermodynamics",
+        "hook": "Heat in adds; work out subtracts: ΔU = Q − W.",
+        "scene": "A piston absorbs 500 J and sends 200 J out as work; 300 J remains as extra internal energy.",
+        "trap": "Here W means work done BY the gas. Work done ON the gas has the opposite sign in this convention.",
+        "q": "A gas absorbs 120 J and does 45 J of work. What is ΔU?",
+        "a": "75 J. Use ΔU = 120 − 45."
+      }
+    },
+    {
+      "sourceBatch": "014",
+      "card": {
+        "p": 1,
+        "t": "P1-04 · Environment · Kigali Amendment and HFCs",
+        "hook": "Kigali = HFC phase-down; Montreal originally targeted ozone-depleting substances.",
+        "scene": "Picture two controls: Montreal reduces ODS; Kigali adds a gradual reduction of high-warming HFCs.",
+        "trap": "HFCs generally do not deplete ozone, but they can have high global-warming potential.",
+        "q": "Which chemical group is phased down under Kigali?",
+        "a": "Hydrofluorocarbons (HFCs)."
+      }
+    },
+    {
+      "sourceBatch": "014",
+      "card": {
+        "p": 1,
+        "t": "P1-07 · Telangana Geography · Dry deciduous forests",
+        "hook": "Telangana's broad forest memory: largely dry deciduous, with teak and dry-forest associates.",
+        "scene": "Imagine teak beside Terminalia and Pterocarpus; many trees shed leaves in the dry season.",
+        "trap": "Do not confuse the State's broad natural vegetation with evergreen, mangrove or alpine forests.",
+        "q": "Which broad forest type does the Telangana Forest Department describe as prevalent?",
+        "a": "Dry deciduous."
+      }
+    },
+    {
+      "sourceBatch": "014",
+      "card": {
+        "p": 1,
+        "t": "P1-12 · Telangana Culture · Lambadi dance",
+        "hook": "Lambadi is listed among Narayanpet's popular dance forms.",
+        "scene": "Picture a colourful group performance and connect Lambadi with Telangana's Lambadi/Banjara cultural heritage.",
+        "trap": "Do not swap it with Perini Sivatandavam (warrior dance), Cheriyal scroll painting or Pembarthi brassware.",
+        "q": "Which dance form appears in Telangana Tourism's Narayanpet profile?",
+        "a": "Lambadi."
+      }
+    },
+    {
+      "sourceBatch": "014",
+      "card": {
+        "p": 2,
+        "t": "P2-04 · Digital Logic · JK race-around",
+        "hook": "J = K = 1 + a long level-high clock → repeated toggles.",
+        "scene": "The JK output keeps flipping while the clock gate stays open; a master-slave pair provides a controlled hand-off.",
+        "trap": "A single toggle is the truth-table action. Race-around means repeated toggles within one active pulse.",
+        "q": "Name two common ways to prevent race-around.",
+        "a": "Use a master-slave JK flip-flop or an edge-triggered flip-flop."
+      }
+    },
+    {
+      "sourceBatch": "014",
+      "card": {
+        "p": 2,
+        "t": "P2-05 · COA · Daisy-chain bus arbitration",
+        "hook": "The grant travels down the chain; the first requester captures it.",
+        "scene": "Imagine a baton passed from the arbiter through devices; the first waiting device stops it.",
+        "trap": "Priority is fixed by physical position. A low-priority device can starve if nearer devices keep requesting.",
+        "q": "Which requester wins when several request together?",
+        "a": "The requesting device nearest to the arbiter in the chain."
+      }
+    },
+    {
+      "sourceBatch": "014",
+      "card": {
+        "p": 2,
+        "t": "P2-11 · DBMS · View serializability",
+        "hook": "View equivalence = same initial reads, same read-from source, same final writer.",
+        "scene": "Remember three checkpoints: where a read starts, whose write it reads, and who writes last.",
+        "trap": "Conflict-serializable implies view-serializable; blind writes can make the reverse false.",
+        "q": "Why can a view-serializable schedule still have a cyclic conflict graph?",
+        "a": "Blind writes can create conflicting order edges without changing read-from or final-write equivalence."
+      }
+    },
+    {
+      "sourceBatch": "014",
+      "card": {
+        "p": 2,
+        "t": "P2-13 · Networks · Binary exponential backoff",
+        "hook": "After collision i, choose K from 0 through 2^min(i,10) − 1 slots.",
+        "scene": "The window doubles: collision 1 gives 0–1, collision 2 gives 0–3, collision 3 gives 0–7.",
+        "trap": "Count the collision that just occurred; after the third collision the range is 0–7, not 0–3.",
+        "q": "What range is available after collision three?",
+        "a": "0 through 7 slot times."
+      }
+    },
+    {
+      "sourceBatch": "014",
+      "card": {
+        "p": 2,
+        "t": "P2-14 · Web Technologies · XML Schema facets",
+        "hook": "XSD = XML structure + rich datatypes + value facets.",
+        "scene": "A schema can say age is an integer and bound it; DTD mainly describes structure with limited typing.",
+        "trap": "xs:sequence orders child elements; minInclusive/maxInclusive constrain numeric values.",
+        "q": "Which facets set inclusive numeric bounds?",
+        "a": "xs:minInclusive and xs:maxInclusive."
+      }
+    },
+    {
+      "sourceBatch": "014",
+      "card": {
+        "p": 2,
+        "t": "P2-15 · Java · Initialization order",
+        "hook": "Static: Parent → Child. Instance: Parent initializers → Parent constructor → Child initializers → Child constructor.",
+        "scene": "Build the inheritance tree from top down; the parent finishes its instance setup before the child.",
+        "trap": "Child instance blocks do not run before the parent constructor.",
+        "q": "What runs immediately before the Child constructor body?",
+        "a": "Child instance field initializers and instance initializer blocks."
+      }
+    },
+    {
+      "sourceBatch": "015",
+      "card": {
+        "p": 1,
+        "t": "P1-01 · Current affairs – Regional, National and International · IYRP 2026: FAO leads",
+        "hook": "2026 = Rangelands + Pastoralists; FAO leads.",
+        "scene": "Rangeland ecosystems support pastoral livelihoods; the UN observance links land stewardship, mobility and sustainable investment.",
+        "trap": "Do not confuse FAO's lead-agency role with UNEP's wider environmental mandate or IFAD's rural-development financing.",
+        "q": "Which UN agency leads the 2026 International Year of Rangelands and Pastoralists?",
+        "a": "FAO, in collaboration with relevant stakeholders. The UN General Assembly declared 2026 the IYRP."
+      }
+    },
+    {
+      "sourceBatch": "015",
+      "card": {
+        "p": 1,
+        "t": "P1-03 · General Science; India’s Achievements in Science and Technology · Aditya-L1 at Sun–Earth L1",
+        "hook": "L1 = Long, uninterrupted look at the Sun.",
+        "scene": "Sun — Sun–Earth L1 (Aditya-L1 halo orbit) — Earth; schematic, not to scale.",
+        "trap": "L1 is not a point of zero gravity, and Aditya-L1 is not in Earth orbit or lunar orbit.",
+        "q": "What is the main observation advantage of the L1 halo orbit?",
+        "a": "A near-continuous view of the Sun without Earth occultation or eclipses; ISRO places L1 about 1.5 million km from Earth."
+      }
+    },
+    {
+      "sourceBatch": "015",
+      "card": {
+        "p": 1,
+        "t": "P1-04 · Environmental issues; Disaster Management – Prevention and Mitigation Strategies · IMD heat-wave thresholds",
+        "hook": "Plains: 40°C base; 4.5 / 6.5 departure; 45 / 47 actual.",
+        "scene": "Two separate routes: departure from normal (4.5–6.4°C = heat wave; ≥6.5°C = severe) or actual maximum (≥45°C = heat wave; ≥47°C = severe).",
+        "trap": "Do not mix departure-based thresholds with absolute-maximum thresholds, and do not omit the plains station base condition.",
+        "q": "For plains, what departure threshold marks a severe heat wave?",
+        "a": "At least 6.5°C above normal, with the station maximum temperature at least 40°C; actual-temperature criteria are a separate route."
+      }
+    },
+    {
+      "sourceBatch": "015",
+      "card": {
+        "p": 1,
+        "t": "P1-11 · Social Exclusion; Rights issues such as Gender, Caste, Tribe, Disability etc. and inclusive policies · 103rd Amendment: EWS",
+        "hook": "103rd = 15(6) education + 16(6) employment.",
+        "scene": "103rd Amendment → Article 15(6) (education) and Article 16(6) (public employment); up to 10%.",
+        "trap": "Do not confuse EWS clauses (6) with older clauses (4), and do not treat EWS as another name for SC/ST/OBC reservations.",
+        "q": "Which clauses enable EWS special provisions and reservation?",
+        "a": "Articles 15(6) and 16(6). The 103rd Amendment added these provisions, enabling up to 10% EWS reservation."
+      }
+    },
+    {
+      "sourceBatch": "015",
+      "card": {
+        "p": 2,
+        "t": "P2-04 · Digital Logic · Asynchronous versus synchronous reset",
+        "hook": "ASYNC = acts without a clock; SYNC = waits for an edge.",
+        "scene": "Compare a reset asserted between clock edges: asynchronous reset changes Q immediately; synchronous reset is sampled at the active edge.",
+        "trap": "Do not call a reset a clock pulse. Asynchronous assertion is immediate, but de-assertion near a clock edge needs care.",
+        "q": "If the clock is stopped, which reset can still force a flip-flop into its reset state?",
+        "a": "An asynchronous reset. It acts independently of the clock; safe designs commonly synchronize its de-assertion."
+      }
+    },
+    {
+      "sourceBatch": "015",
+      "card": {
+        "p": 2,
+        "t": "P2-06 · Programming and Data Structures · C signed versus unsigned overflow",
+        "hook": "Signed int overflow = undefined; unsigned = modulo wrap.",
+        "scene": "Signed int: out-of-range result → undefined behavior. Unsigned int: result reduced modulo one more than its maximum value.",
+        "trap": "Two's-complement hardware does not make signed overflow wraparound defined by standard C.",
+        "q": "Which integer type has defined modulo arithmetic on overflow in C?",
+        "a": "Unsigned integer types. For ordinary signed int, an out-of-range arithmetic result has undefined behavior."
+      }
+    },
+    {
+      "sourceBatch": "015",
+      "card": {
+        "p": 2,
+        "t": "P2-12 · Information Systems and Software Engineering · UML aggregation versus composition",
+        "hook": "Hollow diamond = shared; filled diamond = composite.",
+        "scene": "Whole ◇—Part (shared) versus Whole ◆—Part (composite); a composite part belongs to at most one whole at a time.",
+        "trap": "Do not claim shared aggregation has the same strict lifecycle rule; UML leaves its precise semantics to the application/modeler.",
+        "q": "What happens to a contained part when its composite whole is deleted?",
+        "a": "Under composite aggregation, the part object is deleted with the whole unless it was removed beforehand."
+      }
+    },
+    {
+      "sourceBatch": "015",
+      "card": {
+        "p": 2,
+        "t": "P2-15 · OOPS Concepts, Programming in C++ and JAVA · Java wait() and monitor ownership",
+        "hook": "wait releases; notify wakes; waiter must reacquire.",
+        "scene": "T1 holds monitor → wait releases it and enters the wait set → T2 notifies while holding it → T1 wakes and later reacquires.",
+        "trap": "notify() does not hand over the lock immediately; wait() requires monitor ownership, and condition checks belong in a while loop.",
+        "q": "Which monitor does obj.wait() release?",
+        "a": "Only the monitor for obj; the waiting thread must reacquire it before wait() returns."
+      }
+    },
+    {
+      "sourceBatch": "015",
+      "card": {
+        "p": 2,
+        "t": "P2-16 · Data Mining · Closed versus maximal frequent itemsets",
+        "hook": "Closed: no same-support superset. Maximal: no frequent superset.",
+        "scene": "Closed itemsets preserve support information; maximal itemsets are a smaller boundary summary but lose support details for subsets.",
+        "trap": "A closed itemset may still have a frequent superset with lower support; then it is closed but not maximal.",
+        "q": "What distinguishes a closed itemset from a maximal frequent itemset?",
+        "a": "Closed means no proper superset has the same support. Maximal means no proper superset is frequent."
+      }
+    }
+  ]
+}
